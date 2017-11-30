@@ -1,0 +1,776 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.UserDataHeader
+  commentId: T:Inetlab.SMPP.Common.UserDataHeader
+  id: UserDataHeader
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.UserDataHeader.#ctor
+  - Inetlab.SMPP.Common.UserDataHeader.#ctor(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte,System.Byte[])
+  - Inetlab.SMPP.Common.UserDataHeader.#ctor(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte[])
+  - Inetlab.SMPP.Common.UserDataHeader.#ctor(System.Byte,System.Byte,System.Byte[])
+  - Inetlab.SMPP.Common.UserDataHeader.Clone
+  - Inetlab.SMPP.Common.UserDataHeader.Data
+  - Inetlab.SMPP.Common.UserDataHeader.IEI
+  - Inetlab.SMPP.Common.UserDataHeader.Length
+  - Inetlab.SMPP.Common.UserDataHeader.op_Implicit(Inetlab.SMPP.Common.UserDataHeader)~System.Byte[]
+  langs:
+  - csharp
+  - vb
+  name: UserDataHeader
+  nameWithType: UserDataHeader
+  fullName: Inetlab.SMPP.Common.UserDataHeader
+  type: Class
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: UserDataHeader
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 8
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nRepresents GSM User Data Header information in the short message user data.\n"
+  example: []
+  syntax:
+    content: public class UserDataHeader
+    content.vb: Public Class UserDataHeader
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit
+  - Inetlab.SMPP.Common.Headers.ConcatenatedShortMessage16bit
+  - Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit
+  - Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift
+  - Inetlab.SMPP.Common.Headers.NationalLanguageSingleShift
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.UserDataHeader.#ctor
+  commentId: M:Inetlab.SMPP.Common.UserDataHeader.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  langs:
+  - csharp
+  - vb
+  name: UserDataHeader()
+  nameWithType: UserDataHeader.UserDataHeader()
+  fullName: Inetlab.SMPP.Common.UserDataHeader.UserDataHeader()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public UserDataHeader()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.UserDataHeader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.UserDataHeader.#ctor(System.Byte,System.Byte,System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.UserDataHeader.#ctor(System.Byte,System.Byte,System.Byte[])
+  id: '#ctor(System.Byte,System.Byte,System.Byte[])'
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  langs:
+  - csharp
+  - vb
+  name: UserDataHeader(Byte, Byte, Byte[])
+  nameWithType: UserDataHeader.UserDataHeader(Byte, Byte, Byte[])
+  fullName: Inetlab.SMPP.Common.UserDataHeader.UserDataHeader(System.Byte, System.Byte, System.Byte[])
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 21
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public UserDataHeader(byte iei, byte len, byte[] data)
+    parameters:
+    - id: iei
+      type: System.Byte
+    - id: len
+      type: System.Byte
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub New(iei As Byte, len As Byte, data As Byte())
+  overload: Inetlab.SMPP.Common.UserDataHeader.#ctor*
+  nameWithType.vb: UserDataHeader.UserDataHeader(Byte, Byte, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeader.UserDataHeader(System.Byte, System.Byte, System.Byte())
+  name.vb: UserDataHeader(Byte, Byte, Byte())
+- uid: Inetlab.SMPP.Common.UserDataHeader.#ctor(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte,System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.UserDataHeader.#ctor(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte,System.Byte[])
+  id: '#ctor(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte,System.Byte[])'
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  langs:
+  - csharp
+  - vb
+  name: UserDataHeader(InformationElementIdentifiers, Byte, Byte[])
+  nameWithType: UserDataHeader.UserDataHeader(InformationElementIdentifiers, Byte, Byte[])
+  fullName: Inetlab.SMPP.Common.UserDataHeader.UserDataHeader(Inetlab.SMPP.Common.InformationElementIdentifiers, System.Byte, System.Byte[])
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 29
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public UserDataHeader(InformationElementIdentifiers iei, byte len, byte[] data)
+    parameters:
+    - id: iei
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+    - id: len
+      type: System.Byte
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub New(iei As InformationElementIdentifiers, len As Byte, data As Byte())
+  overload: Inetlab.SMPP.Common.UserDataHeader.#ctor*
+  nameWithType.vb: UserDataHeader.UserDataHeader(InformationElementIdentifiers, Byte, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeader.UserDataHeader(Inetlab.SMPP.Common.InformationElementIdentifiers, System.Byte, System.Byte())
+  name.vb: UserDataHeader(InformationElementIdentifiers, Byte, Byte())
+- uid: Inetlab.SMPP.Common.UserDataHeader.#ctor(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.UserDataHeader.#ctor(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte[])
+  id: '#ctor(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte[])'
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  langs:
+  - csharp
+  - vb
+  name: UserDataHeader(InformationElementIdentifiers, Byte[])
+  nameWithType: UserDataHeader.UserDataHeader(InformationElementIdentifiers, Byte[])
+  fullName: Inetlab.SMPP.Common.UserDataHeader.UserDataHeader(Inetlab.SMPP.Common.InformationElementIdentifiers, System.Byte[])
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 38
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public UserDataHeader(InformationElementIdentifiers iei, byte[] data)
+    parameters:
+    - id: iei
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub New(iei As InformationElementIdentifiers, data As Byte())
+  overload: Inetlab.SMPP.Common.UserDataHeader.#ctor*
+  nameWithType.vb: UserDataHeader.UserDataHeader(InformationElementIdentifiers, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeader.UserDataHeader(Inetlab.SMPP.Common.InformationElementIdentifiers, System.Byte())
+  name.vb: UserDataHeader(InformationElementIdentifiers, Byte())
+- uid: Inetlab.SMPP.Common.UserDataHeader.op_Implicit(Inetlab.SMPP.Common.UserDataHeader)~System.Byte[]
+  commentId: M:Inetlab.SMPP.Common.UserDataHeader.op_Implicit(Inetlab.SMPP.Common.UserDataHeader)~System.Byte[]
+  id: op_Implicit(Inetlab.SMPP.Common.UserDataHeader)~System.Byte[]
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  langs:
+  - csharp
+  - vb
+  name: Implicit(UserDataHeader to Byte[])
+  nameWithType: UserDataHeader.Implicit(UserDataHeader to Byte[])
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Implicit(Inetlab.SMPP.Common.UserDataHeader to System.Byte[])
+  type: Operator
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: op_Implicit
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 48
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static implicit operator byte[](UserDataHeader d)
+    parameters:
+    - id: d
+      type: Inetlab.SMPP.Common.UserDataHeader
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Widening Operator CType(d As UserDataHeader) As Byte()
+  overload: Inetlab.SMPP.Common.UserDataHeader.op_Implicit*
+  nameWithType.vb: UserDataHeader.Widening(UserDataHeader to Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeader.Widening(Inetlab.SMPP.Common.UserDataHeader to System.Byte())
+  name.vb: Widening(UserDataHeader to Byte())
+- uid: Inetlab.SMPP.Common.UserDataHeader.IEI
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.IEI
+  id: IEI
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  langs:
+  - csharp
+  - vb
+  name: IEI
+  nameWithType: UserDataHeader.IEI
+  fullName: Inetlab.SMPP.Common.UserDataHeader.IEI
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: IEI
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 67
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIdentifies Information Element in the User Data Header\n"
+  example: []
+  syntax:
+    content: public InformationElementIdentifiers IEI { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+    content.vb: Public Property IEI As InformationElementIdentifiers
+  overload: Inetlab.SMPP.Common.UserDataHeader.IEI*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.UserDataHeader.Data
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.Data
+  id: Data
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: UserDataHeader.Data
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Data
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Data
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 78
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInformation Element Data\n"
+  example: []
+  syntax:
+    content: public byte[] Data { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Data As Byte()
+  overload: Inetlab.SMPP.Common.UserDataHeader.Data*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.UserDataHeader.Length
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.Length
+  id: Length
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: UserDataHeader.Length
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Length
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Length
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 87
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nLength of Information Element\n"
+  example: []
+  syntax:
+    content: public byte Length { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property Length As Byte
+  overload: Inetlab.SMPP.Common.UserDataHeader.Length*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+  commentId: M:Inetlab.SMPP.Common.UserDataHeader.Clone
+  id: Clone
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: UserDataHeader.Clone()
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Clone()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/UserDataHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Clone
+    path: ../Source/CS/Common/UserDataHeader.cs
+    startLine: 97
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public UserDataHeader Clone()
+    return:
+      type: Inetlab.SMPP.Common.UserDataHeader
+    content.vb: Public Function Clone As UserDataHeader
+  overload: Inetlab.SMPP.Common.UserDataHeader.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.UserDataHeader.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.UserDataHeader.#ctor
+  isExternal: false
+  name: UserDataHeader
+  nameWithType: UserDataHeader.UserDataHeader
+  fullName: Inetlab.SMPP.Common.UserDataHeader.UserDataHeader
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers
+  commentId: T:Inetlab.SMPP.Common.InformationElementIdentifiers
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: InformationElementIdentifiers
+  nameWithType: InformationElementIdentifiers
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers
+- uid: Inetlab.SMPP.Common.UserDataHeader.op_Implicit*
+  commentId: Overload:Inetlab.SMPP.Common.UserDataHeader.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: UserDataHeader.Implicit
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Implicit
+  nameWithType.vb: UserDataHeader.Widening
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeader.Widening
+  name.vb: Widening
+- uid: Inetlab.SMPP.Common.UserDataHeader
+  commentId: T:Inetlab.SMPP.Common.UserDataHeader
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: UserDataHeader
+  nameWithType: UserDataHeader
+  fullName: Inetlab.SMPP.Common.UserDataHeader
+- uid: Inetlab.SMPP.Common.UserDataHeader.IEI*
+  commentId: Overload:Inetlab.SMPP.Common.UserDataHeader.IEI
+  isExternal: false
+  name: IEI
+  nameWithType: UserDataHeader.IEI
+  fullName: Inetlab.SMPP.Common.UserDataHeader.IEI
+- uid: Inetlab.SMPP.Common.UserDataHeader.Data*
+  commentId: Overload:Inetlab.SMPP.Common.UserDataHeader.Data
+  isExternal: false
+  name: Data
+  nameWithType: UserDataHeader.Data
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Data
+- uid: Inetlab.SMPP.Common.UserDataHeader.Length*
+  commentId: Overload:Inetlab.SMPP.Common.UserDataHeader.Length
+  isExternal: false
+  name: Length
+  nameWithType: UserDataHeader.Length
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Length
+- uid: Inetlab.SMPP.Common.UserDataHeader.Clone*
+  commentId: Overload:Inetlab.SMPP.Common.UserDataHeader.Clone
+  isExternal: false
+  name: Clone
+  nameWithType: UserDataHeader.Clone
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Clone

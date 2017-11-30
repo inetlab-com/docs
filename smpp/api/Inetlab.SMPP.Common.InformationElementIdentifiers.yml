@@ -1,0 +1,1170 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers
+  commentId: T:Inetlab.SMPP.Common.InformationElementIdentifiers
+  id: InformationElementIdentifiers
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.ApplicationPortAddressingScheme16bit
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.ApplicationPortAddressingScheme8bit
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.CharacterSizeWvgObject
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.CompressionControl
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.ConcatenatedShortMessage16bit
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.ConcatenatedShortMessages8bit
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.EMailHeader
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.EnhancedVoiceMailInformation
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.ExtendedObject
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.ExtendedObjectDataRequestCommand
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.HyperlinkFormatElement
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.LargeAnimation
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.LargePicture
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.NationalLanguageLockingShift
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.NationalLanguageSingleShift
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.ObjectDistributionIndicator
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.PredefinedAnimation
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.PredefinedSound
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.ReplyAddressElement
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.ReusedExtendedObject
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.SmallAnimation
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.SmallPicture
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.SMSCControlParameters
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.SpecialSMSMessageIndication
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.StandardWvgObject
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.TextFormatting
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.UDHSourceIndicator
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.Unknown
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.UserDefinedSound
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.UserPromptIndicator
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.VariablePicture
+  - Inetlab.SMPP.Common.InformationElementIdentifiers.WirelessControlMessageProtocol
+  langs:
+  - csharp
+  - vb
+  name: InformationElementIdentifiers
+  nameWithType: InformationElementIdentifiers
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: InformationElementIdentifiers
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 7
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIdentifies Information Element in the User Data Header\n"
+  example: []
+  syntax:
+    content: 'public enum InformationElementIdentifiers : byte'
+    content.vb: Public Enum InformationElementIdentifiers As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.ConcatenatedShortMessages8bit
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.ConcatenatedShortMessages8bit
+  id: ConcatenatedShortMessages8bit
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ConcatenatedShortMessages8bit
+  nameWithType: InformationElementIdentifiers.ConcatenatedShortMessages8bit
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.ConcatenatedShortMessages8bit
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConcatenatedShortMessages8bit
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 12
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nConcatenated short messages, 8-bit reference number\n"
+  example: []
+  syntax:
+    content: ConcatenatedShortMessages8bit = 0
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.SpecialSMSMessageIndication
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.SpecialSMSMessageIndication
+  id: SpecialSMSMessageIndication
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: SpecialSMSMessageIndication
+  nameWithType: InformationElementIdentifiers.SpecialSMSMessageIndication
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.SpecialSMSMessageIndication
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SpecialSMSMessageIndication
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSpecial SMS Message Indication\n"
+  example: []
+  syntax:
+    content: SpecialSMSMessageIndication = 1
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.ApplicationPortAddressingScheme8bit
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.ApplicationPortAddressingScheme8bit
+  id: ApplicationPortAddressingScheme8bit
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ApplicationPortAddressingScheme8bit
+  nameWithType: InformationElementIdentifiers.ApplicationPortAddressingScheme8bit
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.ApplicationPortAddressingScheme8bit
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ApplicationPortAddressingScheme8bit
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 20
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nApplication port addressing scheme, 8 bit address\n"
+  example: []
+  syntax:
+    content: ApplicationPortAddressingScheme8bit = 4
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.ApplicationPortAddressingScheme16bit
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.ApplicationPortAddressingScheme16bit
+  id: ApplicationPortAddressingScheme16bit
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ApplicationPortAddressingScheme16bit
+  nameWithType: InformationElementIdentifiers.ApplicationPortAddressingScheme16bit
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.ApplicationPortAddressingScheme16bit
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ApplicationPortAddressingScheme16bit
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 24
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nApplication port addressing scheme, 16 bit address\n"
+  example: []
+  syntax:
+    content: ApplicationPortAddressingScheme16bit = 5
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.SMSCControlParameters
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.SMSCControlParameters
+  id: SMSCControlParameters
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: SMSCControlParameters
+  nameWithType: InformationElementIdentifiers.SMSCControlParameters
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.SMSCControlParameters
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SMSCControlParameters
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 28
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMSC Control Parameters\n"
+  example: []
+  syntax:
+    content: SMSCControlParameters = 6
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.UDHSourceIndicator
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.UDHSourceIndicator
+  id: UDHSourceIndicator
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: UDHSourceIndicator
+  nameWithType: InformationElementIdentifiers.UDHSourceIndicator
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.UDHSourceIndicator
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: UDHSourceIndicator
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 32
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUDH Source Indicator \n"
+  example: []
+  syntax:
+    content: UDHSourceIndicator = 7
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.ConcatenatedShortMessage16bit
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.ConcatenatedShortMessage16bit
+  id: ConcatenatedShortMessage16bit
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ConcatenatedShortMessage16bit
+  nameWithType: InformationElementIdentifiers.ConcatenatedShortMessage16bit
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.ConcatenatedShortMessage16bit
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConcatenatedShortMessage16bit
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 36
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nConcatenated short message, 16-bit reference number\n"
+  example: []
+  syntax:
+    content: ConcatenatedShortMessage16bit = 8
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.WirelessControlMessageProtocol
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.WirelessControlMessageProtocol
+  id: WirelessControlMessageProtocol
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: WirelessControlMessageProtocol
+  nameWithType: InformationElementIdentifiers.WirelessControlMessageProtocol
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.WirelessControlMessageProtocol
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: WirelessControlMessageProtocol
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 40
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nWireless Control Message Protocol\n"
+  example: []
+  syntax:
+    content: WirelessControlMessageProtocol = 9
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.TextFormatting
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.TextFormatting
+  id: TextFormatting
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: TextFormatting
+  nameWithType: InformationElementIdentifiers.TextFormatting
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.TextFormatting
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: TextFormatting
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 44
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nText Formatting\n"
+  example: []
+  syntax:
+    content: TextFormatting = 10
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.PredefinedSound
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.PredefinedSound
+  id: PredefinedSound
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: PredefinedSound
+  nameWithType: InformationElementIdentifiers.PredefinedSound
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.PredefinedSound
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: PredefinedSound
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 48
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nPredefined Sound\n"
+  example: []
+  syntax:
+    content: PredefinedSound = 11
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.UserDefinedSound
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.UserDefinedSound
+  id: UserDefinedSound
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: UserDefinedSound
+  nameWithType: InformationElementIdentifiers.UserDefinedSound
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.UserDefinedSound
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: UserDefinedSound
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 52
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUser Defined Sound (iMelody max 128 bytes)\n"
+  example: []
+  syntax:
+    content: UserDefinedSound = 12
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.PredefinedAnimation
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.PredefinedAnimation
+  id: PredefinedAnimation
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: PredefinedAnimation
+  nameWithType: InformationElementIdentifiers.PredefinedAnimation
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.PredefinedAnimation
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: PredefinedAnimation
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 56
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nPredefined Animation\n"
+  example: []
+  syntax:
+    content: PredefinedAnimation = 13
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.LargeAnimation
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.LargeAnimation
+  id: LargeAnimation
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: LargeAnimation
+  nameWithType: InformationElementIdentifiers.LargeAnimation
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.LargeAnimation
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: LargeAnimation
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 60
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nLarge Animation (16*16 times 4 = 32*4 =128 bytes)\n"
+  example: []
+  syntax:
+    content: LargeAnimation = 14
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.SmallAnimation
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.SmallAnimation
+  id: SmallAnimation
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: SmallAnimation
+  nameWithType: InformationElementIdentifiers.SmallAnimation
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.SmallAnimation
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SmallAnimation
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 64
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSmall Animation (8*8 times 4 = 8*4 =32 bytes)\n"
+  example: []
+  syntax:
+    content: SmallAnimation = 15
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.LargePicture
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.LargePicture
+  id: LargePicture
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: LargePicture
+  nameWithType: InformationElementIdentifiers.LargePicture
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.LargePicture
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: LargePicture
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 68
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nLarge Picture (32*32 = 128 bytes)\n"
+  example: []
+  syntax:
+    content: LargePicture = 16
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.SmallPicture
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.SmallPicture
+  id: SmallPicture
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: SmallPicture
+  nameWithType: InformationElementIdentifiers.SmallPicture
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.SmallPicture
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SmallPicture
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 72
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSmall Picture (16*16 = 32 bytes)\n"
+  example: []
+  syntax:
+    content: SmallPicture = 17
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.VariablePicture
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.VariablePicture
+  id: VariablePicture
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: VariablePicture
+  nameWithType: InformationElementIdentifiers.VariablePicture
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.VariablePicture
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: VariablePicture
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 76
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nVariable Picture\n"
+  example: []
+  syntax:
+    content: VariablePicture = 18
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.UserPromptIndicator
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.UserPromptIndicator
+  id: UserPromptIndicator
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: UserPromptIndicator
+  nameWithType: InformationElementIdentifiers.UserPromptIndicator
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.UserPromptIndicator
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: UserPromptIndicator
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 80
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUser prompt indicator\n"
+  example: []
+  syntax:
+    content: UserPromptIndicator = 19
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.ExtendedObject
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.ExtendedObject
+  id: ExtendedObject
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ExtendedObject
+  nameWithType: InformationElementIdentifiers.ExtendedObject
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.ExtendedObject
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ExtendedObject
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 84
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nExtended Object\n"
+  example: []
+  syntax:
+    content: ExtendedObject = 20
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.ReusedExtendedObject
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.ReusedExtendedObject
+  id: ReusedExtendedObject
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ReusedExtendedObject
+  nameWithType: InformationElementIdentifiers.ReusedExtendedObject
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.ReusedExtendedObject
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ReusedExtendedObject
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 88
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nReused Extended Object\n"
+  example: []
+  syntax:
+    content: ReusedExtendedObject = 21
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.CompressionControl
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.CompressionControl
+  id: CompressionControl
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: CompressionControl
+  nameWithType: InformationElementIdentifiers.CompressionControl
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.CompressionControl
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: CompressionControl
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 92
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCompression Control\n"
+  example: []
+  syntax:
+    content: CompressionControl = 22
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.ObjectDistributionIndicator
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.ObjectDistributionIndicator
+  id: ObjectDistributionIndicator
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ObjectDistributionIndicator
+  nameWithType: InformationElementIdentifiers.ObjectDistributionIndicator
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.ObjectDistributionIndicator
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ObjectDistributionIndicator
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 96
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nObject Distribution Indicator\n"
+  example: []
+  syntax:
+    content: ObjectDistributionIndicator = 23
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.StandardWvgObject
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.StandardWvgObject
+  id: StandardWvgObject
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: StandardWvgObject
+  nameWithType: InformationElementIdentifiers.StandardWvgObject
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.StandardWvgObject
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: StandardWvgObject
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 100
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nStandard WVG object\n"
+  example: []
+  syntax:
+    content: StandardWvgObject = 24
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.CharacterSizeWvgObject
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.CharacterSizeWvgObject
+  id: CharacterSizeWvgObject
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: CharacterSizeWvgObject
+  nameWithType: InformationElementIdentifiers.CharacterSizeWvgObject
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.CharacterSizeWvgObject
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: CharacterSizeWvgObject
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 104
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCharacter Size WVG object\n"
+  example: []
+  syntax:
+    content: CharacterSizeWvgObject = 25
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.ExtendedObjectDataRequestCommand
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.ExtendedObjectDataRequestCommand
+  id: ExtendedObjectDataRequestCommand
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ExtendedObjectDataRequestCommand
+  nameWithType: InformationElementIdentifiers.ExtendedObjectDataRequestCommand
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.ExtendedObjectDataRequestCommand
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ExtendedObjectDataRequestCommand
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 108
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nExtended Object Data Request Command\n"
+  example: []
+  syntax:
+    content: ExtendedObjectDataRequestCommand = 26
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.EMailHeader
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.EMailHeader
+  id: EMailHeader
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: EMailHeader
+  nameWithType: InformationElementIdentifiers.EMailHeader
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.EMailHeader
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: EMailHeader
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 112
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nRFC 822 E-Mail Header\n"
+  example: []
+  syntax:
+    content: EMailHeader = 32
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.HyperlinkFormatElement
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.HyperlinkFormatElement
+  id: HyperlinkFormatElement
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: HyperlinkFormatElement
+  nameWithType: InformationElementIdentifiers.HyperlinkFormatElement
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.HyperlinkFormatElement
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: HyperlinkFormatElement
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 116
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nHyperlink format element\n"
+  example: []
+  syntax:
+    content: HyperlinkFormatElement = 33
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.ReplyAddressElement
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.ReplyAddressElement
+  id: ReplyAddressElement
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: ReplyAddressElement
+  nameWithType: InformationElementIdentifiers.ReplyAddressElement
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.ReplyAddressElement
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ReplyAddressElement
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 120
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nReply Address Element\n"
+  example: []
+  syntax:
+    content: ReplyAddressElement = 34
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.EnhancedVoiceMailInformation
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.EnhancedVoiceMailInformation
+  id: EnhancedVoiceMailInformation
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: EnhancedVoiceMailInformation
+  nameWithType: InformationElementIdentifiers.EnhancedVoiceMailInformation
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.EnhancedVoiceMailInformation
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: EnhancedVoiceMailInformation
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 124
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nEnhanced Voice Mail Information\n"
+  example: []
+  syntax:
+    content: EnhancedVoiceMailInformation = 35
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.NationalLanguageSingleShift
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.NationalLanguageSingleShift
+  id: NationalLanguageSingleShift
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: NationalLanguageSingleShift
+  nameWithType: InformationElementIdentifiers.NationalLanguageSingleShift
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.NationalLanguageSingleShift
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: NationalLanguageSingleShift
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 128
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNational Language Single Shift \n"
+  example: []
+  syntax:
+    content: NationalLanguageSingleShift = 36
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.NationalLanguageLockingShift
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.NationalLanguageLockingShift
+  id: NationalLanguageLockingShift
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: NationalLanguageLockingShift
+  nameWithType: InformationElementIdentifiers.NationalLanguageLockingShift
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.NationalLanguageLockingShift
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: NationalLanguageLockingShift
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 132
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNational Language Locking Shift\n"
+  example: []
+  syntax:
+    content: NationalLanguageLockingShift = 37
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers.Unknown
+  commentId: F:Inetlab.SMPP.Common.InformationElementIdentifiers.Unknown
+  id: Unknown
+  parent: Inetlab.SMPP.Common.InformationElementIdentifiers
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: InformationElementIdentifiers.Unknown
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers.Unknown
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/InformationElementIdentifiers.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Unknown
+    path: ../Source/CS/Common/InformationElementIdentifiers.cs
+    startLine: 136
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: Unknown = 255
+    return:
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers
+  commentId: T:Inetlab.SMPP.Common.InformationElementIdentifiers
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: InformationElementIdentifiers
+  nameWithType: InformationElementIdentifiers
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers

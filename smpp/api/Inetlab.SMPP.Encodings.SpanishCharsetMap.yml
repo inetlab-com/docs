@@ -1,0 +1,518 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Encodings.SpanishCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.SpanishCharsetMap
+  id: SpanishCharsetMap
+  parent: Inetlab.SMPP.Encodings
+  children:
+  - Inetlab.SMPP.Encodings.SpanishCharsetMap.#ctor
+  - Inetlab.SMPP.Encodings.SpanishCharsetMap.CharacterSet
+  - Inetlab.SMPP.Encodings.SpanishCharsetMap.ExtensionSet
+  langs:
+  - csharp
+  - vb
+  name: SpanishCharsetMap
+  nameWithType: SpanishCharsetMap
+  fullName: Inetlab.SMPP.Encodings.SpanishCharsetMap
+  type: Class
+  source:
+    remote:
+      path: Source/CS/Encodings/SpanishCharsetMap.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SpanishCharsetMap
+    path: ../Source/CS/Encodings/SpanishCharsetMap.cs
+    startLine: 4
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: 'public class SpanishCharsetMap : IGSMCharsetMap'
+    content.vb: >-
+      Public Class SpanishCharsetMap
+          Implements IGSMCharsetMap
+  inheritance:
+  - System.Object
+  implements:
+  - Inetlab.SMPP.Encodings.IGSMCharsetMap
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Encodings.SpanishCharsetMap.CharacterSet
+  commentId: P:Inetlab.SMPP.Encodings.SpanishCharsetMap.CharacterSet
+  id: CharacterSet
+  parent: Inetlab.SMPP.Encodings.SpanishCharsetMap
+  langs:
+  - csharp
+  - vb
+  name: CharacterSet
+  nameWithType: SpanishCharsetMap.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.SpanishCharsetMap.CharacterSet
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Encodings/SpanishCharsetMap.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: CharacterSet
+    path: ../Source/CS/Encodings/SpanishCharsetMap.cs
+    startLine: 9
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public char[] CharacterSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: Public ReadOnly Property CharacterSet As Char()
+  overload: Inetlab.SMPP.Encodings.SpanishCharsetMap.CharacterSet*
+  implements:
+  - Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Encodings.SpanishCharsetMap.ExtensionSet
+  commentId: P:Inetlab.SMPP.Encodings.SpanishCharsetMap.ExtensionSet
+  id: ExtensionSet
+  parent: Inetlab.SMPP.Encodings.SpanishCharsetMap
+  langs:
+  - csharp
+  - vb
+  name: ExtensionSet
+  nameWithType: SpanishCharsetMap.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.SpanishCharsetMap.ExtensionSet
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Encodings/SpanishCharsetMap.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ExtensionSet
+    path: ../Source/CS/Encodings/SpanishCharsetMap.cs
+    startLine: 14
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public char[] ExtensionSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: Public ReadOnly Property ExtensionSet As Char()
+  overload: Inetlab.SMPP.Encodings.SpanishCharsetMap.ExtensionSet*
+  implements:
+  - Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Encodings.SpanishCharsetMap.#ctor
+  commentId: M:Inetlab.SMPP.Encodings.SpanishCharsetMap.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Encodings.SpanishCharsetMap
+  langs:
+  - csharp
+  - vb
+  name: SpanishCharsetMap()
+  nameWithType: SpanishCharsetMap.SpanishCharsetMap()
+  fullName: Inetlab.SMPP.Encodings.SpanishCharsetMap.SpanishCharsetMap()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Encodings/SpanishCharsetMap.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Encodings/SpanishCharsetMap.cs
+    startLine: 19
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public SpanishCharsetMap()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Encodings.SpanishCharsetMap.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Encodings
+  commentId: N:Inetlab.SMPP.Encodings
+  isExternal: false
+  name: Inetlab.SMPP.Encodings
+  nameWithType: Inetlab.SMPP.Encodings
+  fullName: Inetlab.SMPP.Encodings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.IGSMCharsetMap
+  parent: Inetlab.SMPP.Encodings
+  isExternal: false
+  name: IGSMCharsetMap
+  nameWithType: IGSMCharsetMap
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Encodings.SpanishCharsetMap.CharacterSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.SpanishCharsetMap.CharacterSet
+  isExternal: false
+  name: CharacterSet
+  nameWithType: SpanishCharsetMap.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.SpanishCharsetMap.CharacterSet
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  commentId: P:Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  parent: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  isExternal: false
+  name: CharacterSet
+  nameWithType: IGSMCharsetMap.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+- uid: System.Char[]
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
+  nameWithType.vb: Char()
+  fullName.vb: System.Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Encodings.SpanishCharsetMap.ExtensionSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.SpanishCharsetMap.ExtensionSet
+  isExternal: false
+  name: ExtensionSet
+  nameWithType: SpanishCharsetMap.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.SpanishCharsetMap.ExtensionSet
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  commentId: P:Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  parent: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  isExternal: false
+  name: ExtensionSet
+  nameWithType: IGSMCharsetMap.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+- uid: Inetlab.SMPP.Encodings.SpanishCharsetMap.#ctor*
+  commentId: Overload:Inetlab.SMPP.Encodings.SpanishCharsetMap.#ctor
+  isExternal: false
+  name: SpanishCharsetMap
+  nameWithType: SpanishCharsetMap.SpanishCharsetMap
+  fullName: Inetlab.SMPP.Encodings.SpanishCharsetMap.SpanishCharsetMap

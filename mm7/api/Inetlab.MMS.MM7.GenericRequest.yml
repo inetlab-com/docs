@@ -1,0 +1,519 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.GenericRequest
+  commentId: T:Inetlab.MMS.MM7.GenericRequest
+  id: GenericRequest
+  parent: Inetlab.MMS.MM7
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GenericRequest
+  nameWithType: GenericRequest
+  fullName: Inetlab.MMS.MM7.GenericRequest
+  type: Class
+  source:
+    remote:
+      path: Source/CS/MM7/GenericRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: GenericRequest
+    path: ../Source/CS/MM7/GenericRequest.cs
+    startLine: 12
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nProvides the base class for MM7 request message\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public class GenericRequest : GenericMessage
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Class GenericRequest
+          Inherits GenericMessage
+  inheritance:
+  - System.Object
+  - Inetlab.MMS.MM7.GenericMessage
+  derivedClasses:
+  - Inetlab.MMS.MM7.RSGenericRequest
+  - Inetlab.MMS.MM7.VASPGenericRequest
+  inheritedMembers:
+  - Inetlab.MMS.MM7.GenericMessage.TransactionID
+  - Inetlab.MMS.MM7.GenericMessage.MM7Version
+  - Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+  - Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  - Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.MMS.MM7.GenericMessage
+  commentId: T:Inetlab.MMS.MM7.GenericMessage
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: GenericMessage
+  nameWithType: GenericMessage
+  fullName: Inetlab.MMS.MM7.GenericMessage
+- uid: Inetlab.MMS.MM7.GenericMessage.TransactionID
+  commentId: P:Inetlab.MMS.MM7.GenericMessage.TransactionID
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: false
+  name: TransactionID
+  nameWithType: GenericMessage.TransactionID
+  fullName: Inetlab.MMS.MM7.GenericMessage.TransactionID
+- uid: Inetlab.MMS.MM7.GenericMessage.MM7Version
+  commentId: P:Inetlab.MMS.MM7.GenericMessage.MM7Version
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: false
+  name: MM7Version
+  nameWithType: GenericMessage.MM7Version
+  fullName: Inetlab.MMS.MM7.GenericMessage.MM7Version
+- uid: Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+  commentId: M:Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: true
+  name: AddNamespace(String, String)
+  nameWithType: GenericMessage.AddNamespace(String, String)
+  fullName: Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String, System.String)
+  spec.csharp:
+  - uid: Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+    name: AddNamespace
+    nameWithType: GenericMessage.AddNamespace
+    fullName: Inetlab.MMS.MM7.GenericMessage.AddNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+    name: AddNamespace
+    nameWithType: GenericMessage.AddNamespace
+    fullName: Inetlab.MMS.MM7.GenericMessage.AddNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  commentId: M:Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: false
+  name: GetNamespace()
+  nameWithType: GenericMessage.GetNamespace()
+  fullName: Inetlab.MMS.MM7.GenericMessage.GetNamespace()
+  spec.csharp:
+  - uid: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+    name: GetNamespace
+    nameWithType: GenericMessage.GetNamespace
+    fullName: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+    name: GetNamespace
+    nameWithType: GenericMessage.GetNamespace
+    fullName: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+  commentId: M:Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: true
+  name: ReadMessage(Stream)
+  nameWithType: GenericMessage.ReadMessage(Stream)
+  fullName: Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+  spec.csharp:
+  - uid: Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+    name: ReadMessage
+    nameWithType: GenericMessage.ReadMessage
+    fullName: Inetlab.MMS.MM7.GenericMessage.ReadMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+    name: ReadMessage
+    nameWithType: GenericMessage.ReadMessage
+    fullName: Inetlab.MMS.MM7.GenericMessage.ReadMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

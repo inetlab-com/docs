@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.Status
+  commentId: T:Inetlab.MMS.Status
+  id: Status
+  parent: Inetlab.MMS
+  children:
+  - Inetlab.MMS.Status.Deferred
+  - Inetlab.MMS.Status.Expired
+  - Inetlab.MMS.Status.Rejected
+  - Inetlab.MMS.Status.Retrieved
+  - Inetlab.MMS.Status.Unrecognised
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Status
+  fullName: Inetlab.MMS.Status
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Status
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 391
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [Obfuscation(Exclude = true, ApplyToMembers = true)]
+
+      public enum Status
+    content.vb: >-
+      <Serializable>
+
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True)>
+
+      Public Enum Status
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.Status.Expired
+  commentId: F:Inetlab.MMS.Status.Expired
+  id: Expired
+  parent: Inetlab.MMS.Status
+  langs:
+  - csharp
+  - vb
+  name: Expired
+  nameWithType: Status.Expired
+  fullName: Inetlab.MMS.Status.Expired
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Expired
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 395
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: Expired = 128
+    return:
+      type: Inetlab.MMS.Status
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.Status.Retrieved
+  commentId: F:Inetlab.MMS.Status.Retrieved
+  id: Retrieved
+  parent: Inetlab.MMS.Status
+  langs:
+  - csharp
+  - vb
+  name: Retrieved
+  nameWithType: Status.Retrieved
+  fullName: Inetlab.MMS.Status.Retrieved
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Retrieved
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 396
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: Retrieved = 129
+    return:
+      type: Inetlab.MMS.Status
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.Status.Rejected
+  commentId: F:Inetlab.MMS.Status.Rejected
+  id: Rejected
+  parent: Inetlab.MMS.Status
+  langs:
+  - csharp
+  - vb
+  name: Rejected
+  nameWithType: Status.Rejected
+  fullName: Inetlab.MMS.Status.Rejected
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Rejected
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 397
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: Rejected = 130
+    return:
+      type: Inetlab.MMS.Status
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.Status.Deferred
+  commentId: F:Inetlab.MMS.Status.Deferred
+  id: Deferred
+  parent: Inetlab.MMS.Status
+  langs:
+  - csharp
+  - vb
+  name: Deferred
+  nameWithType: Status.Deferred
+  fullName: Inetlab.MMS.Status.Deferred
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Deferred
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 398
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: Deferred = 131
+    return:
+      type: Inetlab.MMS.Status
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.Status.Unrecognised
+  commentId: F:Inetlab.MMS.Status.Unrecognised
+  id: Unrecognised
+  parent: Inetlab.MMS.Status
+  langs:
+  - csharp
+  - vb
+  name: Unrecognised
+  nameWithType: Status.Unrecognised
+  fullName: Inetlab.MMS.Status.Unrecognised
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Unrecognised
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 399
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: Unrecognised = 132
+    return:
+      type: Inetlab.MMS.Status
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: Inetlab.MMS.Status
+  commentId: T:Inetlab.MMS.Status
+  parent: Inetlab.MMS
+  isExternal: false
+  name: Status
+  nameWithType: Status
+  fullName: Inetlab.MMS.Status

@@ -1,0 +1,523 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.DeliverReqEventArgs
+  commentId: T:Inetlab.MMS.MM7.DeliverReqEventArgs
+  id: DeliverReqEventArgs
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.DeliverReqEventArgs.#ctor(Inetlab.MMS.MM7.DeliverRequest,Inetlab.MMS.MMSMessage)
+  - Inetlab.MMS.MM7.DeliverReqEventArgs.Message
+  - Inetlab.MMS.MM7.DeliverReqEventArgs.Request
+  langs:
+  - csharp
+  - vb
+  name: DeliverReqEventArgs
+  nameWithType: DeliverReqEventArgs
+  fullName: Inetlab.MMS.MM7.DeliverReqEventArgs
+  type: Class
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverReqEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: DeliverReqEventArgs
+    path: ../Source/CS/MM7/DeliverReqEventArgs.cs
+    startLine: 5
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public class DeliverReqEventArgs : EventArgs
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Class DeliverReqEventArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.MMS.MM7.DeliverReqEventArgs.Request
+  commentId: P:Inetlab.MMS.MM7.DeliverReqEventArgs.Request
+  id: Request
+  parent: Inetlab.MMS.MM7.DeliverReqEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: DeliverReqEventArgs.Request
+  fullName: Inetlab.MMS.MM7.DeliverReqEventArgs.Request
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverReqEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Request
+    path: ../Source/CS/MM7/DeliverReqEventArgs.cs
+    startLine: 10
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public DeliverRequest Request { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MM7.DeliverRequest
+    content.vb: Public Property Request As DeliverRequest
+  overload: Inetlab.MMS.MM7.DeliverReqEventArgs.Request*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliverReqEventArgs.Message
+  commentId: P:Inetlab.MMS.MM7.DeliverReqEventArgs.Message
+  id: Message
+  parent: Inetlab.MMS.MM7.DeliverReqEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: DeliverReqEventArgs.Message
+  fullName: Inetlab.MMS.MM7.DeliverReqEventArgs.Message
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverReqEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Message
+    path: ../Source/CS/MM7/DeliverReqEventArgs.cs
+    startLine: 18
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public MMSMessage Message { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MMSMessage
+    content.vb: Public Property Message As MMSMessage
+  overload: Inetlab.MMS.MM7.DeliverReqEventArgs.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliverReqEventArgs.#ctor(Inetlab.MMS.MM7.DeliverRequest,Inetlab.MMS.MMSMessage)
+  commentId: M:Inetlab.MMS.MM7.DeliverReqEventArgs.#ctor(Inetlab.MMS.MM7.DeliverRequest,Inetlab.MMS.MMSMessage)
+  id: '#ctor(Inetlab.MMS.MM7.DeliverRequest,Inetlab.MMS.MMSMessage)'
+  parent: Inetlab.MMS.MM7.DeliverReqEventArgs
+  langs:
+  - csharp
+  - vb
+  name: DeliverReqEventArgs(DeliverRequest, MMSMessage)
+  nameWithType: DeliverReqEventArgs.DeliverReqEventArgs(DeliverRequest, MMSMessage)
+  fullName: Inetlab.MMS.MM7.DeliverReqEventArgs.DeliverReqEventArgs(Inetlab.MMS.MM7.DeliverRequest, Inetlab.MMS.MMSMessage)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverReqEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7/DeliverReqEventArgs.cs
+    startLine: 24
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public DeliverReqEventArgs(DeliverRequest request, MMSMessage message)
+    parameters:
+    - id: request
+      type: Inetlab.MMS.MM7.DeliverRequest
+    - id: message
+      type: Inetlab.MMS.MMSMessage
+    content.vb: Public Sub New(request As DeliverRequest, message As MMSMessage)
+  overload: Inetlab.MMS.MM7.DeliverReqEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.MMS.MM7.DeliverReqEventArgs.Request*
+  commentId: Overload:Inetlab.MMS.MM7.DeliverReqEventArgs.Request
+  isExternal: false
+  name: Request
+  nameWithType: DeliverReqEventArgs.Request
+  fullName: Inetlab.MMS.MM7.DeliverReqEventArgs.Request
+- uid: Inetlab.MMS.MM7.DeliverRequest
+  commentId: T:Inetlab.MMS.MM7.DeliverRequest
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: DeliverRequest
+  nameWithType: DeliverRequest
+  fullName: Inetlab.MMS.MM7.DeliverRequest
+- uid: Inetlab.MMS.MM7.DeliverReqEventArgs.Message*
+  commentId: Overload:Inetlab.MMS.MM7.DeliverReqEventArgs.Message
+  isExternal: false
+  name: Message
+  nameWithType: DeliverReqEventArgs.Message
+  fullName: Inetlab.MMS.MM7.DeliverReqEventArgs.Message
+- uid: Inetlab.MMS.MMSMessage
+  commentId: T:Inetlab.MMS.MMSMessage
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MMSMessage
+  nameWithType: MMSMessage
+  fullName: Inetlab.MMS.MMSMessage
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: Inetlab.MMS.MM7.DeliverReqEventArgs.#ctor*
+  commentId: Overload:Inetlab.MMS.MM7.DeliverReqEventArgs.#ctor
+  isExternal: false
+  name: DeliverReqEventArgs
+  nameWithType: DeliverReqEventArgs.DeliverReqEventArgs
+  fullName: Inetlab.MMS.MM7.DeliverReqEventArgs.DeliverReqEventArgs

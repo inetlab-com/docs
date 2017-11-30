@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.MMStatusExtensionType
+  commentId: T:Inetlab.MMS.MM7.MMStatusExtensionType
+  id: MMStatusExtensionType
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.MMStatusExtensionType.None
+  - Inetlab.MMS.MM7.MMStatusExtensionType.RejectionByMMSRecipient
+  - Inetlab.MMS.MM7.MMStatusExtensionType.RejectionByOtherRS
+  langs:
+  - csharp
+  - vb
+  name: MMStatusExtensionType
+  nameWithType: MMStatusExtensionType
+  fullName: Inetlab.MMS.MM7.MMStatusExtensionType
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MM7/MMStatusExtensionType.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MMStatusExtensionType
+    path: ../Source/CS/MM7/MMStatusExtensionType.cs
+    startLine: 4
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = true)]
+
+      public enum MMStatusExtensionType
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True)>
+
+      Public Enum MMStatusExtensionType
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.MM7.MMStatusExtensionType.None
+  commentId: F:Inetlab.MMS.MM7.MMStatusExtensionType.None
+  id: None
+  parent: Inetlab.MMS.MM7.MMStatusExtensionType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MMStatusExtensionType.None
+  fullName: Inetlab.MMS.MM7.MMStatusExtensionType.None
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/MMStatusExtensionType.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: None
+    path: ../Source/CS/MM7/MMStatusExtensionType.cs
+    startLine: 7
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: None = 0
+    return:
+      type: Inetlab.MMS.MM7.MMStatusExtensionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.MMStatusExtensionType.RejectionByMMSRecipient
+  commentId: F:Inetlab.MMS.MM7.MMStatusExtensionType.RejectionByMMSRecipient
+  id: RejectionByMMSRecipient
+  parent: Inetlab.MMS.MM7.MMStatusExtensionType
+  langs:
+  - csharp
+  - vb
+  name: RejectionByMMSRecipient
+  nameWithType: MMStatusExtensionType.RejectionByMMSRecipient
+  fullName: Inetlab.MMS.MM7.MMStatusExtensionType.RejectionByMMSRecipient
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/MMStatusExtensionType.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: RejectionByMMSRecipient
+    path: ../Source/CS/MM7/MMStatusExtensionType.cs
+    startLine: 10
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: RejectionByMMSRecipient = 1
+    return:
+      type: Inetlab.MMS.MM7.MMStatusExtensionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.MMStatusExtensionType.RejectionByOtherRS
+  commentId: F:Inetlab.MMS.MM7.MMStatusExtensionType.RejectionByOtherRS
+  id: RejectionByOtherRS
+  parent: Inetlab.MMS.MM7.MMStatusExtensionType
+  langs:
+  - csharp
+  - vb
+  name: RejectionByOtherRS
+  nameWithType: MMStatusExtensionType.RejectionByOtherRS
+  fullName: Inetlab.MMS.MM7.MMStatusExtensionType.RejectionByOtherRS
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/MMStatusExtensionType.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: RejectionByOtherRS
+    path: ../Source/CS/MM7/MMStatusExtensionType.cs
+    startLine: 13
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: RejectionByOtherRS = 2
+    return:
+      type: Inetlab.MMS.MM7.MMStatusExtensionType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: Inetlab.MMS.MM7.MMStatusExtensionType
+  commentId: T:Inetlab.MMS.MM7.MMStatusExtensionType
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: MMStatusExtensionType
+  nameWithType: MMStatusExtensionType
+  fullName: Inetlab.MMS.MM7.MMStatusExtensionType

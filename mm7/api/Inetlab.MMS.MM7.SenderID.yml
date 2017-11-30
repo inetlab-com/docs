@@ -1,0 +1,652 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.SenderID
+  commentId: T:Inetlab.MMS.MM7.SenderID
+  id: SenderID
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.SenderID.#ctor
+  - Inetlab.MMS.MM7.SenderID.#ctor(System.String,System.String,Inetlab.MMS.MM7.Address)
+  - Inetlab.MMS.MM7.SenderID.#ctor(System.String,System.String,System.String)
+  - Inetlab.MMS.MM7.SenderID.SenderAddress
+  - Inetlab.MMS.MM7.SenderID.VASID
+  - Inetlab.MMS.MM7.SenderID.VASPID
+  langs:
+  - csharp
+  - vb
+  name: SenderID
+  nameWithType: SenderID
+  fullName: Inetlab.MMS.MM7.SenderID
+  type: Class
+  source:
+    remote:
+      path: Source/CS/MM7/SenderID.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: SenderID
+    path: ../Source/CS/MM7/SenderID.cs
+    startLine: 7
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public class SenderID
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Class SenderID
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.MMS.MM7.SenderID.VASPID
+  commentId: F:Inetlab.MMS.MM7.SenderID.VASPID
+  id: VASPID
+  parent: Inetlab.MMS.MM7.SenderID
+  langs:
+  - csharp
+  - vb
+  name: VASPID
+  nameWithType: SenderID.VASPID
+  fullName: Inetlab.MMS.MM7.SenderID.VASPID
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/SenderID.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: VASPID
+    path: ../Source/CS/MM7/SenderID.cs
+    startLine: 15
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nIdentifier of the VASP for this MMS Relay/Server.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public string VASPID
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public VASPID As String
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.SenderID.VASID
+  commentId: F:Inetlab.MMS.MM7.SenderID.VASID
+  id: VASID
+  parent: Inetlab.MMS.MM7.SenderID
+  langs:
+  - csharp
+  - vb
+  name: VASID
+  nameWithType: SenderID.VASID
+  fullName: Inetlab.MMS.MM7.SenderID.VASID
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/SenderID.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: VASID
+    path: ../Source/CS/MM7/SenderID.cs
+    startLine: 22
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nIdentifier of the originating application.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public string VASID
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public VASID As String
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.SenderID.SenderAddress
+  commentId: F:Inetlab.MMS.MM7.SenderID.SenderAddress
+  id: SenderAddress
+  parent: Inetlab.MMS.MM7.SenderID
+  langs:
+  - csharp
+  - vb
+  name: SenderAddress
+  nameWithType: SenderID.SenderAddress
+  fullName: Inetlab.MMS.MM7.SenderID.SenderAddress
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/SenderID.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: SenderAddress
+    path: ../Source/CS/MM7/SenderID.cs
+    startLine: 29
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nThe address of the MM originator.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public Address SenderAddress
+    return:
+      type: Inetlab.MMS.MM7.Address
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public SenderAddress As Address
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.SenderID.#ctor
+  commentId: M:Inetlab.MMS.MM7.SenderID.#ctor
+  id: '#ctor'
+  parent: Inetlab.MMS.MM7.SenderID
+  langs:
+  - csharp
+  - vb
+  name: SenderID()
+  nameWithType: SenderID.SenderID()
+  fullName: Inetlab.MMS.MM7.SenderID.SenderID()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7/SenderID.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7/SenderID.cs
+    startLine: 31
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public SenderID()
+    content.vb: Public Sub New
+  overload: Inetlab.MMS.MM7.SenderID.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.SenderID.#ctor(System.String,System.String,System.String)
+  commentId: M:Inetlab.MMS.MM7.SenderID.#ctor(System.String,System.String,System.String)
+  id: '#ctor(System.String,System.String,System.String)'
+  parent: Inetlab.MMS.MM7.SenderID
+  langs:
+  - csharp
+  - vb
+  name: SenderID(String, String, String)
+  nameWithType: SenderID.SenderID(String, String, String)
+  fullName: Inetlab.MMS.MM7.SenderID.SenderID(System.String, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7/SenderID.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7/SenderID.cs
+    startLine: 33
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public SenderID(string VASPID, string VASID, string senderAddress)
+    parameters:
+    - id: VASPID
+      type: System.String
+    - id: VASID
+      type: System.String
+    - id: senderAddress
+      type: System.String
+    content.vb: Public Sub New(VASPID As String, VASID As String, senderAddress As String)
+  overload: Inetlab.MMS.MM7.SenderID.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.SenderID.#ctor(System.String,System.String,Inetlab.MMS.MM7.Address)
+  commentId: M:Inetlab.MMS.MM7.SenderID.#ctor(System.String,System.String,Inetlab.MMS.MM7.Address)
+  id: '#ctor(System.String,System.String,Inetlab.MMS.MM7.Address)'
+  parent: Inetlab.MMS.MM7.SenderID
+  langs:
+  - csharp
+  - vb
+  name: SenderID(String, String, Address)
+  nameWithType: SenderID.SenderID(String, String, Address)
+  fullName: Inetlab.MMS.MM7.SenderID.SenderID(System.String, System.String, Inetlab.MMS.MM7.Address)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7/SenderID.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7/SenderID.cs
+    startLine: 40
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public SenderID(string VASPID, string VASID, Address senderAddress)
+    parameters:
+    - id: VASPID
+      type: System.String
+    - id: VASID
+      type: System.String
+    - id: senderAddress
+      type: Inetlab.MMS.MM7.Address
+    content.vb: Public Sub New(VASPID As String, VASID As String, senderAddress As Address)
+  overload: Inetlab.MMS.MM7.SenderID.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.MMS.MM7.Address
+  commentId: T:Inetlab.MMS.MM7.Address
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: Address
+  nameWithType: Address
+  fullName: Inetlab.MMS.MM7.Address
+- uid: Inetlab.MMS.MM7.SenderID.#ctor*
+  commentId: Overload:Inetlab.MMS.MM7.SenderID.#ctor
+  isExternal: false
+  name: SenderID
+  nameWithType: SenderID.SenderID
+  fullName: Inetlab.MMS.MM7.SenderID.SenderID

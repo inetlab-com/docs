@@ -1,0 +1,1111 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Receipt
+  commentId: T:Inetlab.SMPP.Common.Receipt
+  id: Receipt
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.Receipt.#ctor
+  - Inetlab.SMPP.Common.Receipt.Create(System.Byte[],System.Text.Encoding,System.Text.Encoding)
+  - Inetlab.SMPP.Common.Receipt.Delivered
+  - Inetlab.SMPP.Common.Receipt.DoneDate
+  - Inetlab.SMPP.Common.Receipt.ErrorCode
+  - Inetlab.SMPP.Common.Receipt.Items
+  - Inetlab.SMPP.Common.Receipt.MessageId
+  - Inetlab.SMPP.Common.Receipt.Parse(System.String)
+  - Inetlab.SMPP.Common.Receipt.State
+  - Inetlab.SMPP.Common.Receipt.SubmitDate
+  - Inetlab.SMPP.Common.Receipt.Submitted
+  - Inetlab.SMPP.Common.Receipt.Text
+  - Inetlab.SMPP.Common.Receipt.ToString
+  langs:
+  - csharp
+  - vb
+  name: Receipt
+  nameWithType: Receipt
+  fullName: Inetlab.SMPP.Common.Receipt
+  type: Class
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Receipt
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 14
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nRepresents Delivery receipt, that received within <xref href=\"Inetlab.SMPP.PDU.DeliverSm\" data-throw-if-not-resolved=\"false\"></xref> PDU. \n"
+  example: []
+  syntax:
+    content: public class Receipt
+    content.vb: Public Class Receipt
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.Receipt.#ctor
+  commentId: M:Inetlab.SMPP.Common.Receipt.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: Receipt()
+  nameWithType: Receipt.Receipt()
+  fullName: Inetlab.SMPP.Common.Receipt.Receipt()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 21
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public Receipt()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.Receipt.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.MessageId
+  commentId: P:Inetlab.SMPP.Common.Receipt.MessageId
+  id: MessageId
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: Receipt.MessageId
+  fullName: Inetlab.SMPP.Common.Receipt.MessageId
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MessageId
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 31
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe message ID allocated to the message by the SMSC when originally submitted.\nYou can get it from SUBMIT_SM_RESP.\n"
+  example: []
+  syntax:
+    content: public string MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageId As String
+  overload: Inetlab.SMPP.Common.Receipt.MessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.Submitted
+  commentId: P:Inetlab.SMPP.Common.Receipt.Submitted
+  id: Submitted
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: Submitted
+  nameWithType: Receipt.Submitted
+  fullName: Inetlab.SMPP.Common.Receipt.Submitted
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Submitted
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 47
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNumber of short messages originally submitted.\nThis is only relevant when the original message was submitted to a distribution list.\n"
+  example: []
+  syntax:
+    content: public int Submitted { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Submitted As Integer
+  overload: Inetlab.SMPP.Common.Receipt.Submitted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.Delivered
+  commentId: P:Inetlab.SMPP.Common.Receipt.Delivered
+  id: Delivered
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: Delivered
+  nameWithType: Receipt.Delivered
+  fullName: Inetlab.SMPP.Common.Receipt.Delivered
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Delivered
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 66
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNumber of short messages delivered. \nThis is only relevant where the original message was submitted to a distribution list\n"
+  example: []
+  syntax:
+    content: public int Delivered { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Delivered As Integer
+  overload: Inetlab.SMPP.Common.Receipt.Delivered*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.SubmitDate
+  commentId: P:Inetlab.SMPP.Common.Receipt.SubmitDate
+  id: SubmitDate
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: SubmitDate
+  nameWithType: Receipt.SubmitDate
+  fullName: Inetlab.SMPP.Common.Receipt.SubmitDate
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SubmitDate
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 85
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe time and date at which the short message was submitted.\n"
+  example: []
+  syntax:
+    content: public DateTime SubmitDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property SubmitDate As Date
+  overload: Inetlab.SMPP.Common.Receipt.SubmitDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.DoneDate
+  commentId: P:Inetlab.SMPP.Common.Receipt.DoneDate
+  id: DoneDate
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: DoneDate
+  nameWithType: Receipt.DoneDate
+  fullName: Inetlab.SMPP.Common.Receipt.DoneDate
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DoneDate
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 104
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe time and date at which the short message reached it’s final state.\n"
+  example: []
+  syntax:
+    content: public DateTime DoneDate { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Property DoneDate As Date
+  overload: Inetlab.SMPP.Common.Receipt.DoneDate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.State
+  commentId: P:Inetlab.SMPP.Common.Receipt.State
+  id: State
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: State
+  nameWithType: Receipt.State
+  fullName: Inetlab.SMPP.Common.Receipt.State
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: State
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 124
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe final status of the message.\n"
+  example: []
+  syntax:
+    content: public MessageState State { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+    content.vb: Public Property State As MessageState
+  overload: Inetlab.SMPP.Common.Receipt.State*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.ErrorCode
+  commentId: P:Inetlab.SMPP.Common.Receipt.ErrorCode
+  id: ErrorCode
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: Receipt.ErrorCode
+  fullName: Inetlab.SMPP.Common.Receipt.ErrorCode
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ErrorCode
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 144
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNetwork specific error code or an SMSC error code for the attempted delivery of the message.\n"
+  example: []
+  syntax:
+    content: public string ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ErrorCode As String
+  overload: Inetlab.SMPP.Common.Receipt.ErrorCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.Text
+  commentId: P:Inetlab.SMPP.Common.Receipt.Text
+  id: Text
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: Receipt.Text
+  fullName: Inetlab.SMPP.Common.Receipt.Text
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Text
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 166
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe first 20 characters of the short message.\n"
+  example: []
+  syntax:
+    content: public string Text { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Text As String
+  overload: Inetlab.SMPP.Common.Receipt.Text*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.Items
+  commentId: P:Inetlab.SMPP.Common.Receipt.Items
+  id: Items
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: Receipt.Items
+  fullName: Inetlab.SMPP.Common.Receipt.Items
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Items
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 187
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SortedList<string, string> Items { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.SortedList{System.String,System.String}
+    content.vb: Public ReadOnly Property Items As SortedList(Of String, String)
+  overload: Inetlab.SMPP.Common.Receipt.Items*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.Receipt.Create(System.Byte[],System.Text.Encoding,System.Text.Encoding)
+  commentId: M:Inetlab.SMPP.Common.Receipt.Create(System.Byte[],System.Text.Encoding,System.Text.Encoding)
+  id: Create(System.Byte[],System.Text.Encoding,System.Text.Encoding)
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: Create(Byte[], Encoding, Encoding)
+  nameWithType: Receipt.Create(Byte[], Encoding, Encoding)
+  fullName: Inetlab.SMPP.Common.Receipt.Create(System.Byte[], System.Text.Encoding, System.Text.Encoding)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Create
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 194
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static Receipt Create(byte[] messageBytes, Encoding messageEncoding, Encoding textEncoding)
+    parameters:
+    - id: messageBytes
+      type: System.Byte[]
+    - id: messageEncoding
+      type: System.Text.Encoding
+    - id: textEncoding
+      type: System.Text.Encoding
+    return:
+      type: Inetlab.SMPP.Common.Receipt
+    content.vb: Public Shared Function Create(messageBytes As Byte(), messageEncoding As Encoding, textEncoding As Encoding) As Receipt
+  overload: Inetlab.SMPP.Common.Receipt.Create*
+  nameWithType.vb: Receipt.Create(Byte(), Encoding, Encoding)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Common.Receipt.Create(System.Byte(), System.Text.Encoding, System.Text.Encoding)
+  name.vb: Create(Byte(), Encoding, Encoding)
+- uid: Inetlab.SMPP.Common.Receipt.Parse(System.String)
+  commentId: M:Inetlab.SMPP.Common.Receipt.Parse(System.String)
+  id: Parse(System.String)
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: Parse(String)
+  nameWithType: Receipt.Parse(String)
+  fullName: Inetlab.SMPP.Common.Receipt.Parse(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Parse
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 215
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Parse(string text)
+    parameters:
+    - id: text
+      type: System.String
+    content.vb: Public Sub Parse(text As String)
+  overload: Inetlab.SMPP.Common.Receipt.Parse*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Receipt.ToString
+  commentId: M:Inetlab.SMPP.Common.Receipt.ToString
+  id: ToString
+  parent: Inetlab.SMPP.Common.Receipt
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Receipt.ToString()
+  fullName: Inetlab.SMPP.Common.Receipt.ToString()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/Receipt.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ToString
+    path: ../Source/CS/Common/Receipt.cs
+    startLine: 297
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Inetlab.SMPP.Common.Receipt.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.PDU.DeliverSm
+  commentId: T:Inetlab.SMPP.PDU.DeliverSm
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: DeliverSm
+  nameWithType: DeliverSm
+  fullName: Inetlab.SMPP.PDU.DeliverSm
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.Receipt.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.#ctor
+  isExternal: false
+  name: Receipt
+  nameWithType: Receipt.Receipt
+  fullName: Inetlab.SMPP.Common.Receipt.Receipt
+- uid: Inetlab.SMPP.Common.Receipt.MessageId*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.MessageId
+  isExternal: false
+  name: MessageId
+  nameWithType: Receipt.MessageId
+  fullName: Inetlab.SMPP.Common.Receipt.MessageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Common.Receipt.Submitted*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.Submitted
+  isExternal: false
+  name: Submitted
+  nameWithType: Receipt.Submitted
+  fullName: Inetlab.SMPP.Common.Receipt.Submitted
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.Common.Receipt.Delivered*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.Delivered
+  isExternal: false
+  name: Delivered
+  nameWithType: Receipt.Delivered
+  fullName: Inetlab.SMPP.Common.Receipt.Delivered
+- uid: Inetlab.SMPP.Common.Receipt.SubmitDate*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.SubmitDate
+  isExternal: false
+  name: SubmitDate
+  nameWithType: Receipt.SubmitDate
+  fullName: Inetlab.SMPP.Common.Receipt.SubmitDate
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Inetlab.SMPP.Common.Receipt.DoneDate*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.DoneDate
+  isExternal: false
+  name: DoneDate
+  nameWithType: Receipt.DoneDate
+  fullName: Inetlab.SMPP.Common.Receipt.DoneDate
+- uid: Inetlab.SMPP.Common.Receipt.State*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.State
+  isExternal: false
+  name: State
+  nameWithType: Receipt.State
+  fullName: Inetlab.SMPP.Common.Receipt.State
+- uid: Inetlab.SMPP.Common.MessageState
+  commentId: T:Inetlab.SMPP.Common.MessageState
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: MessageState
+  nameWithType: MessageState
+  fullName: Inetlab.SMPP.Common.MessageState
+- uid: Inetlab.SMPP.Common.Receipt.ErrorCode*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.ErrorCode
+  isExternal: false
+  name: ErrorCode
+  nameWithType: Receipt.ErrorCode
+  fullName: Inetlab.SMPP.Common.Receipt.ErrorCode
+- uid: Inetlab.SMPP.Common.Receipt.Text*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.Text
+  isExternal: false
+  name: Text
+  nameWithType: Receipt.Text
+  fullName: Inetlab.SMPP.Common.Receipt.Text
+- uid: Inetlab.SMPP.Common.Receipt.Items*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.Items
+  isExternal: false
+  name: Items
+  nameWithType: Receipt.Items
+  fullName: Inetlab.SMPP.Common.Receipt.Items
+- uid: System.Collections.Generic.SortedList{System.String,System.String}
+  commentId: T:System.Collections.Generic.SortedList{System.String,System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.SortedList`2
+  name: SortedList<String, String>
+  nameWithType: SortedList<String, String>
+  fullName: System.Collections.Generic.SortedList<System.String, System.String>
+  nameWithType.vb: SortedList(Of String, String)
+  fullName.vb: System.Collections.Generic.SortedList(Of System.String, System.String)
+  name.vb: SortedList(Of String, String)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    nameWithType: SortedList
+    fullName: System.Collections.Generic.SortedList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    nameWithType: SortedList
+    fullName: System.Collections.Generic.SortedList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.SortedList`2
+  commentId: T:System.Collections.Generic.SortedList`2
+  isExternal: true
+  name: SortedList<TKey, TValue>
+  nameWithType: SortedList<TKey, TValue>
+  fullName: System.Collections.Generic.SortedList<TKey, TValue>
+  nameWithType.vb: SortedList(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.SortedList(Of TKey, TValue)
+  name.vb: SortedList(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    nameWithType: SortedList
+    fullName: System.Collections.Generic.SortedList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.SortedList`2
+    name: SortedList
+    nameWithType: SortedList
+    fullName: System.Collections.Generic.SortedList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TKey
+    nameWithType: TKey
+    fullName: TKey
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TValue
+    nameWithType: TValue
+    fullName: TValue
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Inetlab.SMPP.Common.Receipt.Create*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.Create
+  isExternal: false
+  name: Create
+  nameWithType: Receipt.Create
+  fullName: Inetlab.SMPP.Common.Receipt.Create
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: Inetlab.SMPP.Common.Receipt
+  commentId: T:Inetlab.SMPP.Common.Receipt
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: Receipt
+  nameWithType: Receipt
+  fullName: Inetlab.SMPP.Common.Receipt
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: false
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+- uid: Inetlab.SMPP.Common.Receipt.Parse*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.Parse
+  isExternal: false
+  name: Parse
+  nameWithType: Receipt.Parse
+  fullName: Inetlab.SMPP.Common.Receipt.Parse
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common.Receipt.ToString*
+  commentId: Overload:Inetlab.SMPP.Common.Receipt.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: Receipt.ToString
+  fullName: Inetlab.SMPP.Common.Receipt.ToString

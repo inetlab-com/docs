@@ -1,0 +1,3290 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Encodings.GSMEncoding
+  commentId: T:Inetlab.SMPP.Encodings.GSMEncoding
+  id: GSMEncoding
+  parent: Inetlab.SMPP.Encodings
+  children:
+  - Inetlab.SMPP.Encodings.GSMEncoding.#ctor
+  - Inetlab.SMPP.Encodings.GSMEncoding.#ctor(Inetlab.SMPP.Encodings.IGSMCharsetMap)
+  - Inetlab.SMPP.Encodings.GSMEncoding.#ctor(System.Char[],System.Char[])
+  - Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  - Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount(System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: GSMEncoding
+  nameWithType: GSMEncoding
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding
+  type: Class
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GSMEncoding
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 9
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  summary: "\nRepresents unpacked GSM 03.38 character encoding of Unicode characters. \n"
+  example: []
+  syntax:
+    content: 'public class GSMEncoding : Encoding, ICloneable'
+    content.vb: >-
+      Public Class GSMEncoding
+          Inherits Encoding
+          Implements ICloneable
+  inheritance:
+  - System.Object
+  - System.Text.Encoding
+  derivedClasses:
+  - Inetlab.SMPP.Encodings.GSMPackedEncoding
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+  - System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+  - System.Text.Encoding.GetEncoding(System.Int32)
+  - System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  - System.Text.Encoding.GetEncoding(System.String)
+  - System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  - System.Text.Encoding.GetEncodings
+  - System.Text.Encoding.GetPreamble
+  - System.Text.Encoding.Clone
+  - System.Text.Encoding.GetByteCount(System.Char[])
+  - System.Text.Encoding.GetByteCount(System.String)
+  - System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+  - System.Text.Encoding.GetBytes(System.Char[])
+  - System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+  - System.Text.Encoding.GetBytes(System.String)
+  - System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+  - System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+  - System.Text.Encoding.GetCharCount(System.Byte[])
+  - System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+  - System.Text.Encoding.GetChars(System.Byte[])
+  - System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+  - System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+  - System.Text.Encoding.IsAlwaysNormalized
+  - System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+  - System.Text.Encoding.GetDecoder
+  - System.Text.Encoding.GetEncoder
+  - System.Text.Encoding.GetString(System.Byte[])
+  - System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+  - System.Text.Encoding.Equals(System.Object)
+  - System.Text.Encoding.GetHashCode
+  - System.Text.Encoding.BodyName
+  - System.Text.Encoding.EncodingName
+  - System.Text.Encoding.HeaderName
+  - System.Text.Encoding.WebName
+  - System.Text.Encoding.WindowsCodePage
+  - System.Text.Encoding.IsBrowserDisplay
+  - System.Text.Encoding.IsBrowserSave
+  - System.Text.Encoding.IsMailNewsDisplay
+  - System.Text.Encoding.IsMailNewsSave
+  - System.Text.Encoding.IsSingleByte
+  - System.Text.Encoding.EncoderFallback
+  - System.Text.Encoding.DecoderFallback
+  - System.Text.Encoding.IsReadOnly
+  - System.Text.Encoding.ASCII
+  - System.Text.Encoding.CodePage
+  - System.Text.Encoding.Default
+  - System.Text.Encoding.Unicode
+  - System.Text.Encoding.BigEndianUnicode
+  - System.Text.Encoding.UTF7
+  - System.Text.Encoding.UTF8
+  - System.Text.Encoding.UTF32
+  - System.Object.ToString
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  commentId: P:Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  id: CharacterSet
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: CharacterSet
+  nameWithType: GSMEncoding.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: CharacterSet
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public char[] CharacterSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: Public ReadOnly Property CharacterSet As Char()
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  commentId: P:Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  id: ExtensionSet
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: ExtensionSet
+  nameWithType: GSMEncoding.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ExtensionSet
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 21
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public char[] ExtensionSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: Public ReadOnly Property ExtensionSet As Char()
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.#ctor
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GSMEncoding()
+  nameWithType: GSMEncoding.GSMEncoding()
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 26
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public GSMEncoding()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.#ctor(Inetlab.SMPP.Encodings.IGSMCharsetMap)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.#ctor(Inetlab.SMPP.Encodings.IGSMCharsetMap)
+  id: '#ctor(Inetlab.SMPP.Encodings.IGSMCharsetMap)'
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GSMEncoding(IGSMCharsetMap)
+  nameWithType: GSMEncoding.GSMEncoding(IGSMCharsetMap)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding(Inetlab.SMPP.Encodings.IGSMCharsetMap)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 28
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public GSMEncoding(IGSMCharsetMap charsetMap)
+    parameters:
+    - id: charsetMap
+      type: Inetlab.SMPP.Encodings.IGSMCharsetMap
+    content.vb: Public Sub New(charsetMap As IGSMCharsetMap)
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.#ctor(System.Char[],System.Char[])
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.#ctor(System.Char[],System.Char[])
+  id: '#ctor(System.Char[],System.Char[])'
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GSMEncoding(Char[], Char[])
+  nameWithType: GSMEncoding.GSMEncoding(Char[], Char[])
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding(System.Char[], System.Char[])
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 35
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public GSMEncoding(char[] characterSet, char[] extensionSet)
+    parameters:
+    - id: characterSet
+      type: System.Char[]
+    - id: extensionSet
+      type: System.Char[]
+    content.vb: Public Sub New(characterSet As Char(), extensionSet As Char())
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.#ctor*
+  nameWithType.vb: GSMEncoding.GSMEncoding(Char(), Char())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding(System.Char(), System.Char())
+  name.vb: GSMEncoding(Char(), Char())
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  id: GetByteCount(System.Char[],System.Int32,System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetByteCount(Char[], Int32, Int32)
+  nameWithType: GSMEncoding.GetByteCount(Char[], Int32, Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char[], System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetByteCount
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 59
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetByteCount(char[] chars, int index, int count)
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetByteCount(chars As Char(), index As Integer, count As Integer) As Integer
+  overridden: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount*
+  nameWithType.vb: GSMEncoding.GetByteCount(Char(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char(), System.Int32, System.Int32)
+  name.vb: GetByteCount(Char(), Int32, Int32)
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  id: GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetBytes(Char[], Int32, Int32, Byte[], Int32)
+  nameWithType: GSMEncoding.GetBytes(Char[], Int32, Int32, Byte[], Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char[], System.Int32, System.Int32, System.Byte[], System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetBytes
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 82
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex)
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    - id: charCount
+      type: System.Int32
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetBytes(chars As Char(), charIndex As Integer, charCount As Integer, bytes As Byte(), byteIndex As Integer) As Integer
+  overridden: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes*
+  nameWithType.vb: GSMEncoding.GetBytes(Char(), Int32, Int32, Byte(), Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char(), System.Int32, System.Int32, System.Byte(), System.Int32)
+  name.vb: GetBytes(Char(), Int32, Int32, Byte(), Int32)
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  id: GetCharCount(System.Byte[],System.Int32,System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetCharCount(Byte[], Int32, Int32)
+  nameWithType: GSMEncoding.GetCharCount(Byte[], Int32, Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetCharCount
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 125
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetCharCount(byte[] bytes, int index, int count)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetCharCount(bytes As Byte(), index As Integer, count As Integer) As Integer
+  overridden: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount*
+  nameWithType.vb: GSMEncoding.GetCharCount(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte(), System.Int32, System.Int32)
+  name.vb: GetCharCount(Byte(), Int32, Int32)
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  id: GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetChars(Byte[], Int32, Int32, Char[], Int32)
+  nameWithType: GSMEncoding.GetChars(Byte[], Int32, Int32, Char[], Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte[], System.Int32, System.Int32, System.Char[], System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetChars
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 153
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    - id: byteCount
+      type: System.Int32
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetChars(bytes As Byte(), byteIndex As Integer, byteCount As Integer, chars As Char(), charIndex As Integer) As Integer
+  overridden: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetChars*
+  nameWithType.vb: GSMEncoding.GetChars(Byte(), Int32, Int32, Char(), Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte(), System.Int32, System.Int32, System.Char(), System.Int32)
+  name.vb: GetChars(Byte(), Int32, Int32, Char(), Int32)
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount(System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount(System.Int32)
+  id: GetMaxByteCount(System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetMaxByteCount(Int32)
+  nameWithType: GSMEncoding.GetMaxByteCount(Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetMaxByteCount
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 213
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetMaxByteCount(int charCount)
+    parameters:
+    - id: charCount
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetMaxByteCount(charCount As Integer) As Integer
+  overridden: System.Text.Encoding.GetMaxByteCount(System.Int32)
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount(System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount(System.Int32)
+  id: GetMaxCharCount(System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetMaxCharCount(Int32)
+  nameWithType: GSMEncoding.GetMaxCharCount(Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Encodings/GSMEncoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetMaxCharCount
+    path: ../Source/CS/Encodings/GSMEncoding.cs
+    startLine: 218
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetMaxCharCount(int byteCount)
+    parameters:
+    - id: byteCount
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetMaxCharCount(byteCount As Integer) As Integer
+  overridden: System.Text.Encoding.GetMaxCharCount(System.Int32)
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.Encodings
+  commentId: N:Inetlab.SMPP.Encodings
+  isExternal: false
+  name: Inetlab.SMPP.Encodings
+  nameWithType: Inetlab.SMPP.Encodings
+  fullName: Inetlab.SMPP.Encodings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+  commentId: M:System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+  parent: System.Text.Encoding
+  isExternal: true
+  name: Convert(Encoding, Encoding, Byte[])
+  nameWithType: Encoding.Convert(Encoding, Encoding, Byte[])
+  fullName: System.Text.Encoding.Convert(System.Text.Encoding, System.Text.Encoding, System.Byte[])
+  nameWithType.vb: Encoding.Convert(Encoding, Encoding, Byte())
+  fullName.vb: System.Text.Encoding.Convert(System.Text.Encoding, System.Text.Encoding, System.Byte())
+  name.vb: Convert(Encoding, Encoding, Byte())
+  spec.csharp:
+  - uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+    name: Convert
+    nameWithType: Encoding.Convert
+    fullName: System.Text.Encoding.Convert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[])
+    name: Convert
+    nameWithType: Encoding.Convert
+    fullName: System.Text.Encoding.Convert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: Convert(Encoding, Encoding, Byte[], Int32, Int32)
+  nameWithType: Encoding.Convert(Encoding, Encoding, Byte[], Int32, Int32)
+  fullName: System.Text.Encoding.Convert(System.Text.Encoding, System.Text.Encoding, System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: Encoding.Convert(Encoding, Encoding, Byte(), Int32, Int32)
+  fullName.vb: System.Text.Encoding.Convert(System.Text.Encoding, System.Text.Encoding, System.Byte(), System.Int32, System.Int32)
+  name.vb: Convert(Encoding, Encoding, Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+    name: Convert
+    nameWithType: Encoding.Convert
+    fullName: System.Text.Encoding.Convert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.Convert(System.Text.Encoding,System.Text.Encoding,System.Byte[],System.Int32,System.Int32)
+    name: Convert
+    nameWithType: Encoding.Convert
+    fullName: System.Text.Encoding.Convert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.Encoding
+    name: Encoding
+    nameWithType: Encoding
+    fullName: System.Text.Encoding
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetEncoding(System.Int32)
+  commentId: M:System.Text.Encoding.GetEncoding(System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetEncoding(Int32)
+  nameWithType: Encoding.GetEncoding(Int32)
+  fullName: System.Text.Encoding.GetEncoding(System.Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoding(System.Int32)
+    name: GetEncoding
+    nameWithType: Encoding.GetEncoding
+    fullName: System.Text.Encoding.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoding(System.Int32)
+    name: GetEncoding
+    nameWithType: Encoding.GetEncoding
+    fullName: System.Text.Encoding.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  commentId: M:System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetEncoding(Int32, EncoderFallback, DecoderFallback)
+  nameWithType: Encoding.GetEncoding(Int32, EncoderFallback, DecoderFallback)
+  fullName: System.Text.Encoding.GetEncoding(System.Int32, System.Text.EncoderFallback, System.Text.DecoderFallback)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+    name: GetEncoding
+    nameWithType: Encoding.GetEncoding
+    fullName: System.Text.Encoding.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.EncoderFallback
+    name: EncoderFallback
+    nameWithType: EncoderFallback
+    fullName: System.Text.EncoderFallback
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.DecoderFallback
+    name: DecoderFallback
+    nameWithType: DecoderFallback
+    fullName: System.Text.DecoderFallback
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoding(System.Int32,System.Text.EncoderFallback,System.Text.DecoderFallback)
+    name: GetEncoding
+    nameWithType: Encoding.GetEncoding
+    fullName: System.Text.Encoding.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.EncoderFallback
+    name: EncoderFallback
+    nameWithType: EncoderFallback
+    fullName: System.Text.EncoderFallback
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.DecoderFallback
+    name: DecoderFallback
+    nameWithType: DecoderFallback
+    fullName: System.Text.DecoderFallback
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetEncoding(System.String)
+  commentId: M:System.Text.Encoding.GetEncoding(System.String)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetEncoding(String)
+  nameWithType: Encoding.GetEncoding(String)
+  fullName: System.Text.Encoding.GetEncoding(System.String)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoding(System.String)
+    name: GetEncoding
+    nameWithType: Encoding.GetEncoding
+    fullName: System.Text.Encoding.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoding(System.String)
+    name: GetEncoding
+    nameWithType: Encoding.GetEncoding
+    fullName: System.Text.Encoding.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  commentId: M:System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetEncoding(String, EncoderFallback, DecoderFallback)
+  nameWithType: Encoding.GetEncoding(String, EncoderFallback, DecoderFallback)
+  fullName: System.Text.Encoding.GetEncoding(System.String, System.Text.EncoderFallback, System.Text.DecoderFallback)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+    name: GetEncoding
+    nameWithType: Encoding.GetEncoding
+    fullName: System.Text.Encoding.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.EncoderFallback
+    name: EncoderFallback
+    nameWithType: EncoderFallback
+    fullName: System.Text.EncoderFallback
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.DecoderFallback
+    name: DecoderFallback
+    nameWithType: DecoderFallback
+    fullName: System.Text.DecoderFallback
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoding(System.String,System.Text.EncoderFallback,System.Text.DecoderFallback)
+    name: GetEncoding
+    nameWithType: Encoding.GetEncoding
+    fullName: System.Text.Encoding.GetEncoding
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.EncoderFallback
+    name: EncoderFallback
+    nameWithType: EncoderFallback
+    fullName: System.Text.EncoderFallback
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Text.DecoderFallback
+    name: DecoderFallback
+    nameWithType: DecoderFallback
+    fullName: System.Text.DecoderFallback
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetEncodings
+  commentId: M:System.Text.Encoding.GetEncodings
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetEncodings()
+  nameWithType: Encoding.GetEncodings()
+  fullName: System.Text.Encoding.GetEncodings()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncodings
+    name: GetEncodings
+    nameWithType: Encoding.GetEncodings
+    fullName: System.Text.Encoding.GetEncodings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncodings
+    name: GetEncodings
+    nameWithType: Encoding.GetEncodings
+    fullName: System.Text.Encoding.GetEncodings
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetPreamble
+  commentId: M:System.Text.Encoding.GetPreamble
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetPreamble()
+  nameWithType: Encoding.GetPreamble()
+  fullName: System.Text.Encoding.GetPreamble()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetPreamble
+    name: GetPreamble
+    nameWithType: Encoding.GetPreamble
+    fullName: System.Text.Encoding.GetPreamble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetPreamble
+    name: GetPreamble
+    nameWithType: Encoding.GetPreamble
+    fullName: System.Text.Encoding.GetPreamble
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.Clone
+  commentId: M:System.Text.Encoding.Clone
+  parent: System.Text.Encoding
+  isExternal: true
+  name: Clone()
+  nameWithType: Encoding.Clone()
+  fullName: System.Text.Encoding.Clone()
+  spec.csharp:
+  - uid: System.Text.Encoding.Clone
+    name: Clone
+    nameWithType: Encoding.Clone
+    fullName: System.Text.Encoding.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.Clone
+    name: Clone
+    nameWithType: Encoding.Clone
+    fullName: System.Text.Encoding.Clone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetByteCount(System.Char[])
+  commentId: M:System.Text.Encoding.GetByteCount(System.Char[])
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetByteCount(Char[])
+  nameWithType: Encoding.GetByteCount(Char[])
+  fullName: System.Text.Encoding.GetByteCount(System.Char[])
+  nameWithType.vb: Encoding.GetByteCount(Char())
+  fullName.vb: System.Text.Encoding.GetByteCount(System.Char())
+  name.vb: GetByteCount(Char())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.Char[])
+    name: GetByteCount
+    nameWithType: Encoding.GetByteCount
+    fullName: System.Text.Encoding.GetByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.Char[])
+    name: GetByteCount
+    nameWithType: Encoding.GetByteCount
+    fullName: System.Text.Encoding.GetByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetByteCount(System.String)
+  commentId: M:System.Text.Encoding.GetByteCount(System.String)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetByteCount(String)
+  nameWithType: Encoding.GetByteCount(String)
+  fullName: System.Text.Encoding.GetByteCount(System.String)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.String)
+    name: GetByteCount
+    nameWithType: Encoding.GetByteCount
+    fullName: System.Text.Encoding.GetByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.String)
+    name: GetByteCount
+    nameWithType: Encoding.GetByteCount
+    fullName: System.Text.Encoding.GetByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+  commentId: M:System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetByteCount(Char*, Int32)
+  nameWithType: Encoding.GetByteCount(Char*, Int32)
+  fullName: System.Text.Encoding.GetByteCount(System.Char*, System.Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+    name: GetByteCount
+    nameWithType: Encoding.GetByteCount
+    fullName: System.Text.Encoding.GetByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.Char*,System.Int32)
+    name: GetByteCount
+    nameWithType: Encoding.GetByteCount
+    fullName: System.Text.Encoding.GetByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetBytes(System.Char[])
+  commentId: M:System.Text.Encoding.GetBytes(System.Char[])
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetBytes(Char[])
+  nameWithType: Encoding.GetBytes(Char[])
+  fullName: System.Text.Encoding.GetBytes(System.Char[])
+  nameWithType.vb: Encoding.GetBytes(Char())
+  fullName.vb: System.Text.Encoding.GetBytes(System.Char())
+  name.vb: GetBytes(Char())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.Char[])
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.Char[])
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetBytes(Char[], Int32, Int32)
+  nameWithType: Encoding.GetBytes(Char[], Int32, Int32)
+  fullName: System.Text.Encoding.GetBytes(System.Char[], System.Int32, System.Int32)
+  nameWithType.vb: Encoding.GetBytes(Char(), Int32, Int32)
+  fullName.vb: System.Text.Encoding.GetBytes(System.Char(), System.Int32, System.Int32)
+  name.vb: GetBytes(Char(), Int32, Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetBytes(System.String)
+  commentId: M:System.Text.Encoding.GetBytes(System.String)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetBytes(String)
+  nameWithType: Encoding.GetBytes(String)
+  fullName: System.Text.Encoding.GetBytes(System.String)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.String)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.String)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+  commentId: M:System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetBytes(String, Int32, Int32, Byte[], Int32)
+  nameWithType: Encoding.GetBytes(String, Int32, Int32, Byte[], Int32)
+  fullName: System.Text.Encoding.GetBytes(System.String, System.Int32, System.Int32, System.Byte[], System.Int32)
+  nameWithType.vb: Encoding.GetBytes(String, Int32, Int32, Byte(), Int32)
+  fullName.vb: System.Text.Encoding.GetBytes(System.String, System.Int32, System.Int32, System.Byte(), System.Int32)
+  name.vb: GetBytes(String, Int32, Int32, Byte(), Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.String,System.Int32,System.Int32,System.Byte[],System.Int32)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+  commentId: M:System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetBytes(Char*, Int32, Byte*, Int32)
+  nameWithType: Encoding.GetBytes(Char*, Int32, Byte*, Int32)
+  fullName: System.Text.Encoding.GetBytes(System.Char*, System.Int32, System.Byte*, System.Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.Char*,System.Int32,System.Byte*,System.Int32)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetCharCount(System.Byte[])
+  commentId: M:System.Text.Encoding.GetCharCount(System.Byte[])
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetCharCount(Byte[])
+  nameWithType: Encoding.GetCharCount(Byte[])
+  fullName: System.Text.Encoding.GetCharCount(System.Byte[])
+  nameWithType.vb: Encoding.GetCharCount(Byte())
+  fullName.vb: System.Text.Encoding.GetCharCount(System.Byte())
+  name.vb: GetCharCount(Byte())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte[])
+    name: GetCharCount
+    nameWithType: Encoding.GetCharCount
+    fullName: System.Text.Encoding.GetCharCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte[])
+    name: GetCharCount
+    nameWithType: Encoding.GetCharCount
+    fullName: System.Text.Encoding.GetCharCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+  commentId: M:System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetCharCount(Byte*, Int32)
+  nameWithType: Encoding.GetCharCount(Byte*, Int32)
+  fullName: System.Text.Encoding.GetCharCount(System.Byte*, System.Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+    name: GetCharCount
+    nameWithType: Encoding.GetCharCount
+    fullName: System.Text.Encoding.GetCharCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte*,System.Int32)
+    name: GetCharCount
+    nameWithType: Encoding.GetCharCount
+    fullName: System.Text.Encoding.GetCharCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetChars(System.Byte[])
+  commentId: M:System.Text.Encoding.GetChars(System.Byte[])
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetChars(Byte[])
+  nameWithType: Encoding.GetChars(Byte[])
+  fullName: System.Text.Encoding.GetChars(System.Byte[])
+  nameWithType.vb: Encoding.GetChars(Byte())
+  fullName.vb: System.Text.Encoding.GetChars(System.Byte())
+  name.vb: GetChars(Byte())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetChars(System.Byte[])
+    name: GetChars
+    nameWithType: Encoding.GetChars
+    fullName: System.Text.Encoding.GetChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetChars(System.Byte[])
+    name: GetChars
+    nameWithType: Encoding.GetChars
+    fullName: System.Text.Encoding.GetChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetChars(Byte[], Int32, Int32)
+  nameWithType: Encoding.GetChars(Byte[], Int32, Int32)
+  fullName: System.Text.Encoding.GetChars(System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: Encoding.GetChars(Byte(), Int32, Int32)
+  fullName.vb: System.Text.Encoding.GetChars(System.Byte(), System.Int32, System.Int32)
+  name.vb: GetChars(Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+    name: GetChars
+    nameWithType: Encoding.GetChars
+    fullName: System.Text.Encoding.GetChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32)
+    name: GetChars
+    nameWithType: Encoding.GetChars
+    fullName: System.Text.Encoding.GetChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+  commentId: M:System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetChars(Byte*, Int32, Char*, Int32)
+  nameWithType: Encoding.GetChars(Byte*, Int32, Char*, Int32)
+  fullName: System.Text.Encoding.GetChars(System.Byte*, System.Int32, System.Char*, System.Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+    name: GetChars
+    nameWithType: Encoding.GetChars
+    fullName: System.Text.Encoding.GetChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetChars(System.Byte*,System.Int32,System.Char*,System.Int32)
+    name: GetChars
+    nameWithType: Encoding.GetChars
+    fullName: System.Text.Encoding.GetChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '*'
+    nameWithType: '*'
+    fullName: '*'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.IsAlwaysNormalized
+  commentId: M:System.Text.Encoding.IsAlwaysNormalized
+  parent: System.Text.Encoding
+  isExternal: true
+  name: IsAlwaysNormalized()
+  nameWithType: Encoding.IsAlwaysNormalized()
+  fullName: System.Text.Encoding.IsAlwaysNormalized()
+  spec.csharp:
+  - uid: System.Text.Encoding.IsAlwaysNormalized
+    name: IsAlwaysNormalized
+    nameWithType: Encoding.IsAlwaysNormalized
+    fullName: System.Text.Encoding.IsAlwaysNormalized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.IsAlwaysNormalized
+    name: IsAlwaysNormalized
+    nameWithType: Encoding.IsAlwaysNormalized
+    fullName: System.Text.Encoding.IsAlwaysNormalized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+  commentId: M:System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: IsAlwaysNormalized(NormalizationForm)
+  nameWithType: Encoding.IsAlwaysNormalized(NormalizationForm)
+  fullName: System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+  spec.csharp:
+  - uid: System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+    name: IsAlwaysNormalized
+    nameWithType: Encoding.IsAlwaysNormalized
+    fullName: System.Text.Encoding.IsAlwaysNormalized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Text.NormalizationForm
+    name: NormalizationForm
+    nameWithType: NormalizationForm
+    fullName: System.Text.NormalizationForm
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.IsAlwaysNormalized(System.Text.NormalizationForm)
+    name: IsAlwaysNormalized
+    nameWithType: Encoding.IsAlwaysNormalized
+    fullName: System.Text.Encoding.IsAlwaysNormalized
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Text.NormalizationForm
+    name: NormalizationForm
+    nameWithType: NormalizationForm
+    fullName: System.Text.NormalizationForm
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetDecoder
+  commentId: M:System.Text.Encoding.GetDecoder
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetDecoder()
+  nameWithType: Encoding.GetDecoder()
+  fullName: System.Text.Encoding.GetDecoder()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetDecoder
+    name: GetDecoder
+    nameWithType: Encoding.GetDecoder
+    fullName: System.Text.Encoding.GetDecoder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetDecoder
+    name: GetDecoder
+    nameWithType: Encoding.GetDecoder
+    fullName: System.Text.Encoding.GetDecoder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetEncoder
+  commentId: M:System.Text.Encoding.GetEncoder
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetEncoder()
+  nameWithType: Encoding.GetEncoder()
+  fullName: System.Text.Encoding.GetEncoder()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetEncoder
+    name: GetEncoder
+    nameWithType: Encoding.GetEncoder
+    fullName: System.Text.Encoding.GetEncoder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetEncoder
+    name: GetEncoder
+    nameWithType: Encoding.GetEncoder
+    fullName: System.Text.Encoding.GetEncoder
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetString(System.Byte[])
+  commentId: M:System.Text.Encoding.GetString(System.Byte[])
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetString(Byte[])
+  nameWithType: Encoding.GetString(Byte[])
+  fullName: System.Text.Encoding.GetString(System.Byte[])
+  nameWithType.vb: Encoding.GetString(Byte())
+  fullName.vb: System.Text.Encoding.GetString(System.Byte())
+  name.vb: GetString(Byte())
+  spec.csharp:
+  - uid: System.Text.Encoding.GetString(System.Byte[])
+    name: GetString
+    nameWithType: Encoding.GetString
+    fullName: System.Text.Encoding.GetString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetString(System.Byte[])
+    name: GetString
+    nameWithType: Encoding.GetString
+    fullName: System.Text.Encoding.GetString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetString(Byte[], Int32, Int32)
+  nameWithType: Encoding.GetString(Byte[], Int32, Int32)
+  fullName: System.Text.Encoding.GetString(System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: Encoding.GetString(Byte(), Int32, Int32)
+  fullName.vb: System.Text.Encoding.GetString(System.Byte(), System.Int32, System.Int32)
+  name.vb: GetString(Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+    name: GetString
+    nameWithType: Encoding.GetString
+    fullName: System.Text.Encoding.GetString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetString(System.Byte[],System.Int32,System.Int32)
+    name: GetString
+    nameWithType: Encoding.GetString
+    fullName: System.Text.Encoding.GetString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.Equals(System.Object)
+  commentId: M:System.Text.Encoding.Equals(System.Object)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Encoding.Equals(Object)
+  fullName: System.Text.Encoding.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Text.Encoding.Equals(System.Object)
+    name: Equals
+    nameWithType: Encoding.Equals
+    fullName: System.Text.Encoding.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.Equals(System.Object)
+    name: Equals
+    nameWithType: Encoding.Equals
+    fullName: System.Text.Encoding.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.GetHashCode
+  commentId: M:System.Text.Encoding.GetHashCode
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Encoding.GetHashCode()
+  fullName: System.Text.Encoding.GetHashCode()
+  spec.csharp:
+  - uid: System.Text.Encoding.GetHashCode
+    name: GetHashCode
+    nameWithType: Encoding.GetHashCode
+    fullName: System.Text.Encoding.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetHashCode
+    name: GetHashCode
+    nameWithType: Encoding.GetHashCode
+    fullName: System.Text.Encoding.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Text.Encoding.BodyName
+  commentId: P:System.Text.Encoding.BodyName
+  parent: System.Text.Encoding
+  isExternal: true
+  name: BodyName
+  nameWithType: Encoding.BodyName
+  fullName: System.Text.Encoding.BodyName
+- uid: System.Text.Encoding.EncodingName
+  commentId: P:System.Text.Encoding.EncodingName
+  parent: System.Text.Encoding
+  isExternal: true
+  name: EncodingName
+  nameWithType: Encoding.EncodingName
+  fullName: System.Text.Encoding.EncodingName
+- uid: System.Text.Encoding.HeaderName
+  commentId: P:System.Text.Encoding.HeaderName
+  parent: System.Text.Encoding
+  isExternal: true
+  name: HeaderName
+  nameWithType: Encoding.HeaderName
+  fullName: System.Text.Encoding.HeaderName
+- uid: System.Text.Encoding.WebName
+  commentId: P:System.Text.Encoding.WebName
+  parent: System.Text.Encoding
+  isExternal: true
+  name: WebName
+  nameWithType: Encoding.WebName
+  fullName: System.Text.Encoding.WebName
+- uid: System.Text.Encoding.WindowsCodePage
+  commentId: P:System.Text.Encoding.WindowsCodePage
+  parent: System.Text.Encoding
+  isExternal: true
+  name: WindowsCodePage
+  nameWithType: Encoding.WindowsCodePage
+  fullName: System.Text.Encoding.WindowsCodePage
+- uid: System.Text.Encoding.IsBrowserDisplay
+  commentId: P:System.Text.Encoding.IsBrowserDisplay
+  parent: System.Text.Encoding
+  isExternal: true
+  name: IsBrowserDisplay
+  nameWithType: Encoding.IsBrowserDisplay
+  fullName: System.Text.Encoding.IsBrowserDisplay
+- uid: System.Text.Encoding.IsBrowserSave
+  commentId: P:System.Text.Encoding.IsBrowserSave
+  parent: System.Text.Encoding
+  isExternal: true
+  name: IsBrowserSave
+  nameWithType: Encoding.IsBrowserSave
+  fullName: System.Text.Encoding.IsBrowserSave
+- uid: System.Text.Encoding.IsMailNewsDisplay
+  commentId: P:System.Text.Encoding.IsMailNewsDisplay
+  parent: System.Text.Encoding
+  isExternal: true
+  name: IsMailNewsDisplay
+  nameWithType: Encoding.IsMailNewsDisplay
+  fullName: System.Text.Encoding.IsMailNewsDisplay
+- uid: System.Text.Encoding.IsMailNewsSave
+  commentId: P:System.Text.Encoding.IsMailNewsSave
+  parent: System.Text.Encoding
+  isExternal: true
+  name: IsMailNewsSave
+  nameWithType: Encoding.IsMailNewsSave
+  fullName: System.Text.Encoding.IsMailNewsSave
+- uid: System.Text.Encoding.IsSingleByte
+  commentId: P:System.Text.Encoding.IsSingleByte
+  parent: System.Text.Encoding
+  isExternal: true
+  name: IsSingleByte
+  nameWithType: Encoding.IsSingleByte
+  fullName: System.Text.Encoding.IsSingleByte
+- uid: System.Text.Encoding.EncoderFallback
+  commentId: P:System.Text.Encoding.EncoderFallback
+  parent: System.Text.Encoding
+  isExternal: true
+  name: EncoderFallback
+  nameWithType: Encoding.EncoderFallback
+  fullName: System.Text.Encoding.EncoderFallback
+- uid: System.Text.Encoding.DecoderFallback
+  commentId: P:System.Text.Encoding.DecoderFallback
+  parent: System.Text.Encoding
+  isExternal: true
+  name: DecoderFallback
+  nameWithType: Encoding.DecoderFallback
+  fullName: System.Text.Encoding.DecoderFallback
+- uid: System.Text.Encoding.IsReadOnly
+  commentId: P:System.Text.Encoding.IsReadOnly
+  parent: System.Text.Encoding
+  isExternal: true
+  name: IsReadOnly
+  nameWithType: Encoding.IsReadOnly
+  fullName: System.Text.Encoding.IsReadOnly
+- uid: System.Text.Encoding.ASCII
+  commentId: P:System.Text.Encoding.ASCII
+  parent: System.Text.Encoding
+  isExternal: true
+  name: ASCII
+  nameWithType: Encoding.ASCII
+  fullName: System.Text.Encoding.ASCII
+- uid: System.Text.Encoding.CodePage
+  commentId: P:System.Text.Encoding.CodePage
+  parent: System.Text.Encoding
+  isExternal: true
+  name: CodePage
+  nameWithType: Encoding.CodePage
+  fullName: System.Text.Encoding.CodePage
+- uid: System.Text.Encoding.Default
+  commentId: P:System.Text.Encoding.Default
+  parent: System.Text.Encoding
+  isExternal: true
+  name: Default
+  nameWithType: Encoding.Default
+  fullName: System.Text.Encoding.Default
+- uid: System.Text.Encoding.Unicode
+  commentId: P:System.Text.Encoding.Unicode
+  parent: System.Text.Encoding
+  isExternal: true
+  name: Unicode
+  nameWithType: Encoding.Unicode
+  fullName: System.Text.Encoding.Unicode
+- uid: System.Text.Encoding.BigEndianUnicode
+  commentId: P:System.Text.Encoding.BigEndianUnicode
+  parent: System.Text.Encoding
+  isExternal: true
+  name: BigEndianUnicode
+  nameWithType: Encoding.BigEndianUnicode
+  fullName: System.Text.Encoding.BigEndianUnicode
+- uid: System.Text.Encoding.UTF7
+  commentId: P:System.Text.Encoding.UTF7
+  parent: System.Text.Encoding
+  isExternal: true
+  name: UTF7
+  nameWithType: Encoding.UTF7
+  fullName: System.Text.Encoding.UTF7
+- uid: System.Text.Encoding.UTF8
+  commentId: P:System.Text.Encoding.UTF8
+  parent: System.Text.Encoding
+  isExternal: true
+  name: UTF8
+  nameWithType: Encoding.UTF8
+  fullName: System.Text.Encoding.UTF8
+- uid: System.Text.Encoding.UTF32
+  commentId: P:System.Text.Encoding.UTF32
+  parent: System.Text.Encoding
+  isExternal: true
+  name: UTF32
+  nameWithType: Encoding.UTF32
+  fullName: System.Text.Encoding.UTF32
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: false
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  isExternal: false
+  name: CharacterSet
+  nameWithType: GSMEncoding.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+- uid: System.Char[]
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
+  nameWithType.vb: Char()
+  fullName.vb: System.Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  isExternal: false
+  name: ExtensionSet
+  nameWithType: GSMEncoding.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.#ctor*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.#ctor
+  isExternal: false
+  name: GSMEncoding
+  nameWithType: GSMEncoding.GSMEncoding
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.IGSMCharsetMap
+  parent: Inetlab.SMPP.Encodings
+  isExternal: false
+  name: IGSMCharsetMap
+  nameWithType: IGSMCharsetMap
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap
+- uid: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetByteCount(Char[], Int32, Int32)
+  nameWithType: Encoding.GetByteCount(Char[], Int32, Int32)
+  fullName: System.Text.Encoding.GetByteCount(System.Char[], System.Int32, System.Int32)
+  nameWithType.vb: Encoding.GetByteCount(Char(), Int32, Int32)
+  fullName.vb: System.Text.Encoding.GetByteCount(System.Char(), System.Int32, System.Int32)
+  name.vb: GetByteCount(Char(), Int32, Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+    name: GetByteCount
+    nameWithType: Encoding.GetByteCount
+    fullName: System.Text.Encoding.GetByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+    name: GetByteCount
+    nameWithType: Encoding.GetByteCount
+    fullName: System.Text.Encoding.GetByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount
+  isExternal: false
+  name: GetByteCount
+  nameWithType: GSMEncoding.GetByteCount
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  commentId: M:System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetBytes(Char[], Int32, Int32, Byte[], Int32)
+  nameWithType: Encoding.GetBytes(Char[], Int32, Int32, Byte[], Int32)
+  fullName: System.Text.Encoding.GetBytes(System.Char[], System.Int32, System.Int32, System.Byte[], System.Int32)
+  nameWithType.vb: Encoding.GetBytes(Char(), Int32, Int32, Byte(), Int32)
+  fullName.vb: System.Text.Encoding.GetBytes(System.Char(), System.Int32, System.Int32, System.Byte(), System.Int32)
+  name.vb: GetBytes(Char(), Int32, Int32, Byte(), Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+    name: GetBytes
+    nameWithType: Encoding.GetBytes
+    fullName: System.Text.Encoding.GetBytes
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetBytes
+  isExternal: false
+  name: GetBytes
+  nameWithType: GSMEncoding.GetBytes
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  commentId: M:System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetCharCount(Byte[], Int32, Int32)
+  nameWithType: Encoding.GetCharCount(Byte[], Int32, Int32)
+  fullName: System.Text.Encoding.GetCharCount(System.Byte[], System.Int32, System.Int32)
+  nameWithType.vb: Encoding.GetCharCount(Byte(), Int32, Int32)
+  fullName.vb: System.Text.Encoding.GetCharCount(System.Byte(), System.Int32, System.Int32)
+  name.vb: GetCharCount(Byte(), Int32, Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+    name: GetCharCount
+    nameWithType: Encoding.GetCharCount
+    fullName: System.Text.Encoding.GetCharCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+    name: GetCharCount
+    nameWithType: Encoding.GetCharCount
+    fullName: System.Text.Encoding.GetCharCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount
+  isExternal: false
+  name: GetCharCount
+  nameWithType: GSMEncoding.GetCharCount
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount
+- uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  commentId: M:System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetChars(Byte[], Int32, Int32, Char[], Int32)
+  nameWithType: Encoding.GetChars(Byte[], Int32, Int32, Char[], Int32)
+  fullName: System.Text.Encoding.GetChars(System.Byte[], System.Int32, System.Int32, System.Char[], System.Int32)
+  nameWithType.vb: Encoding.GetChars(Byte(), Int32, Int32, Char(), Int32)
+  fullName.vb: System.Text.Encoding.GetChars(System.Byte(), System.Int32, System.Int32, System.Char(), System.Int32)
+  name.vb: GetChars(Byte(), Int32, Int32, Char(), Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+    name: GetChars
+    nameWithType: Encoding.GetChars
+    fullName: System.Text.Encoding.GetChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+    name: GetChars
+    nameWithType: Encoding.GetChars
+    fullName: System.Text.Encoding.GetChars
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetChars*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetChars
+  isExternal: false
+  name: GetChars
+  nameWithType: GSMEncoding.GetChars
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetChars
+- uid: System.Text.Encoding.GetMaxByteCount(System.Int32)
+  commentId: M:System.Text.Encoding.GetMaxByteCount(System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetMaxByteCount(Int32)
+  nameWithType: Encoding.GetMaxByteCount(Int32)
+  fullName: System.Text.Encoding.GetMaxByteCount(System.Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetMaxByteCount(System.Int32)
+    name: GetMaxByteCount
+    nameWithType: Encoding.GetMaxByteCount
+    fullName: System.Text.Encoding.GetMaxByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetMaxByteCount(System.Int32)
+    name: GetMaxByteCount
+    nameWithType: Encoding.GetMaxByteCount
+    fullName: System.Text.Encoding.GetMaxByteCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount
+  isExternal: false
+  name: GetMaxByteCount
+  nameWithType: GSMEncoding.GetMaxByteCount
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount
+- uid: System.Text.Encoding.GetMaxCharCount(System.Int32)
+  commentId: M:System.Text.Encoding.GetMaxCharCount(System.Int32)
+  parent: System.Text.Encoding
+  isExternal: true
+  name: GetMaxCharCount(Int32)
+  nameWithType: Encoding.GetMaxCharCount(Int32)
+  fullName: System.Text.Encoding.GetMaxCharCount(System.Int32)
+  spec.csharp:
+  - uid: System.Text.Encoding.GetMaxCharCount(System.Int32)
+    name: GetMaxCharCount
+    nameWithType: Encoding.GetMaxCharCount
+    fullName: System.Text.Encoding.GetMaxCharCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Text.Encoding.GetMaxCharCount(System.Int32)
+    name: GetMaxCharCount
+    nameWithType: Encoding.GetMaxCharCount
+    fullName: System.Text.Encoding.GetMaxCharCount
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount
+  isExternal: false
+  name: GetMaxCharCount
+  nameWithType: GSMEncoding.GetMaxCharCount
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount

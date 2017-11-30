@@ -1,0 +1,206 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.MessageClass
+  commentId: T:Inetlab.MMS.MM7.MessageClass
+  id: MessageClass
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.MessageClass.Advertisement
+  - Inetlab.MMS.MM7.MessageClass.Auto
+  - Inetlab.MMS.MM7.MessageClass.Informational
+  - Inetlab.MMS.MM7.MessageClass.Personal
+  langs:
+  - csharp
+  - vb
+  name: MessageClass
+  nameWithType: MessageClass
+  fullName: Inetlab.MMS.MM7.MessageClass
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MM7/MessageClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MessageClass
+    path: ../Source/CS/MM7/MessageClass.cs
+    startLine: 10
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nSpecifies the class of the message\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [Obfuscation(Exclude = true, ApplyToMembers = true)]
+
+      public enum MessageClass
+    content.vb: >-
+      <Serializable>
+
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True)>
+
+      Public Enum MessageClass
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.MM7.MessageClass.Personal
+  commentId: F:Inetlab.MMS.MM7.MessageClass.Personal
+  id: Personal
+  parent: Inetlab.MMS.MM7.MessageClass
+  langs:
+  - csharp
+  - vb
+  name: Personal
+  nameWithType: MessageClass.Personal
+  fullName: Inetlab.MMS.MM7.MessageClass.Personal
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/MessageClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Personal
+    path: ../Source/CS/MM7/MessageClass.cs
+    startLine: 14
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: Personal = 128
+    return:
+      type: Inetlab.MMS.MM7.MessageClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.MessageClass.Advertisement
+  commentId: F:Inetlab.MMS.MM7.MessageClass.Advertisement
+  id: Advertisement
+  parent: Inetlab.MMS.MM7.MessageClass
+  langs:
+  - csharp
+  - vb
+  name: Advertisement
+  nameWithType: MessageClass.Advertisement
+  fullName: Inetlab.MMS.MM7.MessageClass.Advertisement
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/MessageClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Advertisement
+    path: ../Source/CS/MM7/MessageClass.cs
+    startLine: 15
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: Advertisement = 129
+    return:
+      type: Inetlab.MMS.MM7.MessageClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.MessageClass.Informational
+  commentId: F:Inetlab.MMS.MM7.MessageClass.Informational
+  id: Informational
+  parent: Inetlab.MMS.MM7.MessageClass
+  langs:
+  - csharp
+  - vb
+  name: Informational
+  nameWithType: MessageClass.Informational
+  fullName: Inetlab.MMS.MM7.MessageClass.Informational
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/MessageClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Informational
+    path: ../Source/CS/MM7/MessageClass.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: Informational = 130
+    return:
+      type: Inetlab.MMS.MM7.MessageClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.MessageClass.Auto
+  commentId: F:Inetlab.MMS.MM7.MessageClass.Auto
+  id: Auto
+  parent: Inetlab.MMS.MM7.MessageClass
+  langs:
+  - csharp
+  - vb
+  name: Auto
+  nameWithType: MessageClass.Auto
+  fullName: Inetlab.MMS.MM7.MessageClass.Auto
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/MessageClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Auto
+    path: ../Source/CS/MM7/MessageClass.cs
+    startLine: 17
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: Auto = 131
+    return:
+      type: Inetlab.MMS.MM7.MessageClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: Inetlab.MMS.MM7.MessageClass
+  commentId: T:Inetlab.MMS.MM7.MessageClass
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: MessageClass
+  nameWithType: MessageClass
+  fullName: Inetlab.MMS.MM7.MessageClass

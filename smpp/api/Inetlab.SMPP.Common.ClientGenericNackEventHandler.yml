@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.ClientGenericNackEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientGenericNackEventHandler
+  id: ClientGenericNackEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ClientGenericNackEventHandler
+  nameWithType: ClientGenericNackEventHandler
+  fullName: Inetlab.SMPP.Common.ClientGenericNackEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Source/CS/Common/Delegates.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ClientGenericNackEventHandler
+    path: ../Source/CS/Common/Delegates.cs
+    startLine: 79
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void ClientGenericNackEventHandler(object sender, SmppServerClient client, GenericNack data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: client
+      type: Inetlab.SMPP.Common.SmppServerClient
+    - id: data
+      type: Inetlab.SMPP.PDU.GenericNack
+    content.vb: Public Delegate Sub ClientGenericNackEventHandler(sender As Object, client As SmppServerClient, data As GenericNack)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.SmppServerClient
+  commentId: T:Inetlab.SMPP.Common.SmppServerClient
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: SmppServerClient
+  nameWithType: SmppServerClient
+  fullName: Inetlab.SMPP.Common.SmppServerClient
+- uid: Inetlab.SMPP.PDU.GenericNack
+  commentId: T:Inetlab.SMPP.PDU.GenericNack
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: GenericNack
+  nameWithType: GenericNack
+  fullName: Inetlab.SMPP.PDU.GenericNack
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU

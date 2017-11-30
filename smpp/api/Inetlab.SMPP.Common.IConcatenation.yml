@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.IConcatenation
+  commentId: T:Inetlab.SMPP.Common.IConcatenation
+  id: IConcatenation
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.IConcatenation.Concatenation
+  - Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+  langs:
+  - csharp
+  - vb
+  name: IConcatenation
+  nameWithType: IConcatenation
+  fullName: Inetlab.SMPP.Common.IConcatenation
+  type: Interface
+  source:
+    remote:
+      path: Source/CS/Common/IConcatenation.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: IConcatenation
+    path: ../Source/CS/Common/IConcatenation.cs
+    startLine: 2
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public interface IConcatenation
+    content.vb: Public Interface IConcatenation
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Inetlab.SMPP.Common.IConcatenation.Concatenation
+  commentId: P:Inetlab.SMPP.Common.IConcatenation.Concatenation
+  id: Concatenation
+  parent: Inetlab.SMPP.Common.IConcatenation
+  langs:
+  - csharp
+  - vb
+  name: Concatenation
+  nameWithType: IConcatenation.Concatenation
+  fullName: Inetlab.SMPP.Common.IConcatenation.Concatenation
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/IConcatenation.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Concatenation
+    path: ../Source/CS/Common/IConcatenation.cs
+    startLine: 4
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Concatenation Concatenation { get; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.Concatenation
+    content.vb: ReadOnly Property Concatenation As Concatenation
+  overload: Inetlab.SMPP.Common.IConcatenation.Concatenation*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+  commentId: P:Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+  id: ConcatenationKey
+  parent: Inetlab.SMPP.Common.IConcatenation
+  langs:
+  - csharp
+  - vb
+  name: ConcatenationKey
+  nameWithType: IConcatenation.ConcatenationKey
+  fullName: Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/IConcatenation.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConcatenationKey
+    path: ../Source/CS/Common/IConcatenation.cs
+    startLine: 5
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: string ConcatenationKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property ConcatenationKey As String
+  overload: Inetlab.SMPP.Common.IConcatenation.ConcatenationKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.IConcatenation.Concatenation*
+  commentId: Overload:Inetlab.SMPP.Common.IConcatenation.Concatenation
+  isExternal: false
+  name: Concatenation
+  nameWithType: IConcatenation.Concatenation
+  fullName: Inetlab.SMPP.Common.IConcatenation.Concatenation
+- uid: Inetlab.SMPP.Common.Concatenation
+  commentId: T:Inetlab.SMPP.Common.Concatenation
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: Concatenation
+  nameWithType: Concatenation
+  fullName: Inetlab.SMPP.Common.Concatenation
+- uid: Inetlab.SMPP.Common.IConcatenation.ConcatenationKey*
+  commentId: Overload:Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+  isExternal: false
+  name: ConcatenationKey
+  nameWithType: IConcatenation.ConcatenationKey
+  fullName: Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

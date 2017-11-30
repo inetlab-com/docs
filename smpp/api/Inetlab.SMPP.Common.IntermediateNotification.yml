@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.IntermediateNotification
+  commentId: T:Inetlab.SMPP.Common.IntermediateNotification
+  id: IntermediateNotification
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.IntermediateNotification.NotRequested
+  - Inetlab.SMPP.Common.IntermediateNotification.Requested
+  langs:
+  - csharp
+  - vb
+  name: IntermediateNotification
+  nameWithType: IntermediateNotification
+  fullName: Inetlab.SMPP.Common.IntermediateNotification
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/Common/IntermediateNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: IntermediateNotification
+    path: ../Source/CS/Common/IntermediateNotification.cs
+    startLine: 5
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIntermediate Notification (bit 5 of registered_delivery)\n"
+  example: []
+  syntax:
+    content: 'public enum IntermediateNotification : byte'
+    content.vb: Public Enum IntermediateNotification As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.IntermediateNotification.NotRequested
+  commentId: F:Inetlab.SMPP.Common.IntermediateNotification.NotRequested
+  id: NotRequested
+  parent: Inetlab.SMPP.Common.IntermediateNotification
+  langs:
+  - csharp
+  - vb
+  name: NotRequested
+  nameWithType: IntermediateNotification.NotRequested
+  fullName: Inetlab.SMPP.Common.IntermediateNotification.NotRequested
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/IntermediateNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: NotRequested
+    path: ../Source/CS/Common/IntermediateNotification.cs
+    startLine: 10
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNo Intermediate notification requested (default)\n"
+  example: []
+  syntax:
+    content: NotRequested = 0
+    return:
+      type: Inetlab.SMPP.Common.IntermediateNotification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.IntermediateNotification.Requested
+  commentId: F:Inetlab.SMPP.Common.IntermediateNotification.Requested
+  id: Requested
+  parent: Inetlab.SMPP.Common.IntermediateNotification
+  langs:
+  - csharp
+  - vb
+  name: Requested
+  nameWithType: IntermediateNotification.Requested
+  fullName: Inetlab.SMPP.Common.IntermediateNotification.Requested
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/IntermediateNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Requested
+    path: ../Source/CS/Common/IntermediateNotification.cs
+    startLine: 15
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIntermediate notification requested\n"
+  example: []
+  syntax:
+    content: Requested = 16
+    return:
+      type: Inetlab.SMPP.Common.IntermediateNotification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.IntermediateNotification
+  commentId: T:Inetlab.SMPP.Common.IntermediateNotification
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: IntermediateNotification
+  nameWithType: IntermediateNotification
+  fullName: Inetlab.SMPP.Common.IntermediateNotification

@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.Logging
+  commentId: N:Inetlab.MMS.Logging
+  id: Inetlab.MMS.Logging
+  children:
+  - Inetlab.MMS.Logging.ConsoleLogger
+  - Inetlab.MMS.Logging.FileLogger
+  - Inetlab.MMS.Logging.GetLoggerDelegate
+  - Inetlab.MMS.Logging.ILog
+  - Inetlab.MMS.Logging.LogManager
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.MMS.Logging
+  nameWithType: Inetlab.MMS.Logging
+  fullName: Inetlab.MMS.Logging
+  type: Namespace
+  assemblies:
+  - Inetlab.MMS.MM7
+references:
+- uid: Inetlab.MMS.Logging.ConsoleLogger
+  commentId: T:Inetlab.MMS.Logging.ConsoleLogger
+  isExternal: false
+  name: ConsoleLogger
+  nameWithType: ConsoleLogger
+  fullName: Inetlab.MMS.Logging.ConsoleLogger
+- uid: Inetlab.MMS.Logging.FileLogger
+  commentId: T:Inetlab.MMS.Logging.FileLogger
+  isExternal: false
+  name: FileLogger
+  nameWithType: FileLogger
+  fullName: Inetlab.MMS.Logging.FileLogger
+- uid: Inetlab.MMS.Logging.GetLoggerDelegate
+  commentId: T:Inetlab.MMS.Logging.GetLoggerDelegate
+  parent: Inetlab.MMS.Logging
+  isExternal: false
+  name: GetLoggerDelegate
+  nameWithType: GetLoggerDelegate
+  fullName: Inetlab.MMS.Logging.GetLoggerDelegate
+- uid: Inetlab.MMS.Logging.ILog
+  commentId: T:Inetlab.MMS.Logging.ILog
+  parent: Inetlab.MMS.Logging
+  isExternal: false
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.MMS.Logging.ILog
+- uid: Inetlab.MMS.Logging.LogManager
+  commentId: T:Inetlab.MMS.Logging.LogManager
+  isExternal: false
+  name: LogManager
+  nameWithType: LogManager
+  fullName: Inetlab.MMS.Logging.LogManager
+- uid: Inetlab.MMS.Logging
+  commentId: N:Inetlab.MMS.Logging
+  isExternal: false
+  name: Inetlab.MMS.Logging
+  nameWithType: Inetlab.MMS.Logging
+  fullName: Inetlab.MMS.Logging

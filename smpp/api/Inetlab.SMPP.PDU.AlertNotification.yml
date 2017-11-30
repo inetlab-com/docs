@@ -1,0 +1,759 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.AlertNotification
+  commentId: T:Inetlab.SMPP.PDU.AlertNotification
+  id: AlertNotification
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.AlertNotification.#ctor
+  - Inetlab.SMPP.PDU.AlertNotification.EsmeAddr
+  - Inetlab.SMPP.PDU.AlertNotification.EsmeAddrNpi
+  - Inetlab.SMPP.PDU.AlertNotification.EsmeAddrTon
+  - Inetlab.SMPP.PDU.AlertNotification.Optional
+  - Inetlab.SMPP.PDU.AlertNotification.SourceAddr
+  - Inetlab.SMPP.PDU.AlertNotification.SourceAddrNpi
+  - Inetlab.SMPP.PDU.AlertNotification.SourceAddrTon
+  langs:
+  - csharp
+  - vb
+  name: AlertNotification
+  nameWithType: AlertNotification
+  fullName: Inetlab.SMPP.PDU.AlertNotification
+  type: Class
+  source:
+    remote:
+      path: Source/CS/PDU/AlertNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: AlertNotification
+    path: ../Source/CS/PDU/AlertNotification.cs
+    startLine: 11
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nThis message is sent by the SMSC to the ESME, when the SMSC has detected that a particular\nmobile subscriber has become available and a delivery pending flag had been set for that\nsubscriber from a previous data_sm operation\n"
+  example: []
+  syntax:
+    content: 'public class AlertNotification : SmppPDU'
+    content.vb: >-
+      Public Class AlertNotification
+          Inherits SmppPDU
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.PDU.SmppPDU
+  inheritedMembers:
+  - Inetlab.SMPP.PDU.SmppPDU.Length
+  - Inetlab.SMPP.PDU.SmppPDU.Command
+  - Inetlab.SMPP.PDU.SmppPDU.Status
+  - Inetlab.SMPP.PDU.SmppPDU.Sequence
+  - Inetlab.SMPP.PDU.SmppPDU.Client
+  - Inetlab.SMPP.PDU.SmppPDU.Tag
+  - Inetlab.SMPP.PDU.SmppPDU.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.PDU.AlertNotification.#ctor
+  commentId: M:Inetlab.SMPP.PDU.AlertNotification.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: AlertNotification()
+  nameWithType: AlertNotification.AlertNotification()
+  fullName: Inetlab.SMPP.PDU.AlertNotification.AlertNotification()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/PDU/AlertNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/PDU/AlertNotification.cs
+    startLine: 15
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public AlertNotification()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.PDU.AlertNotification.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.AlertNotification.SourceAddrTon
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.SourceAddrTon
+  id: SourceAddrTon
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: SourceAddrTon
+  nameWithType: AlertNotification.SourceAddrTon
+  fullName: Inetlab.SMPP.PDU.AlertNotification.SourceAddrTon
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/AlertNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceAddrTon
+    path: ../Source/CS/PDU/AlertNotification.cs
+    startLine: 39
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public byte SourceAddrTon { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property SourceAddrTon As Byte
+  overload: Inetlab.SMPP.PDU.AlertNotification.SourceAddrTon*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.AlertNotification.SourceAddrNpi
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.SourceAddrNpi
+  id: SourceAddrNpi
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: SourceAddrNpi
+  nameWithType: AlertNotification.SourceAddrNpi
+  fullName: Inetlab.SMPP.PDU.AlertNotification.SourceAddrNpi
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/AlertNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceAddrNpi
+    path: ../Source/CS/PDU/AlertNotification.cs
+    startLine: 41
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public byte SourceAddrNpi { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property SourceAddrNpi As Byte
+  overload: Inetlab.SMPP.PDU.AlertNotification.SourceAddrNpi*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.AlertNotification.SourceAddr
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.SourceAddr
+  id: SourceAddr
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: SourceAddr
+  nameWithType: AlertNotification.SourceAddr
+  fullName: Inetlab.SMPP.PDU.AlertNotification.SourceAddr
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/AlertNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceAddr
+    path: ../Source/CS/PDU/AlertNotification.cs
+    startLine: 43
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public string SourceAddr { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property SourceAddr As String
+  overload: Inetlab.SMPP.PDU.AlertNotification.SourceAddr*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrTon
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.EsmeAddrTon
+  id: EsmeAddrTon
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: EsmeAddrTon
+  nameWithType: AlertNotification.EsmeAddrTon
+  fullName: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrTon
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/AlertNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: EsmeAddrTon
+    path: ../Source/CS/PDU/AlertNotification.cs
+    startLine: 45
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public byte EsmeAddrTon { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property EsmeAddrTon As Byte
+  overload: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrTon*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrNpi
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.EsmeAddrNpi
+  id: EsmeAddrNpi
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: EsmeAddrNpi
+  nameWithType: AlertNotification.EsmeAddrNpi
+  fullName: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrNpi
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/AlertNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: EsmeAddrNpi
+    path: ../Source/CS/PDU/AlertNotification.cs
+    startLine: 47
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public byte EsmeAddrNpi { get; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public ReadOnly Property EsmeAddrNpi As Byte
+  overload: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrNpi*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.AlertNotification.EsmeAddr
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.EsmeAddr
+  id: EsmeAddr
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: EsmeAddr
+  nameWithType: AlertNotification.EsmeAddr
+  fullName: Inetlab.SMPP.PDU.AlertNotification.EsmeAddr
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/AlertNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: EsmeAddr
+    path: ../Source/CS/PDU/AlertNotification.cs
+    startLine: 49
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public string EsmeAddr { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property EsmeAddr As String
+  overload: Inetlab.SMPP.PDU.AlertNotification.EsmeAddr*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.AlertNotification.Optional
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.Optional
+  id: Optional
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: AlertNotification.Optional
+  fullName: Inetlab.SMPP.PDU.AlertNotification.Optional
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/AlertNotification.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Optional
+    path: ../Source/CS/PDU/AlertNotification.cs
+    startLine: 52
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public TLVCollection Optional { get; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.TLVCollection
+    content.vb: Public ReadOnly Property Optional As TLVCollection
+  overload: Inetlab.SMPP.PDU.AlertNotification.Optional*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU.SmppPDU.Length
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Length
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Length
+  nameWithType: SmppPDU.Length
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Length
+- uid: Inetlab.SMPP.PDU.SmppPDU.Command
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Command
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Command
+  nameWithType: SmppPDU.Command
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Command
+- uid: Inetlab.SMPP.PDU.SmppPDU.Status
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Status
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Status
+  nameWithType: SmppPDU.Status
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Status
+- uid: Inetlab.SMPP.PDU.SmppPDU.Sequence
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Sequence
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Sequence
+  nameWithType: SmppPDU.Sequence
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Sequence
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Client
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Tag
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+- uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+  commentId: M:Inetlab.SMPP.PDU.SmppPDU.ToString
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: ToString()
+  nameWithType: SmppPDU.ToString()
+  fullName: Inetlab.SMPP.PDU.SmppPDU.ToString()
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+    name: ToString
+    nameWithType: SmppPDU.ToString
+    fullName: Inetlab.SMPP.PDU.SmppPDU.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+    name: ToString
+    nameWithType: SmppPDU.ToString
+    fullName: Inetlab.SMPP.PDU.SmppPDU.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.AlertNotification.#ctor*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.#ctor
+  isExternal: false
+  name: AlertNotification
+  nameWithType: AlertNotification.AlertNotification
+  fullName: Inetlab.SMPP.PDU.AlertNotification.AlertNotification
+- uid: Inetlab.SMPP.PDU.AlertNotification.SourceAddrTon*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.SourceAddrTon
+  isExternal: false
+  name: SourceAddrTon
+  nameWithType: AlertNotification.SourceAddrTon
+  fullName: Inetlab.SMPP.PDU.AlertNotification.SourceAddrTon
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Inetlab.SMPP.PDU.AlertNotification.SourceAddrNpi*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.SourceAddrNpi
+  isExternal: false
+  name: SourceAddrNpi
+  nameWithType: AlertNotification.SourceAddrNpi
+  fullName: Inetlab.SMPP.PDU.AlertNotification.SourceAddrNpi
+- uid: Inetlab.SMPP.PDU.AlertNotification.SourceAddr*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.SourceAddr
+  isExternal: false
+  name: SourceAddr
+  nameWithType: AlertNotification.SourceAddr
+  fullName: Inetlab.SMPP.PDU.AlertNotification.SourceAddr
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrTon*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.EsmeAddrTon
+  isExternal: false
+  name: EsmeAddrTon
+  nameWithType: AlertNotification.EsmeAddrTon
+  fullName: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrTon
+- uid: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrNpi*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.EsmeAddrNpi
+  isExternal: false
+  name: EsmeAddrNpi
+  nameWithType: AlertNotification.EsmeAddrNpi
+  fullName: Inetlab.SMPP.PDU.AlertNotification.EsmeAddrNpi
+- uid: Inetlab.SMPP.PDU.AlertNotification.EsmeAddr*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.EsmeAddr
+  isExternal: false
+  name: EsmeAddr
+  nameWithType: AlertNotification.EsmeAddr
+  fullName: Inetlab.SMPP.PDU.AlertNotification.EsmeAddr
+- uid: Inetlab.SMPP.PDU.AlertNotification.Optional*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.Optional
+  isExternal: false
+  name: Optional
+  nameWithType: AlertNotification.Optional
+  fullName: Inetlab.SMPP.PDU.AlertNotification.Optional
+- uid: Inetlab.SMPP.Common.TLVCollection
+  commentId: T:Inetlab.SMPP.Common.TLVCollection
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: TLVCollection
+  nameWithType: TLVCollection
+  fullName: Inetlab.SMPP.Common.TLVCollection
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common

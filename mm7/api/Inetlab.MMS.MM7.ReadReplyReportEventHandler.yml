@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.ReadReplyReportEventHandler
+  commentId: T:Inetlab.MMS.MM7.ReadReplyReportEventHandler
+  id: ReadReplyReportEventHandler
+  parent: Inetlab.MMS.MM7
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ReadReplyReportEventHandler
+  nameWithType: ReadReplyReportEventHandler
+  fullName: Inetlab.MMS.MM7.ReadReplyReportEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Source/CS/MM7/Delegates.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ReadReplyReportEventHandler
+    path: ../Source/CS/MM7/Delegates.cs
+    startLine: 12
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public delegate void ReadReplyReportEventHandler(object sender, ReadReplyReportRequestEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Delegate Sub ReadReplyReportEventHandler(sender As Object, e As ReadReplyReportRequestEventArgs)
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs
+  commentId: T:Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: ReadReplyReportRequestEventArgs
+  nameWithType: ReadReplyReportRequestEventArgs
+  fullName: Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

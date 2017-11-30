@@ -1,0 +1,371 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.ContentClass
+  commentId: T:Inetlab.MMS.MM7.ContentClass
+  id: ContentClass
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.ContentClass.ContentBasic
+  - Inetlab.MMS.MM7.ContentClass.ContentRich
+  - Inetlab.MMS.MM7.ContentClass.ImageBasic
+  - Inetlab.MMS.MM7.ContentClass.ImageRich
+  - Inetlab.MMS.MM7.ContentClass.Megapixel
+  - Inetlab.MMS.MM7.ContentClass.None
+  - Inetlab.MMS.MM7.ContentClass.Text
+  - Inetlab.MMS.MM7.ContentClass.VideoBasic
+  - Inetlab.MMS.MM7.ContentClass.VideoRich
+  langs:
+  - csharp
+  - vb
+  name: ContentClass
+  nameWithType: ContentClass
+  fullName: Inetlab.MMS.MM7.ContentClass
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ContentClass
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 12
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nContent Class Type used in MM7_Submit and MM7_Replace\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [Obfuscation(Exclude = true, ApplyToMembers = true)]
+
+      public enum ContentClass
+    content.vb: >-
+      <Serializable>
+
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True)>
+
+      Public Enum ContentClass
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.MM7.ContentClass.None
+  commentId: F:Inetlab.MMS.MM7.ContentClass.None
+  id: None
+  parent: Inetlab.MMS.MM7.ContentClass
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ContentClass.None
+  fullName: Inetlab.MMS.MM7.ContentClass.None
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: None
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: None = 0
+    return:
+      type: Inetlab.MMS.MM7.ContentClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ContentClass.Text
+  commentId: F:Inetlab.MMS.MM7.ContentClass.Text
+  id: Text
+  parent: Inetlab.MMS.MM7.ContentClass
+  langs:
+  - csharp
+  - vb
+  name: Text
+  nameWithType: ContentClass.Text
+  fullName: Inetlab.MMS.MM7.ContentClass.Text
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Text
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 18
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: Text = 1
+    return:
+      type: Inetlab.MMS.MM7.ContentClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ContentClass.ImageBasic
+  commentId: F:Inetlab.MMS.MM7.ContentClass.ImageBasic
+  id: ImageBasic
+  parent: Inetlab.MMS.MM7.ContentClass
+  langs:
+  - csharp
+  - vb
+  name: ImageBasic
+  nameWithType: ContentClass.ImageBasic
+  fullName: Inetlab.MMS.MM7.ContentClass.ImageBasic
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ImageBasic
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 21
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: ImageBasic = 2
+    return:
+      type: Inetlab.MMS.MM7.ContentClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ContentClass.ImageRich
+  commentId: F:Inetlab.MMS.MM7.ContentClass.ImageRich
+  id: ImageRich
+  parent: Inetlab.MMS.MM7.ContentClass
+  langs:
+  - csharp
+  - vb
+  name: ImageRich
+  nameWithType: ContentClass.ImageRich
+  fullName: Inetlab.MMS.MM7.ContentClass.ImageRich
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ImageRich
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 24
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: ImageRich = 3
+    return:
+      type: Inetlab.MMS.MM7.ContentClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ContentClass.VideoBasic
+  commentId: F:Inetlab.MMS.MM7.ContentClass.VideoBasic
+  id: VideoBasic
+  parent: Inetlab.MMS.MM7.ContentClass
+  langs:
+  - csharp
+  - vb
+  name: VideoBasic
+  nameWithType: ContentClass.VideoBasic
+  fullName: Inetlab.MMS.MM7.ContentClass.VideoBasic
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: VideoBasic
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 27
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: VideoBasic = 4
+    return:
+      type: Inetlab.MMS.MM7.ContentClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ContentClass.VideoRich
+  commentId: F:Inetlab.MMS.MM7.ContentClass.VideoRich
+  id: VideoRich
+  parent: Inetlab.MMS.MM7.ContentClass
+  langs:
+  - csharp
+  - vb
+  name: VideoRich
+  nameWithType: ContentClass.VideoRich
+  fullName: Inetlab.MMS.MM7.ContentClass.VideoRich
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: VideoRich
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 30
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: VideoRich = 5
+    return:
+      type: Inetlab.MMS.MM7.ContentClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ContentClass.Megapixel
+  commentId: F:Inetlab.MMS.MM7.ContentClass.Megapixel
+  id: Megapixel
+  parent: Inetlab.MMS.MM7.ContentClass
+  langs:
+  - csharp
+  - vb
+  name: Megapixel
+  nameWithType: ContentClass.Megapixel
+  fullName: Inetlab.MMS.MM7.ContentClass.Megapixel
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Megapixel
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 33
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: Megapixel = 6
+    return:
+      type: Inetlab.MMS.MM7.ContentClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ContentClass.ContentBasic
+  commentId: F:Inetlab.MMS.MM7.ContentClass.ContentBasic
+  id: ContentBasic
+  parent: Inetlab.MMS.MM7.ContentClass
+  langs:
+  - csharp
+  - vb
+  name: ContentBasic
+  nameWithType: ContentClass.ContentBasic
+  fullName: Inetlab.MMS.MM7.ContentClass.ContentBasic
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ContentBasic
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 36
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: ContentBasic = 7
+    return:
+      type: Inetlab.MMS.MM7.ContentClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ContentClass.ContentRich
+  commentId: F:Inetlab.MMS.MM7.ContentClass.ContentRich
+  id: ContentRich
+  parent: Inetlab.MMS.MM7.ContentClass
+  langs:
+  - csharp
+  - vb
+  name: ContentRich
+  nameWithType: ContentClass.ContentRich
+  fullName: Inetlab.MMS.MM7.ContentClass.ContentRich
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ContentClass.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ContentRich
+    path: ../Source/CS/MM7/ContentClass.cs
+    startLine: 39
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: ContentRich = 8
+    return:
+      type: Inetlab.MMS.MM7.ContentClass
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: Inetlab.MMS.MM7.ContentClass
+  commentId: T:Inetlab.MMS.MM7.ContentClass
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: ContentClass
+  nameWithType: ContentClass
+  fullName: Inetlab.MMS.MM7.ContentClass

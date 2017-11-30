@@ -1,0 +1,98 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.AuthenticationEventHandler
+  commentId: T:Inetlab.MMS.MM7.AuthenticationEventHandler
+  id: AuthenticationEventHandler
+  parent: Inetlab.MMS.MM7
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AuthenticationEventHandler
+  nameWithType: AuthenticationEventHandler
+  fullName: Inetlab.MMS.MM7.AuthenticationEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Source/CS/MM7/OnSubmitRequestEvent.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: AuthenticationEventHandler
+    path: ../Source/CS/MM7/OnSubmitRequestEvent.cs
+    startLine: 41
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public delegate string AuthenticationEventHandler(MM7Server server, AuthenticationEventArgs e);
+    parameters:
+    - id: server
+      type: Inetlab.MMS.MM7Server
+    - id: e
+      type: Inetlab.MMS.MM7.AuthenticationEventArgs
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Delegate Function AuthenticationEventHandler(server As MM7Server, e As AuthenticationEventArgs) As String
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: Inetlab.MMS.MM7Server
+  commentId: T:Inetlab.MMS.MM7Server
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MM7Server
+  nameWithType: MM7Server
+  fullName: Inetlab.MMS.MM7Server
+- uid: Inetlab.MMS.MM7.AuthenticationEventArgs
+  commentId: T:Inetlab.MMS.MM7.AuthenticationEventArgs
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: AuthenticationEventArgs
+  nameWithType: AuthenticationEventArgs
+  fullName: Inetlab.MMS.MM7.AuthenticationEventArgs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

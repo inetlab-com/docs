@@ -1,0 +1,1596 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  commentId: T:Inetlab.SMPP.Builders.ISubmitSmBuilder
+  id: ISubmitSmBuilder
+  parent: Inetlab.SMPP.Builders
+  children:
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(Inetlab.SMPP.Common.OptionalTags,System.Byte[])
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(System.UInt16,System.Byte[])
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(System.UInt16,System.String)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.AddUserDataHeader(Inetlab.SMPP.Common.UserDataHeader)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.Coding(Inetlab.SMPP.Common.DataCodings)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR(System.Byte)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH(System.Byte)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.Data(System.Byte[])
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverAt(System.DateTime)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverIn(System.TimeSpan)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliveryReceipt
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireAt(System.DateTime)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireIn(System.TimeSpan)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String,System.Byte,System.Byte)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.MaxPartSize(System.Int32)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload(System.Int32)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageLockingShift(Inetlab.SMPP.Common.NationalLanguage)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageSingleShift(Inetlab.SMPP.Common.NationalLanguage)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.ProtocolIdentifier(System.Byte)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.ServiceType(System.String)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.Set(Inetlab.SMPP.SmsAction{Inetlab.SMPP.PDU.SubmitSm})
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.Text(System.String)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String,System.Byte,System.Byte)
+  langs:
+  - csharp
+  - vb
+  name: ISubmitSmBuilder
+  nameWithType: ISubmitSmBuilder
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  type: Interface
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ISubmitSmBuilder
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 8
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: 'public interface ISubmitSmBuilder : IBuilder<SubmitSm>'
+    content.vb: >-
+      Public Interface ISubmitSmBuilder
+          Inherits IBuilder(Of SubmitSm)
+  inheritedMembers:
+  - Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(Inetlab.SMPP.Common.SmppClientBase)
+  - Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(Inetlab.SMPP.Common.EncodingMapper)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliveryReceipt
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliveryReceipt
+  id: DeliveryReceipt
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: DeliveryReceipt()
+  nameWithType: ISubmitSmBuilder.DeliveryReceipt()
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliveryReceipt()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DeliveryReceipt
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 11
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder DeliveryReceipt()
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function DeliveryReceipt As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliveryReceipt*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverAt(System.DateTime)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverAt(System.DateTime)
+  id: DeliverAt(System.DateTime)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: DeliverAt(DateTime)
+  nameWithType: ISubmitSmBuilder.DeliverAt(DateTime)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverAt(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DeliverAt
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 12
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder DeliverAt(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function DeliverAt(dateTime As Date) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverAt*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverIn(System.TimeSpan)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverIn(System.TimeSpan)
+  id: DeliverIn(System.TimeSpan)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: DeliverIn(TimeSpan)
+  nameWithType: ISubmitSmBuilder.DeliverIn(TimeSpan)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverIn(System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DeliverIn
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 13
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder DeliverIn(TimeSpan timeSpan)
+    parameters:
+    - id: timeSpan
+      type: System.TimeSpan
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function DeliverIn(timeSpan As TimeSpan) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverIn*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireAt(System.DateTime)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireAt(System.DateTime)
+  id: ExpireAt(System.DateTime)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: ExpireAt(DateTime)
+  nameWithType: ISubmitSmBuilder.ExpireAt(DateTime)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireAt(System.DateTime)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ExpireAt
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 14
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder ExpireAt(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: System.DateTime
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function ExpireAt(dateTime As Date) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireAt*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireIn(System.TimeSpan)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireIn(System.TimeSpan)
+  id: ExpireIn(System.TimeSpan)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: ExpireIn(TimeSpan)
+  nameWithType: ISubmitSmBuilder.ExpireIn(TimeSpan)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireIn(System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ExpireIn
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 15
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder ExpireIn(TimeSpan timeSpan)
+    parameters:
+    - id: timeSpan
+      type: System.TimeSpan
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function ExpireIn(timeSpan As TimeSpan) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireIn*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.Text(System.String)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.Text(System.String)
+  id: Text(System.String)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: Text(String)
+  nameWithType: ISubmitSmBuilder.Text(String)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.Text(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Text
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder Text(string messageText)
+    parameters:
+    - id: messageText
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function Text(messageText As String) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.Text*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.Data(System.Byte[])
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.Data(System.Byte[])
+  id: Data(System.Byte[])
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: Data(Byte[])
+  nameWithType: ISubmitSmBuilder.Data(Byte[])
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.Data(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Data
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 17
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder Data(byte[] byteArray)
+    parameters:
+    - id: byteArray
+      type: System.Byte[]
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function Data(byteArray As Byte()) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.Data*
+  nameWithType.vb: ISubmitSmBuilder.Data(Byte())
+  fullName.vb: Inetlab.SMPP.Builders.ISubmitSmBuilder.Data(System.Byte())
+  name.vb: Data(Byte())
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String)
+  id: From(System.String)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: From(String)
+  nameWithType: ISubmitSmBuilder.From(String)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: From
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 18
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder From(string sourceAddr)
+    parameters:
+    - id: sourceAddr
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function From(sourceAddr As String) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.From*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  id: From(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: From(String, AddressTON, AddressNPI)
+  nameWithType: ISubmitSmBuilder.From(String, AddressTON, AddressNPI)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String, Inetlab.SMPP.Common.AddressTON, Inetlab.SMPP.Common.AddressNPI)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: From
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 19
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder From(string sourceAddr, AddressTON ton, AddressNPI npi)
+    parameters:
+    - id: sourceAddr
+      type: System.String
+    - id: ton
+      type: Inetlab.SMPP.Common.AddressTON
+    - id: npi
+      type: Inetlab.SMPP.Common.AddressNPI
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function From(sourceAddr As String, ton As AddressTON, npi As AddressNPI) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.From*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String,System.Byte,System.Byte)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String,System.Byte,System.Byte)
+  id: From(System.String,System.Byte,System.Byte)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: From(String, Byte, Byte)
+  nameWithType: ISubmitSmBuilder.From(String, Byte, Byte)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.From(System.String, System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: From
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 20
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder From(string sourceAddr, byte ton, byte npi)
+    parameters:
+    - id: sourceAddr
+      type: System.String
+    - id: ton
+      type: System.Byte
+    - id: npi
+      type: System.Byte
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function From(sourceAddr As String, ton As Byte, npi As Byte) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.From*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String)
+  id: To(System.String)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: To(String)
+  nameWithType: ISubmitSmBuilder.To(String)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: To
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 21
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder To(string destAddr)
+    parameters:
+    - id: destAddr
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function To(destAddr As String) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.To*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  id: To(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: To(String, AddressTON, AddressNPI)
+  nameWithType: ISubmitSmBuilder.To(String, AddressTON, AddressNPI)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String, Inetlab.SMPP.Common.AddressTON, Inetlab.SMPP.Common.AddressNPI)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: To
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 22
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder To(string destAddr, AddressTON ton, AddressNPI npi)
+    parameters:
+    - id: destAddr
+      type: System.String
+    - id: ton
+      type: Inetlab.SMPP.Common.AddressTON
+    - id: npi
+      type: Inetlab.SMPP.Common.AddressNPI
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function To(destAddr As String, ton As AddressTON, npi As AddressNPI) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.To*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String,System.Byte,System.Byte)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String,System.Byte,System.Byte)
+  id: To(System.String,System.Byte,System.Byte)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: To(String, Byte, Byte)
+  nameWithType: ISubmitSmBuilder.To(String, Byte, Byte)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.To(System.String, System.Byte, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: To
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 23
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder To(string destAddr, byte ton, byte npi)
+    parameters:
+    - id: destAddr
+      type: System.String
+    - id: ton
+      type: System.Byte
+    - id: npi
+      type: System.Byte
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function To(destAddr As String, ton As Byte, npi As Byte) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.To*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.Coding(Inetlab.SMPP.Common.DataCodings)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.Coding(Inetlab.SMPP.Common.DataCodings)
+  id: Coding(Inetlab.SMPP.Common.DataCodings)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: Coding(DataCodings)
+  nameWithType: ISubmitSmBuilder.Coding(DataCodings)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.Coding(Inetlab.SMPP.Common.DataCodings)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Coding
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 24
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder Coding(DataCodings dataCoding)
+    parameters:
+    - id: dataCoding
+      type: Inetlab.SMPP.Common.DataCodings
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function Coding(dataCoding As DataCodings) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.Coding*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ServiceType(System.String)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.ServiceType(System.String)
+  id: ServiceType(System.String)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: ServiceType(String)
+  nameWithType: ISubmitSmBuilder.ServiceType(String)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ServiceType(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ServiceType
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 25
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder ServiceType(string type)
+    parameters:
+    - id: type
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function ServiceType(type As String) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.ServiceType*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ProtocolIdentifier(System.Byte)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.ProtocolIdentifier(System.Byte)
+  id: ProtocolIdentifier(System.Byte)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: ProtocolIdentifier(Byte)
+  nameWithType: ISubmitSmBuilder.ProtocolIdentifier(Byte)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ProtocolIdentifier(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ProtocolIdentifier
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 26
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder ProtocolIdentifier(byte pid)
+    parameters:
+    - id: pid
+      type: System.Byte
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function ProtocolIdentifier(pid As Byte) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.ProtocolIdentifier*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload
+  id: MessageInPayload
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: MessageInPayload()
+  nameWithType: ISubmitSmBuilder.MessageInPayload()
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MessageInPayload
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 27
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder MessageInPayload()
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function MessageInPayload As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload(System.Int32)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload(System.Int32)
+  id: MessageInPayload(System.Int32)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: MessageInPayload(Int32)
+  nameWithType: ISubmitSmBuilder.MessageInPayload(Int32)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MessageInPayload
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 28
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder MessageInPayload(int messageSize)
+    parameters:
+    - id: messageSize
+      type: System.Int32
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function MessageInPayload(messageSize As Integer) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.MaxPartSize(System.Int32)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.MaxPartSize(System.Int32)
+  id: MaxPartSize(System.Int32)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: MaxPartSize(Int32)
+  nameWithType: ISubmitSmBuilder.MaxPartSize(Int32)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.MaxPartSize(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MaxPartSize
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 30
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder MaxPartSize(int partSize)
+    parameters:
+    - id: partSize
+      type: System.Int32
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function MaxPartSize(partSize As Integer) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.MaxPartSize*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH
+  id: ConcatenationInUDH
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: ConcatenationInUDH()
+  nameWithType: ISubmitSmBuilder.ConcatenationInUDH()
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConcatenationInUDH
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 31
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder ConcatenationInUDH()
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function ConcatenationInUDH As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH(System.Byte)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH(System.Byte)
+  id: ConcatenationInUDH(System.Byte)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: ConcatenationInUDH(Byte)
+  nameWithType: ISubmitSmBuilder.ConcatenationInUDH(Byte)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConcatenationInUDH
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 32
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder ConcatenationInUDH(byte referenceNumber)
+    parameters:
+    - id: referenceNumber
+      type: System.Byte
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function ConcatenationInUDH(referenceNumber As Byte) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR
+  id: ConcatenationInSAR
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: ConcatenationInSAR()
+  nameWithType: ISubmitSmBuilder.ConcatenationInSAR()
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConcatenationInSAR
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 33
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder ConcatenationInSAR()
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function ConcatenationInSAR As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR(System.Byte)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR(System.Byte)
+  id: ConcatenationInSAR(System.Byte)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: ConcatenationInSAR(Byte)
+  nameWithType: ISubmitSmBuilder.ConcatenationInSAR(Byte)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR(System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConcatenationInSAR
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 34
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder ConcatenationInSAR(byte referenceNumber)
+    parameters:
+    - id: referenceNumber
+      type: System.Byte
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function ConcatenationInSAR(referenceNumber As Byte) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageSingleShift(Inetlab.SMPP.Common.NationalLanguage)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageSingleShift(Inetlab.SMPP.Common.NationalLanguage)
+  id: NationalLanguageSingleShift(Inetlab.SMPP.Common.NationalLanguage)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: NationalLanguageSingleShift(NationalLanguage)
+  nameWithType: ISubmitSmBuilder.NationalLanguageSingleShift(NationalLanguage)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageSingleShift(Inetlab.SMPP.Common.NationalLanguage)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: NationalLanguageSingleShift
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 35
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder NationalLanguageSingleShift(NationalLanguage language)
+    parameters:
+    - id: language
+      type: Inetlab.SMPP.Common.NationalLanguage
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function NationalLanguageSingleShift(language As NationalLanguage) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageSingleShift*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageLockingShift(Inetlab.SMPP.Common.NationalLanguage)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageLockingShift(Inetlab.SMPP.Common.NationalLanguage)
+  id: NationalLanguageLockingShift(Inetlab.SMPP.Common.NationalLanguage)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: NationalLanguageLockingShift(NationalLanguage)
+  nameWithType: ISubmitSmBuilder.NationalLanguageLockingShift(NationalLanguage)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageLockingShift(Inetlab.SMPP.Common.NationalLanguage)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: NationalLanguageLockingShift
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 36
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder NationalLanguageLockingShift(NationalLanguage language)
+    parameters:
+    - id: language
+      type: Inetlab.SMPP.Common.NationalLanguage
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function NationalLanguageLockingShift(language As NationalLanguage) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageLockingShift*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(System.UInt16,System.Byte[])
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(System.UInt16,System.Byte[])
+  id: AddParameter(System.UInt16,System.Byte[])
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddParameter(UInt16, Byte[])
+  nameWithType: ISubmitSmBuilder.AddParameter(UInt16, Byte[])
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(System.UInt16, System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: AddParameter
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 37
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder AddParameter(ushort tag, byte[] value)
+    parameters:
+    - id: tag
+      type: System.UInt16
+    - id: value
+      type: System.Byte[]
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function AddParameter(tag As UShort, value As Byte()) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter*
+  nameWithType.vb: ISubmitSmBuilder.AddParameter(UInt16, Byte())
+  fullName.vb: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(System.UInt16, System.Byte())
+  name.vb: AddParameter(UInt16, Byte())
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(Inetlab.SMPP.Common.OptionalTags,System.Byte[])
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(Inetlab.SMPP.Common.OptionalTags,System.Byte[])
+  id: AddParameter(Inetlab.SMPP.Common.OptionalTags,System.Byte[])
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddParameter(OptionalTags, Byte[])
+  nameWithType: ISubmitSmBuilder.AddParameter(OptionalTags, Byte[])
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(Inetlab.SMPP.Common.OptionalTags, System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: AddParameter
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 38
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder AddParameter(OptionalTags tag, byte[] value)
+    parameters:
+    - id: tag
+      type: Inetlab.SMPP.Common.OptionalTags
+    - id: value
+      type: System.Byte[]
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function AddParameter(tag As OptionalTags, value As Byte()) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter*
+  nameWithType.vb: ISubmitSmBuilder.AddParameter(OptionalTags, Byte())
+  fullName.vb: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(Inetlab.SMPP.Common.OptionalTags, System.Byte())
+  name.vb: AddParameter(OptionalTags, Byte())
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(System.UInt16,System.String)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(System.UInt16,System.String)
+  id: AddParameter(System.UInt16,System.String)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddParameter(UInt16, String)
+  nameWithType: ISubmitSmBuilder.AddParameter(UInt16, String)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter(System.UInt16, System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: AddParameter
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 39
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder AddParameter(ushort tag, string value)
+    parameters:
+    - id: tag
+      type: System.UInt16
+    - id: value
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function AddParameter(tag As UShort, value As String) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddUserDataHeader(Inetlab.SMPP.Common.UserDataHeader)
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.AddUserDataHeader(Inetlab.SMPP.Common.UserDataHeader)
+  id: AddUserDataHeader(Inetlab.SMPP.Common.UserDataHeader)
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: AddUserDataHeader(UserDataHeader)
+  nameWithType: ISubmitSmBuilder.AddUserDataHeader(UserDataHeader)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddUserDataHeader(Inetlab.SMPP.Common.UserDataHeader)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: AddUserDataHeader
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 40
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder AddUserDataHeader(UserDataHeader header)
+    parameters:
+    - id: header
+      type: Inetlab.SMPP.Common.UserDataHeader
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function AddUserDataHeader(header As UserDataHeader) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddUserDataHeader*
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.Set(Inetlab.SMPP.SmsAction{Inetlab.SMPP.PDU.SubmitSm})
+  commentId: M:Inetlab.SMPP.Builders.ISubmitSmBuilder.Set(Inetlab.SMPP.SmsAction{Inetlab.SMPP.PDU.SubmitSm})
+  id: Set(Inetlab.SMPP.SmsAction{Inetlab.SMPP.PDU.SubmitSm})
+  parent: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  langs:
+  - csharp
+  - vb
+  name: Set(SmsAction<SubmitSm>)
+  nameWithType: ISubmitSmBuilder.Set(SmsAction<SubmitSm>)
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.Set(Inetlab.SMPP.SmsAction<Inetlab.SMPP.PDU.SubmitSm>)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Builders/ISubmitSmBuilder.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Set
+    path: ../Source/CS/Builders/ISubmitSmBuilder.cs
+    startLine: 41
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: ISubmitSmBuilder Set(SmsAction<SubmitSm> action)
+    parameters:
+    - id: action
+      type: Inetlab.SMPP.SmsAction{Inetlab.SMPP.PDU.SubmitSm}
+    return:
+      type: Inetlab.SMPP.Builders.ISubmitSmBuilder
+    content.vb: Function Set(action As SmsAction(Of SubmitSm)) As ISubmitSmBuilder
+  overload: Inetlab.SMPP.Builders.ISubmitSmBuilder.Set*
+  nameWithType.vb: ISubmitSmBuilder.Set(SmsAction(Of SubmitSm))
+  fullName.vb: Inetlab.SMPP.Builders.ISubmitSmBuilder.Set(Inetlab.SMPP.SmsAction(Of Inetlab.SMPP.PDU.SubmitSm))
+  name.vb: Set(SmsAction(Of SubmitSm))
+references:
+- uid: Inetlab.SMPP.Builders
+  commentId: N:Inetlab.SMPP.Builders
+  isExternal: false
+  name: Inetlab.SMPP.Builders
+  nameWithType: Inetlab.SMPP.Builders
+  fullName: Inetlab.SMPP.Builders
+- uid: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(Inetlab.SMPP.Common.SmppClientBase)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(Inetlab.SMPP.Common.SmppClientBase)
+  parent: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}
+  definition: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.SmppClientBase)
+  name: Create(SmppClientBase)
+  nameWithType: IBuilder<SubmitSm>.Create(SmppClientBase)
+  fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>.Create(Inetlab.SMPP.Common.SmppClientBase)
+  nameWithType.vb: IBuilder(Of SubmitSm).Create(SmppClientBase)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm).Create(Inetlab.SMPP.Common.SmppClientBase)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.SmppClientBase)
+    name: Create
+    nameWithType: IBuilder<SubmitSm>.Create
+    fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.Common.SmppClientBase
+    name: SmppClientBase
+    nameWithType: SmppClientBase
+    fullName: Inetlab.SMPP.Common.SmppClientBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.SmppClientBase)
+    name: Create
+    nameWithType: IBuilder(Of SubmitSm).Create
+    fullName: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.Common.SmppClientBase
+    name: SmppClientBase
+    nameWithType: SmppClientBase
+    fullName: Inetlab.SMPP.Common.SmppClientBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(Inetlab.SMPP.Common.EncodingMapper)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(Inetlab.SMPP.Common.EncodingMapper)
+  parent: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}
+  definition: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.EncodingMapper)
+  name: Create(EncodingMapper)
+  nameWithType: IBuilder<SubmitSm>.Create(EncodingMapper)
+  fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>.Create(Inetlab.SMPP.Common.EncodingMapper)
+  nameWithType.vb: IBuilder(Of SubmitSm).Create(EncodingMapper)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm).Create(Inetlab.SMPP.Common.EncodingMapper)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.EncodingMapper)
+    name: Create
+    nameWithType: IBuilder<SubmitSm>.Create
+    fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.Common.EncodingMapper
+    name: EncodingMapper
+    nameWithType: EncodingMapper
+    fullName: Inetlab.SMPP.Common.EncodingMapper
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.EncodingMapper)
+    name: Create
+    nameWithType: IBuilder(Of SubmitSm).Create
+    fullName: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.Common.EncodingMapper
+    name: EncodingMapper
+    nameWithType: EncodingMapper
+    fullName: Inetlab.SMPP.Common.EncodingMapper
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.SmppClientBase)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.SmppClientBase)
+  isExternal: false
+  name: Create(SmppClientBase)
+  nameWithType: IBuilder<T>.Create(SmppClientBase)
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create(Inetlab.SMPP.Common.SmppClientBase)
+  nameWithType.vb: IBuilder(Of T).Create(SmppClientBase)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T).Create(Inetlab.SMPP.Common.SmppClientBase)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.SmppClientBase)
+    name: Create
+    nameWithType: IBuilder<T>.Create
+    fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.Common.SmppClientBase
+    name: SmppClientBase
+    nameWithType: SmppClientBase
+    fullName: Inetlab.SMPP.Common.SmppClientBase
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.SmppClientBase)
+    name: Create
+    nameWithType: IBuilder(Of T).Create
+    fullName: Inetlab.SMPP.Builders.IBuilder(Of T).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.Common.SmppClientBase
+    name: SmppClientBase
+    nameWithType: SmppClientBase
+    fullName: Inetlab.SMPP.Common.SmppClientBase
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}
+  commentId: T:Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}
+  parent: Inetlab.SMPP.Builders
+  definition: Inetlab.SMPP.Builders.IBuilder`1
+  name: IBuilder<SubmitSm>
+  nameWithType: IBuilder<SubmitSm>
+  fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>
+  nameWithType.vb: IBuilder(Of SubmitSm)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm)
+  name.vb: IBuilder(Of SubmitSm)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.PDU.SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: Inetlab.SMPP.PDU.SubmitSm
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.PDU.SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: Inetlab.SMPP.PDU.SubmitSm
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.EncodingMapper)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.EncodingMapper)
+  isExternal: false
+  name: Create(EncodingMapper)
+  nameWithType: IBuilder<T>.Create(EncodingMapper)
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create(Inetlab.SMPP.Common.EncodingMapper)
+  nameWithType.vb: IBuilder(Of T).Create(EncodingMapper)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T).Create(Inetlab.SMPP.Common.EncodingMapper)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.EncodingMapper)
+    name: Create
+    nameWithType: IBuilder<T>.Create
+    fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.Common.EncodingMapper
+    name: EncodingMapper
+    nameWithType: EncodingMapper
+    fullName: Inetlab.SMPP.Common.EncodingMapper
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(Inetlab.SMPP.Common.EncodingMapper)
+    name: Create
+    nameWithType: IBuilder(Of T).Create
+    fullName: Inetlab.SMPP.Builders.IBuilder(Of T).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.Common.EncodingMapper
+    name: EncodingMapper
+    nameWithType: EncodingMapper
+    fullName: Inetlab.SMPP.Common.EncodingMapper
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder`1
+  commentId: T:Inetlab.SMPP.Builders.IBuilder`1
+  isExternal: false
+  name: IBuilder<T>
+  nameWithType: IBuilder<T>
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>
+  nameWithType.vb: IBuilder(Of T)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T)
+  name.vb: IBuilder(Of T)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliveryReceipt*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliveryReceipt
+  isExternal: false
+  name: DeliveryReceipt
+  nameWithType: ISubmitSmBuilder.DeliveryReceipt
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliveryReceipt
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  commentId: T:Inetlab.SMPP.Builders.ISubmitSmBuilder
+  parent: Inetlab.SMPP.Builders
+  isExternal: false
+  name: ISubmitSmBuilder
+  nameWithType: ISubmitSmBuilder
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverAt*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverAt
+  isExternal: false
+  name: DeliverAt
+  nameWithType: ISubmitSmBuilder.DeliverAt
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverAt
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverIn*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverIn
+  isExternal: false
+  name: DeliverIn
+  nameWithType: ISubmitSmBuilder.DeliverIn
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.DeliverIn
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireAt*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireAt
+  isExternal: false
+  name: ExpireAt
+  nameWithType: ISubmitSmBuilder.ExpireAt
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireAt
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireIn*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireIn
+  isExternal: false
+  name: ExpireIn
+  nameWithType: ISubmitSmBuilder.ExpireIn
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ExpireIn
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.Text*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.Text
+  isExternal: false
+  name: Text
+  nameWithType: ISubmitSmBuilder.Text
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.Text
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.Data*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.Data
+  isExternal: false
+  name: Data
+  nameWithType: ISubmitSmBuilder.Data
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.Data
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.From*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.From
+  isExternal: false
+  name: From
+  nameWithType: ISubmitSmBuilder.From
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.From
+- uid: Inetlab.SMPP.Common.AddressTON
+  commentId: T:Inetlab.SMPP.Common.AddressTON
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: AddressTON
+  nameWithType: AddressTON
+  fullName: Inetlab.SMPP.Common.AddressTON
+- uid: Inetlab.SMPP.Common.AddressNPI
+  commentId: T:Inetlab.SMPP.Common.AddressNPI
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: AddressNPI
+  nameWithType: AddressNPI
+  fullName: Inetlab.SMPP.Common.AddressNPI
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.To*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.To
+  isExternal: false
+  name: To
+  nameWithType: ISubmitSmBuilder.To
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.To
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.Coding*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.Coding
+  isExternal: false
+  name: Coding
+  nameWithType: ISubmitSmBuilder.Coding
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.Coding
+- uid: Inetlab.SMPP.Common.DataCodings
+  commentId: T:Inetlab.SMPP.Common.DataCodings
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: DataCodings
+  nameWithType: DataCodings
+  fullName: Inetlab.SMPP.Common.DataCodings
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ServiceType*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.ServiceType
+  isExternal: false
+  name: ServiceType
+  nameWithType: ISubmitSmBuilder.ServiceType
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ServiceType
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ProtocolIdentifier*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.ProtocolIdentifier
+  isExternal: false
+  name: ProtocolIdentifier
+  nameWithType: ISubmitSmBuilder.ProtocolIdentifier
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ProtocolIdentifier
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload
+  isExternal: false
+  name: MessageInPayload
+  nameWithType: ISubmitSmBuilder.MessageInPayload
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.MessageInPayload
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.MaxPartSize*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.MaxPartSize
+  isExternal: false
+  name: MaxPartSize
+  nameWithType: ISubmitSmBuilder.MaxPartSize
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.MaxPartSize
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH
+  isExternal: false
+  name: ConcatenationInUDH
+  nameWithType: ISubmitSmBuilder.ConcatenationInUDH
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInUDH
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR
+  isExternal: false
+  name: ConcatenationInSAR
+  nameWithType: ISubmitSmBuilder.ConcatenationInSAR
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.ConcatenationInSAR
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageSingleShift*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageSingleShift
+  isExternal: false
+  name: NationalLanguageSingleShift
+  nameWithType: ISubmitSmBuilder.NationalLanguageSingleShift
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageSingleShift
+- uid: Inetlab.SMPP.Common.NationalLanguage
+  commentId: T:Inetlab.SMPP.Common.NationalLanguage
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: NationalLanguage
+  nameWithType: NationalLanguage
+  fullName: Inetlab.SMPP.Common.NationalLanguage
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageLockingShift*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageLockingShift
+  isExternal: false
+  name: NationalLanguageLockingShift
+  nameWithType: ISubmitSmBuilder.NationalLanguageLockingShift
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.NationalLanguageLockingShift
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter
+  isExternal: false
+  name: AddParameter
+  nameWithType: ISubmitSmBuilder.AddParameter
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddParameter
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Inetlab.SMPP.Common.OptionalTags
+  commentId: T:Inetlab.SMPP.Common.OptionalTags
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: OptionalTags
+  nameWithType: OptionalTags
+  fullName: Inetlab.SMPP.Common.OptionalTags
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddUserDataHeader*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.AddUserDataHeader
+  isExternal: false
+  name: AddUserDataHeader
+  nameWithType: ISubmitSmBuilder.AddUserDataHeader
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.AddUserDataHeader
+- uid: Inetlab.SMPP.Common.UserDataHeader
+  commentId: T:Inetlab.SMPP.Common.UserDataHeader
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: UserDataHeader
+  nameWithType: UserDataHeader
+  fullName: Inetlab.SMPP.Common.UserDataHeader
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder.Set*
+  commentId: Overload:Inetlab.SMPP.Builders.ISubmitSmBuilder.Set
+  isExternal: false
+  name: Set
+  nameWithType: ISubmitSmBuilder.Set
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder.Set
+- uid: Inetlab.SMPP.SmsAction{Inetlab.SMPP.PDU.SubmitSm}
+  commentId: T:Inetlab.SMPP.SmsAction{Inetlab.SMPP.PDU.SubmitSm}
+  parent: Inetlab.SMPP
+  definition: Inetlab.SMPP.SmsAction`1
+  name: SmsAction<SubmitSm>
+  nameWithType: SmsAction<SubmitSm>
+  fullName: Inetlab.SMPP.SmsAction<Inetlab.SMPP.PDU.SubmitSm>
+  nameWithType.vb: SmsAction(Of SubmitSm)
+  fullName.vb: Inetlab.SMPP.SmsAction(Of Inetlab.SMPP.PDU.SubmitSm)
+  name.vb: SmsAction(Of SubmitSm)
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmsAction`1
+    name: SmsAction
+    nameWithType: SmsAction
+    fullName: Inetlab.SMPP.SmsAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.PDU.SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: Inetlab.SMPP.PDU.SubmitSm
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.SmsAction`1
+    name: SmsAction
+    nameWithType: SmsAction
+    fullName: Inetlab.SMPP.SmsAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.PDU.SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: Inetlab.SMPP.PDU.SubmitSm
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmsAction`1
+  commentId: T:Inetlab.SMPP.SmsAction`1
+  isExternal: false
+  name: SmsAction<T>
+  nameWithType: SmsAction<T>
+  fullName: Inetlab.SMPP.SmsAction<T>
+  nameWithType.vb: SmsAction(Of T)
+  fullName.vb: Inetlab.SMPP.SmsAction(Of T)
+  name.vb: SmsAction(Of T)
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmsAction`1
+    name: SmsAction
+    nameWithType: SmsAction
+    fullName: Inetlab.SMPP.SmsAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.SmsAction`1
+    name: SmsAction
+    nameWithType: SmsAction
+    fullName: Inetlab.SMPP.SmsAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  isExternal: false
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP

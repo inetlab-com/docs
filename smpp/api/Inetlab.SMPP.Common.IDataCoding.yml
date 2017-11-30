@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.IDataCoding
+  commentId: T:Inetlab.SMPP.Common.IDataCoding
+  id: IDataCoding
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.IDataCoding.DataCoding
+  langs:
+  - csharp
+  - vb
+  name: IDataCoding
+  nameWithType: IDataCoding
+  fullName: Inetlab.SMPP.Common.IDataCoding
+  type: Interface
+  source:
+    remote:
+      path: Source/CS/Common/IDataCoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: IDataCoding
+    path: ../Source/CS/Common/IDataCoding.cs
+    startLine: 2
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public interface IDataCoding
+    content.vb: Public Interface IDataCoding
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Inetlab.SMPP.Common.IDataCoding.DataCoding
+  commentId: P:Inetlab.SMPP.Common.IDataCoding.DataCoding
+  id: DataCoding
+  parent: Inetlab.SMPP.Common.IDataCoding
+  langs:
+  - csharp
+  - vb
+  name: DataCoding
+  nameWithType: IDataCoding.DataCoding
+  fullName: Inetlab.SMPP.Common.IDataCoding.DataCoding
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/IDataCoding.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DataCoding
+    path: ../Source/CS/Common/IDataCoding.cs
+    startLine: 4
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DataCodings DataCoding { get; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+    content.vb: ReadOnly Property DataCoding As DataCodings
+  overload: Inetlab.SMPP.Common.IDataCoding.DataCoding*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.IDataCoding.DataCoding*
+  commentId: Overload:Inetlab.SMPP.Common.IDataCoding.DataCoding
+  isExternal: false
+  name: DataCoding
+  nameWithType: IDataCoding.DataCoding
+  fullName: Inetlab.SMPP.Common.IDataCoding.DataCoding
+- uid: Inetlab.SMPP.Common.DataCodings
+  commentId: T:Inetlab.SMPP.Common.DataCodings
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: DataCodings
+  nameWithType: DataCodings
+  fullName: Inetlab.SMPP.Common.DataCodings

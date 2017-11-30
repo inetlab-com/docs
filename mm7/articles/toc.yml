@@ -1,0 +1,14 @@
+
+- name: MM7 Client
+  items:
+  - name: Getting Started
+    href: client_getting_started.md
+
+- name: MM7 Server
+  items:
+  - name: Getting Started
+    href: server_getting_started.md
+
+
+- name: Change Log
+  href: ChangeLog.md

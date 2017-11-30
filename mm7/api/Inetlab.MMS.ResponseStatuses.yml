@@ -1,0 +1,369 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.ResponseStatuses
+  commentId: T:Inetlab.MMS.ResponseStatuses
+  id: ResponseStatuses
+  parent: Inetlab.MMS
+  children:
+  - Inetlab.MMS.ResponseStatuses.ErrorBontentNotAccepted
+  - Inetlab.MMS.ResponseStatuses.ErrorMessageFormatCorrupt
+  - Inetlab.MMS.ResponseStatuses.ErrorMessageNotFound
+  - Inetlab.MMS.ResponseStatuses.ErrorNetworkProblem
+  - Inetlab.MMS.ResponseStatuses.ErrorSendingAddressUnresolved
+  - Inetlab.MMS.ResponseStatuses.ErrorServiceDenied
+  - Inetlab.MMS.ResponseStatuses.ErrorUnspecified
+  - Inetlab.MMS.ResponseStatuses.ErrorUnsupportedMessage
+  - Inetlab.MMS.ResponseStatuses.Ok
+  langs:
+  - csharp
+  - vb
+  name: ResponseStatuses
+  nameWithType: ResponseStatuses
+  fullName: Inetlab.MMS.ResponseStatuses
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ResponseStatuses
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 373
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Serializable]
+
+      [Obfuscation(Exclude = true, ApplyToMembers = true)]
+
+      public enum ResponseStatuses
+    content.vb: >-
+      <Serializable>
+
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True)>
+
+      Public Enum ResponseStatuses
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.ResponseStatuses.Ok
+  commentId: F:Inetlab.MMS.ResponseStatuses.Ok
+  id: Ok
+  parent: Inetlab.MMS.ResponseStatuses
+  langs:
+  - csharp
+  - vb
+  name: Ok
+  nameWithType: ResponseStatuses.Ok
+  fullName: Inetlab.MMS.ResponseStatuses.Ok
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Ok
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 377
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: Ok = 128
+    return:
+      type: Inetlab.MMS.ResponseStatuses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.ResponseStatuses.ErrorUnspecified
+  commentId: F:Inetlab.MMS.ResponseStatuses.ErrorUnspecified
+  id: ErrorUnspecified
+  parent: Inetlab.MMS.ResponseStatuses
+  langs:
+  - csharp
+  - vb
+  name: ErrorUnspecified
+  nameWithType: ResponseStatuses.ErrorUnspecified
+  fullName: Inetlab.MMS.ResponseStatuses.ErrorUnspecified
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ErrorUnspecified
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 378
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: ErrorUnspecified = 129
+    return:
+      type: Inetlab.MMS.ResponseStatuses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.ResponseStatuses.ErrorServiceDenied
+  commentId: F:Inetlab.MMS.ResponseStatuses.ErrorServiceDenied
+  id: ErrorServiceDenied
+  parent: Inetlab.MMS.ResponseStatuses
+  langs:
+  - csharp
+  - vb
+  name: ErrorServiceDenied
+  nameWithType: ResponseStatuses.ErrorServiceDenied
+  fullName: Inetlab.MMS.ResponseStatuses.ErrorServiceDenied
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ErrorServiceDenied
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 379
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: ErrorServiceDenied = 130
+    return:
+      type: Inetlab.MMS.ResponseStatuses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.ResponseStatuses.ErrorMessageFormatCorrupt
+  commentId: F:Inetlab.MMS.ResponseStatuses.ErrorMessageFormatCorrupt
+  id: ErrorMessageFormatCorrupt
+  parent: Inetlab.MMS.ResponseStatuses
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessageFormatCorrupt
+  nameWithType: ResponseStatuses.ErrorMessageFormatCorrupt
+  fullName: Inetlab.MMS.ResponseStatuses.ErrorMessageFormatCorrupt
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ErrorMessageFormatCorrupt
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 380
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: ErrorMessageFormatCorrupt = 131
+    return:
+      type: Inetlab.MMS.ResponseStatuses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.ResponseStatuses.ErrorSendingAddressUnresolved
+  commentId: F:Inetlab.MMS.ResponseStatuses.ErrorSendingAddressUnresolved
+  id: ErrorSendingAddressUnresolved
+  parent: Inetlab.MMS.ResponseStatuses
+  langs:
+  - csharp
+  - vb
+  name: ErrorSendingAddressUnresolved
+  nameWithType: ResponseStatuses.ErrorSendingAddressUnresolved
+  fullName: Inetlab.MMS.ResponseStatuses.ErrorSendingAddressUnresolved
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ErrorSendingAddressUnresolved
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 381
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: ErrorSendingAddressUnresolved = 132
+    return:
+      type: Inetlab.MMS.ResponseStatuses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.ResponseStatuses.ErrorMessageNotFound
+  commentId: F:Inetlab.MMS.ResponseStatuses.ErrorMessageNotFound
+  id: ErrorMessageNotFound
+  parent: Inetlab.MMS.ResponseStatuses
+  langs:
+  - csharp
+  - vb
+  name: ErrorMessageNotFound
+  nameWithType: ResponseStatuses.ErrorMessageNotFound
+  fullName: Inetlab.MMS.ResponseStatuses.ErrorMessageNotFound
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ErrorMessageNotFound
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 382
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: ErrorMessageNotFound = 133
+    return:
+      type: Inetlab.MMS.ResponseStatuses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.ResponseStatuses.ErrorNetworkProblem
+  commentId: F:Inetlab.MMS.ResponseStatuses.ErrorNetworkProblem
+  id: ErrorNetworkProblem
+  parent: Inetlab.MMS.ResponseStatuses
+  langs:
+  - csharp
+  - vb
+  name: ErrorNetworkProblem
+  nameWithType: ResponseStatuses.ErrorNetworkProblem
+  fullName: Inetlab.MMS.ResponseStatuses.ErrorNetworkProblem
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ErrorNetworkProblem
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 383
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: ErrorNetworkProblem = 134
+    return:
+      type: Inetlab.MMS.ResponseStatuses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.ResponseStatuses.ErrorBontentNotAccepted
+  commentId: F:Inetlab.MMS.ResponseStatuses.ErrorBontentNotAccepted
+  id: ErrorBontentNotAccepted
+  parent: Inetlab.MMS.ResponseStatuses
+  langs:
+  - csharp
+  - vb
+  name: ErrorBontentNotAccepted
+  nameWithType: ResponseStatuses.ErrorBontentNotAccepted
+  fullName: Inetlab.MMS.ResponseStatuses.ErrorBontentNotAccepted
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ErrorBontentNotAccepted
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 384
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: ErrorBontentNotAccepted = 135
+    return:
+      type: Inetlab.MMS.ResponseStatuses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.ResponseStatuses.ErrorUnsupportedMessage
+  commentId: F:Inetlab.MMS.ResponseStatuses.ErrorUnsupportedMessage
+  id: ErrorUnsupportedMessage
+  parent: Inetlab.MMS.ResponseStatuses
+  langs:
+  - csharp
+  - vb
+  name: ErrorUnsupportedMessage
+  nameWithType: ResponseStatuses.ErrorUnsupportedMessage
+  fullName: Inetlab.MMS.ResponseStatuses.ErrorUnsupportedMessage
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ErrorUnsupportedMessage
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 385
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: ErrorUnsupportedMessage = 136
+    return:
+      type: Inetlab.MMS.ResponseStatuses
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: Inetlab.MMS.ResponseStatuses
+  commentId: T:Inetlab.MMS.ResponseStatuses
+  parent: Inetlab.MMS
+  isExternal: false
+  name: ResponseStatuses
+  nameWithType: ResponseStatuses
+  fullName: Inetlab.MMS.ResponseStatuses

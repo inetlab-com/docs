@@ -1,0 +1,747 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  id: SmppPDU
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.SmppPDU.#ctor
+  - Inetlab.SMPP.PDU.SmppPDU.Client
+  - Inetlab.SMPP.PDU.SmppPDU.Command
+  - Inetlab.SMPP.PDU.SmppPDU.Length
+  - Inetlab.SMPP.PDU.SmppPDU.Sequence
+  - Inetlab.SMPP.PDU.SmppPDU.Status
+  - Inetlab.SMPP.PDU.SmppPDU.Tag
+  - Inetlab.SMPP.PDU.SmppPDU.ToString
+  langs:
+  - csharp
+  - vb
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+  type: Class
+  source:
+    remote:
+      path: Source/CS/PDU/SmppPDU.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SmppPDU
+    path: ../Source/CS/PDU/SmppPDU.cs
+    startLine: 8
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nBase class represented SMPP PDU, contains SMPP Header.\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class SmppPDU
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class SmppPDU
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Inetlab.SMPP.PDU.AlertNotification
+  - Inetlab.SMPP.PDU.SmppRequest
+  - Inetlab.SMPP.PDU.SmppResponse
+  - Inetlab.SMPP.PDU.UnknownPacket
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Inetlab.SMPP.PDU.SmppPDU.Length
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Length
+  id: Length
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  langs:
+  - csharp
+  - vb
+  name: Length
+  nameWithType: SmppPDU.Length
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Length
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SmppPDU.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Length
+    path: ../Source/CS/PDU/SmppPDU.cs
+    startLine: 15
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nOverall length of the PDU.\n"
+  example: []
+  syntax:
+    content: public uint Length { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Length As UInteger
+  overload: Inetlab.SMPP.PDU.SmppPDU.Length*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SmppPDU.Command
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Command
+  id: Command
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: SmppPDU.Command
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Command
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SmppPDU.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Command
+    path: ../Source/CS/PDU/SmppPDU.cs
+    startLine: 20
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\ncommand_id\n"
+  example: []
+  syntax:
+    content: public CommandSet Command { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: Public Property Command As CommandSet
+  overload: Inetlab.SMPP.PDU.SmppPDU.Command*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SmppPDU.Status
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Status
+  id: Status
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SmppPDU.Status
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Status
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SmppPDU.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Status
+    path: ../Source/CS/PDU/SmppPDU.cs
+    startLine: 25
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\ncommand status\n"
+  example: []
+  syntax:
+    content: public CommandStatus Status { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: Public Property Status As CommandStatus
+  overload: Inetlab.SMPP.PDU.SmppPDU.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SmppPDU.Sequence
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Sequence
+  id: Sequence
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  langs:
+  - csharp
+  - vb
+  name: Sequence
+  nameWithType: SmppPDU.Sequence
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Sequence
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SmppPDU.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Sequence
+    path: ../Source/CS/PDU/SmppPDU.cs
+    startLine: 30
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nunique sequence number. PDU will echo the same sequence number.\n"
+  example: []
+  syntax:
+    content: public uint Sequence { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Sequence As UInteger
+  overload: Inetlab.SMPP.PDU.SmppPDU.Sequence*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Client
+  id: Client
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SmppPDU.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Client
+    path: ../Source/CS/PDU/SmppPDU.cs
+    startLine: 35
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nGets SMPP client bound with this PDU\n"
+  example: []
+  syntax:
+    content: public SmppClientBase Client { get; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.SmppClientBase
+    content.vb: Public ReadOnly Property Client As SmppClientBase
+  overload: Inetlab.SMPP.PDU.SmppPDU.Client*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Tag
+  id: Tag
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  langs:
+  - csharp
+  - vb
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SmppPDU.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Tag
+    path: ../Source/CS/PDU/SmppPDU.cs
+    startLine: 40
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nGets or sets an object that contains data to associate with the PDU.\n"
+  example: []
+  syntax:
+    content: public object Tag { get; set; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public Property Tag As Object
+  overload: Inetlab.SMPP.PDU.SmppPDU.Tag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SmppPDU.#ctor
+  commentId: M:Inetlab.SMPP.PDU.SmppPDU.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  langs:
+  - csharp
+  - vb
+  name: SmppPDU()
+  nameWithType: SmppPDU.SmppPDU()
+  fullName: Inetlab.SMPP.PDU.SmppPDU.SmppPDU()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/PDU/SmppPDU.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/PDU/SmppPDU.cs
+    startLine: 45
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nCreate instance of Header\n"
+  example: []
+  syntax:
+    content: protected SmppPDU()
+    content.vb: Protected Sub New
+  overload: Inetlab.SMPP.PDU.SmppPDU.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+  commentId: M:Inetlab.SMPP.PDU.SmppPDU.ToString
+  id: ToString
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SmppPDU.ToString()
+  fullName: Inetlab.SMPP.PDU.SmppPDU.ToString()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/PDU/SmppPDU.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ToString
+    path: ../Source/CS/PDU/SmppPDU.cs
+    startLine: 183
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Inetlab.SMPP.PDU.SmppPDU.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.SmppPDU.Length*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppPDU.Length
+  isExternal: false
+  name: Length
+  nameWithType: SmppPDU.Length
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Length
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Inetlab.SMPP.PDU.SmppPDU.Command*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppPDU.Command
+  isExternal: false
+  name: Command
+  nameWithType: SmppPDU.Command
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Command
+- uid: Inetlab.SMPP.Common.CommandSet
+  commentId: T:Inetlab.SMPP.Common.CommandSet
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: CommandSet
+  nameWithType: CommandSet
+  fullName: Inetlab.SMPP.Common.CommandSet
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.PDU.SmppPDU.Status*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppPDU.Status
+  isExternal: false
+  name: Status
+  nameWithType: SmppPDU.Status
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Status
+- uid: Inetlab.SMPP.Common.CommandStatus
+  commentId: T:Inetlab.SMPP.Common.CommandStatus
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: CommandStatus
+  nameWithType: CommandStatus
+  fullName: Inetlab.SMPP.Common.CommandStatus
+- uid: Inetlab.SMPP.PDU.SmppPDU.Sequence*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppPDU.Sequence
+  isExternal: false
+  name: Sequence
+  nameWithType: SmppPDU.Sequence
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Sequence
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppPDU.Client
+  isExternal: false
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+- uid: Inetlab.SMPP.Common.SmppClientBase
+  commentId: T:Inetlab.SMPP.Common.SmppClientBase
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: SmppClientBase
+  nameWithType: SmppClientBase
+  fullName: Inetlab.SMPP.Common.SmppClientBase
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppPDU.Tag
+  isExternal: false
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+- uid: Inetlab.SMPP.PDU.SmppPDU.#ctor*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppPDU.#ctor
+  isExternal: false
+  name: SmppPDU
+  nameWithType: SmppPDU.SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU.SmppPDU
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppPDU.ToString*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppPDU.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: SmppPDU.ToString
+  fullName: Inetlab.SMPP.PDU.SmppPDU.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

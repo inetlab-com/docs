@@ -1,0 +1,685 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.UserData
+  commentId: T:Inetlab.SMPP.Common.UserData
+  id: UserData
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.UserData.#ctor
+  - Inetlab.SMPP.Common.UserData.Clone
+  - Inetlab.SMPP.Common.UserData.Headers
+  - Inetlab.SMPP.Common.UserData.op_Addition(Inetlab.SMPP.Common.UserData,Inetlab.SMPP.Common.UserData)
+  - Inetlab.SMPP.Common.UserData.op_Implicit(Inetlab.SMPP.Common.UserData)~System.Byte[]
+  - Inetlab.SMPP.Common.UserData.op_Implicit(System.Byte[])~Inetlab.SMPP.Common.UserData
+  - Inetlab.SMPP.Common.UserData.ShortMessage
+  langs:
+  - csharp
+  - vb
+  name: UserData
+  nameWithType: UserData
+  fullName: Inetlab.SMPP.Common.UserData
+  type: Class
+  source:
+    remote:
+      path: Source/CS/Common/UserData.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: UserData
+    path: ../Source/CS/Common/UserData.cs
+    startLine: 7
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUserData class contains the user data of PDU\n"
+  example: []
+  syntax:
+    content: public class UserData
+    content.vb: Public Class UserData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.UserData.#ctor
+  commentId: M:Inetlab.SMPP.Common.UserData.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.UserData
+  langs:
+  - csharp
+  - vb
+  name: UserData()
+  nameWithType: UserData.UserData()
+  fullName: Inetlab.SMPP.Common.UserData.UserData()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Common/UserData.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Common/UserData.cs
+    startLine: 13
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public UserData()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.UserData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.UserData.ShortMessage
+  commentId: P:Inetlab.SMPP.Common.UserData.ShortMessage
+  id: ShortMessage
+  parent: Inetlab.SMPP.Common.UserData
+  langs:
+  - csharp
+  - vb
+  name: ShortMessage
+  nameWithType: UserData.ShortMessage
+  fullName: Inetlab.SMPP.Common.UserData.ShortMessage
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/UserData.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ShortMessage
+    path: ../Source/CS/Common/UserData.cs
+    startLine: 71
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\noctets of Short Message\n"
+  example: []
+  syntax:
+    content: public byte[] ShortMessage { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Property ShortMessage As Byte()
+  overload: Inetlab.SMPP.Common.UserData.ShortMessage*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.UserData.Headers
+  commentId: P:Inetlab.SMPP.Common.UserData.Headers
+  id: Headers
+  parent: Inetlab.SMPP.Common.UserData
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: UserData.Headers
+  fullName: Inetlab.SMPP.Common.UserData.Headers
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/UserData.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Headers
+    path: ../Source/CS/Common/UserData.cs
+    startLine: 80
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGSM User Data Header information in the short message\n"
+  example: []
+  syntax:
+    content: public UserDataHeaderCollection Headers { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.UserDataHeaderCollection
+    content.vb: Public Property Headers As UserDataHeaderCollection
+  overload: Inetlab.SMPP.Common.UserData.Headers*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.UserData.op_Implicit(Inetlab.SMPP.Common.UserData)~System.Byte[]
+  commentId: M:Inetlab.SMPP.Common.UserData.op_Implicit(Inetlab.SMPP.Common.UserData)~System.Byte[]
+  id: op_Implicit(Inetlab.SMPP.Common.UserData)~System.Byte[]
+  parent: Inetlab.SMPP.Common.UserData
+  langs:
+  - csharp
+  - vb
+  name: Implicit(UserData to Byte[])
+  nameWithType: UserData.Implicit(UserData to Byte[])
+  fullName: Inetlab.SMPP.Common.UserData.Implicit(Inetlab.SMPP.Common.UserData to System.Byte[])
+  type: Operator
+  source:
+    remote:
+      path: Source/CS/Common/UserData.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: op_Implicit
+    path: ../Source/CS/Common/UserData.cs
+    startLine: 86
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static implicit operator byte[](UserData d)
+    parameters:
+    - id: d
+      type: Inetlab.SMPP.Common.UserData
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Widening Operator CType(d As UserData) As Byte()
+  overload: Inetlab.SMPP.Common.UserData.op_Implicit*
+  nameWithType.vb: UserData.Widening(UserData to Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Common.UserData.Widening(Inetlab.SMPP.Common.UserData to System.Byte())
+  name.vb: Widening(UserData to Byte())
+- uid: Inetlab.SMPP.Common.UserData.op_Implicit(System.Byte[])~Inetlab.SMPP.Common.UserData
+  commentId: M:Inetlab.SMPP.Common.UserData.op_Implicit(System.Byte[])~Inetlab.SMPP.Common.UserData
+  id: op_Implicit(System.Byte[])~Inetlab.SMPP.Common.UserData
+  parent: Inetlab.SMPP.Common.UserData
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Byte[] to UserData)
+  nameWithType: UserData.Implicit(Byte[] to UserData)
+  fullName: Inetlab.SMPP.Common.UserData.Implicit(System.Byte[] to Inetlab.SMPP.Common.UserData)
+  type: Operator
+  source:
+    remote:
+      path: Source/CS/Common/UserData.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: op_Implicit
+    path: ../Source/CS/Common/UserData.cs
+    startLine: 101
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static implicit operator UserData(byte[] bytes)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    return:
+      type: Inetlab.SMPP.Common.UserData
+    content.vb: Public Shared Widening Operator CType(bytes As Byte()) As UserData
+  overload: Inetlab.SMPP.Common.UserData.op_Implicit*
+  nameWithType.vb: UserData.Widening(Byte() to UserData)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Common.UserData.Widening(System.Byte() to Inetlab.SMPP.Common.UserData)
+  name.vb: Widening(Byte() to UserData)
+- uid: Inetlab.SMPP.Common.UserData.op_Addition(Inetlab.SMPP.Common.UserData,Inetlab.SMPP.Common.UserData)
+  commentId: M:Inetlab.SMPP.Common.UserData.op_Addition(Inetlab.SMPP.Common.UserData,Inetlab.SMPP.Common.UserData)
+  id: op_Addition(Inetlab.SMPP.Common.UserData,Inetlab.SMPP.Common.UserData)
+  parent: Inetlab.SMPP.Common.UserData
+  langs:
+  - csharp
+  - vb
+  name: Addition(UserData, UserData)
+  nameWithType: UserData.Addition(UserData, UserData)
+  fullName: Inetlab.SMPP.Common.UserData.Addition(Inetlab.SMPP.Common.UserData, Inetlab.SMPP.Common.UserData)
+  type: Operator
+  source:
+    remote:
+      path: Source/CS/Common/UserData.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: op_Addition
+    path: ../Source/CS/Common/UserData.cs
+    startLine: 108
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static UserData operator +(UserData x, UserData y)
+    parameters:
+    - id: x
+      type: Inetlab.SMPP.Common.UserData
+    - id: y
+      type: Inetlab.SMPP.Common.UserData
+    return:
+      type: Inetlab.SMPP.Common.UserData
+    content.vb: Public Shared Operator +(x As UserData, y As UserData) As UserData
+  overload: Inetlab.SMPP.Common.UserData.op_Addition*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.Common.UserData.Clone
+  commentId: M:Inetlab.SMPP.Common.UserData.Clone
+  id: Clone
+  parent: Inetlab.SMPP.Common.UserData
+  langs:
+  - csharp
+  - vb
+  name: Clone()
+  nameWithType: UserData.Clone()
+  fullName: Inetlab.SMPP.Common.UserData.Clone()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/UserData.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Clone
+    path: ../Source/CS/Common/UserData.cs
+    startLine: 158
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public UserData Clone()
+    return:
+      type: Inetlab.SMPP.Common.UserData
+    content.vb: Public Function Clone As UserData
+  overload: Inetlab.SMPP.Common.UserData.Clone*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.UserData.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.UserData.#ctor
+  isExternal: false
+  name: UserData
+  nameWithType: UserData.UserData
+  fullName: Inetlab.SMPP.Common.UserData.UserData
+- uid: Inetlab.SMPP.Common.UserData.ShortMessage*
+  commentId: Overload:Inetlab.SMPP.Common.UserData.ShortMessage
+  isExternal: false
+  name: ShortMessage
+  nameWithType: UserData.ShortMessage
+  fullName: Inetlab.SMPP.Common.UserData.ShortMessage
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Common.UserData.Headers*
+  commentId: Overload:Inetlab.SMPP.Common.UserData.Headers
+  isExternal: false
+  name: Headers
+  nameWithType: UserData.Headers
+  fullName: Inetlab.SMPP.Common.UserData.Headers
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection
+  commentId: T:Inetlab.SMPP.Common.UserDataHeaderCollection
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: UserDataHeaderCollection
+  nameWithType: UserDataHeaderCollection
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection
+- uid: Inetlab.SMPP.Common.UserData.op_Implicit*
+  commentId: Overload:Inetlab.SMPP.Common.UserData.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: UserData.Implicit
+  fullName: Inetlab.SMPP.Common.UserData.Implicit
+  nameWithType.vb: UserData.Widening
+  fullName.vb: Inetlab.SMPP.Common.UserData.Widening
+  name.vb: Widening
+- uid: Inetlab.SMPP.Common.UserData
+  commentId: T:Inetlab.SMPP.Common.UserData
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: UserData
+  nameWithType: UserData
+  fullName: Inetlab.SMPP.Common.UserData
+- uid: Inetlab.SMPP.Common.UserData.op_Addition*
+  commentId: Overload:Inetlab.SMPP.Common.UserData.op_Addition
+  isExternal: false
+  name: Addition
+  nameWithType: UserData.Addition
+  fullName: Inetlab.SMPP.Common.UserData.Addition
+- uid: Inetlab.SMPP.Common.UserData.Clone*
+  commentId: Overload:Inetlab.SMPP.Common.UserData.Clone
+  isExternal: false
+  name: Clone
+  nameWithType: UserData.Clone
+  fullName: Inetlab.SMPP.Common.UserData.Clone

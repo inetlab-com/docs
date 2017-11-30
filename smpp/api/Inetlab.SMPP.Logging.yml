@@ -1,0 +1,59 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  id: Inetlab.SMPP.Logging
+  children:
+  - Inetlab.SMPP.Logging.ConsoleLogger
+  - Inetlab.SMPP.Logging.FileLogger
+  - Inetlab.SMPP.Logging.GetLoggerDelegate
+  - Inetlab.SMPP.Logging.ILog
+  - Inetlab.SMPP.Logging.LogManager
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging
+  type: Namespace
+  assemblies:
+  - Inetlab.SMPP
+references:
+- uid: Inetlab.SMPP.Logging.ConsoleLogger
+  commentId: T:Inetlab.SMPP.Logging.ConsoleLogger
+  isExternal: false
+  name: ConsoleLogger
+  nameWithType: ConsoleLogger
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger
+- uid: Inetlab.SMPP.Logging.FileLogger
+  commentId: T:Inetlab.SMPP.Logging.FileLogger
+  isExternal: false
+  name: FileLogger
+  nameWithType: FileLogger
+  fullName: Inetlab.SMPP.Logging.FileLogger
+- uid: Inetlab.SMPP.Logging.GetLoggerDelegate
+  commentId: T:Inetlab.SMPP.Logging.GetLoggerDelegate
+  parent: Inetlab.SMPP.Logging
+  isExternal: false
+  name: GetLoggerDelegate
+  nameWithType: GetLoggerDelegate
+  fullName: Inetlab.SMPP.Logging.GetLoggerDelegate
+- uid: Inetlab.SMPP.Logging.ILog
+  commentId: T:Inetlab.SMPP.Logging.ILog
+  parent: Inetlab.SMPP.Logging
+  isExternal: false
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.SMPP.Logging.ILog
+- uid: Inetlab.SMPP.Logging.LogManager
+  commentId: T:Inetlab.SMPP.Logging.LogManager
+  isExternal: false
+  name: LogManager
+  nameWithType: LogManager
+  fullName: Inetlab.SMPP.Logging.LogManager
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  isExternal: false
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging

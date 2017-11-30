@@ -1,0 +1,2500 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.SubmitMulti
+  commentId: T:Inetlab.SMPP.PDU.SubmitMulti
+  id: SubmitMulti
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.SubmitMulti.#ctor
+  - Inetlab.SMPP.PDU.SubmitMulti.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - Inetlab.SMPP.PDU.SubmitMulti.#ctor(System.String,System.Byte,System.Byte,System.String,System.Collections.Generic.List{Inetlab.SMPP.Common.DestinationAddress})
+  - Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  - Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  - Inetlab.SMPP.PDU.SubmitMulti.ConcatenationKey
+  - Inetlab.SMPP.PDU.SubmitMulti.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+  - Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  - Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  - Inetlab.SMPP.PDU.SubmitMulti.Deserialize(System.Byte[])
+  - Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  - Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  - Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  - Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  - Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  - Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  - Inetlab.SMPP.PDU.SubmitMulti.Notification
+  - Inetlab.SMPP.PDU.SubmitMulti.Optional
+  - Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  - Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  - Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  - Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  - Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  - Inetlab.SMPP.PDU.SubmitMulti.Serialize(Inetlab.SMPP.PDU.SubmitMulti)
+  - Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  - Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  - Inetlab.SMPP.PDU.SubmitMulti.SourceAddr
+  - Inetlab.SMPP.PDU.SubmitMulti.SourceAddrNpi
+  - Inetlab.SMPP.PDU.SubmitMulti.SourceAddrTon
+  - Inetlab.SMPP.PDU.SubmitMulti.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - Inetlab.SMPP.PDU.SubmitMulti.ToString
+  - Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  - Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  langs:
+  - csharp
+  - vb
+  name: SubmitMulti
+  nameWithType: SubmitMulti
+  fullName: Inetlab.SMPP.PDU.SubmitMulti
+  type: Class
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SubmitMulti
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 14
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nSubmitMulti PDU to submit an SMPP message for delivery to multiple\nrecipients or to one or more Distribution Lists\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SubmitMulti : SmppRequest<SubmitMultiResp>, ISmppMessage, ISmppHeader, IUserData, IOptionalParameters, ISourceAddress, IConcatenation, IDataCoding, ISerializable
+    content.vb: >-
+      <Serializable>
+
+      Public Class SubmitMulti
+          Inherits SmppRequest(Of SubmitMultiResp)
+          Implements ISmppMessage, ISmppHeader, IUserData, IOptionalParameters, ISourceAddress, IConcatenation, IDataCoding, ISerializable
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.PDU.SmppPDU
+  - Inetlab.SMPP.PDU.SmppRequest
+  - Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}
+  implements:
+  - Inetlab.SMPP.Common.ISmppMessage
+  - Inetlab.SMPP.Common.ISmppHeader
+  - Inetlab.SMPP.Common.IUserData
+  - Inetlab.SMPP.Common.IOptionalParameters
+  - Inetlab.SMPP.Common.ISourceAddress
+  - Inetlab.SMPP.Common.IConcatenation
+  - Inetlab.SMPP.Common.IDataCoding
+  - System.Runtime.Serialization.ISerializable
+  inheritedMembers:
+  - Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}.Response
+  - Inetlab.SMPP.PDU.SmppPDU.Length
+  - Inetlab.SMPP.PDU.SmppPDU.Command
+  - Inetlab.SMPP.PDU.SmppPDU.Status
+  - Inetlab.SMPP.PDU.SmppPDU.Sequence
+  - Inetlab.SMPP.PDU.SmppPDU.Client
+  - Inetlab.SMPP.PDU.SmppPDU.Tag
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  id: Concatenation
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Concatenation
+  nameWithType: SubmitMulti.Concatenation
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Concatenation
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 27
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nGets concatenation parameters.\n"
+  example: []
+  syntax:
+    content: public Concatenation Concatenation { get; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.Concatenation
+    content.vb: Public ReadOnly Property Concatenation As Concatenation
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Concatenation*
+  implements:
+  - Inetlab.SMPP.Common.IConcatenation.Concatenation
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ConcatenationKey
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ConcatenationKey
+  id: ConcatenationKey
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ConcatenationKey
+  nameWithType: SubmitMulti.ConcatenationKey
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ConcatenationKey
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConcatenationKey
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 32
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public string ConcatenationKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property ConcatenationKey As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ConcatenationKey*
+  implements:
+  - Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  id: ServiceType
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ServiceType
+  nameWithType: SubmitMulti.ServiceType
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ServiceType
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 53
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nIndicates the SMS Application service associated with the message\n"
+  example: []
+  syntax:
+    content: public string ServiceType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServiceType As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ServiceType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrTon
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.SourceAddrTon
+  id: SourceAddrTon
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SourceAddrTon
+  nameWithType: SubmitMulti.SourceAddrTon
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrTon
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceAddrTon
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 72
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nType of Number for source address.\n"
+  example: []
+  syntax:
+    content: public byte SourceAddrTon { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property SourceAddrTon As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrTon*
+  implements:
+  - Inetlab.SMPP.Common.ISourceAddress.SourceAddrTon
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrNpi
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.SourceAddrNpi
+  id: SourceAddrNpi
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SourceAddrNpi
+  nameWithType: SubmitMulti.SourceAddrNpi
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrNpi
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceAddrNpi
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 77
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nNumbering Plan Indicator for source address.\n"
+  example: []
+  syntax:
+    content: public byte SourceAddrNpi { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property SourceAddrNpi As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrNpi*
+  implements:
+  - Inetlab.SMPP.Common.ISourceAddress.SourceAddrNpi
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SourceAddr
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.SourceAddr
+  id: SourceAddr
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SourceAddr
+  nameWithType: SubmitMulti.SourceAddr
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SourceAddr
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceAddr
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 82
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nAddress of SME which originated this message.\n"
+  example: []
+  syntax:
+    content: public string SourceAddr { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property SourceAddr As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.SourceAddr*
+  implements:
+  - Inetlab.SMPP.Common.ISourceAddress.SourceAddr
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  id: DestinationAddresses
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: DestinationAddresses
+  nameWithType: SubmitMulti.DestinationAddresses
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DestinationAddresses
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 87
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nContains one or more SME addresses or/and Distribution List names\n"
+  example: []
+  syntax:
+    content: public IList<DestinationAddress> DestinationAddresses { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.IList{Inetlab.SMPP.Common.DestinationAddress}
+    content.vb: Public Property DestinationAddresses As IList(Of DestinationAddress)
+  overload: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  id: EsmClass
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: EsmClass
+  nameWithType: SubmitMulti.EsmClass
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: EsmClass
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 92
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nIndicates Message Mode and Message Type.\n"
+  example: []
+  syntax:
+    content: public byte EsmClass { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property EsmClass As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.EsmClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  id: ProtocolId
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ProtocolId
+  nameWithType: SubmitMulti.ProtocolId
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ProtocolId
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 97
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nProtocol Identifier. Network specific field.\n"
+  example: []
+  syntax:
+    content: public byte ProtocolId { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property ProtocolId As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  id: PriorityFlag
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: PriorityFlag
+  nameWithType: SubmitMulti.PriorityFlag
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: PriorityFlag
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 102
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nDesignates the priority level of the message.\n"
+  example: []
+  syntax:
+    content: public byte PriorityFlag { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property PriorityFlag As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  id: ScheduledDeliveryTime
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ScheduledDeliveryTime
+  nameWithType: SubmitMulti.ScheduledDeliveryTime
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ScheduledDeliveryTime
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 108
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nThe short message is to be scheduled by the SMSC for delivery. \nSet to NULL for immediate message delivery.\n"
+  example: []
+  syntax:
+    content: public string ScheduledDeliveryTime { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ScheduledDeliveryTime As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  id: ValidityPeriod
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ValidityPeriod
+  nameWithType: SubmitMulti.ValidityPeriod
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ValidityPeriod
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 114
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nThe validity period of this message. Set to NULL to request the SMSC default validity period.\nFormat &apos;YYMMDDhhmmsstnnp&apos;.\n"
+  example: []
+  syntax:
+    content: public string ValidityPeriod { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ValidityPeriod As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  id: RegisteredDelivery
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: RegisteredDelivery
+  nameWithType: SubmitMulti.RegisteredDelivery
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: RegisteredDelivery
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 137
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nIndicator to signify if an SMSC delivery receipt or an SME acknowledgement is required.\n"
+  example: []
+  syntax:
+    content: public byte RegisteredDelivery { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property RegisteredDelivery As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  id: ReplaceIfPresent
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ReplaceIfPresent
+  nameWithType: SubmitMulti.ReplaceIfPresent
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ReplaceIfPresent
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 142
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nFlag indicating if submitted message should replace an existing message.\n"
+  example: []
+  syntax:
+    content: public byte ReplaceIfPresent { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property ReplaceIfPresent As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  id: DataCoding
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: DataCoding
+  nameWithType: SubmitMulti.DataCoding
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DataCoding
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 147
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nDefines the encoding scheme of the short message user data.\n"
+  example: []
+  syntax:
+    content: public DataCodings DataCoding { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+    content.vb: Public Property DataCoding As DataCodings
+  overload: Inetlab.SMPP.PDU.SubmitMulti.DataCoding*
+  implements:
+  - Inetlab.SMPP.Common.IDataCoding.DataCoding
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  id: DefaultMessageId
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: DefaultMessageId
+  nameWithType: SubmitMulti.DefaultMessageId
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DefaultMessageId
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 152
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nIndicates the short message to send from a list of predefined (‘canned’) short messages stored on the SMSC. If not using an SMSC canned message, set to NULL.\n"
+  example: []
+  syntax:
+    content: public byte DefaultMessageId { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property DefaultMessageId As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Optional
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.Optional
+  id: Optional
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: SubmitMulti.Optional
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Optional
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Optional
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 154
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public TLVCollection Optional { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.TLVCollection
+    content.vb: Public Property Optional As TLVCollection
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Optional*
+  implements:
+  - Inetlab.SMPP.Common.IOptionalParameters.Optional
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  id: MessageText
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: MessageText
+  nameWithType: SubmitMulti.MessageText
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MessageText
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 159
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nGets message text in specified data coding.\n"
+  example: []
+  syntax:
+    content: public string MessageText { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MessageText As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.MessageText*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  id: UserDataPdu
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: UserDataPdu
+  nameWithType: SubmitMulti.UserDataPdu
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: UserDataPdu
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 183
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public UserData UserDataPdu { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.UserData
+    content.vb: Public Property UserDataPdu As UserData
+  overload: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu*
+  implements:
+  - Inetlab.SMPP.Common.IUserData.UserDataPdu
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  id: MessageMode
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: MessageMode
+  nameWithType: SubmitMulti.MessageMode
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MessageMode
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 185
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public MessageModes MessageMode { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.MessageModes
+    content.vb: Public Property MessageMode As MessageModes
+  overload: Inetlab.SMPP.PDU.SubmitMulti.MessageMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  id: MessageType
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: MessageType
+  nameWithType: SubmitMulti.MessageType
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MessageType
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 191
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public MessageTypes MessageType { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.MessageTypes
+    content.vb: Public Property MessageType As MessageTypes
+  overload: Inetlab.SMPP.PDU.SubmitMulti.MessageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  id: MessageFeature
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: MessageFeature
+  nameWithType: SubmitMulti.MessageFeature
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MessageFeature
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 197
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public GSMSpecificFeatures MessageFeature { get; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.GSMSpecificFeatures
+    content.vb: Public ReadOnly Property MessageFeature As GSMSpecificFeatures
+  overload: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  id: SMSCReceipt
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SMSCReceipt
+  nameWithType: SubmitMulti.SMSCReceipt
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SMSCReceipt
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 202
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public SMSCDeliveryReceipt SMSCReceipt { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+    content.vb: Public Property SMSCReceipt As SMSCDeliveryReceipt
+  overload: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  id: Acknowledgement
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Acknowledgement
+  nameWithType: SubmitMulti.Acknowledgement
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Acknowledgement
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 208
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public SMEAcknowledgement Acknowledgement { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.SMEAcknowledgement
+    content.vb: Public Property Acknowledgement As SMEAcknowledgement
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Notification
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.Notification
+  id: Notification
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Notification
+  nameWithType: SubmitMulti.Notification
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Notification
+  type: Property
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Notification
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 214
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public IntermediateNotification Notification { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.IntermediateNotification
+    content.vb: Public Property Notification As IntermediateNotification
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Notification*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.#ctor
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SubmitMulti()
+  nameWithType: SubmitMulti.SubmitMulti()
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SubmitMulti()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 221
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public SubmitMulti()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.PDU.SubmitMulti.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.#ctor(System.String,System.Byte,System.Byte,System.String,System.Collections.Generic.List{Inetlab.SMPP.Common.DestinationAddress})
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.#ctor(System.String,System.Byte,System.Byte,System.String,System.Collections.Generic.List{Inetlab.SMPP.Common.DestinationAddress})
+  id: '#ctor(System.String,System.Byte,System.Byte,System.String,System.Collections.Generic.List{Inetlab.SMPP.Common.DestinationAddress})'
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SubmitMulti(String, Byte, Byte, String, List<DestinationAddress>)
+  nameWithType: SubmitMulti.SubmitMulti(String, Byte, Byte, String, List<DestinationAddress>)
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SubmitMulti(System.String, System.Byte, System.Byte, System.String, System.Collections.Generic.List<Inetlab.SMPP.Common.DestinationAddress>)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 230
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public SubmitMulti(string serviceType, byte srcAddrTon, byte srcAddrNpi, string srcAddr, List<DestinationAddress> destAddrList)
+    parameters:
+    - id: serviceType
+      type: System.String
+    - id: srcAddrTon
+      type: System.Byte
+    - id: srcAddrNpi
+      type: System.Byte
+    - id: srcAddr
+      type: System.String
+    - id: destAddrList
+      type: System.Collections.Generic.List{Inetlab.SMPP.Common.DestinationAddress}
+    content.vb: Public Sub New(serviceType As String, srcAddrTon As Byte, srcAddrNpi As Byte, srcAddr As String, destAddrList As List(Of DestinationAddress))
+  overload: Inetlab.SMPP.PDU.SubmitMulti.#ctor*
+  nameWithType.vb: SubmitMulti.SubmitMulti(String, Byte, Byte, String, List(Of DestinationAddress))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.PDU.SubmitMulti.SubmitMulti(System.String, System.Byte, System.Byte, System.String, System.Collections.Generic.List(Of Inetlab.SMPP.Common.DestinationAddress))
+  name.vb: SubmitMulti(String, Byte, Byte, String, List(Of DestinationAddress))
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Serialize(Inetlab.SMPP.PDU.SubmitMulti)
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.Serialize(Inetlab.SMPP.PDU.SubmitMulti)
+  id: Serialize(Inetlab.SMPP.PDU.SubmitMulti)
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Serialize(SubmitMulti)
+  nameWithType: SubmitMulti.Serialize(SubmitMulti)
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Serialize(Inetlab.SMPP.PDU.SubmitMulti)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Serialize
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 335
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nSerializes SubmitMulti object to the byte array\n"
+  example: []
+  syntax:
+    content: public static byte[] Serialize(SubmitMulti submit)
+    parameters:
+    - id: submit
+      type: Inetlab.SMPP.PDU.SubmitMulti
+      description: SubmitMulti object to serialize
+    return:
+      type: System.Byte[]
+      description: Returns byte array
+    content.vb: Public Shared Function Serialize(submit As SubmitMulti) As Byte()
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Serialize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Deserialize(System.Byte[])
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.Deserialize(System.Byte[])
+  id: Deserialize(System.Byte[])
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(Byte[])
+  nameWithType: SubmitMulti.Deserialize(Byte[])
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Deserialize(System.Byte[])
+  type: Method
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Deserialize
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 346
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nDeserializes byte array to the SubmitMulti object\n"
+  example: []
+  syntax:
+    content: public static SubmitMulti Deserialize(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: Byte array to deseriaize
+    return:
+      type: Inetlab.SMPP.PDU.SubmitMulti
+      description: Returns SubmitMulti object
+    content.vb: Public Shared Function Deserialize(data As Byte()) As SubmitMulti
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Deserialize*
+  nameWithType.vb: SubmitMulti.Deserialize(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.PDU.SubmitMulti.Deserialize(System.Byte())
+  name.vb: Deserialize(Byte())
+- uid: Inetlab.SMPP.PDU.SubmitMulti.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SubmitMulti(SerializationInfo, StreamingContext)
+  nameWithType: SubmitMulti.SubmitMulti(SerializationInfo, StreamingContext)
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SubmitMulti(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 417
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: protected SubmitMulti(SerializationInfo info, StreamingContext context)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+    content.vb: Protected Sub New(info As SerializationInfo, context As StreamingContext)
+  overload: Inetlab.SMPP.PDU.SubmitMulti.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Inetlab.SMPP.PDU.SubmitMulti.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: System#Runtime#Serialization#ISerializable#GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  isEii: true
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ISerializable.GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: SubmitMulti.ISerializable.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: System.Runtime.Serialization.ISerializable.GetObjectData
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 427
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: void ISerializable.GetObjectData(SerializationInfo info, StreamingContext context)
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+    content.vb: Sub System.Runtime.Serialization.ISerializable.GetObjectData(info As SerializationInfo, context As StreamingContext) Implements ISerializable.GetObjectData
+  overload: Inetlab.SMPP.PDU.SubmitMulti.System#Runtime#Serialization#ISerializable#GetObjectData*
+  implements:
+  - System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  nameWithType.vb: SubmitMulti.System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo, StreamingContext)
+  name.vb: System.Runtime.Serialization.ISerializable.GetObjectData(SerializationInfo, StreamingContext)
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ToString
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.ToString
+  id: ToString
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SubmitMulti.ToString()
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ToString()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ToString
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 438
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: Inetlab.SMPP.PDU.SmppPDU.ToString
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Inetlab.SMPP.PDU.SubmitMulti.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+  id: CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: CorrespondTo(SmppResponse)
+  nameWithType: SubmitMulti.CorrespondTo(SmppResponse)
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/PDU/SubmitMulti.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: CorrespondTo
+    path: ../Source/CS/PDU/SubmitMulti.cs
+    startLine: 445
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public override bool CorrespondTo(SmppResponse response)
+    parameters:
+    - id: response
+      type: Inetlab.SMPP.PDU.SmppResponse
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function CorrespondTo(response As SmppResponse) As Boolean
+  overridden: Inetlab.SMPP.PDU.SmppRequest.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+  overload: Inetlab.SMPP.PDU.SubmitMulti.CorrespondTo*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU.SmppRequest
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppRequest
+  nameWithType: SmppRequest
+  fullName: Inetlab.SMPP.PDU.SmppRequest
+- uid: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}
+  parent: Inetlab.SMPP.PDU
+  definition: Inetlab.SMPP.PDU.SmppRequest`1
+  name: SmppRequest<SubmitMultiResp>
+  nameWithType: SmppRequest<SubmitMultiResp>
+  fullName: Inetlab.SMPP.PDU.SmppRequest<Inetlab.SMPP.PDU.SubmitMultiResp>
+  nameWithType.vb: SmppRequest(Of SubmitMultiResp)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of Inetlab.SMPP.PDU.SubmitMultiResp)
+  name.vb: SmppRequest(Of SubmitMultiResp)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.PDU.SubmitMultiResp
+    name: SubmitMultiResp
+    nameWithType: SubmitMultiResp
+    fullName: Inetlab.SMPP.PDU.SubmitMultiResp
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.PDU.SubmitMultiResp
+    name: SubmitMultiResp
+    nameWithType: SubmitMultiResp
+    fullName: Inetlab.SMPP.PDU.SubmitMultiResp
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common.ISmppMessage
+  commentId: T:Inetlab.SMPP.Common.ISmppMessage
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ISmppMessage
+  nameWithType: ISmppMessage
+  fullName: Inetlab.SMPP.Common.ISmppMessage
+- uid: Inetlab.SMPP.Common.ISmppHeader
+  commentId: T:Inetlab.SMPP.Common.ISmppHeader
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ISmppHeader
+  nameWithType: ISmppHeader
+  fullName: Inetlab.SMPP.Common.ISmppHeader
+- uid: Inetlab.SMPP.Common.IUserData
+  commentId: T:Inetlab.SMPP.Common.IUserData
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: IUserData
+  nameWithType: IUserData
+  fullName: Inetlab.SMPP.Common.IUserData
+- uid: Inetlab.SMPP.Common.IOptionalParameters
+  commentId: T:Inetlab.SMPP.Common.IOptionalParameters
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: IOptionalParameters
+  nameWithType: IOptionalParameters
+  fullName: Inetlab.SMPP.Common.IOptionalParameters
+- uid: Inetlab.SMPP.Common.ISourceAddress
+  commentId: T:Inetlab.SMPP.Common.ISourceAddress
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ISourceAddress
+  nameWithType: ISourceAddress
+  fullName: Inetlab.SMPP.Common.ISourceAddress
+- uid: Inetlab.SMPP.Common.IConcatenation
+  commentId: T:Inetlab.SMPP.Common.IConcatenation
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: IConcatenation
+  nameWithType: IConcatenation
+  fullName: Inetlab.SMPP.Common.IConcatenation
+- uid: Inetlab.SMPP.Common.IDataCoding
+  commentId: T:Inetlab.SMPP.Common.IDataCoding
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: IDataCoding
+  nameWithType: IDataCoding
+  fullName: Inetlab.SMPP.Common.IDataCoding
+- uid: System.Runtime.Serialization.ISerializable
+  commentId: T:System.Runtime.Serialization.ISerializable
+  parent: System.Runtime.Serialization
+  isExternal: true
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: System.Runtime.Serialization.ISerializable
+- uid: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}.Response
+  commentId: P:Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}.Response
+  parent: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}
+  definition: Inetlab.SMPP.PDU.SmppRequest`1.Response
+  name: Response
+  nameWithType: SmppRequest<SubmitMultiResp>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequest<Inetlab.SMPP.PDU.SubmitMultiResp>.Response
+  nameWithType.vb: SmppRequest(Of SubmitMultiResp).Response
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of Inetlab.SMPP.PDU.SubmitMultiResp).Response
+- uid: Inetlab.SMPP.PDU.SmppPDU.Length
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Length
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Length
+  nameWithType: SmppPDU.Length
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Length
+- uid: Inetlab.SMPP.PDU.SmppPDU.Command
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Command
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Command
+  nameWithType: SmppPDU.Command
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Command
+- uid: Inetlab.SMPP.PDU.SmppPDU.Status
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Status
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Status
+  nameWithType: SmppPDU.Status
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Status
+- uid: Inetlab.SMPP.PDU.SmppPDU.Sequence
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Sequence
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Sequence
+  nameWithType: SmppPDU.Sequence
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Sequence
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Client
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Tag
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.SmppRequest`1
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest`1
+  isExternal: false
+  name: SmppRequest<TResponse>
+  nameWithType: SmppRequest<TResponse>
+  fullName: Inetlab.SMPP.PDU.SmppRequest<TResponse>
+  nameWithType.vb: SmppRequest(Of TResponse)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of TResponse)
+  name.vb: SmppRequest(Of TResponse)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Runtime.Serialization
+  commentId: N:System.Runtime.Serialization
+  isExternal: false
+  name: System.Runtime.Serialization
+  nameWithType: System.Runtime.Serialization
+  fullName: System.Runtime.Serialization
+- uid: Inetlab.SMPP.PDU.SmppRequest`1.Response
+  commentId: P:Inetlab.SMPP.PDU.SmppRequest`1.Response
+  isExternal: false
+  name: Response
+  nameWithType: SmppRequest<TResponse>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequest<TResponse>.Response
+  nameWithType.vb: SmppRequest(Of TResponse).Response
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of TResponse).Response
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Concatenation*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  isExternal: false
+  name: Concatenation
+  nameWithType: SubmitMulti.Concatenation
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+- uid: Inetlab.SMPP.Common.IConcatenation.Concatenation
+  commentId: P:Inetlab.SMPP.Common.IConcatenation.Concatenation
+  parent: Inetlab.SMPP.Common.IConcatenation
+  isExternal: false
+  name: Concatenation
+  nameWithType: IConcatenation.Concatenation
+  fullName: Inetlab.SMPP.Common.IConcatenation.Concatenation
+- uid: Inetlab.SMPP.Common.Concatenation
+  commentId: T:Inetlab.SMPP.Common.Concatenation
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: Concatenation
+  nameWithType: Concatenation
+  fullName: Inetlab.SMPP.Common.Concatenation
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ConcatenationKey*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ConcatenationKey
+  isExternal: false
+  name: ConcatenationKey
+  nameWithType: SubmitMulti.ConcatenationKey
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ConcatenationKey
+- uid: Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+  commentId: P:Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+  parent: Inetlab.SMPP.Common.IConcatenation
+  isExternal: false
+  name: ConcatenationKey
+  nameWithType: IConcatenation.ConcatenationKey
+  fullName: Inetlab.SMPP.Common.IConcatenation.ConcatenationKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ServiceType*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  isExternal: false
+  name: ServiceType
+  nameWithType: SubmitMulti.ServiceType
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrTon*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.SourceAddrTon
+  isExternal: false
+  name: SourceAddrTon
+  nameWithType: SubmitMulti.SourceAddrTon
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrTon
+- uid: Inetlab.SMPP.Common.ISourceAddress.SourceAddrTon
+  commentId: P:Inetlab.SMPP.Common.ISourceAddress.SourceAddrTon
+  parent: Inetlab.SMPP.Common.ISourceAddress
+  isExternal: false
+  name: SourceAddrTon
+  nameWithType: ISourceAddress.SourceAddrTon
+  fullName: Inetlab.SMPP.Common.ISourceAddress.SourceAddrTon
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrNpi*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.SourceAddrNpi
+  isExternal: false
+  name: SourceAddrNpi
+  nameWithType: SubmitMulti.SourceAddrNpi
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SourceAddrNpi
+- uid: Inetlab.SMPP.Common.ISourceAddress.SourceAddrNpi
+  commentId: P:Inetlab.SMPP.Common.ISourceAddress.SourceAddrNpi
+  parent: Inetlab.SMPP.Common.ISourceAddress
+  isExternal: false
+  name: SourceAddrNpi
+  nameWithType: ISourceAddress.SourceAddrNpi
+  fullName: Inetlab.SMPP.Common.ISourceAddress.SourceAddrNpi
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SourceAddr*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.SourceAddr
+  isExternal: false
+  name: SourceAddr
+  nameWithType: SubmitMulti.SourceAddr
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SourceAddr
+- uid: Inetlab.SMPP.Common.ISourceAddress.SourceAddr
+  commentId: P:Inetlab.SMPP.Common.ISourceAddress.SourceAddr
+  parent: Inetlab.SMPP.Common.ISourceAddress
+  isExternal: false
+  name: SourceAddr
+  nameWithType: ISourceAddress.SourceAddr
+  fullName: Inetlab.SMPP.Common.ISourceAddress.SourceAddr
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  isExternal: false
+  name: DestinationAddresses
+  nameWithType: SubmitMulti.DestinationAddresses
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+- uid: System.Collections.Generic.IList{Inetlab.SMPP.Common.DestinationAddress}
+  commentId: T:System.Collections.Generic.IList{Inetlab.SMPP.Common.DestinationAddress}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IList`1
+  name: IList<DestinationAddress>
+  nameWithType: IList<DestinationAddress>
+  fullName: System.Collections.Generic.IList<Inetlab.SMPP.Common.DestinationAddress>
+  nameWithType.vb: IList(Of DestinationAddress)
+  fullName.vb: System.Collections.Generic.IList(Of Inetlab.SMPP.Common.DestinationAddress)
+  name.vb: IList(Of DestinationAddress)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.Common.DestinationAddress
+    name: DestinationAddress
+    nameWithType: DestinationAddress
+    fullName: Inetlab.SMPP.Common.DestinationAddress
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.Common.DestinationAddress
+    name: DestinationAddress
+    nameWithType: DestinationAddress
+    fullName: Inetlab.SMPP.Common.DestinationAddress
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.IList`1
+  commentId: T:System.Collections.Generic.IList`1
+  isExternal: true
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: System.Collections.Generic.IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: System.Collections.Generic.IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IList`1
+    name: IList
+    nameWithType: IList
+    fullName: System.Collections.Generic.IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Inetlab.SMPP.PDU.SubmitMulti.EsmClass*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  isExternal: false
+  name: EsmClass
+  nameWithType: SubmitMulti.EsmClass
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  isExternal: false
+  name: ProtocolId
+  nameWithType: SubmitMulti.ProtocolId
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+- uid: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  isExternal: false
+  name: PriorityFlag
+  nameWithType: SubmitMulti.PriorityFlag
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  isExternal: false
+  name: ScheduledDeliveryTime
+  nameWithType: SubmitMulti.ScheduledDeliveryTime
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  isExternal: false
+  name: ValidityPeriod
+  nameWithType: SubmitMulti.ValidityPeriod
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+- uid: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  isExternal: false
+  name: RegisteredDelivery
+  nameWithType: SubmitMulti.RegisteredDelivery
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  isExternal: false
+  name: ReplaceIfPresent
+  nameWithType: SubmitMulti.ReplaceIfPresent
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DataCoding*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  isExternal: false
+  name: DataCoding
+  nameWithType: SubmitMulti.DataCoding
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+- uid: Inetlab.SMPP.Common.IDataCoding.DataCoding
+  commentId: P:Inetlab.SMPP.Common.IDataCoding.DataCoding
+  parent: Inetlab.SMPP.Common.IDataCoding
+  isExternal: false
+  name: DataCoding
+  nameWithType: IDataCoding.DataCoding
+  fullName: Inetlab.SMPP.Common.IDataCoding.DataCoding
+- uid: Inetlab.SMPP.Common.DataCodings
+  commentId: T:Inetlab.SMPP.Common.DataCodings
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: DataCodings
+  nameWithType: DataCodings
+  fullName: Inetlab.SMPP.Common.DataCodings
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  isExternal: false
+  name: DefaultMessageId
+  nameWithType: SubmitMulti.DefaultMessageId
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Optional*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Optional
+  isExternal: false
+  name: Optional
+  nameWithType: SubmitMulti.Optional
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Optional
+- uid: Inetlab.SMPP.Common.IOptionalParameters.Optional
+  commentId: P:Inetlab.SMPP.Common.IOptionalParameters.Optional
+  parent: Inetlab.SMPP.Common.IOptionalParameters
+  isExternal: false
+  name: Optional
+  nameWithType: IOptionalParameters.Optional
+  fullName: Inetlab.SMPP.Common.IOptionalParameters.Optional
+- uid: Inetlab.SMPP.Common.TLVCollection
+  commentId: T:Inetlab.SMPP.Common.TLVCollection
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: TLVCollection
+  nameWithType: TLVCollection
+  fullName: Inetlab.SMPP.Common.TLVCollection
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageText*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  isExternal: false
+  name: MessageText
+  nameWithType: SubmitMulti.MessageText
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageText
+- uid: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  isExternal: false
+  name: UserDataPdu
+  nameWithType: SubmitMulti.UserDataPdu
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+- uid: Inetlab.SMPP.Common.IUserData.UserDataPdu
+  commentId: P:Inetlab.SMPP.Common.IUserData.UserDataPdu
+  parent: Inetlab.SMPP.Common.IUserData
+  isExternal: false
+  name: UserDataPdu
+  nameWithType: IUserData.UserDataPdu
+  fullName: Inetlab.SMPP.Common.IUserData.UserDataPdu
+- uid: Inetlab.SMPP.Common.UserData
+  commentId: T:Inetlab.SMPP.Common.UserData
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: UserData
+  nameWithType: UserData
+  fullName: Inetlab.SMPP.Common.UserData
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageMode*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  isExternal: false
+  name: MessageMode
+  nameWithType: SubmitMulti.MessageMode
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+- uid: Inetlab.SMPP.Common.MessageModes
+  commentId: T:Inetlab.SMPP.Common.MessageModes
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: MessageModes
+  nameWithType: MessageModes
+  fullName: Inetlab.SMPP.Common.MessageModes
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageType*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  isExternal: false
+  name: MessageType
+  nameWithType: SubmitMulti.MessageType
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageType
+- uid: Inetlab.SMPP.Common.MessageTypes
+  commentId: T:Inetlab.SMPP.Common.MessageTypes
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: MessageTypes
+  nameWithType: MessageTypes
+  fullName: Inetlab.SMPP.Common.MessageTypes
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  isExternal: false
+  name: MessageFeature
+  nameWithType: SubmitMulti.MessageFeature
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+- uid: Inetlab.SMPP.Common.GSMSpecificFeatures
+  commentId: T:Inetlab.SMPP.Common.GSMSpecificFeatures
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: GSMSpecificFeatures
+  nameWithType: GSMSpecificFeatures
+  fullName: Inetlab.SMPP.Common.GSMSpecificFeatures
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  isExternal: false
+  name: SMSCReceipt
+  nameWithType: SubmitMulti.SMSCReceipt
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+- uid: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  commentId: T:Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: SMSCDeliveryReceipt
+  nameWithType: SMSCDeliveryReceipt
+  fullName: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  isExternal: false
+  name: Acknowledgement
+  nameWithType: SubmitMulti.Acknowledgement
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+- uid: Inetlab.SMPP.Common.SMEAcknowledgement
+  commentId: T:Inetlab.SMPP.Common.SMEAcknowledgement
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: SMEAcknowledgement
+  nameWithType: SMEAcknowledgement
+  fullName: Inetlab.SMPP.Common.SMEAcknowledgement
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Notification*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Notification
+  isExternal: false
+  name: Notification
+  nameWithType: SubmitMulti.Notification
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Notification
+- uid: Inetlab.SMPP.Common.IntermediateNotification
+  commentId: T:Inetlab.SMPP.Common.IntermediateNotification
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: IntermediateNotification
+  nameWithType: IntermediateNotification
+  fullName: Inetlab.SMPP.Common.IntermediateNotification
+- uid: Inetlab.SMPP.PDU.SubmitMulti.#ctor*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.#ctor
+  isExternal: false
+  name: SubmitMulti
+  nameWithType: SubmitMulti.SubmitMulti
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SubmitMulti
+- uid: System.Collections.Generic.List{Inetlab.SMPP.Common.DestinationAddress}
+  commentId: T:System.Collections.Generic.List{Inetlab.SMPP.Common.DestinationAddress}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<DestinationAddress>
+  nameWithType: List<DestinationAddress>
+  fullName: System.Collections.Generic.List<Inetlab.SMPP.Common.DestinationAddress>
+  nameWithType.vb: List(Of DestinationAddress)
+  fullName.vb: System.Collections.Generic.List(Of Inetlab.SMPP.Common.DestinationAddress)
+  name.vb: List(Of DestinationAddress)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.Common.DestinationAddress
+    name: DestinationAddress
+    nameWithType: DestinationAddress
+    fullName: Inetlab.SMPP.Common.DestinationAddress
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.Common.DestinationAddress
+    name: DestinationAddress
+    nameWithType: DestinationAddress
+    fullName: Inetlab.SMPP.Common.DestinationAddress
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Serialize*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Serialize
+  isExternal: false
+  name: Serialize
+  nameWithType: SubmitMulti.Serialize
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Serialize
+- uid: Inetlab.SMPP.PDU.SubmitMulti
+  commentId: T:Inetlab.SMPP.PDU.SubmitMulti
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SubmitMulti
+  nameWithType: SubmitMulti
+  fullName: Inetlab.SMPP.PDU.SubmitMulti
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Deserialize*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Deserialize
+  isExternal: false
+  name: Deserialize
+  nameWithType: SubmitMulti.Deserialize
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Deserialize
+- uid: System.Runtime.Serialization.SerializationInfo
+  commentId: T:System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: true
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  commentId: T:System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: true
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: Inetlab.SMPP.PDU.SubmitMulti.System#Runtime#Serialization#ISerializable#GetObjectData*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.System#Runtime#Serialization#ISerializable#GetObjectData
+  isExternal: false
+  name: ISerializable.GetObjectData
+  nameWithType: SubmitMulti.ISerializable.GetObjectData
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.System.Runtime.Serialization.ISerializable.GetObjectData
+  nameWithType.vb: SubmitMulti.System.Runtime.Serialization.ISerializable.GetObjectData
+  name.vb: System.Runtime.Serialization.ISerializable.GetObjectData
+- uid: System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  commentId: M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Runtime.Serialization.ISerializable
+  isExternal: true
+  name: GetObjectData(SerializationInfo, StreamingContext)
+  nameWithType: ISerializable.GetObjectData(SerializationInfo, StreamingContext)
+  fullName: System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  spec.csharp:
+  - uid: System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    nameWithType: ISerializable.GetObjectData
+    fullName: System.Runtime.Serialization.ISerializable.GetObjectData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    nameWithType: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    nameWithType: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+    name: GetObjectData
+    nameWithType: ISerializable.GetObjectData
+    fullName: System.Runtime.Serialization.ISerializable.GetObjectData
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Runtime.Serialization.SerializationInfo
+    name: SerializationInfo
+    nameWithType: SerializationInfo
+    fullName: System.Runtime.Serialization.SerializationInfo
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Runtime.Serialization.StreamingContext
+    name: StreamingContext
+    nameWithType: StreamingContext
+    fullName: System.Runtime.Serialization.StreamingContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+  commentId: M:Inetlab.SMPP.PDU.SmppPDU.ToString
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: ToString()
+  nameWithType: SmppPDU.ToString()
+  fullName: Inetlab.SMPP.PDU.SmppPDU.ToString()
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+    name: ToString
+    nameWithType: SmppPDU.ToString
+    fullName: Inetlab.SMPP.PDU.SmppPDU.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+    name: ToString
+    nameWithType: SmppPDU.ToString
+    fullName: Inetlab.SMPP.PDU.SmppPDU.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ToString*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: SubmitMulti.ToString
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ToString
+- uid: Inetlab.SMPP.PDU.SmppRequest.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: false
+  name: CorrespondTo(SmppResponse)
+  nameWithType: SmppRequest.CorrespondTo(SmppResponse)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+    name: CorrespondTo
+    nameWithType: SmppRequest.CorrespondTo
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CorrespondTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.PDU.SmppResponse
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CorrespondTo(Inetlab.SMPP.PDU.SmppResponse)
+    name: CorrespondTo
+    nameWithType: SmppRequest.CorrespondTo
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CorrespondTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.PDU.SmppResponse
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SubmitMulti.CorrespondTo*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.CorrespondTo
+  isExternal: false
+  name: CorrespondTo
+  nameWithType: SubmitMulti.CorrespondTo
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.CorrespondTo
+- uid: Inetlab.SMPP.PDU.SmppResponse
+  commentId: T:Inetlab.SMPP.PDU.SmppResponse
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppResponse
+  nameWithType: SmppResponse
+  fullName: Inetlab.SMPP.PDU.SmppResponse
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

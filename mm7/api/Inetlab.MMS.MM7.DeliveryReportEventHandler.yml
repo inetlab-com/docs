@@ -1,0 +1,83 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.DeliveryReportEventHandler
+  commentId: T:Inetlab.MMS.MM7.DeliveryReportEventHandler
+  id: DeliveryReportEventHandler
+  parent: Inetlab.MMS.MM7
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DeliveryReportEventHandler
+  nameWithType: DeliveryReportEventHandler
+  fullName: Inetlab.MMS.MM7.DeliveryReportEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Source/CS/MM7/Delegates.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: DeliveryReportEventHandler
+    path: ../Source/CS/MM7/Delegates.cs
+    startLine: 9
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public delegate void DeliveryReportEventHandler(object sender, DeliveryReportRequestEventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: e
+      type: Inetlab.MMS.MM7.DeliveryReportRequestEventArgs
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Delegate Sub DeliveryReportEventHandler(sender As Object, e As DeliveryReportRequestEventArgs)
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.MMS.MM7.DeliveryReportRequestEventArgs
+  commentId: T:Inetlab.MMS.MM7.DeliveryReportRequestEventArgs
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: DeliveryReportRequestEventArgs
+  nameWithType: DeliveryReportRequestEventArgs
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequestEventArgs
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

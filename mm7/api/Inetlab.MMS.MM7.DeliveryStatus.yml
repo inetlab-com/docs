@@ -1,0 +1,339 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.DeliveryStatus
+  commentId: T:Inetlab.MMS.MM7.DeliveryStatus
+  id: DeliveryStatus
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.DeliveryStatus.Deferred
+  - Inetlab.MMS.MM7.DeliveryStatus.DeliveryConditionNotMet
+  - Inetlab.MMS.MM7.DeliveryStatus.Expired
+  - Inetlab.MMS.MM7.DeliveryStatus.Forwarded
+  - Inetlab.MMS.MM7.DeliveryStatus.Indeterminate
+  - Inetlab.MMS.MM7.DeliveryStatus.Rejected
+  - Inetlab.MMS.MM7.DeliveryStatus.Retrieved
+  - Inetlab.MMS.MM7.DeliveryStatus.Unrecognised
+  langs:
+  - csharp
+  - vb
+  name: DeliveryStatus
+  nameWithType: DeliveryStatus
+  fullName: Inetlab.MMS.MM7.DeliveryStatus
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverySatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: DeliveryStatus
+    path: ../Source/CS/MM7/DeliverySatus.cs
+    startLine: 7
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = true)]
+
+      public enum DeliveryStatus
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True)>
+
+      Public Enum DeliveryStatus
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.MM7.DeliveryStatus.Expired
+  commentId: F:Inetlab.MMS.MM7.DeliveryStatus.Expired
+  id: Expired
+  parent: Inetlab.MMS.MM7.DeliveryStatus
+  langs:
+  - csharp
+  - vb
+  name: Expired
+  nameWithType: DeliveryStatus.Expired
+  fullName: Inetlab.MMS.MM7.DeliveryStatus.Expired
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverySatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Expired
+    path: ../Source/CS/MM7/DeliverySatus.cs
+    startLine: 12
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: Expired = 0
+    return:
+      type: Inetlab.MMS.MM7.DeliveryStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.DeliveryStatus.Retrieved
+  commentId: F:Inetlab.MMS.MM7.DeliveryStatus.Retrieved
+  id: Retrieved
+  parent: Inetlab.MMS.MM7.DeliveryStatus
+  langs:
+  - csharp
+  - vb
+  name: Retrieved
+  nameWithType: DeliveryStatus.Retrieved
+  fullName: Inetlab.MMS.MM7.DeliveryStatus.Retrieved
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverySatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Retrieved
+    path: ../Source/CS/MM7/DeliverySatus.cs
+    startLine: 15
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: Retrieved = 1
+    return:
+      type: Inetlab.MMS.MM7.DeliveryStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.DeliveryStatus.Rejected
+  commentId: F:Inetlab.MMS.MM7.DeliveryStatus.Rejected
+  id: Rejected
+  parent: Inetlab.MMS.MM7.DeliveryStatus
+  langs:
+  - csharp
+  - vb
+  name: Rejected
+  nameWithType: DeliveryStatus.Rejected
+  fullName: Inetlab.MMS.MM7.DeliveryStatus.Rejected
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverySatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Rejected
+    path: ../Source/CS/MM7/DeliverySatus.cs
+    startLine: 18
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: Rejected = 2
+    return:
+      type: Inetlab.MMS.MM7.DeliveryStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.DeliveryStatus.Indeterminate
+  commentId: F:Inetlab.MMS.MM7.DeliveryStatus.Indeterminate
+  id: Indeterminate
+  parent: Inetlab.MMS.MM7.DeliveryStatus
+  langs:
+  - csharp
+  - vb
+  name: Indeterminate
+  nameWithType: DeliveryStatus.Indeterminate
+  fullName: Inetlab.MMS.MM7.DeliveryStatus.Indeterminate
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverySatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Indeterminate
+    path: ../Source/CS/MM7/DeliverySatus.cs
+    startLine: 21
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: Indeterminate = 3
+    return:
+      type: Inetlab.MMS.MM7.DeliveryStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.DeliveryStatus.Forwarded
+  commentId: F:Inetlab.MMS.MM7.DeliveryStatus.Forwarded
+  id: Forwarded
+  parent: Inetlab.MMS.MM7.DeliveryStatus
+  langs:
+  - csharp
+  - vb
+  name: Forwarded
+  nameWithType: DeliveryStatus.Forwarded
+  fullName: Inetlab.MMS.MM7.DeliveryStatus.Forwarded
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverySatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Forwarded
+    path: ../Source/CS/MM7/DeliverySatus.cs
+    startLine: 24
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: Forwarded = 4
+    return:
+      type: Inetlab.MMS.MM7.DeliveryStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.DeliveryStatus.Unrecognised
+  commentId: F:Inetlab.MMS.MM7.DeliveryStatus.Unrecognised
+  id: Unrecognised
+  parent: Inetlab.MMS.MM7.DeliveryStatus
+  langs:
+  - csharp
+  - vb
+  name: Unrecognised
+  nameWithType: DeliveryStatus.Unrecognised
+  fullName: Inetlab.MMS.MM7.DeliveryStatus.Unrecognised
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverySatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Unrecognised
+    path: ../Source/CS/MM7/DeliverySatus.cs
+    startLine: 26
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: Unrecognised = 5
+    return:
+      type: Inetlab.MMS.MM7.DeliveryStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.DeliveryStatus.Deferred
+  commentId: F:Inetlab.MMS.MM7.DeliveryStatus.Deferred
+  id: Deferred
+  parent: Inetlab.MMS.MM7.DeliveryStatus
+  langs:
+  - csharp
+  - vb
+  name: Deferred
+  nameWithType: DeliveryStatus.Deferred
+  fullName: Inetlab.MMS.MM7.DeliveryStatus.Deferred
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverySatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Deferred
+    path: ../Source/CS/MM7/DeliverySatus.cs
+    startLine: 28
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: Deferred = 6
+    return:
+      type: Inetlab.MMS.MM7.DeliveryStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.DeliveryStatus.DeliveryConditionNotMet
+  commentId: F:Inetlab.MMS.MM7.DeliveryStatus.DeliveryConditionNotMet
+  id: DeliveryConditionNotMet
+  parent: Inetlab.MMS.MM7.DeliveryStatus
+  langs:
+  - csharp
+  - vb
+  name: DeliveryConditionNotMet
+  nameWithType: DeliveryStatus.DeliveryConditionNotMet
+  fullName: Inetlab.MMS.MM7.DeliveryStatus.DeliveryConditionNotMet
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliverySatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: DeliveryConditionNotMet
+    path: ../Source/CS/MM7/DeliverySatus.cs
+    startLine: 30
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: DeliveryConditionNotMet = 7
+    return:
+      type: Inetlab.MMS.MM7.DeliveryStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: Inetlab.MMS.MM7.DeliveryStatus
+  commentId: T:Inetlab.MMS.MM7.DeliveryStatus
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: DeliveryStatus
+  nameWithType: DeliveryStatus
+  fullName: Inetlab.MMS.MM7.DeliveryStatus

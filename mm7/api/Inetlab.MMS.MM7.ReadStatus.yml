@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.ReadStatus
+  commentId: T:Inetlab.MMS.MM7.ReadStatus
+  id: ReadStatus
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.ReadStatus.Deleted
+  - Inetlab.MMS.MM7.ReadStatus.Indeterminate
+  - Inetlab.MMS.MM7.ReadStatus.Read
+  langs:
+  - csharp
+  - vb
+  name: ReadStatus
+  nameWithType: ReadStatus
+  fullName: Inetlab.MMS.MM7.ReadStatus
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MM7/ReadStatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ReadStatus
+    path: ../Source/CS/MM7/ReadStatus.cs
+    startLine: 8
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public enum ReadStatus
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Enum ReadStatus
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.MM7.ReadStatus.Indeterminate
+  commentId: F:Inetlab.MMS.MM7.ReadStatus.Indeterminate
+  id: Indeterminate
+  parent: Inetlab.MMS.MM7.ReadStatus
+  langs:
+  - csharp
+  - vb
+  name: Indeterminate
+  nameWithType: ReadStatus.Indeterminate
+  fullName: Inetlab.MMS.MM7.ReadStatus.Indeterminate
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ReadStatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Indeterminate
+    path: ../Source/CS/MM7/ReadStatus.cs
+    startLine: 13
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: Indeterminate = 0
+    return:
+      type: Inetlab.MMS.MM7.ReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ReadStatus.Read
+  commentId: F:Inetlab.MMS.MM7.ReadStatus.Read
+  id: Read
+  parent: Inetlab.MMS.MM7.ReadStatus
+  langs:
+  - csharp
+  - vb
+  name: Read
+  nameWithType: ReadStatus.Read
+  fullName: Inetlab.MMS.MM7.ReadStatus.Read
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ReadStatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Read
+    path: ../Source/CS/MM7/ReadStatus.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: Read = 1
+    return:
+      type: Inetlab.MMS.MM7.ReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.ReadStatus.Deleted
+  commentId: F:Inetlab.MMS.MM7.ReadStatus.Deleted
+  id: Deleted
+  parent: Inetlab.MMS.MM7.ReadStatus
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: ReadStatus.Deleted
+  fullName: Inetlab.MMS.MM7.ReadStatus.Deleted
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/ReadStatus.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Deleted
+    path: ../Source/CS/MM7/ReadStatus.cs
+    startLine: 19
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  remarks: ''
+  example: []
+  syntax:
+    content: Deleted = 2
+    return:
+      type: Inetlab.MMS.MM7.ReadStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: Inetlab.MMS.MM7.ReadStatus
+  commentId: T:Inetlab.MMS.MM7.ReadStatus
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: ReadStatus
+  nameWithType: ReadStatus
+  fullName: Inetlab.MMS.MM7.ReadStatus

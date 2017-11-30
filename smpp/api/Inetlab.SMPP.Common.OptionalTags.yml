@@ -1,0 +1,1522 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.OptionalTags
+  commentId: T:Inetlab.SMPP.Common.OptionalTags
+  id: OptionalTags
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.OptionalTags.AdditionalStatusInfoText
+  - Inetlab.SMPP.Common.OptionalTags.AlertOnMessageDelivery
+  - Inetlab.SMPP.Common.OptionalTags.CallbackNum
+  - Inetlab.SMPP.Common.OptionalTags.CallbackNumAtag
+  - Inetlab.SMPP.Common.OptionalTags.CallbackNumPresInd
+  - Inetlab.SMPP.Common.OptionalTags.DeliveryFailureReason
+  - Inetlab.SMPP.Common.OptionalTags.DestAddrSubunit
+  - Inetlab.SMPP.Common.OptionalTags.DestBearerType
+  - Inetlab.SMPP.Common.OptionalTags.DestinationPort
+  - Inetlab.SMPP.Common.OptionalTags.DestNetworkType
+  - Inetlab.SMPP.Common.OptionalTags.DestSubaddress
+  - Inetlab.SMPP.Common.OptionalTags.DestTelematicsId
+  - Inetlab.SMPP.Common.OptionalTags.DisplayTime
+  - Inetlab.SMPP.Common.OptionalTags.DpfResult
+  - Inetlab.SMPP.Common.OptionalTags.ItsReplyType
+  - Inetlab.SMPP.Common.OptionalTags.ItsSessionInfo
+  - Inetlab.SMPP.Common.OptionalTags.LanguageIndicator
+  - Inetlab.SMPP.Common.OptionalTags.MessagePayload
+  - Inetlab.SMPP.Common.OptionalTags.MessageState
+  - Inetlab.SMPP.Common.OptionalTags.MoreMessagesToSend
+  - Inetlab.SMPP.Common.OptionalTags.MSAvailabilityStatus
+  - Inetlab.SMPP.Common.OptionalTags.MsMsgWaitFacilities
+  - Inetlab.SMPP.Common.OptionalTags.MSValidity
+  - Inetlab.SMPP.Common.OptionalTags.NetworkErrorCode
+  - Inetlab.SMPP.Common.OptionalTags.NumberOfMessages
+  - Inetlab.SMPP.Common.OptionalTags.PayloadType
+  - Inetlab.SMPP.Common.OptionalTags.PrivacyIndicator
+  - Inetlab.SMPP.Common.OptionalTags.QosTimeToLive
+  - Inetlab.SMPP.Common.OptionalTags.ReceiptedMessageId
+  - Inetlab.SMPP.Common.OptionalTags.SARReferenceNumber
+  - Inetlab.SMPP.Common.OptionalTags.SARSequenceNumber
+  - Inetlab.SMPP.Common.OptionalTags.SARTotalSegments
+  - Inetlab.SMPP.Common.OptionalTags.SCInterfaceVersion
+  - Inetlab.SMPP.Common.OptionalTags.SetDpf
+  - Inetlab.SMPP.Common.OptionalTags.SmsSignal
+  - Inetlab.SMPP.Common.OptionalTags.SourceAddrSubunit
+  - Inetlab.SMPP.Common.OptionalTags.SourceBearerType
+  - Inetlab.SMPP.Common.OptionalTags.SourceNetworkType
+  - Inetlab.SMPP.Common.OptionalTags.SourcePort
+  - Inetlab.SMPP.Common.OptionalTags.SourceSubaddress
+  - Inetlab.SMPP.Common.OptionalTags.SourceTelematicsId
+  - Inetlab.SMPP.Common.OptionalTags.UserMessageReference
+  - Inetlab.SMPP.Common.OptionalTags.UserResponseCode
+  - Inetlab.SMPP.Common.OptionalTags.UssdServiceOp
+  langs:
+  - csharp
+  - vb
+  name: OptionalTags
+  nameWithType: OptionalTags
+  fullName: Inetlab.SMPP.Common.OptionalTags
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: OptionalTags
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 7
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIdentifes the Tag field that used to uniquely identify the particular optional parameter\n"
+  example: []
+  syntax:
+    content: 'public enum OptionalTags : ushort'
+    content.vb: Public Enum OptionalTags As UShort
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.OptionalTags.DestAddrSubunit
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.DestAddrSubunit
+  id: DestAddrSubunit
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: DestAddrSubunit
+  nameWithType: OptionalTags.DestAddrSubunit
+  fullName: Inetlab.SMPP.Common.OptionalTags.DestAddrSubunit
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DestAddrSubunit
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 14
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nParameter is used to route messages when received by a mobile station,\nfor example to a smart card in the mobile station or to an external device connected to the\nmobile station.\n"
+  example: []
+  syntax:
+    content: DestAddrSubunit = 5
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.DestNetworkType
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.DestNetworkType
+  id: DestNetworkType
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: DestNetworkType
+  nameWithType: OptionalTags.DestNetworkType
+  fullName: Inetlab.SMPP.Common.OptionalTags.DestNetworkType
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DestNetworkType
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 19
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: DestNetworkType = 6
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.DestBearerType
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.DestBearerType
+  id: DestBearerType
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: DestBearerType
+  nameWithType: OptionalTags.DestBearerType
+  fullName: Inetlab.SMPP.Common.OptionalTags.DestBearerType
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DestBearerType
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 21
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DestBearerType = 7
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.DestTelematicsId
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.DestTelematicsId
+  id: DestTelematicsId
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: DestTelematicsId
+  nameWithType: OptionalTags.DestTelematicsId
+  fullName: Inetlab.SMPP.Common.OptionalTags.DestTelematicsId
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DestTelematicsId
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 23
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DestTelematicsId = 8
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SourceAddrSubunit
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SourceAddrSubunit
+  id: SourceAddrSubunit
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SourceAddrSubunit
+  nameWithType: OptionalTags.SourceAddrSubunit
+  fullName: Inetlab.SMPP.Common.OptionalTags.SourceAddrSubunit
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceAddrSubunit
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 24
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SourceAddrSubunit = 13
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SourceNetworkType
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SourceNetworkType
+  id: SourceNetworkType
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SourceNetworkType
+  nameWithType: OptionalTags.SourceNetworkType
+  fullName: Inetlab.SMPP.Common.OptionalTags.SourceNetworkType
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceNetworkType
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 28
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nindicate the network type associated with the device that originated the message\n"
+  example: []
+  syntax:
+    content: SourceNetworkType = 14
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SourceBearerType
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SourceBearerType
+  id: SourceBearerType
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SourceBearerType
+  nameWithType: OptionalTags.SourceBearerType
+  fullName: Inetlab.SMPP.Common.OptionalTags.SourceBearerType
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceBearerType
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 30
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SourceBearerType = 15
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SourceTelematicsId
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SourceTelematicsId
+  id: SourceTelematicsId
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SourceTelematicsId
+  nameWithType: OptionalTags.SourceTelematicsId
+  fullName: Inetlab.SMPP.Common.OptionalTags.SourceTelematicsId
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceTelematicsId
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 31
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SourceTelematicsId = 16
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.QosTimeToLive
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.QosTimeToLive
+  id: QosTimeToLive
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: QosTimeToLive
+  nameWithType: OptionalTags.QosTimeToLive
+  fullName: Inetlab.SMPP.Common.OptionalTags.QosTimeToLive
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: QosTimeToLive
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 32
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: QosTimeToLive = 23
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.PayloadType
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.PayloadType
+  id: PayloadType
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: PayloadType
+  nameWithType: OptionalTags.PayloadType
+  fullName: Inetlab.SMPP.Common.OptionalTags.PayloadType
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: PayloadType
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 33
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: PayloadType = 25
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.AdditionalStatusInfoText
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.AdditionalStatusInfoText
+  id: AdditionalStatusInfoText
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: AdditionalStatusInfoText
+  nameWithType: OptionalTags.AdditionalStatusInfoText
+  fullName: Inetlab.SMPP.Common.OptionalTags.AdditionalStatusInfoText
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: AdditionalStatusInfoText
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 35
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: AdditionalStatusInfoText = 29
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.ReceiptedMessageId
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.ReceiptedMessageId
+  id: ReceiptedMessageId
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: ReceiptedMessageId
+  nameWithType: OptionalTags.ReceiptedMessageId
+  fullName: Inetlab.SMPP.Common.OptionalTags.ReceiptedMessageId
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ReceiptedMessageId
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 41
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe receipted_message_id parameter indicates the ID of the message being receipted in an SMSC Delivery Receipt. \nThis is the opaque SMSC message identifier that was returned in the message_id parameter of the SMPP response PDU \nthat acknowledged the submission of the original message.\n"
+  example: []
+  syntax:
+    content: ReceiptedMessageId = 30
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.MsMsgWaitFacilities
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.MsMsgWaitFacilities
+  id: MsMsgWaitFacilities
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: MsMsgWaitFacilities
+  nameWithType: OptionalTags.MsMsgWaitFacilities
+  fullName: Inetlab.SMPP.Common.OptionalTags.MsMsgWaitFacilities
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MsMsgWaitFacilities
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 42
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: MsMsgWaitFacilities = 48
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.PrivacyIndicator
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.PrivacyIndicator
+  id: PrivacyIndicator
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: PrivacyIndicator
+  nameWithType: OptionalTags.PrivacyIndicator
+  fullName: Inetlab.SMPP.Common.OptionalTags.PrivacyIndicator
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: PrivacyIndicator
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 43
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: PrivacyIndicator = 513
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SourceSubaddress
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SourceSubaddress
+  id: SourceSubaddress
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SourceSubaddress
+  nameWithType: OptionalTags.SourceSubaddress
+  fullName: Inetlab.SMPP.Common.OptionalTags.SourceSubaddress
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourceSubaddress
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 44
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SourceSubaddress = 514
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.DestSubaddress
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.DestSubaddress
+  id: DestSubaddress
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: DestSubaddress
+  nameWithType: OptionalTags.DestSubaddress
+  fullName: Inetlab.SMPP.Common.OptionalTags.DestSubaddress
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DestSubaddress
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 45
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DestSubaddress = 515
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.UserMessageReference
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.UserMessageReference
+  id: UserMessageReference
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: UserMessageReference
+  nameWithType: OptionalTags.UserMessageReference
+  fullName: Inetlab.SMPP.Common.OptionalTags.UserMessageReference
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: UserMessageReference
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 46
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: UserMessageReference = 516
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.UserResponseCode
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.UserResponseCode
+  id: UserResponseCode
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: UserResponseCode
+  nameWithType: OptionalTags.UserResponseCode
+  fullName: Inetlab.SMPP.Common.OptionalTags.UserResponseCode
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: UserResponseCode
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 47
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: UserResponseCode = 517
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SourcePort
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SourcePort
+  id: SourcePort
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SourcePort
+  nameWithType: OptionalTags.SourcePort
+  fullName: Inetlab.SMPP.Common.OptionalTags.SourcePort
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SourcePort
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 48
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SourcePort = 522
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.DestinationPort
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.DestinationPort
+  id: DestinationPort
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: DestinationPort
+  nameWithType: OptionalTags.DestinationPort
+  fullName: Inetlab.SMPP.Common.OptionalTags.DestinationPort
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DestinationPort
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 49
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DestinationPort = 523
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.LanguageIndicator
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.LanguageIndicator
+  id: LanguageIndicator
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: LanguageIndicator
+  nameWithType: OptionalTags.LanguageIndicator
+  fullName: Inetlab.SMPP.Common.OptionalTags.LanguageIndicator
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: LanguageIndicator
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 50
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: LanguageIndicator = 525
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SCInterfaceVersion
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SCInterfaceVersion
+  id: SCInterfaceVersion
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SCInterfaceVersion
+  nameWithType: OptionalTags.SCInterfaceVersion
+  fullName: Inetlab.SMPP.Common.OptionalTags.SCInterfaceVersion
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SCInterfaceVersion
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 51
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SCInterfaceVersion = 528
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.CallbackNumPresInd
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.CallbackNumPresInd
+  id: CallbackNumPresInd
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: CallbackNumPresInd
+  nameWithType: OptionalTags.CallbackNumPresInd
+  fullName: Inetlab.SMPP.Common.OptionalTags.CallbackNumPresInd
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: CallbackNumPresInd
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 53
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: CallbackNumPresInd = 770
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.CallbackNumAtag
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.CallbackNumAtag
+  id: CallbackNumAtag
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: CallbackNumAtag
+  nameWithType: OptionalTags.CallbackNumAtag
+  fullName: Inetlab.SMPP.Common.OptionalTags.CallbackNumAtag
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: CallbackNumAtag
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 54
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: CallbackNumAtag = 771
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.NumberOfMessages
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.NumberOfMessages
+  id: NumberOfMessages
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: NumberOfMessages
+  nameWithType: OptionalTags.NumberOfMessages
+  fullName: Inetlab.SMPP.Common.OptionalTags.NumberOfMessages
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: NumberOfMessages
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 55
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: NumberOfMessages = 772
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.CallbackNum
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.CallbackNum
+  id: CallbackNum
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: CallbackNum
+  nameWithType: OptionalTags.CallbackNum
+  fullName: Inetlab.SMPP.Common.OptionalTags.CallbackNum
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: CallbackNum
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 56
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: CallbackNum = 897
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.DpfResult
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.DpfResult
+  id: DpfResult
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: DpfResult
+  nameWithType: OptionalTags.DpfResult
+  fullName: Inetlab.SMPP.Common.OptionalTags.DpfResult
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DpfResult
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 57
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DpfResult = 1056
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SetDpf
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SetDpf
+  id: SetDpf
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SetDpf
+  nameWithType: OptionalTags.SetDpf
+  fullName: Inetlab.SMPP.Common.OptionalTags.SetDpf
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SetDpf
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 58
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SetDpf = 1057
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.MSAvailabilityStatus
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.MSAvailabilityStatus
+  id: MSAvailabilityStatus
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: MSAvailabilityStatus
+  nameWithType: OptionalTags.MSAvailabilityStatus
+  fullName: Inetlab.SMPP.Common.OptionalTags.MSAvailabilityStatus
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MSAvailabilityStatus
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 59
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: MSAvailabilityStatus = 1058
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.NetworkErrorCode
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.NetworkErrorCode
+  id: NetworkErrorCode
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: NetworkErrorCode
+  nameWithType: OptionalTags.NetworkErrorCode
+  fullName: Inetlab.SMPP.Common.OptionalTags.NetworkErrorCode
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: NetworkErrorCode
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 60
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: NetworkErrorCode = 1059
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.DeliveryFailureReason
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.DeliveryFailureReason
+  id: DeliveryFailureReason
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: DeliveryFailureReason
+  nameWithType: OptionalTags.DeliveryFailureReason
+  fullName: Inetlab.SMPP.Common.OptionalTags.DeliveryFailureReason
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DeliveryFailureReason
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 62
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DeliveryFailureReason = 1061
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.UssdServiceOp
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.UssdServiceOp
+  id: UssdServiceOp
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: UssdServiceOp
+  nameWithType: OptionalTags.UssdServiceOp
+  fullName: Inetlab.SMPP.Common.OptionalTags.UssdServiceOp
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: UssdServiceOp
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 64
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: UssdServiceOp = 1281
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.DisplayTime
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.DisplayTime
+  id: DisplayTime
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: DisplayTime
+  nameWithType: OptionalTags.DisplayTime
+  fullName: Inetlab.SMPP.Common.OptionalTags.DisplayTime
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: DisplayTime
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 65
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DisplayTime = 4609
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SmsSignal
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SmsSignal
+  id: SmsSignal
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SmsSignal
+  nameWithType: OptionalTags.SmsSignal
+  fullName: Inetlab.SMPP.Common.OptionalTags.SmsSignal
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SmsSignal
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 66
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SmsSignal = 4611
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.MSValidity
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.MSValidity
+  id: MSValidity
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: MSValidity
+  nameWithType: OptionalTags.MSValidity
+  fullName: Inetlab.SMPP.Common.OptionalTags.MSValidity
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MSValidity
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 67
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: MSValidity = 4612
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.AlertOnMessageDelivery
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.AlertOnMessageDelivery
+  id: AlertOnMessageDelivery
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: AlertOnMessageDelivery
+  nameWithType: OptionalTags.AlertOnMessageDelivery
+  fullName: Inetlab.SMPP.Common.OptionalTags.AlertOnMessageDelivery
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: AlertOnMessageDelivery
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 68
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: AlertOnMessageDelivery = 4876
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.ItsReplyType
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.ItsReplyType
+  id: ItsReplyType
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: ItsReplyType
+  nameWithType: OptionalTags.ItsReplyType
+  fullName: Inetlab.SMPP.Common.OptionalTags.ItsReplyType
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ItsReplyType
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 69
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: ItsReplyType = 4992
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.ItsSessionInfo
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.ItsSessionInfo
+  id: ItsSessionInfo
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: ItsSessionInfo
+  nameWithType: OptionalTags.ItsSessionInfo
+  fullName: Inetlab.SMPP.Common.OptionalTags.ItsSessionInfo
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ItsSessionInfo
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 70
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: ItsSessionInfo = 4995
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.MessagePayload
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.MessagePayload
+  id: MessagePayload
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: MessagePayload
+  nameWithType: OptionalTags.MessagePayload
+  fullName: Inetlab.SMPP.Common.OptionalTags.MessagePayload
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MessagePayload
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 77
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nmessage_payload parameter contains the user data.\n"
+  example: []
+  syntax:
+    content: MessagePayload = 1060
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SARReferenceNumber
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SARReferenceNumber
+  id: SARReferenceNumber
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SARReferenceNumber
+  nameWithType: OptionalTags.SARReferenceNumber
+  fullName: Inetlab.SMPP.Common.OptionalTags.SARReferenceNumber
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SARReferenceNumber
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 83
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe sar_msg_ref_num parameter is used to indicate the reference number for a particular\nconcatenated short message.\n"
+  example: []
+  syntax:
+    content: SARReferenceNumber = 524
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SARTotalSegments
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SARTotalSegments
+  id: SARTotalSegments
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SARTotalSegments
+  nameWithType: OptionalTags.SARTotalSegments
+  fullName: Inetlab.SMPP.Common.OptionalTags.SARTotalSegments
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SARTotalSegments
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 89
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe sar_total_segments parameter is used to indicate the total number of short messages\nwithin the concatenated short message.\n"
+  example: []
+  syntax:
+    content: SARTotalSegments = 526
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.SARSequenceNumber
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.SARSequenceNumber
+  id: SARSequenceNumber
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: SARSequenceNumber
+  nameWithType: OptionalTags.SARSequenceNumber
+  fullName: Inetlab.SMPP.Common.OptionalTags.SARSequenceNumber
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SARSequenceNumber
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 95
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe sar_segment_seqnum parameter is used to indicate the sequence number of a particular\nshort message within the concatenated short message.\n"
+  example: []
+  syntax:
+    content: SARSequenceNumber = 527
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.MoreMessagesToSend
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.MoreMessagesToSend
+  id: MoreMessagesToSend
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: MoreMessagesToSend
+  nameWithType: OptionalTags.MoreMessagesToSend
+  fullName: Inetlab.SMPP.Common.OptionalTags.MoreMessagesToSend
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MoreMessagesToSend
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 102
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe more_messages_to_send parameter is used by the ESME in the submit_sm and data_sm\noperations to indicate to the SMSC that there are further messages for the same destination\nSME. The SMSC may use this setting for network resource optimization.\n"
+  example: []
+  syntax:
+    content: MoreMessagesToSend = 1062
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.OptionalTags.MessageState
+  commentId: F:Inetlab.SMPP.Common.OptionalTags.MessageState
+  id: MessageState
+  parent: Inetlab.SMPP.Common.OptionalTags
+  langs:
+  - csharp
+  - vb
+  name: MessageState
+  nameWithType: OptionalTags.MessageState
+  fullName: Inetlab.SMPP.Common.OptionalTags.MessageState
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/OptionalTags.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MessageState
+    path: ../Source/CS/Common/OptionalTags.cs
+    startLine: 108
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe message_state optional parameter is used by the SMSC in the deliver_sm and\ndata_sm PDUs to indicate to the ESME the final message state for an SMSC Delivery Receipt.\n"
+  example: []
+  syntax:
+    content: MessageState = 1063
+    return:
+      type: Inetlab.SMPP.Common.OptionalTags
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.OptionalTags
+  commentId: T:Inetlab.SMPP.Common.OptionalTags
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: OptionalTags
+  nameWithType: OptionalTags
+  fullName: Inetlab.SMPP.Common.OptionalTags

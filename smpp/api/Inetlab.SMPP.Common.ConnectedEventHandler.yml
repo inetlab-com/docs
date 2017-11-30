@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.ConnectedEventHandler
+  commentId: T:Inetlab.SMPP.Common.ConnectedEventHandler
+  id: ConnectedEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ConnectedEventHandler
+  nameWithType: ConnectedEventHandler
+  fullName: Inetlab.SMPP.Common.ConnectedEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Source/CS/Common/Delegates.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConnectedEventHandler
+    path: ../Source/CS/Common/Delegates.cs
+    startLine: 8
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void ConnectedEventHandler(object sender, bool success);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: success
+      type: System.Boolean
+    content.vb: Public Delegate Sub ConnectedEventHandler(sender As Object, success As Boolean)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

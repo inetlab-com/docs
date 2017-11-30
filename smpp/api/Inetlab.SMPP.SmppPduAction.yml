@@ -1,0 +1,57 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.SmppPduAction
+  commentId: T:Inetlab.SMPP.SmppPduAction
+  id: SmppPduAction
+  parent: Inetlab.SMPP
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SmppPduAction
+  nameWithType: SmppPduAction
+  fullName: Inetlab.SMPP.SmppPduAction
+  type: Delegate
+  source:
+    remote:
+      path: Source/CS/Delegates.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SmppPduAction
+    path: ../Source/CS/Delegates.cs
+    startLine: 9
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public delegate void SmppPduAction(SmppPDU pdu);
+    parameters:
+    - id: pdu
+      type: Inetlab.SMPP.PDU.SmppPDU
+    content.vb: Public Delegate Sub SmppPduAction(pdu As SmppPDU)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  isExternal: false
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU

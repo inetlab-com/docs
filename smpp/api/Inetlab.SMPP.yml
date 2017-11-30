@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  id: Inetlab.SMPP
+  children:
+  - Inetlab.SMPP.LicenseInfo
+  - Inetlab.SMPP.SmppClient
+  - Inetlab.SMPP.SmppPduAction
+  - Inetlab.SMPP.SmppServer
+  - Inetlab.SMPP.SMS
+  - Inetlab.SMPP.SmsAction`1
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+  type: Namespace
+  assemblies:
+  - Inetlab.SMPP
+references:
+- uid: Inetlab.SMPP.SmsAction`1
+  commentId: T:Inetlab.SMPP.SmsAction`1
+  isExternal: false
+  name: SmsAction<T>
+  nameWithType: SmsAction<T>
+  fullName: Inetlab.SMPP.SmsAction<T>
+  nameWithType.vb: SmsAction(Of T)
+  fullName.vb: Inetlab.SMPP.SmsAction(Of T)
+  name.vb: SmsAction(Of T)
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmsAction`1
+    name: SmsAction
+    nameWithType: SmsAction
+    fullName: Inetlab.SMPP.SmsAction
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.SmsAction`1
+    name: SmsAction
+    nameWithType: SmsAction
+    fullName: Inetlab.SMPP.SmsAction
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppPduAction
+  commentId: T:Inetlab.SMPP.SmppPduAction
+  isExternal: false
+  name: SmppPduAction
+  nameWithType: SmppPduAction
+  fullName: Inetlab.SMPP.SmppPduAction
+- uid: Inetlab.SMPP.LicenseInfo
+  commentId: T:Inetlab.SMPP.LicenseInfo
+  isExternal: false
+  name: LicenseInfo
+  nameWithType: LicenseInfo
+  fullName: Inetlab.SMPP.LicenseInfo
+- uid: Inetlab.SMPP.SmppClient
+  commentId: T:Inetlab.SMPP.SmppClient
+  isExternal: false
+  name: SmppClient
+  nameWithType: SmppClient
+  fullName: Inetlab.SMPP.SmppClient
+- uid: Inetlab.SMPP.SmppServer
+  commentId: T:Inetlab.SMPP.SmppServer
+  isExternal: false
+  name: SmppServer
+  nameWithType: SmppServer
+  fullName: Inetlab.SMPP.SmppServer
+- uid: Inetlab.SMPP.SMS
+  commentId: T:Inetlab.SMPP.SMS
+  isExternal: false
+  name: SMS
+  nameWithType: SMS
+  fullName: Inetlab.SMPP.SMS

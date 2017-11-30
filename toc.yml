@@ -1,0 +1,12 @@
+- name: Inetlab.SMPP
+  href: smpp/
+  items:
+  - name: Articles
+    href: smpp/articles/toc.yml
+
+  - name: API Documentation
+    href: smpp/api/toc.yml
+
+
+- name: Inetlab.MMS.MM7
+  href: mm7/

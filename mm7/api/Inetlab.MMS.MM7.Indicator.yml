@@ -1,0 +1,674 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.Indicator
+  commentId: T:Inetlab.MMS.MM7.Indicator
+  id: Indicator
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.Indicator.False
+  - Inetlab.MMS.MM7.Indicator.Null
+  - Inetlab.MMS.MM7.Indicator.op_Implicit(Inetlab.MMS.MM7.Indicator)~System.Boolean
+  - Inetlab.MMS.MM7.Indicator.op_Implicit(System.Boolean)~Inetlab.MMS.MM7.Indicator
+  - Inetlab.MMS.MM7.Indicator.Parse(System.String)
+  - Inetlab.MMS.MM7.Indicator.ToString
+  - Inetlab.MMS.MM7.Indicator.True
+  langs:
+  - csharp
+  - vb
+  name: Indicator
+  nameWithType: Indicator
+  fullName: Inetlab.MMS.MM7.Indicator
+  type: Class
+  source:
+    remote:
+      path: Source/CS/MM7/Indicator.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Indicator
+    path: ../Source/CS/MM7/Indicator.cs
+    startLine: 7
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public sealed class Indicator
+    content.vb: Public NotInheritable Class Indicator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Inetlab.MMS.MM7.Indicator.Null
+  commentId: P:Inetlab.MMS.MM7.Indicator.Null
+  id: "Null"
+  parent: Inetlab.MMS.MM7.Indicator
+  langs:
+  - csharp
+  - vb
+  name: "Null"
+  nameWithType: Indicator.Null
+  fullName: Inetlab.MMS.MM7.Indicator.Null
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7/Indicator.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: "Null"
+    path: ../Source/CS/MM7/Indicator.cs
+    startLine: 25
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public static Indicator Null { get; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MM7.Indicator
+    content.vb: Public Shared ReadOnly Property Null As Indicator
+  overload: Inetlab.MMS.MM7.Indicator.Null*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Inetlab.MMS.MM7.Indicator.True
+  commentId: P:Inetlab.MMS.MM7.Indicator.True
+  id: "True"
+  parent: Inetlab.MMS.MM7.Indicator
+  langs:
+  - csharp
+  - vb
+  name: "True"
+  nameWithType: Indicator.True
+  fullName: Inetlab.MMS.MM7.Indicator.True
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7/Indicator.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: "True"
+    path: ../Source/CS/MM7/Indicator.cs
+    startLine: 33
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public static Indicator True { get; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MM7.Indicator
+    content.vb: Public Shared ReadOnly Property True As Indicator
+  overload: Inetlab.MMS.MM7.Indicator.True*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Inetlab.MMS.MM7.Indicator.False
+  commentId: P:Inetlab.MMS.MM7.Indicator.False
+  id: "False"
+  parent: Inetlab.MMS.MM7.Indicator
+  langs:
+  - csharp
+  - vb
+  name: "False"
+  nameWithType: Indicator.False
+  fullName: Inetlab.MMS.MM7.Indicator.False
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7/Indicator.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: "False"
+    path: ../Source/CS/MM7/Indicator.cs
+    startLine: 41
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public static Indicator False { get; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MM7.Indicator
+    content.vb: Public Shared ReadOnly Property False As Indicator
+  overload: Inetlab.MMS.MM7.Indicator.False*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Inetlab.MMS.MM7.Indicator.Parse(System.String)
+  commentId: M:Inetlab.MMS.MM7.Indicator.Parse(System.String)
+  id: Parse(System.String)
+  parent: Inetlab.MMS.MM7.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Parse(String)
+  nameWithType: Indicator.Parse(String)
+  fullName: Inetlab.MMS.MM7.Indicator.Parse(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7/Indicator.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Parse
+    path: ../Source/CS/MM7/Indicator.cs
+    startLine: 49
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public static Indicator Parse(string val)
+    parameters:
+    - id: val
+      type: System.String
+    return:
+      type: Inetlab.MMS.MM7.Indicator
+    content.vb: Public Shared Function Parse(val As String) As Indicator
+  overload: Inetlab.MMS.MM7.Indicator.Parse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.MMS.MM7.Indicator.ToString
+  commentId: M:Inetlab.MMS.MM7.Indicator.ToString
+  id: ToString
+  parent: Inetlab.MMS.MM7.Indicator
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Indicator.ToString()
+  fullName: Inetlab.MMS.MM7.Indicator.ToString()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7/Indicator.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ToString
+    path: ../Source/CS/MM7/Indicator.cs
+    startLine: 70
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Inetlab.MMS.MM7.Indicator.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Inetlab.MMS.MM7.Indicator.op_Implicit(Inetlab.MMS.MM7.Indicator)~System.Boolean
+  commentId: M:Inetlab.MMS.MM7.Indicator.op_Implicit(Inetlab.MMS.MM7.Indicator)~System.Boolean
+  id: op_Implicit(Inetlab.MMS.MM7.Indicator)~System.Boolean
+  parent: Inetlab.MMS.MM7.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Indicator to Boolean)
+  nameWithType: Indicator.Implicit(Indicator to Boolean)
+  fullName: Inetlab.MMS.MM7.Indicator.Implicit(Inetlab.MMS.MM7.Indicator to System.Boolean)
+  type: Operator
+  source:
+    remote:
+      path: Source/CS/MM7/Indicator.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: op_Implicit
+    path: ../Source/CS/MM7/Indicator.cs
+    startLine: 84
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public static implicit operator bool (Indicator i)
+    parameters:
+    - id: i
+      type: Inetlab.MMS.MM7.Indicator
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Widening Operator CType(i As Indicator) As Boolean
+  overload: Inetlab.MMS.MM7.Indicator.op_Implicit*
+  nameWithType.vb: Indicator.Widening(Indicator to Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.MMS.MM7.Indicator.Widening(Inetlab.MMS.MM7.Indicator to System.Boolean)
+  name.vb: Widening(Indicator to Boolean)
+- uid: Inetlab.MMS.MM7.Indicator.op_Implicit(System.Boolean)~Inetlab.MMS.MM7.Indicator
+  commentId: M:Inetlab.MMS.MM7.Indicator.op_Implicit(System.Boolean)~Inetlab.MMS.MM7.Indicator
+  id: op_Implicit(System.Boolean)~Inetlab.MMS.MM7.Indicator
+  parent: Inetlab.MMS.MM7.Indicator
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Boolean to Indicator)
+  nameWithType: Indicator.Implicit(Boolean to Indicator)
+  fullName: Inetlab.MMS.MM7.Indicator.Implicit(System.Boolean to Inetlab.MMS.MM7.Indicator)
+  type: Operator
+  source:
+    remote:
+      path: Source/CS/MM7/Indicator.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: op_Implicit
+    path: ../Source/CS/MM7/Indicator.cs
+    startLine: 89
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: public static implicit operator Indicator(bool b)
+    parameters:
+    - id: b
+      type: System.Boolean
+    return:
+      type: Inetlab.MMS.MM7.Indicator
+    content.vb: Public Shared Widening Operator CType(b As Boolean) As Indicator
+  overload: Inetlab.MMS.MM7.Indicator.op_Implicit*
+  nameWithType.vb: Indicator.Widening(Boolean to Indicator)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.MMS.MM7.Indicator.Widening(System.Boolean to Inetlab.MMS.MM7.Indicator)
+  name.vb: Widening(Boolean to Indicator)
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.MMS.MM7.Indicator.Null*
+  commentId: Overload:Inetlab.MMS.MM7.Indicator.Null
+  isExternal: false
+  name: "Null"
+  nameWithType: Indicator.Null
+  fullName: Inetlab.MMS.MM7.Indicator.Null
+- uid: Inetlab.MMS.MM7.Indicator
+  commentId: T:Inetlab.MMS.MM7.Indicator
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: Indicator
+  nameWithType: Indicator
+  fullName: Inetlab.MMS.MM7.Indicator
+- uid: Inetlab.MMS.MM7.Indicator.True*
+  commentId: Overload:Inetlab.MMS.MM7.Indicator.True
+  isExternal: false
+  name: "True"
+  nameWithType: Indicator.True
+  fullName: Inetlab.MMS.MM7.Indicator.True
+- uid: Inetlab.MMS.MM7.Indicator.False*
+  commentId: Overload:Inetlab.MMS.MM7.Indicator.False
+  isExternal: false
+  name: "False"
+  nameWithType: Indicator.False
+  fullName: Inetlab.MMS.MM7.Indicator.False
+- uid: Inetlab.MMS.MM7.Indicator.Parse*
+  commentId: Overload:Inetlab.MMS.MM7.Indicator.Parse
+  isExternal: false
+  name: Parse
+  nameWithType: Indicator.Parse
+  fullName: Inetlab.MMS.MM7.Indicator.Parse
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.MMS.MM7.Indicator.ToString*
+  commentId: Overload:Inetlab.MMS.MM7.Indicator.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: Indicator.ToString
+  fullName: Inetlab.MMS.MM7.Indicator.ToString
+- uid: Inetlab.MMS.MM7.Indicator.op_Implicit*
+  commentId: Overload:Inetlab.MMS.MM7.Indicator.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: Indicator.Implicit
+  fullName: Inetlab.MMS.MM7.Indicator.Implicit
+  nameWithType.vb: Indicator.Widening
+  fullName.vb: Inetlab.MMS.MM7.Indicator.Widening
+  name.vb: Widening
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

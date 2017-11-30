@@ -1,0 +1,960 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MMSPart
+  commentId: T:Inetlab.MMS.MMSPart
+  id: MMSPart
+  parent: Inetlab.MMS
+  children:
+  - Inetlab.MMS.MMSPart.#ctor
+  - Inetlab.MMS.MMSPart.#ctor(Inetlab.MMS.MMSContentType,System.Byte[],System.Byte[])
+  - Inetlab.MMS.MMSPart.ContentType
+  - Inetlab.MMS.MMSPart.Data
+  - Inetlab.MMS.MMSPart.GetFileName
+  - Inetlab.MMS.MMSPart.Header
+  - Inetlab.MMS.MMSPart.Parameters
+  - Inetlab.MMS.MMSPart.Parts
+  - Inetlab.MMS.MMSPart.Save
+  - Inetlab.MMS.MMSPart.Save(System.String)
+  langs:
+  - csharp
+  - vb
+  name: MMSPart
+  nameWithType: MMSPart
+  fullName: Inetlab.MMS.MMSPart
+  type: Class
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MMSPart
+    path: ../Source/CS/MMSPart.cs
+    startLine: 12
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRepersents content part of the MMS message\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public class MMSPart
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Class MMSPart
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.MMS.MMSPart.ContentType
+  commentId: P:Inetlab.MMS.MMSPart.ContentType
+  id: ContentType
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: ContentType
+  nameWithType: MMSPart.ContentType
+  fullName: Inetlab.MMS.MMSPart.ContentType
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ContentType
+    path: ../Source/CS/MMSPart.cs
+    startLine: 18
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public MMSContentType ContentType { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MMSContentType
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Property ContentType As MMSContentType
+  overload: Inetlab.MMS.MMSPart.ContentType*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSPart.Header
+  commentId: P:Inetlab.MMS.MMSPart.Header
+  id: Header
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: MMSPart.Header
+  fullName: Inetlab.MMS.MMSPart.Header
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Header
+    path: ../Source/CS/MMSPart.cs
+    startLine: 27
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public byte[] Header { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Property Header As Byte()
+  overload: Inetlab.MMS.MMSPart.Header*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSPart.Data
+  commentId: P:Inetlab.MMS.MMSPart.Data
+  id: Data
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: MMSPart.Data
+  fullName: Inetlab.MMS.MMSPart.Data
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Data
+    path: ../Source/CS/MMSPart.cs
+    startLine: 35
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public byte[] Data { get; set; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Property Data As Byte()
+  overload: Inetlab.MMS.MMSPart.Data*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSPart.Parameters
+  commentId: P:Inetlab.MMS.MMSPart.Parameters
+  id: Parameters
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: Parameters
+  nameWithType: MMSPart.Parameters
+  fullName: Inetlab.MMS.MMSPart.Parameters
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Parameters
+    path: ../Source/CS/MMSPart.cs
+    startLine: 43
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public StringDictionary Parameters { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Specialized.StringDictionary
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Property Parameters As StringDictionary
+  overload: Inetlab.MMS.MMSPart.Parameters*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSPart.Parts
+  commentId: P:Inetlab.MMS.MMSPart.Parts
+  id: Parts
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: Parts
+  nameWithType: MMSPart.Parts
+  fullName: Inetlab.MMS.MMSPart.Parts
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Parts
+    path: ../Source/CS/MMSPart.cs
+    startLine: 56
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nCollection of MMS message parts\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public MMSPartCollection Parts { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MMSPartCollection
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Property Parts As MMSPartCollection
+  overload: Inetlab.MMS.MMSPart.Parts*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSPart.#ctor
+  commentId: M:Inetlab.MMS.MMSPart.#ctor
+  id: '#ctor'
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: MMSPart()
+  nameWithType: MMSPart.MMSPart()
+  fullName: Inetlab.MMS.MMSPart.MMSPart()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MMSPart.cs
+    startLine: 63
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: public MMSPart()
+    content.vb: Public Sub New
+  overload: Inetlab.MMS.MMSPart.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSPart.#ctor(Inetlab.MMS.MMSContentType,System.Byte[],System.Byte[])
+  commentId: M:Inetlab.MMS.MMSPart.#ctor(Inetlab.MMS.MMSContentType,System.Byte[],System.Byte[])
+  id: '#ctor(Inetlab.MMS.MMSContentType,System.Byte[],System.Byte[])'
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: MMSPart(MMSContentType, Byte[], Byte[])
+  nameWithType: MMSPart.MMSPart(MMSContentType, Byte[], Byte[])
+  fullName: Inetlab.MMS.MMSPart.MMSPart(Inetlab.MMS.MMSContentType, System.Byte[], System.Byte[])
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MMSPart.cs
+    startLine: 69
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: public MMSPart(MMSContentType contentType, byte[] header, byte[] data)
+    parameters:
+    - id: contentType
+      type: Inetlab.MMS.MMSContentType
+    - id: header
+      type: System.Byte[]
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub New(contentType As MMSContentType, header As Byte(), data As Byte())
+  overload: Inetlab.MMS.MMSPart.#ctor*
+  nameWithType.vb: MMSPart.MMSPart(MMSContentType, Byte(), Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.MMS.MMSPart.MMSPart(Inetlab.MMS.MMSContentType, System.Byte(), System.Byte())
+  name.vb: MMSPart(MMSContentType, Byte(), Byte())
+- uid: Inetlab.MMS.MMSPart.Save(System.String)
+  commentId: M:Inetlab.MMS.MMSPart.Save(System.String)
+  id: Save(System.String)
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: Save(String)
+  nameWithType: MMSPart.Save(String)
+  fullName: Inetlab.MMS.MMSPart.Save(System.String)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Save
+    path: ../Source/CS/MMSPart.cs
+    startLine: 77
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public void Save(string filename)
+    parameters:
+    - id: filename
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Sub Save(filename As String)
+  overload: Inetlab.MMS.MMSPart.Save*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSPart.Save
+  commentId: M:Inetlab.MMS.MMSPart.Save
+  id: Save
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: Save()
+  nameWithType: MMSPart.Save()
+  fullName: Inetlab.MMS.MMSPart.Save()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Save
+    path: ../Source/CS/MMSPart.cs
+    startLine: 89
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public void Save()
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Sub Save
+  overload: Inetlab.MMS.MMSPart.Save*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSPart.GetFileName
+  commentId: M:Inetlab.MMS.MMSPart.GetFileName
+  id: GetFileName
+  parent: Inetlab.MMS.MMSPart
+  langs:
+  - csharp
+  - vb
+  name: GetFileName()
+  nameWithType: MMSPart.GetFileName()
+  fullName: Inetlab.MMS.MMSPart.GetFileName()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MMSPart.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: GetFileName
+    path: ../Source/CS/MMSPart.cs
+    startLine: 96
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public string GetFileName()
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Function GetFileName As String
+  overload: Inetlab.MMS.MMSPart.GetFileName*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.MMS.MMSPart.ContentType*
+  commentId: Overload:Inetlab.MMS.MMSPart.ContentType
+  isExternal: false
+  name: ContentType
+  nameWithType: MMSPart.ContentType
+  fullName: Inetlab.MMS.MMSPart.ContentType
+- uid: Inetlab.MMS.MMSContentType
+  commentId: T:Inetlab.MMS.MMSContentType
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MMSContentType
+  nameWithType: MMSContentType
+  fullName: Inetlab.MMS.MMSContentType
+- uid: Inetlab.MMS.MMSPart.Header*
+  commentId: Overload:Inetlab.MMS.MMSPart.Header
+  isExternal: false
+  name: Header
+  nameWithType: MMSPart.Header
+  fullName: Inetlab.MMS.MMSPart.Header
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.MMS.MMSPart.Data*
+  commentId: Overload:Inetlab.MMS.MMSPart.Data
+  isExternal: false
+  name: Data
+  nameWithType: MMSPart.Data
+  fullName: Inetlab.MMS.MMSPart.Data
+- uid: Inetlab.MMS.MMSPart.Parameters*
+  commentId: Overload:Inetlab.MMS.MMSPart.Parameters
+  isExternal: false
+  name: Parameters
+  nameWithType: MMSPart.Parameters
+  fullName: Inetlab.MMS.MMSPart.Parameters
+- uid: System.Collections.Specialized.StringDictionary
+  commentId: T:System.Collections.Specialized.StringDictionary
+  parent: System.Collections.Specialized
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: System.Collections.Specialized.StringDictionary
+- uid: System.Collections.Specialized
+  commentId: N:System.Collections.Specialized
+  isExternal: false
+  name: System.Collections.Specialized
+  nameWithType: System.Collections.Specialized
+  fullName: System.Collections.Specialized
+- uid: Inetlab.MMS.MMSPart.Parts*
+  commentId: Overload:Inetlab.MMS.MMSPart.Parts
+  isExternal: false
+  name: Parts
+  nameWithType: MMSPart.Parts
+  fullName: Inetlab.MMS.MMSPart.Parts
+- uid: Inetlab.MMS.MMSPartCollection
+  commentId: T:Inetlab.MMS.MMSPartCollection
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MMSPartCollection
+  nameWithType: MMSPartCollection
+  fullName: Inetlab.MMS.MMSPartCollection
+- uid: Inetlab.MMS.MMSPart.#ctor*
+  commentId: Overload:Inetlab.MMS.MMSPart.#ctor
+  isExternal: false
+  name: MMSPart
+  nameWithType: MMSPart.MMSPart
+  fullName: Inetlab.MMS.MMSPart.MMSPart
+- uid: Inetlab.MMS.MMSPart.Save*
+  commentId: Overload:Inetlab.MMS.MMSPart.Save
+  isExternal: false
+  name: Save
+  nameWithType: MMSPart.Save
+  fullName: Inetlab.MMS.MMSPart.Save
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.MMS.MMSPart.GetFileName*
+  commentId: Overload:Inetlab.MMS.MMSPart.GetFileName
+  isExternal: false
+  name: GetFileName
+  nameWithType: MMSPart.GetFileName
+  fullName: Inetlab.MMS.MMSPart.GetFileName

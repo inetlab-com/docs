@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7ServerMode
+  commentId: T:Inetlab.MMS.MM7ServerMode
+  id: MM7ServerMode
+  parent: Inetlab.MMS
+  children:
+  - Inetlab.MMS.MM7ServerMode.MMSC
+  - Inetlab.MMS.MM7ServerMode.VASP
+  langs:
+  - csharp
+  - vb
+  name: MM7ServerMode
+  nameWithType: MM7ServerMode
+  fullName: Inetlab.MMS.MM7ServerMode
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MM7ServerMode.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MM7ServerMode
+    path: ../Source/CS/MM7ServerMode.cs
+    startLine: 10
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nSpecifies mode of the MM7 server\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = true, StripAfterObfuscation = true)]
+
+      public enum MM7ServerMode
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True, StripAfterObfuscation:=True)>
+
+      Public Enum MM7ServerMode
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.MM7ServerMode.MMSC
+  commentId: F:Inetlab.MMS.MM7ServerMode.MMSC
+  id: MMSC
+  parent: Inetlab.MMS.MM7ServerMode
+  langs:
+  - csharp
+  - vb
+  name: MMSC
+  nameWithType: MM7ServerMode.MMSC
+  fullName: Inetlab.MMS.MM7ServerMode.MMSC
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7ServerMode.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MMSC
+    path: ../Source/CS/MM7ServerMode.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRun server as MMSC\n"
+  example: []
+  syntax:
+    content: MMSC = 0
+    return:
+      type: Inetlab.MMS.MM7ServerMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7ServerMode.VASP
+  commentId: F:Inetlab.MMS.MM7ServerMode.VASP
+  id: VASP
+  parent: Inetlab.MMS.MM7ServerMode
+  langs:
+  - csharp
+  - vb
+  name: VASP
+  nameWithType: MM7ServerMode.VASP
+  fullName: Inetlab.MMS.MM7ServerMode.VASP
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7ServerMode.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: VASP
+    path: ../Source/CS/MM7ServerMode.cs
+    startLine: 20
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRun server as VASP\n"
+  example: []
+  syntax:
+    content: VASP = 1
+    return:
+      type: Inetlab.MMS.MM7ServerMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: Inetlab.MMS.MM7ServerMode
+  commentId: T:Inetlab.MMS.MM7ServerMode
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MM7ServerMode
+  nameWithType: MM7ServerMode
+  fullName: Inetlab.MMS.MM7ServerMode

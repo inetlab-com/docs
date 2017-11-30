@@ -1,0 +1,136 @@
+### YamlMime:TableOfContent
+- uid: Inetlab.MMS
+  name: Inetlab.MMS
+  items:
+  - uid: Inetlab.MMS.CurrentRequest
+    name: CurrentRequest
+  - uid: Inetlab.MMS.LicenseInfo
+    name: LicenseInfo
+  - uid: Inetlab.MMS.MessageTypes
+    name: MessageTypes
+  - uid: Inetlab.MMS.MM7Client
+    name: MM7Client
+  - uid: Inetlab.MMS.MM7Exception
+    name: MM7Exception
+  - uid: Inetlab.MMS.MM7Server
+    name: MM7Server
+  - uid: Inetlab.MMS.MM7ServerMode
+    name: MM7ServerMode
+  - uid: Inetlab.MMS.MMSContentType
+    name: MMSContentType
+  - uid: Inetlab.MMS.MMSHeader
+    name: MMSHeader
+  - uid: Inetlab.MMS.MMSMessage
+    name: MMSMessage
+  - uid: Inetlab.MMS.MMSPart
+    name: MMSPart
+  - uid: Inetlab.MMS.MMSPartCollection
+    name: MMSPartCollection
+  - uid: Inetlab.MMS.Priorities
+    name: Priorities
+  - uid: Inetlab.MMS.ResponseStatuses
+    name: ResponseStatuses
+  - uid: Inetlab.MMS.Status
+    name: Status
+- uid: Inetlab.MMS.Logging
+  name: Inetlab.MMS.Logging
+  items:
+  - uid: Inetlab.MMS.Logging.ConsoleLogger
+    name: ConsoleLogger
+  - uid: Inetlab.MMS.Logging.FileLogger
+    name: FileLogger
+  - uid: Inetlab.MMS.Logging.GetLoggerDelegate
+    name: GetLoggerDelegate
+  - uid: Inetlab.MMS.Logging.ILog
+    name: ILog
+  - uid: Inetlab.MMS.Logging.LogManager
+    name: LogManager
+- uid: Inetlab.MMS.MM7
+  name: Inetlab.MMS.MM7
+  items:
+  - uid: Inetlab.MMS.MM7.Address
+    name: Address
+  - uid: Inetlab.MMS.MM7.AddressCollection
+    name: AddressCollection
+  - uid: Inetlab.MMS.MM7.AddressTypes
+    name: AddressTypes
+  - uid: Inetlab.MMS.MM7.AuthenticationEventArgs
+    name: AuthenticationEventArgs
+  - uid: Inetlab.MMS.MM7.AuthenticationEventHandler
+    name: AuthenticationEventHandler
+  - uid: Inetlab.MMS.MM7.CancelRequest
+    name: CancelRequest
+  - uid: Inetlab.MMS.MM7.CapabilitiesType
+    name: CapabilitiesType
+  - uid: Inetlab.MMS.MM7.ChargedParty
+    name: ChargedParty
+  - uid: Inetlab.MMS.MM7.ContentClass
+    name: ContentClass
+  - uid: Inetlab.MMS.MM7.DeliverEventHandler
+    name: DeliverEventHandler
+  - uid: Inetlab.MMS.MM7.DeliverReqEventArgs
+    name: DeliverReqEventArgs
+  - uid: Inetlab.MMS.MM7.DeliverRequest
+    name: DeliverRequest
+  - uid: Inetlab.MMS.MM7.DeliverResponse
+    name: DeliverResponse
+  - uid: Inetlab.MMS.MM7.DeliveryConditions
+    name: DeliveryConditions
+  - uid: Inetlab.MMS.MM7.DeliveryReportEventHandler
+    name: DeliveryReportEventHandler
+  - uid: Inetlab.MMS.MM7.DeliveryReportRequest
+    name: DeliveryReportRequest
+  - uid: Inetlab.MMS.MM7.DeliveryReportRequestEventArgs
+    name: DeliveryReportRequestEventArgs
+  - uid: Inetlab.MMS.MM7.DeliveryReportResponse
+    name: DeliveryReportResponse
+  - uid: Inetlab.MMS.MM7.DeliveryStatus
+    name: DeliveryStatus
+  - uid: Inetlab.MMS.MM7.GenericErrorResponse
+    name: GenericErrorResponse
+  - uid: Inetlab.MMS.MM7.GenericMessage
+    name: GenericMessage
+  - uid: Inetlab.MMS.MM7.GenericRequest
+    name: GenericRequest
+  - uid: Inetlab.MMS.MM7.GenericResponse
+    name: GenericResponse
+  - uid: Inetlab.MMS.MM7.Indicator
+    name: Indicator
+  - uid: Inetlab.MMS.MM7.MessageClass
+    name: MessageClass
+  - uid: Inetlab.MMS.MM7.MMStatusExtensionType
+    name: MMStatusExtensionType
+  - uid: Inetlab.MMS.MM7.ReadReplyReportEventHandler
+    name: ReadReplyReportEventHandler
+  - uid: Inetlab.MMS.MM7.ReadReplyReportRequest
+    name: ReadReplyReportRequest
+  - uid: Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs
+    name: ReadReplyReportRequestEventArgs
+  - uid: Inetlab.MMS.MM7.ReadReplyReportResponse
+    name: ReadReplyReportResponse
+  - uid: Inetlab.MMS.MM7.ReadStatus
+    name: ReadStatus
+  - uid: Inetlab.MMS.MM7.Recipients
+    name: Recipients
+  - uid: Inetlab.MMS.MM7.ReplaceRequest
+    name: ReplaceRequest
+  - uid: Inetlab.MMS.MM7.ResponseStatus
+    name: ResponseStatus
+  - uid: Inetlab.MMS.MM7.RSErrorResponse
+    name: RSErrorResponse
+  - uid: Inetlab.MMS.MM7.RSGenericRequest
+    name: RSGenericRequest
+  - uid: Inetlab.MMS.MM7.SenderID
+    name: SenderID
+  - uid: Inetlab.MMS.MM7.SubmitEventHandler
+    name: SubmitEventHandler
+  - uid: Inetlab.MMS.MM7.SubmitReqEventArgs
+    name: SubmitReqEventArgs
+  - uid: Inetlab.MMS.MM7.SubmitRequest
+    name: SubmitRequest
+  - uid: Inetlab.MMS.MM7.SubmitResponse
+    name: SubmitResponse
+  - uid: Inetlab.MMS.MM7.VASPErrorResponse
+    name: VASPErrorResponse
+  - uid: Inetlab.MMS.MM7.VASPGenericRequest
+    name: VASPGenericRequest

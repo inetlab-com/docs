@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.Logging.GetLoggerDelegate
+  commentId: T:Inetlab.MMS.Logging.GetLoggerDelegate
+  id: GetLoggerDelegate
+  parent: Inetlab.MMS.Logging
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GetLoggerDelegate
+  nameWithType: GetLoggerDelegate
+  fullName: Inetlab.MMS.Logging.GetLoggerDelegate
+  type: Delegate
+  source:
+    remote:
+      path: Source/CS/Logging/GetLoggerDelegate.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: GetLoggerDelegate
+    path: ../Source/CS/Logging/GetLoggerDelegate.cs
+    startLine: 2
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.Logging
+  syntax:
+    content: public delegate ILog GetLoggerDelegate(string loggerName);
+    parameters:
+    - id: loggerName
+      type: System.String
+    return:
+      type: Inetlab.MMS.Logging.ILog
+    content.vb: Public Delegate Function GetLoggerDelegate(loggerName As String) As ILog
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.MMS.Logging
+  commentId: N:Inetlab.MMS.Logging
+  isExternal: false
+  name: Inetlab.MMS.Logging
+  nameWithType: Inetlab.MMS.Logging
+  fullName: Inetlab.MMS.Logging
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.MMS.Logging.ILog
+  commentId: T:Inetlab.MMS.Logging.ILog
+  parent: Inetlab.MMS.Logging
+  isExternal: false
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.MMS.Logging.ILog
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,785 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.EncodingMapper
+  commentId: T:Inetlab.SMPP.Common.EncodingMapper
+  id: EncodingMapper
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.EncodingMapper.#ctor
+  - Inetlab.SMPP.Common.EncodingMapper.#ctor(Inetlab.SMPP.Common.EncodingMapper)
+  - Inetlab.SMPP.Common.EncodingMapper.AddressEncoding
+  - Inetlab.SMPP.Common.EncodingMapper.Default
+  - Inetlab.SMPP.Common.EncodingMapper.GetMappedEncoding(Inetlab.SMPP.Common.DataCodings)
+  - Inetlab.SMPP.Common.EncodingMapper.GetMessageBytes(System.String,Inetlab.SMPP.Common.DataCodings)
+  - Inetlab.SMPP.Common.EncodingMapper.GetMessageText(Inetlab.SMPP.PDU.SmppPDU)
+  - Inetlab.SMPP.Common.EncodingMapper.GetMessageText(System.Byte[],Inetlab.SMPP.Common.DataCodings)
+  - Inetlab.SMPP.Common.EncodingMapper.MapEncoding(Inetlab.SMPP.Common.DataCodings,System.Text.Encoding)
+  langs:
+  - csharp
+  - vb
+  name: EncodingMapper
+  nameWithType: EncodingMapper
+  fullName: Inetlab.SMPP.Common.EncodingMapper
+  type: Class
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: EncodingMapper
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 7
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public class EncodingMapper
+    content.vb: Public Class EncodingMapper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.EncodingMapper.Default
+  commentId: F:Inetlab.SMPP.Common.EncodingMapper.Default
+  id: Default
+  parent: Inetlab.SMPP.Common.EncodingMapper
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: EncodingMapper.Default
+  fullName: Inetlab.SMPP.Common.EncodingMapper.Default
+  type: Field
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Default
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 13
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static EncodingMapper Default
+    return:
+      type: Inetlab.SMPP.Common.EncodingMapper
+    content.vb: Public Shared Default As EncodingMapper
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.Common.EncodingMapper.#ctor
+  commentId: M:Inetlab.SMPP.Common.EncodingMapper.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.EncodingMapper
+  langs:
+  - csharp
+  - vb
+  name: EncodingMapper()
+  nameWithType: EncodingMapper.EncodingMapper()
+  fullName: Inetlab.SMPP.Common.EncodingMapper.EncodingMapper()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public EncodingMapper()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.EncodingMapper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.EncodingMapper.AddressEncoding
+  commentId: P:Inetlab.SMPP.Common.EncodingMapper.AddressEncoding
+  id: AddressEncoding
+  parent: Inetlab.SMPP.Common.EncodingMapper
+  langs:
+  - csharp
+  - vb
+  name: AddressEncoding
+  nameWithType: EncodingMapper.AddressEncoding
+  fullName: Inetlab.SMPP.Common.EncodingMapper.AddressEncoding
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: AddressEncoding
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 39
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public Encoding AddressEncoding { get; set; }
+    parameters: []
+    return:
+      type: System.Text.Encoding
+    content.vb: Public Property AddressEncoding As Encoding
+  overload: Inetlab.SMPP.Common.EncodingMapper.AddressEncoding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.EncodingMapper.#ctor(Inetlab.SMPP.Common.EncodingMapper)
+  commentId: M:Inetlab.SMPP.Common.EncodingMapper.#ctor(Inetlab.SMPP.Common.EncodingMapper)
+  id: '#ctor(Inetlab.SMPP.Common.EncodingMapper)'
+  parent: Inetlab.SMPP.Common.EncodingMapper
+  langs:
+  - csharp
+  - vb
+  name: EncodingMapper(EncodingMapper)
+  nameWithType: EncodingMapper.EncodingMapper(EncodingMapper)
+  fullName: Inetlab.SMPP.Common.EncodingMapper.EncodingMapper(Inetlab.SMPP.Common.EncodingMapper)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 52
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public EncodingMapper(EncodingMapper mapper)
+    parameters:
+    - id: mapper
+      type: Inetlab.SMPP.Common.EncodingMapper
+    content.vb: Public Sub New(mapper As EncodingMapper)
+  overload: Inetlab.SMPP.Common.EncodingMapper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.EncodingMapper.MapEncoding(Inetlab.SMPP.Common.DataCodings,System.Text.Encoding)
+  commentId: M:Inetlab.SMPP.Common.EncodingMapper.MapEncoding(Inetlab.SMPP.Common.DataCodings,System.Text.Encoding)
+  id: MapEncoding(Inetlab.SMPP.Common.DataCodings,System.Text.Encoding)
+  parent: Inetlab.SMPP.Common.EncodingMapper
+  langs:
+  - csharp
+  - vb
+  name: MapEncoding(DataCodings, Encoding)
+  nameWithType: EncodingMapper.MapEncoding(DataCodings, Encoding)
+  fullName: Inetlab.SMPP.Common.EncodingMapper.MapEncoding(Inetlab.SMPP.Common.DataCodings, System.Text.Encoding)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: MapEncoding
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 60
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nAssigns SMPP data coding to characters encoding represented by class inherited from Encoding class\n"
+  example: []
+  syntax:
+    content: public void MapEncoding(DataCodings dataCoding, Encoding encoding)
+    parameters:
+    - id: dataCoding
+      type: Inetlab.SMPP.Common.DataCodings
+    - id: encoding
+      type: System.Text.Encoding
+    content.vb: Public Sub MapEncoding(dataCoding As DataCodings, encoding As Encoding)
+  overload: Inetlab.SMPP.Common.EncodingMapper.MapEncoding*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.EncodingMapper.GetMappedEncoding(Inetlab.SMPP.Common.DataCodings)
+  commentId: M:Inetlab.SMPP.Common.EncodingMapper.GetMappedEncoding(Inetlab.SMPP.Common.DataCodings)
+  id: GetMappedEncoding(Inetlab.SMPP.Common.DataCodings)
+  parent: Inetlab.SMPP.Common.EncodingMapper
+  langs:
+  - csharp
+  - vb
+  name: GetMappedEncoding(DataCodings)
+  nameWithType: EncodingMapper.GetMappedEncoding(DataCodings)
+  fullName: Inetlab.SMPP.Common.EncodingMapper.GetMappedEncoding(Inetlab.SMPP.Common.DataCodings)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetMappedEncoding
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 81
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nReturns mapped Encoding for specified dataCoding. If dataCoding not found in mapped encodings, returns Encoding.Default\n"
+  example: []
+  syntax:
+    content: public Encoding GetMappedEncoding(DataCodings dataCoding)
+    parameters:
+    - id: dataCoding
+      type: Inetlab.SMPP.Common.DataCodings
+      description: ''
+    return:
+      type: System.Text.Encoding
+      description: ''
+    content.vb: Public Function GetMappedEncoding(dataCoding As DataCodings) As Encoding
+  overload: Inetlab.SMPP.Common.EncodingMapper.GetMappedEncoding*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.EncodingMapper.GetMessageText(Inetlab.SMPP.PDU.SmppPDU)
+  commentId: M:Inetlab.SMPP.Common.EncodingMapper.GetMessageText(Inetlab.SMPP.PDU.SmppPDU)
+  id: GetMessageText(Inetlab.SMPP.PDU.SmppPDU)
+  parent: Inetlab.SMPP.Common.EncodingMapper
+  langs:
+  - csharp
+  - vb
+  name: GetMessageText(SmppPDU)
+  nameWithType: EncodingMapper.GetMessageText(SmppPDU)
+  fullName: Inetlab.SMPP.Common.EncodingMapper.GetMessageText(Inetlab.SMPP.PDU.SmppPDU)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetMessageText
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 98
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGets text from message. \n"
+  example: []
+  syntax:
+    content: public string GetMessageText(SmppPDU pdu)
+    parameters:
+    - id: pdu
+      type: Inetlab.SMPP.PDU.SmppPDU
+    return:
+      type: System.String
+    content.vb: Public Function GetMessageText(pdu As SmppPDU) As String
+  overload: Inetlab.SMPP.Common.EncodingMapper.GetMessageText*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.EncodingMapper.GetMessageText(System.Byte[],Inetlab.SMPP.Common.DataCodings)
+  commentId: M:Inetlab.SMPP.Common.EncodingMapper.GetMessageText(System.Byte[],Inetlab.SMPP.Common.DataCodings)
+  id: GetMessageText(System.Byte[],Inetlab.SMPP.Common.DataCodings)
+  parent: Inetlab.SMPP.Common.EncodingMapper
+  langs:
+  - csharp
+  - vb
+  name: GetMessageText(Byte[], DataCodings)
+  nameWithType: EncodingMapper.GetMessageText(Byte[], DataCodings)
+  fullName: Inetlab.SMPP.Common.EncodingMapper.GetMessageText(System.Byte[], Inetlab.SMPP.Common.DataCodings)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetMessageText
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 130
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nConverts sort message buffer to unicode string using specified data coding.\n"
+  example: []
+  syntax:
+    content: public string GetMessageText(byte[] buffer, DataCodings dataCoding)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    - id: dataCoding
+      type: Inetlab.SMPP.Common.DataCodings
+    return:
+      type: System.String
+    content.vb: Public Function GetMessageText(buffer As Byte(), dataCoding As DataCodings) As String
+  overload: Inetlab.SMPP.Common.EncodingMapper.GetMessageText*
+  nameWithType.vb: EncodingMapper.GetMessageText(Byte(), DataCodings)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.EncodingMapper.GetMessageText(System.Byte(), Inetlab.SMPP.Common.DataCodings)
+  name.vb: GetMessageText(Byte(), DataCodings)
+- uid: Inetlab.SMPP.Common.EncodingMapper.GetMessageBytes(System.String,Inetlab.SMPP.Common.DataCodings)
+  commentId: M:Inetlab.SMPP.Common.EncodingMapper.GetMessageBytes(System.String,Inetlab.SMPP.Common.DataCodings)
+  id: GetMessageBytes(System.String,Inetlab.SMPP.Common.DataCodings)
+  parent: Inetlab.SMPP.Common.EncodingMapper
+  langs:
+  - csharp
+  - vb
+  name: GetMessageBytes(String, DataCodings)
+  nameWithType: EncodingMapper.GetMessageBytes(String, DataCodings)
+  fullName: Inetlab.SMPP.Common.EncodingMapper.GetMessageBytes(System.String, Inetlab.SMPP.Common.DataCodings)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/Common/EncodingMapper.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: GetMessageBytes
+    path: ../Source/CS/Common/EncodingMapper.cs
+    startLine: 158
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nConverts string to short message bytes for specified data coding.\n"
+  example: []
+  syntax:
+    content: public byte[] GetMessageBytes(string message, DataCodings dataCoding)
+    parameters:
+    - id: message
+      type: System.String
+    - id: dataCoding
+      type: Inetlab.SMPP.Common.DataCodings
+    return:
+      type: System.Byte[]
+    content.vb: Public Function GetMessageBytes(message As String, dataCoding As DataCodings) As Byte()
+  overload: Inetlab.SMPP.Common.EncodingMapper.GetMessageBytes*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.EncodingMapper
+  commentId: T:Inetlab.SMPP.Common.EncodingMapper
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: EncodingMapper
+  nameWithType: EncodingMapper
+  fullName: Inetlab.SMPP.Common.EncodingMapper
+- uid: Inetlab.SMPP.Common.EncodingMapper.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.EncodingMapper.#ctor
+  isExternal: false
+  name: EncodingMapper
+  nameWithType: EncodingMapper.EncodingMapper
+  fullName: Inetlab.SMPP.Common.EncodingMapper.EncodingMapper
+- uid: Inetlab.SMPP.Common.EncodingMapper.AddressEncoding*
+  commentId: Overload:Inetlab.SMPP.Common.EncodingMapper.AddressEncoding
+  isExternal: false
+  name: AddressEncoding
+  nameWithType: EncodingMapper.AddressEncoding
+  fullName: Inetlab.SMPP.Common.EncodingMapper.AddressEncoding
+- uid: System.Text.Encoding
+  commentId: T:System.Text.Encoding
+  parent: System.Text
+  isExternal: true
+  name: Encoding
+  nameWithType: Encoding
+  fullName: System.Text.Encoding
+- uid: System.Text
+  commentId: N:System.Text
+  isExternal: false
+  name: System.Text
+  nameWithType: System.Text
+  fullName: System.Text
+- uid: Inetlab.SMPP.Common.EncodingMapper.MapEncoding*
+  commentId: Overload:Inetlab.SMPP.Common.EncodingMapper.MapEncoding
+  isExternal: false
+  name: MapEncoding
+  nameWithType: EncodingMapper.MapEncoding
+  fullName: Inetlab.SMPP.Common.EncodingMapper.MapEncoding
+- uid: Inetlab.SMPP.Common.DataCodings
+  commentId: T:Inetlab.SMPP.Common.DataCodings
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: DataCodings
+  nameWithType: DataCodings
+  fullName: Inetlab.SMPP.Common.DataCodings
+- uid: Inetlab.SMPP.Common.EncodingMapper.GetMappedEncoding*
+  commentId: Overload:Inetlab.SMPP.Common.EncodingMapper.GetMappedEncoding
+  isExternal: false
+  name: GetMappedEncoding
+  nameWithType: EncodingMapper.GetMappedEncoding
+  fullName: Inetlab.SMPP.Common.EncodingMapper.GetMappedEncoding
+- uid: Inetlab.SMPP.Common.EncodingMapper.GetMessageText*
+  commentId: Overload:Inetlab.SMPP.Common.EncodingMapper.GetMessageText
+  isExternal: false
+  name: GetMessageText
+  nameWithType: EncodingMapper.GetMessageText
+  fullName: Inetlab.SMPP.Common.EncodingMapper.GetMessageText
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Common.EncodingMapper.GetMessageBytes*
+  commentId: Overload:Inetlab.SMPP.Common.EncodingMapper.GetMessageBytes
+  isExternal: false
+  name: GetMessageBytes
+  nameWithType: EncodingMapper.GetMessageBytes
+  fullName: Inetlab.SMPP.Common.EncodingMapper.GetMessageBytes

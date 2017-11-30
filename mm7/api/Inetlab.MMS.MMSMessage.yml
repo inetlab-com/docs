@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MMSMessage
+  commentId: T:Inetlab.MMS.MMSMessage
+  id: MMSMessage
+  parent: Inetlab.MMS
+  children:
+  - Inetlab.MMS.MMSMessage.#ctor
+  - Inetlab.MMS.MMSMessage.Decode(System.IO.Stream)
+  - Inetlab.MMS.MMSMessage.Header
+  - Inetlab.MMS.MMSMessage.Parts
+  langs:
+  - csharp
+  - vb
+  name: MMSMessage
+  nameWithType: MMSMessage
+  fullName: Inetlab.MMS.MMSMessage
+  type: Class
+  source:
+    remote:
+      path: Source/CS/MMSMessage.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MMSMessage
+    path: ../Source/CS/MMSMessage.cs
+    startLine: 11
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRepresents a MMS message\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public class MMSMessage
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Class MMSMessage
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.MMS.MMSMessage.Header
+  commentId: P:Inetlab.MMS.MMSMessage.Header
+  id: Header
+  parent: Inetlab.MMS.MMSMessage
+  langs:
+  - csharp
+  - vb
+  name: Header
+  nameWithType: MMSMessage.Header
+  fullName: Inetlab.MMS.MMSMessage.Header
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MMSMessage.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Header
+    path: ../Source/CS/MMSMessage.cs
+    startLine: 20
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRepresents a MMS Header\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public MMSHeader Header { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MMSHeader
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Property Header As MMSHeader
+  overload: Inetlab.MMS.MMSMessage.Header*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSMessage.Parts
+  commentId: P:Inetlab.MMS.MMSMessage.Parts
+  id: Parts
+  parent: Inetlab.MMS.MMSMessage
+  langs:
+  - csharp
+  - vb
+  name: Parts
+  nameWithType: MMSMessage.Parts
+  fullName: Inetlab.MMS.MMSMessage.Parts
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MMSMessage.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Parts
+    path: ../Source/CS/MMSMessage.cs
+    startLine: 33
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nCollection of MMS message parts\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public MMSPartCollection Parts { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MMSPartCollection
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Property Parts As MMSPartCollection
+  overload: Inetlab.MMS.MMSMessage.Parts*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSMessage.#ctor
+  commentId: M:Inetlab.MMS.MMSMessage.#ctor
+  id: '#ctor'
+  parent: Inetlab.MMS.MMSMessage
+  langs:
+  - csharp
+  - vb
+  name: MMSMessage()
+  nameWithType: MMSMessage.MMSMessage()
+  fullName: Inetlab.MMS.MMSMessage.MMSMessage()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MMSMessage.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MMSMessage.cs
+    startLine: 40
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: public MMSMessage()
+    content.vb: Public Sub New
+  overload: Inetlab.MMS.MMSMessage.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MMSMessage.Decode(System.IO.Stream)
+  commentId: M:Inetlab.MMS.MMSMessage.Decode(System.IO.Stream)
+  id: Decode(System.IO.Stream)
+  parent: Inetlab.MMS.MMSMessage
+  langs:
+  - csharp
+  - vb
+  name: Decode(Stream)
+  nameWithType: MMSMessage.Decode(Stream)
+  fullName: Inetlab.MMS.MMSMessage.Decode(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MMSMessage.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Decode
+    path: ../Source/CS/MMSMessage.cs
+    startLine: 61
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nDecode MMS message from stream\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public static MMSMessage Decode(Stream stream)
+    parameters:
+    - id: stream
+      type: System.IO.Stream
+      description: ''
+    return:
+      type: Inetlab.MMS.MMSMessage
+      description: ''
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Shared Function Decode(stream As Stream) As MMSMessage
+  overload: Inetlab.MMS.MMSMessage.Decode*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.MMS.MMSMessage.Header*
+  commentId: Overload:Inetlab.MMS.MMSMessage.Header
+  isExternal: false
+  name: Header
+  nameWithType: MMSMessage.Header
+  fullName: Inetlab.MMS.MMSMessage.Header
+- uid: Inetlab.MMS.MMSHeader
+  commentId: T:Inetlab.MMS.MMSHeader
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MMSHeader
+  nameWithType: MMSHeader
+  fullName: Inetlab.MMS.MMSHeader
+- uid: Inetlab.MMS.MMSMessage.Parts*
+  commentId: Overload:Inetlab.MMS.MMSMessage.Parts
+  isExternal: false
+  name: Parts
+  nameWithType: MMSMessage.Parts
+  fullName: Inetlab.MMS.MMSMessage.Parts
+- uid: Inetlab.MMS.MMSPartCollection
+  commentId: T:Inetlab.MMS.MMSPartCollection
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MMSPartCollection
+  nameWithType: MMSPartCollection
+  fullName: Inetlab.MMS.MMSPartCollection
+- uid: Inetlab.MMS.MMSMessage.#ctor*
+  commentId: Overload:Inetlab.MMS.MMSMessage.#ctor
+  isExternal: false
+  name: MMSMessage
+  nameWithType: MMSMessage.MMSMessage
+  fullName: Inetlab.MMS.MMSMessage.MMSMessage
+- uid: Inetlab.MMS.MMSMessage.Decode*
+  commentId: Overload:Inetlab.MMS.MMSMessage.Decode
+  isExternal: false
+  name: Decode
+  nameWithType: MMSMessage.Decode
+  fullName: Inetlab.MMS.MMSMessage.Decode
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: Inetlab.MMS.MMSMessage
+  commentId: T:Inetlab.MMS.MMSMessage
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MMSMessage
+  nameWithType: MMSMessage
+  fullName: Inetlab.MMS.MMSMessage
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: false
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO

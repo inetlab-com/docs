@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  commentId: T:Inetlab.SMPP.Common.CertificateValidationEventArgs
+  id: CertificateValidationEventArgs
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  langs:
+  - csharp
+  - vb
+  name: CertificateValidationEventArgs
+  nameWithType: CertificateValidationEventArgs
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  type: Class
+  source:
+    remote:
+      path: Source/CS/Common/CertificateValidationEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: CertificateValidationEventArgs
+    path: ../Source/CS/Common/CertificateValidationEventArgs.cs
+    startLine: 9
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClass that provides event data for validation remote certificates\n"
+  example: []
+  syntax:
+    content: 'public class CertificateValidationEventArgs : EventArgs'
+    content.vb: >-
+      Public Class CertificateValidationEventArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  - System.EventArgs
+  inheritedMembers:
+  - System.EventArgs.Empty
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  commentId: P:Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  id: Certificate
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Certificate
+  nameWithType: CertificateValidationEventArgs.Certificate
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/CertificateValidationEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Certificate
+    path: ../Source/CS/Common/CertificateValidationEventArgs.cs
+    startLine: 14
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe certificate used to authenticate the remote party.\n"
+  example: []
+  syntax:
+    content: public X509Certificate Certificate { get; }
+    parameters: []
+    return:
+      type: System.Security.Cryptography.X509Certificates.X509Certificate
+    content.vb: Public ReadOnly Property Certificate As X509Certificate
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  commentId: P:Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  id: Chain
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Chain
+  nameWithType: CertificateValidationEventArgs.Chain
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/CertificateValidationEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Chain
+    path: ../Source/CS/Common/CertificateValidationEventArgs.cs
+    startLine: 18
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe chain of certificate authorities associated with the remote certificate.\n"
+  example: []
+  syntax:
+    content: public X509Chain Chain { get; }
+    parameters: []
+    return:
+      type: System.Security.Cryptography.X509Certificates.X509Chain
+    content.vb: Public ReadOnly Property Chain As X509Chain
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  commentId: P:Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  id: SslPolicyErrors
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: SslPolicyErrors
+  nameWithType: CertificateValidationEventArgs.SslPolicyErrors
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/CertificateValidationEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SslPolicyErrors
+    path: ../Source/CS/Common/CertificateValidationEventArgs.cs
+    startLine: 22
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nOne or more errors associated with the remote certificate.\n"
+  example: []
+  syntax:
+    content: public SslPolicyErrors SslPolicyErrors { get; }
+    parameters: []
+    return:
+      type: System.Net.Security.SslPolicyErrors
+    content.vb: Public ReadOnly Property SslPolicyErrors As SslPolicyErrors
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  commentId: P:Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  id: Accepted
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Accepted
+  nameWithType: CertificateValidationEventArgs.Accepted
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  type: Property
+  source:
+    remote:
+      path: Source/CS/Common/CertificateValidationEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Accepted
+    path: ../Source/CS/Common/CertificateValidationEventArgs.cs
+    startLine: 26
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  summary: "\nA <xref href=\"System.Boolean\" data-throw-if-not-resolved=\"false\"></xref> value that determines whether the specified certificate is accepted for authentication.\n"
+  example: []
+  syntax:
+    content: public bool Accepted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Accepted As Boolean
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
+  commentId: M:Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor(System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)
+  id: '#ctor(System.Security.Cryptography.X509Certificates.X509Certificate,System.Security.Cryptography.X509Certificates.X509Chain,System.Net.Security.SslPolicyErrors)'
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: CertificateValidationEventArgs(X509Certificate, X509Chain, SslPolicyErrors)
+  nameWithType: CertificateValidationEventArgs.CertificateValidationEventArgs(X509Certificate, X509Chain, SslPolicyErrors)
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.CertificateValidationEventArgs(System.Security.Cryptography.X509Certificates.X509Certificate, System.Security.Cryptography.X509Certificates.X509Chain, System.Net.Security.SslPolicyErrors)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/Common/CertificateValidationEventArgs.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/Common/CertificateValidationEventArgs.cs
+    startLine: 28
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public CertificateValidationEventArgs(X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+    parameters:
+    - id: certificate
+      type: System.Security.Cryptography.X509Certificates.X509Certificate
+    - id: chain
+      type: System.Security.Cryptography.X509Certificates.X509Chain
+    - id: sslPolicyErrors
+      type: System.Net.Security.SslPolicyErrors
+    content.vb: Public Sub New(certificate As X509Certificate, chain As X509Chain, sslPolicyErrors As SslPolicyErrors)
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  commentId: T:System.EventArgs
+  parent: System
+  isExternal: true
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.EventArgs.Empty
+  commentId: F:System.EventArgs.Empty
+  parent: System.EventArgs
+  isExternal: true
+  name: Empty
+  nameWithType: EventArgs.Empty
+  fullName: System.EventArgs.Empty
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  isExternal: false
+  name: Certificate
+  nameWithType: CertificateValidationEventArgs.Certificate
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+- uid: System.Security.Cryptography.X509Certificates.X509Certificate
+  commentId: T:System.Security.Cryptography.X509Certificates.X509Certificate
+  parent: System.Security.Cryptography.X509Certificates
+  isExternal: true
+  name: X509Certificate
+  nameWithType: X509Certificate
+  fullName: System.Security.Cryptography.X509Certificates.X509Certificate
+- uid: System.Security.Cryptography.X509Certificates
+  commentId: N:System.Security.Cryptography.X509Certificates
+  isExternal: false
+  name: System.Security.Cryptography.X509Certificates
+  nameWithType: System.Security.Cryptography.X509Certificates
+  fullName: System.Security.Cryptography.X509Certificates
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  isExternal: false
+  name: Chain
+  nameWithType: CertificateValidationEventArgs.Chain
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+- uid: System.Security.Cryptography.X509Certificates.X509Chain
+  commentId: T:System.Security.Cryptography.X509Certificates.X509Chain
+  parent: System.Security.Cryptography.X509Certificates
+  isExternal: true
+  name: X509Chain
+  nameWithType: X509Chain
+  fullName: System.Security.Cryptography.X509Certificates.X509Chain
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  isExternal: false
+  name: SslPolicyErrors
+  nameWithType: CertificateValidationEventArgs.SslPolicyErrors
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+- uid: System.Net.Security.SslPolicyErrors
+  commentId: T:System.Net.Security.SslPolicyErrors
+  parent: System.Net.Security
+  isExternal: true
+  name: SslPolicyErrors
+  nameWithType: SslPolicyErrors
+  fullName: System.Net.Security.SslPolicyErrors
+- uid: System.Net.Security
+  commentId: N:System.Net.Security
+  isExternal: false
+  name: System.Net.Security
+  nameWithType: System.Net.Security
+  fullName: System.Net.Security
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  isExternal: false
+  name: Accepted
+  nameWithType: CertificateValidationEventArgs.Accepted
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor
+  isExternal: false
+  name: CertificateValidationEventArgs
+  nameWithType: CertificateValidationEventArgs.CertificateValidationEventArgs
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.CertificateValidationEventArgs

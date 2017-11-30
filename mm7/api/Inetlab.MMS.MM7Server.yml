@@ -1,0 +1,1679 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7Server
+  commentId: T:Inetlab.MMS.MM7Server
+  id: MM7Server
+  parent: Inetlab.MMS
+  children:
+  - Inetlab.MMS.MM7Server.#ctor
+  - Inetlab.MMS.MM7Server.#ctor(System.Int32)
+  - Inetlab.MMS.MM7Server.#ctor(System.String)
+  - Inetlab.MMS.MM7Server.Authentication
+  - Inetlab.MMS.MM7Server.AuthScheme
+  - Inetlab.MMS.MM7Server.DeliverRequest
+  - Inetlab.MMS.MM7Server.DeliveryReport
+  - Inetlab.MMS.MM7Server.License
+  - Inetlab.MMS.MM7Server.Logger
+  - Inetlab.MMS.MM7Server.OnAuthentication(Inetlab.MMS.MM7.AuthenticationEventArgs)
+  - Inetlab.MMS.MM7Server.OnDeliverRequest(Inetlab.MMS.MM7.DeliverReqEventArgs)
+  - Inetlab.MMS.MM7Server.OnDeliveryReport(Inetlab.MMS.MM7.DeliveryReportRequestEventArgs)
+  - Inetlab.MMS.MM7Server.OnReadReplyReport(Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs)
+  - Inetlab.MMS.MM7Server.OnSubmitRequest(Inetlab.MMS.MM7.SubmitReqEventArgs)
+  - Inetlab.MMS.MM7Server.ProcessRequest(System.IO.Stream)
+  - Inetlab.MMS.MM7Server.ProcessRequest(System.Web.HttpContext)
+  - Inetlab.MMS.MM7Server.ReadReplyReport
+  - Inetlab.MMS.MM7Server.ServerMode
+  - Inetlab.MMS.MM7Server.ServerName
+  - Inetlab.MMS.MM7Server.Start
+  - Inetlab.MMS.MM7Server.Stop
+  - Inetlab.MMS.MM7Server.SubmitRequest
+  langs:
+  - csharp
+  - vb
+  name: MM7Server
+  nameWithType: MM7Server
+  fullName: Inetlab.MMS.MM7Server
+  type: Class
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MM7Server
+    path: ../Source/CS/MM7Server.cs
+    startLine: 22
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nAllows you to receive MMS messages\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public class MM7Server
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Class MM7Server
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.MMS.MM7Server.Logger
+  commentId: F:Inetlab.MMS.MM7Server.Logger
+  id: Logger
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: Logger
+  nameWithType: MM7Server.Logger
+  fullName: Inetlab.MMS.MM7Server.Logger
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Logger
+    path: ../Source/CS/MM7Server.cs
+    startLine: 31
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: public ILog Logger
+    return:
+      type: Inetlab.MMS.Logging.ILog
+    content.vb: Public Logger As ILog
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.ServerName
+  commentId: P:Inetlab.MMS.MM7Server.ServerName
+  id: ServerName
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: ServerName
+  nameWithType: MM7Server.ServerName
+  fullName: Inetlab.MMS.MM7Server.ServerName
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ServerName
+    path: ../Source/CS/MM7Server.cs
+    startLine: 37
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nServer name\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public string ServerName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Property ServerName As String
+  overload: Inetlab.MMS.MM7Server.ServerName*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.ServerMode
+  commentId: P:Inetlab.MMS.MM7Server.ServerMode
+  id: ServerMode
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: ServerMode
+  nameWithType: MM7Server.ServerMode
+  fullName: Inetlab.MMS.MM7Server.ServerMode
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ServerMode
+    path: ../Source/CS/MM7Server.cs
+    startLine: 43
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nServer mode. Operate as MMSC or VASP. Default value is VASP.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public MM7ServerMode ServerMode { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MM7ServerMode
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Property ServerMode As MM7ServerMode
+  overload: Inetlab.MMS.MM7Server.ServerMode*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.AuthScheme
+  commentId: P:Inetlab.MMS.MM7Server.AuthScheme
+  id: AuthScheme
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: AuthScheme
+  nameWithType: MM7Server.AuthScheme
+  fullName: Inetlab.MMS.MM7Server.AuthScheme
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: AuthScheme
+    path: ../Source/CS/MM7Server.cs
+    startLine: 53
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nGets or sets authentication scheme. Can be &apos;Basic&apos; and &apos;Digest&apos;\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public AuthenticationSchemes AuthScheme { get; set; }
+    parameters: []
+    return:
+      type: System.Net.AuthenticationSchemes
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Property AuthScheme As AuthenticationSchemes
+  overload: Inetlab.MMS.MM7Server.AuthScheme*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.License
+  commentId: P:Inetlab.MMS.MM7Server.License
+  id: License
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: License
+  nameWithType: MM7Server.License
+  fullName: Inetlab.MMS.MM7Server.License
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: License
+    path: ../Source/CS/MM7Server.cs
+    startLine: 60
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: public Stream License { get; set; }
+    parameters: []
+    return:
+      type: System.IO.Stream
+    content.vb: Public Property License As Stream
+  overload: Inetlab.MMS.MM7Server.License*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.#ctor(System.Int32)
+  commentId: M:Inetlab.MMS.MM7Server.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: MM7Server(Int32)
+  nameWithType: MM7Server.MM7Server(Int32)
+  fullName: Inetlab.MMS.MM7Server.MM7Server(System.Int32)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7Server.cs
+    startLine: 82
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nCreate MM7Server instance as standalone server\n"
+  example: []
+  syntax:
+    content: public MM7Server(int port)
+    parameters:
+    - id: port
+      type: System.Int32
+      description: Port that should be listened on all IP addresses
+    content.vb: Public Sub New(port As Integer)
+  overload: Inetlab.MMS.MM7Server.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.#ctor(System.String)
+  commentId: M:Inetlab.MMS.MM7Server.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: MM7Server(String)
+  nameWithType: MM7Server.MM7Server(String)
+  fullName: Inetlab.MMS.MM7Server.MM7Server(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7Server.cs
+    startLine: 91
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nCreate MM7Server instance as standalone server\n"
+  example: []
+  syntax:
+    content: public MM7Server(string listenerAddress)
+    parameters:
+    - id: listenerAddress
+      type: System.String
+    content.vb: Public Sub New(listenerAddress As String)
+  overload: Inetlab.MMS.MM7Server.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.#ctor
+  commentId: M:Inetlab.MMS.MM7Server.#ctor
+  id: '#ctor'
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: MM7Server()
+  nameWithType: MM7Server.MM7Server()
+  fullName: Inetlab.MMS.MM7Server.MM7Server()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7Server.cs
+    startLine: 103
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nInitialize MM7Server as HttpContext processor\n"
+  example: []
+  syntax:
+    content: public MM7Server()
+    content.vb: Public Sub New
+  overload: Inetlab.MMS.MM7Server.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.Start
+  commentId: M:Inetlab.MMS.MM7Server.Start
+  id: Start
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: MM7Server.Start()
+  fullName: Inetlab.MMS.MM7Server.Start()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Start
+    path: ../Source/CS/MM7Server.cs
+    startLine: 113
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nStart MM7 stand-alone Server\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public void Start()
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Sub Start
+  overload: Inetlab.MMS.MM7Server.Start*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.Stop
+  commentId: M:Inetlab.MMS.MM7Server.Stop
+  id: Stop
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: MM7Server.Stop()
+  fullName: Inetlab.MMS.MM7Server.Stop()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Stop
+    path: ../Source/CS/MM7Server.cs
+    startLine: 150
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nStop MM7 stand-alone Server\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public void Stop()
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Sub Stop
+  overload: Inetlab.MMS.MM7Server.Stop*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.ProcessRequest(System.Web.HttpContext)
+  commentId: M:Inetlab.MMS.MM7Server.ProcessRequest(System.Web.HttpContext)
+  id: ProcessRequest(System.Web.HttpContext)
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: ProcessRequest(HttpContext)
+  nameWithType: MM7Server.ProcessRequest(HttpContext)
+  fullName: Inetlab.MMS.MM7Server.ProcessRequest(System.Web.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ProcessRequest
+    path: ../Source/CS/MM7Server.cs
+    startLine: 298
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nHandles HttpRequest, raises DeliverRequest or SubmitRequest events and send response from event\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public void ProcessRequest(HttpContext context)
+    parameters:
+    - id: context
+      type: System.Web.HttpContext
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Sub ProcessRequest(context As HttpContext)
+  overload: Inetlab.MMS.MM7Server.ProcessRequest*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.ProcessRequest(System.IO.Stream)
+  commentId: M:Inetlab.MMS.MM7Server.ProcessRequest(System.IO.Stream)
+  id: ProcessRequest(System.IO.Stream)
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: ProcessRequest(Stream)
+  nameWithType: MM7Server.ProcessRequest(Stream)
+  fullName: Inetlab.MMS.MM7Server.ProcessRequest(System.IO.Stream)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ProcessRequest
+    path: ../Source/CS/MM7Server.cs
+    startLine: 434
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nHandles request stream, raises DeliverRequest or SubmitRequest events and returns prepeared response\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public Stream ProcessRequest(Stream request)
+    parameters:
+    - id: request
+      type: System.IO.Stream
+    return:
+      type: System.IO.Stream
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Function ProcessRequest(request As Stream) As Stream
+  overload: Inetlab.MMS.MM7Server.ProcessRequest*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.DeliverRequest
+  commentId: E:Inetlab.MMS.MM7Server.DeliverRequest
+  id: DeliverRequest
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: DeliverRequest
+  nameWithType: MM7Server.DeliverRequest
+  fullName: Inetlab.MMS.MM7Server.DeliverRequest
+  type: Event
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: DeliverRequest
+    path: ../Source/CS/MM7Server.cs
+    startLine: 529
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRaised when MMSC sends DeliverReq to VASP\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public event DeliverEventHandler DeliverRequest
+    return:
+      type: Inetlab.MMS.MM7.DeliverEventHandler
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Event DeliverRequest As DeliverEventHandler
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.OnDeliverRequest(Inetlab.MMS.MM7.DeliverReqEventArgs)
+  commentId: M:Inetlab.MMS.MM7Server.OnDeliverRequest(Inetlab.MMS.MM7.DeliverReqEventArgs)
+  id: OnDeliverRequest(Inetlab.MMS.MM7.DeliverReqEventArgs)
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: OnDeliverRequest(DeliverReqEventArgs)
+  nameWithType: MM7Server.OnDeliverRequest(DeliverReqEventArgs)
+  fullName: Inetlab.MMS.MM7Server.OnDeliverRequest(Inetlab.MMS.MM7.DeliverReqEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: OnDeliverRequest
+    path: ../Source/CS/MM7Server.cs
+    startLine: 530
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      protected virtual void OnDeliverRequest(DeliverReqEventArgs e)
+    parameters:
+    - id: e
+      type: Inetlab.MMS.MM7.DeliverReqEventArgs
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Protected Overridable Sub OnDeliverRequest(e As DeliverReqEventArgs)
+  overload: Inetlab.MMS.MM7Server.OnDeliverRequest*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Inetlab.MMS.MM7Server.DeliveryReport
+  commentId: E:Inetlab.MMS.MM7Server.DeliveryReport
+  id: DeliveryReport
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: DeliveryReport
+  nameWithType: MM7Server.DeliveryReport
+  fullName: Inetlab.MMS.MM7Server.DeliveryReport
+  type: Event
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: DeliveryReport
+    path: ../Source/CS/MM7Server.cs
+    startLine: 541
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRaised when MMSC sends DeliverReportReq to VASP\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public event DeliveryReportEventHandler DeliveryReport
+    return:
+      type: Inetlab.MMS.MM7.DeliveryReportEventHandler
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Event DeliveryReport As DeliveryReportEventHandler
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.OnDeliveryReport(Inetlab.MMS.MM7.DeliveryReportRequestEventArgs)
+  commentId: M:Inetlab.MMS.MM7Server.OnDeliveryReport(Inetlab.MMS.MM7.DeliveryReportRequestEventArgs)
+  id: OnDeliveryReport(Inetlab.MMS.MM7.DeliveryReportRequestEventArgs)
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: OnDeliveryReport(DeliveryReportRequestEventArgs)
+  nameWithType: MM7Server.OnDeliveryReport(DeliveryReportRequestEventArgs)
+  fullName: Inetlab.MMS.MM7Server.OnDeliveryReport(Inetlab.MMS.MM7.DeliveryReportRequestEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: OnDeliveryReport
+    path: ../Source/CS/MM7Server.cs
+    startLine: 542
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      protected virtual void OnDeliveryReport(DeliveryReportRequestEventArgs e)
+    parameters:
+    - id: e
+      type: Inetlab.MMS.MM7.DeliveryReportRequestEventArgs
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Protected Overridable Sub OnDeliveryReport(e As DeliveryReportRequestEventArgs)
+  overload: Inetlab.MMS.MM7Server.OnDeliveryReport*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Inetlab.MMS.MM7Server.ReadReplyReport
+  commentId: E:Inetlab.MMS.MM7Server.ReadReplyReport
+  id: ReadReplyReport
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: ReadReplyReport
+  nameWithType: MM7Server.ReadReplyReport
+  fullName: Inetlab.MMS.MM7Server.ReadReplyReport
+  type: Event
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ReadReplyReport
+    path: ../Source/CS/MM7Server.cs
+    startLine: 553
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRaised when MMSC sends ReadReplyReq to VASP\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public event ReadReplyReportEventHandler ReadReplyReport
+    return:
+      type: Inetlab.MMS.MM7.ReadReplyReportEventHandler
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Event ReadReplyReport As ReadReplyReportEventHandler
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.OnReadReplyReport(Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs)
+  commentId: M:Inetlab.MMS.MM7Server.OnReadReplyReport(Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs)
+  id: OnReadReplyReport(Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs)
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: OnReadReplyReport(ReadReplyReportRequestEventArgs)
+  nameWithType: MM7Server.OnReadReplyReport(ReadReplyReportRequestEventArgs)
+  fullName: Inetlab.MMS.MM7Server.OnReadReplyReport(Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: OnReadReplyReport
+    path: ../Source/CS/MM7Server.cs
+    startLine: 554
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      protected virtual void OnReadReplyReport(ReadReplyReportRequestEventArgs e)
+    parameters:
+    - id: e
+      type: Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Protected Overridable Sub OnReadReplyReport(e As ReadReplyReportRequestEventArgs)
+  overload: Inetlab.MMS.MM7Server.OnReadReplyReport*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Inetlab.MMS.MM7Server.SubmitRequest
+  commentId: E:Inetlab.MMS.MM7Server.SubmitRequest
+  id: SubmitRequest
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: SubmitRequest
+  nameWithType: MM7Server.SubmitRequest
+  fullName: Inetlab.MMS.MM7Server.SubmitRequest
+  type: Event
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: SubmitRequest
+    path: ../Source/CS/MM7Server.cs
+    startLine: 566
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRaised when VASP sends SubmitReq to MMSC\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public event SubmitEventHandler SubmitRequest
+    return:
+      type: Inetlab.MMS.MM7.SubmitEventHandler
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Event SubmitRequest As SubmitEventHandler
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.OnSubmitRequest(Inetlab.MMS.MM7.SubmitReqEventArgs)
+  commentId: M:Inetlab.MMS.MM7Server.OnSubmitRequest(Inetlab.MMS.MM7.SubmitReqEventArgs)
+  id: OnSubmitRequest(Inetlab.MMS.MM7.SubmitReqEventArgs)
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: OnSubmitRequest(SubmitReqEventArgs)
+  nameWithType: MM7Server.OnSubmitRequest(SubmitReqEventArgs)
+  fullName: Inetlab.MMS.MM7Server.OnSubmitRequest(Inetlab.MMS.MM7.SubmitReqEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: OnSubmitRequest
+    path: ../Source/CS/MM7Server.cs
+    startLine: 567
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      protected virtual void OnSubmitRequest(SubmitReqEventArgs e)
+    parameters:
+    - id: e
+      type: Inetlab.MMS.MM7.SubmitReqEventArgs
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Protected Overridable Sub OnSubmitRequest(e As SubmitReqEventArgs)
+  overload: Inetlab.MMS.MM7Server.OnSubmitRequest*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Inetlab.MMS.MM7Server.Authentication
+  commentId: E:Inetlab.MMS.MM7Server.Authentication
+  id: Authentication
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: Authentication
+  nameWithType: MM7Server.Authentication
+  fullName: Inetlab.MMS.MM7Server.Authentication
+  type: Event
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Authentication
+    path: ../Source/CS/MM7Server.cs
+    startLine: 580
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nRaised when user send authentication information\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public event AuthenticationEventHandler Authentication
+    return:
+      type: Inetlab.MMS.MM7.AuthenticationEventHandler
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Event Authentication As AuthenticationEventHandler
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Server.OnAuthentication(Inetlab.MMS.MM7.AuthenticationEventArgs)
+  commentId: M:Inetlab.MMS.MM7Server.OnAuthentication(Inetlab.MMS.MM7.AuthenticationEventArgs)
+  id: OnAuthentication(Inetlab.MMS.MM7.AuthenticationEventArgs)
+  parent: Inetlab.MMS.MM7Server
+  langs:
+  - csharp
+  - vb
+  name: OnAuthentication(AuthenticationEventArgs)
+  nameWithType: MM7Server.OnAuthentication(AuthenticationEventArgs)
+  fullName: Inetlab.MMS.MM7Server.OnAuthentication(Inetlab.MMS.MM7.AuthenticationEventArgs)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Server.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: OnAuthentication
+    path: ../Source/CS/MM7Server.cs
+    startLine: 581
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      protected virtual string OnAuthentication(AuthenticationEventArgs e)
+    parameters:
+    - id: e
+      type: Inetlab.MMS.MM7.AuthenticationEventArgs
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Protected Overridable Function OnAuthentication(e As AuthenticationEventArgs) As String
+  overload: Inetlab.MMS.MM7Server.OnAuthentication*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.MMS.Logging.ILog
+  commentId: T:Inetlab.MMS.Logging.ILog
+  parent: Inetlab.MMS.Logging
+  isExternal: false
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.MMS.Logging.ILog
+- uid: Inetlab.MMS.Logging
+  commentId: N:Inetlab.MMS.Logging
+  isExternal: false
+  name: Inetlab.MMS.Logging
+  nameWithType: Inetlab.MMS.Logging
+  fullName: Inetlab.MMS.Logging
+- uid: Inetlab.MMS.MM7Server.ServerName*
+  commentId: Overload:Inetlab.MMS.MM7Server.ServerName
+  isExternal: false
+  name: ServerName
+  nameWithType: MM7Server.ServerName
+  fullName: Inetlab.MMS.MM7Server.ServerName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.MMS.MM7Server.ServerMode*
+  commentId: Overload:Inetlab.MMS.MM7Server.ServerMode
+  isExternal: false
+  name: ServerMode
+  nameWithType: MM7Server.ServerMode
+  fullName: Inetlab.MMS.MM7Server.ServerMode
+- uid: Inetlab.MMS.MM7ServerMode
+  commentId: T:Inetlab.MMS.MM7ServerMode
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MM7ServerMode
+  nameWithType: MM7ServerMode
+  fullName: Inetlab.MMS.MM7ServerMode
+- uid: Inetlab.MMS.MM7Server.AuthScheme*
+  commentId: Overload:Inetlab.MMS.MM7Server.AuthScheme
+  isExternal: false
+  name: AuthScheme
+  nameWithType: MM7Server.AuthScheme
+  fullName: Inetlab.MMS.MM7Server.AuthScheme
+- uid: System.Net.AuthenticationSchemes
+  commentId: T:System.Net.AuthenticationSchemes
+  parent: System.Net
+  isExternal: true
+  name: AuthenticationSchemes
+  nameWithType: AuthenticationSchemes
+  fullName: System.Net.AuthenticationSchemes
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: false
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+- uid: Inetlab.MMS.MM7Server.License*
+  commentId: Overload:Inetlab.MMS.MM7Server.License
+  isExternal: false
+  name: License
+  nameWithType: MM7Server.License
+  fullName: Inetlab.MMS.MM7Server.License
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: false
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Inetlab.MMS.MM7Server.#ctor*
+  commentId: Overload:Inetlab.MMS.MM7Server.#ctor
+  isExternal: false
+  name: MM7Server
+  nameWithType: MM7Server.MM7Server
+  fullName: Inetlab.MMS.MM7Server.MM7Server
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.MMS.MM7Server.Start*
+  commentId: Overload:Inetlab.MMS.MM7Server.Start
+  isExternal: false
+  name: Start
+  nameWithType: MM7Server.Start
+  fullName: Inetlab.MMS.MM7Server.Start
+- uid: Inetlab.MMS.MM7Server.Stop*
+  commentId: Overload:Inetlab.MMS.MM7Server.Stop
+  isExternal: false
+  name: Stop
+  nameWithType: MM7Server.Stop
+  fullName: Inetlab.MMS.MM7Server.Stop
+- uid: Inetlab.MMS.MM7Server.ProcessRequest*
+  commentId: Overload:Inetlab.MMS.MM7Server.ProcessRequest
+  isExternal: false
+  name: ProcessRequest
+  nameWithType: MM7Server.ProcessRequest
+  fullName: Inetlab.MMS.MM7Server.ProcessRequest
+- uid: System.Web.HttpContext
+  commentId: T:System.Web.HttpContext
+  parent: System.Web
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: System.Web.HttpContext
+- uid: System.Web
+  commentId: N:System.Web
+  isExternal: false
+  name: System.Web
+  nameWithType: System.Web
+  fullName: System.Web
+- uid: Inetlab.MMS.MM7.DeliverEventHandler
+  commentId: T:Inetlab.MMS.MM7.DeliverEventHandler
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: DeliverEventHandler
+  nameWithType: DeliverEventHandler
+  fullName: Inetlab.MMS.MM7.DeliverEventHandler
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: Inetlab.MMS.MM7Server.OnDeliverRequest*
+  commentId: Overload:Inetlab.MMS.MM7Server.OnDeliverRequest
+  isExternal: false
+  name: OnDeliverRequest
+  nameWithType: MM7Server.OnDeliverRequest
+  fullName: Inetlab.MMS.MM7Server.OnDeliverRequest
+- uid: Inetlab.MMS.MM7.DeliverReqEventArgs
+  commentId: T:Inetlab.MMS.MM7.DeliverReqEventArgs
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: DeliverReqEventArgs
+  nameWithType: DeliverReqEventArgs
+  fullName: Inetlab.MMS.MM7.DeliverReqEventArgs
+- uid: Inetlab.MMS.MM7.DeliveryReportEventHandler
+  commentId: T:Inetlab.MMS.MM7.DeliveryReportEventHandler
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: DeliveryReportEventHandler
+  nameWithType: DeliveryReportEventHandler
+  fullName: Inetlab.MMS.MM7.DeliveryReportEventHandler
+- uid: Inetlab.MMS.MM7Server.OnDeliveryReport*
+  commentId: Overload:Inetlab.MMS.MM7Server.OnDeliveryReport
+  isExternal: false
+  name: OnDeliveryReport
+  nameWithType: MM7Server.OnDeliveryReport
+  fullName: Inetlab.MMS.MM7Server.OnDeliveryReport
+- uid: Inetlab.MMS.MM7.DeliveryReportRequestEventArgs
+  commentId: T:Inetlab.MMS.MM7.DeliveryReportRequestEventArgs
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: DeliveryReportRequestEventArgs
+  nameWithType: DeliveryReportRequestEventArgs
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequestEventArgs
+- uid: Inetlab.MMS.MM7.ReadReplyReportEventHandler
+  commentId: T:Inetlab.MMS.MM7.ReadReplyReportEventHandler
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: ReadReplyReportEventHandler
+  nameWithType: ReadReplyReportEventHandler
+  fullName: Inetlab.MMS.MM7.ReadReplyReportEventHandler
+- uid: Inetlab.MMS.MM7Server.OnReadReplyReport*
+  commentId: Overload:Inetlab.MMS.MM7Server.OnReadReplyReport
+  isExternal: false
+  name: OnReadReplyReport
+  nameWithType: MM7Server.OnReadReplyReport
+  fullName: Inetlab.MMS.MM7Server.OnReadReplyReport
+- uid: Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs
+  commentId: T:Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: ReadReplyReportRequestEventArgs
+  nameWithType: ReadReplyReportRequestEventArgs
+  fullName: Inetlab.MMS.MM7.ReadReplyReportRequestEventArgs
+- uid: Inetlab.MMS.MM7.SubmitEventHandler
+  commentId: T:Inetlab.MMS.MM7.SubmitEventHandler
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: SubmitEventHandler
+  nameWithType: SubmitEventHandler
+  fullName: Inetlab.MMS.MM7.SubmitEventHandler
+- uid: Inetlab.MMS.MM7Server.OnSubmitRequest*
+  commentId: Overload:Inetlab.MMS.MM7Server.OnSubmitRequest
+  isExternal: false
+  name: OnSubmitRequest
+  nameWithType: MM7Server.OnSubmitRequest
+  fullName: Inetlab.MMS.MM7Server.OnSubmitRequest
+- uid: Inetlab.MMS.MM7.SubmitReqEventArgs
+  commentId: T:Inetlab.MMS.MM7.SubmitReqEventArgs
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: SubmitReqEventArgs
+  nameWithType: SubmitReqEventArgs
+  fullName: Inetlab.MMS.MM7.SubmitReqEventArgs
+- uid: Inetlab.MMS.MM7.AuthenticationEventHandler
+  commentId: T:Inetlab.MMS.MM7.AuthenticationEventHandler
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: AuthenticationEventHandler
+  nameWithType: AuthenticationEventHandler
+  fullName: Inetlab.MMS.MM7.AuthenticationEventHandler
+- uid: Inetlab.MMS.MM7Server.OnAuthentication*
+  commentId: Overload:Inetlab.MMS.MM7Server.OnAuthentication
+  isExternal: false
+  name: OnAuthentication
+  nameWithType: MM7Server.OnAuthentication
+  fullName: Inetlab.MMS.MM7Server.OnAuthentication
+- uid: Inetlab.MMS.MM7.AuthenticationEventArgs
+  commentId: T:Inetlab.MMS.MM7.AuthenticationEventArgs
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: AuthenticationEventArgs
+  nameWithType: AuthenticationEventArgs
+  fullName: Inetlab.MMS.MM7.AuthenticationEventArgs

@@ -1,0 +1,1209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest
+  commentId: T:Inetlab.MMS.MM7.DeliveryReportRequest
+  id: DeliveryReportRequest
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.DeliveryReportRequest.ApplicID
+  - Inetlab.MMS.MM7.DeliveryReportRequest.AuxApplicInfo
+  - Inetlab.MMS.MM7.DeliveryReportRequest.Date
+  - Inetlab.MMS.MM7.DeliveryReportRequest.MessageID
+  - Inetlab.MMS.MM7.DeliveryReportRequest.MMStatus
+  - Inetlab.MMS.MM7.DeliveryReportRequest.MMStatusExtension
+  - Inetlab.MMS.MM7.DeliveryReportRequest.Recipient
+  - Inetlab.MMS.MM7.DeliveryReportRequest.ReplyApplicID
+  - Inetlab.MMS.MM7.DeliveryReportRequest.Response
+  - Inetlab.MMS.MM7.DeliveryReportRequest.Sender
+  - Inetlab.MMS.MM7.DeliveryReportRequest.StatusText
+  - Inetlab.MMS.MM7.DeliveryReportRequest.UACapabilities
+  langs:
+  - csharp
+  - vb
+  name: DeliveryReportRequest
+  nameWithType: DeliveryReportRequest
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest
+  type: Class
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: DeliveryReportRequest
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 12
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nMMS to VASP : Delivery Report from one of the MM recipients\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = false, StripAfterObfuscation = true)]
+
+      public class DeliveryReportRequest : RSGenericRequest
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=False, StripAfterObfuscation:=True)>
+
+      Public Class DeliveryReportRequest
+          Inherits RSGenericRequest
+  inheritance:
+  - System.Object
+  - Inetlab.MMS.MM7.GenericMessage
+  - Inetlab.MMS.MM7.GenericRequest
+  - Inetlab.MMS.MM7.RSGenericRequest
+  inheritedMembers:
+  - Inetlab.MMS.MM7.RSGenericRequest.MMSRelayServerID
+  - Inetlab.MMS.MM7.GenericMessage.TransactionID
+  - Inetlab.MMS.MM7.GenericMessage.MM7Version
+  - Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+  - Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  - Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: false
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.MessageID
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.MessageID
+  id: MessageID
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageID
+  nameWithType: DeliveryReportRequest.MessageID
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.MessageID
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MessageID
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 19
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nThe identification of the original MM.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public string MessageID
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public MessageID As String
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.Recipient
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.Recipient
+  id: Recipient
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Recipient
+  nameWithType: DeliveryReportRequest.Recipient
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.Recipient
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Recipient
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 25
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nThe address of the recipient of the original MM.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public Address Recipient
+    return:
+      type: Inetlab.MMS.MM7.Address
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Recipient As Address
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.Sender
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.Sender
+  id: Sender
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Sender
+  nameWithType: DeliveryReportRequest.Sender
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.Sender
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Sender
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 31
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nThe address of the VAS that submitted the original MM.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public Address Sender
+    return:
+      type: Inetlab.MMS.MM7.Address
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Sender As Address
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.Date
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.Date
+  id: Date
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Date
+  nameWithType: DeliveryReportRequest.Date
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.Date
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Date
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 37
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nDate and time the MM was handled (retrieved, expired, rejected, etc.) \n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public DateTime Date
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Date As Date
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.MMStatus
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.MMStatus
+  id: MMStatus
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: MMStatus
+  nameWithType: DeliveryReportRequest.MMStatus
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.MMStatus
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MMStatus
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 43
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nStatus of the MM, e.g. retrieved, expired, rejected\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public DeliveryStatus MMStatus
+    return:
+      type: Inetlab.MMS.MM7.DeliveryStatus
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public MMStatus As DeliveryStatus
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.MMStatusExtension
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.MMStatusExtension
+  id: MMStatusExtension
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: MMStatusExtension
+  nameWithType: DeliveryReportRequest.MMStatusExtension
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.MMStatusExtension
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MMStatusExtension
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 49
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nExtension of the MM Status, to provide more granularity.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public MMStatusExtensionType MMStatusExtension
+    return:
+      type: Inetlab.MMS.MM7.MMStatusExtensionType
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public MMStatusExtension As MMStatusExtensionType
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.StatusText
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.StatusText
+  id: StatusText
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: StatusText
+  nameWithType: DeliveryReportRequest.StatusText
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.StatusText
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: StatusText
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 55
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nText description of the status for display purposes, should qualify the MM Status\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public string StatusText
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public StatusText As String
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.ApplicID
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.ApplicID
+  id: ApplicID
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: ApplicID
+  nameWithType: DeliveryReportRequest.ApplicID
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.ApplicID
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ApplicID
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 61
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nThe identification of the originating application of the original MM.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public string ApplicID
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public ApplicID As String
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.ReplyApplicID
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.ReplyApplicID
+  id: ReplyApplicID
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: ReplyApplicID
+  nameWithType: DeliveryReportRequest.ReplyApplicID
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.ReplyApplicID
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ReplyApplicID
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 67
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nIdentification of an application to which the originating application of the original MM shall address reply-MMs if any.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public string ReplyApplicID
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public ReplyApplicID As String
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.AuxApplicInfo
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.AuxApplicInfo
+  id: AuxApplicInfo
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: AuxApplicInfo
+  nameWithType: DeliveryReportRequest.AuxApplicInfo
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.AuxApplicInfo
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: AuxApplicInfo
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 73
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nAuxiliary application addressing information.\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public string AuxApplicInfo
+    return:
+      type: System.String
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public AuxApplicInfo As String
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.UACapabilities
+  commentId: F:Inetlab.MMS.MM7.DeliveryReportRequest.UACapabilities
+  id: UACapabilities
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: UACapabilities
+  nameWithType: DeliveryReportRequest.UACapabilities
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.UACapabilities
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: UACapabilities
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 79
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nInformation about the MMS User Agent&apos;s capabilities of the recipient of the original MM.  \n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public CapabilitiesType UACapabilities
+    return:
+      type: Inetlab.MMS.MM7.CapabilitiesType
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public UACapabilities As CapabilitiesType
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.Response
+  commentId: P:Inetlab.MMS.MM7.DeliveryReportRequest.Response
+  id: Response
+  parent: Inetlab.MMS.MM7.DeliveryReportRequest
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: DeliveryReportRequest.Response
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.Response
+  type: Property
+  source:
+    remote:
+      path: Source/CS/MM7/DeliveryReportRequest.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Response
+    path: ../Source/CS/MM7/DeliveryReportRequest.cs
+    startLine: 84
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, StripAfterObfuscation = true)]
+
+      public DeliveryReportResponse Response { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.MMS.MM7.DeliveryReportResponse
+    content.vb: >-
+      <Obfuscation(Exclude:=True, StripAfterObfuscation:=True)>
+
+      Public Property Response As DeliveryReportResponse
+  overload: Inetlab.MMS.MM7.DeliveryReportRequest.Response*
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.MMS.MM7.GenericMessage
+  commentId: T:Inetlab.MMS.MM7.GenericMessage
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: GenericMessage
+  nameWithType: GenericMessage
+  fullName: Inetlab.MMS.MM7.GenericMessage
+- uid: Inetlab.MMS.MM7.GenericRequest
+  commentId: T:Inetlab.MMS.MM7.GenericRequest
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: GenericRequest
+  nameWithType: GenericRequest
+  fullName: Inetlab.MMS.MM7.GenericRequest
+- uid: Inetlab.MMS.MM7.RSGenericRequest
+  commentId: T:Inetlab.MMS.MM7.RSGenericRequest
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: RSGenericRequest
+  nameWithType: RSGenericRequest
+  fullName: Inetlab.MMS.MM7.RSGenericRequest
+- uid: Inetlab.MMS.MM7.RSGenericRequest.MMSRelayServerID
+  commentId: P:Inetlab.MMS.MM7.RSGenericRequest.MMSRelayServerID
+  parent: Inetlab.MMS.MM7.RSGenericRequest
+  isExternal: false
+  name: MMSRelayServerID
+  nameWithType: RSGenericRequest.MMSRelayServerID
+  fullName: Inetlab.MMS.MM7.RSGenericRequest.MMSRelayServerID
+- uid: Inetlab.MMS.MM7.GenericMessage.TransactionID
+  commentId: P:Inetlab.MMS.MM7.GenericMessage.TransactionID
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: false
+  name: TransactionID
+  nameWithType: GenericMessage.TransactionID
+  fullName: Inetlab.MMS.MM7.GenericMessage.TransactionID
+- uid: Inetlab.MMS.MM7.GenericMessage.MM7Version
+  commentId: P:Inetlab.MMS.MM7.GenericMessage.MM7Version
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: false
+  name: MM7Version
+  nameWithType: GenericMessage.MM7Version
+  fullName: Inetlab.MMS.MM7.GenericMessage.MM7Version
+- uid: Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+  commentId: M:Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: true
+  name: AddNamespace(String, String)
+  nameWithType: GenericMessage.AddNamespace(String, String)
+  fullName: Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String, System.String)
+  spec.csharp:
+  - uid: Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+    name: AddNamespace
+    nameWithType: GenericMessage.AddNamespace
+    fullName: Inetlab.MMS.MM7.GenericMessage.AddNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.MMS.MM7.GenericMessage.AddNamespace(System.String,System.String)
+    name: AddNamespace
+    nameWithType: GenericMessage.AddNamespace
+    fullName: Inetlab.MMS.MM7.GenericMessage.AddNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  commentId: M:Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: false
+  name: GetNamespace()
+  nameWithType: GenericMessage.GetNamespace()
+  fullName: Inetlab.MMS.MM7.GenericMessage.GetNamespace()
+  spec.csharp:
+  - uid: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+    name: GetNamespace
+    nameWithType: GenericMessage.GetNamespace
+    fullName: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+    name: GetNamespace
+    nameWithType: GenericMessage.GetNamespace
+    fullName: Inetlab.MMS.MM7.GenericMessage.GetNamespace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+  commentId: M:Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+  parent: Inetlab.MMS.MM7.GenericMessage
+  isExternal: true
+  name: ReadMessage(Stream)
+  nameWithType: GenericMessage.ReadMessage(Stream)
+  fullName: Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+  spec.csharp:
+  - uid: Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+    name: ReadMessage
+    nameWithType: GenericMessage.ReadMessage
+    fullName: Inetlab.MMS.MM7.GenericMessage.ReadMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.MMS.MM7.GenericMessage.ReadMessage(System.IO.Stream)
+    name: ReadMessage
+    nameWithType: GenericMessage.ReadMessage
+    fullName: Inetlab.MMS.MM7.GenericMessage.ReadMessage
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.IO.Stream
+    name: Stream
+    nameWithType: Stream
+    fullName: System.IO.Stream
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.MMS.MM7.Address
+  commentId: T:Inetlab.MMS.MM7.Address
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: Address
+  nameWithType: Address
+  fullName: Inetlab.MMS.MM7.Address
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: Inetlab.MMS.MM7.DeliveryStatus
+  commentId: T:Inetlab.MMS.MM7.DeliveryStatus
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: DeliveryStatus
+  nameWithType: DeliveryStatus
+  fullName: Inetlab.MMS.MM7.DeliveryStatus
+- uid: Inetlab.MMS.MM7.MMStatusExtensionType
+  commentId: T:Inetlab.MMS.MM7.MMStatusExtensionType
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: MMStatusExtensionType
+  nameWithType: MMStatusExtensionType
+  fullName: Inetlab.MMS.MM7.MMStatusExtensionType
+- uid: Inetlab.MMS.MM7.CapabilitiesType
+  commentId: T:Inetlab.MMS.MM7.CapabilitiesType
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: CapabilitiesType
+  nameWithType: CapabilitiesType
+  fullName: Inetlab.MMS.MM7.CapabilitiesType
+- uid: Inetlab.MMS.MM7.DeliveryReportRequest.Response*
+  commentId: Overload:Inetlab.MMS.MM7.DeliveryReportRequest.Response
+  isExternal: false
+  name: Response
+  nameWithType: DeliveryReportRequest.Response
+  fullName: Inetlab.MMS.MM7.DeliveryReportRequest.Response
+- uid: Inetlab.MMS.MM7.DeliveryReportResponse
+  commentId: T:Inetlab.MMS.MM7.DeliveryReportResponse
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: DeliveryReportResponse
+  nameWithType: DeliveryReportResponse
+  fullName: Inetlab.MMS.MM7.DeliveryReportResponse

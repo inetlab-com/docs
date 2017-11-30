@@ -1,0 +1,1847 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.SmppServer
+  commentId: T:Inetlab.SMPP.SmppServer
+  id: SmppServer
+  parent: Inetlab.SMPP
+  children:
+  - Inetlab.SMPP.SmppServer.#ctor
+  - Inetlab.SMPP.SmppServer.ConnectedClients
+  - Inetlab.SMPP.SmppServer.Dispose
+  - Inetlab.SMPP.SmppServer.EnabledSslProtocols
+  - Inetlab.SMPP.SmppServer.evClientBind
+  - Inetlab.SMPP.SmppServer.evClientCancelSm
+  - Inetlab.SMPP.SmppServer.evClientCertificateValidation
+  - Inetlab.SMPP.SmppServer.evClientConnected
+  - Inetlab.SMPP.SmppServer.evClientDataSm
+  - Inetlab.SMPP.SmppServer.evClientDisconnected
+  - Inetlab.SMPP.SmppServer.evClientEnquireLink
+  - Inetlab.SMPP.SmppServer.evClientGenericNack
+  - Inetlab.SMPP.SmppServer.evClientOutBind
+  - Inetlab.SMPP.SmppServer.evClientQuerySm
+  - Inetlab.SMPP.SmppServer.evClientSubmitMulti
+  - Inetlab.SMPP.SmppServer.evClientSubmitSm
+  - Inetlab.SMPP.SmppServer.evClientUnBind
+  - Inetlab.SMPP.SmppServer.evServerStarted
+  - Inetlab.SMPP.SmppServer.Finalize
+  - Inetlab.SMPP.SmppServer.Ip
+  - Inetlab.SMPP.SmppServer.License
+  - Inetlab.SMPP.SmppServer.Logger
+  - Inetlab.SMPP.SmppServer.Name
+  - Inetlab.SMPP.SmppServer.Port
+  - Inetlab.SMPP.SmppServer.ServerCertificate
+  - Inetlab.SMPP.SmppServer.SessionInitiationTimeout
+  - Inetlab.SMPP.SmppServer.Start(System.Int32)
+  - Inetlab.SMPP.SmppServer.Start(System.Net.IPEndPoint)
+  - Inetlab.SMPP.SmppServer.Stop
+  langs:
+  - csharp
+  - vb
+  name: SmppServer
+  nameWithType: SmppServer
+  fullName: Inetlab.SMPP.SmppServer
+  type: Class
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SmppServer
+    path: ../Source/CS/SmppServer.cs
+    startLine: 18
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nSMPP protocol server class provides ability to create SMPP gateway\n"
+  example: []
+  syntax:
+    content: 'public sealed class SmppServer : IDisposable'
+    content.vb: >-
+      Public NotInheritable Class SmppServer
+          Implements IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Inetlab.SMPP.SmppServer.Logger
+  commentId: F:Inetlab.SMPP.SmppServer.Logger
+  id: Logger
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: Logger
+  nameWithType: SmppServer.Logger
+  fullName: Inetlab.SMPP.SmppServer.Logger
+  type: Field
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Logger
+    path: ../Source/CS/SmppServer.cs
+    startLine: 27
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public ILog Logger
+    return:
+      type: Inetlab.SMPP.Logging.ILog
+    content.vb: Public Logger As ILog
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.#ctor
+  commentId: M:Inetlab.SMPP.SmppServer.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: SmppServer()
+  nameWithType: SmppServer.SmppServer()
+  fullName: Inetlab.SMPP.SmppServer.SmppServer()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: .ctor
+    path: ../Source/CS/SmppServer.cs
+    startLine: 33
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public SmppServer()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.SmppServer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.Name
+  commentId: P:Inetlab.SMPP.SmppServer.Name
+  id: Name
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: SmppServer.Name
+  fullName: Inetlab.SMPP.SmppServer.Name
+  type: Property
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Name
+    path: ../Source/CS/SmppServer.cs
+    startLine: 51
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nName of the server. Defines logger name.\n"
+  example: []
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Inetlab.SMPP.SmppServer.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.SessionInitiationTimeout
+  commentId: P:Inetlab.SMPP.SmppServer.SessionInitiationTimeout
+  id: SessionInitiationTimeout
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: SessionInitiationTimeout
+  nameWithType: SmppServer.SessionInitiationTimeout
+  fullName: Inetlab.SMPP.SmppServer.SessionInitiationTimeout
+  type: Property
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SessionInitiationTimeout
+    path: ../Source/CS/SmppServer.cs
+    startLine: 65
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nSpecifies a period of time in which SmppServer will wait for Bind command from SmppClient. Default is 20 seconds.\n"
+  example: []
+  syntax:
+    content: public TimeSpan SessionInitiationTimeout { get; set; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public Property SessionInitiationTimeout As TimeSpan
+  overload: Inetlab.SMPP.SmppServer.SessionInitiationTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.License
+  commentId: P:Inetlab.SMPP.SmppServer.License
+  id: License
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: License
+  nameWithType: SmppServer.License
+  fullName: Inetlab.SMPP.SmppServer.License
+  type: Property
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: License
+    path: ../Source/CS/SmppServer.cs
+    startLine: 69
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  syntax:
+    content: >-
+      [Obsolete("This property will be deleted in next version. Please use static method LicenseInfo.SetLicense")]
+
+      public Stream License { set; }
+    parameters: []
+    return:
+      type: System.IO.Stream
+    content.vb: >-
+      <Obsolete("This property will be deleted in next version. Please use static method LicenseInfo.SetLicense")>
+
+      Public WriteOnly Property License As Stream
+  overload: Inetlab.SMPP.SmppServer.License*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: This property will be deleted in next version. Please use static method LicenseInfo.SetLicense
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+- uid: Inetlab.SMPP.SmppServer.ServerCertificate
+  commentId: P:Inetlab.SMPP.SmppServer.ServerCertificate
+  id: ServerCertificate
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: ServerCertificate
+  nameWithType: SmppServer.ServerCertificate
+  fullName: Inetlab.SMPP.SmppServer.ServerCertificate
+  type: Property
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ServerCertificate
+    path: ../Source/CS/SmppServer.cs
+    startLine: 84
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nGets or sets server certificate for SSL connection\n"
+  example: []
+  syntax:
+    content: public X509Certificate ServerCertificate { get; set; }
+    parameters: []
+    return:
+      type: System.Security.Cryptography.X509Certificates.X509Certificate
+    content.vb: Public Property ServerCertificate As X509Certificate
+  overload: Inetlab.SMPP.SmppServer.ServerCertificate*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.ConnectedClients
+  commentId: P:Inetlab.SMPP.SmppServer.ConnectedClients
+  id: ConnectedClients
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: ConnectedClients
+  nameWithType: SmppServer.ConnectedClients
+  fullName: Inetlab.SMPP.SmppServer.ConnectedClients
+  type: Property
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: ConnectedClients
+    path: ../Source/CS/SmppServer.cs
+    startLine: 93
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nGets a list of connected clients\n"
+  example: []
+  syntax:
+    content: public List<SmppServerClient> ConnectedClients { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{Inetlab.SMPP.Common.SmppServerClient}
+    content.vb: Public ReadOnly Property ConnectedClients As List(Of SmppServerClient)
+  overload: Inetlab.SMPP.SmppServer.ConnectedClients*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.SmppServer.Port
+  commentId: P:Inetlab.SMPP.SmppServer.Port
+  id: Port
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: SmppServer.Port
+  fullName: Inetlab.SMPP.SmppServer.Port
+  type: Property
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Port
+    path: ../Source/CS/SmppServer.cs
+    startLine: 107
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nGets SMPP server port\n"
+  example: []
+  syntax:
+    content: public int Port { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Port As Integer
+  overload: Inetlab.SMPP.SmppServer.Port*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.SmppServer.Ip
+  commentId: P:Inetlab.SMPP.SmppServer.Ip
+  id: Ip
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: Ip
+  nameWithType: SmppServer.Ip
+  fullName: Inetlab.SMPP.SmppServer.Ip
+  type: Property
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Ip
+    path: ../Source/CS/SmppServer.cs
+    startLine: 121
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nGets IP address of SMPP server\n"
+  example: []
+  syntax:
+    content: public IPAddress Ip { get; }
+    parameters: []
+    return:
+      type: System.Net.IPAddress
+    content.vb: Public ReadOnly Property Ip As IPAddress
+  overload: Inetlab.SMPP.SmppServer.Ip*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.SmppServer.EnabledSslProtocols
+  commentId: P:Inetlab.SMPP.SmppServer.EnabledSslProtocols
+  id: EnabledSslProtocols
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: EnabledSslProtocols
+  nameWithType: SmppServer.EnabledSslProtocols
+  fullName: Inetlab.SMPP.SmppServer.EnabledSslProtocols
+  type: Property
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: EnabledSslProtocols
+    path: ../Source/CS/SmppServer.cs
+    startLine: 136
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nDefines enabled versions of SSL Protocols for SMPP client. \n"
+  example: []
+  syntax:
+    content: public SslProtocols EnabledSslProtocols { get; set; }
+    parameters: []
+    return:
+      type: System.Security.Authentication.SslProtocols
+    content.vb: Public Property EnabledSslProtocols As SslProtocols
+  overload: Inetlab.SMPP.SmppServer.EnabledSslProtocols*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.Start(System.Int32)
+  commentId: M:Inetlab.SMPP.SmppServer.Start(System.Int32)
+  id: Start(System.Int32)
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: Start(Int32)
+  nameWithType: SmppServer.Start(Int32)
+  fullName: Inetlab.SMPP.SmppServer.Start(System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Start
+    path: ../Source/CS/SmppServer.cs
+    startLine: 142
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nStart server on specified port\n"
+  example: []
+  syntax:
+    content: public void Start(int port)
+    parameters:
+    - id: port
+      type: System.Int32
+    content.vb: Public Sub Start(port As Integer)
+  overload: Inetlab.SMPP.SmppServer.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.Stop
+  commentId: M:Inetlab.SMPP.SmppServer.Stop
+  id: Stop
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: Stop()
+  nameWithType: SmppServer.Stop()
+  fullName: Inetlab.SMPP.SmppServer.Stop()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Stop
+    path: ../Source/CS/SmppServer.cs
+    startLine: 151
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nStop server\n"
+  example: []
+  syntax:
+    content: public void Stop()
+    content.vb: Public Sub Stop
+  overload: Inetlab.SMPP.SmppServer.Stop*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.Start(System.Net.IPEndPoint)
+  commentId: M:Inetlab.SMPP.SmppServer.Start(System.Net.IPEndPoint)
+  id: Start(System.Net.IPEndPoint)
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: Start(IPEndPoint)
+  nameWithType: SmppServer.Start(IPEndPoint)
+  fullName: Inetlab.SMPP.SmppServer.Start(System.Net.IPEndPoint)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Start
+    path: ../Source/CS/SmppServer.cs
+    startLine: 191
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nStart the SMPP server on the specified endpoint.\n"
+  example: []
+  syntax:
+    content: public void Start(IPEndPoint endPoint)
+    parameters:
+    - id: endPoint
+      type: System.Net.IPEndPoint
+    content.vb: Public Sub Start(endPoint As IPEndPoint)
+  overload: Inetlab.SMPP.SmppServer.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evServerStarted
+  commentId: E:Inetlab.SMPP.SmppServer.evServerStarted
+  id: evServerStarted
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evServerStarted
+  nameWithType: SmppServer.evServerStarted
+  fullName: Inetlab.SMPP.SmppServer.evServerStarted
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evServerStarted
+    path: ../Source/CS/SmppServer.cs
+    startLine: 458
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when server is started\n"
+  example: []
+  syntax:
+    content: public event EventHandler evServerStarted
+    return:
+      type: System.EventHandler
+    content.vb: Public Event evServerStarted As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientConnected
+  commentId: E:Inetlab.SMPP.SmppServer.evClientConnected
+  id: evClientConnected
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientConnected
+  nameWithType: SmppServer.evClientConnected
+  fullName: Inetlab.SMPP.SmppServer.evClientConnected
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientConnected
+    path: ../Source/CS/SmppServer.cs
+    startLine: 463
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient is connected\n"
+  example: []
+  syntax:
+    content: public event ClientConnectedEventHandler evClientConnected
+    return:
+      type: Inetlab.SMPP.Common.ClientConnectedEventHandler
+    content.vb: Public Event evClientConnected As ClientConnectedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientDisconnected
+  commentId: E:Inetlab.SMPP.SmppServer.evClientDisconnected
+  id: evClientDisconnected
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientDisconnected
+  nameWithType: SmppServer.evClientDisconnected
+  fullName: Inetlab.SMPP.SmppServer.evClientDisconnected
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientDisconnected
+    path: ../Source/CS/SmppServer.cs
+    startLine: 467
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient is disconnected\n"
+  example: []
+  syntax:
+    content: public event ClientDisconnectedEventHandler evClientDisconnected
+    return:
+      type: Inetlab.SMPP.Common.ClientDisconnectedEventHandler
+    content.vb: Public Event evClientDisconnected As ClientDisconnectedEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientBind
+  commentId: E:Inetlab.SMPP.SmppServer.evClientBind
+  id: evClientBind
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientBind
+  nameWithType: SmppServer.evClientBind
+  fullName: Inetlab.SMPP.SmppServer.evClientBind
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientBind
+    path: ../Source/CS/SmppServer.cs
+    startLine: 471
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient bind with server\n"
+  example: []
+  syntax:
+    content: public event ClientBindEventHandler evClientBind
+    return:
+      type: Inetlab.SMPP.Common.ClientBindEventHandler
+    content.vb: Public Event evClientBind As ClientBindEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientOutBind
+  commentId: E:Inetlab.SMPP.SmppServer.evClientOutBind
+  id: evClientOutBind
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientOutBind
+  nameWithType: SmppServer.evClientOutBind
+  fullName: Inetlab.SMPP.SmppServer.evClientOutBind
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientOutBind
+    path: ../Source/CS/SmppServer.cs
+    startLine: 475
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when MC initiate a SMPP session\n"
+  example: []
+  syntax:
+    content: public event ClientOutBindEventHandler evClientOutBind
+    return:
+      type: Inetlab.SMPP.Common.ClientOutBindEventHandler
+    content.vb: Public Event evClientOutBind As ClientOutBindEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientUnBind
+  commentId: E:Inetlab.SMPP.SmppServer.evClientUnBind
+  id: evClientUnBind
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientUnBind
+  nameWithType: SmppServer.evClientUnBind
+  fullName: Inetlab.SMPP.SmppServer.evClientUnBind
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientUnBind
+    path: ../Source/CS/SmppServer.cs
+    startLine: 479
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient unbind from server\n"
+  example: []
+  syntax:
+    content: public event ClientUnBindEventHandler evClientUnBind
+    return:
+      type: Inetlab.SMPP.Common.ClientUnBindEventHandler
+    content.vb: Public Event evClientUnBind As ClientUnBindEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientSubmitSm
+  commentId: E:Inetlab.SMPP.SmppServer.evClientSubmitSm
+  id: evClientSubmitSm
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientSubmitSm
+  nameWithType: SmppServer.evClientSubmitSm
+  fullName: Inetlab.SMPP.SmppServer.evClientSubmitSm
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientSubmitSm
+    path: ../Source/CS/SmppServer.cs
+    startLine: 483
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient sent SUBMIT_SM PDU\n"
+  example: []
+  syntax:
+    content: public event ClientSubmitSmEventHandler evClientSubmitSm
+    return:
+      type: Inetlab.SMPP.Common.ClientSubmitSmEventHandler
+    content.vb: Public Event evClientSubmitSm As ClientSubmitSmEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientSubmitMulti
+  commentId: E:Inetlab.SMPP.SmppServer.evClientSubmitMulti
+  id: evClientSubmitMulti
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientSubmitMulti
+  nameWithType: SmppServer.evClientSubmitMulti
+  fullName: Inetlab.SMPP.SmppServer.evClientSubmitMulti
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientSubmitMulti
+    path: ../Source/CS/SmppServer.cs
+    startLine: 487
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient sent SUBMIT_MULTI PDU\n"
+  example: []
+  syntax:
+    content: public event ClientSubmitMultiEventHandler evClientSubmitMulti
+    return:
+      type: Inetlab.SMPP.Common.ClientSubmitMultiEventHandler
+    content.vb: Public Event evClientSubmitMulti As ClientSubmitMultiEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientDataSm
+  commentId: E:Inetlab.SMPP.SmppServer.evClientDataSm
+  id: evClientDataSm
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientDataSm
+  nameWithType: SmppServer.evClientDataSm
+  fullName: Inetlab.SMPP.SmppServer.evClientDataSm
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientDataSm
+    path: ../Source/CS/SmppServer.cs
+    startLine: 491
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient sent DATA_SM PDU\n"
+  example: []
+  syntax:
+    content: public event ClientDataSmEventHandler evClientDataSm
+    return:
+      type: Inetlab.SMPP.Common.ClientDataSmEventHandler
+    content.vb: Public Event evClientDataSm As ClientDataSmEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientQuerySm
+  commentId: E:Inetlab.SMPP.SmppServer.evClientQuerySm
+  id: evClientQuerySm
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientQuerySm
+  nameWithType: SmppServer.evClientQuerySm
+  fullName: Inetlab.SMPP.SmppServer.evClientQuerySm
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientQuerySm
+    path: ../Source/CS/SmppServer.cs
+    startLine: 495
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient sent QUERY_SM PDU\n"
+  example: []
+  syntax:
+    content: public event ClientQuerySmEventHandler evClientQuerySm
+    return:
+      type: Inetlab.SMPP.Common.ClientQuerySmEventHandler
+    content.vb: Public Event evClientQuerySm As ClientQuerySmEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientCancelSm
+  commentId: E:Inetlab.SMPP.SmppServer.evClientCancelSm
+  id: evClientCancelSm
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientCancelSm
+  nameWithType: SmppServer.evClientCancelSm
+  fullName: Inetlab.SMPP.SmppServer.evClientCancelSm
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientCancelSm
+    path: ../Source/CS/SmppServer.cs
+    startLine: 499
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient sent CANCEL_SM PDU\n"
+  example: []
+  syntax:
+    content: public event ClientCancelSmEventHandler evClientCancelSm
+    return:
+      type: Inetlab.SMPP.Common.ClientCancelSmEventHandler
+    content.vb: Public Event evClientCancelSm As ClientCancelSmEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientEnquireLink
+  commentId: E:Inetlab.SMPP.SmppServer.evClientEnquireLink
+  id: evClientEnquireLink
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientEnquireLink
+  nameWithType: SmppServer.evClientEnquireLink
+  fullName: Inetlab.SMPP.SmppServer.evClientEnquireLink
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientEnquireLink
+    path: ../Source/CS/SmppServer.cs
+    startLine: 503
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient sent ENQUIRE_LINK PDU\n"
+  example: []
+  syntax:
+    content: public event ClientEnquireLinkEventHandler evClientEnquireLink
+    return:
+      type: Inetlab.SMPP.Common.ClientEnquireLinkEventHandler
+    content.vb: Public Event evClientEnquireLink As ClientEnquireLinkEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientGenericNack
+  commentId: E:Inetlab.SMPP.SmppServer.evClientGenericNack
+  id: evClientGenericNack
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientGenericNack
+  nameWithType: SmppServer.evClientGenericNack
+  fullName: Inetlab.SMPP.SmppServer.evClientGenericNack
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientGenericNack
+    path: ../Source/CS/SmppServer.cs
+    startLine: 507
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when SmppClient sent GENERIC_NACK PDU\n"
+  example: []
+  syntax:
+    content: public event ClientGenericNackEventHandler evClientGenericNack
+    return:
+      type: Inetlab.SMPP.Common.ClientGenericNackEventHandler
+    content.vb: Public Event evClientGenericNack As ClientGenericNackEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.evClientCertificateValidation
+  commentId: E:Inetlab.SMPP.SmppServer.evClientCertificateValidation
+  id: evClientCertificateValidation
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: evClientCertificateValidation
+  nameWithType: SmppServer.evClientCertificateValidation
+  fullName: Inetlab.SMPP.SmppServer.evClientCertificateValidation
+  type: Event
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: evClientCertificateValidation
+    path: ../Source/CS/SmppServer.cs
+    startLine: 514
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  summary: "\nValidating client certificate.\n"
+  example: []
+  syntax:
+    content: public event EventHandler<CertificateValidationEventArgs> evClientCertificateValidation
+    return:
+      type: System.EventHandler{Inetlab.SMPP.Common.CertificateValidationEventArgs}
+    content.vb: Public Event evClientCertificateValidation As EventHandler(Of CertificateValidationEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.Dispose
+  commentId: M:Inetlab.SMPP.SmppServer.Dispose
+  id: Dispose
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SmppServer.Dispose()
+  fullName: Inetlab.SMPP.SmppServer.Dispose()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Dispose
+    path: ../Source/CS/SmppServer.cs
+    startLine: 677
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Inetlab.SMPP.SmppServer.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppServer.Finalize
+  commentId: M:Inetlab.SMPP.SmppServer.Finalize
+  id: Finalize
+  parent: Inetlab.SMPP.SmppServer
+  langs:
+  - csharp
+  - vb
+  name: Finalize()
+  nameWithType: SmppServer.Finalize()
+  fullName: Inetlab.SMPP.SmppServer.Finalize()
+  type: Method
+  source:
+    remote:
+      path: Source/CS/SmppServer.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: Finalize
+    path: ../Source/CS/SmppServer.cs
+    startLine: 683
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP
+  syntax:
+    content: protected void Finalize()
+    content.vb: Protected Sub Finalize
+  overload: Inetlab.SMPP.SmppServer.Finalize*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  isExternal: false
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Logging.ILog
+  commentId: T:Inetlab.SMPP.Logging.ILog
+  parent: Inetlab.SMPP.Logging
+  isExternal: false
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.SMPP.Logging.ILog
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  isExternal: false
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging
+- uid: Inetlab.SMPP.SmppServer.#ctor*
+  commentId: Overload:Inetlab.SMPP.SmppServer.#ctor
+  isExternal: false
+  name: SmppServer
+  nameWithType: SmppServer.SmppServer
+  fullName: Inetlab.SMPP.SmppServer.SmppServer
+- uid: Inetlab.SMPP.SmppServer.Name*
+  commentId: Overload:Inetlab.SMPP.SmppServer.Name
+  isExternal: false
+  name: Name
+  nameWithType: SmppServer.Name
+  fullName: Inetlab.SMPP.SmppServer.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.SmppServer.SessionInitiationTimeout*
+  commentId: Overload:Inetlab.SMPP.SmppServer.SessionInitiationTimeout
+  isExternal: false
+  name: SessionInitiationTimeout
+  nameWithType: SmppServer.SessionInitiationTimeout
+  fullName: Inetlab.SMPP.SmppServer.SessionInitiationTimeout
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Inetlab.SMPP.SmppServer.License*
+  commentId: Overload:Inetlab.SMPP.SmppServer.License
+  isExternal: false
+  name: License
+  nameWithType: SmppServer.License
+  fullName: Inetlab.SMPP.SmppServer.License
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: false
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+- uid: Inetlab.SMPP.SmppServer.ServerCertificate*
+  commentId: Overload:Inetlab.SMPP.SmppServer.ServerCertificate
+  isExternal: false
+  name: ServerCertificate
+  nameWithType: SmppServer.ServerCertificate
+  fullName: Inetlab.SMPP.SmppServer.ServerCertificate
+- uid: System.Security.Cryptography.X509Certificates.X509Certificate
+  commentId: T:System.Security.Cryptography.X509Certificates.X509Certificate
+  parent: System.Security.Cryptography.X509Certificates
+  isExternal: true
+  name: X509Certificate
+  nameWithType: X509Certificate
+  fullName: System.Security.Cryptography.X509Certificates.X509Certificate
+- uid: System.Security.Cryptography.X509Certificates
+  commentId: N:System.Security.Cryptography.X509Certificates
+  isExternal: false
+  name: System.Security.Cryptography.X509Certificates
+  nameWithType: System.Security.Cryptography.X509Certificates
+  fullName: System.Security.Cryptography.X509Certificates
+- uid: Inetlab.SMPP.SmppServer.ConnectedClients*
+  commentId: Overload:Inetlab.SMPP.SmppServer.ConnectedClients
+  isExternal: false
+  name: ConnectedClients
+  nameWithType: SmppServer.ConnectedClients
+  fullName: Inetlab.SMPP.SmppServer.ConnectedClients
+- uid: System.Collections.Generic.List{Inetlab.SMPP.Common.SmppServerClient}
+  commentId: T:System.Collections.Generic.List{Inetlab.SMPP.Common.SmppServerClient}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<SmppServerClient>
+  nameWithType: List<SmppServerClient>
+  fullName: System.Collections.Generic.List<Inetlab.SMPP.Common.SmppServerClient>
+  nameWithType.vb: List(Of SmppServerClient)
+  fullName.vb: System.Collections.Generic.List(Of Inetlab.SMPP.Common.SmppServerClient)
+  name.vb: List(Of SmppServerClient)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.Common.SmppServerClient
+    name: SmppServerClient
+    nameWithType: SmppServerClient
+    fullName: Inetlab.SMPP.Common.SmppServerClient
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.Common.SmppServerClient
+    name: SmppServerClient
+    nameWithType: SmppServerClient
+    fullName: Inetlab.SMPP.Common.SmppServerClient
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: false
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+- uid: Inetlab.SMPP.SmppServer.Port*
+  commentId: Overload:Inetlab.SMPP.SmppServer.Port
+  isExternal: false
+  name: Port
+  nameWithType: SmppServer.Port
+  fullName: Inetlab.SMPP.SmppServer.Port
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.SmppServer.Ip*
+  commentId: Overload:Inetlab.SMPP.SmppServer.Ip
+  isExternal: false
+  name: Ip
+  nameWithType: SmppServer.Ip
+  fullName: Inetlab.SMPP.SmppServer.Ip
+- uid: System.Net.IPAddress
+  commentId: T:System.Net.IPAddress
+  parent: System.Net
+  isExternal: true
+  name: IPAddress
+  nameWithType: IPAddress
+  fullName: System.Net.IPAddress
+- uid: System.Net
+  commentId: N:System.Net
+  isExternal: false
+  name: System.Net
+  nameWithType: System.Net
+  fullName: System.Net
+- uid: Inetlab.SMPP.SmppServer.EnabledSslProtocols*
+  commentId: Overload:Inetlab.SMPP.SmppServer.EnabledSslProtocols
+  isExternal: false
+  name: EnabledSslProtocols
+  nameWithType: SmppServer.EnabledSslProtocols
+  fullName: Inetlab.SMPP.SmppServer.EnabledSslProtocols
+- uid: System.Security.Authentication.SslProtocols
+  commentId: T:System.Security.Authentication.SslProtocols
+  parent: System.Security.Authentication
+  isExternal: true
+  name: SslProtocols
+  nameWithType: SslProtocols
+  fullName: System.Security.Authentication.SslProtocols
+- uid: System.Security.Authentication
+  commentId: N:System.Security.Authentication
+  isExternal: false
+  name: System.Security.Authentication
+  nameWithType: System.Security.Authentication
+  fullName: System.Security.Authentication
+- uid: Inetlab.SMPP.SmppServer.Start*
+  commentId: Overload:Inetlab.SMPP.SmppServer.Start
+  isExternal: false
+  name: Start
+  nameWithType: SmppServer.Start
+  fullName: Inetlab.SMPP.SmppServer.Start
+- uid: Inetlab.SMPP.SmppServer.Stop*
+  commentId: Overload:Inetlab.SMPP.SmppServer.Stop
+  isExternal: false
+  name: Stop
+  nameWithType: SmppServer.Stop
+  fullName: Inetlab.SMPP.SmppServer.Stop
+- uid: System.Net.IPEndPoint
+  commentId: T:System.Net.IPEndPoint
+  parent: System.Net
+  isExternal: true
+  name: IPEndPoint
+  nameWithType: IPEndPoint
+  fullName: System.Net.IPEndPoint
+- uid: System.EventHandler
+  commentId: T:System.EventHandler
+  parent: System
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
+- uid: Inetlab.SMPP.Common.ClientConnectedEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientConnectedEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientConnectedEventHandler
+  nameWithType: ClientConnectedEventHandler
+  fullName: Inetlab.SMPP.Common.ClientConnectedEventHandler
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.ClientDisconnectedEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientDisconnectedEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientDisconnectedEventHandler
+  nameWithType: ClientDisconnectedEventHandler
+  fullName: Inetlab.SMPP.Common.ClientDisconnectedEventHandler
+- uid: Inetlab.SMPP.Common.ClientBindEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientBindEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientBindEventHandler
+  nameWithType: ClientBindEventHandler
+  fullName: Inetlab.SMPP.Common.ClientBindEventHandler
+- uid: Inetlab.SMPP.Common.ClientOutBindEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientOutBindEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientOutBindEventHandler
+  nameWithType: ClientOutBindEventHandler
+  fullName: Inetlab.SMPP.Common.ClientOutBindEventHandler
+- uid: Inetlab.SMPP.Common.ClientUnBindEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientUnBindEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientUnBindEventHandler
+  nameWithType: ClientUnBindEventHandler
+  fullName: Inetlab.SMPP.Common.ClientUnBindEventHandler
+- uid: Inetlab.SMPP.Common.ClientSubmitSmEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientSubmitSmEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientSubmitSmEventHandler
+  nameWithType: ClientSubmitSmEventHandler
+  fullName: Inetlab.SMPP.Common.ClientSubmitSmEventHandler
+- uid: Inetlab.SMPP.Common.ClientSubmitMultiEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientSubmitMultiEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientSubmitMultiEventHandler
+  nameWithType: ClientSubmitMultiEventHandler
+  fullName: Inetlab.SMPP.Common.ClientSubmitMultiEventHandler
+- uid: Inetlab.SMPP.Common.ClientDataSmEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientDataSmEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientDataSmEventHandler
+  nameWithType: ClientDataSmEventHandler
+  fullName: Inetlab.SMPP.Common.ClientDataSmEventHandler
+- uid: Inetlab.SMPP.Common.ClientQuerySmEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientQuerySmEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientQuerySmEventHandler
+  nameWithType: ClientQuerySmEventHandler
+  fullName: Inetlab.SMPP.Common.ClientQuerySmEventHandler
+- uid: Inetlab.SMPP.Common.ClientCancelSmEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientCancelSmEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientCancelSmEventHandler
+  nameWithType: ClientCancelSmEventHandler
+  fullName: Inetlab.SMPP.Common.ClientCancelSmEventHandler
+- uid: Inetlab.SMPP.Common.ClientEnquireLinkEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientEnquireLinkEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientEnquireLinkEventHandler
+  nameWithType: ClientEnquireLinkEventHandler
+  fullName: Inetlab.SMPP.Common.ClientEnquireLinkEventHandler
+- uid: Inetlab.SMPP.Common.ClientGenericNackEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientGenericNackEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ClientGenericNackEventHandler
+  nameWithType: ClientGenericNackEventHandler
+  fullName: Inetlab.SMPP.Common.ClientGenericNackEventHandler
+- uid: System.EventHandler{Inetlab.SMPP.Common.CertificateValidationEventArgs}
+  commentId: T:System.EventHandler{Inetlab.SMPP.Common.CertificateValidationEventArgs}
+  parent: System
+  definition: System.EventHandler`1
+  name: EventHandler<CertificateValidationEventArgs>
+  nameWithType: EventHandler<CertificateValidationEventArgs>
+  fullName: System.EventHandler<Inetlab.SMPP.Common.CertificateValidationEventArgs>
+  nameWithType.vb: EventHandler(Of CertificateValidationEventArgs)
+  fullName.vb: System.EventHandler(Of Inetlab.SMPP.Common.CertificateValidationEventArgs)
+  name.vb: EventHandler(Of CertificateValidationEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.Common.CertificateValidationEventArgs
+    name: CertificateValidationEventArgs
+    nameWithType: CertificateValidationEventArgs
+    fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.Common.CertificateValidationEventArgs
+    name: CertificateValidationEventArgs
+    nameWithType: CertificateValidationEventArgs
+    fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.EventHandler`1
+  commentId: T:System.EventHandler`1
+  isExternal: true
+  name: EventHandler<TEventArgs>
+  nameWithType: EventHandler<TEventArgs>
+  fullName: System.EventHandler<TEventArgs>
+  nameWithType.vb: EventHandler(Of TEventArgs)
+  fullName.vb: System.EventHandler(Of TEventArgs)
+  name.vb: EventHandler(Of TEventArgs)
+  spec.csharp:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: System.EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TEventArgs
+    nameWithType: TEventArgs
+    fullName: TEventArgs
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppServer.Dispose*
+  commentId: Overload:Inetlab.SMPP.SmppServer.Dispose
+  isExternal: false
+  name: Dispose
+  nameWithType: SmppServer.Dispose
+  fullName: Inetlab.SMPP.SmppServer.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppServer.Finalize*
+  commentId: Overload:Inetlab.SMPP.SmppServer.Finalize
+  isExternal: false
+  name: Finalize
+  nameWithType: SmppServer.Finalize
+  fullName: Inetlab.SMPP.SmppServer.Finalize

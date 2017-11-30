@@ -1,0 +1,72 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SubmitSmRespEventHandler
+  commentId: T:Inetlab.SMPP.Common.SubmitSmRespEventHandler
+  id: SubmitSmRespEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SubmitSmRespEventHandler
+  nameWithType: SubmitSmRespEventHandler
+  fullName: Inetlab.SMPP.Common.SubmitSmRespEventHandler
+  type: Delegate
+  source:
+    remote:
+      path: Source/CS/Common/Delegates.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
+    id: SubmitSmRespEventHandler
+    path: ../Source/CS/Common/Delegates.cs
+    startLine: 43
+  assemblies:
+  - Inetlab.SMPP
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void SubmitSmRespEventHandler(object sender, SubmitSmResp data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: Inetlab.SMPP.PDU.SubmitSmResp
+    content.vb: Public Delegate Sub SubmitSmRespEventHandler(sender As Object, data As SubmitSmResp)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SubmitSmResp
+  commentId: T:Inetlab.SMPP.PDU.SubmitSmResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SubmitSmResp
+  nameWithType: SubmitSmResp
+  fullName: Inetlab.SMPP.PDU.SubmitSmResp
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU

@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MM7.AddressTypes
+  commentId: T:Inetlab.MMS.MM7.AddressTypes
+  id: AddressTypes
+  parent: Inetlab.MMS.MM7
+  children:
+  - Inetlab.MMS.MM7.AddressTypes.Number
+  - Inetlab.MMS.MM7.AddressTypes.RFC2822Address
+  - Inetlab.MMS.MM7.AddressTypes.ShortCode
+  langs:
+  - csharp
+  - vb
+  name: AddressTypes
+  nameWithType: AddressTypes
+  fullName: Inetlab.MMS.MM7.AddressTypes
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MM7/AddressTypes.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: AddressTypes
+    path: ../Source/CS/MM7/AddressTypes.cs
+    startLine: 8
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\nSpecifies an Address type\n"
+  example: []
+  syntax:
+    content: >-
+      [Obfuscation(Exclude = true, ApplyToMembers = true, StripAfterObfuscation = true)]
+
+      public enum AddressTypes
+    content.vb: >-
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True, StripAfterObfuscation:=True)>
+
+      Public Enum AddressTypes
+  attributes:
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+    - name: StripAfterObfuscation
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.MM7.AddressTypes.Number
+  commentId: F:Inetlab.MMS.MM7.AddressTypes.Number
+  id: Number
+  parent: Inetlab.MMS.MM7.AddressTypes
+  langs:
+  - csharp
+  - vb
+  name: Number
+  nameWithType: AddressTypes.Number
+  fullName: Inetlab.MMS.MM7.AddressTypes.Number
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/AddressTypes.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Number
+    path: ../Source/CS/MM7/AddressTypes.cs
+    startLine: 14
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: Number = 0
+    return:
+      type: Inetlab.MMS.MM7.AddressTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.AddressTypes.RFC2822Address
+  commentId: F:Inetlab.MMS.MM7.AddressTypes.RFC2822Address
+  id: RFC2822Address
+  parent: Inetlab.MMS.MM7.AddressTypes
+  langs:
+  - csharp
+  - vb
+  name: RFC2822Address
+  nameWithType: AddressTypes.RFC2822Address
+  fullName: Inetlab.MMS.MM7.AddressTypes.RFC2822Address
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/AddressTypes.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: RFC2822Address
+    path: ../Source/CS/MM7/AddressTypes.cs
+    startLine: 15
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: RFC2822Address = 1
+    return:
+      type: Inetlab.MMS.MM7.AddressTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MM7.AddressTypes.ShortCode
+  commentId: F:Inetlab.MMS.MM7.AddressTypes.ShortCode
+  id: ShortCode
+  parent: Inetlab.MMS.MM7.AddressTypes
+  langs:
+  - csharp
+  - vb
+  name: ShortCode
+  nameWithType: AddressTypes.ShortCode
+  fullName: Inetlab.MMS.MM7.AddressTypes.ShortCode
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MM7/AddressTypes.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: ShortCode
+    path: ../Source/CS/MM7/AddressTypes.cs
+    startLine: 16
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS.MM7
+  syntax:
+    content: ShortCode = 2
+    return:
+      type: Inetlab.MMS.MM7.AddressTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS.MM7
+  commentId: N:Inetlab.MMS.MM7
+  isExternal: false
+  name: Inetlab.MMS.MM7
+  nameWithType: Inetlab.MMS.MM7
+  fullName: Inetlab.MMS.MM7
+- uid: Inetlab.MMS.MM7.AddressTypes
+  commentId: T:Inetlab.MMS.MM7.AddressTypes
+  parent: Inetlab.MMS.MM7
+  isExternal: false
+  name: AddressTypes
+  nameWithType: AddressTypes
+  fullName: Inetlab.MMS.MM7.AddressTypes

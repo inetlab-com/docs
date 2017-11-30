@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.Priorities
+  commentId: T:Inetlab.MMS.Priorities
+  id: Priorities
+  parent: Inetlab.MMS
+  children:
+  - Inetlab.MMS.Priorities.High
+  - Inetlab.MMS.Priorities.Low
+  - Inetlab.MMS.Priorities.None
+  - Inetlab.MMS.Priorities.Normal
+  langs:
+  - csharp
+  - vb
+  name: Priorities
+  nameWithType: Priorities
+  fullName: Inetlab.MMS.Priorities
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Priorities
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 346
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: >-
+      [Serializable]
+
+      [Obfuscation(Exclude = true, ApplyToMembers = true)]
+
+      public enum Priorities
+    content.vb: >-
+      <Serializable>
+
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True)>
+
+      Public Enum Priorities
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.Priorities.None
+  commentId: F:Inetlab.MMS.Priorities.None
+  id: None
+  parent: Inetlab.MMS.Priorities
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Priorities.None
+  fullName: Inetlab.MMS.Priorities.None
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: None
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 350
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: None = 0
+    return:
+      type: Inetlab.MMS.Priorities
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.Priorities.Low
+  commentId: F:Inetlab.MMS.Priorities.Low
+  id: Low
+  parent: Inetlab.MMS.Priorities
+  langs:
+  - csharp
+  - vb
+  name: Low
+  nameWithType: Priorities.Low
+  fullName: Inetlab.MMS.Priorities.Low
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Low
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 351
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: Low = 128
+    return:
+      type: Inetlab.MMS.Priorities
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.Priorities.Normal
+  commentId: F:Inetlab.MMS.Priorities.Normal
+  id: Normal
+  parent: Inetlab.MMS.Priorities
+  langs:
+  - csharp
+  - vb
+  name: Normal
+  nameWithType: Priorities.Normal
+  fullName: Inetlab.MMS.Priorities.Normal
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: Normal
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 352
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: Normal = 129
+    return:
+      type: Inetlab.MMS.Priorities
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.Priorities.High
+  commentId: F:Inetlab.MMS.Priorities.High
+  id: High
+  parent: Inetlab.MMS.Priorities
+  langs:
+  - csharp
+  - vb
+  name: High
+  nameWithType: Priorities.High
+  fullName: Inetlab.MMS.Priorities.High
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: High
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 353
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: High = 130
+    return:
+      type: Inetlab.MMS.Priorities
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: Inetlab.MMS.Priorities
+  commentId: T:Inetlab.MMS.Priorities
+  parent: Inetlab.MMS
+  isExternal: false
+  name: Priorities
+  nameWithType: Priorities
+  fullName: Inetlab.MMS.Priorities

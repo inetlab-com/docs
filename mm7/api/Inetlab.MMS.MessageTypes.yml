@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.MMS.MessageTypes
+  commentId: T:Inetlab.MMS.MessageTypes
+  id: MessageTypes
+  parent: Inetlab.MMS
+  children:
+  - Inetlab.MMS.MessageTypes.AcknowledgeInd
+  - Inetlab.MMS.MessageTypes.DeliveryInd
+  - Inetlab.MMS.MessageTypes.NotificationInd
+  - Inetlab.MMS.MessageTypes.NotifyrespInd
+  - Inetlab.MMS.MessageTypes.RetrieveConf
+  - Inetlab.MMS.MessageTypes.SendConf
+  - Inetlab.MMS.MessageTypes.SendRequest
+  langs:
+  - csharp
+  - vb
+  name: MessageTypes
+  nameWithType: MessageTypes
+  fullName: Inetlab.MMS.MessageTypes
+  type: Enum
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: MessageTypes
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 360
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: "\nSpecifies MMS message type\n"
+  example: []
+  syntax:
+    content: >-
+      [Serializable]
+
+      [Obfuscation(Exclude = true, ApplyToMembers = true)]
+
+      public enum MessageTypes
+    content.vb: >-
+      <Serializable>
+
+      <Obfuscation(Exclude:=True, ApplyToMembers:=True)>
+
+      Public Enum MessageTypes
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  - type: System.Reflection.ObfuscationAttribute
+    ctor: System.Reflection.ObfuscationAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Exclude
+      type: System.Boolean
+      value: true
+    - name: ApplyToMembers
+      type: System.Boolean
+      value: true
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.MMS.MessageTypes.SendRequest
+  commentId: F:Inetlab.MMS.MessageTypes.SendRequest
+  id: SendRequest
+  parent: Inetlab.MMS.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: SendRequest
+  nameWithType: MessageTypes.SendRequest
+  fullName: Inetlab.MMS.MessageTypes.SendRequest
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: SendRequest
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 364
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: SendRequest = 128
+    return:
+      type: Inetlab.MMS.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MessageTypes.SendConf
+  commentId: F:Inetlab.MMS.MessageTypes.SendConf
+  id: SendConf
+  parent: Inetlab.MMS.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: SendConf
+  nameWithType: MessageTypes.SendConf
+  fullName: Inetlab.MMS.MessageTypes.SendConf
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: SendConf
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 365
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: SendConf = 129
+    return:
+      type: Inetlab.MMS.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MessageTypes.NotificationInd
+  commentId: F:Inetlab.MMS.MessageTypes.NotificationInd
+  id: NotificationInd
+  parent: Inetlab.MMS.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: NotificationInd
+  nameWithType: MessageTypes.NotificationInd
+  fullName: Inetlab.MMS.MessageTypes.NotificationInd
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: NotificationInd
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 366
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: NotificationInd = 130
+    return:
+      type: Inetlab.MMS.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MessageTypes.NotifyrespInd
+  commentId: F:Inetlab.MMS.MessageTypes.NotifyrespInd
+  id: NotifyrespInd
+  parent: Inetlab.MMS.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: NotifyrespInd
+  nameWithType: MessageTypes.NotifyrespInd
+  fullName: Inetlab.MMS.MessageTypes.NotifyrespInd
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: NotifyrespInd
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 367
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: NotifyrespInd = 131
+    return:
+      type: Inetlab.MMS.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MessageTypes.RetrieveConf
+  commentId: F:Inetlab.MMS.MessageTypes.RetrieveConf
+  id: RetrieveConf
+  parent: Inetlab.MMS.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: RetrieveConf
+  nameWithType: MessageTypes.RetrieveConf
+  fullName: Inetlab.MMS.MessageTypes.RetrieveConf
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: RetrieveConf
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 368
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: RetrieveConf = 132
+    return:
+      type: Inetlab.MMS.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MessageTypes.AcknowledgeInd
+  commentId: F:Inetlab.MMS.MessageTypes.AcknowledgeInd
+  id: AcknowledgeInd
+  parent: Inetlab.MMS.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: AcknowledgeInd
+  nameWithType: MessageTypes.AcknowledgeInd
+  fullName: Inetlab.MMS.MessageTypes.AcknowledgeInd
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: AcknowledgeInd
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 369
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: AcknowledgeInd = 133
+    return:
+      type: Inetlab.MMS.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.MMS.MessageTypes.DeliveryInd
+  commentId: F:Inetlab.MMS.MessageTypes.DeliveryInd
+  id: DeliveryInd
+  parent: Inetlab.MMS.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: DeliveryInd
+  nameWithType: MessageTypes.DeliveryInd
+  fullName: Inetlab.MMS.MessageTypes.DeliveryInd
+  type: Field
+  source:
+    remote:
+      path: Source/CS/MMSHeader.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: DeliveryInd
+    path: ../Source/CS/MMSHeader.cs
+    startLine: 370
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: DeliveryInd = 134
+    return:
+      type: Inetlab.MMS.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.MMS
+  commentId: N:Inetlab.MMS
+  isExternal: false
+  name: Inetlab.MMS
+  nameWithType: Inetlab.MMS
+  fullName: Inetlab.MMS
+- uid: Inetlab.MMS.MessageTypes
+  commentId: T:Inetlab.MMS.MessageTypes
+  parent: Inetlab.MMS
+  isExternal: false
+  name: MessageTypes
+  nameWithType: MessageTypes
+  fullName: Inetlab.MMS.MessageTypes
