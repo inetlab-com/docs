@@ -27,7 +27,7 @@
     ,
     "fileMetadataFiles": [],
     "template": [
-      "statictoc"
+      "default","template"
     ],
     "postProcessors": [],
     "noLangKeyword": false,
