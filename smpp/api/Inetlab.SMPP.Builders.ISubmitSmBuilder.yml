@@ -57,6 +57,7 @@ items:
     content: 'public interface ISubmitSmBuilder : IBuilder<SubmitSm>'
     content.vb: >-
       Public Interface ISubmitSmBuilder
+
           Inherits IBuilder(Of SubmitSm)
   inheritedMembers:
   - Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(Inetlab.SMPP.Common.SmppClientBase)

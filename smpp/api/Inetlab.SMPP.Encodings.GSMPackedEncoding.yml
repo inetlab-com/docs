@@ -39,7 +39,9 @@ items:
     content: 'public class GSMPackedEncoding : GSMEncoding, ICloneable'
     content.vb: >-
       Public Class GSMPackedEncoding
+
           Inherits GSMEncoding
+
           Implements ICloneable
   inheritance:
   - System.Object

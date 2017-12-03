@@ -67,7 +67,9 @@ items:
       <Serializable>
 
       Public Class SubmitMulti
+
           Inherits SmppRequest(Of SubmitMultiResp)
+
           Implements ISmppMessage, ISmppHeader, IUserData, IOptionalParameters, ISourceAddress, IConcatenation, IDataCoding, ISerializable
   inheritance:
   - System.Object

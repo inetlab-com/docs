@@ -38,6 +38,7 @@ items:
     content: 'public class Bind : SmppRequest<BindResp>'
     content.vb: >-
       Public Class Bind
+
           Inherits SmppRequest(Of BindResp)
   inheritance:
   - System.Object

@@ -33,6 +33,7 @@ items:
     content: 'public class SmppErrorEventArgs : EventArgs'
     content.vb: >-
       Public Class SmppErrorEventArgs
+
           Inherits EventArgs
   inheritance:
   - System.Object

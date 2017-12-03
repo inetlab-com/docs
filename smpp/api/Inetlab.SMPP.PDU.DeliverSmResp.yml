@@ -43,7 +43,9 @@ items:
       <Serializable>
 
       Public Class DeliverSmResp
+
           Inherits SmppResponse(Of DeliverSm)
+
           Implements IOptionalParameters, ISerializable
   inheritance:
   - System.Object

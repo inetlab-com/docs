@@ -30,6 +30,7 @@ items:
     content: 'public class SpanishCharsetMap : IGSMCharsetMap'
     content.vb: >-
       Public Class SpanishCharsetMap
+
           Implements IGSMCharsetMap
   inheritance:
   - System.Object

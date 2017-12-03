@@ -36,7 +36,9 @@ items:
     content: 'public class BindResp : SmppResponse<Bind>, IOptionalParameters'
     content.vb: >-
       Public Class BindResp
+
           Inherits SmppResponse(Of Bind)
+
           Implements IOptionalParameters
   inheritance:
   - System.Object

@@ -28,7 +28,9 @@ items:
     content: 'public class SmppConnectionException : SmppException, ISerializable, _Exception'
     content.vb: >-
       Public Class SmppConnectionException
+
           Inherits SmppException
+
           Implements ISerializable, _Exception
   inheritance:
   - System.Object

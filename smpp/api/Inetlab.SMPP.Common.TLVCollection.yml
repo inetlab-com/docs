@@ -48,7 +48,9 @@ items:
     content: 'public class TLVCollection : List<TLV>, IList<TLV>, ICollection<TLV>, IEnumerable<TLV>, IList, ICollection, IEnumerable'
     content.vb: >-
       Public Class TLVCollection
+
           Inherits List(Of TLV)
+
           Implements IList(Of TLV), ICollection(Of TLV), IEnumerable(Of TLV), IList, ICollection, IEnumerable
   inheritance:
   - System.Object

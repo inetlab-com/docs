@@ -30,6 +30,7 @@ items:
     content: 'public class NationalLanguageLockingShift : UserDataHeader'
     content.vb: >-
       Public Class NationalLanguageLockingShift
+
           Inherits UserDataHeader
   inheritance:
   - System.Object

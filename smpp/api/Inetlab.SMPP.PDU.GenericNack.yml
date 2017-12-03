@@ -31,6 +31,7 @@ items:
     content: 'public class GenericNack : SmppResponse'
     content.vb: >-
       Public Class GenericNack
+
           Inherits SmppResponse
   inheritance:
   - System.Object

@@ -32,6 +32,7 @@ items:
     content: 'public class UnknownPacket : SmppPDU'
     content.vb: >-
       Public Class UnknownPacket
+
           Inherits SmppPDU
   inheritance:
   - System.Object

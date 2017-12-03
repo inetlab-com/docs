@@ -28,6 +28,7 @@ items:
     content: 'public abstract class SmppResponse : SmppPDU'
     content.vb: >-
       Public MustInherit Class SmppResponse
+
           Inherits SmppPDU
   inheritance:
   - System.Object

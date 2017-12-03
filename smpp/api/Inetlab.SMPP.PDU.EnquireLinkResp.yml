@@ -34,6 +34,7 @@ items:
     content: 'public class EnquireLinkResp : SmppResponse<EnquireLink>'
     content.vb: >-
       Public Class EnquireLinkResp
+
           Inherits SmppResponse(Of EnquireLink)
   inheritance:
   - System.Object

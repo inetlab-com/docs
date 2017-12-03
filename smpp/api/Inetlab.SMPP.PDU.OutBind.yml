@@ -33,6 +33,7 @@ items:
     content: 'public class OutBind : SmppRequest'
     content.vb: >-
       Public Class OutBind
+
           Inherits SmppRequest
   inheritance:
   - System.Object

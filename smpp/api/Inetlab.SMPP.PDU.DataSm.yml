@@ -61,7 +61,9 @@ items:
       <Serializable>
 
       Public Class DataSm
+
           Inherits SmppRequest(Of DataSmResp)
+
           Implements ISerializable, ISmppHeader, IOptionalParameters, ISourceAddress, IConcatenation
   inheritance:
   - System.Object

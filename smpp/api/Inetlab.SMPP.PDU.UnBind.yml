@@ -31,6 +31,7 @@ items:
     content: 'public class UnBind : SmppRequest<UnBindResp>'
     content.vb: >-
       Public Class UnBind
+
           Inherits SmppRequest(Of UnBindResp)
   inheritance:
   - System.Object

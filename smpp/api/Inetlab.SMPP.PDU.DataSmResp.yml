@@ -43,7 +43,9 @@ items:
       <Serializable>
 
       Public Class DataSmResp
+
           Inherits SmppResponse(Of DataSm)
+
           Implements ISerializable, IOptionalParameters
   inheritance:
   - System.Object

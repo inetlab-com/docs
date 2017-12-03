@@ -36,6 +36,7 @@ items:
     content: 'public class FileLogger : ILog'
     content.vb: >-
       Public Class FileLogger
+
           Implements ILog
   inheritance:
   - System.Object

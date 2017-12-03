@@ -48,7 +48,9 @@ items:
     content: 'public sealed class SmppServerClient : SmppClientBase, IDisposable'
     content.vb: >-
       Public NotInheritable Class SmppServerClient
+
           Inherits SmppClientBase
+
           Implements IDisposable
   inheritance:
   - System.Object

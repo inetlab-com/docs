@@ -40,7 +40,9 @@ items:
     content: 'public class GSMEncoding : Encoding, ICloneable'
     content.vb: >-
       Public Class GSMEncoding
+
           Inherits Encoding
+
           Implements ICloneable
   inheritance:
   - System.Object

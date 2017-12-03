@@ -30,6 +30,7 @@ items:
     content: 'public class TurkishCharsetMap : IGSMCharsetMap'
     content.vb: >-
       Public Class TurkishCharsetMap
+
           Implements IGSMCharsetMap
   inheritance:
   - System.Object

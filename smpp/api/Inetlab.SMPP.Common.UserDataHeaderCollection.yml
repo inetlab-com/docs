@@ -35,7 +35,9 @@ items:
     content: 'public class UserDataHeaderCollection : Collection<UserDataHeader>, IList<UserDataHeader>, ICollection<UserDataHeader>, IEnumerable<UserDataHeader>, IList, ICollection, IEnumerable'
     content.vb: >-
       Public Class UserDataHeaderCollection
+
           Inherits Collection(Of UserDataHeader)
+
           Implements IList(Of UserDataHeader), ICollection(Of UserDataHeader), IEnumerable(Of UserDataHeader), IList, ICollection, IEnumerable
   inheritance:
   - System.Object

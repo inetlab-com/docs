@@ -30,6 +30,7 @@ items:
     - id: TResponse
     content.vb: >-
       Public MustInherit Class SmppRequest(Of TResponse As SmppResponse)
+
           Inherits SmppRequest
   inheritance:
   - System.Object

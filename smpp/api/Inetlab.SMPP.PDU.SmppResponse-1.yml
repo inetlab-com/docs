@@ -30,6 +30,7 @@ items:
     - id: TRequest
     content.vb: >-
       Public MustInherit Class SmppResponse(Of TRequest)
+
           Inherits SmppResponse
   inheritance:
   - System.Object

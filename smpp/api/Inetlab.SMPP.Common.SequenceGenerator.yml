@@ -29,6 +29,7 @@ items:
     content: 'public class SequenceGenerator : ISequenceGenerator'
     content.vb: >-
       Public Class SequenceGenerator
+
           Implements ISequenceGenerator
   inheritance:
   - System.Object

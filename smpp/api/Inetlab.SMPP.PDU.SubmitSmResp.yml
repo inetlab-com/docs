@@ -45,7 +45,9 @@ items:
       <Serializable>
 
       Public Class SubmitSmResp
+
           Inherits SmppResponse(Of SubmitSm)
+
           Implements IOptionalParameters, ISerializable
   inheritance:
   - System.Object

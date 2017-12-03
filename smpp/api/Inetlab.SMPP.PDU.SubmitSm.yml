@@ -70,7 +70,9 @@ items:
       <Serializable>
 
       Public Class SubmitSm
+
           Inherits SmppRequest(Of SubmitSmResp)
+
           Implements ISmppMessage, ISmppHeader, IUserData, IOptionalParameters, ISourceAddress, IConcatenation, IDataCoding, ISerializable
   inheritance:
   - System.Object

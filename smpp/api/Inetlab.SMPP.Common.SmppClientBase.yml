@@ -86,6 +86,7 @@ items:
     content: 'public abstract class SmppClientBase : IDisposable'
     content.vb: >-
       Public MustInherit Class SmppClientBase
+
           Implements IDisposable
   inheritance:
   - System.Object

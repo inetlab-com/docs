@@ -33,6 +33,7 @@ items:
     - id: TResponse
     content.vb: >-
       Public Class SmppRequestEventArgs(Of TRequest, TResponse)
+
           Inherits EventArgs
   inheritance:
   - System.Object

@@ -38,6 +38,7 @@ items:
     content: 'public class QuerySmResp : SmppResponse<QuerySm>'
     content.vb: >-
       Public Class QuerySmResp
+
           Inherits SmppResponse(Of QuerySm)
   inheritance:
   - System.Object

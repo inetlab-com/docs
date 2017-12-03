@@ -32,6 +32,7 @@ items:
     content: 'public class CancelSmResp : SmppResponse<CancelSm>'
     content.vb: >-
       Public Class CancelSmResp
+
           Inherits SmppResponse(Of CancelSm)
   inheritance:
   - System.Object

@@ -30,6 +30,7 @@ items:
     content: 'public class BasicCharsetMap : IGSMCharsetMap'
     content.vb: >-
       Public Class BasicCharsetMap
+
           Implements IGSMCharsetMap
   inheritance:
   - System.Object

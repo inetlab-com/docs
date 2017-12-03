@@ -37,6 +37,7 @@ items:
     content: 'public class BatchMonitor : IDisposable'
     content.vb: >-
       Public Class BatchMonitor
+
           Implements IDisposable
   inheritance:
   - System.Object

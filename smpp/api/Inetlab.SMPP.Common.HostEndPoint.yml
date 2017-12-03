@@ -31,6 +31,7 @@ items:
     content: 'public class HostEndPoint : EndPoint'
     content.vb: >-
       Public Class HostEndPoint
+
           Inherits EndPoint
   inheritance:
   - System.Object

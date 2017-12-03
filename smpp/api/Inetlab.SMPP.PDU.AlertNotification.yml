@@ -37,6 +37,7 @@ items:
     content: 'public class AlertNotification : SmppPDU'
     content.vb: >-
       Public Class AlertNotification
+
           Inherits SmppPDU
   inheritance:
   - System.Object

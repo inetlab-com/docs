@@ -52,6 +52,7 @@ items:
     content: 'public interface IDeliverSmBuilder : IBuilder<DeliverSm>'
     content.vb: >-
       Public Interface IDeliverSmBuilder
+
           Inherits IBuilder(Of DeliverSm)
   inheritedMembers:
   - Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.DeliverSm}.Create(Inetlab.SMPP.Common.SmppClientBase)
