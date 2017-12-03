@@ -1,5 +1,5 @@
 - name: Articles
   href: articles/toc.yml
 
-- name: API Documentation
+- name: API References
   href: api/toc.yml

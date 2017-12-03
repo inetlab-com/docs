@@ -1,3 +1,5 @@
+- name: Home
+  href: http://www.inetlab.com
 - name: Inetlab.SMPP
   href: smpp/
   items:
