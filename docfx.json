@@ -25,7 +25,30 @@
      },
     "template": [
       "default","template"
-    ]
+    ],
+    "sitemap":{
+        "baseUrl": "https://docs.inetlab.com",
+        "priority": 0.1,
+        "changefreq": "weekly",
+        "fileOptions":{
+            "smpp/**/*.yml": {
+                "priority": 0.3
+            },
+            "smpp/**/*.md": {
+                "priority": 0.3
+            },
+            "mm7/**/*.yml": {
+                "priority": 0.3
+            },
+            "mm7/**/*.md": {
+                "priority": 0.3
+            },
+            "*.md": {
+                "priority": 0.3
+            }
+
+        }
+    }
   },
   "pdf": {
     "name": "documentation",
