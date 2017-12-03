@@ -41,7 +41,6 @@ items:
     content: 'public interface IWapPushBuilder : IBuilder<SubmitSm>'
     content.vb: >-
       Public Interface IWapPushBuilder
-
           Inherits IBuilder(Of SubmitSm)
   inheritedMembers:
   - Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(Inetlab.SMPP.Common.SmppClientBase)

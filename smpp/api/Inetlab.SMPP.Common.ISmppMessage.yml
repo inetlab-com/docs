@@ -28,7 +28,6 @@ items:
     content: 'public interface ISmppMessage : ISmppHeader, IUserData, IOptionalParameters, ISourceAddress, IConcatenation, IDataCoding'
     content.vb: >-
       Public Interface ISmppMessage
-
           Inherits ISmppHeader, IUserData, IOptionalParameters, ISourceAddress, IConcatenation, IDataCoding
   inheritedMembers:
   - Inetlab.SMPP.Common.ISmppHeader.Length
