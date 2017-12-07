@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.10] - 2017-12-07
+### Changed
+- SmppServer returns ESME_RSUBMITFAIL when evClientSubmitSm event has no attached handler.
+- SmppServer returns ESME_RBINDFAIL when evClientBind event has no attached handler.
+
+### Fixed
+- duplicate ReceiptedMessageId TLV option after serialization of DeliverSm PDU.
+
 ## [1.2.9] - 2017-11-19
 ### Fixed
 - ESME_RTHROTTLED for first PDU when setting ReceiveSpeedLimit on SmppServerClient
@@ -18,7 +26,7 @@
 
 ## [1.2.5] - 2017-08-12
 ### Fixed
--  ObjectDisposedException: Safe handle has been closed, on Mono platform when connecting to SMPP provider.
+- ObjectDisposedException: Safe handle has been closed, on Mono platform when connecting to SMPP provider.
 
 ## [1.2.4] - 2017-07-03
 ### Changed

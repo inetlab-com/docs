@@ -49,29 +49,5 @@
 
         }
     }
-  },
-  "pdf": {
-    "name": "documentation",
-    "content": [
-      {
-        "files": ["smpp/**/*.md", "smpp/**/*.yml"]
-      },
-      {
-        "files": ["mm7/**/*.md", "mm7/**/*.yml"]
-      },
-      {
-        "files": [
-         "smpp/toc.yml",
-         "mm7/toc.yml",
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": ["smpp/images/**"]
-      }
-    ],
-
-    "dest": "_site_pdf"
   }
 }

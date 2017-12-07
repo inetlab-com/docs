@@ -558,7 +558,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evServerStarted
     path: ../Source/CS/SmppServer.cs
-    startLine: 458
+    startLine: 466
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -591,7 +591,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientConnected
     path: ../Source/CS/SmppServer.cs
-    startLine: 463
+    startLine: 471
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -624,7 +624,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientDisconnected
     path: ../Source/CS/SmppServer.cs
-    startLine: 467
+    startLine: 475
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -657,7 +657,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientBind
     path: ../Source/CS/SmppServer.cs
-    startLine: 471
+    startLine: 479
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -690,7 +690,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientOutBind
     path: ../Source/CS/SmppServer.cs
-    startLine: 475
+    startLine: 483
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -723,7 +723,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientUnBind
     path: ../Source/CS/SmppServer.cs
-    startLine: 479
+    startLine: 487
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -756,7 +756,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientSubmitSm
     path: ../Source/CS/SmppServer.cs
-    startLine: 483
+    startLine: 491
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -789,7 +789,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientSubmitMulti
     path: ../Source/CS/SmppServer.cs
-    startLine: 487
+    startLine: 495
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -822,7 +822,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientDataSm
     path: ../Source/CS/SmppServer.cs
-    startLine: 491
+    startLine: 499
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -855,7 +855,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientQuerySm
     path: ../Source/CS/SmppServer.cs
-    startLine: 495
+    startLine: 503
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -888,7 +888,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientCancelSm
     path: ../Source/CS/SmppServer.cs
-    startLine: 499
+    startLine: 507
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -921,7 +921,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientEnquireLink
     path: ../Source/CS/SmppServer.cs
-    startLine: 503
+    startLine: 511
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -954,7 +954,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientGenericNack
     path: ../Source/CS/SmppServer.cs
-    startLine: 507
+    startLine: 515
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -987,7 +987,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: evClientCertificateValidation
     path: ../Source/CS/SmppServer.cs
-    startLine: 514
+    startLine: 522
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -1020,7 +1020,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: Dispose
     path: ../Source/CS/SmppServer.cs
-    startLine: 677
+    startLine: 741
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP
@@ -1052,7 +1052,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: Finalize
     path: ../Source/CS/SmppServer.cs
-    startLine: 683
+    startLine: 747
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP

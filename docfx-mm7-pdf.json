@@ -1,0 +1,16 @@
+{
+  "pdf": {
+    "name": "documentation",
+    "content": [
+      {
+        "files": ["mm7/**/*.md", "mm7/**/*.yml"]
+      },
+      {
+        "files": [
+         "mm7/toc.yml",
+        ]
+      }
+    ],
+    "dest": "_site_pdf"
+  }
+}

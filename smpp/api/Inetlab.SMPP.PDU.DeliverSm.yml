@@ -985,7 +985,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: Response
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 226
+    startLine: 230
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1020,7 +1020,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: Receipt
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 232
+    startLine: 236
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1057,7 +1057,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: PacketBytes
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 237
+    startLine: 241
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1094,7 +1094,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: .ctor
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 240
+    startLine: 244
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1124,7 +1124,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: Serialize
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 485
+    startLine: 499
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1165,7 +1165,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: Deserialize
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 495
+    startLine: 509
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1209,7 +1209,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: .ctor
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 507
+    startLine: 521
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1245,7 +1245,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: System.Runtime.Serialization.ISerializable.GetObjectData
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 517
+    startLine: 531
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1280,7 +1280,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: Clone
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 530
+    startLine: 544
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1314,7 +1314,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: ToString
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 572
+    startLine: 586
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
@@ -1349,7 +1349,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: CorrespondTo
     path: ../Source/CS/PDU/DeliverSm.cs
-    startLine: 579
+    startLine: 593
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.PDU
