@@ -19,7 +19,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: MessageEventHandler
     path: ../Source/CS/Common/MessageComposer.cs
-    startLine: 341
+    startLine: 357
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.Common

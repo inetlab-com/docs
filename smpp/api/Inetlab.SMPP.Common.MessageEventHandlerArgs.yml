@@ -22,7 +22,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: MessageEventHandlerArgs
     path: ../Source/CS/Common/MessageComposer.cs
-    startLine: 343
+    startLine: 359
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.Common
@@ -55,7 +55,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: Text
     path: ../Source/CS/Common/MessageComposer.cs
-    startLine: 345
+    startLine: 361
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.Common
@@ -90,7 +90,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: Parts
     path: ../Source/CS/Common/MessageComposer.cs
-    startLine: 346
+    startLine: 362
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.Common
@@ -125,7 +125,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.SMPP.git
     id: .ctor
     path: ../Source/CS/Common/MessageComposer.cs
-    startLine: 348
+    startLine: 364
   assemblies:
   - Inetlab.SMPP
   namespace: Inetlab.SMPP.Common

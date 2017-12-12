@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.2.11] - 2017-12-12
+### Fixed
+- MessageComposer raises evFullMessageReceived sometimes two times by processing concatenated message with two parts.
+
 ## [1.2.10] - 2017-12-07
 ### Changed
 - SmppServer returns ESME_RSUBMITFAIL when evClientSubmitSm event has no attached handler.
