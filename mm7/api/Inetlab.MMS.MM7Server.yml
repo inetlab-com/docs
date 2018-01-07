@@ -58,14 +58,6 @@ items:
       Public Class MM7Server
   inheritance:
   - System.Object
-  inheritedMembers:
-  - System.Object.ToString
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.GetType
-  - System.Object.MemberwiseClone
   attributes:
   - type: System.Reflection.ObfuscationAttribute
     ctor: System.Reflection.ObfuscationAttribute.#ctor
@@ -545,7 +537,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: ProcessRequest
     path: ../Source/CS/MM7Server.cs
-    startLine: 298
+    startLine: 302
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -600,7 +592,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: ProcessRequest
     path: ../Source/CS/MM7Server.cs
-    startLine: 434
+    startLine: 438
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -657,7 +649,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: DeliverRequest
     path: ../Source/CS/MM7Server.cs
-    startLine: 529
+    startLine: 568
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -707,7 +699,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: OnDeliverRequest
     path: ../Source/CS/MM7Server.cs
-    startLine: 530
+    startLine: 569
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -759,7 +751,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: DeliveryReport
     path: ../Source/CS/MM7Server.cs
-    startLine: 541
+    startLine: 580
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -809,7 +801,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: OnDeliveryReport
     path: ../Source/CS/MM7Server.cs
-    startLine: 542
+    startLine: 581
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -861,7 +853,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: ReadReplyReport
     path: ../Source/CS/MM7Server.cs
-    startLine: 553
+    startLine: 592
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -911,7 +903,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: OnReadReplyReport
     path: ../Source/CS/MM7Server.cs
-    startLine: 554
+    startLine: 593
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -963,7 +955,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: SubmitRequest
     path: ../Source/CS/MM7Server.cs
-    startLine: 566
+    startLine: 605
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -1013,7 +1005,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: OnSubmitRequest
     path: ../Source/CS/MM7Server.cs
-    startLine: 567
+    startLine: 606
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -1065,7 +1057,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: Authentication
     path: ../Source/CS/MM7Server.cs
-    startLine: 580
+    startLine: 619
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -1115,7 +1107,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: OnAuthentication
     path: ../Source/CS/MM7Server.cs
-    startLine: 581
+    startLine: 620
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -1165,285 +1157,6 @@ references:
   name: Object
   nameWithType: Object
   fullName: System.Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  name: ToString()
-  nameWithType: Object.ToString()
-  fullName: System.Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    nameWithType: Object.ToString
-    fullName: System.Object.ToString
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetType
-  commentId: M:System.Object.GetType
-  parent: System.Object
-  isExternal: true
-  name: GetType()
-  nameWithType: Object.GetType()
-  fullName: System.Object.GetType()
-  spec.csharp:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetType
-    name: GetType
-    nameWithType: Object.GetType
-    fullName: System.Object.GetType
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: false

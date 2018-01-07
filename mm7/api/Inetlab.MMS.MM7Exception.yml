@@ -57,11 +57,6 @@ items:
   - System.Exception.HelpLink
   - System.Exception.Source
   - System.Exception.HResult
-  - System.Object.Equals(System.Object)
-  - System.Object.Equals(System.Object,System.Object)
-  - System.Object.ReferenceEquals(System.Object,System.Object)
-  - System.Object.GetHashCode
-  - System.Object.MemberwiseClone
   attributes:
   - type: System.Reflection.ObfuscationAttribute
     ctor: System.Reflection.ObfuscationAttribute.#ctor
@@ -82,104 +77,6 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Inetlab.MMS.MM7Exception.#ctor
-  commentId: M:Inetlab.MMS.MM7Exception.#ctor
-  id: '#ctor'
-  parent: Inetlab.MMS.MM7Exception
-  langs:
-  - csharp
-  - vb
-  name: MM7Exception()
-  nameWithType: MM7Exception.MM7Exception()
-  fullName: Inetlab.MMS.MM7Exception.MM7Exception()
-  type: Constructor
-  source:
-    remote:
-      path: Source/CS/MM7Exception.cs
-      branch: master
-      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
-    id: .ctor
-    path: ../Source/CS/MM7Exception.cs
-    startLine: 12
-  assemblies:
-  - Inetlab.MMS.MM7
-  namespace: Inetlab.MMS
-  syntax:
-    content: public MM7Exception()
-    content.vb: Public Sub New
-  overload: Inetlab.MMS.MM7Exception.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: Inetlab.MMS.MM7Exception.#ctor(Inetlab.MMS.MM7.ResponseStatus)
-  commentId: M:Inetlab.MMS.MM7Exception.#ctor(Inetlab.MMS.MM7.ResponseStatus)
-  id: '#ctor(Inetlab.MMS.MM7.ResponseStatus)'
-  parent: Inetlab.MMS.MM7Exception
-  langs:
-  - csharp
-  - vb
-  name: MM7Exception(ResponseStatus)
-  nameWithType: MM7Exception.MM7Exception(ResponseStatus)
-  fullName: Inetlab.MMS.MM7Exception.MM7Exception(Inetlab.MMS.MM7.ResponseStatus)
-  type: Constructor
-  source:
-    remote:
-      path: Source/CS/MM7Exception.cs
-      branch: master
-      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
-    id: .ctor
-    path: ../Source/CS/MM7Exception.cs
-    startLine: 17
-  assemblies:
-  - Inetlab.MMS.MM7
-  namespace: Inetlab.MMS
-  syntax:
-    content: public MM7Exception(ResponseStatus status)
-    parameters:
-    - id: status
-      type: Inetlab.MMS.MM7.ResponseStatus
-    content.vb: Public Sub New(status As ResponseStatus)
-  overload: Inetlab.MMS.MM7Exception.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
-- uid: Inetlab.MMS.MM7Exception.#ctor(System.Int32,System.String)
-  commentId: M:Inetlab.MMS.MM7Exception.#ctor(System.Int32,System.String)
-  id: '#ctor(System.Int32,System.String)'
-  parent: Inetlab.MMS.MM7Exception
-  langs:
-  - csharp
-  - vb
-  name: MM7Exception(Int32, String)
-  nameWithType: MM7Exception.MM7Exception(Int32, String)
-  fullName: Inetlab.MMS.MM7Exception.MM7Exception(System.Int32, System.String)
-  type: Constructor
-  source:
-    remote:
-      path: Source/CS/MM7Exception.cs
-      branch: master
-      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
-    id: .ctor
-    path: ../Source/CS/MM7Exception.cs
-    startLine: 22
-  assemblies:
-  - Inetlab.MMS.MM7
-  namespace: Inetlab.MMS
-  syntax:
-    content: public MM7Exception(int code, string message)
-    parameters:
-    - id: code
-      type: System.Int32
-    - id: message
-      type: System.String
-    content.vb: Public Sub New(code As Integer, message As String)
-  overload: Inetlab.MMS.MM7Exception.#ctor*
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
 - uid: Inetlab.MMS.MM7Exception.Status
   commentId: P:Inetlab.MMS.MM7Exception.Status
   id: Status
@@ -198,7 +95,7 @@ items:
       repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
     id: Status
     path: ../Source/CS/MM7Exception.cs
-    startLine: 26
+    startLine: 11
   assemblies:
   - Inetlab.MMS.MM7
   namespace: Inetlab.MMS
@@ -232,6 +129,104 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: Inetlab.MMS.MM7Exception.#ctor
+  commentId: M:Inetlab.MMS.MM7Exception.#ctor
+  id: '#ctor'
+  parent: Inetlab.MMS.MM7Exception
+  langs:
+  - csharp
+  - vb
+  name: MM7Exception()
+  nameWithType: MM7Exception.MM7Exception()
+  fullName: Inetlab.MMS.MM7Exception.MM7Exception()
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7Exception.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7Exception.cs
+    startLine: 17
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: public MM7Exception()
+    content.vb: Public Sub New
+  overload: Inetlab.MMS.MM7Exception.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Exception.#ctor(Inetlab.MMS.MM7.ResponseStatus)
+  commentId: M:Inetlab.MMS.MM7Exception.#ctor(Inetlab.MMS.MM7.ResponseStatus)
+  id: '#ctor(Inetlab.MMS.MM7.ResponseStatus)'
+  parent: Inetlab.MMS.MM7Exception
+  langs:
+  - csharp
+  - vb
+  name: MM7Exception(ResponseStatus)
+  nameWithType: MM7Exception.MM7Exception(ResponseStatus)
+  fullName: Inetlab.MMS.MM7Exception.MM7Exception(Inetlab.MMS.MM7.ResponseStatus)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7Exception.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7Exception.cs
+    startLine: 22
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: public MM7Exception(ResponseStatus status)
+    parameters:
+    - id: status
+      type: Inetlab.MMS.MM7.ResponseStatus
+    content.vb: Public Sub New(status As ResponseStatus)
+  overload: Inetlab.MMS.MM7Exception.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.MMS.MM7Exception.#ctor(System.Int32,System.String)
+  commentId: M:Inetlab.MMS.MM7Exception.#ctor(System.Int32,System.String)
+  id: '#ctor(System.Int32,System.String)'
+  parent: Inetlab.MMS.MM7Exception
+  langs:
+  - csharp
+  - vb
+  name: MM7Exception(Int32, String)
+  nameWithType: MM7Exception.MM7Exception(Int32, String)
+  fullName: Inetlab.MMS.MM7Exception.MM7Exception(System.Int32, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: Source/CS/MM7Exception.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: .ctor
+    path: ../Source/CS/MM7Exception.cs
+    startLine: 27
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  syntax:
+    content: public MM7Exception(int code, string message)
+    parameters:
+    - id: code
+      type: System.Int32
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(code As Integer, message As String)
+  overload: Inetlab.MMS.MM7Exception.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 references:
 - uid: Inetlab.MMS
   commentId: N:Inetlab.MMS
@@ -473,223 +468,6 @@ references:
   name: HResult
   nameWithType: Exception.HResult
   fullName: System.Exception.HResult
-- uid: System.Object.Equals(System.Object)
-  commentId: M:System.Object.Equals(System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object)
-  nameWithType: Object.Equals(Object)
-  fullName: System.Object.Equals(System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.Equals(System.Object,System.Object)
-  commentId: M:System.Object.Equals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: Equals(Object, Object)
-  nameWithType: Object.Equals(Object, Object)
-  fullName: System.Object.Equals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.Equals(System.Object,System.Object)
-    name: Equals
-    nameWithType: Object.Equals
-    fullName: System.Object.Equals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.ReferenceEquals(System.Object,System.Object)
-  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
-  parent: System.Object
-  isExternal: true
-  name: ReferenceEquals(Object, Object)
-  nameWithType: Object.ReferenceEquals(Object, Object)
-  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
-  spec.csharp:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
-    name: ReferenceEquals
-    nameWithType: Object.ReferenceEquals
-    fullName: System.Object.ReferenceEquals
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: System.Object
-    name: Object
-    nameWithType: Object
-    fullName: System.Object
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.GetHashCode
-  commentId: M:System.Object.GetHashCode
-  parent: System.Object
-  isExternal: true
-  name: GetHashCode()
-  nameWithType: Object.GetHashCode()
-  fullName: System.Object.GetHashCode()
-  spec.csharp:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.GetHashCode
-    name: GetHashCode
-    nameWithType: Object.GetHashCode
-    fullName: System.Object.GetHashCode
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: System.Object.MemberwiseClone
-  commentId: M:System.Object.MemberwiseClone
-  parent: System.Object
-  isExternal: true
-  name: MemberwiseClone()
-  nameWithType: Object.MemberwiseClone()
-  fullName: System.Object.MemberwiseClone()
-  spec.csharp:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: System.Object.MemberwiseClone
-    name: MemberwiseClone
-    nameWithType: Object.MemberwiseClone
-    fullName: System.Object.MemberwiseClone
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
 - uid: System
   commentId: N:System
   isExternal: false
@@ -708,12 +486,12 @@ references:
   name: System.Runtime.InteropServices
   nameWithType: System.Runtime.InteropServices
   fullName: System.Runtime.InteropServices
-- uid: Inetlab.MMS.MM7Exception.#ctor*
-  commentId: Overload:Inetlab.MMS.MM7Exception.#ctor
+- uid: Inetlab.MMS.MM7Exception.Status*
+  commentId: Overload:Inetlab.MMS.MM7Exception.Status
   isExternal: false
-  name: MM7Exception
-  nameWithType: MM7Exception.MM7Exception
-  fullName: Inetlab.MMS.MM7Exception.MM7Exception
+  name: Status
+  nameWithType: MM7Exception.Status
+  fullName: Inetlab.MMS.MM7Exception.Status
 - uid: Inetlab.MMS.MM7.ResponseStatus
   commentId: T:Inetlab.MMS.MM7.ResponseStatus
   parent: Inetlab.MMS.MM7
@@ -727,6 +505,12 @@ references:
   name: Inetlab.MMS.MM7
   nameWithType: Inetlab.MMS.MM7
   fullName: Inetlab.MMS.MM7
+- uid: Inetlab.MMS.MM7Exception.#ctor*
+  commentId: Overload:Inetlab.MMS.MM7Exception.#ctor
+  isExternal: false
+  name: MM7Exception
+  nameWithType: MM7Exception.MM7Exception
+  fullName: Inetlab.MMS.MM7Exception.MM7Exception
 - uid: System.Int32
   commentId: T:System.Int32
   parent: System
@@ -741,9 +525,3 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
-- uid: Inetlab.MMS.MM7Exception.Status*
-  commentId: Overload:Inetlab.MMS.MM7Exception.Status
-  isExternal: false
-  name: Status
-  nameWithType: MM7Exception.Status
-  fullName: Inetlab.MMS.MM7Exception.Status

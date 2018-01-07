@@ -1,3 +1,6 @@
+Version 0.9.2 02.01.2018
+- fixed: MM7Client should process SOAP Fault instead throwing of "Unknown server response". 
+
 Version 0.9.1 19.11.2016
 - small fixes in demo application
 
