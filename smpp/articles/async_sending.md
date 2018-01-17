@@ -45,15 +45,19 @@ For developers who want to use advantages of .NET 4.5 in writing asynchronous co
 Usage example:
 
 ```csharp
-public static async Task<IList<SubmitSmResp>> TrySubmitAsync(this SmppClient client, IList<SubmitSm> pduList)
-{
-    var respList = new List<SubmitSmResp>();
-    foreach (var submitSm in pduList)
+
+    public static async Task<IEnumerable<SubmitSmResp>> SendBatch(this SmppClient client, IEnumerable<SubmitSm> list)
     {
-        var resp = await client.TrySubmitAsync(submitSm);
-        respList.Add(resp);
+         List<Task> tasks = new List<Task>();
+
+         foreach (SubmitSm sm in list)
+         {
+             tasks.Add(client.TrySubmitAsync(sm));
+         }
+
+         await Task.WhenAll(tasks).ConfigureAwait(false);
+
+         return tasks.OfType<Task<SubmitSmResp>>().Select(x => x.Result);
     }
 
-    return respList;
-}
 ```
