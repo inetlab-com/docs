@@ -1,0 +1,424 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection
+  commentId: T:Inetlab.SMPP.Common.UserDataHeaderCollection
+  id: UserDataHeaderCollection
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.UserDataHeaderCollection.Add(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte[])
+  - Inetlab.SMPP.Common.UserDataHeaderCollection.Add(Inetlab.SMPP.Common.UserDataHeader)
+  - Inetlab.SMPP.Common.UserDataHeaderCollection.Add(System.Byte,System.Byte[])
+  - Inetlab.SMPP.Common.UserDataHeaderCollection.Of``1
+  - Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit(Inetlab.SMPP.Common.UserDataHeaderCollection)~System.Byte[]
+  - Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit(System.Byte[])~Inetlab.SMPP.Common.UserDataHeaderCollection
+  langs:
+  - csharp
+  - vb
+  name: UserDataHeaderCollection
+  nameWithType: UserDataHeaderCollection
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection
+  type: Class
+  source:
+    id: UserDataHeaderCollection
+    path: ''
+    startLine: 11792
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUser Data Header Collection\n"
+  example: []
+  syntax:
+    content: 'public class UserDataHeaderCollection : Collection<UserDataHeader>'
+    content.vb: >-
+      Public Class UserDataHeaderCollection
+          Inherits Collection(Of UserDataHeader)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection.Of``1
+  commentId: M:Inetlab.SMPP.Common.UserDataHeaderCollection.Of``1
+  id: Of``1
+  parent: Inetlab.SMPP.Common.UserDataHeaderCollection
+  langs:
+  - csharp
+  - vb
+  name: Of<T>()
+  nameWithType: UserDataHeaderCollection.Of<T>()
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection.Of<T>()
+  type: Method
+  source:
+    id: Of
+    path: ''
+    startLine: 11798
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nReturns user data headers of specified type\n"
+  example: []
+  syntax:
+    content: >-
+      public List<T> Of<T>()
+          where T : class
+    typeParameters:
+    - id: T
+    return:
+      type: List{{T}}
+    content.vb: Public Function Of(Of T As Class) As List(Of T)
+  overload: Inetlab.SMPP.Common.UserDataHeaderCollection.Of*
+  nameWithType.vb: UserDataHeaderCollection.Of(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeaderCollection.Of(Of T)()
+  name.vb: Of(Of T)()
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit(System.Byte[])~Inetlab.SMPP.Common.UserDataHeaderCollection
+  commentId: M:Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit(System.Byte[])~Inetlab.SMPP.Common.UserDataHeaderCollection
+  id: op_Implicit(System.Byte[])~Inetlab.SMPP.Common.UserDataHeaderCollection
+  parent: Inetlab.SMPP.Common.UserDataHeaderCollection
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Byte[] to UserDataHeaderCollection)
+  nameWithType: UserDataHeaderCollection.Implicit(Byte[] to UserDataHeaderCollection)
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection.Implicit(System.Byte[] to Inetlab.SMPP.Common.UserDataHeaderCollection)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 11835
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nConverts byte array to UserDataHeaderCollection\n"
+  example: []
+  syntax:
+    content: public static implicit operator UserDataHeaderCollection(byte[] bytes)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    return:
+      type: Inetlab.SMPP.Common.UserDataHeaderCollection
+    content.vb: Public Shared Widening Operator CType(bytes As Byte()) As UserDataHeaderCollection
+  overload: Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit*
+  nameWithType.vb: UserDataHeaderCollection.Widening(Byte() to UserDataHeaderCollection)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeaderCollection.Widening(System.Byte() to Inetlab.SMPP.Common.UserDataHeaderCollection)
+  name.vb: Widening(Byte() to UserDataHeaderCollection)
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit(Inetlab.SMPP.Common.UserDataHeaderCollection)~System.Byte[]
+  commentId: M:Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit(Inetlab.SMPP.Common.UserDataHeaderCollection)~System.Byte[]
+  id: op_Implicit(Inetlab.SMPP.Common.UserDataHeaderCollection)~System.Byte[]
+  parent: Inetlab.SMPP.Common.UserDataHeaderCollection
+  langs:
+  - csharp
+  - vb
+  name: Implicit(UserDataHeaderCollection to Byte[])
+  nameWithType: UserDataHeaderCollection.Implicit(UserDataHeaderCollection to Byte[])
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection.Implicit(Inetlab.SMPP.Common.UserDataHeaderCollection to System.Byte[])
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 11858
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nConverts UserDataHeaderCollection to byte array\n"
+  example: []
+  syntax:
+    content: public static implicit operator byte[](UserDataHeaderCollection headers)
+    parameters:
+    - id: headers
+      type: Inetlab.SMPP.Common.UserDataHeaderCollection
+    return:
+      type: System.Byte[]
+    content.vb: Public Shared Widening Operator CType(headers As UserDataHeaderCollection) As Byte()
+  overload: Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit*
+  nameWithType.vb: UserDataHeaderCollection.Widening(UserDataHeaderCollection to Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeaderCollection.Widening(Inetlab.SMPP.Common.UserDataHeaderCollection to System.Byte())
+  name.vb: Widening(UserDataHeaderCollection to Byte())
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection.Add(Inetlab.SMPP.Common.UserDataHeader)
+  commentId: M:Inetlab.SMPP.Common.UserDataHeaderCollection.Add(Inetlab.SMPP.Common.UserDataHeader)
+  id: Add(Inetlab.SMPP.Common.UserDataHeader)
+  parent: Inetlab.SMPP.Common.UserDataHeaderCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(UserDataHeader)
+  nameWithType: UserDataHeaderCollection.Add(UserDataHeader)
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection.Add(Inetlab.SMPP.Common.UserDataHeader)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 11864
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(UserDataHeader header)
+    parameters:
+    - id: header
+      type: Inetlab.SMPP.Common.UserDataHeader
+    content.vb: Public Sub Add(header As UserDataHeader)
+  overload: Inetlab.SMPP.Common.UserDataHeaderCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection.Add(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.UserDataHeaderCollection.Add(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte[])
+  id: Add(Inetlab.SMPP.Common.InformationElementIdentifiers,System.Byte[])
+  parent: Inetlab.SMPP.Common.UserDataHeaderCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(InformationElementIdentifiers, Byte[])
+  nameWithType: UserDataHeaderCollection.Add(InformationElementIdentifiers, Byte[])
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection.Add(Inetlab.SMPP.Common.InformationElementIdentifiers, System.Byte[])
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 11870
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(InformationElementIdentifiers iei, byte[] data)
+    parameters:
+    - id: iei
+      type: Inetlab.SMPP.Common.InformationElementIdentifiers
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub Add(iei As InformationElementIdentifiers, data As Byte())
+  overload: Inetlab.SMPP.Common.UserDataHeaderCollection.Add*
+  nameWithType.vb: UserDataHeaderCollection.Add(InformationElementIdentifiers, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeaderCollection.Add(Inetlab.SMPP.Common.InformationElementIdentifiers, System.Byte())
+  name.vb: Add(InformationElementIdentifiers, Byte())
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection.Add(System.Byte,System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.UserDataHeaderCollection.Add(System.Byte,System.Byte[])
+  id: Add(System.Byte,System.Byte[])
+  parent: Inetlab.SMPP.Common.UserDataHeaderCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(Byte, Byte[])
+  nameWithType: UserDataHeaderCollection.Add(Byte, Byte[])
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection.Add(System.Byte, System.Byte[])
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 11875
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(byte iei, byte[] data)
+    parameters:
+    - id: iei
+      type: System.Byte
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub Add(iei As Byte, data As Byte())
+  overload: Inetlab.SMPP.Common.UserDataHeaderCollection.Add*
+  nameWithType.vb: UserDataHeaderCollection.Add(Byte, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeaderCollection.Add(System.Byte, System.Byte())
+  name.vb: Add(Byte, Byte())
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection.Of*
+  commentId: Overload:Inetlab.SMPP.Common.UserDataHeaderCollection.Of
+  isExternal: false
+  name: Of
+  nameWithType: UserDataHeaderCollection.Of
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection.Of
+- uid: List{{T}}
+  commentId: '!:List{``0}'
+  definition: List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit*
+  commentId: Overload:Inetlab.SMPP.Common.UserDataHeaderCollection.op_Implicit
+  isExternal: false
+  name: Implicit
+  nameWithType: UserDataHeaderCollection.Implicit
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection.Implicit
+  nameWithType.vb: UserDataHeaderCollection.Widening
+  fullName.vb: Inetlab.SMPP.Common.UserDataHeaderCollection.Widening
+  name.vb: Widening
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection
+  commentId: T:Inetlab.SMPP.Common.UserDataHeaderCollection
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: UserDataHeaderCollection
+  nameWithType: UserDataHeaderCollection
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection.Add*
+  commentId: Overload:Inetlab.SMPP.Common.UserDataHeaderCollection.Add
+  isExternal: false
+  name: Add
+  nameWithType: UserDataHeaderCollection.Add
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection.Add
+- uid: Inetlab.SMPP.Common.UserDataHeader
+  commentId: T:Inetlab.SMPP.Common.UserDataHeader
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: UserDataHeader
+  nameWithType: UserDataHeader
+  fullName: Inetlab.SMPP.Common.UserDataHeader
+- uid: Inetlab.SMPP.Common.InformationElementIdentifiers
+  commentId: T:Inetlab.SMPP.Common.InformationElementIdentifiers
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: InformationElementIdentifiers
+  nameWithType: InformationElementIdentifiers
+  fullName: Inetlab.SMPP.Common.InformationElementIdentifiers
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+shouldSkipMarkup: true

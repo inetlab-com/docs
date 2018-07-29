@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.LimitRate
+  commentId: T:Inetlab.SMPP.Common.LimitRate
+  id: LimitRate
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.LimitRate.#ctor(System.Int32,TimeSpan)
+  - Inetlab.SMPP.Common.LimitRate.NoLimit
+  - Inetlab.SMPP.Common.LimitRate.Occurrences
+  - Inetlab.SMPP.Common.LimitRate.op_Implicit(System.Double)~Inetlab.SMPP.Common.LimitRate
+  - Inetlab.SMPP.Common.LimitRate.TimeUnit
+  - Inetlab.SMPP.Common.LimitRate.Wait(CancellationToken,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: LimitRate
+  nameWithType: LimitRate
+  fullName: Inetlab.SMPP.Common.LimitRate
+  type: Class
+  source:
+    id: LimitRate
+    path: ''
+    startLine: 6154
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public class LimitRate
+    content.vb: Public Class LimitRate
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.LimitRate.Occurrences
+  commentId: P:Inetlab.SMPP.Common.LimitRate.Occurrences
+  id: Occurrences
+  parent: Inetlab.SMPP.Common.LimitRate
+  langs:
+  - csharp
+  - vb
+  name: Occurrences
+  nameWithType: LimitRate.Occurrences
+  fullName: Inetlab.SMPP.Common.LimitRate.Occurrences
+  type: Property
+  source:
+    id: Occurrences
+    path: ''
+    startLine: 6156
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public int Occurrences { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Occurrences As Integer
+  overload: Inetlab.SMPP.Common.LimitRate.Occurrences*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.LimitRate.TimeUnit
+  commentId: P:Inetlab.SMPP.Common.LimitRate.TimeUnit
+  id: TimeUnit
+  parent: Inetlab.SMPP.Common.LimitRate
+  langs:
+  - csharp
+  - vb
+  name: TimeUnit
+  nameWithType: LimitRate.TimeUnit
+  fullName: Inetlab.SMPP.Common.LimitRate.TimeUnit
+  type: Property
+  source:
+    id: TimeUnit
+    path: ''
+    startLine: 6158
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public TimeSpan TimeUnit { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property TimeUnit As TimeSpan
+  overload: Inetlab.SMPP.Common.LimitRate.TimeUnit*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.LimitRate.#ctor(System.Int32,TimeSpan)
+  commentId: M:Inetlab.SMPP.Common.LimitRate.#ctor(System.Int32,TimeSpan)
+  id: '#ctor(System.Int32,TimeSpan)'
+  parent: Inetlab.SMPP.Common.LimitRate
+  langs:
+  - csharp
+  - vb
+  name: LimitRate(Int32, TimeSpan)
+  nameWithType: LimitRate.LimitRate(Int32, TimeSpan)
+  fullName: Inetlab.SMPP.Common.LimitRate.LimitRate(System.Int32, TimeSpan)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 6162
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public LimitRate(int occurrences, TimeSpan timeUnit)
+    parameters:
+    - id: occurrences
+      type: System.Int32
+    - id: timeUnit
+      type: TimeSpan
+    content.vb: Public Sub New(occurrences As Integer, timeUnit As TimeSpan)
+  overload: Inetlab.SMPP.Common.LimitRate.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.LimitRate.NoLimit
+  commentId: F:Inetlab.SMPP.Common.LimitRate.NoLimit
+  id: NoLimit
+  parent: Inetlab.SMPP.Common.LimitRate
+  langs:
+  - csharp
+  - vb
+  name: NoLimit
+  nameWithType: LimitRate.NoLimit
+  fullName: Inetlab.SMPP.Common.LimitRate.NoLimit
+  type: Field
+  source:
+    id: NoLimit
+    path: ''
+    startLine: 6172
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static LimitRate NoLimit
+    return:
+      type: Inetlab.SMPP.Common.LimitRate
+    content.vb: Public Shared NoLimit As LimitRate
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.Common.LimitRate.Wait(CancellationToken,System.Double)
+  commentId: M:Inetlab.SMPP.Common.LimitRate.Wait(CancellationToken,System.Double)
+  id: Wait(CancellationToken,System.Double)
+  parent: Inetlab.SMPP.Common.LimitRate
+  langs:
+  - csharp
+  - vb
+  name: Wait(CancellationToken, Double)
+  nameWithType: LimitRate.Wait(CancellationToken, Double)
+  fullName: Inetlab.SMPP.Common.LimitRate.Wait(CancellationToken, System.Double)
+  type: Method
+  source:
+    id: Wait
+    path: ''
+    startLine: 6175
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public Task Wait(CancellationToken token, double elapsedMilliseconds)
+    parameters:
+    - id: token
+      type: CancellationToken
+    - id: elapsedMilliseconds
+      type: System.Double
+    return:
+      type: Task
+    content.vb: Public Function Wait(token As CancellationToken, elapsedMilliseconds As Double) As Task
+  overload: Inetlab.SMPP.Common.LimitRate.Wait*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.LimitRate.op_Implicit(System.Double)~Inetlab.SMPP.Common.LimitRate
+  commentId: M:Inetlab.SMPP.Common.LimitRate.op_Implicit(System.Double)~Inetlab.SMPP.Common.LimitRate
+  id: op_Implicit(System.Double)~Inetlab.SMPP.Common.LimitRate
+  parent: Inetlab.SMPP.Common.LimitRate
+  langs:
+  - csharp
+  - vb
+  name: Implicit(Double to LimitRate)
+  nameWithType: LimitRate.Implicit(Double to LimitRate)
+  fullName: Inetlab.SMPP.Common.LimitRate.Implicit(System.Double to Inetlab.SMPP.Common.LimitRate)
+  type: Operator
+  source:
+    id: op_Implicit
+    path: ''
+    startLine: 6184
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static implicit operator LimitRate(double rate)
+    parameters:
+    - id: rate
+      type: System.Double
+    return:
+      type: Inetlab.SMPP.Common.LimitRate
+    content.vb: Public Shared Widening Operator CType(rate As Double) As LimitRate
+  overload: Inetlab.SMPP.Common.LimitRate.op_Implicit*
+  nameWithType.vb: LimitRate.Widening(Double to LimitRate)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Common.LimitRate.Widening(System.Double to Inetlab.SMPP.Common.LimitRate)
+  name.vb: Widening(Double to LimitRate)
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.LimitRate.Occurrences*
+  commentId: Overload:Inetlab.SMPP.Common.LimitRate.Occurrences
+  name: Occurrences
+  nameWithType: LimitRate.Occurrences
+  fullName: Inetlab.SMPP.Common.LimitRate.Occurrences
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.Common.LimitRate.TimeUnit*
+  commentId: Overload:Inetlab.SMPP.Common.LimitRate.TimeUnit
+  name: TimeUnit
+  nameWithType: LimitRate.TimeUnit
+  fullName: Inetlab.SMPP.Common.LimitRate.TimeUnit
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Inetlab.SMPP.Common.LimitRate.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.LimitRate.#ctor
+  name: LimitRate
+  nameWithType: LimitRate.LimitRate
+  fullName: Inetlab.SMPP.Common.LimitRate.LimitRate
+- uid: Inetlab.SMPP.Common.LimitRate
+  commentId: T:Inetlab.SMPP.Common.LimitRate
+  parent: Inetlab.SMPP.Common
+  name: LimitRate
+  nameWithType: LimitRate
+  fullName: Inetlab.SMPP.Common.LimitRate
+- uid: Inetlab.SMPP.Common.LimitRate.Wait*
+  commentId: Overload:Inetlab.SMPP.Common.LimitRate.Wait
+  name: Wait
+  nameWithType: LimitRate.Wait
+  fullName: Inetlab.SMPP.Common.LimitRate.Wait
+- uid: CancellationToken
+  isExternal: true
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: CancellationToken
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: Inetlab.SMPP.Common.LimitRate.op_Implicit*
+  commentId: Overload:Inetlab.SMPP.Common.LimitRate.op_Implicit
+  name: Implicit
+  nameWithType: LimitRate.Implicit
+  fullName: Inetlab.SMPP.Common.LimitRate.Implicit
+  nameWithType.vb: LimitRate.Widening
+  fullName.vb: Inetlab.SMPP.Common.LimitRate.Widening
+  name.vb: Widening
+shouldSkipMarkup: true

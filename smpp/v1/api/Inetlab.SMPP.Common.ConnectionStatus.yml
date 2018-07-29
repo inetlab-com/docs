@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.ConnectionStatus
+  commentId: T:Inetlab.SMPP.Common.ConnectionStatus
+  id: ConnectionStatus
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.ConnectionStatus.Bound
+  - Inetlab.SMPP.Common.ConnectionStatus.Closed
+  - Inetlab.SMPP.Common.ConnectionStatus.Open
+  - Inetlab.SMPP.Common.ConnectionStatus.Outbound
+  langs:
+  - csharp
+  - vb
+  name: ConnectionStatus
+  nameWithType: ConnectionStatus
+  fullName: Inetlab.SMPP.Common.ConnectionStatus
+  type: Enum
+  source:
+    id: ConnectionStatus
+    path: ''
+    startLine: 3978
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClient connection status\n"
+  example: []
+  syntax:
+    content: public enum ConnectionStatus
+    content.vb: Public Enum ConnectionStatus
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.ConnectionStatus.Closed
+  commentId: F:Inetlab.SMPP.Common.ConnectionStatus.Closed
+  id: Closed
+  parent: Inetlab.SMPP.Common.ConnectionStatus
+  langs:
+  - csharp
+  - vb
+  name: Closed
+  nameWithType: ConnectionStatus.Closed
+  fullName: Inetlab.SMPP.Common.ConnectionStatus.Closed
+  type: Field
+  source:
+    id: Closed
+    path: ''
+    startLine: 3983
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nConnection closed\n"
+  example: []
+  syntax:
+    content: Closed = 0
+    return:
+      type: Inetlab.SMPP.Common.ConnectionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.ConnectionStatus.Open
+  commentId: F:Inetlab.SMPP.Common.ConnectionStatus.Open
+  id: Open
+  parent: Inetlab.SMPP.Common.ConnectionStatus
+  langs:
+  - csharp
+  - vb
+  name: Open
+  nameWithType: ConnectionStatus.Open
+  fullName: Inetlab.SMPP.Common.ConnectionStatus.Open
+  type: Field
+  source:
+    id: Open
+    path: ''
+    startLine: 3987
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClient connected, but not bound\n"
+  example: []
+  syntax:
+    content: Open = 1
+    return:
+      type: Inetlab.SMPP.Common.ConnectionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.ConnectionStatus.Bound
+  commentId: F:Inetlab.SMPP.Common.ConnectionStatus.Bound
+  id: Bound
+  parent: Inetlab.SMPP.Common.ConnectionStatus
+  langs:
+  - csharp
+  - vb
+  name: Bound
+  nameWithType: ConnectionStatus.Bound
+  fullName: Inetlab.SMPP.Common.ConnectionStatus.Bound
+  type: Field
+  source:
+    id: Bound
+    path: ''
+    startLine: 3991
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClient bound\n"
+  example: []
+  syntax:
+    content: Bound = 2
+    return:
+      type: Inetlab.SMPP.Common.ConnectionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.ConnectionStatus.Outbound
+  commentId: F:Inetlab.SMPP.Common.ConnectionStatus.Outbound
+  id: Outbound
+  parent: Inetlab.SMPP.Common.ConnectionStatus
+  langs:
+  - csharp
+  - vb
+  name: Outbound
+  nameWithType: ConnectionStatus.Outbound
+  fullName: Inetlab.SMPP.Common.ConnectionStatus.Outbound
+  type: Field
+  source:
+    id: Outbound
+    path: ''
+    startLine: 3995
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMC initiates SMPP session\n"
+  example: []
+  syntax:
+    content: Outbound = 3
+    return:
+      type: Inetlab.SMPP.Common.ConnectionStatus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.ConnectionStatus
+  commentId: T:Inetlab.SMPP.Common.ConnectionStatus
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: ConnectionStatus
+  nameWithType: ConnectionStatus
+  fullName: Inetlab.SMPP.Common.ConnectionStatus
+shouldSkipMarkup: true

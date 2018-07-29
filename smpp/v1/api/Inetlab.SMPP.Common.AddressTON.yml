@@ -1,0 +1,248 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.AddressTON
+  commentId: T:Inetlab.SMPP.Common.AddressTON
+  id: AddressTON
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.AddressTON.Abbreviated
+  - Inetlab.SMPP.Common.AddressTON.Alphanumeric
+  - Inetlab.SMPP.Common.AddressTON.International
+  - Inetlab.SMPP.Common.AddressTON.National
+  - Inetlab.SMPP.Common.AddressTON.NetworkSpecific
+  - Inetlab.SMPP.Common.AddressTON.SubscriberNumber
+  - Inetlab.SMPP.Common.AddressTON.Unknown
+  langs:
+  - csharp
+  - vb
+  name: AddressTON
+  nameWithType: AddressTON
+  fullName: Inetlab.SMPP.Common.AddressTON
+  type: Enum
+  source:
+    id: AddressTON
+    path: ''
+    startLine: 3187
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public enum AddressTON : byte'
+    content.vb: Public Enum AddressTON As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.AddressTON.Unknown
+  commentId: F:Inetlab.SMPP.Common.AddressTON.Unknown
+  id: Unknown
+  parent: Inetlab.SMPP.Common.AddressTON
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: AddressTON.Unknown
+  fullName: Inetlab.SMPP.Common.AddressTON.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 3189
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Inetlab.SMPP.Common.AddressTON
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressTON.International
+  commentId: F:Inetlab.SMPP.Common.AddressTON.International
+  id: International
+  parent: Inetlab.SMPP.Common.AddressTON
+  langs:
+  - csharp
+  - vb
+  name: International
+  nameWithType: AddressTON.International
+  fullName: Inetlab.SMPP.Common.AddressTON.International
+  type: Field
+  source:
+    id: International
+    path: ''
+    startLine: 3190
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: International = 1
+    return:
+      type: Inetlab.SMPP.Common.AddressTON
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressTON.National
+  commentId: F:Inetlab.SMPP.Common.AddressTON.National
+  id: National
+  parent: Inetlab.SMPP.Common.AddressTON
+  langs:
+  - csharp
+  - vb
+  name: National
+  nameWithType: AddressTON.National
+  fullName: Inetlab.SMPP.Common.AddressTON.National
+  type: Field
+  source:
+    id: National
+    path: ''
+    startLine: 3191
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: National = 2
+    return:
+      type: Inetlab.SMPP.Common.AddressTON
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressTON.NetworkSpecific
+  commentId: F:Inetlab.SMPP.Common.AddressTON.NetworkSpecific
+  id: NetworkSpecific
+  parent: Inetlab.SMPP.Common.AddressTON
+  langs:
+  - csharp
+  - vb
+  name: NetworkSpecific
+  nameWithType: AddressTON.NetworkSpecific
+  fullName: Inetlab.SMPP.Common.AddressTON.NetworkSpecific
+  type: Field
+  source:
+    id: NetworkSpecific
+    path: ''
+    startLine: 3192
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: NetworkSpecific = 3
+    return:
+      type: Inetlab.SMPP.Common.AddressTON
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressTON.SubscriberNumber
+  commentId: F:Inetlab.SMPP.Common.AddressTON.SubscriberNumber
+  id: SubscriberNumber
+  parent: Inetlab.SMPP.Common.AddressTON
+  langs:
+  - csharp
+  - vb
+  name: SubscriberNumber
+  nameWithType: AddressTON.SubscriberNumber
+  fullName: Inetlab.SMPP.Common.AddressTON.SubscriberNumber
+  type: Field
+  source:
+    id: SubscriberNumber
+    path: ''
+    startLine: 3193
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SubscriberNumber = 4
+    return:
+      type: Inetlab.SMPP.Common.AddressTON
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressTON.Alphanumeric
+  commentId: F:Inetlab.SMPP.Common.AddressTON.Alphanumeric
+  id: Alphanumeric
+  parent: Inetlab.SMPP.Common.AddressTON
+  langs:
+  - csharp
+  - vb
+  name: Alphanumeric
+  nameWithType: AddressTON.Alphanumeric
+  fullName: Inetlab.SMPP.Common.AddressTON.Alphanumeric
+  type: Field
+  source:
+    id: Alphanumeric
+    path: ''
+    startLine: 3194
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Alphanumeric = 5
+    return:
+      type: Inetlab.SMPP.Common.AddressTON
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressTON.Abbreviated
+  commentId: F:Inetlab.SMPP.Common.AddressTON.Abbreviated
+  id: Abbreviated
+  parent: Inetlab.SMPP.Common.AddressTON
+  langs:
+  - csharp
+  - vb
+  name: Abbreviated
+  nameWithType: AddressTON.Abbreviated
+  fullName: Inetlab.SMPP.Common.AddressTON.Abbreviated
+  type: Field
+  source:
+    id: Abbreviated
+    path: ''
+    startLine: 3195
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Abbreviated = 6
+    return:
+      type: Inetlab.SMPP.Common.AddressTON
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.AddressTON
+  commentId: T:Inetlab.SMPP.Common.AddressTON
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: AddressTON
+  nameWithType: AddressTON
+  fullName: Inetlab.SMPP.Common.AddressTON
+shouldSkipMarkup: true

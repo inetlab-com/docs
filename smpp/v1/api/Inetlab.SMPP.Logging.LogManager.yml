@@ -1,0 +1,153 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Logging.LogManager
+  commentId: T:Inetlab.SMPP.Logging.LogManager
+  id: LogManager
+  parent: Inetlab.SMPP.Logging
+  children:
+  - Inetlab.SMPP.Logging.LogManager.GetLogger(System.String)
+  - Inetlab.SMPP.Logging.LogManager.SetLoggerFactory(Inetlab.SMPP.Logging.GetLoggerDelegate)
+  langs:
+  - csharp
+  - vb
+  name: LogManager
+  nameWithType: LogManager
+  fullName: Inetlab.SMPP.Logging.LogManager
+  type: Class
+  source:
+    id: LogManager
+    path: ''
+    startLine: 13932
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static class LogManager
+    content.vb: Public Module LogManager
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Inetlab.SMPP.Logging.LogManager.GetLogger(System.String)
+  commentId: M:Inetlab.SMPP.Logging.LogManager.GetLogger(System.String)
+  id: GetLogger(System.String)
+  parent: Inetlab.SMPP.Logging.LogManager
+  langs:
+  - csharp
+  - vb
+  name: GetLogger(String)
+  nameWithType: LogManager.GetLogger(String)
+  fullName: Inetlab.SMPP.Logging.LogManager.GetLogger(System.String)
+  type: Method
+  source:
+    id: GetLogger
+    path: ''
+    startLine: 13945
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static ILog GetLogger(string loggerName)
+    parameters:
+    - id: loggerName
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Logging.ILog
+    content.vb: Public Shared Function GetLogger(loggerName As String) As ILog
+  overload: Inetlab.SMPP.Logging.LogManager.GetLogger*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.Logging.LogManager.SetLoggerFactory(Inetlab.SMPP.Logging.GetLoggerDelegate)
+  commentId: M:Inetlab.SMPP.Logging.LogManager.SetLoggerFactory(Inetlab.SMPP.Logging.GetLoggerDelegate)
+  id: SetLoggerFactory(Inetlab.SMPP.Logging.GetLoggerDelegate)
+  parent: Inetlab.SMPP.Logging.LogManager
+  langs:
+  - csharp
+  - vb
+  name: SetLoggerFactory(GetLoggerDelegate)
+  nameWithType: LogManager.SetLoggerFactory(GetLoggerDelegate)
+  fullName: Inetlab.SMPP.Logging.LogManager.SetLoggerFactory(Inetlab.SMPP.Logging.GetLoggerDelegate)
+  type: Method
+  source:
+    id: SetLoggerFactory
+    path: ''
+    startLine: 13952
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void SetLoggerFactory(GetLoggerDelegate getLogger)
+    parameters:
+    - id: getLogger
+      type: Inetlab.SMPP.Logging.GetLoggerDelegate
+    content.vb: Public Shared Sub SetLoggerFactory(getLogger As GetLoggerDelegate)
+  overload: Inetlab.SMPP.Logging.LogManager.SetLoggerFactory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  isExternal: false
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Logging.LogManager.GetLogger*
+  commentId: Overload:Inetlab.SMPP.Logging.LogManager.GetLogger
+  isExternal: false
+  name: GetLogger
+  nameWithType: LogManager.GetLogger
+  fullName: Inetlab.SMPP.Logging.LogManager.GetLogger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Logging.ILog
+  commentId: T:Inetlab.SMPP.Logging.ILog
+  parent: Inetlab.SMPP.Logging
+  isExternal: false
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.SMPP.Logging.ILog
+- uid: Inetlab.SMPP.Logging.LogManager.SetLoggerFactory*
+  commentId: Overload:Inetlab.SMPP.Logging.LogManager.SetLoggerFactory
+  isExternal: false
+  name: SetLoggerFactory
+  nameWithType: LogManager.SetLoggerFactory
+  fullName: Inetlab.SMPP.Logging.LogManager.SetLoggerFactory
+- uid: Inetlab.SMPP.Logging.GetLoggerDelegate
+  commentId: T:Inetlab.SMPP.Logging.GetLoggerDelegate
+  parent: Inetlab.SMPP.Logging
+  isExternal: false
+  name: GetLoggerDelegate
+  nameWithType: GetLoggerDelegate
+  fullName: Inetlab.SMPP.Logging.GetLoggerDelegate
+shouldSkipMarkup: true

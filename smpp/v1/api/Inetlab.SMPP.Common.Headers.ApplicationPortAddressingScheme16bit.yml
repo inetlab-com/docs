@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit
+  commentId: T:Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit
+  id: ApplicationPortAddressingScheme16bit
+  parent: Inetlab.SMPP.Common.Headers
+  children:
+  - Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor
+  - Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor(System.UInt16,System.UInt16)
+  - Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.DestinationPort
+  - Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.OriginatorPort
+  langs:
+  - csharp
+  - vb
+  name: ApplicationPortAddressingScheme16bit
+  nameWithType: ApplicationPortAddressingScheme16bit
+  fullName: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit
+  type: Class
+  source:
+    id: ApplicationPortAddressingScheme16bit
+    path: ''
+    startLine: 11925
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: 'public class ApplicationPortAddressingScheme16bit : UserDataHeader'
+    content.vb: >-
+      Public Class ApplicationPortAddressingScheme16bit
+          Inherits UserDataHeader
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.Common.UserDataHeader
+  inheritedMembers:
+  - Inetlab.SMPP.Common.UserDataHeader.IEI
+  - Inetlab.SMPP.Common.UserDataHeader.Data
+  - Inetlab.SMPP.Common.UserDataHeader.Length
+  - Inetlab.SMPP.Common.UserDataHeader.Clone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor
+  commentId: M:Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit
+  langs:
+  - csharp
+  - vb
+  name: ApplicationPortAddressingScheme16bit()
+  nameWithType: ApplicationPortAddressingScheme16bit.ApplicationPortAddressingScheme16bit()
+  fullName: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.ApplicationPortAddressingScheme16bit()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 11927
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: public ApplicationPortAddressingScheme16bit()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor(System.UInt16,System.UInt16)
+  commentId: M:Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor(System.UInt16,System.UInt16)
+  id: '#ctor(System.UInt16,System.UInt16)'
+  parent: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit
+  langs:
+  - csharp
+  - vb
+  name: ApplicationPortAddressingScheme16bit(UInt16, UInt16)
+  nameWithType: ApplicationPortAddressingScheme16bit.ApplicationPortAddressingScheme16bit(UInt16, UInt16)
+  fullName: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.ApplicationPortAddressingScheme16bit(System.UInt16, System.UInt16)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 11933
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: public ApplicationPortAddressingScheme16bit(ushort destPort, ushort origPort)
+    parameters:
+    - id: destPort
+      type: System.UInt16
+    - id: origPort
+      type: System.UInt16
+    content.vb: Public Sub New(destPort As UShort, origPort As UShort)
+  overload: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.DestinationPort
+  commentId: P:Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.DestinationPort
+  id: DestinationPort
+  parent: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit
+  langs:
+  - csharp
+  - vb
+  name: DestinationPort
+  nameWithType: ApplicationPortAddressingScheme16bit.DestinationPort
+  fullName: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.DestinationPort
+  type: Property
+  source:
+    id: DestinationPort
+    path: ''
+    startLine: 11943
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  summary: "\nDestination Port.\n"
+  example: []
+  syntax:
+    content: public ushort DestinationPort { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property DestinationPort As UShort
+  overload: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.DestinationPort*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.OriginatorPort
+  commentId: P:Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.OriginatorPort
+  id: OriginatorPort
+  parent: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit
+  langs:
+  - csharp
+  - vb
+  name: OriginatorPort
+  nameWithType: ApplicationPortAddressingScheme16bit.OriginatorPort
+  fullName: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.OriginatorPort
+  type: Property
+  source:
+    id: OriginatorPort
+    path: ''
+    startLine: 11952
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  summary: "\nOriginator Port.\n"
+  example: []
+  syntax:
+    content: public ushort OriginatorPort { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property OriginatorPort As UShort
+  overload: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.OriginatorPort*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common.Headers
+  commentId: N:Inetlab.SMPP.Common.Headers
+  isExternal: false
+  name: Inetlab.SMPP.Common.Headers
+  nameWithType: Inetlab.SMPP.Common.Headers
+  fullName: Inetlab.SMPP.Common.Headers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.UserDataHeader
+  commentId: T:Inetlab.SMPP.Common.UserDataHeader
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: UserDataHeader
+  nameWithType: UserDataHeader
+  fullName: Inetlab.SMPP.Common.UserDataHeader
+- uid: Inetlab.SMPP.Common.UserDataHeader.IEI
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.IEI
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  isExternal: false
+  name: IEI
+  nameWithType: UserDataHeader.IEI
+  fullName: Inetlab.SMPP.Common.UserDataHeader.IEI
+- uid: Inetlab.SMPP.Common.UserDataHeader.Data
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.Data
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  isExternal: false
+  name: Data
+  nameWithType: UserDataHeader.Data
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Data
+- uid: Inetlab.SMPP.Common.UserDataHeader.Length
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.Length
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  isExternal: false
+  name: Length
+  nameWithType: UserDataHeader.Length
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Length
+- uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+  commentId: M:Inetlab.SMPP.Common.UserDataHeader.Clone
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  isExternal: false
+  name: Clone()
+  nameWithType: UserDataHeader.Clone()
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Clone()
+  spec.csharp:
+  - uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+    name: Clone
+    nameWithType: UserDataHeader.Clone
+    fullName: Inetlab.SMPP.Common.UserDataHeader.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+    name: Clone
+    nameWithType: UserDataHeader.Clone
+    fullName: Inetlab.SMPP.Common.UserDataHeader.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.#ctor
+  isExternal: false
+  name: ApplicationPortAddressingScheme16bit
+  nameWithType: ApplicationPortAddressingScheme16bit.ApplicationPortAddressingScheme16bit
+  fullName: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.ApplicationPortAddressingScheme16bit
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.DestinationPort*
+  commentId: Overload:Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.DestinationPort
+  isExternal: false
+  name: DestinationPort
+  nameWithType: ApplicationPortAddressingScheme16bit.DestinationPort
+  fullName: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.DestinationPort
+- uid: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.OriginatorPort*
+  commentId: Overload:Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.OriginatorPort
+  isExternal: false
+  name: OriginatorPort
+  nameWithType: ApplicationPortAddressingScheme16bit.OriginatorPort
+  fullName: Inetlab.SMPP.Common.Headers.ApplicationPortAddressingScheme16bit.OriginatorPort
+shouldSkipMarkup: true

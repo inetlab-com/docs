@@ -1,0 +1,138 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  commentId: T:Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  id: SMSCDeliveryReceipt
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SMSCDeliveryReceipt.Failure
+  - Inetlab.SMPP.Common.SMSCDeliveryReceipt.NotRequested
+  - Inetlab.SMPP.Common.SMSCDeliveryReceipt.SuccessOrFailure
+  langs:
+  - csharp
+  - vb
+  name: SMSCDeliveryReceipt
+  nameWithType: SMSCDeliveryReceipt
+  fullName: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  type: Enum
+  source:
+    id: SMSCDeliveryReceipt
+    path: ''
+    startLine: 11671
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMSC Delivery Receipt (bits 1 and 0 of registered_delivery)\n"
+  example: []
+  syntax:
+    content: 'public enum SMSCDeliveryReceipt : byte'
+    content.vb: Public Enum SMSCDeliveryReceipt As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.SMSCDeliveryReceipt.NotRequested
+  commentId: F:Inetlab.SMPP.Common.SMSCDeliveryReceipt.NotRequested
+  id: NotRequested
+  parent: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  langs:
+  - csharp
+  - vb
+  name: NotRequested
+  nameWithType: SMSCDeliveryReceipt.NotRequested
+  fullName: Inetlab.SMPP.Common.SMSCDeliveryReceipt.NotRequested
+  type: Field
+  source:
+    id: NotRequested
+    path: ''
+    startLine: 11676
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNo SMSC Delivery Receipt requested (default)\n"
+  example: []
+  syntax:
+    content: NotRequested = 0
+    return:
+      type: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.SMSCDeliveryReceipt.SuccessOrFailure
+  commentId: F:Inetlab.SMPP.Common.SMSCDeliveryReceipt.SuccessOrFailure
+  id: SuccessOrFailure
+  parent: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  langs:
+  - csharp
+  - vb
+  name: SuccessOrFailure
+  nameWithType: SMSCDeliveryReceipt.SuccessOrFailure
+  fullName: Inetlab.SMPP.Common.SMSCDeliveryReceipt.SuccessOrFailure
+  type: Field
+  source:
+    id: SuccessOrFailure
+    path: ''
+    startLine: 11680
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMSC Delivery Receipt requested where final delivery outcome is delivery success or failure\n"
+  example: []
+  syntax:
+    content: SuccessOrFailure = 1
+    return:
+      type: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.SMSCDeliveryReceipt.Failure
+  commentId: F:Inetlab.SMPP.Common.SMSCDeliveryReceipt.Failure
+  id: Failure
+  parent: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  langs:
+  - csharp
+  - vb
+  name: Failure
+  nameWithType: SMSCDeliveryReceipt.Failure
+  fullName: Inetlab.SMPP.Common.SMSCDeliveryReceipt.Failure
+  type: Field
+  source:
+    id: Failure
+    path: ''
+    startLine: 11684
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMSC Delivery Receipt requested where the final delivery outcome is delivery failure\n"
+  example: []
+  syntax:
+    content: Failure = 2
+    return:
+      type: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  commentId: T:Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  parent: Inetlab.SMPP.Common
+  name: SMSCDeliveryReceipt
+  nameWithType: SMSCDeliveryReceipt
+  fullName: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+shouldSkipMarkup: true

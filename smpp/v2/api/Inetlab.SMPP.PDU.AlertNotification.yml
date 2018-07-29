@@ -1,0 +1,439 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.AlertNotification
+  commentId: T:Inetlab.SMPP.PDU.AlertNotification
+  id: AlertNotification
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.AlertNotification.#ctor
+  - Inetlab.SMPP.PDU.AlertNotification.#ctor(SmppHeader)
+  - Inetlab.SMPP.PDU.AlertNotification.EsmeAddress
+  - Inetlab.SMPP.PDU.AlertNotification.Optional
+  - Inetlab.SMPP.PDU.AlertNotification.SourceAddress
+  langs:
+  - csharp
+  - vb
+  name: AlertNotification
+  nameWithType: AlertNotification
+  fullName: Inetlab.SMPP.PDU.AlertNotification
+  type: Class
+  source:
+    id: AlertNotification
+    path: ''
+    startLine: 15105
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nThis message is sent by the SMSC to the ESME, when the SMSC has detected that a particular\nmobile subscriber has become available and a delivery pending flag <see cref=\"!:DPF\"></see> had been set for that\nsubscriber from a previous <xref href=\"Inetlab.SMPP.PDU.DataSm\" data-throw-if-not-resolved=\"false\"></xref> operation\n"
+  example: []
+  syntax:
+    content: 'public class AlertNotification : SmppRequest'
+    content.vb: >-
+      Public Class AlertNotification
+          Inherits SmppRequest
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.PDU.SmppPDU
+  - Inetlab.SMPP.PDU.SmppRequest
+  inheritedMembers:
+  - Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  - Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  - Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  - Inetlab.SMPP.PDU.SmppRequest.ToString
+  - Inetlab.SMPP.PDU.SmppPDU.Header
+  - Inetlab.SMPP.PDU.SmppPDU.Client
+  - Inetlab.SMPP.PDU.SmppPDU.Tag
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.PDU.AlertNotification.#ctor
+  commentId: M:Inetlab.SMPP.PDU.AlertNotification.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: AlertNotification()
+  nameWithType: AlertNotification.AlertNotification()
+  fullName: Inetlab.SMPP.PDU.AlertNotification.AlertNotification()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15107
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public AlertNotification()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.PDU.AlertNotification.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.AlertNotification.#ctor(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.AlertNotification.#ctor(SmppHeader)
+  id: '#ctor(SmppHeader)'
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: AlertNotification(SmppHeader)
+  nameWithType: AlertNotification.AlertNotification(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.AlertNotification.AlertNotification(SmppHeader)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15111
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public AlertNotification(SmppHeader header)
+    parameters:
+    - id: header
+      type: SmppHeader
+    content.vb: Public Sub New(header As SmppHeader)
+  overload: Inetlab.SMPP.PDU.AlertNotification.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.AlertNotification.SourceAddress
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.SourceAddress
+  id: SourceAddress
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: SourceAddress
+  nameWithType: AlertNotification.SourceAddress
+  fullName: Inetlab.SMPP.PDU.AlertNotification.SourceAddress
+  type: Property
+  source:
+    id: SourceAddress
+    path: ''
+    startLine: 15119
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nAddress of MS which has become available.\n"
+  example: []
+  syntax:
+    content: public SmeAddress SourceAddress { get; set; }
+    parameters: []
+    return:
+      type: SmeAddress
+    content.vb: Public Property SourceAddress As SmeAddress
+  overload: Inetlab.SMPP.PDU.AlertNotification.SourceAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.AlertNotification.EsmeAddress
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.EsmeAddress
+  id: EsmeAddress
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: EsmeAddress
+  nameWithType: AlertNotification.EsmeAddress
+  fullName: Inetlab.SMPP.PDU.AlertNotification.EsmeAddress
+  type: Property
+  source:
+    id: EsmeAddress
+    path: ''
+    startLine: 15124
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nAddress of ESME which requested an alert on a particular MS becoming available.\n"
+  example: []
+  syntax:
+    content: public SmeAddress EsmeAddress { get; set; }
+    parameters: []
+    return:
+      type: SmeAddress
+    content.vb: Public Property EsmeAddress As SmeAddress
+  overload: Inetlab.SMPP.PDU.AlertNotification.EsmeAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.AlertNotification.Optional
+  commentId: P:Inetlab.SMPP.PDU.AlertNotification.Optional
+  id: Optional
+  parent: Inetlab.SMPP.PDU.AlertNotification
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: AlertNotification.Optional
+  fullName: Inetlab.SMPP.PDU.AlertNotification.Optional
+  type: Property
+  source:
+    id: Optional
+    path: ''
+    startLine: 15126
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public TLVCollection Optional { get; }
+    parameters: []
+    return:
+      type: TLVCollection
+    content.vb: Public ReadOnly Property Optional As TLVCollection
+  overload: Inetlab.SMPP.PDU.AlertNotification.Optional*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Inetlab.SMPP.PDU.DataSm
+  commentId: T:Inetlab.SMPP.PDU.DataSm
+  parent: Inetlab.SMPP.PDU
+  name: DataSm
+  nameWithType: DataSm
+  fullName: Inetlab.SMPP.PDU.DataSm
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU.SmppRequest
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest
+  parent: Inetlab.SMPP.PDU
+  name: SmppRequest
+  nameWithType: SmppRequest
+  fullName: Inetlab.SMPP.PDU.SmppRequest
+- uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: CreatePDU(SmppHeader)
+  nameWithType: SmppRequest.CreatePDU(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+    name: CreatePDU
+    nameWithType: SmppRequest.CreatePDU
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+    name: CreatePDU
+    nameWithType: SmppRequest.CreatePDU
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: CreateResponseHeader(SmppHeader)
+  nameWithType: SmppRequest.CreateResponseHeader(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+    name: CreateResponseHeader
+    nameWithType: SmppRequest.CreateResponseHeader
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+    name: CreateResponseHeader
+    nameWithType: SmppRequest.CreateResponseHeader
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: GetResponseCommand(CommandSet)
+  nameWithType: SmppRequest.GetResponseCommand(CommandSet)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+    name: GetResponseCommand
+    nameWithType: SmppRequest.GetResponseCommand
+    fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CommandSet
+    name: CommandSet
+    nameWithType: CommandSet
+    fullName: CommandSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+    name: GetResponseCommand
+    nameWithType: SmppRequest.GetResponseCommand
+    fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CommandSet
+    name: CommandSet
+    nameWithType: CommandSet
+    fullName: CommandSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.ToString
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  name: ToString()
+  nameWithType: SmppRequest.ToString()
+  fullName: Inetlab.SMPP.PDU.SmppRequest.ToString()
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+    name: ToString
+    nameWithType: SmppRequest.ToString
+    fullName: Inetlab.SMPP.PDU.SmppRequest.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+    name: ToString
+    nameWithType: SmppRequest.ToString
+    fullName: Inetlab.SMPP.PDU.SmppRequest.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppPDU.Header
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Header
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Header
+  nameWithType: SmppPDU.Header
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Header
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Client
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Tag
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.AlertNotification.#ctor*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.#ctor
+  name: AlertNotification
+  nameWithType: AlertNotification.AlertNotification
+  fullName: Inetlab.SMPP.PDU.AlertNotification.AlertNotification
+- uid: SmppHeader
+  isExternal: true
+  name: SmppHeader
+  nameWithType: SmppHeader
+  fullName: SmppHeader
+- uid: Inetlab.SMPP.PDU.AlertNotification.SourceAddress*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.SourceAddress
+  name: SourceAddress
+  nameWithType: AlertNotification.SourceAddress
+  fullName: Inetlab.SMPP.PDU.AlertNotification.SourceAddress
+- uid: SmeAddress
+  isExternal: true
+  name: SmeAddress
+  nameWithType: SmeAddress
+  fullName: SmeAddress
+- uid: Inetlab.SMPP.PDU.AlertNotification.EsmeAddress*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.EsmeAddress
+  name: EsmeAddress
+  nameWithType: AlertNotification.EsmeAddress
+  fullName: Inetlab.SMPP.PDU.AlertNotification.EsmeAddress
+- uid: Inetlab.SMPP.PDU.AlertNotification.Optional*
+  commentId: Overload:Inetlab.SMPP.PDU.AlertNotification.Optional
+  name: Optional
+  nameWithType: AlertNotification.Optional
+  fullName: Inetlab.SMPP.PDU.AlertNotification.Optional
+- uid: TLVCollection
+  isExternal: true
+  name: TLVCollection
+  nameWithType: TLVCollection
+  fullName: TLVCollection
+shouldSkipMarkup: true

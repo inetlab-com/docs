@@ -1,0 +1,306 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.AddressNPI
+  commentId: T:Inetlab.SMPP.Common.AddressNPI
+  id: AddressNPI
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.AddressNPI.Data
+  - Inetlab.SMPP.Common.AddressNPI.ERMES
+  - Inetlab.SMPP.Common.AddressNPI.IP
+  - Inetlab.SMPP.Common.AddressNPI.ISDN
+  - Inetlab.SMPP.Common.AddressNPI.LandMobile
+  - Inetlab.SMPP.Common.AddressNPI.National
+  - Inetlab.SMPP.Common.AddressNPI.Private
+  - Inetlab.SMPP.Common.AddressNPI.Telex
+  - Inetlab.SMPP.Common.AddressNPI.Unknown
+  langs:
+  - csharp
+  - vb
+  name: AddressNPI
+  nameWithType: AddressNPI
+  fullName: Inetlab.SMPP.Common.AddressNPI
+  type: Enum
+  source:
+    id: AddressNPI
+    path: ''
+    startLine: 3172
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public enum AddressNPI : byte'
+    content.vb: Public Enum AddressNPI As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.AddressNPI.Unknown
+  commentId: F:Inetlab.SMPP.Common.AddressNPI.Unknown
+  id: Unknown
+  parent: Inetlab.SMPP.Common.AddressNPI
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: AddressNPI.Unknown
+  fullName: Inetlab.SMPP.Common.AddressNPI.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 3174
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressNPI.ISDN
+  commentId: F:Inetlab.SMPP.Common.AddressNPI.ISDN
+  id: ISDN
+  parent: Inetlab.SMPP.Common.AddressNPI
+  langs:
+  - csharp
+  - vb
+  name: ISDN
+  nameWithType: AddressNPI.ISDN
+  fullName: Inetlab.SMPP.Common.AddressNPI.ISDN
+  type: Field
+  source:
+    id: ISDN
+    path: ''
+    startLine: 3175
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: ISDN = 1
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressNPI.Data
+  commentId: F:Inetlab.SMPP.Common.AddressNPI.Data
+  id: Data
+  parent: Inetlab.SMPP.Common.AddressNPI
+  langs:
+  - csharp
+  - vb
+  name: Data
+  nameWithType: AddressNPI.Data
+  fullName: Inetlab.SMPP.Common.AddressNPI.Data
+  type: Field
+  source:
+    id: Data
+    path: ''
+    startLine: 3176
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Data = 3
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressNPI.Telex
+  commentId: F:Inetlab.SMPP.Common.AddressNPI.Telex
+  id: Telex
+  parent: Inetlab.SMPP.Common.AddressNPI
+  langs:
+  - csharp
+  - vb
+  name: Telex
+  nameWithType: AddressNPI.Telex
+  fullName: Inetlab.SMPP.Common.AddressNPI.Telex
+  type: Field
+  source:
+    id: Telex
+    path: ''
+    startLine: 3177
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Telex = 4
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressNPI.LandMobile
+  commentId: F:Inetlab.SMPP.Common.AddressNPI.LandMobile
+  id: LandMobile
+  parent: Inetlab.SMPP.Common.AddressNPI
+  langs:
+  - csharp
+  - vb
+  name: LandMobile
+  nameWithType: AddressNPI.LandMobile
+  fullName: Inetlab.SMPP.Common.AddressNPI.LandMobile
+  type: Field
+  source:
+    id: LandMobile
+    path: ''
+    startLine: 3178
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: LandMobile = 6
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressNPI.National
+  commentId: F:Inetlab.SMPP.Common.AddressNPI.National
+  id: National
+  parent: Inetlab.SMPP.Common.AddressNPI
+  langs:
+  - csharp
+  - vb
+  name: National
+  nameWithType: AddressNPI.National
+  fullName: Inetlab.SMPP.Common.AddressNPI.National
+  type: Field
+  source:
+    id: National
+    path: ''
+    startLine: 3179
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: National = 8
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressNPI.Private
+  commentId: F:Inetlab.SMPP.Common.AddressNPI.Private
+  id: Private
+  parent: Inetlab.SMPP.Common.AddressNPI
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: AddressNPI.Private
+  fullName: Inetlab.SMPP.Common.AddressNPI.Private
+  type: Field
+  source:
+    id: Private
+    path: ''
+    startLine: 3180
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Private = 9
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressNPI.ERMES
+  commentId: F:Inetlab.SMPP.Common.AddressNPI.ERMES
+  id: ERMES
+  parent: Inetlab.SMPP.Common.AddressNPI
+  langs:
+  - csharp
+  - vb
+  name: ERMES
+  nameWithType: AddressNPI.ERMES
+  fullName: Inetlab.SMPP.Common.AddressNPI.ERMES
+  type: Field
+  source:
+    id: ERMES
+    path: ''
+    startLine: 3181
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: ERMES = 10
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.AddressNPI.IP
+  commentId: F:Inetlab.SMPP.Common.AddressNPI.IP
+  id: IP
+  parent: Inetlab.SMPP.Common.AddressNPI
+  langs:
+  - csharp
+  - vb
+  name: IP
+  nameWithType: AddressNPI.IP
+  fullName: Inetlab.SMPP.Common.AddressNPI.IP
+  type: Field
+  source:
+    id: IP
+    path: ''
+    startLine: 3182
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: IP = 14
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.AddressNPI
+  commentId: T:Inetlab.SMPP.Common.AddressNPI
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: AddressNPI
+  nameWithType: AddressNPI
+  fullName: Inetlab.SMPP.Common.AddressNPI
+shouldSkipMarkup: true

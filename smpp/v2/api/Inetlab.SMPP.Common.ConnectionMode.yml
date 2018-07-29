@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.ConnectionMode
+  commentId: T:Inetlab.SMPP.Common.ConnectionMode
+  id: ConnectionMode
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.ConnectionMode.None
+  - Inetlab.SMPP.Common.ConnectionMode.Receiver
+  - Inetlab.SMPP.Common.ConnectionMode.Transceiver
+  - Inetlab.SMPP.Common.ConnectionMode.Transmitter
+  langs:
+  - csharp
+  - vb
+  name: ConnectionMode
+  nameWithType: ConnectionMode
+  fullName: Inetlab.SMPP.Common.ConnectionMode
+  type: Enum
+  source:
+    id: ConnectionMode
+    path: ''
+    startLine: 5291
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nESME may bind to the SMSC as either a Transmitter (called ESME\nTransmitter), a Receiver (called ESME Receiver) or a Transceiver (called ESME Transceiver).\n"
+  example: []
+  syntax:
+    content: public enum ConnectionMode
+    content.vb: Public Enum ConnectionMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.ConnectionMode.None
+  commentId: F:Inetlab.SMPP.Common.ConnectionMode.None
+  id: None
+  parent: Inetlab.SMPP.Common.ConnectionMode
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: ConnectionMode.None
+  fullName: Inetlab.SMPP.Common.ConnectionMode.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 5296
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nConnection mode not specified.\n"
+  example: []
+  syntax:
+    content: None = 0
+    return:
+      type: Inetlab.SMPP.Common.ConnectionMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.ConnectionMode.Transmitter
+  commentId: F:Inetlab.SMPP.Common.ConnectionMode.Transmitter
+  id: Transmitter
+  parent: Inetlab.SMPP.Common.ConnectionMode
+  langs:
+  - csharp
+  - vb
+  name: Transmitter
+  nameWithType: ConnectionMode.Transmitter
+  fullName: Inetlab.SMPP.Common.ConnectionMode.Transmitter
+  type: Field
+  source:
+    id: Transmitter
+    path: ''
+    startLine: 5301
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nAn ESME bound as a Transmitter is authorised to send short messages to the SMSC and to\nreceive the corresponding SMPP responses from the SMSC.\n"
+  example: []
+  syntax:
+    content: Transmitter = 1
+    return:
+      type: Inetlab.SMPP.Common.ConnectionMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.ConnectionMode.Receiver
+  commentId: F:Inetlab.SMPP.Common.ConnectionMode.Receiver
+  id: Receiver
+  parent: Inetlab.SMPP.Common.ConnectionMode
+  langs:
+  - csharp
+  - vb
+  name: Receiver
+  nameWithType: ConnectionMode.Receiver
+  fullName: Inetlab.SMPP.Common.ConnectionMode.Receiver
+  type: Field
+  source:
+    id: Receiver
+    path: ''
+    startLine: 5306
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nAn ESME bound as a Receiver is authorised to receive short messages from the SMSC and to\nreturn the corresponding SMPP message responses to the SMSC.\n"
+  example: []
+  syntax:
+    content: Receiver = 2
+    return:
+      type: Inetlab.SMPP.Common.ConnectionMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.ConnectionMode.Transceiver
+  commentId: F:Inetlab.SMPP.Common.ConnectionMode.Transceiver
+  id: Transceiver
+  parent: Inetlab.SMPP.Common.ConnectionMode
+  langs:
+  - csharp
+  - vb
+  name: Transceiver
+  nameWithType: ConnectionMode.Transceiver
+  fullName: Inetlab.SMPP.Common.ConnectionMode.Transceiver
+  type: Field
+  source:
+    id: Transceiver
+    path: ''
+    startLine: 5311
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nAn ESME bound as a Transceiver is allowed to send messages to the SMSC and receive\nmessages from the SMSC over a single SMPP session.\n"
+  example: []
+  syntax:
+    content: Transceiver = 3
+    return:
+      type: Inetlab.SMPP.Common.ConnectionMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.ConnectionMode
+  commentId: T:Inetlab.SMPP.Common.ConnectionMode
+  parent: Inetlab.SMPP.Common
+  name: ConnectionMode
+  nameWithType: ConnectionMode
+  fullName: Inetlab.SMPP.Common.ConnectionMode
+shouldSkipMarkup: true

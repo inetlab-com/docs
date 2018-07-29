@@ -1,0 +1,1097 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.DataCodings
+  commentId: T:Inetlab.SMPP.Common.DataCodings
+  id: DataCodings
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.DataCodings.ASCII
+  - Inetlab.SMPP.Common.DataCodings.Class0
+  - Inetlab.SMPP.Common.DataCodings.Class08Bit
+  - Inetlab.SMPP.Common.DataCodings.Class0FlashMessage
+  - Inetlab.SMPP.Common.DataCodings.Class0FlashMessage8bit
+  - Inetlab.SMPP.Common.DataCodings.Class0FlashMessageUCS2
+  - Inetlab.SMPP.Common.DataCodings.Class1
+  - Inetlab.SMPP.Common.DataCodings.Class1ME8Bit
+  - Inetlab.SMPP.Common.DataCodings.Class1MEMessage
+  - Inetlab.SMPP.Common.DataCodings.Class1MEMessage8bit
+  - Inetlab.SMPP.Common.DataCodings.Class1MEMessageUCS2
+  - Inetlab.SMPP.Common.DataCodings.Class1SIM8Bit
+  - Inetlab.SMPP.Common.DataCodings.Class1TE8Bit
+  - Inetlab.SMPP.Common.DataCodings.Class2
+  - Inetlab.SMPP.Common.DataCodings.Class2SIM8Bit
+  - Inetlab.SMPP.Common.DataCodings.Class2SIMMessage
+  - Inetlab.SMPP.Common.DataCodings.Class2SIMMessage8bit
+  - Inetlab.SMPP.Common.DataCodings.Class2SIMMessageUCS2
+  - Inetlab.SMPP.Common.DataCodings.Class3
+  - Inetlab.SMPP.Common.DataCodings.Class3TE8Bit
+  - Inetlab.SMPP.Common.DataCodings.Class3TEMessage
+  - Inetlab.SMPP.Common.DataCodings.Class3TEMessage8bit
+  - Inetlab.SMPP.Common.DataCodings.Class3TEMessageUCS2
+  - Inetlab.SMPP.Common.DataCodings.Cyrllic
+  - Inetlab.SMPP.Common.DataCodings.Default
+  - Inetlab.SMPP.Common.DataCodings.DefaultFlashSMS
+  - Inetlab.SMPP.Common.DataCodings.GroupAutomaticDeletion
+  - Inetlab.SMPP.Common.DataCodings.GroupMessageClass
+  - Inetlab.SMPP.Common.DataCodings.Latin1
+  - Inetlab.SMPP.Common.DataCodings.LatinHebrew
+  - Inetlab.SMPP.Common.DataCodings.Octets
+  - Inetlab.SMPP.Common.DataCodings.OctetUnspecified
+  - Inetlab.SMPP.Common.DataCodings.UCS2
+  - Inetlab.SMPP.Common.DataCodings.UnicodeFlashSMS
+  langs:
+  - csharp
+  - vb
+  name: DataCodings
+  nameWithType: DataCodings
+  fullName: Inetlab.SMPP.Common.DataCodings
+  type: Enum
+  source:
+    id: DataCodings
+    path: ''
+    startLine: 4006
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIndicates the encoding scheme of the short message.\n"
+  example: []
+  syntax:
+    content: 'public enum DataCodings : byte'
+    content.vb: Public Enum DataCodings As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.DataCodings.Default
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Default
+  id: Default
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: DataCodings.Default
+  fullName: Inetlab.SMPP.Common.DataCodings.Default
+  type: Field
+  source:
+    id: Default
+    path: ''
+    startLine: 4012
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMSC Default Alphabet (GSM 7 bit) (0x0)\n"
+  example: []
+  syntax:
+    content: Default = 0
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.ASCII
+  commentId: F:Inetlab.SMPP.Common.DataCodings.ASCII
+  id: ASCII
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: ASCII
+  nameWithType: DataCodings.ASCII
+  fullName: Inetlab.SMPP.Common.DataCodings.ASCII
+  type: Field
+  source:
+    id: ASCII
+    path: ''
+    startLine: 4016
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIA5 (CCITT T.50)/ASCII (ANSI X3.4) (0x1)\n"
+  example: []
+  syntax:
+    content: ASCII = 1
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Octets
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Octets
+  id: Octets
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Octets
+  nameWithType: DataCodings.Octets
+  fullName: Inetlab.SMPP.Common.DataCodings.Octets
+  type: Field
+  source:
+    id: Octets
+    path: ''
+    startLine: 4020
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nOctet unspecified (8-bit binary) (0x2)\n"
+  example: []
+  syntax:
+    content: Octets = 2
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Latin1
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Latin1
+  id: Latin1
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Latin1
+  nameWithType: DataCodings.Latin1
+  fullName: Inetlab.SMPP.Common.DataCodings.Latin1
+  type: Field
+  source:
+    id: Latin1
+    path: ''
+    startLine: 4024
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nLatin 1 (ISO-8859-1) (0x3)\n"
+  example: []
+  syntax:
+    content: Latin1 = 3
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.OctetUnspecified
+  commentId: F:Inetlab.SMPP.Common.DataCodings.OctetUnspecified
+  id: OctetUnspecified
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: OctetUnspecified
+  nameWithType: DataCodings.OctetUnspecified
+  fullName: Inetlab.SMPP.Common.DataCodings.OctetUnspecified
+  type: Field
+  source:
+    id: OctetUnspecified
+    path: ''
+    startLine: 4028
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nOctet unspecified (8-bit binary) (0x4)\n"
+  example: []
+  syntax:
+    content: OctetUnspecified = 4
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Cyrllic
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Cyrllic
+  id: Cyrllic
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Cyrllic
+  nameWithType: DataCodings.Cyrllic
+  fullName: Inetlab.SMPP.Common.DataCodings.Cyrllic
+  type: Field
+  source:
+    id: Cyrllic
+    path: ''
+    startLine: 4032
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCyrllic (ISO-8859-5)(0x6)\n"
+  example: []
+  syntax:
+    content: Cyrllic = 6
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.LatinHebrew
+  commentId: F:Inetlab.SMPP.Common.DataCodings.LatinHebrew
+  id: LatinHebrew
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: LatinHebrew
+  nameWithType: DataCodings.LatinHebrew
+  fullName: Inetlab.SMPP.Common.DataCodings.LatinHebrew
+  type: Field
+  source:
+    id: LatinHebrew
+    path: ''
+    startLine: 4036
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nLatin/Hebrew (ISO-8859-8) (0x7)\n"
+  example: []
+  syntax:
+    content: LatinHebrew = 7
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.UCS2
+  commentId: F:Inetlab.SMPP.Common.DataCodings.UCS2
+  id: UCS2
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: UCS2
+  nameWithType: DataCodings.UCS2
+  fullName: Inetlab.SMPP.Common.DataCodings.UCS2
+  type: Field
+  source:
+    id: UCS2
+    path: ''
+    startLine: 4040
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUCS2 (ISO/IEC-10646) (0x8)\n"
+  example: []
+  syntax:
+    content: UCS2 = 8
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class0FlashMessage
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class0FlashMessage
+  id: Class0FlashMessage
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class0FlashMessage
+  nameWithType: DataCodings.Class0FlashMessage
+  fullName: Inetlab.SMPP.Common.DataCodings.Class0FlashMessage
+  type: Field
+  source:
+    id: Class0FlashMessage
+    path: ''
+    startLine: 4046
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nFlash message (Class 0) (0x10)\n"
+  example: []
+  syntax:
+    content: Class0FlashMessage = 16
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class1MEMessage
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class1MEMessage
+  id: Class1MEMessage
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class1MEMessage
+  nameWithType: DataCodings.Class1MEMessage
+  fullName: Inetlab.SMPP.Common.DataCodings.Class1MEMessage
+  type: Field
+  source:
+    id: Class1MEMessage
+    path: ''
+    startLine: 4051
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nME-specific message (Class 1) (0x11)\n"
+  example: []
+  syntax:
+    content: Class1MEMessage = 17
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class2SIMMessage
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class2SIMMessage
+  id: Class2SIMMessage
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class2SIMMessage
+  nameWithType: DataCodings.Class2SIMMessage
+  fullName: Inetlab.SMPP.Common.DataCodings.Class2SIMMessage
+  type: Field
+  source:
+    id: Class2SIMMessage
+    path: ''
+    startLine: 4056
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIM/USIM-specific message (Class 2) (0x12)\n"
+  example: []
+  syntax:
+    content: Class2SIMMessage = 18
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class3TEMessage
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class3TEMessage
+  id: Class3TEMessage
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class3TEMessage
+  nameWithType: DataCodings.Class3TEMessage
+  fullName: Inetlab.SMPP.Common.DataCodings.Class3TEMessage
+  type: Field
+  source:
+    id: Class3TEMessage
+    path: ''
+    startLine: 4061
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nTE-specific message (Class 3) (0x13)\n"
+  example: []
+  syntax:
+    content: Class3TEMessage = 19
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class0FlashMessage8bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class0FlashMessage8bit
+  id: Class0FlashMessage8bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class0FlashMessage8bit
+  nameWithType: DataCodings.Class0FlashMessage8bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class0FlashMessage8bit
+  type: Field
+  source:
+    id: Class0FlashMessage8bit
+    path: ''
+    startLine: 4067
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nFlash message (Class 0) with 8 bit data (0x14)\n"
+  example: []
+  syntax:
+    content: Class0FlashMessage8bit = 20
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class1MEMessage8bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class1MEMessage8bit
+  id: Class1MEMessage8bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class1MEMessage8bit
+  nameWithType: DataCodings.Class1MEMessage8bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class1MEMessage8bit
+  type: Field
+  source:
+    id: Class1MEMessage8bit
+    path: ''
+    startLine: 4072
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nME-specific message (Class 1) with 8 bit data (0x15)\n"
+  example: []
+  syntax:
+    content: Class1MEMessage8bit = 21
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class2SIMMessage8bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class2SIMMessage8bit
+  id: Class2SIMMessage8bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class2SIMMessage8bit
+  nameWithType: DataCodings.Class2SIMMessage8bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class2SIMMessage8bit
+  type: Field
+  source:
+    id: Class2SIMMessage8bit
+    path: ''
+    startLine: 4077
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIM/USIM-specific message (Class 2) with 8 bit data (0x16)\n"
+  example: []
+  syntax:
+    content: Class2SIMMessage8bit = 22
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class3TEMessage8bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class3TEMessage8bit
+  id: Class3TEMessage8bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class3TEMessage8bit
+  nameWithType: DataCodings.Class3TEMessage8bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class3TEMessage8bit
+  type: Field
+  source:
+    id: Class3TEMessage8bit
+    path: ''
+    startLine: 4082
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nTE-specific message (Class 3) with 8 bit data (0x17)\n"
+  example: []
+  syntax:
+    content: Class3TEMessage8bit = 23
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class0FlashMessageUCS2
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class0FlashMessageUCS2
+  id: Class0FlashMessageUCS2
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class0FlashMessageUCS2
+  nameWithType: DataCodings.Class0FlashMessageUCS2
+  fullName: Inetlab.SMPP.Common.DataCodings.Class0FlashMessageUCS2
+  type: Field
+  source:
+    id: Class0FlashMessageUCS2
+    path: ''
+    startLine: 4089
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nFlash message (Class 0) with UCS2 characters (0x18)\n"
+  example: []
+  syntax:
+    content: Class0FlashMessageUCS2 = 24
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class1MEMessageUCS2
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class1MEMessageUCS2
+  id: Class1MEMessageUCS2
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class1MEMessageUCS2
+  nameWithType: DataCodings.Class1MEMessageUCS2
+  fullName: Inetlab.SMPP.Common.DataCodings.Class1MEMessageUCS2
+  type: Field
+  source:
+    id: Class1MEMessageUCS2
+    path: ''
+    startLine: 4094
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nME-specific message (Class 1) with UCS2 characters  (0x19)\n"
+  example: []
+  syntax:
+    content: Class1MEMessageUCS2 = 25
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class2SIMMessageUCS2
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class2SIMMessageUCS2
+  id: Class2SIMMessageUCS2
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class2SIMMessageUCS2
+  nameWithType: DataCodings.Class2SIMMessageUCS2
+  fullName: Inetlab.SMPP.Common.DataCodings.Class2SIMMessageUCS2
+  type: Field
+  source:
+    id: Class2SIMMessageUCS2
+    path: ''
+    startLine: 4099
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIM/USIM-specific message (Class 2) with UCS2 characters (0x1A)\n"
+  example: []
+  syntax:
+    content: Class2SIMMessageUCS2 = 26
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class3TEMessageUCS2
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class3TEMessageUCS2
+  id: Class3TEMessageUCS2
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class3TEMessageUCS2
+  nameWithType: DataCodings.Class3TEMessageUCS2
+  fullName: Inetlab.SMPP.Common.DataCodings.Class3TEMessageUCS2
+  type: Field
+  source:
+    id: Class3TEMessageUCS2
+    path: ''
+    startLine: 4104
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nTE-specific message (Class 3) with UCS2 characters  (0x1B)\n"
+  example: []
+  syntax:
+    content: Class3TEMessageUCS2 = 27
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class0
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class0
+  id: Class0
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class0
+  nameWithType: DataCodings.Class0
+  fullName: Inetlab.SMPP.Common.DataCodings.Class0
+  type: Field
+  source:
+    id: Class0
+    path: ''
+    startLine: 4112
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage Class 0 (0xF0)\n"
+  example: []
+  syntax:
+    content: Class0 = 240
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class1
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class1
+  id: Class1
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class1
+  nameWithType: DataCodings.Class1
+  fullName: Inetlab.SMPP.Common.DataCodings.Class1
+  type: Field
+  source:
+    id: Class1
+    path: ''
+    startLine: 4116
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage Class 1 (0xF1)\n"
+  example: []
+  syntax:
+    content: Class1 = 241
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class2
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class2
+  id: Class2
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class2
+  nameWithType: DataCodings.Class2
+  fullName: Inetlab.SMPP.Common.DataCodings.Class2
+  type: Field
+  source:
+    id: Class2
+    path: ''
+    startLine: 4120
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage Class 2 (0xF2)\n"
+  example: []
+  syntax:
+    content: Class2 = 242
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class3
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class3
+  id: Class3
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class3
+  nameWithType: DataCodings.Class3
+  fullName: Inetlab.SMPP.Common.DataCodings.Class3
+  type: Field
+  source:
+    id: Class3
+    path: ''
+    startLine: 4124
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage Class 3 (0xF3)\n"
+  example: []
+  syntax:
+    content: Class3 = 243
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class08Bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class08Bit
+  id: Class08Bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class08Bit
+  nameWithType: DataCodings.Class08Bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class08Bit
+  type: Field
+  source:
+    id: Class08Bit
+    path: ''
+    startLine: 4128
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClass 0 Flash message 8bit data (0xF4)\n"
+  example: []
+  syntax:
+    content: Class08Bit = 244
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class1ME8Bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class1ME8Bit
+  id: Class1ME8Bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class1ME8Bit
+  nameWithType: DataCodings.Class1ME8Bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class1ME8Bit
+  type: Field
+  source:
+    id: Class1ME8Bit
+    path: ''
+    startLine: 4132
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClass 1 ME specific 8-bit data (0xF5)\n"
+  example: []
+  syntax:
+    content: Class1ME8Bit = 245
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class2SIM8Bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class2SIM8Bit
+  id: Class2SIM8Bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class2SIM8Bit
+  nameWithType: DataCodings.Class2SIM8Bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class2SIM8Bit
+  type: Field
+  source:
+    id: Class2SIM8Bit
+    path: ''
+    startLine: 4136
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClass 2 SIM specific 8-bit data (0xF6)\n"
+  example: []
+  syntax:
+    content: Class2SIM8Bit = 246
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class3TE8Bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class3TE8Bit
+  id: Class3TE8Bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class3TE8Bit
+  nameWithType: DataCodings.Class3TE8Bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class3TE8Bit
+  type: Field
+  source:
+    id: Class3TE8Bit
+    path: ''
+    startLine: 4140
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClass 3 TE specific 8-bit data (0xF7)\n"
+  example: []
+  syntax:
+    content: Class3TE8Bit = 247
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.GroupAutomaticDeletion
+  commentId: F:Inetlab.SMPP.Common.DataCodings.GroupAutomaticDeletion
+  id: GroupAutomaticDeletion
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: GroupAutomaticDeletion
+  nameWithType: DataCodings.GroupAutomaticDeletion
+  fullName: Inetlab.SMPP.Common.DataCodings.GroupAutomaticDeletion
+  type: Field
+  source:
+    id: GroupAutomaticDeletion
+    path: ''
+    startLine: 4147
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCoding Group: Message Marked for Automatic Deletion\n"
+  example: []
+  syntax:
+    content: GroupAutomaticDeletion = 64
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.GroupMessageClass
+  commentId: F:Inetlab.SMPP.Common.DataCodings.GroupMessageClass
+  id: GroupMessageClass
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: GroupMessageClass
+  nameWithType: DataCodings.GroupMessageClass
+  fullName: Inetlab.SMPP.Common.DataCodings.GroupMessageClass
+  type: Field
+  source:
+    id: GroupMessageClass
+    path: ''
+    startLine: 4152
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCoding Group: Data Coding/Message Class\n"
+  example: []
+  syntax:
+    content: GroupMessageClass = 240
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.DefaultFlashSMS
+  commentId: F:Inetlab.SMPP.Common.DataCodings.DefaultFlashSMS
+  id: DefaultFlashSMS
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: DefaultFlashSMS
+  nameWithType: DataCodings.DefaultFlashSMS
+  fullName: Inetlab.SMPP.Common.DataCodings.DefaultFlashSMS
+  type: Field
+  source:
+    id: DefaultFlashSMS
+    path: ''
+    startLine: 4158
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nFlash SMS with GSM 7 bit charset (0x10)\n"
+  example: []
+  syntax:
+    content: DefaultFlashSMS = 16
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.UnicodeFlashSMS
+  commentId: F:Inetlab.SMPP.Common.DataCodings.UnicodeFlashSMS
+  id: UnicodeFlashSMS
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: UnicodeFlashSMS
+  nameWithType: DataCodings.UnicodeFlashSMS
+  fullName: Inetlab.SMPP.Common.DataCodings.UnicodeFlashSMS
+  type: Field
+  source:
+    id: UnicodeFlashSMS
+    path: ''
+    startLine: 4163
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nFlash SMS with Unicode characters (0x18)\n"
+  example: []
+  syntax:
+    content: UnicodeFlashSMS = 24
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class1SIM8Bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class1SIM8Bit
+  id: Class1SIM8Bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class1SIM8Bit
+  nameWithType: DataCodings.Class1SIM8Bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class1SIM8Bit
+  type: Field
+  source:
+    id: Class1SIM8Bit
+    path: ''
+    startLine: 4165
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Class1SIM8Bit = 246
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.DataCodings.Class1TE8Bit
+  commentId: F:Inetlab.SMPP.Common.DataCodings.Class1TE8Bit
+  id: Class1TE8Bit
+  parent: Inetlab.SMPP.Common.DataCodings
+  langs:
+  - csharp
+  - vb
+  name: Class1TE8Bit
+  nameWithType: DataCodings.Class1TE8Bit
+  fullName: Inetlab.SMPP.Common.DataCodings.Class1TE8Bit
+  type: Field
+  source:
+    id: Class1TE8Bit
+    path: ''
+    startLine: 4168
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Class1TE8Bit = 247
+    return:
+      type: Inetlab.SMPP.Common.DataCodings
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.DataCodings
+  commentId: T:Inetlab.SMPP.Common.DataCodings
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: DataCodings
+  nameWithType: DataCodings
+  fullName: Inetlab.SMPP.Common.DataCodings
+shouldSkipMarkup: true

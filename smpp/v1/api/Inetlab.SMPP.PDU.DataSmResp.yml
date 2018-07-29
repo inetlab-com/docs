@@ -1,0 +1,693 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.DataSmResp
+  commentId: T:Inetlab.SMPP.PDU.DataSmResp
+  id: DataSmResp
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.DataSmResp.#ctor
+  - Inetlab.SMPP.PDU.DataSmResp.#ctor(Inetlab.SMPP.Common.CommandStatus,System.UInt32)
+  - Inetlab.SMPP.PDU.DataSmResp.#ctor(Inetlab.SMPP.PDU.DataSm)
+  - Inetlab.SMPP.PDU.DataSmResp.#ctor(SerializationInfo,StreamingContext)
+  - Inetlab.SMPP.PDU.DataSmResp.Deserialize(System.Byte[])
+  - Inetlab.SMPP.PDU.DataSmResp.MessageId
+  - Inetlab.SMPP.PDU.DataSmResp.Optional
+  - Inetlab.SMPP.PDU.DataSmResp.Serialize(Inetlab.SMPP.PDU.DataSmResp)
+  langs:
+  - csharp
+  - vb
+  name: DataSmResp
+  nameWithType: DataSmResp
+  fullName: Inetlab.SMPP.PDU.DataSmResp
+  type: Class
+  source:
+    id: DataSmResp
+    path: ''
+    startLine: 14980
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nRepresents the response to the data_sm PDU.\n"
+  example: []
+  syntax:
+    content: 'public class DataSmResp : SmppResponse<DataSm>, ISerializable, IOptionalParameters'
+    content.vb: >-
+      Public Class DataSmResp
+          Inherits SmppResponse(Of DataSm)
+          Implements ISerializable, IOptionalParameters
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.PDU.SmppPDU
+  - Inetlab.SMPP.PDU.SmppResponse
+  - Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.DataSm}
+  implements:
+  - ISerializable
+  - IOptionalParameters
+  inheritedMembers:
+  - Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.DataSm}.Request
+  - Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+  - Inetlab.SMPP.PDU.SmppPDU.Length
+  - Inetlab.SMPP.PDU.SmppPDU.Command
+  - Inetlab.SMPP.PDU.SmppPDU.Status
+  - Inetlab.SMPP.PDU.SmppPDU.Sequence
+  - Inetlab.SMPP.PDU.SmppPDU.Client
+  - Inetlab.SMPP.PDU.SmppPDU.Tag
+  - Inetlab.SMPP.PDU.SmppPDU.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.PDU.DataSmResp.MessageId
+  commentId: P:Inetlab.SMPP.PDU.DataSmResp.MessageId
+  id: MessageId
+  parent: Inetlab.SMPP.PDU.DataSmResp
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: DataSmResp.MessageId
+  fullName: Inetlab.SMPP.PDU.DataSmResp.MessageId
+  type: Property
+  source:
+    id: MessageId
+    path: ''
+    startLine: 14986
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nThe unique message identifier reference assigned by the SMSC to each submitted short message.\n"
+  example: []
+  syntax:
+    content: public string MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageId As String
+  overload: Inetlab.SMPP.PDU.DataSmResp.MessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.DataSmResp.Optional
+  commentId: P:Inetlab.SMPP.PDU.DataSmResp.Optional
+  id: Optional
+  parent: Inetlab.SMPP.PDU.DataSmResp
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: DataSmResp.Optional
+  fullName: Inetlab.SMPP.PDU.DataSmResp.Optional
+  type: Property
+  source:
+    id: Optional
+    path: ''
+    startLine: 14991
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nOptional Parameters \n"
+  example: []
+  syntax:
+    content: public TLVCollection Optional { get; set; }
+    parameters: []
+    return:
+      type: TLVCollection
+    content.vb: Public Property Optional As TLVCollection
+  overload: Inetlab.SMPP.PDU.DataSmResp.Optional*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.DataSmResp.#ctor
+  commentId: M:Inetlab.SMPP.PDU.DataSmResp.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.PDU.DataSmResp
+  langs:
+  - csharp
+  - vb
+  name: DataSmResp()
+  nameWithType: DataSmResp.DataSmResp()
+  fullName: Inetlab.SMPP.PDU.DataSmResp.DataSmResp()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14993
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public DataSmResp()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.PDU.DataSmResp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.DataSmResp.#ctor(Inetlab.SMPP.PDU.DataSm)
+  commentId: M:Inetlab.SMPP.PDU.DataSmResp.#ctor(Inetlab.SMPP.PDU.DataSm)
+  id: '#ctor(Inetlab.SMPP.PDU.DataSm)'
+  parent: Inetlab.SMPP.PDU.DataSmResp
+  langs:
+  - csharp
+  - vb
+  name: DataSmResp(DataSm)
+  nameWithType: DataSmResp.DataSmResp(DataSm)
+  fullName: Inetlab.SMPP.PDU.DataSmResp.DataSmResp(Inetlab.SMPP.PDU.DataSm)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14999
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public DataSmResp(DataSm req)
+    parameters:
+    - id: req
+      type: Inetlab.SMPP.PDU.DataSm
+    content.vb: Public Sub New(req As DataSm)
+  overload: Inetlab.SMPP.PDU.DataSmResp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.DataSmResp.#ctor(Inetlab.SMPP.Common.CommandStatus,System.UInt32)
+  commentId: M:Inetlab.SMPP.PDU.DataSmResp.#ctor(Inetlab.SMPP.Common.CommandStatus,System.UInt32)
+  id: '#ctor(Inetlab.SMPP.Common.CommandStatus,System.UInt32)'
+  parent: Inetlab.SMPP.PDU.DataSmResp
+  langs:
+  - csharp
+  - vb
+  name: DataSmResp(CommandStatus, UInt32)
+  nameWithType: DataSmResp.DataSmResp(CommandStatus, UInt32)
+  fullName: Inetlab.SMPP.PDU.DataSmResp.DataSmResp(Inetlab.SMPP.Common.CommandStatus, System.UInt32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15011
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public DataSmResp(CommandStatus status, uint sequence)
+    parameters:
+    - id: status
+      type: Inetlab.SMPP.Common.CommandStatus
+    - id: sequence
+      type: System.UInt32
+    content.vb: Public Sub New(status As CommandStatus, sequence As UInteger)
+  overload: Inetlab.SMPP.PDU.DataSmResp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.DataSmResp.Serialize(Inetlab.SMPP.PDU.DataSmResp)
+  commentId: M:Inetlab.SMPP.PDU.DataSmResp.Serialize(Inetlab.SMPP.PDU.DataSmResp)
+  id: Serialize(Inetlab.SMPP.PDU.DataSmResp)
+  parent: Inetlab.SMPP.PDU.DataSmResp
+  langs:
+  - csharp
+  - vb
+  name: Serialize(DataSmResp)
+  nameWithType: DataSmResp.Serialize(DataSmResp)
+  fullName: Inetlab.SMPP.PDU.DataSmResp.Serialize(Inetlab.SMPP.PDU.DataSmResp)
+  type: Method
+  source:
+    id: Serialize
+    path: ''
+    startLine: 15094
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nSerializes DataSmResp object to the byte array\n"
+  example: []
+  syntax:
+    content: public static byte[] Serialize(DataSmResp deliver)
+    parameters:
+    - id: deliver
+      type: Inetlab.SMPP.PDU.DataSmResp
+      description: DataSmResp object to serialize
+    return:
+      type: System.Byte[]
+      description: Returns byte array
+    content.vb: Public Shared Function Serialize(deliver As DataSmResp) As Byte()
+  overload: Inetlab.SMPP.PDU.DataSmResp.Serialize*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.PDU.DataSmResp.Deserialize(System.Byte[])
+  commentId: M:Inetlab.SMPP.PDU.DataSmResp.Deserialize(System.Byte[])
+  id: Deserialize(System.Byte[])
+  parent: Inetlab.SMPP.PDU.DataSmResp
+  langs:
+  - csharp
+  - vb
+  name: Deserialize(Byte[])
+  nameWithType: DataSmResp.Deserialize(Byte[])
+  fullName: Inetlab.SMPP.PDU.DataSmResp.Deserialize(System.Byte[])
+  type: Method
+  source:
+    id: Deserialize
+    path: ''
+    startLine: 15104
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nDeserializes byte array to the DataSmResp object\n"
+  example: []
+  syntax:
+    content: public static DataSmResp Deserialize(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+      description: Byte array to deseriaize
+    return:
+      type: Inetlab.SMPP.PDU.DataSmResp
+      description: Returns DataSmResp object
+    content.vb: Public Shared Function Deserialize(data As Byte()) As DataSmResp
+  overload: Inetlab.SMPP.PDU.DataSmResp.Deserialize*
+  nameWithType.vb: DataSmResp.Deserialize(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.PDU.DataSmResp.Deserialize(System.Byte())
+  name.vb: Deserialize(Byte())
+- uid: Inetlab.SMPP.PDU.DataSmResp.#ctor(SerializationInfo,StreamingContext)
+  commentId: M:Inetlab.SMPP.PDU.DataSmResp.#ctor(SerializationInfo,StreamingContext)
+  id: '#ctor(SerializationInfo,StreamingContext)'
+  parent: Inetlab.SMPP.PDU.DataSmResp
+  langs:
+  - csharp
+  - vb
+  name: DataSmResp(SerializationInfo, StreamingContext)
+  nameWithType: DataSmResp.DataSmResp(SerializationInfo, StreamingContext)
+  fullName: Inetlab.SMPP.PDU.DataSmResp.DataSmResp(SerializationInfo, StreamingContext)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15115
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: protected DataSmResp(SerializationInfo info, StreamingContext context)
+    parameters:
+    - id: info
+      type: SerializationInfo
+    - id: context
+      type: StreamingContext
+    content.vb: Protected Sub New(info As SerializationInfo, context As StreamingContext)
+  overload: Inetlab.SMPP.PDU.DataSmResp.#ctor*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU.SmppResponse
+  commentId: T:Inetlab.SMPP.PDU.SmppResponse
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppResponse
+  nameWithType: SmppResponse
+  fullName: Inetlab.SMPP.PDU.SmppResponse
+- uid: Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.DataSm}
+  commentId: T:Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.DataSm}
+  parent: Inetlab.SMPP.PDU
+  definition: Inetlab.SMPP.PDU.SmppResponse`1
+  name: SmppResponse<DataSm>
+  nameWithType: SmppResponse<DataSm>
+  fullName: Inetlab.SMPP.PDU.SmppResponse<Inetlab.SMPP.PDU.DataSm>
+  nameWithType.vb: SmppResponse(Of DataSm)
+  fullName.vb: Inetlab.SMPP.PDU.SmppResponse(Of Inetlab.SMPP.PDU.DataSm)
+  name.vb: SmppResponse(Of DataSm)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.PDU.DataSm
+    name: DataSm
+    nameWithType: DataSm
+    fullName: Inetlab.SMPP.PDU.DataSm
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.PDU.DataSm
+    name: DataSm
+    nameWithType: DataSm
+    fullName: Inetlab.SMPP.PDU.DataSm
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ISerializable
+  isExternal: true
+  name: ISerializable
+  nameWithType: ISerializable
+  fullName: ISerializable
+- uid: IOptionalParameters
+  isExternal: true
+  name: IOptionalParameters
+  nameWithType: IOptionalParameters
+  fullName: IOptionalParameters
+- uid: Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.DataSm}.Request
+  commentId: P:Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.DataSm}.Request
+  parent: Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.DataSm}
+  definition: Inetlab.SMPP.PDU.SmppResponse`1.Request
+  name: Request
+  nameWithType: SmppResponse<DataSm>.Request
+  fullName: Inetlab.SMPP.PDU.SmppResponse<Inetlab.SMPP.PDU.DataSm>.Request
+  nameWithType.vb: SmppResponse(Of DataSm).Request
+  fullName.vb: Inetlab.SMPP.PDU.SmppResponse(Of Inetlab.SMPP.PDU.DataSm).Request
+- uid: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+  commentId: M:Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+  parent: Inetlab.SMPP.PDU.SmppResponse
+  isExternal: false
+  name: SetRequestForResponse(SmppResponse, SmppRequest)
+  nameWithType: SmppResponse.SetRequestForResponse(SmppResponse, SmppRequest)
+  fullName: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse, Inetlab.SMPP.PDU.SmppRequest)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+    name: SetRequestForResponse
+    nameWithType: SmppResponse.SetRequestForResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.PDU.SmppResponse
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Inetlab.SMPP.PDU.SmppRequest
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+    name: SetRequestForResponse
+    nameWithType: SmppResponse.SetRequestForResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.PDU.SmppResponse
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Inetlab.SMPP.PDU.SmppRequest
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppPDU.Length
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Length
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Length
+  nameWithType: SmppPDU.Length
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Length
+- uid: Inetlab.SMPP.PDU.SmppPDU.Command
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Command
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Command
+  nameWithType: SmppPDU.Command
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Command
+- uid: Inetlab.SMPP.PDU.SmppPDU.Status
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Status
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Status
+  nameWithType: SmppPDU.Status
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Status
+- uid: Inetlab.SMPP.PDU.SmppPDU.Sequence
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Sequence
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Sequence
+  nameWithType: SmppPDU.Sequence
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Sequence
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Client
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Tag
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+- uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+  commentId: M:Inetlab.SMPP.PDU.SmppPDU.ToString
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  isExternal: false
+  name: ToString()
+  nameWithType: SmppPDU.ToString()
+  fullName: Inetlab.SMPP.PDU.SmppPDU.ToString()
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+    name: ToString
+    nameWithType: SmppPDU.ToString
+    fullName: Inetlab.SMPP.PDU.SmppPDU.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+    name: ToString
+    nameWithType: SmppPDU.ToString
+    fullName: Inetlab.SMPP.PDU.SmppPDU.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.SmppResponse`1
+  commentId: T:Inetlab.SMPP.PDU.SmppResponse`1
+  isExternal: false
+  name: SmppResponse<TRequest>
+  nameWithType: SmppResponse<TRequest>
+  fullName: Inetlab.SMPP.PDU.SmppResponse<TRequest>
+  nameWithType.vb: SmppResponse(Of TRequest)
+  fullName.vb: Inetlab.SMPP.PDU.SmppResponse(Of TRequest)
+  name.vb: SmppResponse(Of TRequest)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRequest
+    nameWithType: TRequest
+    fullName: TRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRequest
+    nameWithType: TRequest
+    fullName: TRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppResponse`1.Request
+  commentId: P:Inetlab.SMPP.PDU.SmppResponse`1.Request
+  isExternal: false
+  name: Request
+  nameWithType: SmppResponse<TRequest>.Request
+  fullName: Inetlab.SMPP.PDU.SmppResponse<TRequest>.Request
+  nameWithType.vb: SmppResponse(Of TRequest).Request
+  fullName.vb: Inetlab.SMPP.PDU.SmppResponse(Of TRequest).Request
+- uid: Inetlab.SMPP.PDU.DataSmResp.MessageId*
+  commentId: Overload:Inetlab.SMPP.PDU.DataSmResp.MessageId
+  isExternal: false
+  name: MessageId
+  nameWithType: DataSmResp.MessageId
+  fullName: Inetlab.SMPP.PDU.DataSmResp.MessageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.PDU.DataSmResp.Optional*
+  commentId: Overload:Inetlab.SMPP.PDU.DataSmResp.Optional
+  isExternal: false
+  name: Optional
+  nameWithType: DataSmResp.Optional
+  fullName: Inetlab.SMPP.PDU.DataSmResp.Optional
+- uid: TLVCollection
+  isExternal: true
+  name: TLVCollection
+  nameWithType: TLVCollection
+  fullName: TLVCollection
+- uid: Inetlab.SMPP.PDU.DataSmResp.#ctor*
+  commentId: Overload:Inetlab.SMPP.PDU.DataSmResp.#ctor
+  isExternal: false
+  name: DataSmResp
+  nameWithType: DataSmResp.DataSmResp
+  fullName: Inetlab.SMPP.PDU.DataSmResp.DataSmResp
+- uid: Inetlab.SMPP.PDU.DataSm
+  commentId: T:Inetlab.SMPP.PDU.DataSm
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: DataSm
+  nameWithType: DataSm
+  fullName: Inetlab.SMPP.PDU.DataSm
+- uid: Inetlab.SMPP.Common.CommandStatus
+  commentId: T:Inetlab.SMPP.Common.CommandStatus
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: CommandStatus
+  nameWithType: CommandStatus
+  fullName: Inetlab.SMPP.Common.CommandStatus
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.PDU.DataSmResp.Serialize*
+  commentId: Overload:Inetlab.SMPP.PDU.DataSmResp.Serialize
+  isExternal: false
+  name: Serialize
+  nameWithType: DataSmResp.Serialize
+  fullName: Inetlab.SMPP.PDU.DataSmResp.Serialize
+- uid: Inetlab.SMPP.PDU.DataSmResp
+  commentId: T:Inetlab.SMPP.PDU.DataSmResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: DataSmResp
+  nameWithType: DataSmResp
+  fullName: Inetlab.SMPP.PDU.DataSmResp
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.PDU.DataSmResp.Deserialize*
+  commentId: Overload:Inetlab.SMPP.PDU.DataSmResp.Deserialize
+  isExternal: false
+  name: Deserialize
+  nameWithType: DataSmResp.Deserialize
+  fullName: Inetlab.SMPP.PDU.DataSmResp.Deserialize
+- uid: SerializationInfo
+  isExternal: true
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: SerializationInfo
+- uid: StreamingContext
+  isExternal: true
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: StreamingContext
+shouldSkipMarkup: true

@@ -1,0 +1,1050 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SmppWriter
+  commentId: T:Inetlab.SMPP.Common.SmppWriter
+  id: SmppWriter
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SmppWriter.#ctor(Stream,Inetlab.SMPP.Common.EncodingMapper)
+  - Inetlab.SMPP.Common.SmppWriter.Dispose
+  - Inetlab.SMPP.Common.SmppWriter.GetLength(Inetlab.SMPP.Common.UserDataHeaderCollection)
+  - Inetlab.SMPP.Common.SmppWriter.Write(AlertNotification)
+  - Inetlab.SMPP.Common.SmppWriter.Write(Bind)
+  - Inetlab.SMPP.Common.SmppWriter.Write(BindResp)
+  - Inetlab.SMPP.Common.SmppWriter.Write(CancelSm)
+  - Inetlab.SMPP.Common.SmppWriter.Write(CancelSmResp)
+  - Inetlab.SMPP.Common.SmppWriter.Write(DataSm)
+  - Inetlab.SMPP.Common.SmppWriter.Write(DataSmResp)
+  - Inetlab.SMPP.Common.SmppWriter.Write(DeliverSm)
+  - Inetlab.SMPP.Common.SmppWriter.Write(DeliverSmResp)
+  - Inetlab.SMPP.Common.SmppWriter.Write(EnquireLink)
+  - Inetlab.SMPP.Common.SmppWriter.Write(EnquireLinkResp)
+  - Inetlab.SMPP.Common.SmppWriter.Write(GenericNack)
+  - Inetlab.SMPP.Common.SmppWriter.Write(OutBind)
+  - Inetlab.SMPP.Common.SmppWriter.Write(QuerySm)
+  - Inetlab.SMPP.Common.SmppWriter.Write(QuerySmResp)
+  - Inetlab.SMPP.Common.SmppWriter.Write(ReplaceSm)
+  - Inetlab.SMPP.Common.SmppWriter.Write(ReplaceSmResp)
+  - Inetlab.SMPP.Common.SmppWriter.Write(SubmitMulti)
+  - Inetlab.SMPP.Common.SmppWriter.Write(SubmitMultiResp)
+  - Inetlab.SMPP.Common.SmppWriter.Write(SubmitSm)
+  - Inetlab.SMPP.Common.SmppWriter.Write(SubmitSmResp)
+  - Inetlab.SMPP.Common.SmppWriter.Write(UnBind)
+  - Inetlab.SMPP.Common.SmppWriter.Write(UnBindResp)
+  - Inetlab.SMPP.Common.SmppWriter.WritePDU(SmppPDU)
+  langs:
+  - csharp
+  - vb
+  name: SmppWriter
+  nameWithType: SmppWriter
+  fullName: Inetlab.SMPP.Common.SmppWriter
+  type: Class
+  source:
+    id: SmppWriter
+    path: ''
+    startLine: 10834
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public class SmppWriter : IDisposable'
+    content.vb: >-
+      Public Class SmppWriter
+          Inherits IDisposable
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.SmppWriter.#ctor(Stream,Inetlab.SMPP.Common.EncodingMapper)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.#ctor(Stream,Inetlab.SMPP.Common.EncodingMapper)
+  id: '#ctor(Stream,Inetlab.SMPP.Common.EncodingMapper)'
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: SmppWriter(Stream, EncodingMapper)
+  nameWithType: SmppWriter.SmppWriter(Stream, EncodingMapper)
+  fullName: Inetlab.SMPP.Common.SmppWriter.SmppWriter(Stream, Inetlab.SMPP.Common.EncodingMapper)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10840
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppWriter(Stream stream, EncodingMapper mapper = null)
+    parameters:
+    - id: stream
+      type: Stream
+    - id: mapper
+      type: Inetlab.SMPP.Common.EncodingMapper
+    content.vb: Public Sub New(stream As Stream, mapper As EncodingMapper = Nothing)
+  overload: Inetlab.SMPP.Common.SmppWriter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Dispose
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Dispose
+  id: Dispose
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SmppWriter.Dispose()
+  fullName: Inetlab.SMPP.Common.SmppWriter.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 10862
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Inetlab.SMPP.Common.SmppWriter.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.WritePDU(SmppPDU)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.WritePDU(SmppPDU)
+  id: WritePDU(SmppPDU)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: WritePDU(SmppPDU)
+  nameWithType: SmppWriter.WritePDU(SmppPDU)
+  fullName: Inetlab.SMPP.Common.SmppWriter.WritePDU(SmppPDU)
+  type: Method
+  source:
+    id: WritePDU
+    path: ''
+    startLine: 10868
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void WritePDU(SmppPDU pdu)
+    parameters:
+    - id: pdu
+      type: SmppPDU
+    content.vb: Public Sub WritePDU(pdu As SmppPDU)
+  overload: Inetlab.SMPP.Common.SmppWriter.WritePDU*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(Bind)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(Bind)
+  id: Write(Bind)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(Bind)
+  nameWithType: SmppWriter.Write(Bind)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(Bind)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 10969
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(Bind pdu)
+    parameters:
+    - id: pdu
+      type: Bind
+    content.vb: Public Sub Write(pdu As Bind)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(BindResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(BindResp)
+  id: Write(BindResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(BindResp)
+  nameWithType: SmppWriter.Write(BindResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(BindResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11001
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(BindResp pdu)
+    parameters:
+    - id: pdu
+      type: BindResp
+    content.vb: Public Sub Write(pdu As BindResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(UnBind)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(UnBind)
+  id: Write(UnBind)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(UnBind)
+  nameWithType: SmppWriter.Write(UnBind)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(UnBind)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11014
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(UnBind pdu)
+    parameters:
+    - id: pdu
+      type: UnBind
+    content.vb: Public Sub Write(pdu As UnBind)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(UnBindResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(UnBindResp)
+  id: Write(UnBindResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(UnBindResp)
+  nameWithType: SmppWriter.Write(UnBindResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(UnBindResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11026
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(UnBindResp pdu)
+    parameters:
+    - id: pdu
+      type: UnBindResp
+    content.vb: Public Sub Write(pdu As UnBindResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(OutBind)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(OutBind)
+  id: Write(OutBind)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(OutBind)
+  nameWithType: SmppWriter.Write(OutBind)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(OutBind)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11036
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(OutBind pdu)
+    parameters:
+    - id: pdu
+      type: OutBind
+    content.vb: Public Sub Write(pdu As OutBind)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(EnquireLink)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(EnquireLink)
+  id: Write(EnquireLink)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(EnquireLink)
+  nameWithType: SmppWriter.Write(EnquireLink)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(EnquireLink)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11051
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(EnquireLink pdu)
+    parameters:
+    - id: pdu
+      type: EnquireLink
+    content.vb: Public Sub Write(pdu As EnquireLink)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(EnquireLinkResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(EnquireLinkResp)
+  id: Write(EnquireLinkResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(EnquireLinkResp)
+  nameWithType: SmppWriter.Write(EnquireLinkResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(EnquireLinkResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11062
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(EnquireLinkResp pdu)
+    parameters:
+    - id: pdu
+      type: EnquireLinkResp
+    content.vb: Public Sub Write(pdu As EnquireLinkResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(DeliverSm)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(DeliverSm)
+  id: Write(DeliverSm)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(DeliverSm)
+  nameWithType: SmppWriter.Write(DeliverSm)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(DeliverSm)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11073
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(DeliverSm pdu)
+    parameters:
+    - id: pdu
+      type: DeliverSm
+    content.vb: Public Sub Write(pdu As DeliverSm)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(DeliverSmResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(DeliverSmResp)
+  id: Write(DeliverSmResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(DeliverSmResp)
+  nameWithType: SmppWriter.Write(DeliverSmResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(DeliverSmResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11147
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(DeliverSmResp pdu)
+    parameters:
+    - id: pdu
+      type: DeliverSmResp
+    content.vb: Public Sub Write(pdu As DeliverSmResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(SubmitSm)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(SubmitSm)
+  id: Write(SubmitSm)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(SubmitSm)
+  nameWithType: SmppWriter.Write(SubmitSm)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(SubmitSm)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11160
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(SubmitSm pdu)
+    parameters:
+    - id: pdu
+      type: SubmitSm
+    content.vb: Public Sub Write(pdu As SubmitSm)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(SubmitSmResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(SubmitSmResp)
+  id: Write(SubmitSmResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(SubmitSmResp)
+  nameWithType: SmppWriter.Write(SubmitSmResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(SubmitSmResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11198
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(SubmitSmResp pdu)
+    parameters:
+    - id: pdu
+      type: SubmitSmResp
+    content.vb: Public Sub Write(pdu As SubmitSmResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(SubmitMulti)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(SubmitMulti)
+  id: Write(SubmitMulti)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(SubmitMulti)
+  nameWithType: SmppWriter.Write(SubmitMulti)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(SubmitMulti)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11211
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(SubmitMulti pdu)
+    parameters:
+    - id: pdu
+      type: SubmitMulti
+    content.vb: Public Sub Write(pdu As SubmitMulti)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(SubmitMultiResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(SubmitMultiResp)
+  id: Write(SubmitMultiResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(SubmitMultiResp)
+  nameWithType: SmppWriter.Write(SubmitMultiResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(SubmitMultiResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11330
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(SubmitMultiResp pdu)
+    parameters:
+    - id: pdu
+      type: SubmitMultiResp
+    content.vb: Public Sub Write(pdu As SubmitMultiResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(DataSm)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(DataSm)
+  id: Write(DataSm)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(DataSm)
+  nameWithType: SmppWriter.Write(DataSm)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(DataSm)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11346
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(DataSm pdu)
+    parameters:
+    - id: pdu
+      type: DataSm
+    content.vb: Public Sub Write(pdu As DataSm)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(DataSmResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(DataSmResp)
+  id: Write(DataSmResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(DataSmResp)
+  nameWithType: SmppWriter.Write(DataSmResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(DataSmResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11371
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(DataSmResp pdu)
+    parameters:
+    - id: pdu
+      type: DataSmResp
+    content.vb: Public Sub Write(pdu As DataSmResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(QuerySm)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(QuerySm)
+  id: Write(QuerySm)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(QuerySm)
+  nameWithType: SmppWriter.Write(QuerySm)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(QuerySm)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11386
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(QuerySm pdu)
+    parameters:
+    - id: pdu
+      type: QuerySm
+    content.vb: Public Sub Write(pdu As QuerySm)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(QuerySmResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(QuerySmResp)
+  id: Write(QuerySmResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(QuerySmResp)
+  nameWithType: SmppWriter.Write(QuerySmResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(QuerySmResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11400
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(QuerySmResp pdu)
+    parameters:
+    - id: pdu
+      type: QuerySmResp
+    content.vb: Public Sub Write(pdu As QuerySmResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(CancelSm)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(CancelSm)
+  id: Write(CancelSm)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(CancelSm)
+  nameWithType: SmppWriter.Write(CancelSm)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(CancelSm)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11415
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(CancelSm pdu)
+    parameters:
+    - id: pdu
+      type: CancelSm
+    content.vb: Public Sub Write(pdu As CancelSm)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(CancelSmResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(CancelSmResp)
+  id: Write(CancelSmResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(CancelSmResp)
+  nameWithType: SmppWriter.Write(CancelSmResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(CancelSmResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11433
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(CancelSmResp pdu)
+    parameters:
+    - id: pdu
+      type: CancelSmResp
+    content.vb: Public Sub Write(pdu As CancelSmResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(ReplaceSm)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(ReplaceSm)
+  id: Write(ReplaceSm)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(ReplaceSm)
+  nameWithType: SmppWriter.Write(ReplaceSm)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(ReplaceSm)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11443
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(ReplaceSm pdu)
+    parameters:
+    - id: pdu
+      type: ReplaceSm
+    content.vb: Public Sub Write(pdu As ReplaceSm)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(ReplaceSmResp)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(ReplaceSmResp)
+  id: Write(ReplaceSmResp)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(ReplaceSmResp)
+  nameWithType: SmppWriter.Write(ReplaceSmResp)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(ReplaceSmResp)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11469
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(ReplaceSmResp pdu)
+    parameters:
+    - id: pdu
+      type: ReplaceSmResp
+    content.vb: Public Sub Write(pdu As ReplaceSmResp)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(AlertNotification)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(AlertNotification)
+  id: Write(AlertNotification)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(AlertNotification)
+  nameWithType: SmppWriter.Write(AlertNotification)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(AlertNotification)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11480
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(AlertNotification pdu)
+    parameters:
+    - id: pdu
+      type: AlertNotification
+    content.vb: Public Sub Write(pdu As AlertNotification)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.Write(GenericNack)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.Write(GenericNack)
+  id: Write(GenericNack)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: Write(GenericNack)
+  nameWithType: SmppWriter.Write(GenericNack)
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write(GenericNack)
+  type: Method
+  source:
+    id: Write
+    path: ''
+    startLine: 11494
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Write(GenericNack pdu)
+    parameters:
+    - id: pdu
+      type: GenericNack
+    content.vb: Public Sub Write(pdu As GenericNack)
+  overload: Inetlab.SMPP.Common.SmppWriter.Write*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppWriter.GetLength(Inetlab.SMPP.Common.UserDataHeaderCollection)
+  commentId: M:Inetlab.SMPP.Common.SmppWriter.GetLength(Inetlab.SMPP.Common.UserDataHeaderCollection)
+  id: GetLength(Inetlab.SMPP.Common.UserDataHeaderCollection)
+  parent: Inetlab.SMPP.Common.SmppWriter
+  langs:
+  - csharp
+  - vb
+  name: GetLength(UserDataHeaderCollection)
+  nameWithType: SmppWriter.GetLength(UserDataHeaderCollection)
+  fullName: Inetlab.SMPP.Common.SmppWriter.GetLength(Inetlab.SMPP.Common.UserDataHeaderCollection)
+  type: Method
+  source:
+    id: GetLength
+    path: ''
+    startLine: 11645
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static int GetLength(UserDataHeaderCollection headers)
+    parameters:
+    - id: headers
+      type: Inetlab.SMPP.Common.UserDataHeaderCollection
+    return:
+      type: System.Int32
+    content.vb: Public Shared Function GetLength(headers As UserDataHeaderCollection) As Integer
+  overload: Inetlab.SMPP.Common.SmppWriter.GetLength*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.SmppWriter.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.SmppWriter.#ctor
+  name: SmppWriter
+  nameWithType: SmppWriter.SmppWriter
+  fullName: Inetlab.SMPP.Common.SmppWriter.SmppWriter
+- uid: Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: Stream
+- uid: Inetlab.SMPP.Common.EncodingMapper
+  commentId: T:Inetlab.SMPP.Common.EncodingMapper
+  parent: Inetlab.SMPP.Common
+  name: EncodingMapper
+  nameWithType: EncodingMapper
+  fullName: Inetlab.SMPP.Common.EncodingMapper
+- uid: Inetlab.SMPP.Common.SmppWriter.Dispose*
+  commentId: Overload:Inetlab.SMPP.Common.SmppWriter.Dispose
+  name: Dispose
+  nameWithType: SmppWriter.Dispose
+  fullName: Inetlab.SMPP.Common.SmppWriter.Dispose
+- uid: Inetlab.SMPP.Common.SmppWriter.WritePDU*
+  commentId: Overload:Inetlab.SMPP.Common.SmppWriter.WritePDU
+  name: WritePDU
+  nameWithType: SmppWriter.WritePDU
+  fullName: Inetlab.SMPP.Common.SmppWriter.WritePDU
+- uid: SmppPDU
+  isExternal: true
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: SmppPDU
+- uid: Inetlab.SMPP.Common.SmppWriter.Write*
+  commentId: Overload:Inetlab.SMPP.Common.SmppWriter.Write
+  name: Write
+  nameWithType: SmppWriter.Write
+  fullName: Inetlab.SMPP.Common.SmppWriter.Write
+- uid: Bind
+  isExternal: true
+  name: Bind
+  nameWithType: Bind
+  fullName: Bind
+- uid: BindResp
+  commentId: '!:BindResp'
+  isExternal: true
+  name: BindResp
+  nameWithType: BindResp
+  fullName: BindResp
+- uid: UnBind
+  commentId: '!:UnBind'
+  isExternal: true
+  name: UnBind
+  nameWithType: UnBind
+  fullName: UnBind
+- uid: UnBindResp
+  commentId: '!:UnBindResp'
+  isExternal: true
+  name: UnBindResp
+  nameWithType: UnBindResp
+  fullName: UnBindResp
+- uid: OutBind
+  commentId: '!:OutBind'
+  isExternal: true
+  name: OutBind
+  nameWithType: OutBind
+  fullName: OutBind
+- uid: EnquireLink
+  isExternal: true
+  name: EnquireLink
+  nameWithType: EnquireLink
+  fullName: EnquireLink
+- uid: EnquireLinkResp
+  commentId: '!:EnquireLinkResp'
+  isExternal: true
+  name: EnquireLinkResp
+  nameWithType: EnquireLinkResp
+  fullName: EnquireLinkResp
+- uid: DeliverSm
+  isExternal: true
+  name: DeliverSm
+  nameWithType: DeliverSm
+  fullName: DeliverSm
+- uid: DeliverSmResp
+  commentId: '!:DeliverSmResp'
+  isExternal: true
+  name: DeliverSmResp
+  nameWithType: DeliverSmResp
+  fullName: DeliverSmResp
+- uid: SubmitSm
+  isExternal: true
+  name: SubmitSm
+  nameWithType: SubmitSm
+  fullName: SubmitSm
+- uid: SubmitSmResp
+  commentId: '!:SubmitSmResp'
+  isExternal: true
+  name: SubmitSmResp
+  nameWithType: SubmitSmResp
+  fullName: SubmitSmResp
+- uid: SubmitMulti
+  isExternal: true
+  name: SubmitMulti
+  nameWithType: SubmitMulti
+  fullName: SubmitMulti
+- uid: SubmitMultiResp
+  commentId: '!:SubmitMultiResp'
+  isExternal: true
+  name: SubmitMultiResp
+  nameWithType: SubmitMultiResp
+  fullName: SubmitMultiResp
+- uid: DataSm
+  isExternal: true
+  name: DataSm
+  nameWithType: DataSm
+  fullName: DataSm
+- uid: DataSmResp
+  commentId: '!:DataSmResp'
+  isExternal: true
+  name: DataSmResp
+  nameWithType: DataSmResp
+  fullName: DataSmResp
+- uid: QuerySm
+  isExternal: true
+  name: QuerySm
+  nameWithType: QuerySm
+  fullName: QuerySm
+- uid: QuerySmResp
+  commentId: '!:QuerySmResp'
+  isExternal: true
+  name: QuerySmResp
+  nameWithType: QuerySmResp
+  fullName: QuerySmResp
+- uid: CancelSm
+  isExternal: true
+  name: CancelSm
+  nameWithType: CancelSm
+  fullName: CancelSm
+- uid: CancelSmResp
+  commentId: '!:CancelSmResp'
+  isExternal: true
+  name: CancelSmResp
+  nameWithType: CancelSmResp
+  fullName: CancelSmResp
+- uid: ReplaceSm
+  isExternal: true
+  name: ReplaceSm
+  nameWithType: ReplaceSm
+  fullName: ReplaceSm
+- uid: ReplaceSmResp
+  commentId: '!:ReplaceSmResp'
+  isExternal: true
+  name: ReplaceSmResp
+  nameWithType: ReplaceSmResp
+  fullName: ReplaceSmResp
+- uid: AlertNotification
+  commentId: '!:AlertNotification'
+  isExternal: true
+  name: AlertNotification
+  nameWithType: AlertNotification
+  fullName: AlertNotification
+- uid: GenericNack
+  commentId: '!:GenericNack'
+  isExternal: true
+  name: GenericNack
+  nameWithType: GenericNack
+  fullName: GenericNack
+- uid: Inetlab.SMPP.Common.SmppWriter.GetLength*
+  commentId: Overload:Inetlab.SMPP.Common.SmppWriter.GetLength
+  name: GetLength
+  nameWithType: SmppWriter.GetLength
+  fullName: Inetlab.SMPP.Common.SmppWriter.GetLength
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection
+  commentId: T:Inetlab.SMPP.Common.UserDataHeaderCollection
+  parent: Inetlab.SMPP.Common
+  name: UserDataHeaderCollection
+  nameWithType: UserDataHeaderCollection
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+shouldSkipMarkup: true

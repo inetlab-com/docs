@@ -1,0 +1,405 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.BatchMonitor
+  commentId: T:Inetlab.SMPP.Common.BatchMonitor
+  id: BatchMonitor
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.BatchMonitor.#ctor(Inetlab.SMPP.Common.SmppClientBase)
+  - Inetlab.SMPP.Common.BatchMonitor.Duration
+  - Inetlab.SMPP.Common.BatchMonitor.evComplete
+  - Inetlab.SMPP.Common.BatchMonitor.evTransferTimeout
+  - Inetlab.SMPP.Common.BatchMonitor.Finalize
+  - Inetlab.SMPP.Common.BatchMonitor.Run(Inetlab.SMPP.Common.BatchProcess)
+  - Inetlab.SMPP.Common.BatchMonitor.Timeout
+  - Inetlab.SMPP.Common.BatchMonitor.TotalReceived
+  - Inetlab.SMPP.Common.BatchMonitor.TotalSent
+  langs:
+  - csharp
+  - vb
+  name: BatchMonitor
+  nameWithType: BatchMonitor
+  fullName: Inetlab.SMPP.Common.BatchMonitor
+  type: Class
+  source:
+    id: BatchMonitor
+    path: ''
+    startLine: 3208
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public class BatchMonitor : IDisposable'
+    content.vb: >-
+      Public Class BatchMonitor
+          Inherits IDisposable
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.BatchMonitor.TotalSent
+  commentId: P:Inetlab.SMPP.Common.BatchMonitor.TotalSent
+  id: TotalSent
+  parent: Inetlab.SMPP.Common.BatchMonitor
+  langs:
+  - csharp
+  - vb
+  name: TotalSent
+  nameWithType: BatchMonitor.TotalSent
+  fullName: Inetlab.SMPP.Common.BatchMonitor.TotalSent
+  type: Property
+  source:
+    id: TotalSent
+    path: ''
+    startLine: 3219
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public long TotalSent { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property TotalSent As Long
+  overload: Inetlab.SMPP.Common.BatchMonitor.TotalSent*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.BatchMonitor.TotalReceived
+  commentId: P:Inetlab.SMPP.Common.BatchMonitor.TotalReceived
+  id: TotalReceived
+  parent: Inetlab.SMPP.Common.BatchMonitor
+  langs:
+  - csharp
+  - vb
+  name: TotalReceived
+  nameWithType: BatchMonitor.TotalReceived
+  fullName: Inetlab.SMPP.Common.BatchMonitor.TotalReceived
+  type: Property
+  source:
+    id: TotalReceived
+    path: ''
+    startLine: 3228
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public long TotalReceived { get; }
+    parameters: []
+    return:
+      type: System.Int64
+    content.vb: Public ReadOnly Property TotalReceived As Long
+  overload: Inetlab.SMPP.Common.BatchMonitor.TotalReceived*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.BatchMonitor.Duration
+  commentId: P:Inetlab.SMPP.Common.BatchMonitor.Duration
+  id: Duration
+  parent: Inetlab.SMPP.Common.BatchMonitor
+  langs:
+  - csharp
+  - vb
+  name: Duration
+  nameWithType: BatchMonitor.Duration
+  fullName: Inetlab.SMPP.Common.BatchMonitor.Duration
+  type: Property
+  source:
+    id: Duration
+    path: ''
+    startLine: 3237
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public TimeSpan Duration { get; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public ReadOnly Property Duration As TimeSpan
+  overload: Inetlab.SMPP.Common.BatchMonitor.Duration*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.BatchMonitor.Timeout
+  commentId: P:Inetlab.SMPP.Common.BatchMonitor.Timeout
+  id: Timeout
+  parent: Inetlab.SMPP.Common.BatchMonitor
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: BatchMonitor.Timeout
+  fullName: Inetlab.SMPP.Common.BatchMonitor.Timeout
+  type: Property
+  source:
+    id: Timeout
+    path: ''
+    startLine: 3243
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public TimeSpan Timeout { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property Timeout As TimeSpan
+  overload: Inetlab.SMPP.Common.BatchMonitor.Timeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.BatchMonitor.#ctor(Inetlab.SMPP.Common.SmppClientBase)
+  commentId: M:Inetlab.SMPP.Common.BatchMonitor.#ctor(Inetlab.SMPP.Common.SmppClientBase)
+  id: '#ctor(Inetlab.SMPP.Common.SmppClientBase)'
+  parent: Inetlab.SMPP.Common.BatchMonitor
+  langs:
+  - csharp
+  - vb
+  name: BatchMonitor(SmppClientBase)
+  nameWithType: BatchMonitor.BatchMonitor(SmppClientBase)
+  fullName: Inetlab.SMPP.Common.BatchMonitor.BatchMonitor(Inetlab.SMPP.Common.SmppClientBase)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3252
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public BatchMonitor(SmppClientBase client)
+    parameters:
+    - id: client
+      type: Inetlab.SMPP.Common.SmppClientBase
+    content.vb: Public Sub New(client As SmppClientBase)
+  overload: Inetlab.SMPP.Common.BatchMonitor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.BatchMonitor.evComplete
+  commentId: E:Inetlab.SMPP.Common.BatchMonitor.evComplete
+  id: evComplete
+  parent: Inetlab.SMPP.Common.BatchMonitor
+  langs:
+  - csharp
+  - vb
+  name: evComplete
+  nameWithType: BatchMonitor.evComplete
+  fullName: Inetlab.SMPP.Common.BatchMonitor.evComplete
+  type: Event
+  source:
+    id: evComplete
+    path: ''
+    startLine: 3260
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nOccurs when all submitted PDU are received all responses.\n"
+  example: []
+  syntax:
+    content: public event EventHandler evComplete
+    return:
+      type: EventHandler
+    content.vb: Public Event evComplete As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.BatchMonitor.evTransferTimeout
+  commentId: E:Inetlab.SMPP.Common.BatchMonitor.evTransferTimeout
+  id: evTransferTimeout
+  parent: Inetlab.SMPP.Common.BatchMonitor
+  langs:
+  - csharp
+  - vb
+  name: evTransferTimeout
+  nameWithType: BatchMonitor.evTransferTimeout
+  fullName: Inetlab.SMPP.Common.BatchMonitor.evTransferTimeout
+  type: Event
+  source:
+    id: evTransferTimeout
+    path: ''
+    startLine: 3275
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nOccurs when sending or receiving PDU was not processed duting <xref href=\"Inetlab.SMPP.Common.BatchMonitor.Timeout\" data-throw-if-not-resolved=\"false\"></xref> interval.\n"
+  example: []
+  syntax:
+    content: public event EventHandler evTransferTimeout
+    return:
+      type: EventHandler
+    content.vb: Public Event evTransferTimeout As EventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.BatchMonitor.Run(Inetlab.SMPP.Common.BatchProcess)
+  commentId: M:Inetlab.SMPP.Common.BatchMonitor.Run(Inetlab.SMPP.Common.BatchProcess)
+  id: Run(Inetlab.SMPP.Common.BatchProcess)
+  parent: Inetlab.SMPP.Common.BatchMonitor
+  langs:
+  - csharp
+  - vb
+  name: Run(BatchProcess)
+  nameWithType: BatchMonitor.Run(BatchProcess)
+  fullName: Inetlab.SMPP.Common.BatchMonitor.Run(Inetlab.SMPP.Common.BatchProcess)
+  type: Method
+  source:
+    id: Run
+    path: ''
+    startLine: 3285
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Run(BatchProcess process)
+    parameters:
+    - id: process
+      type: Inetlab.SMPP.Common.BatchProcess
+    content.vb: Public Sub Run(process As BatchProcess)
+  overload: Inetlab.SMPP.Common.BatchMonitor.Run*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.BatchMonitor.Finalize
+  commentId: M:Inetlab.SMPP.Common.BatchMonitor.Finalize
+  id: Finalize
+  parent: Inetlab.SMPP.Common.BatchMonitor
+  langs:
+  - csharp
+  - vb
+  name: Finalize()
+  nameWithType: BatchMonitor.Finalize()
+  fullName: Inetlab.SMPP.Common.BatchMonitor.Finalize()
+  type: Method
+  source:
+    id: Finalize
+    path: ''
+    startLine: 3412
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: protected void Finalize()
+    content.vb: Protected Sub Finalize
+  overload: Inetlab.SMPP.Common.BatchMonitor.Finalize*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.BatchMonitor.TotalSent*
+  commentId: Overload:Inetlab.SMPP.Common.BatchMonitor.TotalSent
+  isExternal: false
+  name: TotalSent
+  nameWithType: BatchMonitor.TotalSent
+  fullName: Inetlab.SMPP.Common.BatchMonitor.TotalSent
+- uid: System.Int64
+  commentId: T:System.Int64
+  parent: System
+  isExternal: true
+  name: Int64
+  nameWithType: Int64
+  fullName: System.Int64
+- uid: Inetlab.SMPP.Common.BatchMonitor.TotalReceived*
+  commentId: Overload:Inetlab.SMPP.Common.BatchMonitor.TotalReceived
+  isExternal: false
+  name: TotalReceived
+  nameWithType: BatchMonitor.TotalReceived
+  fullName: Inetlab.SMPP.Common.BatchMonitor.TotalReceived
+- uid: Inetlab.SMPP.Common.BatchMonitor.Duration*
+  commentId: Overload:Inetlab.SMPP.Common.BatchMonitor.Duration
+  isExternal: false
+  name: Duration
+  nameWithType: BatchMonitor.Duration
+  fullName: Inetlab.SMPP.Common.BatchMonitor.Duration
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Inetlab.SMPP.Common.BatchMonitor.Timeout*
+  commentId: Overload:Inetlab.SMPP.Common.BatchMonitor.Timeout
+  isExternal: false
+  name: Timeout
+  nameWithType: BatchMonitor.Timeout
+  fullName: Inetlab.SMPP.Common.BatchMonitor.Timeout
+- uid: Inetlab.SMPP.Common.BatchMonitor.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.BatchMonitor.#ctor
+  isExternal: false
+  name: BatchMonitor
+  nameWithType: BatchMonitor.BatchMonitor
+  fullName: Inetlab.SMPP.Common.BatchMonitor.BatchMonitor
+- uid: Inetlab.SMPP.Common.SmppClientBase
+  commentId: T:Inetlab.SMPP.Common.SmppClientBase
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: SmppClientBase
+  nameWithType: SmppClientBase
+  fullName: Inetlab.SMPP.Common.SmppClientBase
+- uid: EventHandler
+  isExternal: true
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: EventHandler
+- uid: Inetlab.SMPP.Common.BatchMonitor.Timeout
+  commentId: P:Inetlab.SMPP.Common.BatchMonitor.Timeout
+- uid: Inetlab.SMPP.Common.BatchMonitor.Run*
+  commentId: Overload:Inetlab.SMPP.Common.BatchMonitor.Run
+  isExternal: false
+  name: Run
+  nameWithType: BatchMonitor.Run
+  fullName: Inetlab.SMPP.Common.BatchMonitor.Run
+- uid: Inetlab.SMPP.Common.BatchProcess
+  commentId: T:Inetlab.SMPP.Common.BatchProcess
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: BatchProcess
+  nameWithType: BatchProcess
+  fullName: Inetlab.SMPP.Common.BatchProcess
+- uid: Inetlab.SMPP.Common.BatchMonitor.Finalize*
+  commentId: Overload:Inetlab.SMPP.Common.BatchMonitor.Finalize
+  isExternal: false
+  name: Finalize
+  nameWithType: BatchMonitor.Finalize
+  fullName: Inetlab.SMPP.Common.BatchMonitor.Finalize
+shouldSkipMarkup: true

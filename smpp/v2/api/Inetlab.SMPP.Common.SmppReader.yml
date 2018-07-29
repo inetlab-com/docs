@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SmppReader
+  commentId: T:Inetlab.SMPP.Common.SmppReader
+  id: SmppReader
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SmppReader.#ctor(Inetlab.SMPP.Common.EncodingMapper)
+  - Inetlab.SMPP.Common.SmppReader.ReadPDU(System.Byte[])
+  - Inetlab.SMPP.Common.SmppReader.ReadUserDataHeaders(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: SmppReader
+  nameWithType: SmppReader
+  fullName: Inetlab.SMPP.Common.SmppReader
+  type: Class
+  source:
+    id: SmppReader
+    path: ''
+    startLine: 9051
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public class SmppReader
+    content.vb: Public Class SmppReader
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.SmppReader.#ctor(Inetlab.SMPP.Common.EncodingMapper)
+  commentId: M:Inetlab.SMPP.Common.SmppReader.#ctor(Inetlab.SMPP.Common.EncodingMapper)
+  id: '#ctor(Inetlab.SMPP.Common.EncodingMapper)'
+  parent: Inetlab.SMPP.Common.SmppReader
+  langs:
+  - csharp
+  - vb
+  name: SmppReader(EncodingMapper)
+  nameWithType: SmppReader.SmppReader(EncodingMapper)
+  fullName: Inetlab.SMPP.Common.SmppReader.SmppReader(Inetlab.SMPP.Common.EncodingMapper)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9061
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppReader(EncodingMapper mapper = null)
+    parameters:
+    - id: mapper
+      type: Inetlab.SMPP.Common.EncodingMapper
+    content.vb: Public Sub New(mapper As EncodingMapper = Nothing)
+  overload: Inetlab.SMPP.Common.SmppReader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppReader.ReadPDU(System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.SmppReader.ReadPDU(System.Byte[])
+  id: ReadPDU(System.Byte[])
+  parent: Inetlab.SMPP.Common.SmppReader
+  langs:
+  - csharp
+  - vb
+  name: ReadPDU(Byte[])
+  nameWithType: SmppReader.ReadPDU(Byte[])
+  fullName: Inetlab.SMPP.Common.SmppReader.ReadPDU(System.Byte[])
+  type: Method
+  source:
+    id: ReadPDU
+    path: ''
+    startLine: 9066
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppPDU ReadPDU(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+    return:
+      type: SmppPDU
+    content.vb: Public Function ReadPDU(data As Byte()) As SmppPDU
+  overload: Inetlab.SMPP.Common.SmppReader.ReadPDU*
+  nameWithType.vb: SmppReader.ReadPDU(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.SmppReader.ReadPDU(System.Byte())
+  name.vb: ReadPDU(Byte())
+- uid: Inetlab.SMPP.Common.SmppReader.ReadUserDataHeaders(System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.SmppReader.ReadUserDataHeaders(System.Byte[])
+  id: ReadUserDataHeaders(System.Byte[])
+  parent: Inetlab.SMPP.Common.SmppReader
+  langs:
+  - csharp
+  - vb
+  name: ReadUserDataHeaders(Byte[])
+  nameWithType: SmppReader.ReadUserDataHeaders(Byte[])
+  fullName: Inetlab.SMPP.Common.SmppReader.ReadUserDataHeaders(System.Byte[])
+  type: Method
+  source:
+    id: ReadUserDataHeaders
+    path: ''
+    startLine: 9720
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public static UserDataHeaderCollection ReadUserDataHeaders(byte[] buffer)
+    parameters:
+    - id: buffer
+      type: System.Byte[]
+    return:
+      type: Inetlab.SMPP.Common.UserDataHeaderCollection
+    content.vb: Public Shared Function ReadUserDataHeaders(buffer As Byte()) As UserDataHeaderCollection
+  overload: Inetlab.SMPP.Common.SmppReader.ReadUserDataHeaders*
+  nameWithType.vb: SmppReader.ReadUserDataHeaders(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Common.SmppReader.ReadUserDataHeaders(System.Byte())
+  name.vb: ReadUserDataHeaders(Byte())
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.SmppReader.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.SmppReader.#ctor
+  name: SmppReader
+  nameWithType: SmppReader.SmppReader
+  fullName: Inetlab.SMPP.Common.SmppReader.SmppReader
+- uid: Inetlab.SMPP.Common.EncodingMapper
+  commentId: T:Inetlab.SMPP.Common.EncodingMapper
+  parent: Inetlab.SMPP.Common
+  name: EncodingMapper
+  nameWithType: EncodingMapper
+  fullName: Inetlab.SMPP.Common.EncodingMapper
+- uid: Inetlab.SMPP.Common.SmppReader.ReadPDU*
+  commentId: Overload:Inetlab.SMPP.Common.SmppReader.ReadPDU
+  name: ReadPDU
+  nameWithType: SmppReader.ReadPDU
+  fullName: Inetlab.SMPP.Common.SmppReader.ReadPDU
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SmppPDU
+  isExternal: true
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: SmppPDU
+- uid: Inetlab.SMPP.Common.SmppReader.ReadUserDataHeaders*
+  commentId: Overload:Inetlab.SMPP.Common.SmppReader.ReadUserDataHeaders
+  name: ReadUserDataHeaders
+  nameWithType: SmppReader.ReadUserDataHeaders
+  fullName: Inetlab.SMPP.Common.SmppReader.ReadUserDataHeaders
+- uid: Inetlab.SMPP.Common.UserDataHeaderCollection
+  commentId: T:Inetlab.SMPP.Common.UserDataHeaderCollection
+  parent: Inetlab.SMPP.Common
+  name: UserDataHeaderCollection
+  nameWithType: UserDataHeaderCollection
+  fullName: Inetlab.SMPP.Common.UserDataHeaderCollection
+shouldSkipMarkup: true

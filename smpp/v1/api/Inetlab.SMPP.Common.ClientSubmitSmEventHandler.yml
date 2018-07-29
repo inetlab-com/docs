@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.ClientSubmitSmEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientSubmitSmEventHandler
+  id: ClientSubmitSmEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ClientSubmitSmEventHandler
+  nameWithType: ClientSubmitSmEventHandler
+  fullName: Inetlab.SMPP.Common.ClientSubmitSmEventHandler
+  type: Delegate
+  source:
+    id: ClientSubmitSmEventHandler
+    path: ''
+    startLine: 4245
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void ClientSubmitSmEventHandler(object sender, SmppServerClient client, SubmitSm data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: client
+      type: Inetlab.SMPP.Common.SmppServerClient
+    - id: data
+      type: Inetlab.SMPP.PDU.SubmitSm
+    content.vb: Public Delegate Sub ClientSubmitSmEventHandler(sender As Object, client As SmppServerClient, data As SubmitSm)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.SmppServerClient
+  commentId: T:Inetlab.SMPP.Common.SmppServerClient
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: SmppServerClient
+  nameWithType: SmppServerClient
+  fullName: Inetlab.SMPP.Common.SmppServerClient
+- uid: Inetlab.SMPP.PDU.SubmitSm
+  commentId: T:Inetlab.SMPP.PDU.SubmitSm
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SubmitSm
+  nameWithType: SubmitSm
+  fullName: Inetlab.SMPP.PDU.SubmitSm
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

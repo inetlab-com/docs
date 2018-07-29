@@ -284,6 +284,8 @@
   "Inetlab.MMS.MM7Client.CreateSubmitRequest": "Inetlab.MMS.MM7Client.yml",
   "Inetlab.MMS.MM7Client.Deliver(Inetlab.MMS.MMSMessage)": "Inetlab.MMS.MM7Client.yml",
   "Inetlab.MMS.MM7Client.Deliver(Inetlab.MMS.MMSMessage,Inetlab.MMS.MM7.DeliverRequest)": "Inetlab.MMS.MM7Client.yml",
+  "Inetlab.MMS.MM7Client.GetWebRequest(System.Uri)": "Inetlab.MMS.MM7Client.yml",
+  "Inetlab.MMS.MM7Client.GetWebResponse(System.Net.HttpWebRequest)": "Inetlab.MMS.MM7Client.yml",
   "Inetlab.MMS.MM7Client.License": "Inetlab.MMS.MM7Client.yml",
   "Inetlab.MMS.MM7Client.Logger": "Inetlab.MMS.MM7Client.yml",
   "Inetlab.MMS.MM7Client.MM7Version": "Inetlab.MMS.MM7Client.yml",

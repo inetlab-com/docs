@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.BindRespEventHandler
+  commentId: T:Inetlab.SMPP.Common.BindRespEventHandler
+  id: BindRespEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: BindRespEventHandler
+  nameWithType: BindRespEventHandler
+  fullName: Inetlab.SMPP.Common.BindRespEventHandler
+  type: Delegate
+  source:
+    id: BindRespEventHandler
+    path: ''
+    startLine: 4202
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void BindRespEventHandler(object sender, BindResp data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: Inetlab.SMPP.PDU.BindResp
+    content.vb: Public Delegate Sub BindRespEventHandler(sender As Object, data As BindResp)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.BindResp
+  commentId: T:Inetlab.SMPP.PDU.BindResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: BindResp
+  nameWithType: BindResp
+  fullName: Inetlab.SMPP.PDU.BindResp
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

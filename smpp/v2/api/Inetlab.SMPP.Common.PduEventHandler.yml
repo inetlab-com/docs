@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.PduEventHandler
+  commentId: T:Inetlab.SMPP.Common.PduEventHandler
+  id: PduEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: PduEventHandler
+  nameWithType: PduEventHandler
+  fullName: Inetlab.SMPP.Common.PduEventHandler
+  type: Delegate
+  source:
+    id: PduEventHandler
+    path: ''
+    startLine: 5531
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void PduEventHandler(object sender, SmppPDU data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: SmppPDU
+    content.vb: Public Delegate Sub PduEventHandler(sender As Object, data As SmppPDU)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SmppPDU
+  isExternal: true
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: SmppPDU
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+shouldSkipMarkup: true

@@ -1,0 +1,348 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  id: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.AlertNotification
+  - Inetlab.SMPP.PDU.Bind
+  - Inetlab.SMPP.PDU.BindResp
+  - Inetlab.SMPP.PDU.CancelSm
+  - Inetlab.SMPP.PDU.CancelSmResp
+  - Inetlab.SMPP.PDU.DataSm
+  - Inetlab.SMPP.PDU.DataSmResp
+  - Inetlab.SMPP.PDU.DeliverSm
+  - Inetlab.SMPP.PDU.DeliverSmResp
+  - Inetlab.SMPP.PDU.EnquireLink
+  - Inetlab.SMPP.PDU.EnquireLinkResp
+  - Inetlab.SMPP.PDU.GenericNack
+  - Inetlab.SMPP.PDU.OutBind
+  - Inetlab.SMPP.PDU.QuerySm
+  - Inetlab.SMPP.PDU.QuerySmResp
+  - Inetlab.SMPP.PDU.SmppPDU
+  - Inetlab.SMPP.PDU.SmppRequest
+  - Inetlab.SMPP.PDU.SmppRequest`1
+  - Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+  - Inetlab.SMPP.PDU.SmppResponse
+  - Inetlab.SMPP.PDU.SmppResponse`1
+  - Inetlab.SMPP.PDU.SubmitMulti
+  - Inetlab.SMPP.PDU.SubmitMultiResp
+  - Inetlab.SMPP.PDU.SubmitSm
+  - Inetlab.SMPP.PDU.SubmitSmResp
+  - Inetlab.SMPP.PDU.UnBind
+  - Inetlab.SMPP.PDU.UnBindResp
+  - Inetlab.SMPP.PDU.UnknownPacket
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Inetlab.SMPP.PDU.AlertNotification
+  commentId: T:Inetlab.SMPP.PDU.AlertNotification
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: AlertNotification
+  nameWithType: AlertNotification
+  fullName: Inetlab.SMPP.PDU.AlertNotification
+- uid: Inetlab.SMPP.PDU.Bind
+  commentId: T:Inetlab.SMPP.PDU.Bind
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: Bind
+  nameWithType: Bind
+  fullName: Inetlab.SMPP.PDU.Bind
+- uid: Inetlab.SMPP.PDU.BindResp
+  commentId: T:Inetlab.SMPP.PDU.BindResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: BindResp
+  nameWithType: BindResp
+  fullName: Inetlab.SMPP.PDU.BindResp
+- uid: Inetlab.SMPP.PDU.CancelSm
+  commentId: T:Inetlab.SMPP.PDU.CancelSm
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: CancelSm
+  nameWithType: CancelSm
+  fullName: Inetlab.SMPP.PDU.CancelSm
+- uid: Inetlab.SMPP.PDU.CancelSmResp
+  commentId: T:Inetlab.SMPP.PDU.CancelSmResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: CancelSmResp
+  nameWithType: CancelSmResp
+  fullName: Inetlab.SMPP.PDU.CancelSmResp
+- uid: Inetlab.SMPP.PDU.DataSm
+  commentId: T:Inetlab.SMPP.PDU.DataSm
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: DataSm
+  nameWithType: DataSm
+  fullName: Inetlab.SMPP.PDU.DataSm
+- uid: Inetlab.SMPP.PDU.DataSmResp
+  commentId: T:Inetlab.SMPP.PDU.DataSmResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: DataSmResp
+  nameWithType: DataSmResp
+  fullName: Inetlab.SMPP.PDU.DataSmResp
+- uid: Inetlab.SMPP.PDU.DeliverSm
+  commentId: T:Inetlab.SMPP.PDU.DeliverSm
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: DeliverSm
+  nameWithType: DeliverSm
+  fullName: Inetlab.SMPP.PDU.DeliverSm
+- uid: Inetlab.SMPP.PDU.DeliverSmResp
+  commentId: T:Inetlab.SMPP.PDU.DeliverSmResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: DeliverSmResp
+  nameWithType: DeliverSmResp
+  fullName: Inetlab.SMPP.PDU.DeliverSmResp
+- uid: Inetlab.SMPP.PDU.EnquireLink
+  commentId: T:Inetlab.SMPP.PDU.EnquireLink
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: EnquireLink
+  nameWithType: EnquireLink
+  fullName: Inetlab.SMPP.PDU.EnquireLink
+- uid: Inetlab.SMPP.PDU.EnquireLinkResp
+  commentId: T:Inetlab.SMPP.PDU.EnquireLinkResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: EnquireLinkResp
+  nameWithType: EnquireLinkResp
+  fullName: Inetlab.SMPP.PDU.EnquireLinkResp
+- uid: Inetlab.SMPP.PDU.GenericNack
+  commentId: T:Inetlab.SMPP.PDU.GenericNack
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: GenericNack
+  nameWithType: GenericNack
+  fullName: Inetlab.SMPP.PDU.GenericNack
+- uid: Inetlab.SMPP.PDU.OutBind
+  commentId: T:Inetlab.SMPP.PDU.OutBind
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: OutBind
+  nameWithType: OutBind
+  fullName: Inetlab.SMPP.PDU.OutBind
+- uid: Inetlab.SMPP.PDU.QuerySm
+  commentId: T:Inetlab.SMPP.PDU.QuerySm
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: QuerySm
+  nameWithType: QuerySm
+  fullName: Inetlab.SMPP.PDU.QuerySm
+- uid: Inetlab.SMPP.PDU.QuerySmResp
+  commentId: T:Inetlab.SMPP.PDU.QuerySmResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: QuerySmResp
+  nameWithType: QuerySmResp
+  fullName: Inetlab.SMPP.PDU.QuerySmResp
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU.SmppRequest
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppRequest
+  nameWithType: SmppRequest
+  fullName: Inetlab.SMPP.PDU.SmppRequest
+- uid: Inetlab.SMPP.PDU.SmppResponse
+  commentId: T:Inetlab.SMPP.PDU.SmppResponse
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SmppResponse
+  nameWithType: SmppResponse
+  fullName: Inetlab.SMPP.PDU.SmppResponse
+- uid: Inetlab.SMPP.PDU.SmppRequest`1
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest`1
+  isExternal: false
+  name: SmppRequest<TResponse>
+  nameWithType: SmppRequest<TResponse>
+  fullName: Inetlab.SMPP.PDU.SmppRequest<TResponse>
+  nameWithType.vb: SmppRequest(Of TResponse)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of TResponse)
+  name.vb: SmppRequest(Of TResponse)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppResponse`1
+  commentId: T:Inetlab.SMPP.PDU.SmppResponse`1
+  isExternal: false
+  name: SmppResponse<TRequest>
+  nameWithType: SmppResponse<TRequest>
+  fullName: Inetlab.SMPP.PDU.SmppResponse<TRequest>
+  nameWithType.vb: SmppResponse(Of TRequest)
+  fullName.vb: Inetlab.SMPP.PDU.SmppResponse(Of TRequest)
+  name.vb: SmppResponse(Of TRequest)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRequest
+    nameWithType: TRequest
+    fullName: TRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRequest
+    nameWithType: TRequest
+    fullName: TRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+  commentId: T:Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+  isExternal: false
+  name: SmppRequestEventArgs<TRequest, TResponse>
+  nameWithType: SmppRequestEventArgs<TRequest, TResponse>
+  fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs<TRequest, TResponse>
+  nameWithType.vb: SmppRequestEventArgs(Of TRequest, TResponse)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequestEventArgs(Of TRequest, TResponse)
+  name.vb: SmppRequestEventArgs(Of TRequest, TResponse)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+    name: SmppRequestEventArgs
+    nameWithType: SmppRequestEventArgs
+    fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRequest
+    nameWithType: TRequest
+    fullName: TRequest
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+    name: SmppRequestEventArgs
+    nameWithType: SmppRequestEventArgs
+    fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRequest
+    nameWithType: TRequest
+    fullName: TRequest
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SubmitMulti
+  commentId: T:Inetlab.SMPP.PDU.SubmitMulti
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SubmitMulti
+  nameWithType: SubmitMulti
+  fullName: Inetlab.SMPP.PDU.SubmitMulti
+- uid: Inetlab.SMPP.PDU.SubmitMultiResp
+  commentId: T:Inetlab.SMPP.PDU.SubmitMultiResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SubmitMultiResp
+  nameWithType: SubmitMultiResp
+  fullName: Inetlab.SMPP.PDU.SubmitMultiResp
+- uid: Inetlab.SMPP.PDU.SubmitSm
+  commentId: T:Inetlab.SMPP.PDU.SubmitSm
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SubmitSm
+  nameWithType: SubmitSm
+  fullName: Inetlab.SMPP.PDU.SubmitSm
+- uid: Inetlab.SMPP.PDU.SubmitSmResp
+  commentId: T:Inetlab.SMPP.PDU.SubmitSmResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: SubmitSmResp
+  nameWithType: SubmitSmResp
+  fullName: Inetlab.SMPP.PDU.SubmitSmResp
+- uid: Inetlab.SMPP.PDU.UnBind
+  commentId: T:Inetlab.SMPP.PDU.UnBind
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: UnBind
+  nameWithType: UnBind
+  fullName: Inetlab.SMPP.PDU.UnBind
+- uid: Inetlab.SMPP.PDU.UnBindResp
+  commentId: T:Inetlab.SMPP.PDU.UnBindResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: UnBindResp
+  nameWithType: UnBindResp
+  fullName: Inetlab.SMPP.PDU.UnBindResp
+- uid: Inetlab.SMPP.PDU.UnknownPacket
+  commentId: T:Inetlab.SMPP.PDU.UnknownPacket
+  isExternal: false
+  name: UnknownPacket
+  nameWithType: UnknownPacket
+  fullName: Inetlab.SMPP.PDU.UnknownPacket
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

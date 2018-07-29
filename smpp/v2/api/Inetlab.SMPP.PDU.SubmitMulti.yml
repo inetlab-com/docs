@@ -1,0 +1,1462 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.SubmitMulti
+  commentId: T:Inetlab.SMPP.PDU.SubmitMulti
+  id: SubmitMulti
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.SubmitMulti.#ctor
+  - Inetlab.SMPP.PDU.SubmitMulti.#ctor(SmppHeader)
+  - Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  - Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  - Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  - Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  - Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  - Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  - Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  - Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  - Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  - Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  - Inetlab.SMPP.PDU.SubmitMulti.Notification
+  - Inetlab.SMPP.PDU.SubmitMulti.Optional
+  - Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  - Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  - Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  - Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  - Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  - Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  - Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  - Inetlab.SMPP.PDU.SubmitMulti.SourceAddress
+  - Inetlab.SMPP.PDU.SubmitMulti.ToString
+  - Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  - Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  langs:
+  - csharp
+  - vb
+  name: SubmitMulti
+  nameWithType: SubmitMulti
+  fullName: Inetlab.SMPP.PDU.SubmitMulti
+  type: Class
+  source:
+    id: SubmitMulti
+    path: ''
+    startLine: 16552
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nSubmitMulti PDU to submit an SMPP message for delivery to multiple\nrecipients or to one or more Distribution Lists\n"
+  example: []
+  syntax:
+    content: 'public class SubmitMulti : SmppRequest<SubmitMultiResp>, ISmppMessage, IDestinationList, ISourceAddress'
+    content.vb: >-
+      Public Class SubmitMulti
+          Inherits SmppRequest(Of SubmitMultiResp)
+          Implements ISmppMessage, IDestinationList, ISourceAddress
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.PDU.SmppPDU
+  - Inetlab.SMPP.PDU.SmppRequest
+  - Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}
+  implements:
+  - ISmppMessage
+  - IDestinationList
+  - ISourceAddress
+  inheritedMembers:
+  - Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}.Response
+  - Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  - Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  - Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  - Inetlab.SMPP.PDU.SmppPDU.Header
+  - Inetlab.SMPP.PDU.SmppPDU.Client
+  - Inetlab.SMPP.PDU.SmppPDU.Tag
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  id: Concatenation
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Concatenation
+  nameWithType: SubmitMulti.Concatenation
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  type: Property
+  source:
+    id: Concatenation
+    path: ''
+    startLine: 16564
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nGets concatenation parameters.\n"
+  example: []
+  syntax:
+    content: public Concatenation Concatenation { get; }
+    parameters: []
+    return:
+      type: Concatenation
+    content.vb: Public ReadOnly Property Concatenation As Concatenation
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Concatenation*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  id: ServiceType
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ServiceType
+  nameWithType: SubmitMulti.ServiceType
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  type: Property
+  source:
+    id: ServiceType
+    path: ''
+    startLine: 16573
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nIndicates the SMS Application service associated with the message\n"
+  example: []
+  syntax:
+    content: public string ServiceType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServiceType As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ServiceType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SourceAddress
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.SourceAddress
+  id: SourceAddress
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SourceAddress
+  nameWithType: SubmitMulti.SourceAddress
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SourceAddress
+  type: Property
+  source:
+    id: SourceAddress
+    path: ''
+    startLine: 16591
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nAddress of SME which originated this message. If not known, set to NULL (Unknown).\n"
+  example: []
+  syntax:
+    content: public SmeAddress SourceAddress { get; set; }
+    parameters: []
+    return:
+      type: SmeAddress
+    content.vb: Public Property SourceAddress As SmeAddress
+  overload: Inetlab.SMPP.PDU.SubmitMulti.SourceAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  id: DestinationAddresses
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: DestinationAddresses
+  nameWithType: SubmitMulti.DestinationAddresses
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  type: Property
+  source:
+    id: DestinationAddresses
+    path: ''
+    startLine: 16597
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nContains one or more SME addresses or/and Distribution List names\n"
+  example: []
+  syntax:
+    content: public IList<IAddress> DestinationAddresses { get; set; }
+    parameters: []
+    return:
+      type: IList{IAddress}
+    content.vb: Public Property DestinationAddresses As IList(Of IAddress)
+  overload: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  id: EsmClass
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: EsmClass
+  nameWithType: SubmitMulti.EsmClass
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  type: Property
+  source:
+    id: EsmClass
+    path: ''
+    startLine: 16602
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nIndicates Message Mode and Message Type.\n"
+  example: []
+  syntax:
+    content: public byte EsmClass { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property EsmClass As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.EsmClass*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  id: ProtocolId
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ProtocolId
+  nameWithType: SubmitMulti.ProtocolId
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  type: Property
+  source:
+    id: ProtocolId
+    path: ''
+    startLine: 16607
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nProtocol Identifier. Network specific field.\n"
+  example: []
+  syntax:
+    content: public byte ProtocolId { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property ProtocolId As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  id: PriorityFlag
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: PriorityFlag
+  nameWithType: SubmitMulti.PriorityFlag
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  type: Property
+  source:
+    id: PriorityFlag
+    path: ''
+    startLine: 16612
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nDesignates the priority level of the message.\n"
+  example: []
+  syntax:
+    content: public byte PriorityFlag { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property PriorityFlag As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  id: ScheduledDeliveryTime
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ScheduledDeliveryTime
+  nameWithType: SubmitMulti.ScheduledDeliveryTime
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  type: Property
+  source:
+    id: ScheduledDeliveryTime
+    path: ''
+    startLine: 16618
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nThe short message is to be scheduled by the SMSC for delivery. \nSet to NULL for immediate message delivery.\n"
+  example: []
+  syntax:
+    content: public string ScheduledDeliveryTime { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ScheduledDeliveryTime As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  id: ValidityPeriod
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ValidityPeriod
+  nameWithType: SubmitMulti.ValidityPeriod
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  type: Property
+  source:
+    id: ValidityPeriod
+    path: ''
+    startLine: 16624
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nThe validity period of this message. Set to NULL to request the SMSC default validity period.\nFormat &apos;YYMMDDhhmmsstnnp&apos;.\n"
+  example: []
+  syntax:
+    content: public string ValidityPeriod { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ValidityPeriod As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  id: RegisteredDelivery
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: RegisteredDelivery
+  nameWithType: SubmitMulti.RegisteredDelivery
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  type: Property
+  source:
+    id: RegisteredDelivery
+    path: ''
+    startLine: 16647
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nIndicator to signify if an SMSC delivery receipt or an SME acknowledgement is required.\n"
+  example: []
+  syntax:
+    content: public byte RegisteredDelivery { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property RegisteredDelivery As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  id: ReplaceIfPresent
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ReplaceIfPresent
+  nameWithType: SubmitMulti.ReplaceIfPresent
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  type: Property
+  source:
+    id: ReplaceIfPresent
+    path: ''
+    startLine: 16652
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nFlag indicating if submitted message should replace an existing message.\n"
+  example: []
+  syntax:
+    content: public byte ReplaceIfPresent { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property ReplaceIfPresent As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  id: DataCoding
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: DataCoding
+  nameWithType: SubmitMulti.DataCoding
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  type: Property
+  source:
+    id: DataCoding
+    path: ''
+    startLine: 16657
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nDefines the encoding scheme of the short message user data.\n"
+  example: []
+  syntax:
+    content: public DataCodings DataCoding { get; set; }
+    parameters: []
+    return:
+      type: DataCodings
+    content.vb: Public Property DataCoding As DataCodings
+  overload: Inetlab.SMPP.PDU.SubmitMulti.DataCoding*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  id: DefaultMessageId
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: DefaultMessageId
+  nameWithType: SubmitMulti.DefaultMessageId
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  type: Property
+  source:
+    id: DefaultMessageId
+    path: ''
+    startLine: 16662
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nIndicates the short message to send from a list of predefined (‘canned’) short messages stored on the SMSC. If not using an SMSC canned message, set to NULL.\n"
+  example: []
+  syntax:
+    content: public byte DefaultMessageId { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property DefaultMessageId As Byte
+  overload: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Optional
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.Optional
+  id: Optional
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: SubmitMulti.Optional
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Optional
+  type: Property
+  source:
+    id: Optional
+    path: ''
+    startLine: 16664
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public TLVCollection Optional { get; set; }
+    parameters: []
+    return:
+      type: TLVCollection
+    content.vb: Public Property Optional As TLVCollection
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Optional*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  id: MessageText
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: MessageText
+  nameWithType: SubmitMulti.MessageText
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  type: Property
+  source:
+    id: MessageText
+    path: ''
+    startLine: 16669
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nGets message text in specified data coding.\n"
+  example: []
+  syntax:
+    content: public string MessageText { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property MessageText As String
+  overload: Inetlab.SMPP.PDU.SubmitMulti.MessageText*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  id: UserDataPdu
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: UserDataPdu
+  nameWithType: SubmitMulti.UserDataPdu
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  type: Property
+  source:
+    id: UserDataPdu
+    path: ''
+    startLine: 16693
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public UserData UserDataPdu { get; set; }
+    parameters: []
+    return:
+      type: UserData
+    content.vb: Public Property UserDataPdu As UserData
+  overload: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  id: MessageMode
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: MessageMode
+  nameWithType: SubmitMulti.MessageMode
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  type: Property
+  source:
+    id: MessageMode
+    path: ''
+    startLine: 16695
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public MessageModes MessageMode { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.MessageModes
+    content.vb: Public Property MessageMode As MessageModes
+  overload: Inetlab.SMPP.PDU.SubmitMulti.MessageMode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  id: MessageType
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: MessageType
+  nameWithType: SubmitMulti.MessageType
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  type: Property
+  source:
+    id: MessageType
+    path: ''
+    startLine: 16701
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public MessageTypes MessageType { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.MessageTypes
+    content.vb: Public Property MessageType As MessageTypes
+  overload: Inetlab.SMPP.PDU.SubmitMulti.MessageType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  id: MessageFeature
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: MessageFeature
+  nameWithType: SubmitMulti.MessageFeature
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  type: Property
+  source:
+    id: MessageFeature
+    path: ''
+    startLine: 16707
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public GSMSpecificFeatures MessageFeature { get; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.GSMSpecificFeatures
+    content.vb: Public ReadOnly Property MessageFeature As GSMSpecificFeatures
+  overload: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  id: SMSCReceipt
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SMSCReceipt
+  nameWithType: SubmitMulti.SMSCReceipt
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  type: Property
+  source:
+    id: SMSCReceipt
+    path: ''
+    startLine: 16712
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public SMSCDeliveryReceipt SMSCReceipt { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+    content.vb: Public Property SMSCReceipt As SMSCDeliveryReceipt
+  overload: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  id: Acknowledgement
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Acknowledgement
+  nameWithType: SubmitMulti.Acknowledgement
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  type: Property
+  source:
+    id: Acknowledgement
+    path: ''
+    startLine: 16718
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public SMEAcknowledgement Acknowledgement { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.SMEAcknowledgement
+    content.vb: Public Property Acknowledgement As SMEAcknowledgement
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Notification
+  commentId: P:Inetlab.SMPP.PDU.SubmitMulti.Notification
+  id: Notification
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: Notification
+  nameWithType: SubmitMulti.Notification
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Notification
+  type: Property
+  source:
+    id: Notification
+    path: ''
+    startLine: 16724
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public IntermediateNotification Notification { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.IntermediateNotification
+    content.vb: Public Property Notification As IntermediateNotification
+  overload: Inetlab.SMPP.PDU.SubmitMulti.Notification*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.#ctor
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SubmitMulti()
+  nameWithType: SubmitMulti.SubmitMulti()
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SubmitMulti()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16731
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public SubmitMulti()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.PDU.SubmitMulti.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.#ctor(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.#ctor(SmppHeader)
+  id: '#ctor(SmppHeader)'
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: SubmitMulti(SmppHeader)
+  nameWithType: SubmitMulti.SubmitMulti(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SubmitMulti(SmppHeader)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16736
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public SubmitMulti(SmppHeader header)
+    parameters:
+    - id: header
+      type: SmppHeader
+    content.vb: Public Sub New(header As SmppHeader)
+  overload: Inetlab.SMPP.PDU.SubmitMulti.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ToString
+  commentId: M:Inetlab.SMPP.PDU.SubmitMulti.ToString
+  id: ToString
+  parent: Inetlab.SMPP.PDU.SubmitMulti
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SubmitMulti.ToString()
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 16744
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: Inetlab.SMPP.PDU.SmppRequest.ToString
+  overload: Inetlab.SMPP.PDU.SubmitMulti.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU.SmppRequest
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest
+  parent: Inetlab.SMPP.PDU
+  name: SmppRequest
+  nameWithType: SmppRequest
+  fullName: Inetlab.SMPP.PDU.SmppRequest
+- uid: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}
+  parent: Inetlab.SMPP.PDU
+  definition: Inetlab.SMPP.PDU.SmppRequest`1
+  name: SmppRequest<SubmitMultiResp>
+  nameWithType: SmppRequest<SubmitMultiResp>
+  fullName: Inetlab.SMPP.PDU.SmppRequest<Inetlab.SMPP.PDU.SubmitMultiResp>
+  nameWithType.vb: SmppRequest(Of SubmitMultiResp)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of Inetlab.SMPP.PDU.SubmitMultiResp)
+  name.vb: SmppRequest(Of SubmitMultiResp)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.PDU.SubmitMultiResp
+    name: SubmitMultiResp
+    nameWithType: SubmitMultiResp
+    fullName: Inetlab.SMPP.PDU.SubmitMultiResp
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.PDU.SubmitMultiResp
+    name: SubmitMultiResp
+    nameWithType: SubmitMultiResp
+    fullName: Inetlab.SMPP.PDU.SubmitMultiResp
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ISmppMessage
+  isExternal: true
+  name: ISmppMessage
+  nameWithType: ISmppMessage
+  fullName: ISmppMessage
+- uid: IDestinationList
+  commentId: '!:IDestinationList'
+  isExternal: true
+  name: IDestinationList
+  nameWithType: IDestinationList
+  fullName: IDestinationList
+- uid: ISourceAddress
+  isExternal: true
+  name: ISourceAddress
+  nameWithType: ISourceAddress
+  fullName: ISourceAddress
+- uid: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}.Response
+  commentId: P:Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}.Response
+  parent: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.SubmitMultiResp}
+  definition: Inetlab.SMPP.PDU.SmppRequest`1.Response
+  name: Response
+  nameWithType: SmppRequest<SubmitMultiResp>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequest<Inetlab.SMPP.PDU.SubmitMultiResp>.Response
+  nameWithType.vb: SmppRequest(Of SubmitMultiResp).Response
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of Inetlab.SMPP.PDU.SubmitMultiResp).Response
+- uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: CreatePDU(SmppHeader)
+  nameWithType: SmppRequest.CreatePDU(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+    name: CreatePDU
+    nameWithType: SmppRequest.CreatePDU
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+    name: CreatePDU
+    nameWithType: SmppRequest.CreatePDU
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: CreateResponseHeader(SmppHeader)
+  nameWithType: SmppRequest.CreateResponseHeader(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+    name: CreateResponseHeader
+    nameWithType: SmppRequest.CreateResponseHeader
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+    name: CreateResponseHeader
+    nameWithType: SmppRequest.CreateResponseHeader
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: GetResponseCommand(CommandSet)
+  nameWithType: SmppRequest.GetResponseCommand(CommandSet)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+    name: GetResponseCommand
+    nameWithType: SmppRequest.GetResponseCommand
+    fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CommandSet
+    name: CommandSet
+    nameWithType: CommandSet
+    fullName: CommandSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+    name: GetResponseCommand
+    nameWithType: SmppRequest.GetResponseCommand
+    fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CommandSet
+    name: CommandSet
+    nameWithType: CommandSet
+    fullName: CommandSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppPDU.Header
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Header
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Header
+  nameWithType: SmppPDU.Header
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Header
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Client
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Tag
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.SmppRequest`1
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest`1
+  name: SmppRequest<TResponse>
+  nameWithType: SmppRequest<TResponse>
+  fullName: Inetlab.SMPP.PDU.SmppRequest<TResponse>
+  nameWithType.vb: SmppRequest(Of TResponse)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of TResponse)
+  name.vb: SmppRequest(Of TResponse)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest`1.Response
+  commentId: P:Inetlab.SMPP.PDU.SmppRequest`1.Response
+  name: Response
+  nameWithType: SmppRequest<TResponse>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequest<TResponse>.Response
+  nameWithType.vb: SmppRequest(Of TResponse).Response
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of TResponse).Response
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Concatenation*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+  name: Concatenation
+  nameWithType: SubmitMulti.Concatenation
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Concatenation
+- uid: Concatenation
+  isExternal: true
+  name: Concatenation
+  nameWithType: Concatenation
+  fullName: Concatenation
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ServiceType*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+  name: ServiceType
+  nameWithType: SubmitMulti.ServiceType
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ServiceType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SourceAddress*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.SourceAddress
+  name: SourceAddress
+  nameWithType: SubmitMulti.SourceAddress
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SourceAddress
+- uid: SmeAddress
+  isExternal: true
+  name: SmeAddress
+  nameWithType: SmeAddress
+  fullName: SmeAddress
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+  name: DestinationAddresses
+  nameWithType: SubmitMulti.DestinationAddresses
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DestinationAddresses
+- uid: IList{IAddress}
+  commentId: '!:IList{IAddress}'
+  definition: IList`1
+  name: IList<IAddress>
+  nameWithType: IList<IAddress>
+  fullName: IList<IAddress>
+  nameWithType.vb: IList(Of IAddress)
+  fullName.vb: IList(Of IAddress)
+  name.vb: IList(Of IAddress)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: IAddress
+    name: IAddress
+    nameWithType: IAddress
+    fullName: IAddress
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: IAddress
+    name: IAddress
+    nameWithType: IAddress
+    fullName: IAddress
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SubmitMulti.EsmClass*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+  name: EsmClass
+  nameWithType: SubmitMulti.EsmClass
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.EsmClass
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+  name: ProtocolId
+  nameWithType: SubmitMulti.ProtocolId
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ProtocolId
+- uid: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+  name: PriorityFlag
+  nameWithType: SubmitMulti.PriorityFlag
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.PriorityFlag
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+  name: ScheduledDeliveryTime
+  nameWithType: SubmitMulti.ScheduledDeliveryTime
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ScheduledDeliveryTime
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+  name: ValidityPeriod
+  nameWithType: SubmitMulti.ValidityPeriod
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ValidityPeriod
+- uid: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+  name: RegisteredDelivery
+  nameWithType: SubmitMulti.RegisteredDelivery
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.RegisteredDelivery
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+  name: ReplaceIfPresent
+  nameWithType: SubmitMulti.ReplaceIfPresent
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ReplaceIfPresent
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DataCoding*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+  name: DataCoding
+  nameWithType: SubmitMulti.DataCoding
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DataCoding
+- uid: DataCodings
+  isExternal: true
+  name: DataCodings
+  nameWithType: DataCodings
+  fullName: DataCodings
+- uid: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+  name: DefaultMessageId
+  nameWithType: SubmitMulti.DefaultMessageId
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.DefaultMessageId
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Optional*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Optional
+  name: Optional
+  nameWithType: SubmitMulti.Optional
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Optional
+- uid: TLVCollection
+  isExternal: true
+  name: TLVCollection
+  nameWithType: TLVCollection
+  fullName: TLVCollection
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageText*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.MessageText
+  name: MessageText
+  nameWithType: SubmitMulti.MessageText
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageText
+- uid: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+  name: UserDataPdu
+  nameWithType: SubmitMulti.UserDataPdu
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.UserDataPdu
+- uid: UserData
+  isExternal: true
+  name: UserData
+  nameWithType: UserData
+  fullName: UserData
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageMode*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+  name: MessageMode
+  nameWithType: SubmitMulti.MessageMode
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageMode
+- uid: Inetlab.SMPP.Common.MessageModes
+  commentId: T:Inetlab.SMPP.Common.MessageModes
+  parent: Inetlab.SMPP.Common
+  name: MessageModes
+  nameWithType: MessageModes
+  fullName: Inetlab.SMPP.Common.MessageModes
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageType*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.MessageType
+  name: MessageType
+  nameWithType: SubmitMulti.MessageType
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageType
+- uid: Inetlab.SMPP.Common.MessageTypes
+  commentId: T:Inetlab.SMPP.Common.MessageTypes
+  parent: Inetlab.SMPP.Common
+  name: MessageTypes
+  nameWithType: MessageTypes
+  fullName: Inetlab.SMPP.Common.MessageTypes
+- uid: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+  name: MessageFeature
+  nameWithType: SubmitMulti.MessageFeature
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.MessageFeature
+- uid: Inetlab.SMPP.Common.GSMSpecificFeatures
+  commentId: T:Inetlab.SMPP.Common.GSMSpecificFeatures
+  parent: Inetlab.SMPP.Common
+  name: GSMSpecificFeatures
+  nameWithType: GSMSpecificFeatures
+  fullName: Inetlab.SMPP.Common.GSMSpecificFeatures
+- uid: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+  name: SMSCReceipt
+  nameWithType: SubmitMulti.SMSCReceipt
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SMSCReceipt
+- uid: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  commentId: T:Inetlab.SMPP.Common.SMSCDeliveryReceipt
+  parent: Inetlab.SMPP.Common
+  name: SMSCDeliveryReceipt
+  nameWithType: SMSCDeliveryReceipt
+  fullName: Inetlab.SMPP.Common.SMSCDeliveryReceipt
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+  name: Acknowledgement
+  nameWithType: SubmitMulti.Acknowledgement
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Acknowledgement
+- uid: Inetlab.SMPP.Common.SMEAcknowledgement
+  commentId: T:Inetlab.SMPP.Common.SMEAcknowledgement
+  parent: Inetlab.SMPP.Common
+  name: SMEAcknowledgement
+  nameWithType: SMEAcknowledgement
+  fullName: Inetlab.SMPP.Common.SMEAcknowledgement
+- uid: Inetlab.SMPP.PDU.SubmitMulti.Notification*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.Notification
+  name: Notification
+  nameWithType: SubmitMulti.Notification
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.Notification
+- uid: Inetlab.SMPP.Common.IntermediateNotification
+  commentId: T:Inetlab.SMPP.Common.IntermediateNotification
+  parent: Inetlab.SMPP.Common
+  name: IntermediateNotification
+  nameWithType: IntermediateNotification
+  fullName: Inetlab.SMPP.Common.IntermediateNotification
+- uid: Inetlab.SMPP.PDU.SubmitMulti.#ctor*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.#ctor
+  name: SubmitMulti
+  nameWithType: SubmitMulti.SubmitMulti
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.SubmitMulti
+- uid: SmppHeader
+  isExternal: true
+  name: SmppHeader
+  nameWithType: SmppHeader
+  fullName: SmppHeader
+- uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.ToString
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  name: ToString()
+  nameWithType: SmppRequest.ToString()
+  fullName: Inetlab.SMPP.PDU.SmppRequest.ToString()
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+    name: ToString
+    nameWithType: SmppRequest.ToString
+    fullName: Inetlab.SMPP.PDU.SmppRequest.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+    name: ToString
+    nameWithType: SmppRequest.ToString
+    fullName: Inetlab.SMPP.PDU.SmppRequest.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SubmitMulti.ToString*
+  commentId: Overload:Inetlab.SMPP.PDU.SubmitMulti.ToString
+  name: ToString
+  nameWithType: SubmitMulti.ToString
+  fullName: Inetlab.SMPP.PDU.SubmitMulti.ToString
+shouldSkipMarkup: true

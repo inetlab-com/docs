@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.GenericNackEventHandler
+  commentId: T:Inetlab.SMPP.Common.GenericNackEventHandler
+  id: GenericNackEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GenericNackEventHandler
+  nameWithType: GenericNackEventHandler
+  fullName: Inetlab.SMPP.Common.GenericNackEventHandler
+  type: Delegate
+  source:
+    id: GenericNackEventHandler
+    path: ''
+    startLine: 5539
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void GenericNackEventHandler(object sender, GenericNack data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: Inetlab.SMPP.PDU.GenericNack
+    content.vb: Public Delegate Sub GenericNackEventHandler(sender As Object, data As GenericNack)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.GenericNack
+  commentId: T:Inetlab.SMPP.PDU.GenericNack
+  parent: Inetlab.SMPP.PDU
+  name: GenericNack
+  nameWithType: GenericNack
+  fullName: Inetlab.SMPP.PDU.GenericNack
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

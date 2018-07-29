@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SmppException
+  commentId: T:Inetlab.SMPP.Common.SmppException
+  id: SmppException
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SmppException.#ctor(System.String)
+  - Inetlab.SMPP.Common.SmppException.#ctor(System.String,Exception)
+  langs:
+  - csharp
+  - vb
+  name: SmppException
+  nameWithType: SmppException
+  fullName: Inetlab.SMPP.Common.SmppException
+  type: Class
+  source:
+    id: SmppException
+    path: ''
+    startLine: 8979
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public class SmppException : Exception'
+    content.vb: >-
+      Public Class SmppException
+          Inherits Exception
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Inetlab.SMPP.Common.SmppConnectionException
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.SmppException.#ctor(System.String)
+  commentId: M:Inetlab.SMPP.Common.SmppException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Inetlab.SMPP.Common.SmppException
+  langs:
+  - csharp
+  - vb
+  name: SmppException(String)
+  nameWithType: SmppException.SmppException(String)
+  fullName: Inetlab.SMPP.Common.SmppException.SmppException(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8982
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppException(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(message As String)
+  overload: Inetlab.SMPP.Common.SmppException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppException.#ctor(System.String,Exception)
+  commentId: M:Inetlab.SMPP.Common.SmppException.#ctor(System.String,Exception)
+  id: '#ctor(System.String,Exception)'
+  parent: Inetlab.SMPP.Common.SmppException
+  langs:
+  - csharp
+  - vb
+  name: SmppException(String, Exception)
+  nameWithType: SmppException.SmppException(String, Exception)
+  fullName: Inetlab.SMPP.Common.SmppException.SmppException(System.String, Exception)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8987
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppException(string message, Exception innerException)
+    parameters:
+    - id: message
+      type: System.String
+    - id: innerException
+      type: Exception
+    content.vb: Public Sub New(message As String, innerException As Exception)
+  overload: Inetlab.SMPP.Common.SmppException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.SmppException.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.SmppException.#ctor
+  isExternal: false
+  name: SmppException
+  nameWithType: SmppException.SmppException
+  fullName: Inetlab.SMPP.Common.SmppException.SmppException
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+shouldSkipMarkup: true

@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.DistributionList
+  commentId: T:Inetlab.SMPP.Common.DistributionList
+  id: DistributionList
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.DistributionList.#ctor
+  - Inetlab.SMPP.Common.DistributionList.#ctor(System.String)
+  - Inetlab.SMPP.Common.DistributionList.Address
+  langs:
+  - csharp
+  - vb
+  name: DistributionList
+  nameWithType: DistributionList
+  fullName: Inetlab.SMPP.Common.DistributionList
+  type: Class
+  source:
+    id: DistributionList
+    path: ''
+    startLine: 5616
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nRepresents Distribution list name \n"
+  example: []
+  syntax:
+    content: 'public class DistributionList : IAddress'
+    content.vb: >-
+      Public Class DistributionList
+          Implements IAddress
+  inheritance:
+  - System.Object
+  implements:
+  - Inetlab.SMPP.Common.IAddress
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.DistributionList.Address
+  commentId: P:Inetlab.SMPP.Common.DistributionList.Address
+  id: Address
+  parent: Inetlab.SMPP.Common.DistributionList
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: DistributionList.Address
+  fullName: Inetlab.SMPP.Common.DistributionList.Address
+  type: Property
+  source:
+    id: Address
+    path: ''
+    startLine: 5619
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: Inetlab.SMPP.Common.DistributionList.Address*
+  implements:
+  - Inetlab.SMPP.Common.IAddress.Address
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.DistributionList.#ctor
+  commentId: M:Inetlab.SMPP.Common.DistributionList.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.DistributionList
+  langs:
+  - csharp
+  - vb
+  name: DistributionList()
+  nameWithType: DistributionList.DistributionList()
+  fullName: Inetlab.SMPP.Common.DistributionList.DistributionList()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5621
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public DistributionList()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.DistributionList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.DistributionList.#ctor(System.String)
+  commentId: M:Inetlab.SMPP.Common.DistributionList.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Inetlab.SMPP.Common.DistributionList
+  langs:
+  - csharp
+  - vb
+  name: DistributionList(String)
+  nameWithType: DistributionList.DistributionList(String)
+  fullName: Inetlab.SMPP.Common.DistributionList.DistributionList(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5625
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public DistributionList(string listName)
+    parameters:
+    - id: listName
+      type: System.String
+    content.vb: Public Sub New(listName As String)
+  overload: Inetlab.SMPP.Common.DistributionList.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.IAddress
+  commentId: T:Inetlab.SMPP.Common.IAddress
+  parent: Inetlab.SMPP.Common
+  name: IAddress
+  nameWithType: IAddress
+  fullName: Inetlab.SMPP.Common.IAddress
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.DistributionList.Address*
+  commentId: Overload:Inetlab.SMPP.Common.DistributionList.Address
+  name: Address
+  nameWithType: DistributionList.Address
+  fullName: Inetlab.SMPP.Common.DistributionList.Address
+- uid: Inetlab.SMPP.Common.IAddress.Address
+  commentId: P:Inetlab.SMPP.Common.IAddress.Address
+  parent: Inetlab.SMPP.Common.IAddress
+  name: Address
+  nameWithType: IAddress.Address
+  fullName: Inetlab.SMPP.Common.IAddress.Address
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Common.DistributionList.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.DistributionList.#ctor
+  name: DistributionList
+  nameWithType: DistributionList.DistributionList
+  fullName: Inetlab.SMPP.Common.DistributionList.DistributionList
+shouldSkipMarkup: true

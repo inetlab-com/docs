@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.IntermediateNotification
+  commentId: T:Inetlab.SMPP.Common.IntermediateNotification
+  id: IntermediateNotification
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.IntermediateNotification.NotRequested
+  - Inetlab.SMPP.Common.IntermediateNotification.Requested
+  langs:
+  - csharp
+  - vb
+  name: IntermediateNotification
+  nameWithType: IntermediateNotification
+  fullName: Inetlab.SMPP.Common.IntermediateNotification
+  type: Enum
+  source:
+    id: IntermediateNotification
+    path: ''
+    startLine: 6061
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIntermediate Notification (bit 5 of registered_delivery)\n"
+  example: []
+  syntax:
+    content: 'public enum IntermediateNotification : byte'
+    content.vb: Public Enum IntermediateNotification As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.IntermediateNotification.NotRequested
+  commentId: F:Inetlab.SMPP.Common.IntermediateNotification.NotRequested
+  id: NotRequested
+  parent: Inetlab.SMPP.Common.IntermediateNotification
+  langs:
+  - csharp
+  - vb
+  name: NotRequested
+  nameWithType: IntermediateNotification.NotRequested
+  fullName: Inetlab.SMPP.Common.IntermediateNotification.NotRequested
+  type: Field
+  source:
+    id: NotRequested
+    path: ''
+    startLine: 6066
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNo Intermediate notification requested (default)\n"
+  example: []
+  syntax:
+    content: NotRequested = 0
+    return:
+      type: Inetlab.SMPP.Common.IntermediateNotification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.IntermediateNotification.Requested
+  commentId: F:Inetlab.SMPP.Common.IntermediateNotification.Requested
+  id: Requested
+  parent: Inetlab.SMPP.Common.IntermediateNotification
+  langs:
+  - csharp
+  - vb
+  name: Requested
+  nameWithType: IntermediateNotification.Requested
+  fullName: Inetlab.SMPP.Common.IntermediateNotification.Requested
+  type: Field
+  source:
+    id: Requested
+    path: ''
+    startLine: 6071
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIntermediate notification requested\n"
+  example: []
+  syntax:
+    content: Requested = 16
+    return:
+      type: Inetlab.SMPP.Common.IntermediateNotification
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.IntermediateNotification
+  commentId: T:Inetlab.SMPP.Common.IntermediateNotification
+  parent: Inetlab.SMPP.Common
+  name: IntermediateNotification
+  nameWithType: IntermediateNotification
+  fullName: Inetlab.SMPP.Common.IntermediateNotification
+shouldSkipMarkup: true

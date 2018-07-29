@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.CancelSmRespEventHandler
+  commentId: T:Inetlab.SMPP.Common.CancelSmRespEventHandler
+  id: CancelSmRespEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: CancelSmRespEventHandler
+  nameWithType: CancelSmRespEventHandler
+  fullName: Inetlab.SMPP.Common.CancelSmRespEventHandler
+  type: Delegate
+  source:
+    id: CancelSmRespEventHandler
+    path: ''
+    startLine: 4226
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void CancelSmRespEventHandler(object sender, CancelSmResp data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: Inetlab.SMPP.PDU.CancelSmResp
+    content.vb: Public Delegate Sub CancelSmRespEventHandler(sender As Object, data As CancelSmResp)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.CancelSmResp
+  commentId: T:Inetlab.SMPP.PDU.CancelSmResp
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: CancelSmResp
+  nameWithType: CancelSmResp
+  fullName: Inetlab.SMPP.PDU.CancelSmResp
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

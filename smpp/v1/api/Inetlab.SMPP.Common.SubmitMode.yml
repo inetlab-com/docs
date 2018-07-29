@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SubmitMode
+  commentId: T:Inetlab.SMPP.Common.SubmitMode
+  id: SubmitMode
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SubmitMode.Payload
+  - Inetlab.SMPP.Common.SubmitMode.ShortMessage
+  - Inetlab.SMPP.Common.SubmitMode.ShortMessageWithSAR
+  langs:
+  - csharp
+  - vb
+  name: SubmitMode
+  nameWithType: SubmitMode
+  fullName: Inetlab.SMPP.Common.SubmitMode
+  type: Enum
+  source:
+    id: SubmitMode
+    path: ''
+    startLine: 10734
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIdentifies the way how to send multi-part text in the SUBMIT_SM PDU.\n"
+  example: []
+  syntax:
+    content: public enum SubmitMode
+    content.vb: Public Enum SubmitMode
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.SubmitMode.ShortMessage
+  commentId: F:Inetlab.SMPP.Common.SubmitMode.ShortMessage
+  id: ShortMessage
+  parent: Inetlab.SMPP.Common.SubmitMode
+  langs:
+  - csharp
+  - vb
+  name: ShortMessage
+  nameWithType: SubmitMode.ShortMessage
+  fullName: Inetlab.SMPP.Common.SubmitMode.ShortMessage
+  type: Field
+  source:
+    id: ShortMessage
+    path: ''
+    startLine: 10739
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSend user data in the short_message field and concatenation options in user data header.\n"
+  example: []
+  syntax:
+    content: ShortMessage = 1
+    return:
+      type: Inetlab.SMPP.Common.SubmitMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.SubmitMode.Payload
+  commentId: F:Inetlab.SMPP.Common.SubmitMode.Payload
+  id: Payload
+  parent: Inetlab.SMPP.Common.SubmitMode
+  langs:
+  - csharp
+  - vb
+  name: Payload
+  nameWithType: SubmitMode.Payload
+  fullName: Inetlab.SMPP.Common.SubmitMode.Payload
+  type: Field
+  source:
+    id: Payload
+    path: ''
+    startLine: 10744
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSend user data in the message_payload field and concatenation options in TLV paramaters\n"
+  example: []
+  syntax:
+    content: Payload = 2
+    return:
+      type: Inetlab.SMPP.Common.SubmitMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.SubmitMode.ShortMessageWithSAR
+  commentId: F:Inetlab.SMPP.Common.SubmitMode.ShortMessageWithSAR
+  id: ShortMessageWithSAR
+  parent: Inetlab.SMPP.Common.SubmitMode
+  langs:
+  - csharp
+  - vb
+  name: ShortMessageWithSAR
+  nameWithType: SubmitMode.ShortMessageWithSAR
+  fullName: Inetlab.SMPP.Common.SubmitMode.ShortMessageWithSAR
+  type: Field
+  source:
+    id: ShortMessageWithSAR
+    path: ''
+    startLine: 10749
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSend user data in the short_message field and concatenation options in TLV paramaters\n"
+  example: []
+  syntax:
+    content: ShortMessageWithSAR = 3
+    return:
+      type: Inetlab.SMPP.Common.SubmitMode
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.SubmitMode
+  commentId: T:Inetlab.SMPP.Common.SubmitMode
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: SubmitMode
+  nameWithType: SubmitMode
+  fullName: Inetlab.SMPP.Common.SubmitMode
+shouldSkipMarkup: true

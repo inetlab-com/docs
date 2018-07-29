@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.HostEndPoint
+  commentId: T:Inetlab.SMPP.Common.HostEndPoint
+  id: HostEndPoint
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.HostEndPoint.#ctor(System.String,System.Int32)
+  - Inetlab.SMPP.Common.HostEndPoint.Host
+  - Inetlab.SMPP.Common.HostEndPoint.Port
+  - Inetlab.SMPP.Common.HostEndPoint.ToString
+  langs:
+  - csharp
+  - vb
+  name: HostEndPoint
+  nameWithType: HostEndPoint
+  fullName: Inetlab.SMPP.Common.HostEndPoint
+  type: Class
+  source:
+    id: HostEndPoint
+    path: ''
+    startLine: 4650
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public class HostEndPoint : EndPoint'
+    content.vb: >-
+      Public Class HostEndPoint
+          Inherits EndPoint
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.HostEndPoint.Host
+  commentId: P:Inetlab.SMPP.Common.HostEndPoint.Host
+  id: Host
+  parent: Inetlab.SMPP.Common.HostEndPoint
+  langs:
+  - csharp
+  - vb
+  name: Host
+  nameWithType: HostEndPoint.Host
+  fullName: Inetlab.SMPP.Common.HostEndPoint.Host
+  type: Property
+  source:
+    id: Host
+    path: ''
+    startLine: 4652
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public string Host { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Host As String
+  overload: Inetlab.SMPP.Common.HostEndPoint.Host*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.HostEndPoint.Port
+  commentId: P:Inetlab.SMPP.Common.HostEndPoint.Port
+  id: Port
+  parent: Inetlab.SMPP.Common.HostEndPoint
+  langs:
+  - csharp
+  - vb
+  name: Port
+  nameWithType: HostEndPoint.Port
+  fullName: Inetlab.SMPP.Common.HostEndPoint.Port
+  type: Property
+  source:
+    id: Port
+    path: ''
+    startLine: 4653
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public int Port { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Port As Integer
+  overload: Inetlab.SMPP.Common.HostEndPoint.Port*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.HostEndPoint.#ctor(System.String,System.Int32)
+  commentId: M:Inetlab.SMPP.Common.HostEndPoint.#ctor(System.String,System.Int32)
+  id: '#ctor(System.String,System.Int32)'
+  parent: Inetlab.SMPP.Common.HostEndPoint
+  langs:
+  - csharp
+  - vb
+  name: HostEndPoint(String, Int32)
+  nameWithType: HostEndPoint.HostEndPoint(String, Int32)
+  fullName: Inetlab.SMPP.Common.HostEndPoint.HostEndPoint(System.String, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 4655
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public HostEndPoint(string host, int port)
+    parameters:
+    - id: host
+      type: System.String
+    - id: port
+      type: System.Int32
+    content.vb: Public Sub New(host As String, port As Integer)
+  overload: Inetlab.SMPP.Common.HostEndPoint.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.HostEndPoint.ToString
+  commentId: M:Inetlab.SMPP.Common.HostEndPoint.ToString
+  id: ToString
+  parent: Inetlab.SMPP.Common.HostEndPoint
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: HostEndPoint.ToString()
+  fullName: Inetlab.SMPP.Common.HostEndPoint.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 4661
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overload: Inetlab.SMPP.Common.HostEndPoint.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.HostEndPoint.Host*
+  commentId: Overload:Inetlab.SMPP.Common.HostEndPoint.Host
+  isExternal: false
+  name: Host
+  nameWithType: HostEndPoint.Host
+  fullName: Inetlab.SMPP.Common.HostEndPoint.Host
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Common.HostEndPoint.Port*
+  commentId: Overload:Inetlab.SMPP.Common.HostEndPoint.Port
+  isExternal: false
+  name: Port
+  nameWithType: HostEndPoint.Port
+  fullName: Inetlab.SMPP.Common.HostEndPoint.Port
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.Common.HostEndPoint.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.HostEndPoint.#ctor
+  isExternal: false
+  name: HostEndPoint
+  nameWithType: HostEndPoint.HostEndPoint
+  fullName: Inetlab.SMPP.Common.HostEndPoint.HostEndPoint
+- uid: Inetlab.SMPP.Common.HostEndPoint.ToString*
+  commentId: Overload:Inetlab.SMPP.Common.HostEndPoint.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: HostEndPoint.ToString
+  fullName: Inetlab.SMPP.Common.HostEndPoint.ToString
+shouldSkipMarkup: true

@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.MessageModes
+  commentId: T:Inetlab.SMPP.Common.MessageModes
+  id: MessageModes
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.MessageModes.Datagram
+  - Inetlab.SMPP.Common.MessageModes.Default
+  - Inetlab.SMPP.Common.MessageModes.Forward
+  - Inetlab.SMPP.Common.MessageModes.StoreForward
+  langs:
+  - csharp
+  - vb
+  name: MessageModes
+  nameWithType: MessageModes
+  fullName: Inetlab.SMPP.Common.MessageModes
+  type: Enum
+  source:
+    id: MessageModes
+    path: ''
+    startLine: 6771
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessaging Modes (bits 1-0 of esm_class) \n"
+  example: []
+  syntax:
+    content: 'public enum MessageModes : byte'
+    content.vb: Public Enum MessageModes As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.MessageModes.Default
+  commentId: F:Inetlab.SMPP.Common.MessageModes.Default
+  id: Default
+  parent: Inetlab.SMPP.Common.MessageModes
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: MessageModes.Default
+  fullName: Inetlab.SMPP.Common.MessageModes.Default
+  type: Field
+  source:
+    id: Default
+    path: ''
+    startLine: 6776
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nDefault SMSC Mode (e.g. Store and Forward)\n"
+  example: []
+  syntax:
+    content: Default = 0
+    return:
+      type: Inetlab.SMPP.Common.MessageModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageModes.Datagram
+  commentId: F:Inetlab.SMPP.Common.MessageModes.Datagram
+  id: Datagram
+  parent: Inetlab.SMPP.Common.MessageModes
+  langs:
+  - csharp
+  - vb
+  name: Datagram
+  nameWithType: MessageModes.Datagram
+  fullName: Inetlab.SMPP.Common.MessageModes.Datagram
+  type: Field
+  source:
+    id: Datagram
+    path: ''
+    startLine: 6780
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nDatagram mode\n"
+  example: []
+  syntax:
+    content: Datagram = 1
+    return:
+      type: Inetlab.SMPP.Common.MessageModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageModes.Forward
+  commentId: F:Inetlab.SMPP.Common.MessageModes.Forward
+  id: Forward
+  parent: Inetlab.SMPP.Common.MessageModes
+  langs:
+  - csharp
+  - vb
+  name: Forward
+  nameWithType: MessageModes.Forward
+  fullName: Inetlab.SMPP.Common.MessageModes.Forward
+  type: Field
+  source:
+    id: Forward
+    path: ''
+    startLine: 6784
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nForward (i.e. Transaction) mode\n"
+  example: []
+  syntax:
+    content: Forward = 2
+    return:
+      type: Inetlab.SMPP.Common.MessageModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageModes.StoreForward
+  commentId: F:Inetlab.SMPP.Common.MessageModes.StoreForward
+  id: StoreForward
+  parent: Inetlab.SMPP.Common.MessageModes
+  langs:
+  - csharp
+  - vb
+  name: StoreForward
+  nameWithType: MessageModes.StoreForward
+  fullName: Inetlab.SMPP.Common.MessageModes.StoreForward
+  type: Field
+  source:
+    id: StoreForward
+    path: ''
+    startLine: 6788
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nStore and Forward mode\n"
+  example: []
+  syntax:
+    content: StoreForward = 3
+    return:
+      type: Inetlab.SMPP.Common.MessageModes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.MessageModes
+  commentId: T:Inetlab.SMPP.Common.MessageModes
+  parent: Inetlab.SMPP.Common
+  name: MessageModes
+  nameWithType: MessageModes
+  fullName: Inetlab.SMPP.Common.MessageModes
+shouldSkipMarkup: true

@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Npi
+  commentId: T:Inetlab.SMPP.Common.Npi
+  id: Npi
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.Npi.DataX121
+  - Inetlab.SMPP.Common.Npi.ERMES
+  - Inetlab.SMPP.Common.Npi.Internet
+  - Inetlab.SMPP.Common.Npi.ISDN
+  - Inetlab.SMPP.Common.Npi.LandMobileE212
+  - Inetlab.SMPP.Common.Npi.National
+  - Inetlab.SMPP.Common.Npi.Private
+  - Inetlab.SMPP.Common.Npi.TelexF69
+  - Inetlab.SMPP.Common.Npi.Unknown
+  - Inetlab.SMPP.Common.Npi.WAP
+  langs:
+  - csharp
+  - vb
+  name: Npi
+  nameWithType: Npi
+  fullName: Inetlab.SMPP.Common.Npi
+  type: Enum
+  source:
+    id: Npi
+    path: ''
+    startLine: 5597
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNumeric Plan Indicator (NPI) used in the SME address parameters.\n"
+  example: []
+  syntax:
+    content: 'public enum Npi : byte'
+    content.vb: Public Enum Npi As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.Npi.Unknown
+  commentId: F:Inetlab.SMPP.Common.Npi.Unknown
+  id: Unknown
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: Npi.Unknown
+  fullName: Inetlab.SMPP.Common.Npi.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 5602
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUnknown\n"
+  example: []
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Npi.ISDN
+  commentId: F:Inetlab.SMPP.Common.Npi.ISDN
+  id: ISDN
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: ISDN
+  nameWithType: Npi.ISDN
+  fullName: Inetlab.SMPP.Common.Npi.ISDN
+  type: Field
+  source:
+    id: ISDN
+    path: ''
+    startLine: 5606
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nISDN\n"
+  example: []
+  syntax:
+    content: ISDN = 1
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Npi.DataX121
+  commentId: F:Inetlab.SMPP.Common.Npi.DataX121
+  id: DataX121
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: DataX121
+  nameWithType: Npi.DataX121
+  fullName: Inetlab.SMPP.Common.Npi.DataX121
+  type: Field
+  source:
+    id: DataX121
+    path: ''
+    startLine: 5610
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nDataX121\n"
+  example: []
+  syntax:
+    content: DataX121 = 3
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Npi.TelexF69
+  commentId: F:Inetlab.SMPP.Common.Npi.TelexF69
+  id: TelexF69
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: TelexF69
+  nameWithType: Npi.TelexF69
+  fullName: Inetlab.SMPP.Common.Npi.TelexF69
+  type: Field
+  source:
+    id: TelexF69
+    path: ''
+    startLine: 5614
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nTelexF69\n"
+  example: []
+  syntax:
+    content: TelexF69 = 4
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Npi.LandMobileE212
+  commentId: F:Inetlab.SMPP.Common.Npi.LandMobileE212
+  id: LandMobileE212
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: LandMobileE212
+  nameWithType: Npi.LandMobileE212
+  fullName: Inetlab.SMPP.Common.Npi.LandMobileE212
+  type: Field
+  source:
+    id: LandMobileE212
+    path: ''
+    startLine: 5618
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nLandMobileE212\n"
+  example: []
+  syntax:
+    content: LandMobileE212 = 6
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Npi.National
+  commentId: F:Inetlab.SMPP.Common.Npi.National
+  id: National
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: National
+  nameWithType: Npi.National
+  fullName: Inetlab.SMPP.Common.Npi.National
+  type: Field
+  source:
+    id: National
+    path: ''
+    startLine: 5622
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNational\n"
+  example: []
+  syntax:
+    content: National = 8
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Npi.Private
+  commentId: F:Inetlab.SMPP.Common.Npi.Private
+  id: Private
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: Private
+  nameWithType: Npi.Private
+  fullName: Inetlab.SMPP.Common.Npi.Private
+  type: Field
+  source:
+    id: Private
+    path: ''
+    startLine: 5626
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nPrivate\n"
+  example: []
+  syntax:
+    content: Private = 9
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Npi.ERMES
+  commentId: F:Inetlab.SMPP.Common.Npi.ERMES
+  id: ERMES
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: ERMES
+  nameWithType: Npi.ERMES
+  fullName: Inetlab.SMPP.Common.Npi.ERMES
+  type: Field
+  source:
+    id: ERMES
+    path: ''
+    startLine: 5630
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nERMES\n"
+  example: []
+  syntax:
+    content: ERMES = 10
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Npi.Internet
+  commentId: F:Inetlab.SMPP.Common.Npi.Internet
+  id: Internet
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: Internet
+  nameWithType: Npi.Internet
+  fullName: Inetlab.SMPP.Common.Npi.Internet
+  type: Field
+  source:
+    id: Internet
+    path: ''
+    startLine: 5634
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInternet\n"
+  example: []
+  syntax:
+    content: Internet = 14
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Npi.WAP
+  commentId: F:Inetlab.SMPP.Common.Npi.WAP
+  id: WAP
+  parent: Inetlab.SMPP.Common.Npi
+  langs:
+  - csharp
+  - vb
+  name: WAP
+  nameWithType: Npi.WAP
+  fullName: Inetlab.SMPP.Common.Npi.WAP
+  type: Field
+  source:
+    id: WAP
+    path: ''
+    startLine: 5638
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nWAP\n"
+  example: []
+  syntax:
+    content: WAP = 18
+    return:
+      type: Inetlab.SMPP.Common.Npi
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.Npi
+  commentId: T:Inetlab.SMPP.Common.Npi
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: Npi
+  nameWithType: Npi
+  fullName: Inetlab.SMPP.Common.Npi
+shouldSkipMarkup: true

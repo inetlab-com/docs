@@ -1,0 +1,81 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SendDataEventHandler
+  commentId: T:Inetlab.SMPP.Common.SendDataEventHandler
+  id: SendDataEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SendDataEventHandler
+  nameWithType: SendDataEventHandler
+  fullName: Inetlab.SMPP.Common.SendDataEventHandler
+  type: Delegate
+  source:
+    id: SendDataEventHandler
+    path: ''
+    startLine: 4188
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void SendDataEventHandler(object sender, byte[] data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Delegate Sub SendDataEventHandler(sender As Object, data As Byte())
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+shouldSkipMarkup: true

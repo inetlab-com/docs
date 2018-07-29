@@ -1,5 +1,5 @@
-- name: Articles
-  href: articles/toc.yml
+- name: Inetlab.SMPP v2.x
+  href: v2/toc.yml
 
-- name: API References
-  href: api/toc.yml
+- name: Inetlab.SMPP v1.x
+  href: v1/toc.yml

@@ -1,0 +1,61 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.MessageEventHandler
+  commentId: T:Inetlab.SMPP.Common.MessageEventHandler
+  id: MessageEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MessageEventHandler
+  nameWithType: MessageEventHandler
+  fullName: Inetlab.SMPP.Common.MessageEventHandler
+  type: Delegate
+  source:
+    id: MessageEventHandler
+    path: ''
+    startLine: 6748
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void MessageEventHandler(object sender, MessageEventHandlerArgs args);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: args
+      type: Inetlab.SMPP.Common.MessageEventHandlerArgs
+    content.vb: Public Delegate Sub MessageEventHandler(sender As Object, args As MessageEventHandlerArgs)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.MessageEventHandlerArgs
+  commentId: T:Inetlab.SMPP.Common.MessageEventHandlerArgs
+  parent: Inetlab.SMPP.Common
+  name: MessageEventHandlerArgs
+  nameWithType: MessageEventHandlerArgs
+  fullName: Inetlab.SMPP.Common.MessageEventHandlerArgs
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+shouldSkipMarkup: true

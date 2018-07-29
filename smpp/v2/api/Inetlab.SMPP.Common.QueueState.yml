@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.QueueState
+  commentId: T:Inetlab.SMPP.Common.QueueState
+  id: QueueState
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.QueueState.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  - Inetlab.SMPP.Common.QueueState.IncompleteRequests
+  - Inetlab.SMPP.Common.QueueState.ReceiveCount
+  - Inetlab.SMPP.Common.QueueState.ReceiveWorkersCount
+  - Inetlab.SMPP.Common.QueueState.SendCount
+  - Inetlab.SMPP.Common.QueueState.SendWorkersCount
+  langs:
+  - csharp
+  - vb
+  name: QueueState
+  nameWithType: QueueState
+  fullName: Inetlab.SMPP.Common.QueueState
+  type: Class
+  source:
+    id: QueueState
+    path: ''
+    startLine: 7372
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nRepresents state for receive and send queues\n"
+  example: []
+  syntax:
+    content: public class QueueState
+    content.vb: Public Class QueueState
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.QueueState.SendCount
+  commentId: P:Inetlab.SMPP.Common.QueueState.SendCount
+  id: SendCount
+  parent: Inetlab.SMPP.Common.QueueState
+  langs:
+  - csharp
+  - vb
+  name: SendCount
+  nameWithType: QueueState.SendCount
+  fullName: Inetlab.SMPP.Common.QueueState.SendCount
+  type: Property
+  source:
+    id: SendCount
+    path: ''
+    startLine: 7377
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGets number of PDUs that stay in the send queue before sending to network \n"
+  example: []
+  syntax:
+    content: public int SendCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SendCount As Integer
+  overload: Inetlab.SMPP.Common.QueueState.SendCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.QueueState.SendWorkersCount
+  commentId: P:Inetlab.SMPP.Common.QueueState.SendWorkersCount
+  id: SendWorkersCount
+  parent: Inetlab.SMPP.Common.QueueState
+  langs:
+  - csharp
+  - vb
+  name: SendWorkersCount
+  nameWithType: QueueState.SendWorkersCount
+  fullName: Inetlab.SMPP.Common.QueueState.SendWorkersCount
+  type: Property
+  source:
+    id: SendWorkersCount
+    path: ''
+    startLine: 7382
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGets number of worker threads that send PDUs to remote side. Always 1.\n"
+  example: []
+  syntax:
+    content: public int SendWorkersCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property SendWorkersCount As Integer
+  overload: Inetlab.SMPP.Common.QueueState.SendWorkersCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.QueueState.ReceiveCount
+  commentId: P:Inetlab.SMPP.Common.QueueState.ReceiveCount
+  id: ReceiveCount
+  parent: Inetlab.SMPP.Common.QueueState
+  langs:
+  - csharp
+  - vb
+  name: ReceiveCount
+  nameWithType: QueueState.ReceiveCount
+  fullName: Inetlab.SMPP.Common.QueueState.ReceiveCount
+  type: Property
+  source:
+    id: ReceiveCount
+    path: ''
+    startLine: 7387
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGets number of PDUs that stay in the receive queue and wait for being processed with application event handlers. \n"
+  example: []
+  syntax:
+    content: public int ReceiveCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReceiveCount As Integer
+  overload: Inetlab.SMPP.Common.QueueState.ReceiveCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.QueueState.ReceiveWorkersCount
+  commentId: P:Inetlab.SMPP.Common.QueueState.ReceiveWorkersCount
+  id: ReceiveWorkersCount
+  parent: Inetlab.SMPP.Common.QueueState
+  langs:
+  - csharp
+  - vb
+  name: ReceiveWorkersCount
+  nameWithType: QueueState.ReceiveWorkersCount
+  fullName: Inetlab.SMPP.Common.QueueState.ReceiveWorkersCount
+  type: Property
+  source:
+    id: ReceiveWorkersCount
+    path: ''
+    startLine: 7392
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGets a number of worker threads that process PDUs from receive queue and invoke event handlers in the application\n"
+  example: []
+  syntax:
+    content: public int ReceiveWorkersCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property ReceiveWorkersCount As Integer
+  overload: Inetlab.SMPP.Common.QueueState.ReceiveWorkersCount*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.QueueState.IncompleteRequests
+  commentId: P:Inetlab.SMPP.Common.QueueState.IncompleteRequests
+  id: IncompleteRequests
+  parent: Inetlab.SMPP.Common.QueueState
+  langs:
+  - csharp
+  - vb
+  name: IncompleteRequests
+  nameWithType: QueueState.IncompleteRequests
+  fullName: Inetlab.SMPP.Common.QueueState.IncompleteRequests
+  type: Property
+  source:
+    id: IncompleteRequests
+    path: ''
+    startLine: 7397
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGets number of request that didn&apos;t receive their response.\n"
+  example: []
+  syntax:
+    content: public int IncompleteRequests { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property IncompleteRequests As Integer
+  overload: Inetlab.SMPP.Common.QueueState.IncompleteRequests*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.QueueState.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  commentId: M:Inetlab.SMPP.Common.QueueState.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+  id: '#ctor(System.Int32,System.Int32,System.Int32,System.Int32)'
+  parent: Inetlab.SMPP.Common.QueueState
+  langs:
+  - csharp
+  - vb
+  name: QueueState(Int32, Int32, Int32, Int32)
+  nameWithType: QueueState.QueueState(Int32, Int32, Int32, Int32)
+  fullName: Inetlab.SMPP.Common.QueueState.QueueState(System.Int32, System.Int32, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7399
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public QueueState(int sendCount, int receiveCount, int receiveWorkersCount, int incompleteRequests)
+    parameters:
+    - id: sendCount
+      type: System.Int32
+    - id: receiveCount
+      type: System.Int32
+    - id: receiveWorkersCount
+      type: System.Int32
+    - id: incompleteRequests
+      type: System.Int32
+    content.vb: Public Sub New(sendCount As Integer, receiveCount As Integer, receiveWorkersCount As Integer, incompleteRequests As Integer)
+  overload: Inetlab.SMPP.Common.QueueState.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.QueueState.SendCount*
+  commentId: Overload:Inetlab.SMPP.Common.QueueState.SendCount
+  name: SendCount
+  nameWithType: QueueState.SendCount
+  fullName: Inetlab.SMPP.Common.QueueState.SendCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.Common.QueueState.SendWorkersCount*
+  commentId: Overload:Inetlab.SMPP.Common.QueueState.SendWorkersCount
+  name: SendWorkersCount
+  nameWithType: QueueState.SendWorkersCount
+  fullName: Inetlab.SMPP.Common.QueueState.SendWorkersCount
+- uid: Inetlab.SMPP.Common.QueueState.ReceiveCount*
+  commentId: Overload:Inetlab.SMPP.Common.QueueState.ReceiveCount
+  name: ReceiveCount
+  nameWithType: QueueState.ReceiveCount
+  fullName: Inetlab.SMPP.Common.QueueState.ReceiveCount
+- uid: Inetlab.SMPP.Common.QueueState.ReceiveWorkersCount*
+  commentId: Overload:Inetlab.SMPP.Common.QueueState.ReceiveWorkersCount
+  name: ReceiveWorkersCount
+  nameWithType: QueueState.ReceiveWorkersCount
+  fullName: Inetlab.SMPP.Common.QueueState.ReceiveWorkersCount
+- uid: Inetlab.SMPP.Common.QueueState.IncompleteRequests*
+  commentId: Overload:Inetlab.SMPP.Common.QueueState.IncompleteRequests
+  name: IncompleteRequests
+  nameWithType: QueueState.IncompleteRequests
+  fullName: Inetlab.SMPP.Common.QueueState.IncompleteRequests
+- uid: Inetlab.SMPP.Common.QueueState.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.QueueState.#ctor
+  name: QueueState
+  nameWithType: QueueState.QueueState
+  fullName: Inetlab.SMPP.Common.QueueState.QueueState
+shouldSkipMarkup: true

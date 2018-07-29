@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SmppStreamReader
+  commentId: T:Inetlab.SMPP.Common.SmppStreamReader
+  id: SmppStreamReader
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SmppStreamReader.#ctor(Stream,Inetlab.SMPP.Common.EncodingMapper,System.Int32)
+  - Inetlab.SMPP.Common.SmppStreamReader.#ctor(Stream,System.Int32)
+  - Inetlab.SMPP.Common.SmppStreamReader.Dispose
+  - Inetlab.SMPP.Common.SmppStreamReader.ReadPDU
+  langs:
+  - csharp
+  - vb
+  name: SmppStreamReader
+  nameWithType: SmppStreamReader
+  fullName: Inetlab.SMPP.Common.SmppStreamReader
+  type: Class
+  source:
+    id: SmppStreamReader
+    path: ''
+    startLine: 10607
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public class SmppStreamReader : IDisposable'
+    content.vb: >-
+      Public Class SmppStreamReader
+          Inherits IDisposable
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.SmppStreamReader.#ctor(Stream,System.Int32)
+  commentId: M:Inetlab.SMPP.Common.SmppStreamReader.#ctor(Stream,System.Int32)
+  id: '#ctor(Stream,System.Int32)'
+  parent: Inetlab.SMPP.Common.SmppStreamReader
+  langs:
+  - csharp
+  - vb
+  name: SmppStreamReader(Stream, Int32)
+  nameWithType: SmppStreamReader.SmppStreamReader(Stream, Int32)
+  fullName: Inetlab.SMPP.Common.SmppStreamReader.SmppStreamReader(Stream, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10616
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppStreamReader(Stream stream, int bufferSize = 4096)
+    parameters:
+    - id: stream
+      type: Stream
+    - id: bufferSize
+      type: System.Int32
+    content.vb: Public Sub New(stream As Stream, bufferSize As Integer = 4096)
+  overload: Inetlab.SMPP.Common.SmppStreamReader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppStreamReader.#ctor(Stream,Inetlab.SMPP.Common.EncodingMapper,System.Int32)
+  commentId: M:Inetlab.SMPP.Common.SmppStreamReader.#ctor(Stream,Inetlab.SMPP.Common.EncodingMapper,System.Int32)
+  id: '#ctor(Stream,Inetlab.SMPP.Common.EncodingMapper,System.Int32)'
+  parent: Inetlab.SMPP.Common.SmppStreamReader
+  langs:
+  - csharp
+  - vb
+  name: SmppStreamReader(Stream, EncodingMapper, Int32)
+  nameWithType: SmppStreamReader.SmppStreamReader(Stream, EncodingMapper, Int32)
+  fullName: Inetlab.SMPP.Common.SmppStreamReader.SmppStreamReader(Stream, Inetlab.SMPP.Common.EncodingMapper, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10622
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppStreamReader(Stream stream, EncodingMapper mapper, int bufferSize = 4096)
+    parameters:
+    - id: stream
+      type: Stream
+    - id: mapper
+      type: Inetlab.SMPP.Common.EncodingMapper
+    - id: bufferSize
+      type: System.Int32
+    content.vb: Public Sub New(stream As Stream, mapper As EncodingMapper, bufferSize As Integer = 4096)
+  overload: Inetlab.SMPP.Common.SmppStreamReader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppStreamReader.Dispose
+  commentId: M:Inetlab.SMPP.Common.SmppStreamReader.Dispose
+  id: Dispose
+  parent: Inetlab.SMPP.Common.SmppStreamReader
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: SmppStreamReader.Dispose()
+  fullName: Inetlab.SMPP.Common.SmppStreamReader.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 10629
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Inetlab.SMPP.Common.SmppStreamReader.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppStreamReader.ReadPDU
+  commentId: M:Inetlab.SMPP.Common.SmppStreamReader.ReadPDU
+  id: ReadPDU
+  parent: Inetlab.SMPP.Common.SmppStreamReader
+  langs:
+  - csharp
+  - vb
+  name: ReadPDU()
+  nameWithType: SmppStreamReader.ReadPDU()
+  fullName: Inetlab.SMPP.Common.SmppStreamReader.ReadPDU()
+  type: Method
+  source:
+    id: ReadPDU
+    path: ''
+    startLine: 10635
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppPDU ReadPDU()
+    return:
+      type: SmppPDU
+    content.vb: Public Function ReadPDU As SmppPDU
+  overload: Inetlab.SMPP.Common.SmppStreamReader.ReadPDU*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.SmppStreamReader.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.SmppStreamReader.#ctor
+  name: SmppStreamReader
+  nameWithType: SmppStreamReader.SmppStreamReader
+  fullName: Inetlab.SMPP.Common.SmppStreamReader.SmppStreamReader
+- uid: Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: Stream
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.Common.EncodingMapper
+  commentId: T:Inetlab.SMPP.Common.EncodingMapper
+  parent: Inetlab.SMPP.Common
+  name: EncodingMapper
+  nameWithType: EncodingMapper
+  fullName: Inetlab.SMPP.Common.EncodingMapper
+- uid: Inetlab.SMPP.Common.SmppStreamReader.Dispose*
+  commentId: Overload:Inetlab.SMPP.Common.SmppStreamReader.Dispose
+  name: Dispose
+  nameWithType: SmppStreamReader.Dispose
+  fullName: Inetlab.SMPP.Common.SmppStreamReader.Dispose
+- uid: Inetlab.SMPP.Common.SmppStreamReader.ReadPDU*
+  commentId: Overload:Inetlab.SMPP.Common.SmppStreamReader.ReadPDU
+  name: ReadPDU
+  nameWithType: SmppStreamReader.ReadPDU
+  fullName: Inetlab.SMPP.Common.SmppStreamReader.ReadPDU
+- uid: SmppPDU
+  isExternal: true
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: SmppPDU
+shouldSkipMarkup: true

@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Encodings
+  commentId: N:Inetlab.SMPP.Encodings
+  id: Inetlab.SMPP.Encodings
+  children:
+  - Inetlab.SMPP.Encodings.BasicCharsetMap
+  - Inetlab.SMPP.Encodings.GSMEncoding
+  - Inetlab.SMPP.Encodings.GSMPackedEncoding
+  - Inetlab.SMPP.Encodings.IGSMCharsetMap
+  - Inetlab.SMPP.Encodings.SpanishCharsetMap
+  - Inetlab.SMPP.Encodings.TurkishCharsetMap
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.SMPP.Encodings
+  nameWithType: Inetlab.SMPP.Encodings
+  fullName: Inetlab.SMPP.Encodings
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Inetlab.SMPP.Encodings.BasicCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.BasicCharsetMap
+  isExternal: false
+  name: BasicCharsetMap
+  nameWithType: BasicCharsetMap
+  fullName: Inetlab.SMPP.Encodings.BasicCharsetMap
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.IGSMCharsetMap
+  parent: Inetlab.SMPP.Encodings
+  isExternal: false
+  name: IGSMCharsetMap
+  nameWithType: IGSMCharsetMap
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap
+- uid: Inetlab.SMPP.Encodings.GSMEncoding
+  commentId: T:Inetlab.SMPP.Encodings.GSMEncoding
+  parent: Inetlab.SMPP.Encodings
+  isExternal: false
+  name: GSMEncoding
+  nameWithType: GSMEncoding
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding
+- uid: Inetlab.SMPP.Encodings.GSMPackedEncoding
+  commentId: T:Inetlab.SMPP.Encodings.GSMPackedEncoding
+  isExternal: false
+  name: GSMPackedEncoding
+  nameWithType: GSMPackedEncoding
+  fullName: Inetlab.SMPP.Encodings.GSMPackedEncoding
+- uid: Inetlab.SMPP.Encodings.SpanishCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.SpanishCharsetMap
+  isExternal: false
+  name: SpanishCharsetMap
+  nameWithType: SpanishCharsetMap
+  fullName: Inetlab.SMPP.Encodings.SpanishCharsetMap
+- uid: Inetlab.SMPP.Encodings.TurkishCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.TurkishCharsetMap
+  isExternal: false
+  name: TurkishCharsetMap
+  nameWithType: TurkishCharsetMap
+  fullName: Inetlab.SMPP.Encodings.TurkishCharsetMap
+- uid: Inetlab.SMPP.Encodings
+  commentId: N:Inetlab.SMPP.Encodings
+  isExternal: false
+  name: Inetlab.SMPP.Encodings
+  nameWithType: Inetlab.SMPP.Encodings
+  fullName: Inetlab.SMPP.Encodings
+shouldSkipMarkup: true

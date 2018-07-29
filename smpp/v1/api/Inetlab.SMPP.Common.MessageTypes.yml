@@ -1,0 +1,233 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.MessageTypes
+  commentId: T:Inetlab.SMPP.Common.MessageTypes
+  id: MessageTypes
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.MessageTypes.ConversationAbort
+  - Inetlab.SMPP.Common.MessageTypes.Default
+  - Inetlab.SMPP.Common.MessageTypes.IntermediateDeliveryNotification
+  - Inetlab.SMPP.Common.MessageTypes.SMEDeliveryAcknowledgement
+  - Inetlab.SMPP.Common.MessageTypes.SMEManualAcknowledgement
+  - Inetlab.SMPP.Common.MessageTypes.SMSCDeliveryReceipt
+  langs:
+  - csharp
+  - vb
+  name: MessageTypes
+  nameWithType: MessageTypes
+  fullName: Inetlab.SMPP.Common.MessageTypes
+  type: Enum
+  source:
+    id: MessageTypes
+    path: ''
+    startLine: 5534
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessaging Types (bits 5-2 of esm_class) \n"
+  example: []
+  syntax:
+    content: 'public enum MessageTypes : byte'
+    content.vb: Public Enum MessageTypes As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.MessageTypes.Default
+  commentId: F:Inetlab.SMPP.Common.MessageTypes.Default
+  id: Default
+  parent: Inetlab.SMPP.Common.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: MessageTypes.Default
+  fullName: Inetlab.SMPP.Common.MessageTypes.Default
+  type: Field
+  source:
+    id: Default
+    path: ''
+    startLine: 5539
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nDefault message Type (i.e. normal message)\n"
+  example: []
+  syntax:
+    content: Default = 0
+    return:
+      type: Inetlab.SMPP.Common.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageTypes.SMEDeliveryAcknowledgement
+  commentId: F:Inetlab.SMPP.Common.MessageTypes.SMEDeliveryAcknowledgement
+  id: SMEDeliveryAcknowledgement
+  parent: Inetlab.SMPP.Common.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: SMEDeliveryAcknowledgement
+  nameWithType: MessageTypes.SMEDeliveryAcknowledgement
+  fullName: Inetlab.SMPP.Common.MessageTypes.SMEDeliveryAcknowledgement
+  type: Field
+  source:
+    id: SMEDeliveryAcknowledgement
+    path: ''
+    startLine: 5546
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\n(ESME -> SMSC)\nShort Message contains ESME Delivery Acknowledgement\n(SMSC -> ESME)\nShort Message contains SME Delivery Acknowledgement\n"
+  example: []
+  syntax:
+    content: SMEDeliveryAcknowledgement = 8
+    return:
+      type: Inetlab.SMPP.Common.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageTypes.SMEManualAcknowledgement
+  commentId: F:Inetlab.SMPP.Common.MessageTypes.SMEManualAcknowledgement
+  id: SMEManualAcknowledgement
+  parent: Inetlab.SMPP.Common.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: SMEManualAcknowledgement
+  nameWithType: MessageTypes.SMEManualAcknowledgement
+  fullName: Inetlab.SMPP.Common.MessageTypes.SMEManualAcknowledgement
+  type: Field
+  source:
+    id: SMEManualAcknowledgement
+    path: ''
+    startLine: 5553
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\n(ESME -> SMSC)\nShort Message contains ESME Manual/User Acknowledgement\n(SMSC -> ESME)\nShort Message contains SME Manual/User Acknowledgment\n"
+  example: []
+  syntax:
+    content: SMEManualAcknowledgement = 16
+    return:
+      type: Inetlab.SMPP.Common.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageTypes.SMSCDeliveryReceipt
+  commentId: F:Inetlab.SMPP.Common.MessageTypes.SMSCDeliveryReceipt
+  id: SMSCDeliveryReceipt
+  parent: Inetlab.SMPP.Common.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: SMSCDeliveryReceipt
+  nameWithType: MessageTypes.SMSCDeliveryReceipt
+  fullName: Inetlab.SMPP.Common.MessageTypes.SMSCDeliveryReceipt
+  type: Field
+  source:
+    id: SMSCDeliveryReceipt
+    path: ''
+    startLine: 5558
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\n(SMSC -> ESME)\nShort Message contains SMSC Delivery Receipt\n"
+  example: []
+  syntax:
+    content: SMSCDeliveryReceipt = 4
+    return:
+      type: Inetlab.SMPP.Common.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageTypes.ConversationAbort
+  commentId: F:Inetlab.SMPP.Common.MessageTypes.ConversationAbort
+  id: ConversationAbort
+  parent: Inetlab.SMPP.Common.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: ConversationAbort
+  nameWithType: MessageTypes.ConversationAbort
+  fullName: Inetlab.SMPP.Common.MessageTypes.ConversationAbort
+  type: Field
+  source:
+    id: ConversationAbort
+    path: ''
+    startLine: 5563
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\n(SMSC -> ESME)\nShort Message contains Conversation Abort (Korean CDMA)\n"
+  example: []
+  syntax:
+    content: ConversationAbort = 24
+    return:
+      type: Inetlab.SMPP.Common.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageTypes.IntermediateDeliveryNotification
+  commentId: F:Inetlab.SMPP.Common.MessageTypes.IntermediateDeliveryNotification
+  id: IntermediateDeliveryNotification
+  parent: Inetlab.SMPP.Common.MessageTypes
+  langs:
+  - csharp
+  - vb
+  name: IntermediateDeliveryNotification
+  nameWithType: MessageTypes.IntermediateDeliveryNotification
+  fullName: Inetlab.SMPP.Common.MessageTypes.IntermediateDeliveryNotification
+  type: Field
+  source:
+    id: IntermediateDeliveryNotification
+    path: ''
+    startLine: 5568
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\n(SMSC -> ESME)\nShort Message contains Intermediate Delivery Notification\n"
+  example: []
+  syntax:
+    content: IntermediateDeliveryNotification = 32
+    return:
+      type: Inetlab.SMPP.Common.MessageTypes
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.MessageTypes
+  commentId: T:Inetlab.SMPP.Common.MessageTypes
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: MessageTypes
+  nameWithType: MessageTypes
+  fullName: Inetlab.SMPP.Common.MessageTypes
+shouldSkipMarkup: true

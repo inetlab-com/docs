@@ -1,0 +1,889 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.CommandSet
+  commentId: T:Inetlab.SMPP.Common.CommandSet
+  id: CommandSet
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.CommandSet.AlertNotification
+  - Inetlab.SMPP.Common.CommandSet.BindReceiver
+  - Inetlab.SMPP.Common.CommandSet.BindReceiverResp
+  - Inetlab.SMPP.Common.CommandSet.BindTransceiver
+  - Inetlab.SMPP.Common.CommandSet.BindTransceiverResp
+  - Inetlab.SMPP.Common.CommandSet.BindTransmitter
+  - Inetlab.SMPP.Common.CommandSet.BindTransmitterResp
+  - Inetlab.SMPP.Common.CommandSet.CancelSm
+  - Inetlab.SMPP.Common.CommandSet.CancelSmResp
+  - Inetlab.SMPP.Common.CommandSet.DataSm
+  - Inetlab.SMPP.Common.CommandSet.DataSmResp
+  - Inetlab.SMPP.Common.CommandSet.DeliverSm
+  - Inetlab.SMPP.Common.CommandSet.DeliverSmResp
+  - Inetlab.SMPP.Common.CommandSet.EnquireLink
+  - Inetlab.SMPP.Common.CommandSet.EnquireLinkResp
+  - Inetlab.SMPP.Common.CommandSet.GenericNack
+  - Inetlab.SMPP.Common.CommandSet.Outbind
+  - Inetlab.SMPP.Common.CommandSet.QuerySm
+  - Inetlab.SMPP.Common.CommandSet.QuerySmResp
+  - Inetlab.SMPP.Common.CommandSet.ReplaceSm
+  - Inetlab.SMPP.Common.CommandSet.ReplaceSmResp
+  - Inetlab.SMPP.Common.CommandSet.SubmitMulti
+  - Inetlab.SMPP.Common.CommandSet.SubmitMultiResp
+  - Inetlab.SMPP.Common.CommandSet.SubmitSm
+  - Inetlab.SMPP.Common.CommandSet.SubmitSmResp
+  - Inetlab.SMPP.Common.CommandSet.Unbind
+  - Inetlab.SMPP.Common.CommandSet.UnbindResp
+  - Inetlab.SMPP.Common.CommandSet.UnknownPacket
+  langs:
+  - csharp
+  - vb
+  name: CommandSet
+  nameWithType: CommandSet
+  fullName: Inetlab.SMPP.Common.CommandSet
+  type: Enum
+  source:
+    id: CommandSet
+    path: ''
+    startLine: 3514
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe CommandSet identifies the type of message the SMPP PDU represents,\n"
+  example: []
+  syntax:
+    content: 'public enum CommandSet : uint'
+    content.vb: Public Enum CommandSet As UInteger
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.CommandSet.UnknownPacket
+  commentId: F:Inetlab.SMPP.Common.CommandSet.UnknownPacket
+  id: UnknownPacket
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: UnknownPacket
+  nameWithType: CommandSet.UnknownPacket
+  fullName: Inetlab.SMPP.Common.CommandSet.UnknownPacket
+  type: Field
+  source:
+    id: UnknownPacket
+    path: ''
+    startLine: 3516
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: UnknownPacket = 0U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: UnknownPacket = 0UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.BindReceiver
+  commentId: F:Inetlab.SMPP.Common.CommandSet.BindReceiver
+  id: BindReceiver
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: BindReceiver
+  nameWithType: CommandSet.BindReceiver
+  fullName: Inetlab.SMPP.Common.CommandSet.BindReceiver
+  type: Field
+  source:
+    id: BindReceiver
+    path: ''
+    startLine: 3519
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: BindReceiver = 1U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: BindReceiver = 1UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.BindTransmitter
+  commentId: F:Inetlab.SMPP.Common.CommandSet.BindTransmitter
+  id: BindTransmitter
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: BindTransmitter
+  nameWithType: CommandSet.BindTransmitter
+  fullName: Inetlab.SMPP.Common.CommandSet.BindTransmitter
+  type: Field
+  source:
+    id: BindTransmitter
+    path: ''
+    startLine: 3522
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: BindTransmitter = 2U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: BindTransmitter = 2UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.QuerySm
+  commentId: F:Inetlab.SMPP.Common.CommandSet.QuerySm
+  id: QuerySm
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: QuerySm
+  nameWithType: CommandSet.QuerySm
+  fullName: Inetlab.SMPP.Common.CommandSet.QuerySm
+  type: Field
+  source:
+    id: QuerySm
+    path: ''
+    startLine: 3525
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: QuerySm = 3U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: QuerySm = 3UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.SubmitSm
+  commentId: F:Inetlab.SMPP.Common.CommandSet.SubmitSm
+  id: SubmitSm
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: SubmitSm
+  nameWithType: CommandSet.SubmitSm
+  fullName: Inetlab.SMPP.Common.CommandSet.SubmitSm
+  type: Field
+  source:
+    id: SubmitSm
+    path: ''
+    startLine: 3527
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SubmitSm = 4U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: SubmitSm = 4UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.DeliverSm
+  commentId: F:Inetlab.SMPP.Common.CommandSet.DeliverSm
+  id: DeliverSm
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: DeliverSm
+  nameWithType: CommandSet.DeliverSm
+  fullName: Inetlab.SMPP.Common.CommandSet.DeliverSm
+  type: Field
+  source:
+    id: DeliverSm
+    path: ''
+    startLine: 3530
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DeliverSm = 5U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: DeliverSm = 5UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.Unbind
+  commentId: F:Inetlab.SMPP.Common.CommandSet.Unbind
+  id: Unbind
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: Unbind
+  nameWithType: CommandSet.Unbind
+  fullName: Inetlab.SMPP.Common.CommandSet.Unbind
+  type: Field
+  source:
+    id: Unbind
+    path: ''
+    startLine: 3533
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Unbind = 6U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: Unbind = 6UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.ReplaceSm
+  commentId: F:Inetlab.SMPP.Common.CommandSet.ReplaceSm
+  id: ReplaceSm
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: ReplaceSm
+  nameWithType: CommandSet.ReplaceSm
+  fullName: Inetlab.SMPP.Common.CommandSet.ReplaceSm
+  type: Field
+  source:
+    id: ReplaceSm
+    path: ''
+    startLine: 3536
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: ReplaceSm = 7U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: ReplaceSm = 7UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.CancelSm
+  commentId: F:Inetlab.SMPP.Common.CommandSet.CancelSm
+  id: CancelSm
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: CancelSm
+  nameWithType: CommandSet.CancelSm
+  fullName: Inetlab.SMPP.Common.CommandSet.CancelSm
+  type: Field
+  source:
+    id: CancelSm
+    path: ''
+    startLine: 3539
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: CancelSm = 8U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: CancelSm = 8UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.BindTransceiver
+  commentId: F:Inetlab.SMPP.Common.CommandSet.BindTransceiver
+  id: BindTransceiver
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: BindTransceiver
+  nameWithType: CommandSet.BindTransceiver
+  fullName: Inetlab.SMPP.Common.CommandSet.BindTransceiver
+  type: Field
+  source:
+    id: BindTransceiver
+    path: ''
+    startLine: 3542
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: BindTransceiver = 9U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: BindTransceiver = 9UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.Outbind
+  commentId: F:Inetlab.SMPP.Common.CommandSet.Outbind
+  id: Outbind
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: Outbind
+  nameWithType: CommandSet.Outbind
+  fullName: Inetlab.SMPP.Common.CommandSet.Outbind
+  type: Field
+  source:
+    id: Outbind
+    path: ''
+    startLine: 3545
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Outbind = 11U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: Outbind = 11UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.EnquireLink
+  commentId: F:Inetlab.SMPP.Common.CommandSet.EnquireLink
+  id: EnquireLink
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: EnquireLink
+  nameWithType: CommandSet.EnquireLink
+  fullName: Inetlab.SMPP.Common.CommandSet.EnquireLink
+  type: Field
+  source:
+    id: EnquireLink
+    path: ''
+    startLine: 3548
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: EnquireLink = 21U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: EnquireLink = 21UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.SubmitMulti
+  commentId: F:Inetlab.SMPP.Common.CommandSet.SubmitMulti
+  id: SubmitMulti
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: SubmitMulti
+  nameWithType: CommandSet.SubmitMulti
+  fullName: Inetlab.SMPP.Common.CommandSet.SubmitMulti
+  type: Field
+  source:
+    id: SubmitMulti
+    path: ''
+    startLine: 3551
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SubmitMulti = 33U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: SubmitMulti = 33UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.AlertNotification
+  commentId: F:Inetlab.SMPP.Common.CommandSet.AlertNotification
+  id: AlertNotification
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: AlertNotification
+  nameWithType: CommandSet.AlertNotification
+  fullName: Inetlab.SMPP.Common.CommandSet.AlertNotification
+  type: Field
+  source:
+    id: AlertNotification
+    path: ''
+    startLine: 3554
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: AlertNotification = 258U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: AlertNotification = 258UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.DataSm
+  commentId: F:Inetlab.SMPP.Common.CommandSet.DataSm
+  id: DataSm
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: DataSm
+  nameWithType: CommandSet.DataSm
+  fullName: Inetlab.SMPP.Common.CommandSet.DataSm
+  type: Field
+  source:
+    id: DataSm
+    path: ''
+    startLine: 3557
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DataSm = 259U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: DataSm = 259UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.GenericNack
+  commentId: F:Inetlab.SMPP.Common.CommandSet.GenericNack
+  id: GenericNack
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: GenericNack
+  nameWithType: CommandSet.GenericNack
+  fullName: Inetlab.SMPP.Common.CommandSet.GenericNack
+  type: Field
+  source:
+    id: GenericNack
+    path: ''
+    startLine: 3562
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\ngeneric negative acknowledgement to an SMPP PDU submitted with an invalid message header.\n"
+  example: []
+  syntax:
+    content: GenericNack = 2147483648U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: GenericNack = 2147483648UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.BindReceiverResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.BindReceiverResp
+  id: BindReceiverResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: BindReceiverResp
+  nameWithType: CommandSet.BindReceiverResp
+  fullName: Inetlab.SMPP.Common.CommandSet.BindReceiverResp
+  type: Field
+  source:
+    id: BindReceiverResp
+    path: ''
+    startLine: 3564
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: BindReceiverResp = 2147483649U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: BindReceiverResp = 2147483649UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.BindTransmitterResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.BindTransmitterResp
+  id: BindTransmitterResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: BindTransmitterResp
+  nameWithType: CommandSet.BindTransmitterResp
+  fullName: Inetlab.SMPP.Common.CommandSet.BindTransmitterResp
+  type: Field
+  source:
+    id: BindTransmitterResp
+    path: ''
+    startLine: 3567
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: BindTransmitterResp = 2147483650U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: BindTransmitterResp = 2147483650UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.QuerySmResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.QuerySmResp
+  id: QuerySmResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: QuerySmResp
+  nameWithType: CommandSet.QuerySmResp
+  fullName: Inetlab.SMPP.Common.CommandSet.QuerySmResp
+  type: Field
+  source:
+    id: QuerySmResp
+    path: ''
+    startLine: 3570
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: QuerySmResp = 2147483651U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: QuerySmResp = 2147483651UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.SubmitSmResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.SubmitSmResp
+  id: SubmitSmResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: SubmitSmResp
+  nameWithType: CommandSet.SubmitSmResp
+  fullName: Inetlab.SMPP.Common.CommandSet.SubmitSmResp
+  type: Field
+  source:
+    id: SubmitSmResp
+    path: ''
+    startLine: 3573
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SubmitSmResp = 2147483652U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: SubmitSmResp = 2147483652UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.DeliverSmResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.DeliverSmResp
+  id: DeliverSmResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: DeliverSmResp
+  nameWithType: CommandSet.DeliverSmResp
+  fullName: Inetlab.SMPP.Common.CommandSet.DeliverSmResp
+  type: Field
+  source:
+    id: DeliverSmResp
+    path: ''
+    startLine: 3576
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DeliverSmResp = 2147483653U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: DeliverSmResp = 2147483653UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.UnbindResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.UnbindResp
+  id: UnbindResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: UnbindResp
+  nameWithType: CommandSet.UnbindResp
+  fullName: Inetlab.SMPP.Common.CommandSet.UnbindResp
+  type: Field
+  source:
+    id: UnbindResp
+    path: ''
+    startLine: 3579
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: UnbindResp = 2147483654U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: UnbindResp = 2147483654UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.ReplaceSmResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.ReplaceSmResp
+  id: ReplaceSmResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: ReplaceSmResp
+  nameWithType: CommandSet.ReplaceSmResp
+  fullName: Inetlab.SMPP.Common.CommandSet.ReplaceSmResp
+  type: Field
+  source:
+    id: ReplaceSmResp
+    path: ''
+    startLine: 3581
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: ReplaceSmResp = 2147483655U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: ReplaceSmResp = 2147483655UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.CancelSmResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.CancelSmResp
+  id: CancelSmResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: CancelSmResp
+  nameWithType: CommandSet.CancelSmResp
+  fullName: Inetlab.SMPP.Common.CommandSet.CancelSmResp
+  type: Field
+  source:
+    id: CancelSmResp
+    path: ''
+    startLine: 3584
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: CancelSmResp = 2147483656U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: CancelSmResp = 2147483656UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.BindTransceiverResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.BindTransceiverResp
+  id: BindTransceiverResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: BindTransceiverResp
+  nameWithType: CommandSet.BindTransceiverResp
+  fullName: Inetlab.SMPP.Common.CommandSet.BindTransceiverResp
+  type: Field
+  source:
+    id: BindTransceiverResp
+    path: ''
+    startLine: 3587
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: BindTransceiverResp = 2147483657U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: BindTransceiverResp = 2147483657UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.EnquireLinkResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.EnquireLinkResp
+  id: EnquireLinkResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: EnquireLinkResp
+  nameWithType: CommandSet.EnquireLinkResp
+  fullName: Inetlab.SMPP.Common.CommandSet.EnquireLinkResp
+  type: Field
+  source:
+    id: EnquireLinkResp
+    path: ''
+    startLine: 3590
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: EnquireLinkResp = 2147483669U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: EnquireLinkResp = 2147483669UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.SubmitMultiResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.SubmitMultiResp
+  id: SubmitMultiResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: SubmitMultiResp
+  nameWithType: CommandSet.SubmitMultiResp
+  fullName: Inetlab.SMPP.Common.CommandSet.SubmitMultiResp
+  type: Field
+  source:
+    id: SubmitMultiResp
+    path: ''
+    startLine: 3592
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: SubmitMultiResp = 2147483681U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: SubmitMultiResp = 2147483681UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandSet.DataSmResp
+  commentId: F:Inetlab.SMPP.Common.CommandSet.DataSmResp
+  id: DataSmResp
+  parent: Inetlab.SMPP.Common.CommandSet
+  langs:
+  - csharp
+  - vb
+  name: DataSmResp
+  nameWithType: CommandSet.DataSmResp
+  fullName: Inetlab.SMPP.Common.CommandSet.DataSmResp
+  type: Field
+  source:
+    id: DataSmResp
+    path: ''
+    startLine: 3595
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: DataSmResp = 2147483907U
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: DataSmResp = 2147483907UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.CommandSet
+  commentId: T:Inetlab.SMPP.Common.CommandSet
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: CommandSet
+  nameWithType: CommandSet
+  fullName: Inetlab.SMPP.Common.CommandSet
+shouldSkipMarkup: true

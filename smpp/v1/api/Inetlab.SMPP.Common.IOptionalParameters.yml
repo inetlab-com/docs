@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.IOptionalParameters
+  commentId: T:Inetlab.SMPP.Common.IOptionalParameters
+  id: IOptionalParameters
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.IOptionalParameters.Optional
+  langs:
+  - csharp
+  - vb
+  name: IOptionalParameters
+  nameWithType: IOptionalParameters
+  fullName: Inetlab.SMPP.Common.IOptionalParameters
+  type: Interface
+  source:
+    id: IOptionalParameters
+    path: ''
+    startLine: 4841
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public interface IOptionalParameters
+    content.vb: Public Interface IOptionalParameters
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Inetlab.SMPP.Common.IOptionalParameters.Optional
+  commentId: P:Inetlab.SMPP.Common.IOptionalParameters.Optional
+  id: Optional
+  parent: Inetlab.SMPP.Common.IOptionalParameters
+  langs:
+  - csharp
+  - vb
+  name: Optional
+  nameWithType: IOptionalParameters.Optional
+  fullName: Inetlab.SMPP.Common.IOptionalParameters.Optional
+  type: Property
+  source:
+    id: Optional
+    path: ''
+    startLine: 4843
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: TLVCollection Optional { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.TLVCollection
+    content.vb: Property Optional As TLVCollection
+  overload: Inetlab.SMPP.Common.IOptionalParameters.Optional*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.IOptionalParameters.Optional*
+  commentId: Overload:Inetlab.SMPP.Common.IOptionalParameters.Optional
+  isExternal: false
+  name: Optional
+  nameWithType: IOptionalParameters.Optional
+  fullName: Inetlab.SMPP.Common.IOptionalParameters.Optional
+- uid: Inetlab.SMPP.Common.TLVCollection
+  commentId: T:Inetlab.SMPP.Common.TLVCollection
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: TLVCollection
+  nameWithType: TLVCollection
+  fullName: Inetlab.SMPP.Common.TLVCollection
+shouldSkipMarkup: true

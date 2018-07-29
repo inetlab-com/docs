@@ -1,0 +1,1807 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.CommandStatus
+  commentId: T:Inetlab.SMPP.Common.CommandStatus
+  id: CommandStatus
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RALYBND
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RBINDFAIL
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RCANCELFAIL
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RCNTSUBDL
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RDELIVERYFAILURE
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVBNDSTS
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVCMDID
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVCMDLEN
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVDESTFLAG
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVDFTMSGID
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVDLNAME
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTADR
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTNPI
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTTON
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVESMCLASS
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVEXPIRY
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVMSGID
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVMSGLEN
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVNUMDESTS
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVNUMMSGS
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVOPTPARAMVAL
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVOPTPARSTREAM
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVPARLEN
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVPASWD
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVPRTFLG
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVREGDLVFLG
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVREPFLAG
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVSCHED
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVSERTYP
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCADR
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCNPI
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCTON
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVSUBREP
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVSYSID
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RINVSYSTYP
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RMISSINGOPTPARAM
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RMSGQFUL
+  - Inetlab.SMPP.Common.CommandStatus.ESME_ROK
+  - Inetlab.SMPP.Common.CommandStatus.ESME_ROPTPARNOTALLWD
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RQUERYFAIL
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RREPLACEFAIL
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RSUBMITFAIL
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RSYSERR
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RTHROTTLED
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RUNKNOWNERR
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RX_P_APPN
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RX_R_APPN
+  - Inetlab.SMPP.Common.CommandStatus.ESME_RX_T_APPN
+  - Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_GENERIC_NACK
+  - Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_NOCONN
+  - Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_NORESP
+  - Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_RCVTIMEOUT
+  - Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNBOUND
+  - Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNEXPRESP
+  - Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNKNOWNERROR
+  langs:
+  - csharp
+  - vb
+  name: CommandStatus
+  nameWithType: CommandStatus
+  fullName: Inetlab.SMPP.Common.CommandStatus
+  type: Enum
+  source:
+    id: CommandStatus
+    path: ''
+    startLine: 3608
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCommandStatus of an SMPP message response indicates the success or failure of an SMPP request.\n"
+  example: []
+  syntax:
+    content: 'public enum CommandStatus : uint'
+    content.vb: Public Enum CommandStatus As UInteger
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_ROK
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_ROK
+  id: ESME_ROK
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_ROK
+  nameWithType: CommandStatus.ESME_ROK
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_ROK
+  type: Field
+  source:
+    id: ESME_ROK
+    path: ''
+    startLine: 3613
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNo Error\n"
+  example: []
+  syntax:
+    content: ESME_ROK = 0U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_ROK = 0UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVMSGLEN
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVMSGLEN
+  id: ESME_RINVMSGLEN
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVMSGLEN
+  nameWithType: CommandStatus.ESME_RINVMSGLEN
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVMSGLEN
+  type: Field
+  source:
+    id: ESME_RINVMSGLEN
+    path: ''
+    startLine: 3617
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage Length is invalid\n"
+  example: []
+  syntax:
+    content: ESME_RINVMSGLEN = 1U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVMSGLEN = 1UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVCMDLEN
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVCMDLEN
+  id: ESME_RINVCMDLEN
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVCMDLEN
+  nameWithType: CommandStatus.ESME_RINVCMDLEN
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVCMDLEN
+  type: Field
+  source:
+    id: ESME_RINVCMDLEN
+    path: ''
+    startLine: 3621
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCommand Length is invalid\n"
+  example: []
+  syntax:
+    content: ESME_RINVCMDLEN = 2U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVCMDLEN = 2UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVCMDID
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVCMDID
+  id: ESME_RINVCMDID
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVCMDID
+  nameWithType: CommandStatus.ESME_RINVCMDID
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVCMDID
+  type: Field
+  source:
+    id: ESME_RINVCMDID
+    path: ''
+    startLine: 3625
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Command ID\n"
+  example: []
+  syntax:
+    content: ESME_RINVCMDID = 3U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVCMDID = 3UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVBNDSTS
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVBNDSTS
+  id: ESME_RINVBNDSTS
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVBNDSTS
+  nameWithType: CommandStatus.ESME_RINVBNDSTS
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVBNDSTS
+  type: Field
+  source:
+    id: ESME_RINVBNDSTS
+    path: ''
+    startLine: 3629
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIncorrect BIND Status for given command\n"
+  example: []
+  syntax:
+    content: ESME_RINVBNDSTS = 4U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVBNDSTS = 4UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RALYBND
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RALYBND
+  id: ESME_RALYBND
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RALYBND
+  nameWithType: CommandStatus.ESME_RALYBND
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RALYBND
+  type: Field
+  source:
+    id: ESME_RALYBND
+    path: ''
+    startLine: 3633
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nESME Already in Bound State\n"
+  example: []
+  syntax:
+    content: ESME_RALYBND = 5U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RALYBND = 5UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVPRTFLG
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVPRTFLG
+  id: ESME_RINVPRTFLG
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVPRTFLG
+  nameWithType: CommandStatus.ESME_RINVPRTFLG
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVPRTFLG
+  type: Field
+  source:
+    id: ESME_RINVPRTFLG
+    path: ''
+    startLine: 3637
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Priority Flag\n"
+  example: []
+  syntax:
+    content: ESME_RINVPRTFLG = 6U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVPRTFLG = 6UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVREGDLVFLG
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVREGDLVFLG
+  id: ESME_RINVREGDLVFLG
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVREGDLVFLG
+  nameWithType: CommandStatus.ESME_RINVREGDLVFLG
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVREGDLVFLG
+  type: Field
+  source:
+    id: ESME_RINVREGDLVFLG
+    path: ''
+    startLine: 3641
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Registered Delivery Flag\n"
+  example: []
+  syntax:
+    content: ESME_RINVREGDLVFLG = 7U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVREGDLVFLG = 7UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RSYSERR
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RSYSERR
+  id: ESME_RSYSERR
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RSYSERR
+  nameWithType: CommandStatus.ESME_RSYSERR
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RSYSERR
+  type: Field
+  source:
+    id: ESME_RSYSERR
+    path: ''
+    startLine: 3645
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSystem Error\n"
+  example: []
+  syntax:
+    content: ESME_RSYSERR = 8U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RSYSERR = 8UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCADR
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCADR
+  id: ESME_RINVSRCADR
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVSRCADR
+  nameWithType: CommandStatus.ESME_RINVSRCADR
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCADR
+  type: Field
+  source:
+    id: ESME_RINVSRCADR
+    path: ''
+    startLine: 3649
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Source Address\n"
+  example: []
+  syntax:
+    content: ESME_RINVSRCADR = 10U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVSRCADR = 10UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTADR
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTADR
+  id: ESME_RINVDSTADR
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVDSTADR
+  nameWithType: CommandStatus.ESME_RINVDSTADR
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTADR
+  type: Field
+  source:
+    id: ESME_RINVDSTADR
+    path: ''
+    startLine: 3653
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Dest Addr\n"
+  example: []
+  syntax:
+    content: ESME_RINVDSTADR = 11U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVDSTADR = 11UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVMSGID
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVMSGID
+  id: ESME_RINVMSGID
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVMSGID
+  nameWithType: CommandStatus.ESME_RINVMSGID
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVMSGID
+  type: Field
+  source:
+    id: ESME_RINVMSGID
+    path: ''
+    startLine: 3657
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage ID is invalid\n"
+  example: []
+  syntax:
+    content: ESME_RINVMSGID = 12U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVMSGID = 12UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RBINDFAIL
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RBINDFAIL
+  id: ESME_RBINDFAIL
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RBINDFAIL
+  nameWithType: CommandStatus.ESME_RBINDFAIL
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RBINDFAIL
+  type: Field
+  source:
+    id: ESME_RBINDFAIL
+    path: ''
+    startLine: 3661
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nBind Failed\n"
+  example: []
+  syntax:
+    content: ESME_RBINDFAIL = 13U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RBINDFAIL = 13UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVPASWD
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVPASWD
+  id: ESME_RINVPASWD
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVPASWD
+  nameWithType: CommandStatus.ESME_RINVPASWD
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVPASWD
+  type: Field
+  source:
+    id: ESME_RINVPASWD
+    path: ''
+    startLine: 3665
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Password\n"
+  example: []
+  syntax:
+    content: ESME_RINVPASWD = 14U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVPASWD = 14UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSYSID
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVSYSID
+  id: ESME_RINVSYSID
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVSYSID
+  nameWithType: CommandStatus.ESME_RINVSYSID
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSYSID
+  type: Field
+  source:
+    id: ESME_RINVSYSID
+    path: ''
+    startLine: 3669
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid System ID\n"
+  example: []
+  syntax:
+    content: ESME_RINVSYSID = 15U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVSYSID = 15UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RCANCELFAIL
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RCANCELFAIL
+  id: ESME_RCANCELFAIL
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RCANCELFAIL
+  nameWithType: CommandStatus.ESME_RCANCELFAIL
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RCANCELFAIL
+  type: Field
+  source:
+    id: ESME_RCANCELFAIL
+    path: ''
+    startLine: 3673
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCancel SM Failed\n"
+  example: []
+  syntax:
+    content: ESME_RCANCELFAIL = 17U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RCANCELFAIL = 17UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RREPLACEFAIL
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RREPLACEFAIL
+  id: ESME_RREPLACEFAIL
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RREPLACEFAIL
+  nameWithType: CommandStatus.ESME_RREPLACEFAIL
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RREPLACEFAIL
+  type: Field
+  source:
+    id: ESME_RREPLACEFAIL
+    path: ''
+    startLine: 3677
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nReplace SM Failed\n"
+  example: []
+  syntax:
+    content: ESME_RREPLACEFAIL = 19U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RREPLACEFAIL = 19UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RMSGQFUL
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RMSGQFUL
+  id: ESME_RMSGQFUL
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RMSGQFUL
+  nameWithType: CommandStatus.ESME_RMSGQFUL
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RMSGQFUL
+  type: Field
+  source:
+    id: ESME_RMSGQFUL
+    path: ''
+    startLine: 3681
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage Queue Full\n"
+  example: []
+  syntax:
+    content: ESME_RMSGQFUL = 20U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RMSGQFUL = 20UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSERTYP
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVSERTYP
+  id: ESME_RINVSERTYP
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVSERTYP
+  nameWithType: CommandStatus.ESME_RINVSERTYP
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSERTYP
+  type: Field
+  source:
+    id: ESME_RINVSERTYP
+    path: ''
+    startLine: 3685
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Service Type\n"
+  example: []
+  syntax:
+    content: ESME_RINVSERTYP = 21U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVSERTYP = 21UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVNUMDESTS
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVNUMDESTS
+  id: ESME_RINVNUMDESTS
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVNUMDESTS
+  nameWithType: CommandStatus.ESME_RINVNUMDESTS
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVNUMDESTS
+  type: Field
+  source:
+    id: ESME_RINVNUMDESTS
+    path: ''
+    startLine: 3689
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid number of destinations\n"
+  example: []
+  syntax:
+    content: ESME_RINVNUMDESTS = 51U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVNUMDESTS = 51UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDLNAME
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVDLNAME
+  id: ESME_RINVDLNAME
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVDLNAME
+  nameWithType: CommandStatus.ESME_RINVDLNAME
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDLNAME
+  type: Field
+  source:
+    id: ESME_RINVDLNAME
+    path: ''
+    startLine: 3693
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Distribution List name\n"
+  example: []
+  syntax:
+    content: ESME_RINVDLNAME = 52U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVDLNAME = 52UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDESTFLAG
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVDESTFLAG
+  id: ESME_RINVDESTFLAG
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVDESTFLAG
+  nameWithType: CommandStatus.ESME_RINVDESTFLAG
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDESTFLAG
+  type: Field
+  source:
+    id: ESME_RINVDESTFLAG
+    path: ''
+    startLine: 3697
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nDestination flag is invalid (submit_multi)\n"
+  example: []
+  syntax:
+    content: ESME_RINVDESTFLAG = 64U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVDESTFLAG = 64UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSUBREP
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVSUBREP
+  id: ESME_RINVSUBREP
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVSUBREP
+  nameWithType: CommandStatus.ESME_RINVSUBREP
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSUBREP
+  type: Field
+  source:
+    id: ESME_RINVSUBREP
+    path: ''
+    startLine: 3701
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid &quot;submit with replace&quot; request(i.e. submit_sm with replace_if_present_flag set)\n"
+  example: []
+  syntax:
+    content: ESME_RINVSUBREP = 66U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVSUBREP = 66UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVESMCLASS
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVESMCLASS
+  id: ESME_RINVESMCLASS
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVESMCLASS
+  nameWithType: CommandStatus.ESME_RINVESMCLASS
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVESMCLASS
+  type: Field
+  source:
+    id: ESME_RINVESMCLASS
+    path: ''
+    startLine: 3705
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid esm_class field data\n"
+  example: []
+  syntax:
+    content: ESME_RINVESMCLASS = 67U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVESMCLASS = 67UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RCNTSUBDL
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RCNTSUBDL
+  id: ESME_RCNTSUBDL
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RCNTSUBDL
+  nameWithType: CommandStatus.ESME_RCNTSUBDL
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RCNTSUBDL
+  type: Field
+  source:
+    id: ESME_RCNTSUBDL
+    path: ''
+    startLine: 3709
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCannot Submit to Distribution List\n"
+  example: []
+  syntax:
+    content: ESME_RCNTSUBDL = 68U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RCNTSUBDL = 68UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RSUBMITFAIL
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RSUBMITFAIL
+  id: ESME_RSUBMITFAIL
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RSUBMITFAIL
+  nameWithType: CommandStatus.ESME_RSUBMITFAIL
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RSUBMITFAIL
+  type: Field
+  source:
+    id: ESME_RSUBMITFAIL
+    path: ''
+    startLine: 3713
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nsubmit_sm or submit_multi failed\n"
+  example: []
+  syntax:
+    content: ESME_RSUBMITFAIL = 69U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RSUBMITFAIL = 69UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCTON
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCTON
+  id: ESME_RINVSRCTON
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVSRCTON
+  nameWithType: CommandStatus.ESME_RINVSRCTON
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCTON
+  type: Field
+  source:
+    id: ESME_RINVSRCTON
+    path: ''
+    startLine: 3717
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Source address TON\n"
+  example: []
+  syntax:
+    content: ESME_RINVSRCTON = 72U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVSRCTON = 72UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCNPI
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCNPI
+  id: ESME_RINVSRCNPI
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVSRCNPI
+  nameWithType: CommandStatus.ESME_RINVSRCNPI
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSRCNPI
+  type: Field
+  source:
+    id: ESME_RINVSRCNPI
+    path: ''
+    startLine: 3721
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Source address NPI\n"
+  example: []
+  syntax:
+    content: ESME_RINVSRCNPI = 73U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVSRCNPI = 73UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTTON
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTTON
+  id: ESME_RINVDSTTON
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVDSTTON
+  nameWithType: CommandStatus.ESME_RINVDSTTON
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTTON
+  type: Field
+  source:
+    id: ESME_RINVDSTTON
+    path: ''
+    startLine: 3725
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Destination address TON\n"
+  example: []
+  syntax:
+    content: ESME_RINVDSTTON = 80U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVDSTTON = 80UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTNPI
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTNPI
+  id: ESME_RINVDSTNPI
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVDSTNPI
+  nameWithType: CommandStatus.ESME_RINVDSTNPI
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDSTNPI
+  type: Field
+  source:
+    id: ESME_RINVDSTNPI
+    path: ''
+    startLine: 3729
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Destination address NPI\n"
+  example: []
+  syntax:
+    content: ESME_RINVDSTNPI = 81U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVDSTNPI = 81UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSYSTYP
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVSYSTYP
+  id: ESME_RINVSYSTYP
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVSYSTYP
+  nameWithType: CommandStatus.ESME_RINVSYSTYP
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSYSTYP
+  type: Field
+  source:
+    id: ESME_RINVSYSTYP
+    path: ''
+    startLine: 3733
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid system_type field\n"
+  example: []
+  syntax:
+    content: ESME_RINVSYSTYP = 83U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVSYSTYP = 83UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVREPFLAG
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVREPFLAG
+  id: ESME_RINVREPFLAG
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVREPFLAG
+  nameWithType: CommandStatus.ESME_RINVREPFLAG
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVREPFLAG
+  type: Field
+  source:
+    id: ESME_RINVREPFLAG
+    path: ''
+    startLine: 3737
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid replace_if_present flag\n"
+  example: []
+  syntax:
+    content: ESME_RINVREPFLAG = 84U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVREPFLAG = 84UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVNUMMSGS
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVNUMMSGS
+  id: ESME_RINVNUMMSGS
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVNUMMSGS
+  nameWithType: CommandStatus.ESME_RINVNUMMSGS
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVNUMMSGS
+  type: Field
+  source:
+    id: ESME_RINVNUMMSGS
+    path: ''
+    startLine: 3741
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid number of messages\n"
+  example: []
+  syntax:
+    content: ESME_RINVNUMMSGS = 85U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVNUMMSGS = 85UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RTHROTTLED
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RTHROTTLED
+  id: ESME_RTHROTTLED
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RTHROTTLED
+  nameWithType: CommandStatus.ESME_RTHROTTLED
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RTHROTTLED
+  type: Field
+  source:
+    id: ESME_RTHROTTLED
+    path: ''
+    startLine: 3745
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThrottling error (ESME has exceeded allowed message limits)\n"
+  example: []
+  syntax:
+    content: ESME_RTHROTTLED = 88U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RTHROTTLED = 88UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSCHED
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVSCHED
+  id: ESME_RINVSCHED
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVSCHED
+  nameWithType: CommandStatus.ESME_RINVSCHED
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVSCHED
+  type: Field
+  source:
+    id: ESME_RINVSCHED
+    path: ''
+    startLine: 3749
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Scheduled Delivery Time\n"
+  example: []
+  syntax:
+    content: ESME_RINVSCHED = 97U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVSCHED = 97UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVEXPIRY
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVEXPIRY
+  id: ESME_RINVEXPIRY
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVEXPIRY
+  nameWithType: CommandStatus.ESME_RINVEXPIRY
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVEXPIRY
+  type: Field
+  source:
+    id: ESME_RINVEXPIRY
+    path: ''
+    startLine: 3753
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid message validity period (Expiry time)\n"
+  example: []
+  syntax:
+    content: ESME_RINVEXPIRY = 98U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVEXPIRY = 98UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDFTMSGID
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVDFTMSGID
+  id: ESME_RINVDFTMSGID
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVDFTMSGID
+  nameWithType: CommandStatus.ESME_RINVDFTMSGID
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVDFTMSGID
+  type: Field
+  source:
+    id: ESME_RINVDFTMSGID
+    path: ''
+    startLine: 3757
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nPredefined Message Invalid or Not Found\n"
+  example: []
+  syntax:
+    content: ESME_RINVDFTMSGID = 99U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVDFTMSGID = 99UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RX_T_APPN
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RX_T_APPN
+  id: ESME_RX_T_APPN
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RX_T_APPN
+  nameWithType: CommandStatus.ESME_RX_T_APPN
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RX_T_APPN
+  type: Field
+  source:
+    id: ESME_RX_T_APPN
+    path: ''
+    startLine: 3761
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nESME Receiver Temporary App Error Code\n"
+  example: []
+  syntax:
+    content: ESME_RX_T_APPN = 100U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RX_T_APPN = 100UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RX_P_APPN
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RX_P_APPN
+  id: ESME_RX_P_APPN
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RX_P_APPN
+  nameWithType: CommandStatus.ESME_RX_P_APPN
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RX_P_APPN
+  type: Field
+  source:
+    id: ESME_RX_P_APPN
+    path: ''
+    startLine: 3765
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nESME Receiver Permanent App Error Code\n"
+  example: []
+  syntax:
+    content: ESME_RX_P_APPN = 101U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RX_P_APPN = 101UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RX_R_APPN
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RX_R_APPN
+  id: ESME_RX_R_APPN
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RX_R_APPN
+  nameWithType: CommandStatus.ESME_RX_R_APPN
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RX_R_APPN
+  type: Field
+  source:
+    id: ESME_RX_R_APPN
+    path: ''
+    startLine: 3769
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nESME Receiver Reject Message Error Code\n"
+  example: []
+  syntax:
+    content: ESME_RX_R_APPN = 102U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RX_R_APPN = 102UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RQUERYFAIL
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RQUERYFAIL
+  id: ESME_RQUERYFAIL
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RQUERYFAIL
+  nameWithType: CommandStatus.ESME_RQUERYFAIL
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RQUERYFAIL
+  type: Field
+  source:
+    id: ESME_RQUERYFAIL
+    path: ''
+    startLine: 3773
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nquery_sm request failed\n"
+  example: []
+  syntax:
+    content: ESME_RQUERYFAIL = 103U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RQUERYFAIL = 103UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVOPTPARSTREAM
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVOPTPARSTREAM
+  id: ESME_RINVOPTPARSTREAM
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVOPTPARSTREAM
+  nameWithType: CommandStatus.ESME_RINVOPTPARSTREAM
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVOPTPARSTREAM
+  type: Field
+  source:
+    id: ESME_RINVOPTPARSTREAM
+    path: ''
+    startLine: 3777
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nError in the optional part of the PDU Body.\n"
+  example: []
+  syntax:
+    content: ESME_RINVOPTPARSTREAM = 192U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVOPTPARSTREAM = 192UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_ROPTPARNOTALLWD
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_ROPTPARNOTALLWD
+  id: ESME_ROPTPARNOTALLWD
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_ROPTPARNOTALLWD
+  nameWithType: CommandStatus.ESME_ROPTPARNOTALLWD
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_ROPTPARNOTALLWD
+  type: Field
+  source:
+    id: ESME_ROPTPARNOTALLWD
+    path: ''
+    startLine: 3781
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nOptional Parameter not allowed\n"
+  example: []
+  syntax:
+    content: ESME_ROPTPARNOTALLWD = 193U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_ROPTPARNOTALLWD = 193UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVPARLEN
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVPARLEN
+  id: ESME_RINVPARLEN
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVPARLEN
+  nameWithType: CommandStatus.ESME_RINVPARLEN
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVPARLEN
+  type: Field
+  source:
+    id: ESME_RINVPARLEN
+    path: ''
+    startLine: 3785
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Parameter Length.\n"
+  example: []
+  syntax:
+    content: ESME_RINVPARLEN = 194U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVPARLEN = 194UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RMISSINGOPTPARAM
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RMISSINGOPTPARAM
+  id: ESME_RMISSINGOPTPARAM
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RMISSINGOPTPARAM
+  nameWithType: CommandStatus.ESME_RMISSINGOPTPARAM
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RMISSINGOPTPARAM
+  type: Field
+  source:
+    id: ESME_RMISSINGOPTPARAM
+    path: ''
+    startLine: 3789
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nExpected Optional Parameter missing\n"
+  example: []
+  syntax:
+    content: ESME_RMISSINGOPTPARAM = 195U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RMISSINGOPTPARAM = 195UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RINVOPTPARAMVAL
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RINVOPTPARAMVAL
+  id: ESME_RINVOPTPARAMVAL
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RINVOPTPARAMVAL
+  nameWithType: CommandStatus.ESME_RINVOPTPARAMVAL
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RINVOPTPARAMVAL
+  type: Field
+  source:
+    id: ESME_RINVOPTPARAMVAL
+    path: ''
+    startLine: 3793
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInvalid Optional Parameter Value\n"
+  example: []
+  syntax:
+    content: ESME_RINVOPTPARAMVAL = 196U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RINVOPTPARAMVAL = 196UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RDELIVERYFAILURE
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RDELIVERYFAILURE
+  id: ESME_RDELIVERYFAILURE
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RDELIVERYFAILURE
+  nameWithType: CommandStatus.ESME_RDELIVERYFAILURE
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RDELIVERYFAILURE
+  type: Field
+  source:
+    id: ESME_RDELIVERYFAILURE
+    path: ''
+    startLine: 3797
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nDelivery Failure (used for data_sm_resp)\n"
+  example: []
+  syntax:
+    content: ESME_RDELIVERYFAILURE = 254U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RDELIVERYFAILURE = 254UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.ESME_RUNKNOWNERR
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.ESME_RUNKNOWNERR
+  id: ESME_RUNKNOWNERR
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: ESME_RUNKNOWNERR
+  nameWithType: CommandStatus.ESME_RUNKNOWNERR
+  fullName: Inetlab.SMPP.Common.CommandStatus.ESME_RUNKNOWNERR
+  type: Field
+  source:
+    id: ESME_RUNKNOWNERR
+    path: ''
+    startLine: 3801
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUnknown Error\n"
+  example: []
+  syntax:
+    content: ESME_RUNKNOWNERR = 255U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: ESME_RUNKNOWNERR = 255UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNEXPRESP
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNEXPRESP
+  id: SMPPCLIENT_UNEXPRESP
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: SMPPCLIENT_UNEXPRESP
+  nameWithType: CommandStatus.SMPPCLIENT_UNEXPRESP
+  fullName: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNEXPRESP
+  type: Field
+  source:
+    id: SMPPCLIENT_UNEXPRESP
+    path: ''
+    startLine: 3806
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMPP Client Unexpected Response\n"
+  example: []
+  syntax:
+    content: SMPPCLIENT_UNEXPRESP = 4097U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: SMPPCLIENT_UNEXPRESP = 4097UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_RCVTIMEOUT
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_RCVTIMEOUT
+  id: SMPPCLIENT_RCVTIMEOUT
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: SMPPCLIENT_RCVTIMEOUT
+  nameWithType: CommandStatus.SMPPCLIENT_RCVTIMEOUT
+  fullName: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_RCVTIMEOUT
+  type: Field
+  source:
+    id: SMPPCLIENT_RCVTIMEOUT
+    path: ''
+    startLine: 3810
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMPP Client Receive Timeout\n"
+  example: []
+  syntax:
+    content: SMPPCLIENT_RCVTIMEOUT = 4098U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: SMPPCLIENT_RCVTIMEOUT = 4098UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_NOCONN
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_NOCONN
+  id: SMPPCLIENT_NOCONN
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: SMPPCLIENT_NOCONN
+  nameWithType: CommandStatus.SMPPCLIENT_NOCONN
+  fullName: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_NOCONN
+  type: Field
+  source:
+    id: SMPPCLIENT_NOCONN
+    path: ''
+    startLine: 3814
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMPP Client No Connection\n"
+  example: []
+  syntax:
+    content: SMPPCLIENT_NOCONN = 4099U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: SMPPCLIENT_NOCONN = 4099UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNBOUND
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNBOUND
+  id: SMPPCLIENT_UNBOUND
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: SMPPCLIENT_UNBOUND
+  nameWithType: CommandStatus.SMPPCLIENT_UNBOUND
+  fullName: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNBOUND
+  type: Field
+  source:
+    id: SMPPCLIENT_UNBOUND
+    path: ''
+    startLine: 3818
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMPP Client Unbound\n"
+  example: []
+  syntax:
+    content: SMPPCLIENT_UNBOUND = 4100U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: SMPPCLIENT_UNBOUND = 4100UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_NORESP
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_NORESP
+  id: SMPPCLIENT_NORESP
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: SMPPCLIENT_NORESP
+  nameWithType: CommandStatus.SMPPCLIENT_NORESP
+  fullName: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_NORESP
+  type: Field
+  source:
+    id: SMPPCLIENT_NORESP
+    path: ''
+    startLine: 3822
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMPP Client No Response\n"
+  example: []
+  syntax:
+    content: SMPPCLIENT_NORESP = 4101U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: SMPPCLIENT_NORESP = 4101UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_GENERIC_NACK
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_GENERIC_NACK
+  id: SMPPCLIENT_GENERIC_NACK
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: SMPPCLIENT_GENERIC_NACK
+  nameWithType: CommandStatus.SMPPCLIENT_GENERIC_NACK
+  fullName: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_GENERIC_NACK
+  type: Field
+  source:
+    id: SMPPCLIENT_GENERIC_NACK
+    path: ''
+    startLine: 3826
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMPP Client generic negative acknowledgement \n"
+  example: []
+  syntax:
+    content: SMPPCLIENT_GENERIC_NACK = 8190U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: SMPPCLIENT_GENERIC_NACK = 8190UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNKNOWNERROR
+  commentId: F:Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNKNOWNERROR
+  id: SMPPCLIENT_UNKNOWNERROR
+  parent: Inetlab.SMPP.Common.CommandStatus
+  langs:
+  - csharp
+  - vb
+  name: SMPPCLIENT_UNKNOWNERROR
+  nameWithType: CommandStatus.SMPPCLIENT_UNKNOWNERROR
+  fullName: Inetlab.SMPP.Common.CommandStatus.SMPPCLIENT_UNKNOWNERROR
+  type: Field
+  source:
+    id: SMPPCLIENT_UNKNOWNERROR
+    path: ''
+    startLine: 3830
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSMPP Client Unknown Error\n"
+  example: []
+  syntax:
+    content: SMPPCLIENT_UNKNOWNERROR = 8191U
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: SMPPCLIENT_UNKNOWNERROR = 8191UI
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.CommandStatus
+  commentId: T:Inetlab.SMPP.Common.CommandStatus
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: CommandStatus
+  nameWithType: CommandStatus
+  fullName: Inetlab.SMPP.Common.CommandStatus
+shouldSkipMarkup: true

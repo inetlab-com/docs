@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.QuerySmEventHandler
+  commentId: T:Inetlab.SMPP.Common.QuerySmEventHandler
+  id: QuerySmEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: QuerySmEventHandler
+  nameWithType: QuerySmEventHandler
+  fullName: Inetlab.SMPP.Common.QuerySmEventHandler
+  type: Delegate
+  source:
+    id: QuerySmEventHandler
+    path: ''
+    startLine: 5565
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void QuerySmEventHandler(object sender, QuerySm data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: Inetlab.SMPP.PDU.QuerySm
+    content.vb: Public Delegate Sub QuerySmEventHandler(sender As Object, data As QuerySm)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.QuerySm
+  commentId: T:Inetlab.SMPP.PDU.QuerySm
+  parent: Inetlab.SMPP.PDU
+  name: QuerySm
+  nameWithType: QuerySm
+  fullName: Inetlab.SMPP.PDU.QuerySm
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

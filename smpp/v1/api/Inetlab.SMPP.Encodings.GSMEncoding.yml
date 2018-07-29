@@ -1,0 +1,573 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Encodings.GSMEncoding
+  commentId: T:Inetlab.SMPP.Encodings.GSMEncoding
+  id: GSMEncoding
+  parent: Inetlab.SMPP.Encodings
+  children:
+  - Inetlab.SMPP.Encodings.GSMEncoding.#ctor
+  - Inetlab.SMPP.Encodings.GSMEncoding.#ctor(Inetlab.SMPP.Encodings.IGSMCharsetMap)
+  - Inetlab.SMPP.Encodings.GSMEncoding.#ctor(System.Char[],System.Char[])
+  - Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  - Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount(System.Int32)
+  - Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: GSMEncoding
+  nameWithType: GSMEncoding
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding
+  type: Class
+  source:
+    id: GSMEncoding
+    path: ''
+    startLine: 12447
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  summary: "\nRepresents unpacked GSM 03.38 character encoding of Unicode characters. \n"
+  example: []
+  syntax:
+    content: 'public class GSMEncoding : Encoding'
+    content.vb: >-
+      Public Class GSMEncoding
+          Inherits Encoding
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Inetlab.SMPP.Encodings.GSMPackedEncoding
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  commentId: P:Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  id: CharacterSet
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: CharacterSet
+  nameWithType: GSMEncoding.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  type: Property
+  source:
+    id: CharacterSet
+    path: ''
+    startLine: 12454
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public char[] CharacterSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: Public ReadOnly Property CharacterSet As Char()
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  commentId: P:Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  id: ExtensionSet
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: ExtensionSet
+  nameWithType: GSMEncoding.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  type: Property
+  source:
+    id: ExtensionSet
+    path: ''
+    startLine: 12459
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public char[] ExtensionSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: Public ReadOnly Property ExtensionSet As Char()
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.#ctor
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GSMEncoding()
+  nameWithType: GSMEncoding.GSMEncoding()
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12464
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public GSMEncoding()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.#ctor(Inetlab.SMPP.Encodings.IGSMCharsetMap)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.#ctor(Inetlab.SMPP.Encodings.IGSMCharsetMap)
+  id: '#ctor(Inetlab.SMPP.Encodings.IGSMCharsetMap)'
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GSMEncoding(IGSMCharsetMap)
+  nameWithType: GSMEncoding.GSMEncoding(IGSMCharsetMap)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding(Inetlab.SMPP.Encodings.IGSMCharsetMap)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12466
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public GSMEncoding(IGSMCharsetMap charsetMap)
+    parameters:
+    - id: charsetMap
+      type: Inetlab.SMPP.Encodings.IGSMCharsetMap
+    content.vb: Public Sub New(charsetMap As IGSMCharsetMap)
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.#ctor(System.Char[],System.Char[])
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.#ctor(System.Char[],System.Char[])
+  id: '#ctor(System.Char[],System.Char[])'
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GSMEncoding(Char[], Char[])
+  nameWithType: GSMEncoding.GSMEncoding(Char[], Char[])
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding(System.Char[], System.Char[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12473
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public GSMEncoding(char[] characterSet, char[] extensionSet)
+    parameters:
+    - id: characterSet
+      type: System.Char[]
+    - id: extensionSet
+      type: System.Char[]
+    content.vb: Public Sub New(characterSet As Char(), extensionSet As Char())
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.#ctor*
+  nameWithType.vb: GSMEncoding.GSMEncoding(Char(), Char())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding(System.Char(), System.Char())
+  name.vb: GSMEncoding(Char(), Char())
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char[],System.Int32,System.Int32)
+  id: GetByteCount(System.Char[],System.Int32,System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetByteCount(Char[], Int32, Int32)
+  nameWithType: GSMEncoding.GetByteCount(Char[], Int32, Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: GetByteCount
+    path: ''
+    startLine: 12497
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetByteCount(char[] chars, int index, int count)
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetByteCount(chars As Char(), index As Integer, count As Integer) As Integer
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount*
+  nameWithType.vb: GSMEncoding.GetByteCount(Char(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount(System.Char(), System.Int32, System.Int32)
+  name.vb: GetByteCount(Char(), Int32, Int32)
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  id: GetBytes(System.Char[],System.Int32,System.Int32,System.Byte[],System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetBytes(Char[], Int32, Int32, Byte[], Int32)
+  nameWithType: GSMEncoding.GetBytes(Char[], Int32, Int32, Byte[], Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char[], System.Int32, System.Int32, System.Byte[], System.Int32)
+  type: Method
+  source:
+    id: GetBytes
+    path: ''
+    startLine: 12520
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetBytes(char[] chars, int charIndex, int charCount, byte[] bytes, int byteIndex)
+    parameters:
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    - id: charCount
+      type: System.Int32
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetBytes(chars As Char(), charIndex As Integer, charCount As Integer, bytes As Byte(), byteIndex As Integer) As Integer
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes*
+  nameWithType.vb: GSMEncoding.GetBytes(Char(), Int32, Int32, Byte(), Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes(System.Char(), System.Int32, System.Int32, System.Byte(), System.Int32)
+  name.vb: GetBytes(Char(), Int32, Int32, Byte(), Int32)
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte[],System.Int32,System.Int32)
+  id: GetCharCount(System.Byte[],System.Int32,System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetCharCount(Byte[], Int32, Int32)
+  nameWithType: GSMEncoding.GetCharCount(Byte[], Int32, Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: GetCharCount
+    path: ''
+    startLine: 12563
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetCharCount(byte[] bytes, int index, int count)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: index
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetCharCount(bytes As Byte(), index As Integer, count As Integer) As Integer
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount*
+  nameWithType.vb: GSMEncoding.GetCharCount(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount(System.Byte(), System.Int32, System.Int32)
+  name.vb: GetCharCount(Byte(), Int32, Int32)
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  id: GetChars(System.Byte[],System.Int32,System.Int32,System.Char[],System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetChars(Byte[], Int32, Int32, Char[], Int32)
+  nameWithType: GSMEncoding.GetChars(Byte[], Int32, Int32, Char[], Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte[], System.Int32, System.Int32, System.Char[], System.Int32)
+  type: Method
+  source:
+    id: GetChars
+    path: ''
+    startLine: 12591
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetChars(byte[] bytes, int byteIndex, int byteCount, char[] chars, int charIndex)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+    - id: byteIndex
+      type: System.Int32
+    - id: byteCount
+      type: System.Int32
+    - id: chars
+      type: System.Char[]
+    - id: charIndex
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetChars(bytes As Byte(), byteIndex As Integer, byteCount As Integer, chars As Char(), charIndex As Integer) As Integer
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetChars*
+  nameWithType.vb: GSMEncoding.GetChars(Byte(), Int32, Int32, Char(), Int32)
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Inetlab.SMPP.Encodings.GSMEncoding.GetChars(System.Byte(), System.Int32, System.Int32, System.Char(), System.Int32)
+  name.vb: GetChars(Byte(), Int32, Int32, Char(), Int32)
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount(System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount(System.Int32)
+  id: GetMaxByteCount(System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetMaxByteCount(Int32)
+  nameWithType: GSMEncoding.GetMaxByteCount(Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount(System.Int32)
+  type: Method
+  source:
+    id: GetMaxByteCount
+    path: ''
+    startLine: 12651
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetMaxByteCount(int charCount)
+    parameters:
+    - id: charCount
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetMaxByteCount(charCount As Integer) As Integer
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount(System.Int32)
+  commentId: M:Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount(System.Int32)
+  id: GetMaxCharCount(System.Int32)
+  parent: Inetlab.SMPP.Encodings.GSMEncoding
+  langs:
+  - csharp
+  - vb
+  name: GetMaxCharCount(Int32)
+  nameWithType: GSMEncoding.GetMaxCharCount(Int32)
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount(System.Int32)
+  type: Method
+  source:
+    id: GetMaxCharCount
+    path: ''
+    startLine: 12656
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public override int GetMaxCharCount(int byteCount)
+    parameters:
+    - id: byteCount
+      type: System.Int32
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetMaxCharCount(byteCount As Integer) As Integer
+  overload: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.Encodings
+  commentId: N:Inetlab.SMPP.Encodings
+  isExternal: false
+  name: Inetlab.SMPP.Encodings
+  nameWithType: Inetlab.SMPP.Encodings
+  fullName: Inetlab.SMPP.Encodings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+  isExternal: false
+  name: CharacterSet
+  nameWithType: GSMEncoding.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.CharacterSet
+- uid: System.Char[]
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
+  nameWithType.vb: Char()
+  fullName.vb: System.Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+  isExternal: false
+  name: ExtensionSet
+  nameWithType: GSMEncoding.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.ExtensionSet
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.#ctor*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.#ctor
+  isExternal: false
+  name: GSMEncoding
+  nameWithType: GSMEncoding.GSMEncoding
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GSMEncoding
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.IGSMCharsetMap
+  parent: Inetlab.SMPP.Encodings
+  isExternal: false
+  name: IGSMCharsetMap
+  nameWithType: IGSMCharsetMap
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount
+  isExternal: false
+  name: GetByteCount
+  nameWithType: GSMEncoding.GetByteCount
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetByteCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetBytes
+  isExternal: false
+  name: GetBytes
+  nameWithType: GSMEncoding.GetBytes
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetBytes
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount
+  isExternal: false
+  name: GetCharCount
+  nameWithType: GSMEncoding.GetCharCount
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetCharCount
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetChars*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetChars
+  isExternal: false
+  name: GetChars
+  nameWithType: GSMEncoding.GetChars
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetChars
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount
+  isExternal: false
+  name: GetMaxByteCount
+  nameWithType: GSMEncoding.GetMaxByteCount
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxByteCount
+- uid: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount*
+  commentId: Overload:Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount
+  isExternal: false
+  name: GetMaxCharCount
+  nameWithType: GSMEncoding.GetMaxCharCount
+  fullName: Inetlab.SMPP.Encodings.GSMEncoding.GetMaxCharCount
+shouldSkipMarkup: true

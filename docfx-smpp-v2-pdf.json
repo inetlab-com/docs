@@ -1,0 +1,25 @@
+{
+  "pdf": {
+    "name": "documentation",
+    "content": [
+      {
+        "files": ["**/*.md", "**/*.yml"],
+        "src": "smpp/v2"
+      },
+      {
+        "files": [
+         "toc.yml",
+        ],
+        "src": "smpp/v2"
+      }
+    ],
+    "resource": [
+      {
+        "files": ["smpp/v2/images/**"]
+      }
+    ],
+
+    "dest": "_site_pdf_v2"
+
+  }
+}

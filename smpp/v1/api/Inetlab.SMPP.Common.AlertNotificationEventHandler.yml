@@ -1,0 +1,69 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.AlertNotificationEventHandler
+  commentId: T:Inetlab.SMPP.Common.AlertNotificationEventHandler
+  id: AlertNotificationEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AlertNotificationEventHandler
+  nameWithType: AlertNotificationEventHandler
+  fullName: Inetlab.SMPP.Common.AlertNotificationEventHandler
+  type: Delegate
+  source:
+    id: AlertNotificationEventHandler
+    path: ''
+    startLine: 4196
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void AlertNotificationEventHandler(object sender, AlertNotification data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: Inetlab.SMPP.PDU.AlertNotification
+    content.vb: Public Delegate Sub AlertNotificationEventHandler(sender As Object, data As AlertNotification)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.AlertNotification
+  commentId: T:Inetlab.SMPP.PDU.AlertNotification
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: AlertNotification
+  nameWithType: AlertNotification
+  fullName: Inetlab.SMPP.PDU.AlertNotification
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

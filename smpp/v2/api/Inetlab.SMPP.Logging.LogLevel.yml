@@ -1,0 +1,217 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Logging.LogLevel
+  commentId: T:Inetlab.SMPP.Logging.LogLevel
+  id: LogLevel
+  parent: Inetlab.SMPP.Logging
+  children:
+  - Inetlab.SMPP.Logging.LogLevel.Debug
+  - Inetlab.SMPP.Logging.LogLevel.Error
+  - Inetlab.SMPP.Logging.LogLevel.Info
+  - Inetlab.SMPP.Logging.LogLevel.Off
+  - Inetlab.SMPP.Logging.LogLevel.Verbose
+  - Inetlab.SMPP.Logging.LogLevel.Warning
+  langs:
+  - csharp
+  - vb
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Inetlab.SMPP.Logging.LogLevel
+  type: Enum
+  source:
+    id: LogLevel
+    path: ''
+    startLine: 15006
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public enum LogLevel
+    content.vb: Public Enum LogLevel
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Logging.LogLevel.Off
+  commentId: F:Inetlab.SMPP.Logging.LogLevel.Off
+  id: Off
+  parent: Inetlab.SMPP.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Off
+  nameWithType: LogLevel.Off
+  fullName: Inetlab.SMPP.Logging.LogLevel.Off
+  type: Field
+  source:
+    id: Off
+    path: ''
+    startLine: 15008
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: Off = 0
+    return:
+      type: Inetlab.SMPP.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Logging.LogLevel.Error
+  commentId: F:Inetlab.SMPP.Logging.LogLevel.Error
+  id: Error
+  parent: Inetlab.SMPP.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: LogLevel.Error
+  fullName: Inetlab.SMPP.Logging.LogLevel.Error
+  type: Field
+  source:
+    id: Error
+    path: ''
+    startLine: 15009
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: Error = 1
+    return:
+      type: Inetlab.SMPP.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Logging.LogLevel.Warning
+  commentId: F:Inetlab.SMPP.Logging.LogLevel.Warning
+  id: Warning
+  parent: Inetlab.SMPP.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: LogLevel.Warning
+  fullName: Inetlab.SMPP.Logging.LogLevel.Warning
+  type: Field
+  source:
+    id: Warning
+    path: ''
+    startLine: 15010
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: Warning = 2
+    return:
+      type: Inetlab.SMPP.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Logging.LogLevel.Info
+  commentId: F:Inetlab.SMPP.Logging.LogLevel.Info
+  id: Info
+  parent: Inetlab.SMPP.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: LogLevel.Info
+  fullName: Inetlab.SMPP.Logging.LogLevel.Info
+  type: Field
+  source:
+    id: Info
+    path: ''
+    startLine: 15011
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: Info = 3
+    return:
+      type: Inetlab.SMPP.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Logging.LogLevel.Debug
+  commentId: F:Inetlab.SMPP.Logging.LogLevel.Debug
+  id: Debug
+  parent: Inetlab.SMPP.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Debug
+  nameWithType: LogLevel.Debug
+  fullName: Inetlab.SMPP.Logging.LogLevel.Debug
+  type: Field
+  source:
+    id: Debug
+    path: ''
+    startLine: 15012
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: Debug = 4
+    return:
+      type: Inetlab.SMPP.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Logging.LogLevel.Verbose
+  commentId: F:Inetlab.SMPP.Logging.LogLevel.Verbose
+  id: Verbose
+  parent: Inetlab.SMPP.Logging.LogLevel
+  langs:
+  - csharp
+  - vb
+  name: Verbose
+  nameWithType: LogLevel.Verbose
+  fullName: Inetlab.SMPP.Logging.LogLevel.Verbose
+  type: Field
+  source:
+    id: Verbose
+    path: ''
+    startLine: 15013
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: Verbose = 5
+    return:
+      type: Inetlab.SMPP.Logging.LogLevel
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging
+- uid: Inetlab.SMPP.Logging.LogLevel
+  commentId: T:Inetlab.SMPP.Logging.LogLevel
+  parent: Inetlab.SMPP.Logging
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Inetlab.SMPP.Logging.LogLevel
+shouldSkipMarkup: true

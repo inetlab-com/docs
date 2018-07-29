@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.ISequenceGenerator
+  commentId: T:Inetlab.SMPP.Common.ISequenceGenerator
+  id: ISequenceGenerator
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.ISequenceGenerator.NextReferenceNumber
+  - Inetlab.SMPP.Common.ISequenceGenerator.NextSequenceNumber
+  langs:
+  - csharp
+  - vb
+  name: ISequenceGenerator
+  nameWithType: ISequenceGenerator
+  fullName: Inetlab.SMPP.Common.ISequenceGenerator
+  type: Interface
+  source:
+    id: ISequenceGenerator
+    path: ''
+    startLine: 6651
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public interface ISequenceGenerator
+    content.vb: Public Interface ISequenceGenerator
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Inetlab.SMPP.Common.ISequenceGenerator.NextSequenceNumber
+  commentId: M:Inetlab.SMPP.Common.ISequenceGenerator.NextSequenceNumber
+  id: NextSequenceNumber
+  parent: Inetlab.SMPP.Common.ISequenceGenerator
+  langs:
+  - csharp
+  - vb
+  name: NextSequenceNumber()
+  nameWithType: ISequenceGenerator.NextSequenceNumber()
+  fullName: Inetlab.SMPP.Common.ISequenceGenerator.NextSequenceNumber()
+  type: Method
+  source:
+    id: NextSequenceNumber
+    path: ''
+    startLine: 6656
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nReturns next sequence number which allows SMPP requests and responses to be associated for correlation purposes.\n"
+  example: []
+  syntax:
+    content: uint NextSequenceNumber()
+    return:
+      type: System.UInt32
+    content.vb: Function NextSequenceNumber As UInteger
+  overload: Inetlab.SMPP.Common.ISequenceGenerator.NextSequenceNumber*
+- uid: Inetlab.SMPP.Common.ISequenceGenerator.NextReferenceNumber
+  commentId: M:Inetlab.SMPP.Common.ISequenceGenerator.NextReferenceNumber
+  id: NextReferenceNumber
+  parent: Inetlab.SMPP.Common.ISequenceGenerator
+  langs:
+  - csharp
+  - vb
+  name: NextReferenceNumber()
+  nameWithType: ISequenceGenerator.NextReferenceNumber()
+  fullName: Inetlab.SMPP.Common.ISequenceGenerator.NextReferenceNumber()
+  type: Method
+  source:
+    id: NextReferenceNumber
+    path: ''
+    startLine: 6661
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nReturns next reference number which allows parallel transmission of several segmented messages.\n"
+  example: []
+  syntax:
+    content: byte NextReferenceNumber()
+    return:
+      type: System.Byte
+    content.vb: Function NextReferenceNumber As Byte
+  overload: Inetlab.SMPP.Common.ISequenceGenerator.NextReferenceNumber*
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.ISequenceGenerator.NextSequenceNumber*
+  commentId: Overload:Inetlab.SMPP.Common.ISequenceGenerator.NextSequenceNumber
+  isExternal: false
+  name: NextSequenceNumber
+  nameWithType: ISequenceGenerator.NextSequenceNumber
+  fullName: Inetlab.SMPP.Common.ISequenceGenerator.NextSequenceNumber
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.ISequenceGenerator.NextReferenceNumber*
+  commentId: Overload:Inetlab.SMPP.Common.ISequenceGenerator.NextReferenceNumber
+  isExternal: false
+  name: NextReferenceNumber
+  nameWithType: ISequenceGenerator.NextReferenceNumber
+  fullName: Inetlab.SMPP.Common.ISequenceGenerator.NextReferenceNumber
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+shouldSkipMarkup: true

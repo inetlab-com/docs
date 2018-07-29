@@ -1,0 +1,78 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.ClientBindEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientBindEventHandler
+  id: ClientBindEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ClientBindEventHandler
+  nameWithType: ClientBindEventHandler
+  fullName: Inetlab.SMPP.Common.ClientBindEventHandler
+  type: Delegate
+  source:
+    id: ClientBindEventHandler
+    path: ''
+    startLine: 4242
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void ClientBindEventHandler(object sender, SmppServerClient client, Bind data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: client
+      type: Inetlab.SMPP.Common.SmppServerClient
+    - id: data
+      type: Inetlab.SMPP.PDU.Bind
+    content.vb: Public Delegate Sub ClientBindEventHandler(sender As Object, client As SmppServerClient, data As Bind)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.SmppServerClient
+  commentId: T:Inetlab.SMPP.Common.SmppServerClient
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: SmppServerClient
+  nameWithType: SmppServerClient
+  fullName: Inetlab.SMPP.Common.SmppServerClient
+- uid: Inetlab.SMPP.PDU.Bind
+  commentId: T:Inetlab.SMPP.PDU.Bind
+  parent: Inetlab.SMPP.PDU
+  isExternal: false
+  name: Bind
+  nameWithType: Bind
+  fullName: Inetlab.SMPP.PDU.Bind
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

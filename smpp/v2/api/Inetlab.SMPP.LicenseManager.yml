@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.LicenseManager
+  commentId: T:Inetlab.SMPP.LicenseManager
+  id: LicenseManager
+  parent: Inetlab.SMPP
+  children:
+  - Inetlab.SMPP.LicenseManager.SetLicense(Stream)
+  - Inetlab.SMPP.LicenseManager.SetLicense(System.String)
+  - Inetlab.SMPP.LicenseManager.Status
+  langs:
+  - csharp
+  - vb
+  name: LicenseManager
+  nameWithType: LicenseManager
+  fullName: Inetlab.SMPP.LicenseManager
+  type: Class
+  source:
+    id: LicenseManager
+    path: ''
+    startLine: 60
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: 'Manager for library license. '
+  example: []
+  syntax:
+    content: public static class LicenseManager
+    content.vb: Public Module LicenseManager
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Inetlab.SMPP.LicenseManager.Status
+  commentId: P:Inetlab.SMPP.LicenseManager.Status
+  id: Status
+  parent: Inetlab.SMPP.LicenseManager
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: LicenseManager.Status
+  fullName: Inetlab.SMPP.LicenseManager.Status
+  type: Property
+  source:
+    id: Status
+    path: ''
+    startLine: 65
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nReturns actual staus of the license. It helps to distinguish evaluation license from full license.\n"
+  example: []
+  syntax:
+    content: public static string Status { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property Status As String
+  overload: Inetlab.SMPP.LicenseManager.Status*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Inetlab.SMPP.LicenseManager.SetLicense(Stream)
+  commentId: M:Inetlab.SMPP.LicenseManager.SetLicense(Stream)
+  id: SetLicense(Stream)
+  parent: Inetlab.SMPP.LicenseManager
+  langs:
+  - csharp
+  - vb
+  name: SetLicense(Stream)
+  nameWithType: LicenseManager.SetLicense(Stream)
+  fullName: Inetlab.SMPP.LicenseManager.SetLicense(Stream)
+  type: Method
+  source:
+    id: SetLicense
+    path: ''
+    startLine: 98
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: 'Sets a license. '
+  remarks: "\n<p>\nAfter purchase you will receive Inetlab.SMPP.license file per E-Mail.\nAdd this file into the root of project where you have a reference on Inetlab.SMPP.dll. Change &quot;Build Action&quot; of the file to &quot;Embedded Resource&quot;.\n</p>\n<p>\nSet license before using Inetlab.SMPP classes in your code:\n</p>\n"
+  example:
+  - "\n<pre><code>Inetlab.SMPP.LicenseManager.SetLicense(this.GetType().Assembly.GetManifestResourceStream(this.GetType(), &quot;Inetlab.SMPP.license&quot; ));</code></pre>\n"
+  syntax:
+    content: public static bool SetLicense(Stream stream)
+    parameters:
+    - id: stream
+      type: Stream
+      description: 'The stream, that contains license '
+    return:
+      type: System.Boolean
+      description: 'True if it succeeds and license is valid, false if it fails. '
+    content.vb: Public Shared Function SetLicense(stream As Stream) As Boolean
+  overload: Inetlab.SMPP.LicenseManager.SetLicense*
+  seealso:
+  - linkId: Inetlab.SMPP.LicenseManager.SetLicense(System.String)
+    commentId: M:Inetlab.SMPP.LicenseManager.SetLicense(System.String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.LicenseManager.SetLicense(System.String)
+  commentId: M:Inetlab.SMPP.LicenseManager.SetLicense(System.String)
+  id: SetLicense(System.String)
+  parent: Inetlab.SMPP.LicenseManager
+  langs:
+  - csharp
+  - vb
+  name: SetLicense(String)
+  nameWithType: LicenseManager.SetLicense(String)
+  fullName: Inetlab.SMPP.LicenseManager.SetLicense(System.String)
+  type: Method
+  source:
+    id: SetLicense
+    path: ''
+    startLine: 120
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: 'Sets a license for Inetlab.SMPP library. '
+  example:
+  - "\n<pre><code>Inetlab.SMPP.LicenseManager.SetLicense(File.ReadAllText(&quot;Inetlab.SMPP.license&quot;));</code></pre>\n"
+  syntax:
+    content: public static bool SetLicense(string licenseContent)
+    parameters:
+    - id: licenseContent
+      type: System.String
+      description: 'The string, that contains license '
+    return:
+      type: System.Boolean
+      description: 'True if it succeeds and license is valid, false if it fails. '
+    content.vb: Public Shared Function SetLicense(licenseContent As String) As Boolean
+  overload: Inetlab.SMPP.LicenseManager.SetLicense*
+  seealso:
+  - linkId: Inetlab.SMPP.LicenseManager.SetLicense(Stream)
+    commentId: M:Inetlab.SMPP.LicenseManager.SetLicense(Stream)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.LicenseManager.Status*
+  commentId: Overload:Inetlab.SMPP.LicenseManager.Status
+  name: Status
+  nameWithType: LicenseManager.Status
+  fullName: Inetlab.SMPP.LicenseManager.Status
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.LicenseManager.SetLicense(System.String)
+  commentId: M:Inetlab.SMPP.LicenseManager.SetLicense(System.String)
+  isExternal: true
+- uid: Inetlab.SMPP.LicenseManager.SetLicense*
+  commentId: Overload:Inetlab.SMPP.LicenseManager.SetLicense
+  name: SetLicense
+  nameWithType: LicenseManager.SetLicense
+  fullName: Inetlab.SMPP.LicenseManager.SetLicense
+- uid: Stream
+  isExternal: true
+  name: Stream
+  nameWithType: Stream
+  fullName: Stream
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Inetlab.SMPP.LicenseManager.SetLicense(Stream)
+  commentId: M:Inetlab.SMPP.LicenseManager.SetLicense(Stream)
+  isExternal: true
+shouldSkipMarkup: true

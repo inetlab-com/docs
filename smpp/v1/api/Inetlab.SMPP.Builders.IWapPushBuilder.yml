@@ -1,0 +1,797 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder
+  commentId: T:Inetlab.SMPP.Builders.IWapPushBuilder
+  id: IWapPushBuilder
+  parent: Inetlab.SMPP.Builders
+  children:
+  - Inetlab.SMPP.Builders.IWapPushBuilder.DeliverAt(DateTime)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.DeliverIn(TimeSpan)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.ExpireAt(DateTime)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.ExpireIn(TimeSpan)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String,AddressTON,AddressNPI)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String,System.Byte,System.Byte)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.ServiceType(System.String)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.Title(System.String)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String,AddressTON,AddressNPI)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String,System.Byte,System.Byte)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.TransactionId(System.Byte)
+  - Inetlab.SMPP.Builders.IWapPushBuilder.Url(System.String)
+  langs:
+  - csharp
+  - vb
+  name: IWapPushBuilder
+  nameWithType: IWapPushBuilder
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder
+  type: Interface
+  source:
+    id: IWapPushBuilder
+    path: ''
+    startLine: 2595
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: 'public interface IWapPushBuilder : IBuilder<SubmitSm>'
+    content.vb: >-
+      Public Interface IWapPushBuilder
+          Inherits IBuilder(Of SubmitSm)
+  inheritedMembers:
+  - Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(SmppClientBase)
+  - Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(EncodingMapper)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.ServiceType(System.String)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.ServiceType(System.String)
+  id: ServiceType(System.String)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: ServiceType(String)
+  nameWithType: IWapPushBuilder.ServiceType(String)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.ServiceType(System.String)
+  type: Method
+  source:
+    id: ServiceType
+    path: ''
+    startLine: 2597
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder ServiceType(string type)
+    parameters:
+    - id: type
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function ServiceType(type As String) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.ServiceType*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String)
+  id: From(System.String)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: From(String)
+  nameWithType: IWapPushBuilder.From(String)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String)
+  type: Method
+  source:
+    id: From
+    path: ''
+    startLine: 2598
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder From(string sourceAddr)
+    parameters:
+    - id: sourceAddr
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function From(sourceAddr As String) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.From*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String,AddressTON,AddressNPI)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String,AddressTON,AddressNPI)
+  id: From(System.String,AddressTON,AddressNPI)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: From(String, AddressTON, AddressNPI)
+  nameWithType: IWapPushBuilder.From(String, AddressTON, AddressNPI)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String, AddressTON, AddressNPI)
+  type: Method
+  source:
+    id: From
+    path: ''
+    startLine: 2599
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder From(string sourceAddr, AddressTON ton, AddressNPI npi)
+    parameters:
+    - id: sourceAddr
+      type: System.String
+    - id: ton
+      type: AddressTON
+    - id: npi
+      type: AddressNPI
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function From(sourceAddr As String, ton As AddressTON, npi As AddressNPI) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.From*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String,System.Byte,System.Byte)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String,System.Byte,System.Byte)
+  id: From(System.String,System.Byte,System.Byte)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: From(String, Byte, Byte)
+  nameWithType: IWapPushBuilder.From(String, Byte, Byte)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.From(System.String, System.Byte, System.Byte)
+  type: Method
+  source:
+    id: From
+    path: ''
+    startLine: 2600
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder From(string sourceAddr, byte ton, byte npi)
+    parameters:
+    - id: sourceAddr
+      type: System.String
+    - id: ton
+      type: System.Byte
+    - id: npi
+      type: System.Byte
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function From(sourceAddr As String, ton As Byte, npi As Byte) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.From*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String)
+  id: To(System.String)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: To(String)
+  nameWithType: IWapPushBuilder.To(String)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String)
+  type: Method
+  source:
+    id: To
+    path: ''
+    startLine: 2601
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder To(string destAddr)
+    parameters:
+    - id: destAddr
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function To(destAddr As String) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.To*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String,AddressTON,AddressNPI)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String,AddressTON,AddressNPI)
+  id: To(System.String,AddressTON,AddressNPI)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: To(String, AddressTON, AddressNPI)
+  nameWithType: IWapPushBuilder.To(String, AddressTON, AddressNPI)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String, AddressTON, AddressNPI)
+  type: Method
+  source:
+    id: To
+    path: ''
+    startLine: 2602
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder To(string destAddr, AddressTON ton, AddressNPI npi)
+    parameters:
+    - id: destAddr
+      type: System.String
+    - id: ton
+      type: AddressTON
+    - id: npi
+      type: AddressNPI
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function To(destAddr As String, ton As AddressTON, npi As AddressNPI) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.To*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String,System.Byte,System.Byte)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String,System.Byte,System.Byte)
+  id: To(System.String,System.Byte,System.Byte)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: To(String, Byte, Byte)
+  nameWithType: IWapPushBuilder.To(String, Byte, Byte)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.To(System.String, System.Byte, System.Byte)
+  type: Method
+  source:
+    id: To
+    path: ''
+    startLine: 2603
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder To(string destAddr, byte ton, byte npi)
+    parameters:
+    - id: destAddr
+      type: System.String
+    - id: ton
+      type: System.Byte
+    - id: npi
+      type: System.Byte
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function To(destAddr As String, ton As Byte, npi As Byte) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.To*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.TransactionId(System.Byte)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.TransactionId(System.Byte)
+  id: TransactionId(System.Byte)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: TransactionId(Byte)
+  nameWithType: IWapPushBuilder.TransactionId(Byte)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.TransactionId(System.Byte)
+  type: Method
+  source:
+    id: TransactionId
+    path: ''
+    startLine: 2604
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder TransactionId(byte id)
+    parameters:
+    - id: id
+      type: System.Byte
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function TransactionId(id As Byte) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.TransactionId*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.Title(System.String)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.Title(System.String)
+  id: Title(System.String)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: Title(String)
+  nameWithType: IWapPushBuilder.Title(String)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.Title(System.String)
+  type: Method
+  source:
+    id: Title
+    path: ''
+    startLine: 2605
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder Title(string urlTitle)
+    parameters:
+    - id: urlTitle
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function Title(urlTitle As String) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.Title*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.Url(System.String)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.Url(System.String)
+  id: Url(System.String)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: Url(String)
+  nameWithType: IWapPushBuilder.Url(String)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.Url(System.String)
+  type: Method
+  source:
+    id: Url
+    path: ''
+    startLine: 2606
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder Url(string pushUrl)
+    parameters:
+    - id: pushUrl
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function Url(pushUrl As String) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.Url*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverAt(DateTime)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.DeliverAt(DateTime)
+  id: DeliverAt(DateTime)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: DeliverAt(DateTime)
+  nameWithType: IWapPushBuilder.DeliverAt(DateTime)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverAt(DateTime)
+  type: Method
+  source:
+    id: DeliverAt
+    path: ''
+    startLine: 2607
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder DeliverAt(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: DateTime
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function DeliverAt(dateTime As DateTime) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverAt*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverIn(TimeSpan)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.DeliverIn(TimeSpan)
+  id: DeliverIn(TimeSpan)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: DeliverIn(TimeSpan)
+  nameWithType: IWapPushBuilder.DeliverIn(TimeSpan)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverIn(TimeSpan)
+  type: Method
+  source:
+    id: DeliverIn
+    path: ''
+    startLine: 2608
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder DeliverIn(TimeSpan timeSpan)
+    parameters:
+    - id: timeSpan
+      type: TimeSpan
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function DeliverIn(timeSpan As TimeSpan) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverIn*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireAt(DateTime)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.ExpireAt(DateTime)
+  id: ExpireAt(DateTime)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: ExpireAt(DateTime)
+  nameWithType: IWapPushBuilder.ExpireAt(DateTime)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireAt(DateTime)
+  type: Method
+  source:
+    id: ExpireAt
+    path: ''
+    startLine: 2609
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder ExpireAt(DateTime dateTime)
+    parameters:
+    - id: dateTime
+      type: DateTime
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function ExpireAt(dateTime As DateTime) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireAt*
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireIn(TimeSpan)
+  commentId: M:Inetlab.SMPP.Builders.IWapPushBuilder.ExpireIn(TimeSpan)
+  id: ExpireIn(TimeSpan)
+  parent: Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: ExpireIn(TimeSpan)
+  nameWithType: IWapPushBuilder.ExpireIn(TimeSpan)
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireIn(TimeSpan)
+  type: Method
+  source:
+    id: ExpireIn
+    path: ''
+    startLine: 2610
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: IWapPushBuilder ExpireIn(TimeSpan timeSpan)
+    parameters:
+    - id: timeSpan
+      type: TimeSpan
+    return:
+      type: Inetlab.SMPP.Builders.IWapPushBuilder
+    content.vb: Function ExpireIn(timeSpan As TimeSpan) As IWapPushBuilder
+  overload: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireIn*
+references:
+- uid: Inetlab.SMPP.Builders
+  commentId: N:Inetlab.SMPP.Builders
+  isExternal: false
+  name: Inetlab.SMPP.Builders
+  nameWithType: Inetlab.SMPP.Builders
+  fullName: Inetlab.SMPP.Builders
+- uid: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(SmppClientBase)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(SmppClientBase)
+  parent: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}
+  definition: Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+  name: Create(SmppClientBase)
+  nameWithType: IBuilder<SubmitSm>.Create(SmppClientBase)
+  fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>.Create(SmppClientBase)
+  nameWithType.vb: IBuilder(Of SubmitSm).Create(SmppClientBase)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm).Create(SmppClientBase)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+    name: Create
+    nameWithType: IBuilder<SubmitSm>.Create
+    fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppClientBase
+    name: SmppClientBase
+    nameWithType: SmppClientBase
+    fullName: SmppClientBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+    name: Create
+    nameWithType: IBuilder(Of SubmitSm).Create
+    fullName: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppClientBase
+    name: SmppClientBase
+    nameWithType: SmppClientBase
+    fullName: SmppClientBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(EncodingMapper)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}.Create(EncodingMapper)
+  parent: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}
+  definition: Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+  name: Create(EncodingMapper)
+  nameWithType: IBuilder<SubmitSm>.Create(EncodingMapper)
+  fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>.Create(EncodingMapper)
+  nameWithType.vb: IBuilder(Of SubmitSm).Create(EncodingMapper)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm).Create(EncodingMapper)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+    name: Create
+    nameWithType: IBuilder<SubmitSm>.Create
+    fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EncodingMapper
+    name: EncodingMapper
+    nameWithType: EncodingMapper
+    fullName: EncodingMapper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+    name: Create
+    nameWithType: IBuilder(Of SubmitSm).Create
+    fullName: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EncodingMapper
+    name: EncodingMapper
+    nameWithType: EncodingMapper
+    fullName: EncodingMapper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+  isExternal: true
+  name: Create(SmppClientBase)
+  nameWithType: IBuilder<T>.Create(SmppClientBase)
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create(SmppClientBase)
+  nameWithType.vb: IBuilder(Of T).Create(SmppClientBase)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T).Create(SmppClientBase)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+    name: Create
+    nameWithType: IBuilder<T>.Create
+    fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppClientBase
+    name: SmppClientBase
+    nameWithType: SmppClientBase
+    fullName: SmppClientBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+    name: Create
+    nameWithType: IBuilder(Of T).Create
+    fullName: Inetlab.SMPP.Builders.IBuilder(Of T).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppClientBase
+    name: SmppClientBase
+    nameWithType: SmppClientBase
+    fullName: SmppClientBase
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}
+  commentId: T:Inetlab.SMPP.Builders.IBuilder{Inetlab.SMPP.PDU.SubmitSm}
+  parent: Inetlab.SMPP.Builders
+  definition: Inetlab.SMPP.Builders.IBuilder`1
+  name: IBuilder<SubmitSm>
+  nameWithType: IBuilder<SubmitSm>
+  fullName: Inetlab.SMPP.Builders.IBuilder<Inetlab.SMPP.PDU.SubmitSm>
+  nameWithType.vb: IBuilder(Of SubmitSm)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of Inetlab.SMPP.PDU.SubmitSm)
+  name.vb: IBuilder(Of SubmitSm)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.PDU.SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: Inetlab.SMPP.PDU.SubmitSm
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.PDU.SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: Inetlab.SMPP.PDU.SubmitSm
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+  isExternal: true
+  name: Create(EncodingMapper)
+  nameWithType: IBuilder<T>.Create(EncodingMapper)
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create(EncodingMapper)
+  nameWithType.vb: IBuilder(Of T).Create(EncodingMapper)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T).Create(EncodingMapper)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+    name: Create
+    nameWithType: IBuilder<T>.Create
+    fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EncodingMapper
+    name: EncodingMapper
+    nameWithType: EncodingMapper
+    fullName: EncodingMapper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+    name: Create
+    nameWithType: IBuilder(Of T).Create
+    fullName: Inetlab.SMPP.Builders.IBuilder(Of T).Create
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EncodingMapper
+    name: EncodingMapper
+    nameWithType: EncodingMapper
+    fullName: EncodingMapper
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IBuilder`1
+  commentId: T:Inetlab.SMPP.Builders.IBuilder`1
+  isExternal: false
+  name: IBuilder<T>
+  nameWithType: IBuilder<T>
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>
+  nameWithType.vb: IBuilder(Of T)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T)
+  name.vb: IBuilder(Of T)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.ServiceType*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.ServiceType
+  isExternal: false
+  name: ServiceType
+  nameWithType: IWapPushBuilder.ServiceType
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.ServiceType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder
+  commentId: T:Inetlab.SMPP.Builders.IWapPushBuilder
+  parent: Inetlab.SMPP.Builders
+  isExternal: false
+  name: IWapPushBuilder
+  nameWithType: IWapPushBuilder
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.From*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.From
+  isExternal: false
+  name: From
+  nameWithType: IWapPushBuilder.From
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.From
+- uid: AddressTON
+  isExternal: true
+  name: AddressTON
+  nameWithType: AddressTON
+  fullName: AddressTON
+- uid: AddressNPI
+  isExternal: true
+  name: AddressNPI
+  nameWithType: AddressNPI
+  fullName: AddressNPI
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.To*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.To
+  isExternal: false
+  name: To
+  nameWithType: IWapPushBuilder.To
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.To
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.TransactionId*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.TransactionId
+  isExternal: false
+  name: TransactionId
+  nameWithType: IWapPushBuilder.TransactionId
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.TransactionId
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.Title*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.Title
+  isExternal: false
+  name: Title
+  nameWithType: IWapPushBuilder.Title
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.Title
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.Url*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.Url
+  isExternal: false
+  name: Url
+  nameWithType: IWapPushBuilder.Url
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.Url
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverAt*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.DeliverAt
+  isExternal: false
+  name: DeliverAt
+  nameWithType: IWapPushBuilder.DeliverAt
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverAt
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverIn*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.DeliverIn
+  isExternal: false
+  name: DeliverIn
+  nameWithType: IWapPushBuilder.DeliverIn
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.DeliverIn
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireAt*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.ExpireAt
+  isExternal: false
+  name: ExpireAt
+  nameWithType: IWapPushBuilder.ExpireAt
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireAt
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireIn*
+  commentId: Overload:Inetlab.SMPP.Builders.IWapPushBuilder.ExpireIn
+  isExternal: false
+  name: ExpireIn
+  nameWithType: IWapPushBuilder.ExpireIn
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder.ExpireIn
+shouldSkipMarkup: true

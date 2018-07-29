@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.SMS
+  commentId: T:Inetlab.SMPP.SMS
+  id: SMS
+  parent: Inetlab.SMPP
+  children:
+  - Inetlab.SMPP.SMS.ForDeliver
+  - Inetlab.SMPP.SMS.ForSubmit
+  - Inetlab.SMPP.SMS.ForSubmitMulti
+  - Inetlab.SMPP.SMS.ForWapPush
+  langs:
+  - csharp
+  - vb
+  name: SMS
+  nameWithType: SMS
+  fullName: Inetlab.SMPP.SMS
+  type: Class
+  source:
+    id: SMS
+    path: ''
+    startLine: 1653
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nInitiates SMS builders\n"
+  example: []
+  syntax:
+    content: public class SMS
+    content.vb: Public Class SMS
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.SMS.ForDeliver
+  commentId: M:Inetlab.SMPP.SMS.ForDeliver
+  id: ForDeliver
+  parent: Inetlab.SMPP.SMS
+  langs:
+  - csharp
+  - vb
+  name: ForDeliver()
+  nameWithType: SMS.ForDeliver()
+  fullName: Inetlab.SMPP.SMS.ForDeliver()
+  type: Method
+  source:
+    id: ForDeliver
+    path: ''
+    startLine: 1658
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nCreates DeliverSm messages\n"
+  example: []
+  syntax:
+    content: public static IDeliverSmBuilder ForDeliver()
+    return:
+      type: IDeliverSmBuilder
+    content.vb: Public Shared Function ForDeliver As IDeliverSmBuilder
+  overload: Inetlab.SMPP.SMS.ForDeliver*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.SMS.ForSubmit
+  commentId: M:Inetlab.SMPP.SMS.ForSubmit
+  id: ForSubmit
+  parent: Inetlab.SMPP.SMS
+  langs:
+  - csharp
+  - vb
+  name: ForSubmit()
+  nameWithType: SMS.ForSubmit()
+  fullName: Inetlab.SMPP.SMS.ForSubmit()
+  type: Method
+  source:
+    id: ForSubmit
+    path: ''
+    startLine: 1666
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nCreates SubmitSm messages\n"
+  example: []
+  syntax:
+    content: public static ISubmitSmBuilder ForSubmit()
+    return:
+      type: ISubmitSmBuilder
+    content.vb: Public Shared Function ForSubmit As ISubmitSmBuilder
+  overload: Inetlab.SMPP.SMS.ForSubmit*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.SMS.ForSubmitMulti
+  commentId: M:Inetlab.SMPP.SMS.ForSubmitMulti
+  id: ForSubmitMulti
+  parent: Inetlab.SMPP.SMS
+  langs:
+  - csharp
+  - vb
+  name: ForSubmitMulti()
+  nameWithType: SMS.ForSubmitMulti()
+  fullName: Inetlab.SMPP.SMS.ForSubmitMulti()
+  type: Method
+  source:
+    id: ForSubmitMulti
+    path: ''
+    startLine: 1674
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nCreates SubmitMulti messages\n"
+  example: []
+  syntax:
+    content: public static ISubmitMultiBuilder ForSubmitMulti()
+    return:
+      type: ISubmitMultiBuilder
+    content.vb: Public Shared Function ForSubmitMulti As ISubmitMultiBuilder
+  overload: Inetlab.SMPP.SMS.ForSubmitMulti*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.SMS.ForWapPush
+  commentId: M:Inetlab.SMPP.SMS.ForWapPush
+  id: ForWapPush
+  parent: Inetlab.SMPP.SMS
+  langs:
+  - csharp
+  - vb
+  name: ForWapPush()
+  nameWithType: SMS.ForWapPush()
+  fullName: Inetlab.SMPP.SMS.ForWapPush()
+  type: Method
+  source:
+    id: ForWapPush
+    path: ''
+    startLine: 1682
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nCreates WAP Push message\n"
+  example: []
+  syntax:
+    content: public static IWapPushBuilder ForWapPush()
+    return:
+      type: IWapPushBuilder
+    content.vb: Public Shared Function ForWapPush As IWapPushBuilder
+  overload: Inetlab.SMPP.SMS.ForWapPush*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  isExternal: false
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.SMS.ForDeliver*
+  commentId: Overload:Inetlab.SMPP.SMS.ForDeliver
+  isExternal: false
+  name: ForDeliver
+  nameWithType: SMS.ForDeliver
+  fullName: Inetlab.SMPP.SMS.ForDeliver
+- uid: IDeliverSmBuilder
+  commentId: '!:IDeliverSmBuilder'
+  isExternal: true
+  name: IDeliverSmBuilder
+  nameWithType: IDeliverSmBuilder
+  fullName: IDeliverSmBuilder
+- uid: Inetlab.SMPP.SMS.ForSubmit*
+  commentId: Overload:Inetlab.SMPP.SMS.ForSubmit
+  isExternal: false
+  name: ForSubmit
+  nameWithType: SMS.ForSubmit
+  fullName: Inetlab.SMPP.SMS.ForSubmit
+- uid: ISubmitSmBuilder
+  commentId: '!:ISubmitSmBuilder'
+  isExternal: true
+  name: ISubmitSmBuilder
+  nameWithType: ISubmitSmBuilder
+  fullName: ISubmitSmBuilder
+- uid: Inetlab.SMPP.SMS.ForSubmitMulti*
+  commentId: Overload:Inetlab.SMPP.SMS.ForSubmitMulti
+  isExternal: false
+  name: ForSubmitMulti
+  nameWithType: SMS.ForSubmitMulti
+  fullName: Inetlab.SMPP.SMS.ForSubmitMulti
+- uid: ISubmitMultiBuilder
+  commentId: '!:ISubmitMultiBuilder'
+  isExternal: true
+  name: ISubmitMultiBuilder
+  nameWithType: ISubmitMultiBuilder
+  fullName: ISubmitMultiBuilder
+- uid: Inetlab.SMPP.SMS.ForWapPush*
+  commentId: Overload:Inetlab.SMPP.SMS.ForWapPush
+  isExternal: false
+  name: ForWapPush
+  nameWithType: SMS.ForWapPush
+  fullName: Inetlab.SMPP.SMS.ForWapPush
+- uid: IWapPushBuilder
+  commentId: '!:IWapPushBuilder'
+  isExternal: true
+  name: IWapPushBuilder
+  nameWithType: IWapPushBuilder
+  fullName: IWapPushBuilder
+shouldSkipMarkup: true

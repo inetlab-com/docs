@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  id: Inetlab.SMPP
+  children:
+  - Inetlab.SMPP.ByteArray
+  - Inetlab.SMPP.LicenseManager
+  - Inetlab.SMPP.SmppClient
+  - Inetlab.SMPP.SmppClientBase
+  - Inetlab.SMPP.SmppServer
+  - Inetlab.SMPP.SmppServerClient
+  - Inetlab.SMPP.SMS
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Inetlab.SMPP.ByteArray
+  commentId: T:Inetlab.SMPP.ByteArray
+  name: ByteArray
+  nameWithType: ByteArray
+  fullName: Inetlab.SMPP.ByteArray
+- uid: Inetlab.SMPP.LicenseManager
+  commentId: T:Inetlab.SMPP.LicenseManager
+  name: LicenseManager
+  nameWithType: LicenseManager
+  fullName: Inetlab.SMPP.LicenseManager
+- uid: Inetlab.SMPP.SmppClient
+  commentId: T:Inetlab.SMPP.SmppClient
+  name: SmppClient
+  nameWithType: SmppClient
+  fullName: Inetlab.SMPP.SmppClient
+- uid: Inetlab.SMPP.SmppClientBase
+  commentId: T:Inetlab.SMPP.SmppClientBase
+  parent: Inetlab.SMPP
+  name: SmppClientBase
+  nameWithType: SmppClientBase
+  fullName: Inetlab.SMPP.SmppClientBase
+- uid: Inetlab.SMPP.SmppServer
+  commentId: T:Inetlab.SMPP.SmppServer
+  name: SmppServer
+  nameWithType: SmppServer
+  fullName: Inetlab.SMPP.SmppServer
+- uid: Inetlab.SMPP.SmppServerClient
+  commentId: T:Inetlab.SMPP.SmppServerClient
+  parent: Inetlab.SMPP
+  name: SmppServerClient
+  nameWithType: SmppServerClient
+  fullName: Inetlab.SMPP.SmppServerClient
+- uid: Inetlab.SMPP.SMS
+  commentId: T:Inetlab.SMPP.SMS
+  name: SMS
+  nameWithType: SMS
+  fullName: Inetlab.SMPP.SMS
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+shouldSkipMarkup: true

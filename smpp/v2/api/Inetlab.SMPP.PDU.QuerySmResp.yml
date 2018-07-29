@@ -1,0 +1,579 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.QuerySmResp
+  commentId: T:Inetlab.SMPP.PDU.QuerySmResp
+  id: QuerySmResp
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.QuerySmResp.#ctor
+  - Inetlab.SMPP.PDU.QuerySmResp.#ctor(Inetlab.SMPP.PDU.QuerySm)
+  - Inetlab.SMPP.PDU.QuerySmResp.#ctor(SmppHeader)
+  - Inetlab.SMPP.PDU.QuerySmResp.ErrorCode
+  - Inetlab.SMPP.PDU.QuerySmResp.FinalDate
+  - Inetlab.SMPP.PDU.QuerySmResp.FinalDateString
+  - Inetlab.SMPP.PDU.QuerySmResp.MessageId
+  - Inetlab.SMPP.PDU.QuerySmResp.MessageState
+  langs:
+  - csharp
+  - vb
+  name: QuerySmResp
+  nameWithType: QuerySmResp
+  fullName: Inetlab.SMPP.PDU.QuerySmResp
+  type: Class
+  source:
+    id: QuerySmResp
+    path: ''
+    startLine: 16004
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nRepresents the response to the query_sm_resp PDU. \n"
+  example: []
+  syntax:
+    content: 'public class QuerySmResp : SmppResponse<QuerySm>'
+    content.vb: >-
+      Public Class QuerySmResp
+          Inherits SmppResponse(Of QuerySm)
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.PDU.SmppPDU
+  - Inetlab.SMPP.PDU.SmppResponse
+  - Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.QuerySm}
+  inheritedMembers:
+  - Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.QuerySm}.Request
+  - Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+  - Inetlab.SMPP.PDU.SmppPDU.Header
+  - Inetlab.SMPP.PDU.SmppPDU.Client
+  - Inetlab.SMPP.PDU.SmppPDU.Tag
+  - Inetlab.SMPP.PDU.SmppPDU.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.PDU.QuerySmResp.MessageId
+  commentId: P:Inetlab.SMPP.PDU.QuerySmResp.MessageId
+  id: MessageId
+  parent: Inetlab.SMPP.PDU.QuerySmResp
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: QuerySmResp.MessageId
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.MessageId
+  type: Property
+  source:
+    id: MessageId
+    path: ''
+    startLine: 16006
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public string MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageId As String
+  overload: Inetlab.SMPP.PDU.QuerySmResp.MessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.QuerySmResp.FinalDateString
+  commentId: P:Inetlab.SMPP.PDU.QuerySmResp.FinalDateString
+  id: FinalDateString
+  parent: Inetlab.SMPP.PDU.QuerySmResp
+  langs:
+  - csharp
+  - vb
+  name: FinalDateString
+  nameWithType: QuerySmResp.FinalDateString
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.FinalDateString
+  type: Property
+  source:
+    id: FinalDateString
+    path: ''
+    startLine: 16008
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public string FinalDateString { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FinalDateString As String
+  overload: Inetlab.SMPP.PDU.QuerySmResp.FinalDateString*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.QuerySmResp.FinalDate
+  commentId: P:Inetlab.SMPP.PDU.QuerySmResp.FinalDate
+  id: FinalDate
+  parent: Inetlab.SMPP.PDU.QuerySmResp
+  langs:
+  - csharp
+  - vb
+  name: FinalDate
+  nameWithType: QuerySmResp.FinalDate
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.FinalDate
+  type: Property
+  source:
+    id: FinalDate
+    path: ''
+    startLine: 16010
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public DateTime FinalDate { get; }
+    parameters: []
+    return:
+      type: DateTime
+    content.vb: Public ReadOnly Property FinalDate As DateTime
+  overload: Inetlab.SMPP.PDU.QuerySmResp.FinalDate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.PDU.QuerySmResp.MessageState
+  commentId: P:Inetlab.SMPP.PDU.QuerySmResp.MessageState
+  id: MessageState
+  parent: Inetlab.SMPP.PDU.QuerySmResp
+  langs:
+  - csharp
+  - vb
+  name: MessageState
+  nameWithType: QuerySmResp.MessageState
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.MessageState
+  type: Property
+  source:
+    id: MessageState
+    path: ''
+    startLine: 16042
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public MessageState MessageState { get; set; }
+    parameters: []
+    return:
+      type: MessageState
+    content.vb: Public Property MessageState As MessageState
+  overload: Inetlab.SMPP.PDU.QuerySmResp.MessageState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.QuerySmResp.ErrorCode
+  commentId: P:Inetlab.SMPP.PDU.QuerySmResp.ErrorCode
+  id: ErrorCode
+  parent: Inetlab.SMPP.PDU.QuerySmResp
+  langs:
+  - csharp
+  - vb
+  name: ErrorCode
+  nameWithType: QuerySmResp.ErrorCode
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.ErrorCode
+  type: Property
+  source:
+    id: ErrorCode
+    path: ''
+    startLine: 16044
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public uint ErrorCode { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property ErrorCode As UInteger
+  overload: Inetlab.SMPP.PDU.QuerySmResp.ErrorCode*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.QuerySmResp.#ctor
+  commentId: M:Inetlab.SMPP.PDU.QuerySmResp.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.PDU.QuerySmResp
+  langs:
+  - csharp
+  - vb
+  name: QuerySmResp()
+  nameWithType: QuerySmResp.QuerySmResp()
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.QuerySmResp()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16047
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public QuerySmResp()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.PDU.QuerySmResp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.QuerySmResp.#ctor(Inetlab.SMPP.PDU.QuerySm)
+  commentId: M:Inetlab.SMPP.PDU.QuerySmResp.#ctor(Inetlab.SMPP.PDU.QuerySm)
+  id: '#ctor(Inetlab.SMPP.PDU.QuerySm)'
+  parent: Inetlab.SMPP.PDU.QuerySmResp
+  langs:
+  - csharp
+  - vb
+  name: QuerySmResp(QuerySm)
+  nameWithType: QuerySmResp.QuerySmResp(QuerySm)
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.QuerySmResp(Inetlab.SMPP.PDU.QuerySm)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16051
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public QuerySmResp(QuerySm req)
+    parameters:
+    - id: req
+      type: Inetlab.SMPP.PDU.QuerySm
+    content.vb: Public Sub New(req As QuerySm)
+  overload: Inetlab.SMPP.PDU.QuerySmResp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.QuerySmResp.#ctor(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.QuerySmResp.#ctor(SmppHeader)
+  id: '#ctor(SmppHeader)'
+  parent: Inetlab.SMPP.PDU.QuerySmResp
+  langs:
+  - csharp
+  - vb
+  name: QuerySmResp(SmppHeader)
+  nameWithType: QuerySmResp.QuerySmResp(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.QuerySmResp(SmppHeader)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16058
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public QuerySmResp(SmppHeader header)
+    parameters:
+    - id: header
+      type: SmppHeader
+    content.vb: Public Sub New(header As SmppHeader)
+  overload: Inetlab.SMPP.PDU.QuerySmResp.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU.SmppResponse
+  commentId: T:Inetlab.SMPP.PDU.SmppResponse
+  parent: Inetlab.SMPP.PDU
+  name: SmppResponse
+  nameWithType: SmppResponse
+  fullName: Inetlab.SMPP.PDU.SmppResponse
+- uid: Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.QuerySm}
+  commentId: T:Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.QuerySm}
+  parent: Inetlab.SMPP.PDU
+  definition: Inetlab.SMPP.PDU.SmppResponse`1
+  name: SmppResponse<QuerySm>
+  nameWithType: SmppResponse<QuerySm>
+  fullName: Inetlab.SMPP.PDU.SmppResponse<Inetlab.SMPP.PDU.QuerySm>
+  nameWithType.vb: SmppResponse(Of QuerySm)
+  fullName.vb: Inetlab.SMPP.PDU.SmppResponse(Of Inetlab.SMPP.PDU.QuerySm)
+  name.vb: SmppResponse(Of QuerySm)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.PDU.QuerySm
+    name: QuerySm
+    nameWithType: QuerySm
+    fullName: Inetlab.SMPP.PDU.QuerySm
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.PDU.QuerySm
+    name: QuerySm
+    nameWithType: QuerySm
+    fullName: Inetlab.SMPP.PDU.QuerySm
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.QuerySm}.Request
+  commentId: P:Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.QuerySm}.Request
+  parent: Inetlab.SMPP.PDU.SmppResponse{Inetlab.SMPP.PDU.QuerySm}
+  definition: Inetlab.SMPP.PDU.SmppResponse`1.Request
+  name: Request
+  nameWithType: SmppResponse<QuerySm>.Request
+  fullName: Inetlab.SMPP.PDU.SmppResponse<Inetlab.SMPP.PDU.QuerySm>.Request
+  nameWithType.vb: SmppResponse(Of QuerySm).Request
+  fullName.vb: Inetlab.SMPP.PDU.SmppResponse(Of Inetlab.SMPP.PDU.QuerySm).Request
+- uid: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+  commentId: M:Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+  parent: Inetlab.SMPP.PDU.SmppResponse
+  name: SetRequestForResponse(SmppResponse, SmppRequest)
+  nameWithType: SmppResponse.SetRequestForResponse(SmppResponse, SmppRequest)
+  fullName: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse, Inetlab.SMPP.PDU.SmppRequest)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+    name: SetRequestForResponse
+    nameWithType: SmppResponse.SetRequestForResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.PDU.SmppResponse
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Inetlab.SMPP.PDU.SmppRequest
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse(Inetlab.SMPP.PDU.SmppResponse,Inetlab.SMPP.PDU.SmppRequest)
+    name: SetRequestForResponse
+    nameWithType: SmppResponse.SetRequestForResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse.SetRequestForResponse
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Inetlab.SMPP.PDU.SmppResponse
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Inetlab.SMPP.PDU.SmppRequest
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppPDU.Header
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Header
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Header
+  nameWithType: SmppPDU.Header
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Header
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Client
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Tag
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+- uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+  commentId: M:Inetlab.SMPP.PDU.SmppPDU.ToString
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: ToString()
+  nameWithType: SmppPDU.ToString()
+  fullName: Inetlab.SMPP.PDU.SmppPDU.ToString()
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+    name: ToString
+    nameWithType: SmppPDU.ToString
+    fullName: Inetlab.SMPP.PDU.SmppPDU.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppPDU.ToString
+    name: ToString
+    nameWithType: SmppPDU.ToString
+    fullName: Inetlab.SMPP.PDU.SmppPDU.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.SmppResponse`1
+  commentId: T:Inetlab.SMPP.PDU.SmppResponse`1
+  name: SmppResponse<TRequest>
+  nameWithType: SmppResponse<TRequest>
+  fullName: Inetlab.SMPP.PDU.SmppResponse<TRequest>
+  nameWithType.vb: SmppResponse(Of TRequest)
+  fullName.vb: Inetlab.SMPP.PDU.SmppResponse(Of TRequest)
+  name.vb: SmppResponse(Of TRequest)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TRequest
+    nameWithType: TRequest
+    fullName: TRequest
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppResponse`1
+    name: SmppResponse
+    nameWithType: SmppResponse
+    fullName: Inetlab.SMPP.PDU.SmppResponse
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TRequest
+    nameWithType: TRequest
+    fullName: TRequest
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppResponse`1.Request
+  commentId: P:Inetlab.SMPP.PDU.SmppResponse`1.Request
+  name: Request
+  nameWithType: SmppResponse<TRequest>.Request
+  fullName: Inetlab.SMPP.PDU.SmppResponse<TRequest>.Request
+  nameWithType.vb: SmppResponse(Of TRequest).Request
+  fullName.vb: Inetlab.SMPP.PDU.SmppResponse(Of TRequest).Request
+- uid: Inetlab.SMPP.PDU.QuerySmResp.MessageId*
+  commentId: Overload:Inetlab.SMPP.PDU.QuerySmResp.MessageId
+  name: MessageId
+  nameWithType: QuerySmResp.MessageId
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.MessageId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.PDU.QuerySmResp.FinalDateString*
+  commentId: Overload:Inetlab.SMPP.PDU.QuerySmResp.FinalDateString
+  name: FinalDateString
+  nameWithType: QuerySmResp.FinalDateString
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.FinalDateString
+- uid: Inetlab.SMPP.PDU.QuerySmResp.FinalDate*
+  commentId: Overload:Inetlab.SMPP.PDU.QuerySmResp.FinalDate
+  name: FinalDate
+  nameWithType: QuerySmResp.FinalDate
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.FinalDate
+- uid: DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: DateTime
+- uid: Inetlab.SMPP.PDU.QuerySmResp.MessageState*
+  commentId: Overload:Inetlab.SMPP.PDU.QuerySmResp.MessageState
+  name: MessageState
+  nameWithType: QuerySmResp.MessageState
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.MessageState
+- uid: MessageState
+  commentId: '!:MessageState'
+  isExternal: true
+  name: MessageState
+  nameWithType: MessageState
+  fullName: MessageState
+- uid: Inetlab.SMPP.PDU.QuerySmResp.ErrorCode*
+  commentId: Overload:Inetlab.SMPP.PDU.QuerySmResp.ErrorCode
+  name: ErrorCode
+  nameWithType: QuerySmResp.ErrorCode
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.ErrorCode
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Inetlab.SMPP.PDU.QuerySmResp.#ctor*
+  commentId: Overload:Inetlab.SMPP.PDU.QuerySmResp.#ctor
+  name: QuerySmResp
+  nameWithType: QuerySmResp.QuerySmResp
+  fullName: Inetlab.SMPP.PDU.QuerySmResp.QuerySmResp
+- uid: Inetlab.SMPP.PDU.QuerySm
+  commentId: T:Inetlab.SMPP.PDU.QuerySm
+  parent: Inetlab.SMPP.PDU
+  name: QuerySm
+  nameWithType: QuerySm
+  fullName: Inetlab.SMPP.PDU.QuerySm
+- uid: SmppHeader
+  isExternal: true
+  name: SmppHeader
+  nameWithType: SmppHeader
+  fullName: SmppHeader
+shouldSkipMarkup: true

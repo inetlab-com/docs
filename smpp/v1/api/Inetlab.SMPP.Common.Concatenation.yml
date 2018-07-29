@@ -1,0 +1,305 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Concatenation
+  commentId: T:Inetlab.SMPP.Common.Concatenation
+  id: Concatenation
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.Concatenation.#ctor(System.UInt16,System.Byte,System.Byte)
+  - Inetlab.SMPP.Common.Concatenation.ReferenceNumber
+  - Inetlab.SMPP.Common.Concatenation.SequenceNumber
+  - Inetlab.SMPP.Common.Concatenation.ToString
+  - Inetlab.SMPP.Common.Concatenation.Total
+  langs:
+  - csharp
+  - vb
+  name: Concatenation
+  nameWithType: Concatenation
+  fullName: Inetlab.SMPP.Common.Concatenation
+  type: Class
+  source:
+    id: Concatenation
+    path: ''
+    startLine: 3842
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nRepresents concatenation parameters\n"
+  example: []
+  syntax:
+    content: public class Concatenation
+    content.vb: Public Class Concatenation
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.Concatenation.#ctor(System.UInt16,System.Byte,System.Byte)
+  commentId: M:Inetlab.SMPP.Common.Concatenation.#ctor(System.UInt16,System.Byte,System.Byte)
+  id: '#ctor(System.UInt16,System.Byte,System.Byte)'
+  parent: Inetlab.SMPP.Common.Concatenation
+  langs:
+  - csharp
+  - vb
+  name: Concatenation(UInt16, Byte, Byte)
+  nameWithType: Concatenation.Concatenation(UInt16, Byte, Byte)
+  fullName: Inetlab.SMPP.Common.Concatenation.Concatenation(System.UInt16, System.Byte, System.Byte)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3844
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public Concatenation(ushort referenceNumber, byte total, byte sequenceNumber)
+    parameters:
+    - id: referenceNumber
+      type: System.UInt16
+    - id: total
+      type: System.Byte
+    - id: sequenceNumber
+      type: System.Byte
+    content.vb: Public Sub New(referenceNumber As UShort, total As Byte, sequenceNumber As Byte)
+  overload: Inetlab.SMPP.Common.Concatenation.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Concatenation.ReferenceNumber
+  commentId: P:Inetlab.SMPP.Common.Concatenation.ReferenceNumber
+  id: ReferenceNumber
+  parent: Inetlab.SMPP.Common.Concatenation
+  langs:
+  - csharp
+  - vb
+  name: ReferenceNumber
+  nameWithType: Concatenation.ReferenceNumber
+  fullName: Inetlab.SMPP.Common.Concatenation.ReferenceNumber
+  type: Property
+  source:
+    id: ReferenceNumber
+    path: ''
+    startLine: 3854
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nConcatenated short message reference number.\n"
+  example: []
+  syntax:
+    content: public ushort ReferenceNumber { get; set; }
+    parameters: []
+    return:
+      type: System.UInt16
+    content.vb: Public Property ReferenceNumber As UShort
+  overload: Inetlab.SMPP.Common.Concatenation.ReferenceNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Concatenation.Total
+  commentId: P:Inetlab.SMPP.Common.Concatenation.Total
+  id: Total
+  parent: Inetlab.SMPP.Common.Concatenation
+  langs:
+  - csharp
+  - vb
+  name: Total
+  nameWithType: Concatenation.Total
+  fullName: Inetlab.SMPP.Common.Concatenation.Total
+  type: Property
+  source:
+    id: Total
+    path: ''
+    startLine: 3860
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMaximum number of short messages in the concatenated short message.\n"
+  example: []
+  syntax:
+    content: public byte Total { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property Total As Byte
+  overload: Inetlab.SMPP.Common.Concatenation.Total*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Concatenation.SequenceNumber
+  commentId: P:Inetlab.SMPP.Common.Concatenation.SequenceNumber
+  id: SequenceNumber
+  parent: Inetlab.SMPP.Common.Concatenation
+  langs:
+  - csharp
+  - vb
+  name: SequenceNumber
+  nameWithType: Concatenation.SequenceNumber
+  fullName: Inetlab.SMPP.Common.Concatenation.SequenceNumber
+  type: Property
+  source:
+    id: SequenceNumber
+    path: ''
+    startLine: 3866
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSequence number of the current short message.\n"
+  example: []
+  syntax:
+    content: public byte SequenceNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property SequenceNumber As Byte
+  overload: Inetlab.SMPP.Common.Concatenation.SequenceNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Concatenation.ToString
+  commentId: M:Inetlab.SMPP.Common.Concatenation.ToString
+  id: ToString
+  parent: Inetlab.SMPP.Common.Concatenation
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: Concatenation.ToString()
+  fullName: Inetlab.SMPP.Common.Concatenation.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 3868
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Inetlab.SMPP.Common.Concatenation.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.Concatenation.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.Concatenation.#ctor
+  isExternal: false
+  name: Concatenation
+  nameWithType: Concatenation.Concatenation
+  fullName: Inetlab.SMPP.Common.Concatenation.Concatenation
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Inetlab.SMPP.Common.Concatenation.ReferenceNumber*
+  commentId: Overload:Inetlab.SMPP.Common.Concatenation.ReferenceNumber
+  isExternal: false
+  name: ReferenceNumber
+  nameWithType: Concatenation.ReferenceNumber
+  fullName: Inetlab.SMPP.Common.Concatenation.ReferenceNumber
+- uid: Inetlab.SMPP.Common.Concatenation.Total*
+  commentId: Overload:Inetlab.SMPP.Common.Concatenation.Total
+  isExternal: false
+  name: Total
+  nameWithType: Concatenation.Total
+  fullName: Inetlab.SMPP.Common.Concatenation.Total
+- uid: Inetlab.SMPP.Common.Concatenation.SequenceNumber*
+  commentId: Overload:Inetlab.SMPP.Common.Concatenation.SequenceNumber
+  isExternal: false
+  name: SequenceNumber
+  nameWithType: Concatenation.SequenceNumber
+  fullName: Inetlab.SMPP.Common.Concatenation.SequenceNumber
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common.Concatenation.ToString*
+  commentId: Overload:Inetlab.SMPP.Common.Concatenation.ToString
+  isExternal: false
+  name: ToString
+  nameWithType: Concatenation.ToString
+  fullName: Inetlab.SMPP.Common.Concatenation.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

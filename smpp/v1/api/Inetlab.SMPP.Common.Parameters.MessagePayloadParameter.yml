@@ -1,0 +1,136 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter
+  commentId: T:Inetlab.SMPP.Common.Parameters.MessagePayloadParameter
+  id: MessagePayloadParameter
+  parent: Inetlab.SMPP.Common.Parameters
+  children:
+  - Inetlab.SMPP.Common.Parameters.MessagePayloadParameter.Value
+  langs:
+  - csharp
+  - vb
+  name: MessagePayloadParameter
+  nameWithType: MessagePayloadParameter
+  fullName: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter
+  type: Class
+  source:
+    id: MessagePayloadParameter
+    path: ''
+    startLine: 12128
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Parameters
+  syntax:
+    content: 'public class MessagePayloadParameter : OptionalParameter'
+    content.vb: >-
+      Public Class MessagePayloadParameter
+          Inherits OptionalParameter
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.Common.Parameters.OptionalParameter
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter.Value
+  commentId: P:Inetlab.SMPP.Common.Parameters.MessagePayloadParameter.Value
+  id: Value
+  parent: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: MessagePayloadParameter.Value
+  fullName: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter.Value
+  type: Property
+  source:
+    id: Value
+    path: ''
+    startLine: 12130
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Parameters
+  syntax:
+    content: public override byte[] Value { get; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overrides ReadOnly Property Value As Byte()
+  overridden: Inetlab.SMPP.Common.Parameters.OptionalParameter.Value
+  overload: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter.Value*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: Inetlab.SMPP.Common.Parameters
+  commentId: N:Inetlab.SMPP.Common.Parameters
+  isExternal: false
+  name: Inetlab.SMPP.Common.Parameters
+  nameWithType: Inetlab.SMPP.Common.Parameters
+  fullName: Inetlab.SMPP.Common.Parameters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.Parameters.OptionalParameter
+  commentId: T:Inetlab.SMPP.Common.Parameters.OptionalParameter
+  parent: Inetlab.SMPP.Common.Parameters
+  isExternal: false
+  name: OptionalParameter
+  nameWithType: OptionalParameter
+  fullName: Inetlab.SMPP.Common.Parameters.OptionalParameter
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.Parameters.OptionalParameter.Value
+  commentId: P:Inetlab.SMPP.Common.Parameters.OptionalParameter.Value
+  parent: Inetlab.SMPP.Common.Parameters.OptionalParameter
+  isExternal: false
+  name: Value
+  nameWithType: OptionalParameter.Value
+  fullName: Inetlab.SMPP.Common.Parameters.OptionalParameter.Value
+- uid: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter.Value*
+  commentId: Overload:Inetlab.SMPP.Common.Parameters.MessagePayloadParameter.Value
+  isExternal: false
+  name: Value
+  nameWithType: MessagePayloadParameter.Value
+  fullName: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter.Value
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+shouldSkipMarkup: true

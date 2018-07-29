@@ -1,0 +1,368 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SmppHeader
+  commentId: T:Inetlab.SMPP.Common.SmppHeader
+  id: SmppHeader
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SmppHeader.#ctor(Inetlab.SMPP.Common.CommandSet)
+  - Inetlab.SMPP.Common.SmppHeader.#ctor(Inetlab.SMPP.Common.CommandSet,Inetlab.SMPP.Common.CommandStatus,System.UInt32)
+  - Inetlab.SMPP.Common.SmppHeader.#ctor(Inetlab.SMPP.Common.SmppHeader)
+  - Inetlab.SMPP.Common.SmppHeader.Command
+  - Inetlab.SMPP.Common.SmppHeader.Sequence
+  - Inetlab.SMPP.Common.SmppHeader.Status
+  - Inetlab.SMPP.Common.SmppHeader.ToString
+  langs:
+  - csharp
+  - vb
+  name: SmppHeader
+  nameWithType: SmppHeader
+  fullName: Inetlab.SMPP.Common.SmppHeader
+  type: Class
+  source:
+    id: SmppHeader
+    path: ''
+    startLine: 8992
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public class SmppHeader
+    content.vb: Public Class SmppHeader
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.SmppHeader.Command
+  commentId: P:Inetlab.SMPP.Common.SmppHeader.Command
+  id: Command
+  parent: Inetlab.SMPP.Common.SmppHeader
+  langs:
+  - csharp
+  - vb
+  name: Command
+  nameWithType: SmppHeader.Command
+  fullName: Inetlab.SMPP.Common.SmppHeader.Command
+  type: Property
+  source:
+    id: Command
+    path: ''
+    startLine: 8998
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGets or sets type of message the SMPP PDU represents.\n"
+  example: []
+  syntax:
+    content: public CommandSet Command { get; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: Public ReadOnly Property Command As CommandSet
+  overload: Inetlab.SMPP.Common.SmppHeader.Command*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.SmppHeader.Status
+  commentId: P:Inetlab.SMPP.Common.SmppHeader.Status
+  id: Status
+  parent: Inetlab.SMPP.Common.SmppHeader
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SmppHeader.Status
+  fullName: Inetlab.SMPP.Common.SmppHeader.Status
+  type: Property
+  source:
+    id: Status
+    path: ''
+    startLine: 9002
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIndicates the success or failure of an SMPP request.\n"
+  example: []
+  syntax:
+    content: public CommandStatus Status { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: Public Property Status As CommandStatus
+  overload: Inetlab.SMPP.Common.SmppHeader.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppHeader.Sequence
+  commentId: P:Inetlab.SMPP.Common.SmppHeader.Sequence
+  id: Sequence
+  parent: Inetlab.SMPP.Common.SmppHeader
+  langs:
+  - csharp
+  - vb
+  name: Sequence
+  nameWithType: SmppHeader.Sequence
+  fullName: Inetlab.SMPP.Common.SmppHeader.Sequence
+  type: Property
+  source:
+    id: Sequence
+    path: ''
+    startLine: 9006
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUnique sequence number. A sequence number allows a response PDU to be correlated with a request PDU.\n"
+  example: []
+  syntax:
+    content: public uint Sequence { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Sequence As UInteger
+  overload: Inetlab.SMPP.Common.SmppHeader.Sequence*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppHeader.#ctor(Inetlab.SMPP.Common.CommandSet,Inetlab.SMPP.Common.CommandStatus,System.UInt32)
+  commentId: M:Inetlab.SMPP.Common.SmppHeader.#ctor(Inetlab.SMPP.Common.CommandSet,Inetlab.SMPP.Common.CommandStatus,System.UInt32)
+  id: '#ctor(Inetlab.SMPP.Common.CommandSet,Inetlab.SMPP.Common.CommandStatus,System.UInt32)'
+  parent: Inetlab.SMPP.Common.SmppHeader
+  langs:
+  - csharp
+  - vb
+  name: SmppHeader(CommandSet, CommandStatus, UInt32)
+  nameWithType: SmppHeader.SmppHeader(CommandSet, CommandStatus, UInt32)
+  fullName: Inetlab.SMPP.Common.SmppHeader.SmppHeader(Inetlab.SMPP.Common.CommandSet, Inetlab.SMPP.Common.CommandStatus, System.UInt32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9008
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppHeader(CommandSet command, CommandStatus status, uint sequence)
+    parameters:
+    - id: command
+      type: Inetlab.SMPP.Common.CommandSet
+    - id: status
+      type: Inetlab.SMPP.Common.CommandStatus
+    - id: sequence
+      type: System.UInt32
+    content.vb: Public Sub New(command As CommandSet, status As CommandStatus, sequence As UInteger)
+  overload: Inetlab.SMPP.Common.SmppHeader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppHeader.#ctor(Inetlab.SMPP.Common.CommandSet)
+  commentId: M:Inetlab.SMPP.Common.SmppHeader.#ctor(Inetlab.SMPP.Common.CommandSet)
+  id: '#ctor(Inetlab.SMPP.Common.CommandSet)'
+  parent: Inetlab.SMPP.Common.SmppHeader
+  langs:
+  - csharp
+  - vb
+  name: SmppHeader(CommandSet)
+  nameWithType: SmppHeader.SmppHeader(CommandSet)
+  fullName: Inetlab.SMPP.Common.SmppHeader.SmppHeader(Inetlab.SMPP.Common.CommandSet)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9016
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppHeader(CommandSet command)
+    parameters:
+    - id: command
+      type: Inetlab.SMPP.Common.CommandSet
+    content.vb: Public Sub New(command As CommandSet)
+  overload: Inetlab.SMPP.Common.SmppHeader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppHeader.#ctor(Inetlab.SMPP.Common.SmppHeader)
+  commentId: M:Inetlab.SMPP.Common.SmppHeader.#ctor(Inetlab.SMPP.Common.SmppHeader)
+  id: '#ctor(Inetlab.SMPP.Common.SmppHeader)'
+  parent: Inetlab.SMPP.Common.SmppHeader
+  langs:
+  - csharp
+  - vb
+  name: SmppHeader(SmppHeader)
+  nameWithType: SmppHeader.SmppHeader(SmppHeader)
+  fullName: Inetlab.SMPP.Common.SmppHeader.SmppHeader(Inetlab.SMPP.Common.SmppHeader)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 9023
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppHeader(SmppHeader requestHeader)
+    parameters:
+    - id: requestHeader
+      type: Inetlab.SMPP.Common.SmppHeader
+    content.vb: Public Sub New(requestHeader As SmppHeader)
+  overload: Inetlab.SMPP.Common.SmppHeader.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppHeader.ToString
+  commentId: M:Inetlab.SMPP.Common.SmppHeader.ToString
+  id: ToString
+  parent: Inetlab.SMPP.Common.SmppHeader
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SmppHeader.ToString()
+  fullName: Inetlab.SMPP.Common.SmppHeader.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 9030
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Inetlab.SMPP.Common.SmppHeader.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.SmppHeader.Command*
+  commentId: Overload:Inetlab.SMPP.Common.SmppHeader.Command
+  name: Command
+  nameWithType: SmppHeader.Command
+  fullName: Inetlab.SMPP.Common.SmppHeader.Command
+- uid: Inetlab.SMPP.Common.CommandSet
+  commentId: T:Inetlab.SMPP.Common.CommandSet
+  parent: Inetlab.SMPP.Common
+  name: CommandSet
+  nameWithType: CommandSet
+  fullName: Inetlab.SMPP.Common.CommandSet
+- uid: Inetlab.SMPP.Common.SmppHeader.Status*
+  commentId: Overload:Inetlab.SMPP.Common.SmppHeader.Status
+  name: Status
+  nameWithType: SmppHeader.Status
+  fullName: Inetlab.SMPP.Common.SmppHeader.Status
+- uid: Inetlab.SMPP.Common.CommandStatus
+  commentId: T:Inetlab.SMPP.Common.CommandStatus
+  parent: Inetlab.SMPP.Common
+  name: CommandStatus
+  nameWithType: CommandStatus
+  fullName: Inetlab.SMPP.Common.CommandStatus
+- uid: Inetlab.SMPP.Common.SmppHeader.Sequence*
+  commentId: Overload:Inetlab.SMPP.Common.SmppHeader.Sequence
+  name: Sequence
+  nameWithType: SmppHeader.Sequence
+  fullName: Inetlab.SMPP.Common.SmppHeader.Sequence
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Inetlab.SMPP.Common.SmppHeader.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.SmppHeader.#ctor
+  name: SmppHeader
+  nameWithType: SmppHeader.SmppHeader
+  fullName: Inetlab.SMPP.Common.SmppHeader.SmppHeader
+- uid: Inetlab.SMPP.Common.SmppHeader
+  commentId: T:Inetlab.SMPP.Common.SmppHeader
+  parent: Inetlab.SMPP.Common
+  name: SmppHeader
+  nameWithType: SmppHeader
+  fullName: Inetlab.SMPP.Common.SmppHeader
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common.SmppHeader.ToString*
+  commentId: Overload:Inetlab.SMPP.Common.SmppHeader.ToString
+  name: ToString
+  nameWithType: SmppHeader.ToString
+  fullName: Inetlab.SMPP.Common.SmppHeader.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

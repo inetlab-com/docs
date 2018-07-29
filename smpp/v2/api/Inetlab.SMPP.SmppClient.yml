@@ -1,0 +1,2459 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.SmppClient
+  commentId: T:Inetlab.SMPP.SmppClient
+  id: SmppClient
+  parent: Inetlab.SMPP
+  children:
+  - Inetlab.SMPP.SmppClient.#ctor
+  - Inetlab.SMPP.SmppClient.Bind(Bind)
+  - Inetlab.SMPP.SmppClient.Bind(System.String,System.String)
+  - Inetlab.SMPP.SmppClient.Bind(System.String,System.String,ConnectionMode)
+  - Inetlab.SMPP.SmppClient.Cancel(CancelSm)
+  - Inetlab.SMPP.SmppClient.Cancel(SmeAddress)
+  - Inetlab.SMPP.SmppClient.Cancel(System.String,System.String)
+  - Inetlab.SMPP.SmppClient.ClientCertificates
+  - Inetlab.SMPP.SmppClient.Connect(EndPoint)
+  - Inetlab.SMPP.SmppClient.Connect(System.String,System.Int32)
+  - Inetlab.SMPP.SmppClient.ConnectionRecovery
+  - Inetlab.SMPP.SmppClient.ConnectionRecoveryDelay
+  - Inetlab.SMPP.SmppClient.Disconnect
+  - Inetlab.SMPP.SmppClient.Dispose(System.Boolean)
+  - Inetlab.SMPP.SmppClient.EnabledSslProtocols
+  - Inetlab.SMPP.SmppClient.evAlertNotification
+  - Inetlab.SMPP.SmppClient.evDeliverSm
+  - Inetlab.SMPP.SmppClient.evRecoverySucceeded
+  - Inetlab.SMPP.SmppClient.evServerCertificateValidation
+  - Inetlab.SMPP.SmppClient.ForceDisconnect
+  - Inetlab.SMPP.SmppClient.Query(QuerySm)
+  - Inetlab.SMPP.SmppClient.Query(System.String,SmeAddress)
+  - Inetlab.SMPP.SmppClient.Replace(ReplaceSm)
+  - Inetlab.SMPP.SmppClient.Submit(IBuilder{SubmitMulti})
+  - Inetlab.SMPP.SmppClient.Submit(IBuilder{SubmitSm})
+  - Inetlab.SMPP.SmppClient.Submit(SubmitMulti)
+  - Inetlab.SMPP.SmppClient.Submit(SubmitMulti[])
+  - Inetlab.SMPP.SmppClient.Submit(SubmitSm)
+  - Inetlab.SMPP.SmppClient.Submit(SubmitSm[])
+  langs:
+  - csharp
+  - vb
+  name: SmppClient
+  nameWithType: SmppClient
+  fullName: Inetlab.SMPP.SmppClient
+  type: Class
+  source:
+    id: SmppClient
+    path: ''
+    startLine: 155
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nSMPP protocol client class for connection with an SMSC over a TCP/IP \nand for sending or receiving short messages to and from the SMSC. \n"
+  example: []
+  syntax:
+    content: 'public class SmppClient : SmppClientBase'
+    content.vb: >-
+      Public Class SmppClient
+          Inherits SmppClientBase
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.SmppClientBase
+  inheritedMembers:
+  - Inetlab.SMPP.SmppClientBase.Logger
+  - Inetlab.SMPP.SmppClientBase.Name
+  - Inetlab.SMPP.SmppClientBase.Queue
+  - Inetlab.SMPP.SmppClientBase.RemoteEndPoint
+  - Inetlab.SMPP.SmppClientBase.LocalEndPoint
+  - Inetlab.SMPP.SmppClientBase.Proxy
+  - Inetlab.SMPP.SmppClientBase.SystemID
+  - Inetlab.SMPP.SmppClientBase.SystemType
+  - Inetlab.SMPP.SmppClientBase.EsmeAddress
+  - Inetlab.SMPP.SmppClientBase.SendSpeedLimit
+  - Inetlab.SMPP.SmppClientBase.WorkerThreads
+  - Inetlab.SMPP.SmppClientBase.ReceivedRequestQueueLimit
+  - Inetlab.SMPP.SmppClientBase.SendQueueLimit
+  - Inetlab.SMPP.SmppClientBase.SequenceGenerator
+  - Inetlab.SMPP.SmppClientBase.EncodingMapper
+  - Inetlab.SMPP.SmppClientBase.EnquireLinkInterval
+  - Inetlab.SMPP.SmppClientBase.ResponseTimeout
+  - Inetlab.SMPP.SmppClientBase.Status
+  - Inetlab.SMPP.SmppClientBase.evEnquireLink
+  - Inetlab.SMPP.SmppClientBase.evUnBind
+  - Inetlab.SMPP.SmppClientBase.evDataSm
+  - Inetlab.SMPP.SmppClientBase.evConnected
+  - Inetlab.SMPP.SmppClientBase.evDisconnected
+  - Inetlab.SMPP.SmppClientBase.evPduReceiving
+  - Inetlab.SMPP.SmppClientBase.evPduSending
+  - Inetlab.SMPP.SmppClientBase.OnPduSending(SmppPDU)
+  - Inetlab.SMPP.SmppClientBase.OnPduReceiving(SmppPDU)
+  - Inetlab.SMPP.SmppClientBase.Dispose
+  - Inetlab.SMPP.SmppClientBase.EnquireLink
+  - Inetlab.SMPP.SmppClientBase.EnquireLink(EnquireLink)
+  - Inetlab.SMPP.SmppClientBase.UnBind
+  - Inetlab.SMPP.SmppClientBase.SubmitData(DataSm)
+  - Inetlab.SMPP.SmppClientBase.Submit(DataSm[])
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.SmppClient.EnabledSslProtocols
+  commentId: P:Inetlab.SMPP.SmppClient.EnabledSslProtocols
+  id: EnabledSslProtocols
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: EnabledSslProtocols
+  nameWithType: SmppClient.EnabledSslProtocols
+  fullName: Inetlab.SMPP.SmppClient.EnabledSslProtocols
+  type: Property
+  source:
+    id: EnabledSslProtocols
+    path: ''
+    startLine: 162
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nDefines enabled versions of SSL Protocols for SMPP client. \n"
+  example: []
+  syntax:
+    content: public SslProtocols EnabledSslProtocols { get; set; }
+    parameters: []
+    return:
+      type: SslProtocols
+    content.vb: Public Property EnabledSslProtocols As SslProtocols
+  overload: Inetlab.SMPP.SmppClient.EnabledSslProtocols*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.ClientCertificates
+  commentId: P:Inetlab.SMPP.SmppClient.ClientCertificates
+  id: ClientCertificates
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: ClientCertificates
+  nameWithType: SmppClient.ClientCertificates
+  fullName: Inetlab.SMPP.SmppClient.ClientCertificates
+  type: Property
+  source:
+    id: ClientCertificates
+    path: ''
+    startLine: 175
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nDefines collection of Client Certificates\n"
+  example: []
+  syntax:
+    content: public X509CertificateCollection ClientCertificates { get; set; }
+    parameters: []
+    return:
+      type: X509CertificateCollection
+    content.vb: Public Property ClientCertificates As X509CertificateCollection
+  overload: Inetlab.SMPP.SmppClient.ClientCertificates*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.ConnectionRecovery
+  commentId: P:Inetlab.SMPP.SmppClient.ConnectionRecovery
+  id: ConnectionRecovery
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: ConnectionRecovery
+  nameWithType: SmppClient.ConnectionRecovery
+  fullName: Inetlab.SMPP.SmppClient.ConnectionRecovery
+  type: Property
+  source:
+    id: ConnectionRecovery
+    path: ''
+    startLine: 185
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public bool ConnectionRecovery { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ConnectionRecovery As Boolean
+  overload: Inetlab.SMPP.SmppClient.ConnectionRecovery*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.ConnectionRecoveryDelay
+  commentId: P:Inetlab.SMPP.SmppClient.ConnectionRecoveryDelay
+  id: ConnectionRecoveryDelay
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: ConnectionRecoveryDelay
+  nameWithType: SmppClient.ConnectionRecoveryDelay
+  fullName: Inetlab.SMPP.SmppClient.ConnectionRecoveryDelay
+  type: Property
+  source:
+    id: ConnectionRecoveryDelay
+    path: ''
+    startLine: 186
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public TimeSpan ConnectionRecoveryDelay { get; set; }
+    parameters: []
+    return:
+      type: TimeSpan
+    content.vb: Public Property ConnectionRecoveryDelay As TimeSpan
+  overload: Inetlab.SMPP.SmppClient.ConnectionRecoveryDelay*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.#ctor
+  commentId: M:Inetlab.SMPP.SmppClient.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: SmppClient()
+  nameWithType: SmppClient.SmppClient()
+  fullName: Inetlab.SMPP.SmppClient.SmppClient()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 190
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  example: []
+  syntax:
+    content: public SmppClient()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.SmppClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Connect(EndPoint)
+  commentId: M:Inetlab.SMPP.SmppClient.Connect(EndPoint)
+  id: Connect(EndPoint)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Connect(EndPoint)
+  nameWithType: SmppClient.Connect(EndPoint)
+  fullName: Inetlab.SMPP.SmppClient.Connect(EndPoint)
+  type: Method
+  source:
+    id: Connect
+    path: ''
+    startLine: 222
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nConnect to SMSC using EndPoint instance\n"
+  example: []
+  syntax:
+    content: public Task<bool> Connect(EndPoint endPoint)
+    parameters:
+    - id: endPoint
+      type: EndPoint
+      description: <see cref="!:EndPoint"></see> instance. Can be <see cref="!:IPEndPoint"></see> or <see cref="!:DnsEndPoint"></see>
+    return:
+      type: Task{System.Boolean}
+    content.vb: Public Function Connect(endPoint As EndPoint) As Task(Of Boolean)
+  overload: Inetlab.SMPP.SmppClient.Connect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Connect(System.String,System.Int32)
+  commentId: M:Inetlab.SMPP.SmppClient.Connect(System.String,System.Int32)
+  id: Connect(System.String,System.Int32)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Connect(String, Int32)
+  nameWithType: SmppClient.Connect(String, Int32)
+  fullName: Inetlab.SMPP.SmppClient.Connect(System.String, System.Int32)
+  type: Method
+  source:
+    id: Connect
+    path: ''
+    startLine: 234
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nConnect to SMPP server using hostname and port number.\n"
+  example: []
+  syntax:
+    content: public Task<bool> Connect(string host, int port)
+    parameters:
+    - id: host
+      type: System.String
+      description: SMPP server hostname
+    - id: port
+      type: System.Int32
+      description: SMPP port
+    return:
+      type: Task{System.Boolean}
+    content.vb: Public Function Connect(host As String, port As Integer) As Task(Of Boolean)
+  overload: Inetlab.SMPP.SmppClient.Connect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Dispose(System.Boolean)
+  commentId: M:Inetlab.SMPP.SmppClient.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Dispose(Boolean)
+  nameWithType: SmppClient.Dispose(Boolean)
+  fullName: Inetlab.SMPP.SmppClient.Dispose(System.Boolean)
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 245
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nReleases resources used by the Inetlab.SMPP.SmppClient.\n"
+  example: []
+  syntax:
+    content: protected override void Dispose(bool disposing)
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: "True to release both managed and unmanaged resources; false to\n                        release only unmanaged resources. "
+    content.vb: Protected Overrides Sub Dispose(disposing As Boolean)
+  overridden: Inetlab.SMPP.SmppClientBase.Dispose(System.Boolean)
+  overload: Inetlab.SMPP.SmppClient.Dispose*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Inetlab.SMPP.SmppClient.Bind(System.String,System.String)
+  commentId: M:Inetlab.SMPP.SmppClient.Bind(System.String,System.String)
+  id: Bind(System.String,System.String)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Bind(String, String)
+  nameWithType: SmppClient.Bind(String, String)
+  fullName: Inetlab.SMPP.SmppClient.Bind(System.String, System.String)
+  type: Method
+  source:
+    id: Bind
+    path: ''
+    startLine: 264
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: 'Sends Bind PDU to SMPP Server. Performs authorization on the server. '
+  example: []
+  syntax:
+    content: public Task<BindResp> Bind(string systemId, string password)
+    parameters:
+    - id: systemId
+      type: System.String
+      description: 'Identifier for the system. '
+    - id: password
+      type: System.String
+      description: 'The password. '
+    return:
+      type: Task{BindResp}
+      description: 'An asynchronous result that yields a BindResp. '
+    content.vb: Public Function Bind(systemId As String, password As String) As Task(Of BindResp)
+  overload: Inetlab.SMPP.SmppClient.Bind*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Bind(System.String,System.String,ConnectionMode)
+  commentId: M:Inetlab.SMPP.SmppClient.Bind(System.String,System.String,ConnectionMode)
+  id: Bind(System.String,System.String,ConnectionMode)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Bind(String, String, ConnectionMode)
+  nameWithType: SmppClient.Bind(String, String, ConnectionMode)
+  fullName: Inetlab.SMPP.SmppClient.Bind(System.String, System.String, ConnectionMode)
+  type: Method
+  source:
+    id: Bind
+    path: ''
+    startLine: 277
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: 'Sends Bind PDU to SMPP Server. Performs authorization on the server. '
+  example: []
+  syntax:
+    content: public Task<BindResp> Bind(string systemId, string password, ConnectionMode mode)
+    parameters:
+    - id: systemId
+      type: System.String
+      description: 'Identifier for the system. '
+    - id: password
+      type: System.String
+      description: 'The password. '
+    - id: mode
+      type: ConnectionMode
+      description: 'The mode. '
+    return:
+      type: Task{BindResp}
+      description: 'An asynchronous result that yields a BindResp. '
+    content.vb: Public Function Bind(systemId As String, password As String, mode As ConnectionMode) As Task(Of BindResp)
+  overload: Inetlab.SMPP.SmppClient.Bind*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Bind(Bind)
+  commentId: M:Inetlab.SMPP.SmppClient.Bind(Bind)
+  id: Bind(Bind)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Bind(Bind)
+  nameWithType: SmppClient.Bind(Bind)
+  fullName: Inetlab.SMPP.SmppClient.Bind(Bind)
+  type: Method
+  source:
+    id: Bind
+    path: ''
+    startLine: 308
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: 'Sends Bind PDU to SMPP Server. Performs authorization on the server. '
+  example: []
+  syntax:
+    content: public Task<BindResp> Bind(Bind pdu)
+    parameters:
+    - id: pdu
+      type: Bind
+      description: 'The PDU. '
+    return:
+      type: Task{BindResp}
+      description: 'An asynchronous result that yields a BindResp. '
+    content.vb: Public Function Bind(pdu As Bind) As Task(Of BindResp)
+  overload: Inetlab.SMPP.SmppClient.Bind*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Submit(IBuilder{SubmitSm})
+  commentId: M:Inetlab.SMPP.SmppClient.Submit(IBuilder{SubmitSm})
+  id: Submit(IBuilder{SubmitSm})
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Submit(IBuilder<SubmitSm>)
+  nameWithType: SmppClient.Submit(IBuilder<SubmitSm>)
+  fullName: Inetlab.SMPP.SmppClient.Submit(IBuilder<SubmitSm>)
+  type: Method
+  source:
+    id: Submit
+    path: ''
+    startLine: 343
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nSubmits an array of SubmitSm messages from SMS builder.\n"
+  example: []
+  syntax:
+    content: public Task<SubmitSmResp[]> Submit(IBuilder<SubmitSm> builder)
+    parameters:
+    - id: builder
+      type: IBuilder{SubmitSm}
+    return:
+      type: Task{SubmitSmResp[]}
+    content.vb: Public Function Submit(builder As IBuilder(Of SubmitSm)) As Task(Of SubmitSmResp())
+  overload: Inetlab.SMPP.SmppClient.Submit*
+  nameWithType.vb: SmppClient.Submit(IBuilder(Of SubmitSm))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.SmppClient.Submit(IBuilder(Of SubmitSm))
+  name.vb: Submit(IBuilder(Of SubmitSm))
+- uid: Inetlab.SMPP.SmppClient.Submit(SubmitSm[])
+  commentId: M:Inetlab.SMPP.SmppClient.Submit(SubmitSm[])
+  id: Submit(SubmitSm[])
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Submit(SubmitSm[])
+  nameWithType: SmppClient.Submit(SubmitSm[])
+  fullName: Inetlab.SMPP.SmppClient.Submit(SubmitSm[])
+  type: Method
+  source:
+    id: Submit
+    path: ''
+    startLine: 351
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nSubmits an array of SubmitSm messages to the SMSC.\n"
+  example: []
+  syntax:
+    content: public Task<SubmitSmResp[]> Submit(params SubmitSm[] pduList)
+    parameters:
+    - id: pduList
+      type: SubmitSm[]
+    return:
+      type: Task{SubmitSmResp[]}
+    content.vb: Public Function Submit(ParamArray pduList As SubmitSm()) As Task(Of SubmitSmResp())
+  overload: Inetlab.SMPP.SmppClient.Submit*
+  nameWithType.vb: SmppClient.Submit(SubmitSm())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.SmppClient.Submit(SubmitSm())
+  name.vb: Submit(SubmitSm())
+- uid: Inetlab.SMPP.SmppClient.Submit(SubmitSm)
+  commentId: M:Inetlab.SMPP.SmppClient.Submit(SubmitSm)
+  id: Submit(SubmitSm)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Submit(SubmitSm)
+  nameWithType: SmppClient.Submit(SubmitSm)
+  fullName: Inetlab.SMPP.SmppClient.Submit(SubmitSm)
+  type: Method
+  source:
+    id: Submit
+    path: ''
+    startLine: 368
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nSubmits a SubmitSm message to the SMSC\n"
+  example: []
+  syntax:
+    content: public Task<SubmitSmResp> Submit(SubmitSm submitSm)
+    parameters:
+    - id: submitSm
+      type: SubmitSm
+    return:
+      type: Task{SubmitSmResp}
+    content.vb: Public Function Submit(submitSm As SubmitSm) As Task(Of SubmitSmResp)
+  overload: Inetlab.SMPP.SmppClient.Submit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Submit(IBuilder{SubmitMulti})
+  commentId: M:Inetlab.SMPP.SmppClient.Submit(IBuilder{SubmitMulti})
+  id: Submit(IBuilder{SubmitMulti})
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Submit(IBuilder<SubmitMulti>)
+  nameWithType: SmppClient.Submit(IBuilder<SubmitMulti>)
+  fullName: Inetlab.SMPP.SmppClient.Submit(IBuilder<SubmitMulti>)
+  type: Method
+  source:
+    id: Submit
+    path: ''
+    startLine: 377
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nSubmits an array of SubmitMulti messages from SMS builder.\n"
+  example: []
+  syntax:
+    content: public Task<SubmitMultiResp[]> Submit(IBuilder<SubmitMulti> builder)
+    parameters:
+    - id: builder
+      type: IBuilder{SubmitMulti}
+    return:
+      type: Task{SubmitMultiResp[]}
+    content.vb: Public Function Submit(builder As IBuilder(Of SubmitMulti)) As Task(Of SubmitMultiResp())
+  overload: Inetlab.SMPP.SmppClient.Submit*
+  nameWithType.vb: SmppClient.Submit(IBuilder(Of SubmitMulti))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.SmppClient.Submit(IBuilder(Of SubmitMulti))
+  name.vb: Submit(IBuilder(Of SubmitMulti))
+- uid: Inetlab.SMPP.SmppClient.Submit(SubmitMulti[])
+  commentId: M:Inetlab.SMPP.SmppClient.Submit(SubmitMulti[])
+  id: Submit(SubmitMulti[])
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Submit(SubmitMulti[])
+  nameWithType: SmppClient.Submit(SubmitMulti[])
+  fullName: Inetlab.SMPP.SmppClient.Submit(SubmitMulti[])
+  type: Method
+  source:
+    id: Submit
+    path: ''
+    startLine: 385
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nSubmits an array of SubmitMulti messages to the SMSC.\n"
+  example: []
+  syntax:
+    content: public Task<SubmitMultiResp[]> Submit(params SubmitMulti[] pduList)
+    parameters:
+    - id: pduList
+      type: SubmitMulti[]
+    return:
+      type: Task{SubmitMultiResp[]}
+    content.vb: Public Function Submit(ParamArray pduList As SubmitMulti()) As Task(Of SubmitMultiResp())
+  overload: Inetlab.SMPP.SmppClient.Submit*
+  nameWithType.vb: SmppClient.Submit(SubmitMulti())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.SmppClient.Submit(SubmitMulti())
+  name.vb: Submit(SubmitMulti())
+- uid: Inetlab.SMPP.SmppClient.Submit(SubmitMulti)
+  commentId: M:Inetlab.SMPP.SmppClient.Submit(SubmitMulti)
+  id: Submit(SubmitMulti)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Submit(SubmitMulti)
+  nameWithType: SmppClient.Submit(SubmitMulti)
+  fullName: Inetlab.SMPP.SmppClient.Submit(SubmitMulti)
+  type: Method
+  source:
+    id: Submit
+    path: ''
+    startLine: 402
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nSubmits a SubmitMulti message to the SMSC\n"
+  example: []
+  syntax:
+    content: public Task<SubmitMultiResp> Submit(SubmitMulti pdu)
+    parameters:
+    - id: pdu
+      type: SubmitMulti
+    return:
+      type: Task{SubmitMultiResp}
+    content.vb: Public Function Submit(pdu As SubmitMulti) As Task(Of SubmitMultiResp)
+  overload: Inetlab.SMPP.SmppClient.Submit*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Cancel(System.String,System.String)
+  commentId: M:Inetlab.SMPP.SmppClient.Cancel(System.String,System.String)
+  id: Cancel(System.String,System.String)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Cancel(String, String)
+  nameWithType: SmppClient.Cancel(String, String)
+  fullName: Inetlab.SMPP.SmppClient.Cancel(System.String, System.String)
+  type: Method
+  source:
+    id: Cancel
+    path: ''
+    startLine: 411
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nCancels previously submitted short message that is still pending delivery.\n"
+  example: []
+  syntax:
+    content: public Task<CancelSmResp> Cancel(string messageId, string serviceType = null)
+    parameters:
+    - id: messageId
+      type: System.String
+    - id: serviceType
+      type: System.String
+    return:
+      type: Task{CancelSmResp}
+    content.vb: Public Function Cancel(messageId As String, serviceType As String = Nothing) As Task(Of CancelSmResp)
+  overload: Inetlab.SMPP.SmppClient.Cancel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Cancel(SmeAddress)
+  commentId: M:Inetlab.SMPP.SmppClient.Cancel(SmeAddress)
+  id: Cancel(SmeAddress)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Cancel(SmeAddress)
+  nameWithType: SmppClient.Cancel(SmeAddress)
+  fullName: Inetlab.SMPP.SmppClient.Cancel(SmeAddress)
+  type: Method
+  source:
+    id: Cancel
+    path: ''
+    startLine: 425
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nCancels previously submitted short message that is still pending delivery.\n"
+  example: []
+  syntax:
+    content: public Task<CancelSmResp> Cancel(SmeAddress sourceAddress)
+    parameters:
+    - id: sourceAddress
+      type: SmeAddress
+    return:
+      type: Task{CancelSmResp}
+    content.vb: Public Function Cancel(sourceAddress As SmeAddress) As Task(Of CancelSmResp)
+  overload: Inetlab.SMPP.SmppClient.Cancel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Cancel(CancelSm)
+  commentId: M:Inetlab.SMPP.SmppClient.Cancel(CancelSm)
+  id: Cancel(CancelSm)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Cancel(CancelSm)
+  nameWithType: SmppClient.Cancel(CancelSm)
+  fullName: Inetlab.SMPP.SmppClient.Cancel(CancelSm)
+  type: Method
+  source:
+    id: Cancel
+    path: ''
+    startLine: 438
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nCancels previously submitted short message that is still pending delivery.\n"
+  example: []
+  syntax:
+    content: public Task<CancelSmResp> Cancel(CancelSm cancelSm)
+    parameters:
+    - id: cancelSm
+      type: CancelSm
+    return:
+      type: Task{CancelSmResp}
+    content.vb: Public Function Cancel(cancelSm As CancelSm) As Task(Of CancelSmResp)
+  overload: Inetlab.SMPP.SmppClient.Cancel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Query(System.String,SmeAddress)
+  commentId: M:Inetlab.SMPP.SmppClient.Query(System.String,SmeAddress)
+  id: Query(System.String,SmeAddress)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Query(String, SmeAddress)
+  nameWithType: SmppClient.Query(String, SmeAddress)
+  fullName: Inetlab.SMPP.SmppClient.Query(System.String, SmeAddress)
+  type: Method
+  source:
+    id: Query
+    path: ''
+    startLine: 447
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nQuery the status of a previously submitted short message.\n"
+  example: []
+  syntax:
+    content: public Task<QuerySmResp> Query(string messageId, SmeAddress sourceAddress = null)
+    parameters:
+    - id: messageId
+      type: System.String
+    - id: sourceAddress
+      type: SmeAddress
+    return:
+      type: Task{QuerySmResp}
+    content.vb: Public Function Query(messageId As String, sourceAddress As SmeAddress = Nothing) As Task(Of QuerySmResp)
+  overload: Inetlab.SMPP.SmppClient.Query*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Query(QuerySm)
+  commentId: M:Inetlab.SMPP.SmppClient.Query(QuerySm)
+  id: Query(QuerySm)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Query(QuerySm)
+  nameWithType: SmppClient.Query(QuerySm)
+  fullName: Inetlab.SMPP.SmppClient.Query(QuerySm)
+  type: Method
+  source:
+    id: Query
+    path: ''
+    startLine: 461
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nQuery the status of a previously submitted short message.\n"
+  example: []
+  syntax:
+    content: public Task<QuerySmResp> Query(QuerySm pdu)
+    parameters:
+    - id: pdu
+      type: QuerySm
+    return:
+      type: Task{QuerySmResp}
+    content.vb: Public Function Query(pdu As QuerySm) As Task(Of QuerySmResp)
+  overload: Inetlab.SMPP.SmppClient.Query*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.Replace(ReplaceSm)
+  commentId: M:Inetlab.SMPP.SmppClient.Replace(ReplaceSm)
+  id: Replace(ReplaceSm)
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Replace(ReplaceSm)
+  nameWithType: SmppClient.Replace(ReplaceSm)
+  fullName: Inetlab.SMPP.SmppClient.Replace(ReplaceSm)
+  type: Method
+  source:
+    id: Replace
+    path: ''
+    startLine: 468
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nReplaces a previously submitted short message that is still pending delivery.\n"
+  example: []
+  syntax:
+    content: public Task<ReplaceSmResp> Replace(ReplaceSm pdu)
+    parameters:
+    - id: pdu
+      type: ReplaceSm
+    return:
+      type: Task{ReplaceSmResp}
+    content.vb: Public Function Replace(pdu As ReplaceSm) As Task(Of ReplaceSmResp)
+  overload: Inetlab.SMPP.SmppClient.Replace*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.evAlertNotification
+  commentId: E:Inetlab.SMPP.SmppClient.evAlertNotification
+  id: evAlertNotification
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: evAlertNotification
+  nameWithType: SmppClient.evAlertNotification
+  fullName: Inetlab.SMPP.SmppClient.evAlertNotification
+  type: Event
+  source:
+    id: evAlertNotification
+    path: ''
+    startLine: 477
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when received AlertNotification PDU\n"
+  example: []
+  syntax:
+    content: public event AlertNotificationEventHandler evAlertNotification
+    return:
+      type: Inetlab.SMPP.Common.AlertNotificationEventHandler
+    content.vb: Public Event evAlertNotification As AlertNotificationEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.evDeliverSm
+  commentId: E:Inetlab.SMPP.SmppClient.evDeliverSm
+  id: evDeliverSm
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: evDeliverSm
+  nameWithType: SmppClient.evDeliverSm
+  fullName: Inetlab.SMPP.SmppClient.evDeliverSm
+  type: Event
+  source:
+    id: evDeliverSm
+    path: ''
+    startLine: 482
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when receiving DeliverSm PDU\n"
+  example: []
+  syntax:
+    content: public event DeliverSmEventHandler evDeliverSm
+    return:
+      type: Inetlab.SMPP.Common.DeliverSmEventHandler
+    content.vb: Public Event evDeliverSm As DeliverSmEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.evServerCertificateValidation
+  commentId: E:Inetlab.SMPP.SmppClient.evServerCertificateValidation
+  id: evServerCertificateValidation
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: evServerCertificateValidation
+  nameWithType: SmppClient.evServerCertificateValidation
+  fullName: Inetlab.SMPP.SmppClient.evServerCertificateValidation
+  type: Event
+  source:
+    id: evServerCertificateValidation
+    path: ''
+    startLine: 487
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  summary: "\nOccurs when validating server certificate\n"
+  example: []
+  syntax:
+    content: public event EventHandler<CertificateValidationEventArgs> evServerCertificateValidation
+    return:
+      type: EventHandler{CertificateValidationEventArgs}
+    content.vb: Public Event evServerCertificateValidation As EventHandler(Of CertificateValidationEventArgs)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.evRecoverySucceeded
+  commentId: E:Inetlab.SMPP.SmppClient.evRecoverySucceeded
+  id: evRecoverySucceeded
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: evRecoverySucceeded
+  nameWithType: SmppClient.evRecoverySucceeded
+  fullName: Inetlab.SMPP.SmppClient.evRecoverySucceeded
+  type: Event
+  source:
+    id: evRecoverySucceeded
+    path: ''
+    startLine: 490
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public event BindRespEventHandler evRecoverySucceeded
+    return:
+      type: BindRespEventHandler
+    content.vb: Public Event evRecoverySucceeded As BindRespEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.SmppClient.ForceDisconnect
+  commentId: F:Inetlab.SMPP.SmppClient.ForceDisconnect
+  id: ForceDisconnect
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: ForceDisconnect
+  nameWithType: SmppClient.ForceDisconnect
+  fullName: Inetlab.SMPP.SmppClient.ForceDisconnect
+  type: Field
+  source:
+    id: ForceDisconnect
+    path: ''
+    startLine: 550
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  syntax:
+    content: protected bool ForceDisconnect
+    return:
+      type: System.Boolean
+    content.vb: Protected ForceDisconnect As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Inetlab.SMPP.SmppClient.Disconnect
+  commentId: M:Inetlab.SMPP.SmppClient.Disconnect
+  id: Disconnect
+  parent: Inetlab.SMPP.SmppClient
+  langs:
+  - csharp
+  - vb
+  name: Disconnect()
+  nameWithType: SmppClient.Disconnect()
+  fullName: Inetlab.SMPP.SmppClient.Disconnect()
+  type: Method
+  source:
+    id: Disconnect
+    path: ''
+    startLine: 552
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public override Task Disconnect()
+    return:
+      type: Task
+    content.vb: Public Overrides Function Disconnect As Task
+  overridden: Inetlab.SMPP.SmppClientBase.Disconnect
+  overload: Inetlab.SMPP.SmppClient.Disconnect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.SmppClientBase
+  commentId: T:Inetlab.SMPP.SmppClientBase
+  parent: Inetlab.SMPP
+  name: SmppClientBase
+  nameWithType: SmppClientBase
+  fullName: Inetlab.SMPP.SmppClientBase
+- uid: Inetlab.SMPP.SmppClientBase.Logger
+  commentId: P:Inetlab.SMPP.SmppClientBase.Logger
+  parent: Inetlab.SMPP.SmppClientBase
+  name: Logger
+  nameWithType: SmppClientBase.Logger
+  fullName: Inetlab.SMPP.SmppClientBase.Logger
+- uid: Inetlab.SMPP.SmppClientBase.Name
+  commentId: P:Inetlab.SMPP.SmppClientBase.Name
+  parent: Inetlab.SMPP.SmppClientBase
+  name: Name
+  nameWithType: SmppClientBase.Name
+  fullName: Inetlab.SMPP.SmppClientBase.Name
+- uid: Inetlab.SMPP.SmppClientBase.Queue
+  commentId: P:Inetlab.SMPP.SmppClientBase.Queue
+  parent: Inetlab.SMPP.SmppClientBase
+  name: Queue
+  nameWithType: SmppClientBase.Queue
+  fullName: Inetlab.SMPP.SmppClientBase.Queue
+- uid: Inetlab.SMPP.SmppClientBase.RemoteEndPoint
+  commentId: P:Inetlab.SMPP.SmppClientBase.RemoteEndPoint
+  parent: Inetlab.SMPP.SmppClientBase
+  name: RemoteEndPoint
+  nameWithType: SmppClientBase.RemoteEndPoint
+  fullName: Inetlab.SMPP.SmppClientBase.RemoteEndPoint
+- uid: Inetlab.SMPP.SmppClientBase.LocalEndPoint
+  commentId: P:Inetlab.SMPP.SmppClientBase.LocalEndPoint
+  parent: Inetlab.SMPP.SmppClientBase
+  name: LocalEndPoint
+  nameWithType: SmppClientBase.LocalEndPoint
+  fullName: Inetlab.SMPP.SmppClientBase.LocalEndPoint
+- uid: Inetlab.SMPP.SmppClientBase.Proxy
+  commentId: P:Inetlab.SMPP.SmppClientBase.Proxy
+  parent: Inetlab.SMPP.SmppClientBase
+  name: Proxy
+  nameWithType: SmppClientBase.Proxy
+  fullName: Inetlab.SMPP.SmppClientBase.Proxy
+- uid: Inetlab.SMPP.SmppClientBase.SystemID
+  commentId: P:Inetlab.SMPP.SmppClientBase.SystemID
+  parent: Inetlab.SMPP.SmppClientBase
+  name: SystemID
+  nameWithType: SmppClientBase.SystemID
+  fullName: Inetlab.SMPP.SmppClientBase.SystemID
+- uid: Inetlab.SMPP.SmppClientBase.SystemType
+  commentId: P:Inetlab.SMPP.SmppClientBase.SystemType
+  parent: Inetlab.SMPP.SmppClientBase
+  name: SystemType
+  nameWithType: SmppClientBase.SystemType
+  fullName: Inetlab.SMPP.SmppClientBase.SystemType
+- uid: Inetlab.SMPP.SmppClientBase.EsmeAddress
+  commentId: P:Inetlab.SMPP.SmppClientBase.EsmeAddress
+  parent: Inetlab.SMPP.SmppClientBase
+  name: EsmeAddress
+  nameWithType: SmppClientBase.EsmeAddress
+  fullName: Inetlab.SMPP.SmppClientBase.EsmeAddress
+- uid: Inetlab.SMPP.SmppClientBase.SendSpeedLimit
+  commentId: P:Inetlab.SMPP.SmppClientBase.SendSpeedLimit
+  parent: Inetlab.SMPP.SmppClientBase
+  name: SendSpeedLimit
+  nameWithType: SmppClientBase.SendSpeedLimit
+  fullName: Inetlab.SMPP.SmppClientBase.SendSpeedLimit
+- uid: Inetlab.SMPP.SmppClientBase.WorkerThreads
+  commentId: P:Inetlab.SMPP.SmppClientBase.WorkerThreads
+  parent: Inetlab.SMPP.SmppClientBase
+  name: WorkerThreads
+  nameWithType: SmppClientBase.WorkerThreads
+  fullName: Inetlab.SMPP.SmppClientBase.WorkerThreads
+- uid: Inetlab.SMPP.SmppClientBase.ReceivedRequestQueueLimit
+  commentId: P:Inetlab.SMPP.SmppClientBase.ReceivedRequestQueueLimit
+  parent: Inetlab.SMPP.SmppClientBase
+  name: ReceivedRequestQueueLimit
+  nameWithType: SmppClientBase.ReceivedRequestQueueLimit
+  fullName: Inetlab.SMPP.SmppClientBase.ReceivedRequestQueueLimit
+- uid: Inetlab.SMPP.SmppClientBase.SendQueueLimit
+  commentId: P:Inetlab.SMPP.SmppClientBase.SendQueueLimit
+  parent: Inetlab.SMPP.SmppClientBase
+  name: SendQueueLimit
+  nameWithType: SmppClientBase.SendQueueLimit
+  fullName: Inetlab.SMPP.SmppClientBase.SendQueueLimit
+- uid: Inetlab.SMPP.SmppClientBase.SequenceGenerator
+  commentId: P:Inetlab.SMPP.SmppClientBase.SequenceGenerator
+  parent: Inetlab.SMPP.SmppClientBase
+  name: SequenceGenerator
+  nameWithType: SmppClientBase.SequenceGenerator
+  fullName: Inetlab.SMPP.SmppClientBase.SequenceGenerator
+- uid: Inetlab.SMPP.SmppClientBase.EncodingMapper
+  commentId: P:Inetlab.SMPP.SmppClientBase.EncodingMapper
+  parent: Inetlab.SMPP.SmppClientBase
+  name: EncodingMapper
+  nameWithType: SmppClientBase.EncodingMapper
+  fullName: Inetlab.SMPP.SmppClientBase.EncodingMapper
+- uid: Inetlab.SMPP.SmppClientBase.EnquireLinkInterval
+  commentId: P:Inetlab.SMPP.SmppClientBase.EnquireLinkInterval
+  parent: Inetlab.SMPP.SmppClientBase
+  name: EnquireLinkInterval
+  nameWithType: SmppClientBase.EnquireLinkInterval
+  fullName: Inetlab.SMPP.SmppClientBase.EnquireLinkInterval
+- uid: Inetlab.SMPP.SmppClientBase.ResponseTimeout
+  commentId: P:Inetlab.SMPP.SmppClientBase.ResponseTimeout
+  parent: Inetlab.SMPP.SmppClientBase
+  name: ResponseTimeout
+  nameWithType: SmppClientBase.ResponseTimeout
+  fullName: Inetlab.SMPP.SmppClientBase.ResponseTimeout
+- uid: Inetlab.SMPP.SmppClientBase.Status
+  commentId: P:Inetlab.SMPP.SmppClientBase.Status
+  parent: Inetlab.SMPP.SmppClientBase
+  name: Status
+  nameWithType: SmppClientBase.Status
+  fullName: Inetlab.SMPP.SmppClientBase.Status
+- uid: Inetlab.SMPP.SmppClientBase.evEnquireLink
+  commentId: E:Inetlab.SMPP.SmppClientBase.evEnquireLink
+  parent: Inetlab.SMPP.SmppClientBase
+  name: evEnquireLink
+  nameWithType: SmppClientBase.evEnquireLink
+  fullName: Inetlab.SMPP.SmppClientBase.evEnquireLink
+- uid: Inetlab.SMPP.SmppClientBase.evUnBind
+  commentId: E:Inetlab.SMPP.SmppClientBase.evUnBind
+  parent: Inetlab.SMPP.SmppClientBase
+  name: evUnBind
+  nameWithType: SmppClientBase.evUnBind
+  fullName: Inetlab.SMPP.SmppClientBase.evUnBind
+- uid: Inetlab.SMPP.SmppClientBase.evDataSm
+  commentId: E:Inetlab.SMPP.SmppClientBase.evDataSm
+  parent: Inetlab.SMPP.SmppClientBase
+  name: evDataSm
+  nameWithType: SmppClientBase.evDataSm
+  fullName: Inetlab.SMPP.SmppClientBase.evDataSm
+- uid: Inetlab.SMPP.SmppClientBase.evConnected
+  commentId: E:Inetlab.SMPP.SmppClientBase.evConnected
+  parent: Inetlab.SMPP.SmppClientBase
+  name: evConnected
+  nameWithType: SmppClientBase.evConnected
+  fullName: Inetlab.SMPP.SmppClientBase.evConnected
+- uid: Inetlab.SMPP.SmppClientBase.evDisconnected
+  commentId: E:Inetlab.SMPP.SmppClientBase.evDisconnected
+  parent: Inetlab.SMPP.SmppClientBase
+  name: evDisconnected
+  nameWithType: SmppClientBase.evDisconnected
+  fullName: Inetlab.SMPP.SmppClientBase.evDisconnected
+- uid: Inetlab.SMPP.SmppClientBase.evPduReceiving
+  commentId: E:Inetlab.SMPP.SmppClientBase.evPduReceiving
+  parent: Inetlab.SMPP.SmppClientBase
+  name: evPduReceiving
+  nameWithType: SmppClientBase.evPduReceiving
+  fullName: Inetlab.SMPP.SmppClientBase.evPduReceiving
+- uid: Inetlab.SMPP.SmppClientBase.evPduSending
+  commentId: E:Inetlab.SMPP.SmppClientBase.evPduSending
+  parent: Inetlab.SMPP.SmppClientBase
+  name: evPduSending
+  nameWithType: SmppClientBase.evPduSending
+  fullName: Inetlab.SMPP.SmppClientBase.evPduSending
+- uid: Inetlab.SMPP.SmppClientBase.OnPduSending(SmppPDU)
+  commentId: M:Inetlab.SMPP.SmppClientBase.OnPduSending(SmppPDU)
+  parent: Inetlab.SMPP.SmppClientBase
+  isExternal: true
+  name: OnPduSending(SmppPDU)
+  nameWithType: SmppClientBase.OnPduSending(SmppPDU)
+  fullName: Inetlab.SMPP.SmppClientBase.OnPduSending(SmppPDU)
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.OnPduSending(SmppPDU)
+    name: OnPduSending
+    nameWithType: SmppClientBase.OnPduSending
+    fullName: Inetlab.SMPP.SmppClientBase.OnPduSending
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppPDU
+    name: SmppPDU
+    nameWithType: SmppPDU
+    fullName: SmppPDU
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.OnPduSending(SmppPDU)
+    name: OnPduSending
+    nameWithType: SmppClientBase.OnPduSending
+    fullName: Inetlab.SMPP.SmppClientBase.OnPduSending
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppPDU
+    name: SmppPDU
+    nameWithType: SmppPDU
+    fullName: SmppPDU
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClientBase.OnPduReceiving(SmppPDU)
+  commentId: M:Inetlab.SMPP.SmppClientBase.OnPduReceiving(SmppPDU)
+  parent: Inetlab.SMPP.SmppClientBase
+  isExternal: true
+  name: OnPduReceiving(SmppPDU)
+  nameWithType: SmppClientBase.OnPduReceiving(SmppPDU)
+  fullName: Inetlab.SMPP.SmppClientBase.OnPduReceiving(SmppPDU)
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.OnPduReceiving(SmppPDU)
+    name: OnPduReceiving
+    nameWithType: SmppClientBase.OnPduReceiving
+    fullName: Inetlab.SMPP.SmppClientBase.OnPduReceiving
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppPDU
+    name: SmppPDU
+    nameWithType: SmppPDU
+    fullName: SmppPDU
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.OnPduReceiving(SmppPDU)
+    name: OnPduReceiving
+    nameWithType: SmppClientBase.OnPduReceiving
+    fullName: Inetlab.SMPP.SmppClientBase.OnPduReceiving
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppPDU
+    name: SmppPDU
+    nameWithType: SmppPDU
+    fullName: SmppPDU
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClientBase.Dispose
+  commentId: M:Inetlab.SMPP.SmppClientBase.Dispose
+  parent: Inetlab.SMPP.SmppClientBase
+  name: Dispose()
+  nameWithType: SmppClientBase.Dispose()
+  fullName: Inetlab.SMPP.SmppClientBase.Dispose()
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.Dispose
+    name: Dispose
+    nameWithType: SmppClientBase.Dispose
+    fullName: Inetlab.SMPP.SmppClientBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.Dispose
+    name: Dispose
+    nameWithType: SmppClientBase.Dispose
+    fullName: Inetlab.SMPP.SmppClientBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClientBase.EnquireLink
+  commentId: M:Inetlab.SMPP.SmppClientBase.EnquireLink
+  parent: Inetlab.SMPP.SmppClientBase
+  name: EnquireLink()
+  nameWithType: SmppClientBase.EnquireLink()
+  fullName: Inetlab.SMPP.SmppClientBase.EnquireLink()
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.EnquireLink
+    name: EnquireLink
+    nameWithType: SmppClientBase.EnquireLink
+    fullName: Inetlab.SMPP.SmppClientBase.EnquireLink
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.EnquireLink
+    name: EnquireLink
+    nameWithType: SmppClientBase.EnquireLink
+    fullName: Inetlab.SMPP.SmppClientBase.EnquireLink
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClientBase.EnquireLink(EnquireLink)
+  commentId: M:Inetlab.SMPP.SmppClientBase.EnquireLink(EnquireLink)
+  parent: Inetlab.SMPP.SmppClientBase
+  isExternal: true
+  name: EnquireLink(EnquireLink)
+  nameWithType: SmppClientBase.EnquireLink(EnquireLink)
+  fullName: Inetlab.SMPP.SmppClientBase.EnquireLink(EnquireLink)
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.EnquireLink(EnquireLink)
+    name: EnquireLink
+    nameWithType: SmppClientBase.EnquireLink
+    fullName: Inetlab.SMPP.SmppClientBase.EnquireLink
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EnquireLink
+    name: EnquireLink
+    nameWithType: EnquireLink
+    fullName: EnquireLink
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.EnquireLink(EnquireLink)
+    name: EnquireLink
+    nameWithType: SmppClientBase.EnquireLink
+    fullName: Inetlab.SMPP.SmppClientBase.EnquireLink
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: EnquireLink
+    name: EnquireLink
+    nameWithType: EnquireLink
+    fullName: EnquireLink
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClientBase.UnBind
+  commentId: M:Inetlab.SMPP.SmppClientBase.UnBind
+  parent: Inetlab.SMPP.SmppClientBase
+  name: UnBind()
+  nameWithType: SmppClientBase.UnBind()
+  fullName: Inetlab.SMPP.SmppClientBase.UnBind()
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.UnBind
+    name: UnBind
+    nameWithType: SmppClientBase.UnBind
+    fullName: Inetlab.SMPP.SmppClientBase.UnBind
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.UnBind
+    name: UnBind
+    nameWithType: SmppClientBase.UnBind
+    fullName: Inetlab.SMPP.SmppClientBase.UnBind
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClientBase.SubmitData(DataSm)
+  commentId: M:Inetlab.SMPP.SmppClientBase.SubmitData(DataSm)
+  parent: Inetlab.SMPP.SmppClientBase
+  isExternal: true
+  name: SubmitData(DataSm)
+  nameWithType: SmppClientBase.SubmitData(DataSm)
+  fullName: Inetlab.SMPP.SmppClientBase.SubmitData(DataSm)
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.SubmitData(DataSm)
+    name: SubmitData
+    nameWithType: SmppClientBase.SubmitData
+    fullName: Inetlab.SMPP.SmppClientBase.SubmitData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DataSm
+    name: DataSm
+    nameWithType: DataSm
+    fullName: DataSm
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.SubmitData(DataSm)
+    name: SubmitData
+    nameWithType: SmppClientBase.SubmitData
+    fullName: Inetlab.SMPP.SmppClientBase.SubmitData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DataSm
+    name: DataSm
+    nameWithType: DataSm
+    fullName: DataSm
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClientBase.Submit(DataSm[])
+  commentId: M:Inetlab.SMPP.SmppClientBase.Submit(DataSm[])
+  parent: Inetlab.SMPP.SmppClientBase
+  isExternal: true
+  name: Submit(DataSm[])
+  nameWithType: SmppClientBase.Submit(DataSm[])
+  fullName: Inetlab.SMPP.SmppClientBase.Submit(DataSm[])
+  nameWithType.vb: SmppClientBase.Submit(DataSm())
+  fullName.vb: Inetlab.SMPP.SmppClientBase.Submit(DataSm())
+  name.vb: Submit(DataSm())
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.Submit(DataSm[])
+    name: Submit
+    nameWithType: SmppClientBase.Submit
+    fullName: Inetlab.SMPP.SmppClientBase.Submit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DataSm
+    name: DataSm
+    nameWithType: DataSm
+    fullName: DataSm
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.Submit(DataSm[])
+    name: Submit
+    nameWithType: SmppClientBase.Submit
+    fullName: Inetlab.SMPP.SmppClientBase.Submit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: DataSm
+    name: DataSm
+    nameWithType: DataSm
+    fullName: DataSm
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.SmppClient.EnabledSslProtocols*
+  commentId: Overload:Inetlab.SMPP.SmppClient.EnabledSslProtocols
+  name: EnabledSslProtocols
+  nameWithType: SmppClient.EnabledSslProtocols
+  fullName: Inetlab.SMPP.SmppClient.EnabledSslProtocols
+- uid: SslProtocols
+  isExternal: true
+  name: SslProtocols
+  nameWithType: SslProtocols
+  fullName: SslProtocols
+- uid: Inetlab.SMPP.SmppClient.ClientCertificates*
+  commentId: Overload:Inetlab.SMPP.SmppClient.ClientCertificates
+  name: ClientCertificates
+  nameWithType: SmppClient.ClientCertificates
+  fullName: Inetlab.SMPP.SmppClient.ClientCertificates
+- uid: X509CertificateCollection
+  commentId: '!:X509CertificateCollection'
+  isExternal: true
+  name: X509CertificateCollection
+  nameWithType: X509CertificateCollection
+  fullName: X509CertificateCollection
+- uid: Inetlab.SMPP.SmppClient.ConnectionRecovery*
+  commentId: Overload:Inetlab.SMPP.SmppClient.ConnectionRecovery
+  name: ConnectionRecovery
+  nameWithType: SmppClient.ConnectionRecovery
+  fullName: Inetlab.SMPP.SmppClient.ConnectionRecovery
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Inetlab.SMPP.SmppClient.ConnectionRecoveryDelay*
+  commentId: Overload:Inetlab.SMPP.SmppClient.ConnectionRecoveryDelay
+  name: ConnectionRecoveryDelay
+  nameWithType: SmppClient.ConnectionRecoveryDelay
+  fullName: Inetlab.SMPP.SmppClient.ConnectionRecoveryDelay
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Inetlab.SMPP.SmppClient.#ctor*
+  commentId: Overload:Inetlab.SMPP.SmppClient.#ctor
+  name: SmppClient
+  nameWithType: SmppClient.SmppClient
+  fullName: Inetlab.SMPP.SmppClient.SmppClient
+- uid: Inetlab.SMPP.SmppClient.Connect*
+  commentId: Overload:Inetlab.SMPP.SmppClient.Connect
+  name: Connect
+  nameWithType: SmppClient.Connect
+  fullName: Inetlab.SMPP.SmppClient.Connect
+- uid: EndPoint
+  isExternal: true
+  name: EndPoint
+  nameWithType: EndPoint
+  fullName: EndPoint
+- uid: Task{System.Boolean}
+  commentId: '!:Task{System.Boolean}'
+  definition: Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.SmppClientBase.Dispose(System.Boolean)
+  commentId: M:Inetlab.SMPP.SmppClientBase.Dispose(System.Boolean)
+  parent: Inetlab.SMPP.SmppClientBase
+  isExternal: true
+  name: Dispose(Boolean)
+  nameWithType: SmppClientBase.Dispose(Boolean)
+  fullName: Inetlab.SMPP.SmppClientBase.Dispose(System.Boolean)
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: SmppClientBase.Dispose
+    fullName: Inetlab.SMPP.SmppClientBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.Dispose(System.Boolean)
+    name: Dispose
+    nameWithType: SmppClientBase.Dispose
+    fullName: Inetlab.SMPP.SmppClientBase.Dispose
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClient.Dispose*
+  commentId: Overload:Inetlab.SMPP.SmppClient.Dispose
+  name: Dispose
+  nameWithType: SmppClient.Dispose
+  fullName: Inetlab.SMPP.SmppClient.Dispose
+- uid: Inetlab.SMPP.SmppClient.Bind*
+  commentId: Overload:Inetlab.SMPP.SmppClient.Bind
+  name: Bind
+  nameWithType: SmppClient.Bind
+  fullName: Inetlab.SMPP.SmppClient.Bind
+- uid: Task{BindResp}
+  commentId: '!:Task{BindResp}'
+  definition: Task`1
+  name: Task<BindResp>
+  nameWithType: Task<BindResp>
+  fullName: Task<BindResp>
+  nameWithType.vb: Task(Of BindResp)
+  fullName.vb: Task(Of BindResp)
+  name.vb: Task(Of BindResp)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BindResp
+    name: BindResp
+    nameWithType: BindResp
+    fullName: BindResp
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BindResp
+    name: BindResp
+    nameWithType: BindResp
+    fullName: BindResp
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: ConnectionMode
+  isExternal: true
+  name: ConnectionMode
+  nameWithType: ConnectionMode
+  fullName: ConnectionMode
+- uid: Bind
+  isExternal: true
+  name: Bind
+  nameWithType: Bind
+  fullName: Bind
+- uid: Inetlab.SMPP.SmppClient.Submit*
+  commentId: Overload:Inetlab.SMPP.SmppClient.Submit
+  name: Submit
+  nameWithType: SmppClient.Submit
+  fullName: Inetlab.SMPP.SmppClient.Submit
+- uid: IBuilder{SubmitSm}
+  commentId: '!:IBuilder{SubmitSm}'
+  definition: IBuilder`1
+  name: IBuilder<SubmitSm>
+  nameWithType: IBuilder<SubmitSm>
+  fullName: IBuilder<SubmitSm>
+  nameWithType.vb: IBuilder(Of SubmitSm)
+  fullName.vb: IBuilder(Of SubmitSm)
+  name.vb: IBuilder(Of SubmitSm)
+  spec.csharp:
+  - uid: IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: IBuilder
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: SubmitSm
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: IBuilder
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: SubmitSm
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{SubmitSmResp[]}
+  commentId: '!:Task{SubmitSmResp[]}'
+  definition: Task`1
+  name: Task<SubmitSmResp[]>
+  nameWithType: Task<SubmitSmResp[]>
+  fullName: Task<SubmitSmResp[]>
+  nameWithType.vb: Task(Of SubmitSmResp())
+  fullName.vb: Task(Of SubmitSmResp())
+  name.vb: Task(Of SubmitSmResp())
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SubmitSmResp
+    name: SubmitSmResp
+    nameWithType: SubmitSmResp
+    fullName: SubmitSmResp
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SubmitSmResp
+    name: SubmitSmResp
+    nameWithType: SubmitSmResp
+    fullName: SubmitSmResp
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IBuilder`1
+  isExternal: true
+  name: IBuilder<>
+  nameWithType: IBuilder<>
+  fullName: IBuilder<>
+  nameWithType.vb: IBuilder(Of )
+  fullName.vb: IBuilder(Of )
+  name.vb: IBuilder(Of )
+  spec.csharp:
+  - uid: IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: IBuilder
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: IBuilder
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SubmitSm[]
+  isExternal: true
+  name: SubmitSm[]
+  nameWithType: SubmitSm[]
+  fullName: SubmitSm[]
+  nameWithType.vb: SubmitSm()
+  fullName.vb: SubmitSm()
+  name.vb: SubmitSm()
+  spec.csharp:
+  - uid: SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: SubmitSm
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SubmitSm
+    name: SubmitSm
+    nameWithType: SubmitSm
+    fullName: SubmitSm
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SubmitSm
+  isExternal: true
+  name: SubmitSm
+  nameWithType: SubmitSm
+  fullName: SubmitSm
+- uid: Task{SubmitSmResp}
+  commentId: '!:Task{SubmitSmResp}'
+  definition: Task`1
+  name: Task<SubmitSmResp>
+  nameWithType: Task<SubmitSmResp>
+  fullName: Task<SubmitSmResp>
+  nameWithType.vb: Task(Of SubmitSmResp)
+  fullName.vb: Task(Of SubmitSmResp)
+  name.vb: Task(Of SubmitSmResp)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SubmitSmResp
+    name: SubmitSmResp
+    nameWithType: SubmitSmResp
+    fullName: SubmitSmResp
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SubmitSmResp
+    name: SubmitSmResp
+    nameWithType: SubmitSmResp
+    fullName: SubmitSmResp
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IBuilder{SubmitMulti}
+  commentId: '!:IBuilder{SubmitMulti}'
+  definition: IBuilder`1
+  name: IBuilder<SubmitMulti>
+  nameWithType: IBuilder<SubmitMulti>
+  fullName: IBuilder<SubmitMulti>
+  nameWithType.vb: IBuilder(Of SubmitMulti)
+  fullName.vb: IBuilder(Of SubmitMulti)
+  name.vb: IBuilder(Of SubmitMulti)
+  spec.csharp:
+  - uid: IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: IBuilder
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SubmitMulti
+    name: SubmitMulti
+    nameWithType: SubmitMulti
+    fullName: SubmitMulti
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: IBuilder
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SubmitMulti
+    name: SubmitMulti
+    nameWithType: SubmitMulti
+    fullName: SubmitMulti
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Task{SubmitMultiResp[]}
+  commentId: '!:Task{SubmitMultiResp[]}'
+  definition: Task`1
+  name: Task<SubmitMultiResp[]>
+  nameWithType: Task<SubmitMultiResp[]>
+  fullName: Task<SubmitMultiResp[]>
+  nameWithType.vb: Task(Of SubmitMultiResp())
+  fullName.vb: Task(Of SubmitMultiResp())
+  name.vb: Task(Of SubmitMultiResp())
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SubmitMultiResp
+    name: SubmitMultiResp
+    nameWithType: SubmitMultiResp
+    fullName: SubmitMultiResp
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SubmitMultiResp
+    name: SubmitMultiResp
+    nameWithType: SubmitMultiResp
+    fullName: SubmitMultiResp
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SubmitMulti[]
+  isExternal: true
+  name: SubmitMulti[]
+  nameWithType: SubmitMulti[]
+  fullName: SubmitMulti[]
+  nameWithType.vb: SubmitMulti()
+  fullName.vb: SubmitMulti()
+  name.vb: SubmitMulti()
+  spec.csharp:
+  - uid: SubmitMulti
+    name: SubmitMulti
+    nameWithType: SubmitMulti
+    fullName: SubmitMulti
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SubmitMulti
+    name: SubmitMulti
+    nameWithType: SubmitMulti
+    fullName: SubmitMulti
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SubmitMulti
+  isExternal: true
+  name: SubmitMulti
+  nameWithType: SubmitMulti
+  fullName: SubmitMulti
+- uid: Task{SubmitMultiResp}
+  commentId: '!:Task{SubmitMultiResp}'
+  definition: Task`1
+  name: Task<SubmitMultiResp>
+  nameWithType: Task<SubmitMultiResp>
+  fullName: Task<SubmitMultiResp>
+  nameWithType.vb: Task(Of SubmitMultiResp)
+  fullName.vb: Task(Of SubmitMultiResp)
+  name.vb: Task(Of SubmitMultiResp)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SubmitMultiResp
+    name: SubmitMultiResp
+    nameWithType: SubmitMultiResp
+    fullName: SubmitMultiResp
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SubmitMultiResp
+    name: SubmitMultiResp
+    nameWithType: SubmitMultiResp
+    fullName: SubmitMultiResp
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClient.Cancel*
+  commentId: Overload:Inetlab.SMPP.SmppClient.Cancel
+  name: Cancel
+  nameWithType: SmppClient.Cancel
+  fullName: Inetlab.SMPP.SmppClient.Cancel
+- uid: Task{CancelSmResp}
+  commentId: '!:Task{CancelSmResp}'
+  definition: Task`1
+  name: Task<CancelSmResp>
+  nameWithType: Task<CancelSmResp>
+  fullName: Task<CancelSmResp>
+  nameWithType.vb: Task(Of CancelSmResp)
+  fullName.vb: Task(Of CancelSmResp)
+  name.vb: Task(Of CancelSmResp)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CancelSmResp
+    name: CancelSmResp
+    nameWithType: CancelSmResp
+    fullName: CancelSmResp
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CancelSmResp
+    name: CancelSmResp
+    nameWithType: CancelSmResp
+    fullName: CancelSmResp
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SmeAddress
+  isExternal: true
+  name: SmeAddress
+  nameWithType: SmeAddress
+  fullName: SmeAddress
+- uid: CancelSm
+  isExternal: true
+  name: CancelSm
+  nameWithType: CancelSm
+  fullName: CancelSm
+- uid: Inetlab.SMPP.SmppClient.Query*
+  commentId: Overload:Inetlab.SMPP.SmppClient.Query
+  name: Query
+  nameWithType: SmppClient.Query
+  fullName: Inetlab.SMPP.SmppClient.Query
+- uid: Task{QuerySmResp}
+  commentId: '!:Task{QuerySmResp}'
+  definition: Task`1
+  name: Task<QuerySmResp>
+  nameWithType: Task<QuerySmResp>
+  fullName: Task<QuerySmResp>
+  nameWithType.vb: Task(Of QuerySmResp)
+  fullName.vb: Task(Of QuerySmResp)
+  name.vb: Task(Of QuerySmResp)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: QuerySmResp
+    name: QuerySmResp
+    nameWithType: QuerySmResp
+    fullName: QuerySmResp
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: QuerySmResp
+    name: QuerySmResp
+    nameWithType: QuerySmResp
+    fullName: QuerySmResp
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: QuerySm
+  isExternal: true
+  name: QuerySm
+  nameWithType: QuerySm
+  fullName: QuerySm
+- uid: Inetlab.SMPP.SmppClient.Replace*
+  commentId: Overload:Inetlab.SMPP.SmppClient.Replace
+  name: Replace
+  nameWithType: SmppClient.Replace
+  fullName: Inetlab.SMPP.SmppClient.Replace
+- uid: ReplaceSm
+  isExternal: true
+  name: ReplaceSm
+  nameWithType: ReplaceSm
+  fullName: ReplaceSm
+- uid: Task{ReplaceSmResp}
+  commentId: '!:Task{ReplaceSmResp}'
+  definition: Task`1
+  name: Task<ReplaceSmResp>
+  nameWithType: Task<ReplaceSmResp>
+  fullName: Task<ReplaceSmResp>
+  nameWithType.vb: Task(Of ReplaceSmResp)
+  fullName.vb: Task(Of ReplaceSmResp)
+  name.vb: Task(Of ReplaceSmResp)
+  spec.csharp:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: ReplaceSmResp
+    name: ReplaceSmResp
+    nameWithType: ReplaceSmResp
+    fullName: ReplaceSmResp
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Task`1
+    name: Task
+    nameWithType: Task
+    fullName: Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: ReplaceSmResp
+    name: ReplaceSmResp
+    nameWithType: ReplaceSmResp
+    fullName: ReplaceSmResp
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common.AlertNotificationEventHandler
+  commentId: T:Inetlab.SMPP.Common.AlertNotificationEventHandler
+  parent: Inetlab.SMPP.Common
+  name: AlertNotificationEventHandler
+  nameWithType: AlertNotificationEventHandler
+  fullName: Inetlab.SMPP.Common.AlertNotificationEventHandler
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.DeliverSmEventHandler
+  commentId: T:Inetlab.SMPP.Common.DeliverSmEventHandler
+  parent: Inetlab.SMPP.Common
+  name: DeliverSmEventHandler
+  nameWithType: DeliverSmEventHandler
+  fullName: Inetlab.SMPP.Common.DeliverSmEventHandler
+- uid: EventHandler{CertificateValidationEventArgs}
+  commentId: '!:EventHandler{CertificateValidationEventArgs}'
+  definition: EventHandler`1
+  name: EventHandler<CertificateValidationEventArgs>
+  nameWithType: EventHandler<CertificateValidationEventArgs>
+  fullName: EventHandler<CertificateValidationEventArgs>
+  nameWithType.vb: EventHandler(Of CertificateValidationEventArgs)
+  fullName.vb: EventHandler(Of CertificateValidationEventArgs)
+  name.vb: EventHandler(Of CertificateValidationEventArgs)
+  spec.csharp:
+  - uid: EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: CertificateValidationEventArgs
+    name: CertificateValidationEventArgs
+    nameWithType: CertificateValidationEventArgs
+    fullName: CertificateValidationEventArgs
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: CertificateValidationEventArgs
+    name: CertificateValidationEventArgs
+    nameWithType: CertificateValidationEventArgs
+    fullName: CertificateValidationEventArgs
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EventHandler`1
+  isExternal: true
+  name: EventHandler<>
+  nameWithType: EventHandler<>
+  fullName: EventHandler<>
+  nameWithType.vb: EventHandler(Of )
+  fullName.vb: EventHandler(Of )
+  name.vb: EventHandler(Of )
+  spec.csharp:
+  - uid: EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: EventHandler`1
+    name: EventHandler
+    nameWithType: EventHandler
+    fullName: EventHandler
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BindRespEventHandler
+  commentId: '!:BindRespEventHandler'
+  isExternal: true
+  name: BindRespEventHandler
+  nameWithType: BindRespEventHandler
+  fullName: BindRespEventHandler
+- uid: Inetlab.SMPP.SmppClientBase.Disconnect
+  commentId: M:Inetlab.SMPP.SmppClientBase.Disconnect
+  parent: Inetlab.SMPP.SmppClientBase
+  name: Disconnect()
+  nameWithType: SmppClientBase.Disconnect()
+  fullName: Inetlab.SMPP.SmppClientBase.Disconnect()
+  spec.csharp:
+  - uid: Inetlab.SMPP.SmppClientBase.Disconnect
+    name: Disconnect
+    nameWithType: SmppClientBase.Disconnect
+    fullName: Inetlab.SMPP.SmppClientBase.Disconnect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.SmppClientBase.Disconnect
+    name: Disconnect
+    nameWithType: SmppClientBase.Disconnect
+    fullName: Inetlab.SMPP.SmppClientBase.Disconnect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.SmppClient.Disconnect*
+  commentId: Overload:Inetlab.SMPP.SmppClient.Disconnect
+  name: Disconnect
+  nameWithType: SmppClient.Disconnect
+  fullName: Inetlab.SMPP.SmppClient.Disconnect
+- uid: Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+shouldSkipMarkup: true

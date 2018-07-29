@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+  commentId: T:Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+  id: SmppRequestEventArgs`2
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Client
+  - Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Request
+  - Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Response
+  langs:
+  - csharp
+  - vb
+  name: SmppRequestEventArgs<TRequest, TResponse>
+  nameWithType: SmppRequestEventArgs<TRequest, TResponse>
+  fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs<TRequest, TResponse>
+  type: Class
+  source:
+    id: SmppRequestEventArgs
+    path: ''
+    startLine: 16748
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: 'public class SmppRequestEventArgs<TRequest, TResponse> : EventArgs'
+    typeParameters:
+    - id: TRequest
+    - id: TResponse
+    content.vb: >-
+      Public Class SmppRequestEventArgs(Of TRequest, TResponse)
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  nameWithType.vb: SmppRequestEventArgs(Of TRequest, TResponse)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequestEventArgs(Of TRequest, TResponse)
+  name.vb: SmppRequestEventArgs(Of TRequest, TResponse)
+- uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Request
+  commentId: P:Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Request
+  id: Request
+  parent: Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+  langs:
+  - csharp
+  - vb
+  name: Request
+  nameWithType: SmppRequestEventArgs<TRequest, TResponse>.Request
+  fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs<TRequest, TResponse>.Request
+  type: Property
+  source:
+    id: Request
+    path: ''
+    startLine: 16750
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public TRequest Request { get; set; }
+    parameters: []
+    return:
+      type: '{TRequest}'
+    content.vb: Public Property Request As TRequest
+  overload: Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Request*
+  nameWithType.vb: SmppRequestEventArgs(Of TRequest, TResponse).Request
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequestEventArgs(Of TRequest, TResponse).Request
+- uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Response
+  commentId: P:Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Response
+  id: Response
+  parent: Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+  langs:
+  - csharp
+  - vb
+  name: Response
+  nameWithType: SmppRequestEventArgs<TRequest, TResponse>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs<TRequest, TResponse>.Response
+  type: Property
+  source:
+    id: Response
+    path: ''
+    startLine: 16751
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public TResponse Response { get; set; }
+    parameters: []
+    return:
+      type: '{TResponse}'
+    content.vb: Public Property Response As TResponse
+  overload: Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Response*
+  nameWithType.vb: SmppRequestEventArgs(Of TRequest, TResponse).Response
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequestEventArgs(Of TRequest, TResponse).Response
+- uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Client
+  id: Client
+  parent: Inetlab.SMPP.PDU.SmppRequestEventArgs`2
+  langs:
+  - csharp
+  - vb
+  name: Client
+  nameWithType: SmppRequestEventArgs<TRequest, TResponse>.Client
+  fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs<TRequest, TResponse>.Client
+  type: Property
+  source:
+    id: Client
+    path: ''
+    startLine: 16752
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public SmppClientBase Client { get; set; }
+    parameters: []
+    return:
+      type: SmppClientBase
+    content.vb: Public Property Client As SmppClientBase
+  overload: Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Client*
+  nameWithType.vb: SmppRequestEventArgs(Of TRequest, TResponse).Client
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequestEventArgs(Of TRequest, TResponse).Client
+references:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  isExternal: false
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Request*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Request
+  isExternal: false
+  name: Request
+  nameWithType: SmppRequestEventArgs<TRequest, TResponse>.Request
+  fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs<TRequest, TResponse>.Request
+  nameWithType.vb: SmppRequestEventArgs(Of TRequest, TResponse).Request
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequestEventArgs(Of TRequest, TResponse).Request
+- uid: '{TRequest}'
+  commentId: '!:TRequest'
+  definition: TRequest
+  name: TRequest
+  nameWithType: TRequest
+  fullName: TRequest
+- uid: TRequest
+  isExternal: false
+  name: TRequest
+  nameWithType: TRequest
+  fullName: TRequest
+- uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Response*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Response
+  isExternal: false
+  name: Response
+  nameWithType: SmppRequestEventArgs<TRequest, TResponse>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs<TRequest, TResponse>.Response
+  nameWithType.vb: SmppRequestEventArgs(Of TRequest, TResponse).Response
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequestEventArgs(Of TRequest, TResponse).Response
+- uid: '{TResponse}'
+  commentId: '!:TResponse'
+  definition: TResponse
+  name: TResponse
+  nameWithType: TResponse
+  fullName: TResponse
+- uid: TResponse
+  isExternal: false
+  name: TResponse
+  nameWithType: TResponse
+  fullName: TResponse
+- uid: Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Client*
+  commentId: Overload:Inetlab.SMPP.PDU.SmppRequestEventArgs`2.Client
+  isExternal: false
+  name: Client
+  nameWithType: SmppRequestEventArgs<TRequest, TResponse>.Client
+  fullName: Inetlab.SMPP.PDU.SmppRequestEventArgs<TRequest, TResponse>.Client
+  nameWithType.vb: SmppRequestEventArgs(Of TRequest, TResponse).Client
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequestEventArgs(Of TRequest, TResponse).Client
+- uid: SmppClientBase
+  isExternal: true
+  name: SmppClientBase
+  nameWithType: SmppClientBase
+  fullName: SmppClientBase
+shouldSkipMarkup: true

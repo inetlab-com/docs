@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Encodings.TurkishCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.TurkishCharsetMap
+  id: TurkishCharsetMap
+  parent: Inetlab.SMPP.Encodings
+  children:
+  - Inetlab.SMPP.Encodings.TurkishCharsetMap.#ctor
+  - Inetlab.SMPP.Encodings.TurkishCharsetMap.CharacterSet
+  - Inetlab.SMPP.Encodings.TurkishCharsetMap.ExtensionSet
+  langs:
+  - csharp
+  - vb
+  name: TurkishCharsetMap
+  nameWithType: TurkishCharsetMap
+  fullName: Inetlab.SMPP.Encodings.TurkishCharsetMap
+  type: Class
+  source:
+    id: TurkishCharsetMap
+    path: ''
+    startLine: 14025
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: 'public class TurkishCharsetMap : IGSMCharsetMap'
+    content.vb: >-
+      Public Class TurkishCharsetMap
+          Implements IGSMCharsetMap
+  inheritance:
+  - System.Object
+  implements:
+  - Inetlab.SMPP.Encodings.IGSMCharsetMap
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Encodings.TurkishCharsetMap.CharacterSet
+  commentId: P:Inetlab.SMPP.Encodings.TurkishCharsetMap.CharacterSet
+  id: CharacterSet
+  parent: Inetlab.SMPP.Encodings.TurkishCharsetMap
+  langs:
+  - csharp
+  - vb
+  name: CharacterSet
+  nameWithType: TurkishCharsetMap.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.TurkishCharsetMap.CharacterSet
+  type: Property
+  source:
+    id: CharacterSet
+    path: ''
+    startLine: 14030
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public char[] CharacterSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: Public ReadOnly Property CharacterSet As Char()
+  overload: Inetlab.SMPP.Encodings.TurkishCharsetMap.CharacterSet*
+  implements:
+  - Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Encodings.TurkishCharsetMap.ExtensionSet
+  commentId: P:Inetlab.SMPP.Encodings.TurkishCharsetMap.ExtensionSet
+  id: ExtensionSet
+  parent: Inetlab.SMPP.Encodings.TurkishCharsetMap
+  langs:
+  - csharp
+  - vb
+  name: ExtensionSet
+  nameWithType: TurkishCharsetMap.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.TurkishCharsetMap.ExtensionSet
+  type: Property
+  source:
+    id: ExtensionSet
+    path: ''
+    startLine: 14035
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public char[] ExtensionSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: Public ReadOnly Property ExtensionSet As Char()
+  overload: Inetlab.SMPP.Encodings.TurkishCharsetMap.ExtensionSet*
+  implements:
+  - Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Encodings.TurkishCharsetMap.#ctor
+  commentId: M:Inetlab.SMPP.Encodings.TurkishCharsetMap.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Encodings.TurkishCharsetMap
+  langs:
+  - csharp
+  - vb
+  name: TurkishCharsetMap()
+  nameWithType: TurkishCharsetMap.TurkishCharsetMap()
+  fullName: Inetlab.SMPP.Encodings.TurkishCharsetMap.TurkishCharsetMap()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14040
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public TurkishCharsetMap()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Encodings.TurkishCharsetMap.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Encodings
+  commentId: N:Inetlab.SMPP.Encodings
+  name: Inetlab.SMPP.Encodings
+  nameWithType: Inetlab.SMPP.Encodings
+  fullName: Inetlab.SMPP.Encodings
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.IGSMCharsetMap
+  parent: Inetlab.SMPP.Encodings
+  name: IGSMCharsetMap
+  nameWithType: IGSMCharsetMap
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Encodings.TurkishCharsetMap.CharacterSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.TurkishCharsetMap.CharacterSet
+  name: CharacterSet
+  nameWithType: TurkishCharsetMap.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.TurkishCharsetMap.CharacterSet
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  commentId: P:Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  parent: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  name: CharacterSet
+  nameWithType: IGSMCharsetMap.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+- uid: System.Char[]
+  isExternal: true
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
+  nameWithType.vb: Char()
+  fullName.vb: System.Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Encodings.TurkishCharsetMap.ExtensionSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.TurkishCharsetMap.ExtensionSet
+  name: ExtensionSet
+  nameWithType: TurkishCharsetMap.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.TurkishCharsetMap.ExtensionSet
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  commentId: P:Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  parent: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  name: ExtensionSet
+  nameWithType: IGSMCharsetMap.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+- uid: Inetlab.SMPP.Encodings.TurkishCharsetMap.#ctor*
+  commentId: Overload:Inetlab.SMPP.Encodings.TurkishCharsetMap.#ctor
+  name: TurkishCharsetMap
+  nameWithType: TurkishCharsetMap.TurkishCharsetMap
+  fullName: Inetlab.SMPP.Encodings.TurkishCharsetMap.TurkishCharsetMap
+shouldSkipMarkup: true

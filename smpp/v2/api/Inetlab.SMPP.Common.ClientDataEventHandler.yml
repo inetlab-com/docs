@@ -1,0 +1,94 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.ClientDataEventHandler
+  commentId: T:Inetlab.SMPP.Common.ClientDataEventHandler
+  id: ClientDataEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: ClientDataEventHandler
+  nameWithType: ClientDataEventHandler
+  fullName: Inetlab.SMPP.Common.ClientDataEventHandler
+  type: Delegate
+  source:
+    id: ClientDataEventHandler
+    path: ''
+    startLine: 5585
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void ClientDataEventHandler(object sender, SmppServerClient client, byte[] data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: client
+      type: Inetlab.SMPP.SmppServerClient
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Delegate Sub ClientDataEventHandler(sender As Object, client As SmppServerClient, data As Byte())
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.SmppServerClient
+  commentId: T:Inetlab.SMPP.SmppServerClient
+  parent: Inetlab.SMPP
+  name: SmppServerClient
+  nameWithType: SmppServerClient
+  fullName: Inetlab.SMPP.SmppServerClient
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+shouldSkipMarkup: true

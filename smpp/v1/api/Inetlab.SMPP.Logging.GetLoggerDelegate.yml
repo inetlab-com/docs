@@ -1,0 +1,63 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Logging.GetLoggerDelegate
+  commentId: T:Inetlab.SMPP.Logging.GetLoggerDelegate
+  id: GetLoggerDelegate
+  parent: Inetlab.SMPP.Logging
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GetLoggerDelegate
+  nameWithType: GetLoggerDelegate
+  fullName: Inetlab.SMPP.Logging.GetLoggerDelegate
+  type: Delegate
+  source:
+    id: GetLoggerDelegate
+    path: ''
+    startLine: 13912
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public delegate ILog GetLoggerDelegate(string loggerName);
+    parameters:
+    - id: loggerName
+      type: System.String
+    return:
+      type: Inetlab.SMPP.Logging.ILog
+    content.vb: Public Delegate Function GetLoggerDelegate(loggerName As String) As ILog
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  isExternal: false
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Logging.ILog
+  commentId: T:Inetlab.SMPP.Logging.ILog
+  parent: Inetlab.SMPP.Logging
+  isExternal: false
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.SMPP.Logging.ILog
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+shouldSkipMarkup: true

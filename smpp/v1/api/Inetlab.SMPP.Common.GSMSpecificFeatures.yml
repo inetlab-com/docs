@@ -1,0 +1,171 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.GSMSpecificFeatures
+  commentId: T:Inetlab.SMPP.Common.GSMSpecificFeatures
+  id: GSMSpecificFeatures
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.GSMSpecificFeatures.No
+  - Inetlab.SMPP.Common.GSMSpecificFeatures.ReplyPath
+  - Inetlab.SMPP.Common.GSMSpecificFeatures.UDHI
+  - Inetlab.SMPP.Common.GSMSpecificFeatures.UDHIandReplyPath
+  langs:
+  - csharp
+  - vb
+  name: GSMSpecificFeatures
+  nameWithType: GSMSpecificFeatures
+  fullName: Inetlab.SMPP.Common.GSMSpecificFeatures
+  type: Enum
+  source:
+    id: GSMSpecificFeatures
+    path: ''
+    startLine: 4626
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGSM Network Specific Features (bits 7-6 of esm_class)\n"
+  example: []
+  syntax:
+    content: 'public enum GSMSpecificFeatures : byte'
+    content.vb: Public Enum GSMSpecificFeatures As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.GSMSpecificFeatures.No
+  commentId: F:Inetlab.SMPP.Common.GSMSpecificFeatures.No
+  id: No
+  parent: Inetlab.SMPP.Common.GSMSpecificFeatures
+  langs:
+  - csharp
+  - vb
+  name: No
+  nameWithType: GSMSpecificFeatures.No
+  fullName: Inetlab.SMPP.Common.GSMSpecificFeatures.No
+  type: Field
+  source:
+    id: No
+    path: ''
+    startLine: 4631
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNo specific features selected\n"
+  example: []
+  syntax:
+    content: No = 0
+    return:
+      type: Inetlab.SMPP.Common.GSMSpecificFeatures
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.GSMSpecificFeatures.UDHI
+  commentId: F:Inetlab.SMPP.Common.GSMSpecificFeatures.UDHI
+  id: UDHI
+  parent: Inetlab.SMPP.Common.GSMSpecificFeatures
+  langs:
+  - csharp
+  - vb
+  name: UDHI
+  nameWithType: GSMSpecificFeatures.UDHI
+  fullName: Inetlab.SMPP.Common.GSMSpecificFeatures.UDHI
+  type: Field
+  source:
+    id: UDHI
+    path: ''
+    startLine: 4635
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUDHI Indicator set\n"
+  example: []
+  syntax:
+    content: UDHI = 64
+    return:
+      type: Inetlab.SMPP.Common.GSMSpecificFeatures
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.GSMSpecificFeatures.ReplyPath
+  commentId: F:Inetlab.SMPP.Common.GSMSpecificFeatures.ReplyPath
+  id: ReplyPath
+  parent: Inetlab.SMPP.Common.GSMSpecificFeatures
+  langs:
+  - csharp
+  - vb
+  name: ReplyPath
+  nameWithType: GSMSpecificFeatures.ReplyPath
+  fullName: Inetlab.SMPP.Common.GSMSpecificFeatures.ReplyPath
+  type: Field
+  source:
+    id: ReplyPath
+    path: ''
+    startLine: 4639
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSet Reply Path (only relevant for GSM network)\n"
+  example: []
+  syntax:
+    content: ReplyPath = 128
+    return:
+      type: Inetlab.SMPP.Common.GSMSpecificFeatures
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.GSMSpecificFeatures.UDHIandReplyPath
+  commentId: F:Inetlab.SMPP.Common.GSMSpecificFeatures.UDHIandReplyPath
+  id: UDHIandReplyPath
+  parent: Inetlab.SMPP.Common.GSMSpecificFeatures
+  langs:
+  - csharp
+  - vb
+  name: UDHIandReplyPath
+  nameWithType: GSMSpecificFeatures.UDHIandReplyPath
+  fullName: Inetlab.SMPP.Common.GSMSpecificFeatures.UDHIandReplyPath
+  type: Field
+  source:
+    id: UDHIandReplyPath
+    path: ''
+    startLine: 4643
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSet UDHI and Reply Path (only relevant for GSM network)\n"
+  example: []
+  syntax:
+    content: UDHIandReplyPath = 192
+    return:
+      type: Inetlab.SMPP.Common.GSMSpecificFeatures
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.GSMSpecificFeatures
+  commentId: T:Inetlab.SMPP.Common.GSMSpecificFeatures
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: GSMSpecificFeatures
+  nameWithType: GSMSpecificFeatures
+  fullName: Inetlab.SMPP.Common.GSMSpecificFeatures
+shouldSkipMarkup: true

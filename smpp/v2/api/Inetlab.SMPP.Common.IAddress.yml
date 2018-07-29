@@ -1,0 +1,84 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.IAddress
+  commentId: T:Inetlab.SMPP.Common.IAddress
+  id: IAddress
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.IAddress.Address
+  langs:
+  - csharp
+  - vb
+  name: IAddress
+  nameWithType: IAddress
+  fullName: Inetlab.SMPP.Common.IAddress
+  type: Interface
+  source:
+    id: IAddress
+    path: ''
+    startLine: 5608
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public interface IAddress
+    content.vb: Public Interface IAddress
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Inetlab.SMPP.Common.IAddress.Address
+  commentId: P:Inetlab.SMPP.Common.IAddress.Address
+  id: Address
+  parent: Inetlab.SMPP.Common.IAddress
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: IAddress.Address
+  fullName: Inetlab.SMPP.Common.IAddress.Address
+  type: Property
+  source:
+    id: Address
+    path: ''
+    startLine: 5610
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Property Address As String
+  overload: Inetlab.SMPP.Common.IAddress.Address*
+  modifiers.csharp:
+  - get
+  - set
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.IAddress.Address*
+  commentId: Overload:Inetlab.SMPP.Common.IAddress.Address
+  name: Address
+  nameWithType: IAddress.Address
+  fullName: Inetlab.SMPP.Common.IAddress.Address
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+shouldSkipMarkup: true

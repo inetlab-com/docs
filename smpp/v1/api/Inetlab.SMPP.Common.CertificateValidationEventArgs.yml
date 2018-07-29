@@ -1,0 +1,279 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  commentId: T:Inetlab.SMPP.Common.CertificateValidationEventArgs
+  id: CertificateValidationEventArgs
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor(X509Certificate,X509Chain,SslPolicyErrors)
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  - Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  langs:
+  - csharp
+  - vb
+  name: CertificateValidationEventArgs
+  nameWithType: CertificateValidationEventArgs
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  type: Class
+  source:
+    id: CertificateValidationEventArgs
+    path: ''
+    startLine: 3481
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClass that provides event data for validation remote certificates\n"
+  example: []
+  syntax:
+    content: 'public class CertificateValidationEventArgs : EventArgs'
+    content.vb: >-
+      Public Class CertificateValidationEventArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  commentId: P:Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  id: Certificate
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Certificate
+  nameWithType: CertificateValidationEventArgs.Certificate
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  type: Property
+  source:
+    id: Certificate
+    path: ''
+    startLine: 3486
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe certificate used to authenticate the remote party.\n"
+  example: []
+  syntax:
+    content: public X509Certificate Certificate { get; }
+    parameters: []
+    return:
+      type: X509Certificate
+    content.vb: Public ReadOnly Property Certificate As X509Certificate
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  commentId: P:Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  id: Chain
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Chain
+  nameWithType: CertificateValidationEventArgs.Chain
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  type: Property
+  source:
+    id: Chain
+    path: ''
+    startLine: 3490
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe chain of certificate authorities associated with the remote certificate.\n"
+  example: []
+  syntax:
+    content: public X509Chain Chain { get; }
+    parameters: []
+    return:
+      type: X509Chain
+    content.vb: Public ReadOnly Property Chain As X509Chain
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  commentId: P:Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  id: SslPolicyErrors
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: SslPolicyErrors
+  nameWithType: CertificateValidationEventArgs.SslPolicyErrors
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  type: Property
+  source:
+    id: SslPolicyErrors
+    path: ''
+    startLine: 3494
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nOne or more errors associated with the remote certificate.\n"
+  example: []
+  syntax:
+    content: public SslPolicyErrors SslPolicyErrors { get; }
+    parameters: []
+    return:
+      type: SslPolicyErrors
+    content.vb: Public ReadOnly Property SslPolicyErrors As SslPolicyErrors
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  commentId: P:Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  id: Accepted
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Accepted
+  nameWithType: CertificateValidationEventArgs.Accepted
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  type: Property
+  source:
+    id: Accepted
+    path: ''
+    startLine: 3498
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nA <xref href=\"System.Boolean\" data-throw-if-not-resolved=\"false\"></xref> value that determines whether the specified certificate is accepted for authentication.\n"
+  example: []
+  syntax:
+    content: public bool Accepted { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Accepted As Boolean
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor(X509Certificate,X509Chain,SslPolicyErrors)
+  commentId: M:Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor(X509Certificate,X509Chain,SslPolicyErrors)
+  id: '#ctor(X509Certificate,X509Chain,SslPolicyErrors)'
+  parent: Inetlab.SMPP.Common.CertificateValidationEventArgs
+  langs:
+  - csharp
+  - vb
+  name: CertificateValidationEventArgs(X509Certificate, X509Chain, SslPolicyErrors)
+  nameWithType: CertificateValidationEventArgs.CertificateValidationEventArgs(X509Certificate, X509Chain, SslPolicyErrors)
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.CertificateValidationEventArgs(X509Certificate, X509Chain, SslPolicyErrors)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 3500
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public CertificateValidationEventArgs(X509Certificate certificate, X509Chain chain, SslPolicyErrors sslPolicyErrors)
+    parameters:
+    - id: certificate
+      type: X509Certificate
+    - id: chain
+      type: X509Chain
+    - id: sslPolicyErrors
+      type: SslPolicyErrors
+    content.vb: Public Sub New(certificate As X509Certificate, chain As X509Chain, sslPolicyErrors As SslPolicyErrors)
+  overload: Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+  isExternal: false
+  name: Certificate
+  nameWithType: CertificateValidationEventArgs.Certificate
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Certificate
+- uid: X509Certificate
+  isExternal: true
+  name: X509Certificate
+  nameWithType: X509Certificate
+  fullName: X509Certificate
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+  isExternal: false
+  name: Chain
+  nameWithType: CertificateValidationEventArgs.Chain
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Chain
+- uid: X509Chain
+  isExternal: true
+  name: X509Chain
+  nameWithType: X509Chain
+  fullName: X509Chain
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+  isExternal: false
+  name: SslPolicyErrors
+  nameWithType: CertificateValidationEventArgs.SslPolicyErrors
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.SslPolicyErrors
+- uid: SslPolicyErrors
+  isExternal: true
+  name: SslPolicyErrors
+  nameWithType: SslPolicyErrors
+  fullName: SslPolicyErrors
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+  isExternal: false
+  name: Accepted
+  nameWithType: CertificateValidationEventArgs.Accepted
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.Accepted
+- uid: Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.CertificateValidationEventArgs.#ctor
+  isExternal: false
+  name: CertificateValidationEventArgs
+  nameWithType: CertificateValidationEventArgs.CertificateValidationEventArgs
+  fullName: Inetlab.SMPP.Common.CertificateValidationEventArgs.CertificateValidationEventArgs
+shouldSkipMarkup: true

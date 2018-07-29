@@ -1,0 +1,626 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Logging.ConsoleLogger
+  commentId: T:Inetlab.SMPP.Logging.ConsoleLogger
+  id: ConsoleLogger
+  parent: Inetlab.SMPP.Logging
+  children:
+  - Inetlab.SMPP.Logging.ConsoleLogger.#ctor(System.String,Inetlab.SMPP.Logging.LogLevel)
+  - Inetlab.SMPP.Logging.ConsoleLogger.Debug(System.Object)
+  - Inetlab.SMPP.Logging.ConsoleLogger.Error(System.Object,Exception)
+  - Inetlab.SMPP.Logging.ConsoleLogger.Info(System.Object)
+  - Inetlab.SMPP.Logging.ConsoleLogger.Name
+  - Inetlab.SMPP.Logging.ConsoleLogger.Trace(System.Object,System.Byte[])
+  - Inetlab.SMPP.Logging.ConsoleLogger.Warn(System.Object,Exception)
+  langs:
+  - csharp
+  - vb
+  name: ConsoleLogger
+  nameWithType: ConsoleLogger
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger
+  type: Class
+  source:
+    id: ConsoleLogger
+    path: ''
+    startLine: 14639
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: 'public class ConsoleLogger : ILog'
+    content.vb: >-
+      Public Class ConsoleLogger
+          Implements ILog
+  inheritance:
+  - System.Object
+  implements:
+  - Inetlab.SMPP.Logging.ILog
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.#ctor(System.String,Inetlab.SMPP.Logging.LogLevel)
+  commentId: M:Inetlab.SMPP.Logging.ConsoleLogger.#ctor(System.String,Inetlab.SMPP.Logging.LogLevel)
+  id: '#ctor(System.String,Inetlab.SMPP.Logging.LogLevel)'
+  parent: Inetlab.SMPP.Logging.ConsoleLogger
+  langs:
+  - csharp
+  - vb
+  name: ConsoleLogger(String, LogLevel)
+  nameWithType: ConsoleLogger.ConsoleLogger(String, LogLevel)
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.ConsoleLogger(System.String, Inetlab.SMPP.Logging.LogLevel)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 14645
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public ConsoleLogger(string loggerName, LogLevel level)
+    parameters:
+    - id: loggerName
+      type: System.String
+    - id: level
+      type: Inetlab.SMPP.Logging.LogLevel
+    content.vb: Public Sub New(loggerName As String, level As LogLevel)
+  overload: Inetlab.SMPP.Logging.ConsoleLogger.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Name
+  commentId: P:Inetlab.SMPP.Logging.ConsoleLogger.Name
+  id: Name
+  parent: Inetlab.SMPP.Logging.ConsoleLogger
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: ConsoleLogger.Name
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Name
+  type: Property
+  source:
+    id: Name
+    path: ''
+    startLine: 14651
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public string Name { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property Name As String
+  overload: Inetlab.SMPP.Logging.ConsoleLogger.Name*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Error(System.Object,Exception)
+  commentId: M:Inetlab.SMPP.Logging.ConsoleLogger.Error(System.Object,Exception)
+  id: Error(System.Object,Exception)
+  parent: Inetlab.SMPP.Logging.ConsoleLogger
+  langs:
+  - csharp
+  - vb
+  name: Error(Object, Exception)
+  nameWithType: ConsoleLogger.Error(Object, Exception)
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Error(System.Object, Exception)
+  type: Method
+  source:
+    id: Error
+    path: ''
+    startLine: 14690
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public void Error(object message, Exception ex)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: ex
+      type: Exception
+    content.vb: Public Sub Error(message As Object, ex As Exception)
+  overload: Inetlab.SMPP.Logging.ConsoleLogger.Error*
+  implements:
+  - Inetlab.SMPP.Logging.ILog.Error(System.Object,Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Warn(System.Object,Exception)
+  commentId: M:Inetlab.SMPP.Logging.ConsoleLogger.Warn(System.Object,Exception)
+  id: Warn(System.Object,Exception)
+  parent: Inetlab.SMPP.Logging.ConsoleLogger
+  langs:
+  - csharp
+  - vb
+  name: Warn(Object, Exception)
+  nameWithType: ConsoleLogger.Warn(Object, Exception)
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Warn(System.Object, Exception)
+  type: Method
+  source:
+    id: Warn
+    path: ''
+    startLine: 14706
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public void Warn(object message, Exception ex)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: ex
+      type: Exception
+    content.vb: Public Sub Warn(message As Object, ex As Exception)
+  overload: Inetlab.SMPP.Logging.ConsoleLogger.Warn*
+  implements:
+  - Inetlab.SMPP.Logging.ILog.Warn(System.Object,Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Info(System.Object)
+  commentId: M:Inetlab.SMPP.Logging.ConsoleLogger.Info(System.Object)
+  id: Info(System.Object)
+  parent: Inetlab.SMPP.Logging.ConsoleLogger
+  langs:
+  - csharp
+  - vb
+  name: Info(Object)
+  nameWithType: ConsoleLogger.Info(Object)
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Info(System.Object)
+  type: Method
+  source:
+    id: Info
+    path: ''
+    startLine: 14719
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public void Info(object message)
+    parameters:
+    - id: message
+      type: System.Object
+    content.vb: Public Sub Info(message As Object)
+  overload: Inetlab.SMPP.Logging.ConsoleLogger.Info*
+  implements:
+  - Inetlab.SMPP.Logging.ILog.Info(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Debug(System.Object)
+  commentId: M:Inetlab.SMPP.Logging.ConsoleLogger.Debug(System.Object)
+  id: Debug(System.Object)
+  parent: Inetlab.SMPP.Logging.ConsoleLogger
+  langs:
+  - csharp
+  - vb
+  name: Debug(Object)
+  nameWithType: ConsoleLogger.Debug(Object)
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Debug(System.Object)
+  type: Method
+  source:
+    id: Debug
+    path: ''
+    startLine: 14727
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public void Debug(object message)
+    parameters:
+    - id: message
+      type: System.Object
+    content.vb: Public Sub Debug(message As Object)
+  overload: Inetlab.SMPP.Logging.ConsoleLogger.Debug*
+  implements:
+  - Inetlab.SMPP.Logging.ILog.Debug(System.Object)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Trace(System.Object,System.Byte[])
+  commentId: M:Inetlab.SMPP.Logging.ConsoleLogger.Trace(System.Object,System.Byte[])
+  id: Trace(System.Object,System.Byte[])
+  parent: Inetlab.SMPP.Logging.ConsoleLogger
+  langs:
+  - csharp
+  - vb
+  name: Trace(Object, Byte[])
+  nameWithType: ConsoleLogger.Trace(Object, Byte[])
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Trace(System.Object, System.Byte[])
+  type: Method
+  source:
+    id: Trace
+    path: ''
+    startLine: 14736
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public void Trace(object message, byte[] data)
+    parameters:
+    - id: message
+      type: System.Object
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub Trace(message As Object, data As Byte())
+  overload: Inetlab.SMPP.Logging.ConsoleLogger.Trace*
+  implements:
+  - Inetlab.SMPP.Logging.ILog.Trace(System.Object,System.Byte[])
+  nameWithType.vb: ConsoleLogger.Trace(Object, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Logging.ConsoleLogger.Trace(System.Object, System.Byte())
+  name.vb: Trace(Object, Byte())
+references:
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Logging.ILog
+  commentId: T:Inetlab.SMPP.Logging.ILog
+  parent: Inetlab.SMPP.Logging
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.SMPP.Logging.ILog
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.#ctor*
+  commentId: Overload:Inetlab.SMPP.Logging.ConsoleLogger.#ctor
+  name: ConsoleLogger
+  nameWithType: ConsoleLogger.ConsoleLogger
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.ConsoleLogger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Logging.LogLevel
+  commentId: T:Inetlab.SMPP.Logging.LogLevel
+  parent: Inetlab.SMPP.Logging
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Inetlab.SMPP.Logging.LogLevel
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Name*
+  commentId: Overload:Inetlab.SMPP.Logging.ConsoleLogger.Name
+  name: Name
+  nameWithType: ConsoleLogger.Name
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Name
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Error*
+  commentId: Overload:Inetlab.SMPP.Logging.ConsoleLogger.Error
+  name: Error
+  nameWithType: ConsoleLogger.Error
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Error
+- uid: Inetlab.SMPP.Logging.ILog.Error(System.Object,Exception)
+  commentId: M:Inetlab.SMPP.Logging.ILog.Error(System.Object,Exception)
+  parent: Inetlab.SMPP.Logging.ILog
+  isExternal: true
+  name: Error(Object, Exception)
+  nameWithType: ILog.Error(Object, Exception)
+  fullName: Inetlab.SMPP.Logging.ILog.Error(System.Object, Exception)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Logging.ILog.Error(System.Object,Exception)
+    name: Error
+    nameWithType: ILog.Error
+    fullName: Inetlab.SMPP.Logging.ILog.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Logging.ILog.Error(System.Object,Exception)
+    name: Error
+    nameWithType: ILog.Error
+    fullName: Inetlab.SMPP.Logging.ILog.Error
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Warn*
+  commentId: Overload:Inetlab.SMPP.Logging.ConsoleLogger.Warn
+  name: Warn
+  nameWithType: ConsoleLogger.Warn
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Warn
+- uid: Inetlab.SMPP.Logging.ILog.Warn(System.Object,Exception)
+  commentId: M:Inetlab.SMPP.Logging.ILog.Warn(System.Object,Exception)
+  parent: Inetlab.SMPP.Logging.ILog
+  isExternal: true
+  name: Warn(Object, Exception)
+  nameWithType: ILog.Warn(Object, Exception)
+  fullName: Inetlab.SMPP.Logging.ILog.Warn(System.Object, Exception)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Logging.ILog.Warn(System.Object,Exception)
+    name: Warn
+    nameWithType: ILog.Warn
+    fullName: Inetlab.SMPP.Logging.ILog.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Logging.ILog.Warn(System.Object,Exception)
+    name: Warn
+    nameWithType: ILog.Warn
+    fullName: Inetlab.SMPP.Logging.ILog.Warn
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Info*
+  commentId: Overload:Inetlab.SMPP.Logging.ConsoleLogger.Info
+  name: Info
+  nameWithType: ConsoleLogger.Info
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Info
+- uid: Inetlab.SMPP.Logging.ILog.Info(System.Object)
+  commentId: M:Inetlab.SMPP.Logging.ILog.Info(System.Object)
+  parent: Inetlab.SMPP.Logging.ILog
+  isExternal: true
+  name: Info(Object)
+  nameWithType: ILog.Info(Object)
+  fullName: Inetlab.SMPP.Logging.ILog.Info(System.Object)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Logging.ILog.Info(System.Object)
+    name: Info
+    nameWithType: ILog.Info
+    fullName: Inetlab.SMPP.Logging.ILog.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Logging.ILog.Info(System.Object)
+    name: Info
+    nameWithType: ILog.Info
+    fullName: Inetlab.SMPP.Logging.ILog.Info
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Debug*
+  commentId: Overload:Inetlab.SMPP.Logging.ConsoleLogger.Debug
+  name: Debug
+  nameWithType: ConsoleLogger.Debug
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Debug
+- uid: Inetlab.SMPP.Logging.ILog.Debug(System.Object)
+  commentId: M:Inetlab.SMPP.Logging.ILog.Debug(System.Object)
+  parent: Inetlab.SMPP.Logging.ILog
+  isExternal: true
+  name: Debug(Object)
+  nameWithType: ILog.Debug(Object)
+  fullName: Inetlab.SMPP.Logging.ILog.Debug(System.Object)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Logging.ILog.Debug(System.Object)
+    name: Debug
+    nameWithType: ILog.Debug
+    fullName: Inetlab.SMPP.Logging.ILog.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Logging.ILog.Debug(System.Object)
+    name: Debug
+    nameWithType: ILog.Debug
+    fullName: Inetlab.SMPP.Logging.ILog.Debug
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Logging.ConsoleLogger.Trace*
+  commentId: Overload:Inetlab.SMPP.Logging.ConsoleLogger.Trace
+  name: Trace
+  nameWithType: ConsoleLogger.Trace
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger.Trace
+- uid: Inetlab.SMPP.Logging.ILog.Trace(System.Object,System.Byte[])
+  commentId: M:Inetlab.SMPP.Logging.ILog.Trace(System.Object,System.Byte[])
+  parent: Inetlab.SMPP.Logging.ILog
+  isExternal: true
+  name: Trace(Object, Byte[])
+  nameWithType: ILog.Trace(Object, Byte[])
+  fullName: Inetlab.SMPP.Logging.ILog.Trace(System.Object, System.Byte[])
+  nameWithType.vb: ILog.Trace(Object, Byte())
+  fullName.vb: Inetlab.SMPP.Logging.ILog.Trace(System.Object, System.Byte())
+  name.vb: Trace(Object, Byte())
+  spec.csharp:
+  - uid: Inetlab.SMPP.Logging.ILog.Trace(System.Object,System.Byte[])
+    name: Trace
+    nameWithType: ILog.Trace
+    fullName: Inetlab.SMPP.Logging.ILog.Trace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Logging.ILog.Trace(System.Object,System.Byte[])
+    name: Trace
+    nameWithType: ILog.Trace
+    fullName: Inetlab.SMPP.Logging.ILog.Trace
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+shouldSkipMarkup: true

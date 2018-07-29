@@ -1,0 +1,318 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit
+  commentId: T:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit
+  id: ConcatenatedShortMessages8bit
+  parent: Inetlab.SMPP.Common.Headers
+  children:
+  - Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor
+  - Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor(System.Byte,System.Byte,System.Byte)
+  - Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ReferenceNumber
+  - Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.SequenceNumber
+  - Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.Total
+  langs:
+  - csharp
+  - vb
+  name: ConcatenatedShortMessages8bit
+  nameWithType: ConcatenatedShortMessages8bit
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit
+  type: Class
+  source:
+    id: ConcatenatedShortMessages8bit
+    path: ''
+    startLine: 12009
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: 'public class ConcatenatedShortMessages8bit : UserDataHeader'
+    content.vb: >-
+      Public Class ConcatenatedShortMessages8bit
+          Inherits UserDataHeader
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.Common.UserDataHeader
+  inheritedMembers:
+  - Inetlab.SMPP.Common.UserDataHeader.IEI
+  - Inetlab.SMPP.Common.UserDataHeader.Data
+  - Inetlab.SMPP.Common.UserDataHeader.Length
+  - Inetlab.SMPP.Common.UserDataHeader.Clone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor
+  commentId: M:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit
+  langs:
+  - csharp
+  - vb
+  name: ConcatenatedShortMessages8bit()
+  nameWithType: ConcatenatedShortMessages8bit.ConcatenatedShortMessages8bit()
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ConcatenatedShortMessages8bit()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12011
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: public ConcatenatedShortMessages8bit()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor(System.Byte,System.Byte,System.Byte)
+  commentId: M:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor(System.Byte,System.Byte,System.Byte)
+  id: '#ctor(System.Byte,System.Byte,System.Byte)'
+  parent: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit
+  langs:
+  - csharp
+  - vb
+  name: ConcatenatedShortMessages8bit(Byte, Byte, Byte)
+  nameWithType: ConcatenatedShortMessages8bit.ConcatenatedShortMessages8bit(Byte, Byte, Byte)
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ConcatenatedShortMessages8bit(System.Byte, System.Byte, System.Byte)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12017
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: public ConcatenatedShortMessages8bit(byte refNum, byte total, byte seqNum)
+    parameters:
+    - id: refNum
+      type: System.Byte
+    - id: total
+      type: System.Byte
+    - id: seqNum
+      type: System.Byte
+    content.vb: Public Sub New(refNum As Byte, total As Byte, seqNum As Byte)
+  overload: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ReferenceNumber
+  commentId: P:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ReferenceNumber
+  id: ReferenceNumber
+  parent: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit
+  langs:
+  - csharp
+  - vb
+  name: ReferenceNumber
+  nameWithType: ConcatenatedShortMessages8bit.ReferenceNumber
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ReferenceNumber
+  type: Property
+  source:
+    id: ReferenceNumber
+    path: ''
+    startLine: 12027
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  summary: "\nConcatenated short message reference number.\n"
+  example: []
+  syntax:
+    content: public byte ReferenceNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property ReferenceNumber As Byte
+  overload: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ReferenceNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.Total
+  commentId: P:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.Total
+  id: Total
+  parent: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit
+  langs:
+  - csharp
+  - vb
+  name: Total
+  nameWithType: ConcatenatedShortMessages8bit.Total
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.Total
+  type: Property
+  source:
+    id: Total
+    path: ''
+    startLine: 12036
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  summary: "\nMaximum number of short messages in the concatenated short message.\n"
+  example: []
+  syntax:
+    content: public byte Total { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property Total As Byte
+  overload: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.Total*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.SequenceNumber
+  commentId: P:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.SequenceNumber
+  id: SequenceNumber
+  parent: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit
+  langs:
+  - csharp
+  - vb
+  name: SequenceNumber
+  nameWithType: ConcatenatedShortMessages8bit.SequenceNumber
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.SequenceNumber
+  type: Property
+  source:
+    id: SequenceNumber
+    path: ''
+    startLine: 12045
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  summary: "\nSequence number of the current short message.\n"
+  example: []
+  syntax:
+    content: public byte SequenceNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Byte
+    content.vb: Public Property SequenceNumber As Byte
+  overload: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.SequenceNumber*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common.Headers
+  commentId: N:Inetlab.SMPP.Common.Headers
+  isExternal: false
+  name: Inetlab.SMPP.Common.Headers
+  nameWithType: Inetlab.SMPP.Common.Headers
+  fullName: Inetlab.SMPP.Common.Headers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.UserDataHeader
+  commentId: T:Inetlab.SMPP.Common.UserDataHeader
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: UserDataHeader
+  nameWithType: UserDataHeader
+  fullName: Inetlab.SMPP.Common.UserDataHeader
+- uid: Inetlab.SMPP.Common.UserDataHeader.IEI
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.IEI
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  isExternal: false
+  name: IEI
+  nameWithType: UserDataHeader.IEI
+  fullName: Inetlab.SMPP.Common.UserDataHeader.IEI
+- uid: Inetlab.SMPP.Common.UserDataHeader.Data
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.Data
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  isExternal: false
+  name: Data
+  nameWithType: UserDataHeader.Data
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Data
+- uid: Inetlab.SMPP.Common.UserDataHeader.Length
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.Length
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  isExternal: false
+  name: Length
+  nameWithType: UserDataHeader.Length
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Length
+- uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+  commentId: M:Inetlab.SMPP.Common.UserDataHeader.Clone
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  isExternal: false
+  name: Clone()
+  nameWithType: UserDataHeader.Clone()
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Clone()
+  spec.csharp:
+  - uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+    name: Clone
+    nameWithType: UserDataHeader.Clone
+    fullName: Inetlab.SMPP.Common.UserDataHeader.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+    name: Clone
+    nameWithType: UserDataHeader.Clone
+    fullName: Inetlab.SMPP.Common.UserDataHeader.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.#ctor
+  isExternal: false
+  name: ConcatenatedShortMessages8bit
+  nameWithType: ConcatenatedShortMessages8bit.ConcatenatedShortMessages8bit
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ConcatenatedShortMessages8bit
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ReferenceNumber*
+  commentId: Overload:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ReferenceNumber
+  isExternal: false
+  name: ReferenceNumber
+  nameWithType: ConcatenatedShortMessages8bit.ReferenceNumber
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.ReferenceNumber
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.Total*
+  commentId: Overload:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.Total
+  isExternal: false
+  name: Total
+  nameWithType: ConcatenatedShortMessages8bit.Total
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.Total
+- uid: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.SequenceNumber*
+  commentId: Overload:Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.SequenceNumber
+  isExternal: false
+  name: SequenceNumber
+  nameWithType: ConcatenatedShortMessages8bit.SequenceNumber
+  fullName: Inetlab.SMPP.Common.Headers.ConcatenatedShortMessages8bit.SequenceNumber
+shouldSkipMarkup: true

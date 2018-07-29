@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SMEAcknowledgement
+  commentId: T:Inetlab.SMPP.Common.SMEAcknowledgement
+  id: SMEAcknowledgement
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SMEAcknowledgement.Delivery
+  - Inetlab.SMPP.Common.SMEAcknowledgement.DeliveryManual
+  - Inetlab.SMPP.Common.SMEAcknowledgement.Manual
+  - Inetlab.SMPP.Common.SMEAcknowledgement.NotRequested
+  langs:
+  - csharp
+  - vb
+  name: SMEAcknowledgement
+  nameWithType: SMEAcknowledgement
+  fullName: Inetlab.SMPP.Common.SMEAcknowledgement
+  type: Enum
+  source:
+    id: SMEAcknowledgement
+    path: ''
+    startLine: 8777
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSME originated Acknowledgement (bits 3 and 2 of registered_delivery)\n"
+  example: []
+  syntax:
+    content: 'public enum SMEAcknowledgement : byte'
+    content.vb: Public Enum SMEAcknowledgement As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.SMEAcknowledgement.NotRequested
+  commentId: F:Inetlab.SMPP.Common.SMEAcknowledgement.NotRequested
+  id: NotRequested
+  parent: Inetlab.SMPP.Common.SMEAcknowledgement
+  langs:
+  - csharp
+  - vb
+  name: NotRequested
+  nameWithType: SMEAcknowledgement.NotRequested
+  fullName: Inetlab.SMPP.Common.SMEAcknowledgement.NotRequested
+  type: Field
+  source:
+    id: NotRequested
+    path: ''
+    startLine: 8782
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNo recipient SME acknowledgment requested (default)\n"
+  example: []
+  syntax:
+    content: NotRequested = 0
+    return:
+      type: Inetlab.SMPP.Common.SMEAcknowledgement
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.SMEAcknowledgement.Delivery
+  commentId: F:Inetlab.SMPP.Common.SMEAcknowledgement.Delivery
+  id: Delivery
+  parent: Inetlab.SMPP.Common.SMEAcknowledgement
+  langs:
+  - csharp
+  - vb
+  name: Delivery
+  nameWithType: SMEAcknowledgement.Delivery
+  fullName: Inetlab.SMPP.Common.SMEAcknowledgement.Delivery
+  type: Field
+  source:
+    id: Delivery
+    path: ''
+    startLine: 8787
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSME Delivery Acknowledgement requested\n"
+  example: []
+  syntax:
+    content: Delivery = 4
+    return:
+      type: Inetlab.SMPP.Common.SMEAcknowledgement
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.SMEAcknowledgement.Manual
+  commentId: F:Inetlab.SMPP.Common.SMEAcknowledgement.Manual
+  id: Manual
+  parent: Inetlab.SMPP.Common.SMEAcknowledgement
+  langs:
+  - csharp
+  - vb
+  name: Manual
+  nameWithType: SMEAcknowledgement.Manual
+  fullName: Inetlab.SMPP.Common.SMEAcknowledgement.Manual
+  type: Field
+  source:
+    id: Manual
+    path: ''
+    startLine: 8792
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSME Manual/User Acknowledgment requested\n"
+  example: []
+  syntax:
+    content: Manual = 8
+    return:
+      type: Inetlab.SMPP.Common.SMEAcknowledgement
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.SMEAcknowledgement.DeliveryManual
+  commentId: F:Inetlab.SMPP.Common.SMEAcknowledgement.DeliveryManual
+  id: DeliveryManual
+  parent: Inetlab.SMPP.Common.SMEAcknowledgement
+  langs:
+  - csharp
+  - vb
+  name: DeliveryManual
+  nameWithType: SMEAcknowledgement.DeliveryManual
+  fullName: Inetlab.SMPP.Common.SMEAcknowledgement.DeliveryManual
+  type: Field
+  source:
+    id: DeliveryManual
+    path: ''
+    startLine: 8797
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nBoth Delivery and Manual/User Acknowledgment requested\n"
+  example: []
+  syntax:
+    content: DeliveryManual = 12
+    return:
+      type: Inetlab.SMPP.Common.SMEAcknowledgement
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.SMEAcknowledgement
+  commentId: T:Inetlab.SMPP.Common.SMEAcknowledgement
+  parent: Inetlab.SMPP.Common
+  name: SMEAcknowledgement
+  nameWithType: SMEAcknowledgement
+  fullName: Inetlab.SMPP.Common.SMEAcknowledgement
+shouldSkipMarkup: true

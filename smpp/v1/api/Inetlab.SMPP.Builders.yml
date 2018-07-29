@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Builders
+  commentId: N:Inetlab.SMPP.Builders
+  id: Inetlab.SMPP.Builders
+  children:
+  - Inetlab.SMPP.Builders.IBuilder`1
+  - Inetlab.SMPP.Builders.IDeliverSmBuilder
+  - Inetlab.SMPP.Builders.ISubmitMultiBuilder
+  - Inetlab.SMPP.Builders.ISubmitSmBuilder
+  - Inetlab.SMPP.Builders.IWapPushBuilder
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.SMPP.Builders
+  nameWithType: Inetlab.SMPP.Builders
+  fullName: Inetlab.SMPP.Builders
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Inetlab.SMPP.Builders.IBuilder`1
+  commentId: T:Inetlab.SMPP.Builders.IBuilder`1
+  isExternal: false
+  name: IBuilder<T>
+  nameWithType: IBuilder<T>
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>
+  nameWithType.vb: IBuilder(Of T)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T)
+  name.vb: IBuilder(Of T)
+  spec.csharp:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.Builders.IBuilder`1
+    name: IBuilder
+    nameWithType: IBuilder
+    fullName: Inetlab.SMPP.Builders.IBuilder
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Builders.IDeliverSmBuilder
+  commentId: T:Inetlab.SMPP.Builders.IDeliverSmBuilder
+  parent: Inetlab.SMPP.Builders
+  isExternal: false
+  name: IDeliverSmBuilder
+  nameWithType: IDeliverSmBuilder
+  fullName: Inetlab.SMPP.Builders.IDeliverSmBuilder
+- uid: Inetlab.SMPP.Builders.ISubmitMultiBuilder
+  commentId: T:Inetlab.SMPP.Builders.ISubmitMultiBuilder
+  parent: Inetlab.SMPP.Builders
+  isExternal: false
+  name: ISubmitMultiBuilder
+  nameWithType: ISubmitMultiBuilder
+  fullName: Inetlab.SMPP.Builders.ISubmitMultiBuilder
+- uid: Inetlab.SMPP.Builders.ISubmitSmBuilder
+  commentId: T:Inetlab.SMPP.Builders.ISubmitSmBuilder
+  parent: Inetlab.SMPP.Builders
+  isExternal: false
+  name: ISubmitSmBuilder
+  nameWithType: ISubmitSmBuilder
+  fullName: Inetlab.SMPP.Builders.ISubmitSmBuilder
+- uid: Inetlab.SMPP.Builders.IWapPushBuilder
+  commentId: T:Inetlab.SMPP.Builders.IWapPushBuilder
+  parent: Inetlab.SMPP.Builders
+  isExternal: false
+  name: IWapPushBuilder
+  nameWithType: IWapPushBuilder
+  fullName: Inetlab.SMPP.Builders.IWapPushBuilder
+- uid: Inetlab.SMPP.Builders
+  commentId: N:Inetlab.SMPP.Builders
+  isExternal: false
+  name: Inetlab.SMPP.Builders
+  nameWithType: Inetlab.SMPP.Builders
+  fullName: Inetlab.SMPP.Builders
+shouldSkipMarkup: true

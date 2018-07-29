@@ -1,0 +1,264 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Ton
+  commentId: T:Inetlab.SMPP.Common.Ton
+  id: Ton
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.Ton.Abbreviated
+  - Inetlab.SMPP.Common.Ton.Alphanumeric
+  - Inetlab.SMPP.Common.Ton.International
+  - Inetlab.SMPP.Common.Ton.National
+  - Inetlab.SMPP.Common.Ton.NetworkSpecific
+  - Inetlab.SMPP.Common.Ton.SubscriberNumber
+  - Inetlab.SMPP.Common.Ton.Unknown
+  langs:
+  - csharp
+  - vb
+  name: Ton
+  nameWithType: Ton
+  fullName: Inetlab.SMPP.Common.Ton
+  type: Enum
+  source:
+    id: Ton
+    path: ''
+    startLine: 11367
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nType of Number (TON) used in the SME address parameters.\n"
+  example: []
+  syntax:
+    content: 'public enum Ton : byte'
+    content.vb: Public Enum Ton As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.Ton.Unknown
+  commentId: F:Inetlab.SMPP.Common.Ton.Unknown
+  id: Unknown
+  parent: Inetlab.SMPP.Common.Ton
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: Ton.Unknown
+  fullName: Inetlab.SMPP.Common.Ton.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 11372
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nUnknown\n"
+  example: []
+  syntax:
+    content: Unknown = 0
+    return:
+      type: Inetlab.SMPP.Common.Ton
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Ton.International
+  commentId: F:Inetlab.SMPP.Common.Ton.International
+  id: International
+  parent: Inetlab.SMPP.Common.Ton
+  langs:
+  - csharp
+  - vb
+  name: International
+  nameWithType: Ton.International
+  fullName: Inetlab.SMPP.Common.Ton.International
+  type: Field
+  source:
+    id: International
+    path: ''
+    startLine: 11376
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nInternational\n"
+  example: []
+  syntax:
+    content: International = 1
+    return:
+      type: Inetlab.SMPP.Common.Ton
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Ton.National
+  commentId: F:Inetlab.SMPP.Common.Ton.National
+  id: National
+  parent: Inetlab.SMPP.Common.Ton
+  langs:
+  - csharp
+  - vb
+  name: National
+  nameWithType: Ton.National
+  fullName: Inetlab.SMPP.Common.Ton.National
+  type: Field
+  source:
+    id: National
+    path: ''
+    startLine: 11380
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNational\n"
+  example: []
+  syntax:
+    content: National = 2
+    return:
+      type: Inetlab.SMPP.Common.Ton
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Ton.NetworkSpecific
+  commentId: F:Inetlab.SMPP.Common.Ton.NetworkSpecific
+  id: NetworkSpecific
+  parent: Inetlab.SMPP.Common.Ton
+  langs:
+  - csharp
+  - vb
+  name: NetworkSpecific
+  nameWithType: Ton.NetworkSpecific
+  fullName: Inetlab.SMPP.Common.Ton.NetworkSpecific
+  type: Field
+  source:
+    id: NetworkSpecific
+    path: ''
+    startLine: 11384
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nNetworkSpecific\n"
+  example: []
+  syntax:
+    content: NetworkSpecific = 3
+    return:
+      type: Inetlab.SMPP.Common.Ton
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Ton.SubscriberNumber
+  commentId: F:Inetlab.SMPP.Common.Ton.SubscriberNumber
+  id: SubscriberNumber
+  parent: Inetlab.SMPP.Common.Ton
+  langs:
+  - csharp
+  - vb
+  name: SubscriberNumber
+  nameWithType: Ton.SubscriberNumber
+  fullName: Inetlab.SMPP.Common.Ton.SubscriberNumber
+  type: Field
+  source:
+    id: SubscriberNumber
+    path: ''
+    startLine: 11388
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSubscriberNumber\n"
+  example: []
+  syntax:
+    content: SubscriberNumber = 4
+    return:
+      type: Inetlab.SMPP.Common.Ton
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Ton.Alphanumeric
+  commentId: F:Inetlab.SMPP.Common.Ton.Alphanumeric
+  id: Alphanumeric
+  parent: Inetlab.SMPP.Common.Ton
+  langs:
+  - csharp
+  - vb
+  name: Alphanumeric
+  nameWithType: Ton.Alphanumeric
+  fullName: Inetlab.SMPP.Common.Ton.Alphanumeric
+  type: Field
+  source:
+    id: Alphanumeric
+    path: ''
+    startLine: 11392
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nAlphanumeric\n"
+  example: []
+  syntax:
+    content: Alphanumeric = 5
+    return:
+      type: Inetlab.SMPP.Common.Ton
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.Ton.Abbreviated
+  commentId: F:Inetlab.SMPP.Common.Ton.Abbreviated
+  id: Abbreviated
+  parent: Inetlab.SMPP.Common.Ton
+  langs:
+  - csharp
+  - vb
+  name: Abbreviated
+  nameWithType: Ton.Abbreviated
+  fullName: Inetlab.SMPP.Common.Ton.Abbreviated
+  type: Field
+  source:
+    id: Abbreviated
+    path: ''
+    startLine: 11396
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nAbbreviated\n"
+  example: []
+  syntax:
+    content: Abbreviated = 6
+    return:
+      type: Inetlab.SMPP.Common.Ton
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.Ton
+  commentId: T:Inetlab.SMPP.Common.Ton
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: Ton
+  nameWithType: Ton
+  fullName: Inetlab.SMPP.Common.Ton
+shouldSkipMarkup: true

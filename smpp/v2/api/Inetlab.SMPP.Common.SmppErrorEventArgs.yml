@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SmppErrorEventArgs
+  commentId: T:Inetlab.SMPP.Common.SmppErrorEventArgs
+  id: SmppErrorEventArgs
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor(System.String)
+  - Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor(System.String,Exception)
+  - Inetlab.SMPP.Common.SmppErrorEventArgs.Comment
+  - Inetlab.SMPP.Common.SmppErrorEventArgs.Exception
+  langs:
+  - csharp
+  - vb
+  name: SmppErrorEventArgs
+  nameWithType: SmppErrorEventArgs
+  fullName: Inetlab.SMPP.Common.SmppErrorEventArgs
+  type: Class
+  source:
+    id: SmppErrorEventArgs
+    path: ''
+    startLine: 8906
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nClass that provides event data for errors occured during process SMPP messages\n"
+  example: []
+  syntax:
+    content: 'public class SmppErrorEventArgs : EventArgs'
+    content.vb: >-
+      Public Class SmppErrorEventArgs
+          Inherits EventArgs
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.SmppErrorEventArgs.Comment
+  commentId: P:Inetlab.SMPP.Common.SmppErrorEventArgs.Comment
+  id: Comment
+  parent: Inetlab.SMPP.Common.SmppErrorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Comment
+  nameWithType: SmppErrorEventArgs.Comment
+  fullName: Inetlab.SMPP.Common.SmppErrorEventArgs.Comment
+  type: Property
+  source:
+    id: Comment
+    path: ''
+    startLine: 8908
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public string Comment { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Comment As String
+  overload: Inetlab.SMPP.Common.SmppErrorEventArgs.Comment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppErrorEventArgs.Exception
+  commentId: P:Inetlab.SMPP.Common.SmppErrorEventArgs.Exception
+  id: Exception
+  parent: Inetlab.SMPP.Common.SmppErrorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: Exception
+  nameWithType: SmppErrorEventArgs.Exception
+  fullName: Inetlab.SMPP.Common.SmppErrorEventArgs.Exception
+  type: Property
+  source:
+    id: Exception
+    path: ''
+    startLine: 8910
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public Exception Exception { get; set; }
+    parameters: []
+    return:
+      type: Exception
+    content.vb: Public Property Exception As Exception
+  overload: Inetlab.SMPP.Common.SmppErrorEventArgs.Exception*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor(System.String,Exception)
+  commentId: M:Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor(System.String,Exception)
+  id: '#ctor(System.String,Exception)'
+  parent: Inetlab.SMPP.Common.SmppErrorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: SmppErrorEventArgs(String, Exception)
+  nameWithType: SmppErrorEventArgs.SmppErrorEventArgs(String, Exception)
+  fullName: Inetlab.SMPP.Common.SmppErrorEventArgs.SmppErrorEventArgs(System.String, Exception)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8912
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppErrorEventArgs(string comment, Exception ex)
+    parameters:
+    - id: comment
+      type: System.String
+    - id: ex
+      type: Exception
+    content.vb: Public Sub New(comment As String, ex As Exception)
+  overload: Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor(System.String)
+  commentId: M:Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Inetlab.SMPP.Common.SmppErrorEventArgs
+  langs:
+  - csharp
+  - vb
+  name: SmppErrorEventArgs(String)
+  nameWithType: SmppErrorEventArgs.SmppErrorEventArgs(String)
+  fullName: Inetlab.SMPP.Common.SmppErrorEventArgs.SmppErrorEventArgs(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8918
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppErrorEventArgs(string comment)
+    parameters:
+    - id: comment
+      type: System.String
+    content.vb: Public Sub New(comment As String)
+  overload: Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.SmppErrorEventArgs.Comment*
+  commentId: Overload:Inetlab.SMPP.Common.SmppErrorEventArgs.Comment
+  name: Comment
+  nameWithType: SmppErrorEventArgs.Comment
+  fullName: Inetlab.SMPP.Common.SmppErrorEventArgs.Comment
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Common.SmppErrorEventArgs.Exception*
+  commentId: Overload:Inetlab.SMPP.Common.SmppErrorEventArgs.Exception
+  name: Exception
+  nameWithType: SmppErrorEventArgs.Exception
+  fullName: Inetlab.SMPP.Common.SmppErrorEventArgs.Exception
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.SmppErrorEventArgs.#ctor
+  name: SmppErrorEventArgs
+  nameWithType: SmppErrorEventArgs.SmppErrorEventArgs
+  fullName: Inetlab.SMPP.Common.SmppErrorEventArgs.SmppErrorEventArgs
+shouldSkipMarkup: true

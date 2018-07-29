@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  id: Inetlab.SMPP.Logging
+  children:
+  - Inetlab.SMPP.Logging.ConsoleLogger
+  - Inetlab.SMPP.Logging.FileLogger
+  - Inetlab.SMPP.Logging.GetLoggerDelegate
+  - Inetlab.SMPP.Logging.ILog
+  - Inetlab.SMPP.Logging.LogExtension
+  - Inetlab.SMPP.Logging.LogLevel
+  - Inetlab.SMPP.Logging.LogManager
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Inetlab.SMPP.Logging.ConsoleLogger
+  commentId: T:Inetlab.SMPP.Logging.ConsoleLogger
+  name: ConsoleLogger
+  nameWithType: ConsoleLogger
+  fullName: Inetlab.SMPP.Logging.ConsoleLogger
+- uid: Inetlab.SMPP.Logging.FileLogger
+  commentId: T:Inetlab.SMPP.Logging.FileLogger
+  name: FileLogger
+  nameWithType: FileLogger
+  fullName: Inetlab.SMPP.Logging.FileLogger
+- uid: Inetlab.SMPP.Logging.GetLoggerDelegate
+  commentId: T:Inetlab.SMPP.Logging.GetLoggerDelegate
+  parent: Inetlab.SMPP.Logging
+  name: GetLoggerDelegate
+  nameWithType: GetLoggerDelegate
+  fullName: Inetlab.SMPP.Logging.GetLoggerDelegate
+- uid: Inetlab.SMPP.Logging.ILog
+  commentId: T:Inetlab.SMPP.Logging.ILog
+  parent: Inetlab.SMPP.Logging
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.SMPP.Logging.ILog
+- uid: Inetlab.SMPP.Logging.LogExtension
+  commentId: T:Inetlab.SMPP.Logging.LogExtension
+  name: LogExtension
+  nameWithType: LogExtension
+  fullName: Inetlab.SMPP.Logging.LogExtension
+- uid: Inetlab.SMPP.Logging.LogLevel
+  commentId: T:Inetlab.SMPP.Logging.LogLevel
+  parent: Inetlab.SMPP.Logging
+  name: LogLevel
+  nameWithType: LogLevel
+  fullName: Inetlab.SMPP.Logging.LogLevel
+- uid: Inetlab.SMPP.Logging.LogManager
+  commentId: T:Inetlab.SMPP.Logging.LogManager
+  name: LogManager
+  nameWithType: LogManager
+  fullName: Inetlab.SMPP.Logging.LogManager
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging
+shouldSkipMarkup: true

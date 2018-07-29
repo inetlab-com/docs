@@ -1,0 +1,234 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Parameters.DPF
+  commentId: T:Inetlab.SMPP.Common.Parameters.DPF
+  id: DPF
+  parent: Inetlab.SMPP.Common.Parameters
+  children:
+  - Inetlab.SMPP.Common.Parameters.DPF.#ctor(System.Boolean)
+  - Inetlab.SMPP.Common.Parameters.DPF.Requested
+  langs:
+  - csharp
+  - vb
+  name: DPF
+  nameWithType: DPF
+  fullName: Inetlab.SMPP.Common.Parameters.DPF
+  type: Class
+  source:
+    id: DPF
+    path: ''
+    startLine: 13172
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Parameters
+  summary: "\nAn ESME may use the set_dpf parameter to request the setting of a delivery pending flag (DPF) for certain delivery failure scenarios\n"
+  example: []
+  syntax:
+    content: 'public class DPF : TLV'
+    content.vb: >-
+      Public Class DPF
+          Inherits TLV
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.Common.TLV
+  inheritedMembers:
+  - Inetlab.SMPP.Common.TLV.Tag
+  - Inetlab.SMPP.Common.TLV.Length
+  - Inetlab.SMPP.Common.TLV.Value
+  - Inetlab.SMPP.Common.TLV.TagValue
+  - Inetlab.SMPP.Common.TLV.GetHashCode
+  - Inetlab.SMPP.Common.TLV.Clone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.Parameters.DPF.Requested
+  commentId: P:Inetlab.SMPP.Common.Parameters.DPF.Requested
+  id: Requested
+  parent: Inetlab.SMPP.Common.Parameters.DPF
+  langs:
+  - csharp
+  - vb
+  name: Requested
+  nameWithType: DPF.Requested
+  fullName: Inetlab.SMPP.Common.Parameters.DPF.Requested
+  type: Property
+  source:
+    id: Requested
+    path: ''
+    startLine: 13174
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Parameters
+  syntax:
+    content: public bool Requested { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property Requested As Boolean
+  overload: Inetlab.SMPP.Common.Parameters.DPF.Requested*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Parameters.DPF.#ctor(System.Boolean)
+  commentId: M:Inetlab.SMPP.Common.Parameters.DPF.#ctor(System.Boolean)
+  id: '#ctor(System.Boolean)'
+  parent: Inetlab.SMPP.Common.Parameters.DPF
+  langs:
+  - csharp
+  - vb
+  name: DPF(Boolean)
+  nameWithType: DPF.DPF(Boolean)
+  fullName: Inetlab.SMPP.Common.Parameters.DPF.DPF(System.Boolean)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 13187
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Parameters
+  syntax:
+    content: public DPF(bool reuested)
+    parameters:
+    - id: reuested
+      type: System.Boolean
+    content.vb: Public Sub New(reuested As Boolean)
+  overload: Inetlab.SMPP.Common.Parameters.DPF.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common.Parameters
+  commentId: N:Inetlab.SMPP.Common.Parameters
+  name: Inetlab.SMPP.Common.Parameters
+  nameWithType: Inetlab.SMPP.Common.Parameters
+  fullName: Inetlab.SMPP.Common.Parameters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.TLV
+  commentId: T:Inetlab.SMPP.Common.TLV
+  parent: Inetlab.SMPP.Common
+  name: TLV
+  nameWithType: TLV
+  fullName: Inetlab.SMPP.Common.TLV
+- uid: Inetlab.SMPP.Common.TLV.Tag
+  commentId: P:Inetlab.SMPP.Common.TLV.Tag
+  parent: Inetlab.SMPP.Common.TLV
+  name: Tag
+  nameWithType: TLV.Tag
+  fullName: Inetlab.SMPP.Common.TLV.Tag
+- uid: Inetlab.SMPP.Common.TLV.Length
+  commentId: P:Inetlab.SMPP.Common.TLV.Length
+  parent: Inetlab.SMPP.Common.TLV
+  name: Length
+  nameWithType: TLV.Length
+  fullName: Inetlab.SMPP.Common.TLV.Length
+- uid: Inetlab.SMPP.Common.TLV.Value
+  commentId: P:Inetlab.SMPP.Common.TLV.Value
+  parent: Inetlab.SMPP.Common.TLV
+  name: Value
+  nameWithType: TLV.Value
+  fullName: Inetlab.SMPP.Common.TLV.Value
+- uid: Inetlab.SMPP.Common.TLV.TagValue
+  commentId: P:Inetlab.SMPP.Common.TLV.TagValue
+  parent: Inetlab.SMPP.Common.TLV
+  name: TagValue
+  nameWithType: TLV.TagValue
+  fullName: Inetlab.SMPP.Common.TLV.TagValue
+- uid: Inetlab.SMPP.Common.TLV.GetHashCode
+  commentId: M:Inetlab.SMPP.Common.TLV.GetHashCode
+  parent: Inetlab.SMPP.Common.TLV
+  name: GetHashCode()
+  nameWithType: TLV.GetHashCode()
+  fullName: Inetlab.SMPP.Common.TLV.GetHashCode()
+  spec.csharp:
+  - uid: Inetlab.SMPP.Common.TLV.GetHashCode
+    name: GetHashCode
+    nameWithType: TLV.GetHashCode
+    fullName: Inetlab.SMPP.Common.TLV.GetHashCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Common.TLV.GetHashCode
+    name: GetHashCode
+    nameWithType: TLV.GetHashCode
+    fullName: Inetlab.SMPP.Common.TLV.GetHashCode
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common.TLV.Clone
+  commentId: M:Inetlab.SMPP.Common.TLV.Clone
+  parent: Inetlab.SMPP.Common.TLV
+  name: Clone()
+  nameWithType: TLV.Clone()
+  fullName: Inetlab.SMPP.Common.TLV.Clone()
+  spec.csharp:
+  - uid: Inetlab.SMPP.Common.TLV.Clone
+    name: Clone
+    nameWithType: TLV.Clone
+    fullName: Inetlab.SMPP.Common.TLV.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Common.TLV.Clone
+    name: Clone
+    nameWithType: TLV.Clone
+    fullName: Inetlab.SMPP.Common.TLV.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.Parameters.DPF.Requested*
+  commentId: Overload:Inetlab.SMPP.Common.Parameters.DPF.Requested
+  name: Requested
+  nameWithType: DPF.Requested
+  fullName: Inetlab.SMPP.Common.Parameters.DPF.Requested
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Inetlab.SMPP.Common.Parameters.DPF.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.Parameters.DPF.#ctor
+  name: DPF
+  nameWithType: DPF.DPF
+  fullName: Inetlab.SMPP.Common.Parameters.DPF.DPF
+shouldSkipMarkup: true

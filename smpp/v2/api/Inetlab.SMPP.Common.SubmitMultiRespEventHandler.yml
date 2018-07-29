@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SubmitMultiRespEventHandler
+  commentId: T:Inetlab.SMPP.Common.SubmitMultiRespEventHandler
+  id: SubmitMultiRespEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SubmitMultiRespEventHandler
+  nameWithType: SubmitMultiRespEventHandler
+  fullName: Inetlab.SMPP.Common.SubmitMultiRespEventHandler
+  type: Delegate
+  source:
+    id: SubmitMultiRespEventHandler
+    path: ''
+    startLine: 5563
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void SubmitMultiRespEventHandler(object sender, SubmitMultiResp data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: Inetlab.SMPP.PDU.SubmitMultiResp
+    content.vb: Public Delegate Sub SubmitMultiRespEventHandler(sender As Object, data As SubmitMultiResp)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SubmitMultiResp
+  commentId: T:Inetlab.SMPP.PDU.SubmitMultiResp
+  parent: Inetlab.SMPP.PDU
+  name: SubmitMultiResp
+  nameWithType: SubmitMultiResp
+  fullName: Inetlab.SMPP.PDU.SubmitMultiResp
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

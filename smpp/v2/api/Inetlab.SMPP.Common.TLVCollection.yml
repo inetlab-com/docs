@@ -1,0 +1,809 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.TLVCollection
+  commentId: T:Inetlab.SMPP.Common.TLVCollection
+  id: TLVCollection
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.TLVCollection.#ctor
+  - Inetlab.SMPP.Common.TLVCollection.#ctor(Inetlab.SMPP.Common.EncodingMapper)
+  - Inetlab.SMPP.Common.TLVCollection.#ctor(Inetlab.SMPP.SmppClientBase)
+  - Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.Byte)
+  - Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.Byte[])
+  - Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.Int32)
+  - Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.String)
+  - Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.String,Inetlab.SMPP.Common.DataCodings)
+  - Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.UInt16)
+  - Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.UInt32)
+  - Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.TLV)
+  - Inetlab.SMPP.Common.TLVCollection.AddMessagePayload(System.Byte[])
+  - Inetlab.SMPP.Common.TLVCollection.AddMoreMessagesToSend(System.Boolean)
+  - Inetlab.SMPP.Common.TLVCollection.AddSARReferenceNumber(System.UInt16)
+  - Inetlab.SMPP.Common.TLVCollection.AddSARSequenceNumber(System.Byte)
+  - Inetlab.SMPP.Common.TLVCollection.AddSARTotalSegments(System.Byte)
+  - Inetlab.SMPP.Common.TLVCollection.Item(Inetlab.SMPP.Common.OptionalTags)
+  - Inetlab.SMPP.Common.TLVCollection.Item(System.Int32)
+  - Inetlab.SMPP.Common.TLVCollection.Item(System.UInt16)
+  langs:
+  - csharp
+  - vb
+  name: TLVCollection
+  nameWithType: TLVCollection
+  fullName: Inetlab.SMPP.Common.TLVCollection
+  type: Class
+  source:
+    id: TLVCollection
+    path: ''
+    startLine: 12508
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nCollection of optional parameters in TLV format.\n"
+  example: []
+  syntax:
+    content: 'public class TLVCollection : List<TLV>'
+    content.vb: >-
+      Public Class TLVCollection
+          Inherits List(Of TLV)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.TLVCollection.#ctor
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: TLVCollection()
+  nameWithType: TLVCollection.TLVCollection()
+  fullName: Inetlab.SMPP.Common.TLVCollection.TLVCollection()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12512
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public TLVCollection()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.TLVCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.#ctor(Inetlab.SMPP.SmppClientBase)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.#ctor(Inetlab.SMPP.SmppClientBase)
+  id: '#ctor(Inetlab.SMPP.SmppClientBase)'
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: TLVCollection(SmppClientBase)
+  nameWithType: TLVCollection.TLVCollection(SmppClientBase)
+  fullName: Inetlab.SMPP.Common.TLVCollection.TLVCollection(Inetlab.SMPP.SmppClientBase)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12514
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public TLVCollection(SmppClientBase client)
+    parameters:
+    - id: client
+      type: Inetlab.SMPP.SmppClientBase
+    content.vb: Public Sub New(client As SmppClientBase)
+  overload: Inetlab.SMPP.Common.TLVCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.#ctor(Inetlab.SMPP.Common.EncodingMapper)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.#ctor(Inetlab.SMPP.Common.EncodingMapper)
+  id: '#ctor(Inetlab.SMPP.Common.EncodingMapper)'
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: TLVCollection(EncodingMapper)
+  nameWithType: TLVCollection.TLVCollection(EncodingMapper)
+  fullName: Inetlab.SMPP.Common.TLVCollection.TLVCollection(Inetlab.SMPP.Common.EncodingMapper)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12519
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public TLVCollection(EncodingMapper mapper)
+    parameters:
+    - id: mapper
+      type: Inetlab.SMPP.Common.EncodingMapper
+    content.vb: Public Sub New(mapper As EncodingMapper)
+  overload: Inetlab.SMPP.Common.TLVCollection.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.Item(System.Int32)
+  commentId: P:Inetlab.SMPP.Common.TLVCollection.Item(System.Int32)
+  id: Item(System.Int32)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Item[Int32]
+  nameWithType: TLVCollection.Item[Int32]
+  fullName: Inetlab.SMPP.Common.TLVCollection.Item[System.Int32]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 12524
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public TLV this[int index] { get; set; }
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Inetlab.SMPP.Common.TLV
+    content.vb: Public Property Item(index As Integer) As TLV
+  overload: Inetlab.SMPP.Common.TLVCollection.Item*
+  nameWithType.vb: TLVCollection.Item(Int32)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.TLVCollection.Item(System.Int32)
+  name.vb: Item(Int32)
+- uid: Inetlab.SMPP.Common.TLVCollection.Item(System.UInt16)
+  commentId: P:Inetlab.SMPP.Common.TLVCollection.Item(System.UInt16)
+  id: Item(System.UInt16)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Item[UInt16]
+  nameWithType: TLVCollection.Item[UInt16]
+  fullName: Inetlab.SMPP.Common.TLVCollection.Item[System.UInt16]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 12530
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public TLV this[ushort tag] { get; set; }
+    parameters:
+    - id: tag
+      type: System.UInt16
+    return:
+      type: Inetlab.SMPP.Common.TLV
+    content.vb: Public Property Item(tag As UShort) As TLV
+  overload: Inetlab.SMPP.Common.TLVCollection.Item*
+  nameWithType.vb: TLVCollection.Item(UInt16)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.TLVCollection.Item(System.UInt16)
+  name.vb: Item(UInt16)
+- uid: Inetlab.SMPP.Common.TLVCollection.Item(Inetlab.SMPP.Common.OptionalTags)
+  commentId: P:Inetlab.SMPP.Common.TLVCollection.Item(Inetlab.SMPP.Common.OptionalTags)
+  id: Item(Inetlab.SMPP.Common.OptionalTags)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Item[OptionalTags]
+  nameWithType: TLVCollection.Item[OptionalTags]
+  fullName: Inetlab.SMPP.Common.TLVCollection.Item[Inetlab.SMPP.Common.OptionalTags]
+  type: Property
+  source:
+    id: this[]
+    path: ''
+    startLine: 12562
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public byte[] this[OptionalTags tag] { get; set; }
+    parameters:
+    - id: tag
+      type: Inetlab.SMPP.Common.OptionalTags
+    return:
+      type: System.Byte[]
+    content.vb: Public Property Item(tag As OptionalTags) As Byte()
+  overload: Inetlab.SMPP.Common.TLVCollection.Item*
+  nameWithType.vb: TLVCollection.Item(OptionalTags)
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.TLVCollection.Item(Inetlab.SMPP.Common.OptionalTags)
+  name.vb: Item(OptionalTags)
+- uid: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.TLV)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.TLV)
+  id: Add(Inetlab.SMPP.Common.TLV)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(TLV)
+  nameWithType: TLVCollection.Add(TLV)
+  fullName: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.TLV)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 12584
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(TLV tlv)
+    parameters:
+    - id: tlv
+      type: Inetlab.SMPP.Common.TLV
+    content.vb: Public Sub Add(tlv As TLV)
+  overload: Inetlab.SMPP.Common.TLVCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.AddSARReferenceNumber(System.UInt16)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.AddSARReferenceNumber(System.UInt16)
+  id: AddSARReferenceNumber(System.UInt16)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: AddSARReferenceNumber(UInt16)
+  nameWithType: TLVCollection.AddSARReferenceNumber(UInt16)
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddSARReferenceNumber(System.UInt16)
+  type: Method
+  source:
+    id: AddSARReferenceNumber
+    path: ''
+    startLine: 12589
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void AddSARReferenceNumber(ushort val)
+    parameters:
+    - id: val
+      type: System.UInt16
+    content.vb: Public Sub AddSARReferenceNumber(val As UShort)
+  overload: Inetlab.SMPP.Common.TLVCollection.AddSARReferenceNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.AddSARSequenceNumber(System.Byte)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.AddSARSequenceNumber(System.Byte)
+  id: AddSARSequenceNumber(System.Byte)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: AddSARSequenceNumber(Byte)
+  nameWithType: TLVCollection.AddSARSequenceNumber(Byte)
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddSARSequenceNumber(System.Byte)
+  type: Method
+  source:
+    id: AddSARSequenceNumber
+    path: ''
+    startLine: 12599
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void AddSARSequenceNumber(byte val)
+    parameters:
+    - id: val
+      type: System.Byte
+    content.vb: Public Sub AddSARSequenceNumber(val As Byte)
+  overload: Inetlab.SMPP.Common.TLVCollection.AddSARSequenceNumber*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.AddSARTotalSegments(System.Byte)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.AddSARTotalSegments(System.Byte)
+  id: AddSARTotalSegments(System.Byte)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: AddSARTotalSegments(Byte)
+  nameWithType: TLVCollection.AddSARTotalSegments(Byte)
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddSARTotalSegments(System.Byte)
+  type: Method
+  source:
+    id: AddSARTotalSegments
+    path: ''
+    startLine: 12608
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void AddSARTotalSegments(byte val)
+    parameters:
+    - id: val
+      type: System.Byte
+    content.vb: Public Sub AddSARTotalSegments(val As Byte)
+  overload: Inetlab.SMPP.Common.TLVCollection.AddSARTotalSegments*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.AddMoreMessagesToSend(System.Boolean)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.AddMoreMessagesToSend(System.Boolean)
+  id: AddMoreMessagesToSend(System.Boolean)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: AddMoreMessagesToSend(Boolean)
+  nameWithType: TLVCollection.AddMoreMessagesToSend(Boolean)
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddMoreMessagesToSend(System.Boolean)
+  type: Method
+  source:
+    id: AddMoreMessagesToSend
+    path: ''
+    startLine: 12617
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void AddMoreMessagesToSend(bool val)
+    parameters:
+    - id: val
+      type: System.Boolean
+    content.vb: Public Sub AddMoreMessagesToSend(val As Boolean)
+  overload: Inetlab.SMPP.Common.TLVCollection.AddMoreMessagesToSend*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.AddMessagePayload(System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.AddMessagePayload(System.Byte[])
+  id: AddMessagePayload(System.Byte[])
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: AddMessagePayload(Byte[])
+  nameWithType: TLVCollection.AddMessagePayload(Byte[])
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddMessagePayload(System.Byte[])
+  type: Method
+  source:
+    id: AddMessagePayload
+    path: ''
+    startLine: 12628
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void AddMessagePayload(byte[] data)
+    parameters:
+    - id: data
+      type: System.Byte[]
+    content.vb: Public Sub AddMessagePayload(data As Byte())
+  overload: Inetlab.SMPP.Common.TLVCollection.AddMessagePayload*
+  nameWithType.vb: TLVCollection.AddMessagePayload(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.TLVCollection.AddMessagePayload(System.Byte())
+  name.vb: AddMessagePayload(Byte())
+- uid: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.Byte[])
+  id: Add(Inetlab.SMPP.Common.OptionalTags,System.Byte[])
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(OptionalTags, Byte[])
+  nameWithType: TLVCollection.Add(OptionalTags, Byte[])
+  fullName: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags, System.Byte[])
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 12636
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(OptionalTags tag, byte[] val)
+    parameters:
+    - id: tag
+      type: Inetlab.SMPP.Common.OptionalTags
+    - id: val
+      type: System.Byte[]
+    content.vb: Public Sub Add(tag As OptionalTags, val As Byte())
+  overload: Inetlab.SMPP.Common.TLVCollection.Add*
+  nameWithType.vb: TLVCollection.Add(OptionalTags, Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags, System.Byte())
+  name.vb: Add(OptionalTags, Byte())
+- uid: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.Int32)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.Int32)
+  id: Add(Inetlab.SMPP.Common.OptionalTags,System.Int32)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(OptionalTags, Int32)
+  nameWithType: TLVCollection.Add(OptionalTags, Int32)
+  fullName: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags, System.Int32)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 12641
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(OptionalTags tag, int val)
+    parameters:
+    - id: tag
+      type: Inetlab.SMPP.Common.OptionalTags
+    - id: val
+      type: System.Int32
+    content.vb: Public Sub Add(tag As OptionalTags, val As Integer)
+  overload: Inetlab.SMPP.Common.TLVCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.UInt32)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.UInt32)
+  id: Add(Inetlab.SMPP.Common.OptionalTags,System.UInt32)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(OptionalTags, UInt32)
+  nameWithType: TLVCollection.Add(OptionalTags, UInt32)
+  fullName: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags, System.UInt32)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 12648
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(OptionalTags tag, uint val)
+    parameters:
+    - id: tag
+      type: Inetlab.SMPP.Common.OptionalTags
+    - id: val
+      type: System.UInt32
+    content.vb: Public Sub Add(tag As OptionalTags, val As UInteger)
+  overload: Inetlab.SMPP.Common.TLVCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.UInt16)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.UInt16)
+  id: Add(Inetlab.SMPP.Common.OptionalTags,System.UInt16)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(OptionalTags, UInt16)
+  nameWithType: TLVCollection.Add(OptionalTags, UInt16)
+  fullName: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags, System.UInt16)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 12656
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(OptionalTags tag, ushort val)
+    parameters:
+    - id: tag
+      type: Inetlab.SMPP.Common.OptionalTags
+    - id: val
+      type: System.UInt16
+    content.vb: Public Sub Add(tag As OptionalTags, val As UShort)
+  overload: Inetlab.SMPP.Common.TLVCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.Byte)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.Byte)
+  id: Add(Inetlab.SMPP.Common.OptionalTags,System.Byte)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(OptionalTags, Byte)
+  nameWithType: TLVCollection.Add(OptionalTags, Byte)
+  fullName: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags, System.Byte)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 12661
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(OptionalTags tag, byte val)
+    parameters:
+    - id: tag
+      type: Inetlab.SMPP.Common.OptionalTags
+    - id: val
+      type: System.Byte
+    content.vb: Public Sub Add(tag As OptionalTags, val As Byte)
+  overload: Inetlab.SMPP.Common.TLVCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.String,Inetlab.SMPP.Common.DataCodings)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.String,Inetlab.SMPP.Common.DataCodings)
+  id: Add(Inetlab.SMPP.Common.OptionalTags,System.String,Inetlab.SMPP.Common.DataCodings)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(OptionalTags, String, DataCodings)
+  nameWithType: TLVCollection.Add(OptionalTags, String, DataCodings)
+  fullName: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags, System.String, Inetlab.SMPP.Common.DataCodings)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 12666
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(OptionalTags tag, string val, DataCodings dataCoding)
+    parameters:
+    - id: tag
+      type: Inetlab.SMPP.Common.OptionalTags
+    - id: val
+      type: System.String
+    - id: dataCoding
+      type: Inetlab.SMPP.Common.DataCodings
+    content.vb: Public Sub Add(tag As OptionalTags, val As String, dataCoding As DataCodings)
+  overload: Inetlab.SMPP.Common.TLVCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.String)
+  commentId: M:Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags,System.String)
+  id: Add(Inetlab.SMPP.Common.OptionalTags,System.String)
+  parent: Inetlab.SMPP.Common.TLVCollection
+  langs:
+  - csharp
+  - vb
+  name: Add(OptionalTags, String)
+  nameWithType: TLVCollection.Add(OptionalTags, String)
+  fullName: Inetlab.SMPP.Common.TLVCollection.Add(Inetlab.SMPP.Common.OptionalTags, System.String)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 12676
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Add(OptionalTags tag, string val)
+    parameters:
+    - id: tag
+      type: Inetlab.SMPP.Common.OptionalTags
+    - id: val
+      type: System.String
+    content.vb: Public Sub Add(tag As OptionalTags, val As String)
+  overload: Inetlab.SMPP.Common.TLVCollection.Add*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.TLVCollection.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.TLVCollection.#ctor
+  name: TLVCollection
+  nameWithType: TLVCollection.TLVCollection
+  fullName: Inetlab.SMPP.Common.TLVCollection.TLVCollection
+- uid: Inetlab.SMPP.SmppClientBase
+  commentId: T:Inetlab.SMPP.SmppClientBase
+  parent: Inetlab.SMPP
+  name: SmppClientBase
+  nameWithType: SmppClientBase
+  fullName: Inetlab.SMPP.SmppClientBase
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+- uid: Inetlab.SMPP.Common.EncodingMapper
+  commentId: T:Inetlab.SMPP.Common.EncodingMapper
+  parent: Inetlab.SMPP.Common
+  name: EncodingMapper
+  nameWithType: EncodingMapper
+  fullName: Inetlab.SMPP.Common.EncodingMapper
+- uid: Inetlab.SMPP.Common.TLVCollection.Item*
+  commentId: Overload:Inetlab.SMPP.Common.TLVCollection.Item
+  name: Item
+  nameWithType: TLVCollection.Item
+  fullName: Inetlab.SMPP.Common.TLVCollection.Item
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.Common.TLV
+  commentId: T:Inetlab.SMPP.Common.TLV
+  parent: Inetlab.SMPP.Common
+  name: TLV
+  nameWithType: TLV
+  fullName: Inetlab.SMPP.Common.TLV
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Inetlab.SMPP.Common.OptionalTags
+  commentId: T:Inetlab.SMPP.Common.OptionalTags
+  parent: Inetlab.SMPP.Common
+  name: OptionalTags
+  nameWithType: OptionalTags
+  fullName: Inetlab.SMPP.Common.OptionalTags
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Common.TLVCollection.Add*
+  commentId: Overload:Inetlab.SMPP.Common.TLVCollection.Add
+  name: Add
+  nameWithType: TLVCollection.Add
+  fullName: Inetlab.SMPP.Common.TLVCollection.Add
+- uid: Inetlab.SMPP.Common.TLVCollection.AddSARReferenceNumber*
+  commentId: Overload:Inetlab.SMPP.Common.TLVCollection.AddSARReferenceNumber
+  name: AddSARReferenceNumber
+  nameWithType: TLVCollection.AddSARReferenceNumber
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddSARReferenceNumber
+- uid: Inetlab.SMPP.Common.TLVCollection.AddSARSequenceNumber*
+  commentId: Overload:Inetlab.SMPP.Common.TLVCollection.AddSARSequenceNumber
+  name: AddSARSequenceNumber
+  nameWithType: TLVCollection.AddSARSequenceNumber
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddSARSequenceNumber
+- uid: System.Byte
+  commentId: T:System.Byte
+  parent: System
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Inetlab.SMPP.Common.TLVCollection.AddSARTotalSegments*
+  commentId: Overload:Inetlab.SMPP.Common.TLVCollection.AddSARTotalSegments
+  name: AddSARTotalSegments
+  nameWithType: TLVCollection.AddSARTotalSegments
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddSARTotalSegments
+- uid: Inetlab.SMPP.Common.TLVCollection.AddMoreMessagesToSend*
+  commentId: Overload:Inetlab.SMPP.Common.TLVCollection.AddMoreMessagesToSend
+  name: AddMoreMessagesToSend
+  nameWithType: TLVCollection.AddMoreMessagesToSend
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddMoreMessagesToSend
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Inetlab.SMPP.Common.TLVCollection.AddMessagePayload*
+  commentId: Overload:Inetlab.SMPP.Common.TLVCollection.AddMessagePayload
+  name: AddMessagePayload
+  nameWithType: TLVCollection.AddMessagePayload
+  fullName: Inetlab.SMPP.Common.TLVCollection.AddMessagePayload
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Common.DataCodings
+  commentId: T:Inetlab.SMPP.Common.DataCodings
+  parent: Inetlab.SMPP.Common
+  name: DataCodings
+  nameWithType: DataCodings
+  fullName: Inetlab.SMPP.Common.DataCodings
+shouldSkipMarkup: true

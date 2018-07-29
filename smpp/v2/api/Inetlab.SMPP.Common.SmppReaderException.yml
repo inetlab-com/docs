@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SmppReaderException
+  commentId: T:Inetlab.SMPP.Common.SmppReaderException
+  id: SmppReaderException
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SmppReaderException.#ctor(Inetlab.SMPP.Common.CommandStatus)
+  - Inetlab.SMPP.Common.SmppReaderException.#ctor(System.String,System.UInt32,Inetlab.SMPP.Common.CommandStatus,Exception)
+  - Inetlab.SMPP.Common.SmppReaderException.#ctor(System.UInt32,Inetlab.SMPP.Common.CommandStatus)
+  - Inetlab.SMPP.Common.SmppReaderException.#ctor(System.UInt32,Inetlab.SMPP.Common.CommandStatus,Exception)
+  - Inetlab.SMPP.Common.SmppReaderException.Sequence
+  - Inetlab.SMPP.Common.SmppReaderException.Status
+  langs:
+  - csharp
+  - vb
+  name: SmppReaderException
+  nameWithType: SmppReaderException
+  fullName: Inetlab.SMPP.Common.SmppReaderException
+  type: Class
+  source:
+    id: SmppReaderException
+    path: ''
+    startLine: 8950
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public class SmppReaderException : SmppException'
+    content.vb: >-
+      Public Class SmppReaderException
+          Inherits SmppException
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.Common.SmppException
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.SmppReaderException.Sequence
+  commentId: P:Inetlab.SMPP.Common.SmppReaderException.Sequence
+  id: Sequence
+  parent: Inetlab.SMPP.Common.SmppReaderException
+  langs:
+  - csharp
+  - vb
+  name: Sequence
+  nameWithType: SmppReaderException.Sequence
+  fullName: Inetlab.SMPP.Common.SmppReaderException.Sequence
+  type: Property
+  source:
+    id: Sequence
+    path: ''
+    startLine: 8952
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public uint Sequence { get; set; }
+    parameters: []
+    return:
+      type: System.UInt32
+    content.vb: Public Property Sequence As UInteger
+  overload: Inetlab.SMPP.Common.SmppReaderException.Sequence*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppReaderException.Status
+  commentId: P:Inetlab.SMPP.Common.SmppReaderException.Status
+  id: Status
+  parent: Inetlab.SMPP.Common.SmppReaderException
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: SmppReaderException.Status
+  fullName: Inetlab.SMPP.Common.SmppReaderException.Status
+  type: Property
+  source:
+    id: Status
+    path: ''
+    startLine: 8953
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public CommandStatus Status { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: Public Property Status As CommandStatus
+  overload: Inetlab.SMPP.Common.SmppReaderException.Status*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppReaderException.#ctor(Inetlab.SMPP.Common.CommandStatus)
+  commentId: M:Inetlab.SMPP.Common.SmppReaderException.#ctor(Inetlab.SMPP.Common.CommandStatus)
+  id: '#ctor(Inetlab.SMPP.Common.CommandStatus)'
+  parent: Inetlab.SMPP.Common.SmppReaderException
+  langs:
+  - csharp
+  - vb
+  name: SmppReaderException(CommandStatus)
+  nameWithType: SmppReaderException.SmppReaderException(CommandStatus)
+  fullName: Inetlab.SMPP.Common.SmppReaderException.SmppReaderException(Inetlab.SMPP.Common.CommandStatus)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8955
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppReaderException(CommandStatus status)
+    parameters:
+    - id: status
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: Public Sub New(status As CommandStatus)
+  overload: Inetlab.SMPP.Common.SmppReaderException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppReaderException.#ctor(System.UInt32,Inetlab.SMPP.Common.CommandStatus)
+  commentId: M:Inetlab.SMPP.Common.SmppReaderException.#ctor(System.UInt32,Inetlab.SMPP.Common.CommandStatus)
+  id: '#ctor(System.UInt32,Inetlab.SMPP.Common.CommandStatus)'
+  parent: Inetlab.SMPP.Common.SmppReaderException
+  langs:
+  - csharp
+  - vb
+  name: SmppReaderException(UInt32, CommandStatus)
+  nameWithType: SmppReaderException.SmppReaderException(UInt32, CommandStatus)
+  fullName: Inetlab.SMPP.Common.SmppReaderException.SmppReaderException(System.UInt32, Inetlab.SMPP.Common.CommandStatus)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8959
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppReaderException(uint sequence, CommandStatus status)
+    parameters:
+    - id: sequence
+      type: System.UInt32
+    - id: status
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: Public Sub New(sequence As UInteger, status As CommandStatus)
+  overload: Inetlab.SMPP.Common.SmppReaderException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppReaderException.#ctor(System.UInt32,Inetlab.SMPP.Common.CommandStatus,Exception)
+  commentId: M:Inetlab.SMPP.Common.SmppReaderException.#ctor(System.UInt32,Inetlab.SMPP.Common.CommandStatus,Exception)
+  id: '#ctor(System.UInt32,Inetlab.SMPP.Common.CommandStatus,Exception)'
+  parent: Inetlab.SMPP.Common.SmppReaderException
+  langs:
+  - csharp
+  - vb
+  name: SmppReaderException(UInt32, CommandStatus, Exception)
+  nameWithType: SmppReaderException.SmppReaderException(UInt32, CommandStatus, Exception)
+  fullName: Inetlab.SMPP.Common.SmppReaderException.SmppReaderException(System.UInt32, Inetlab.SMPP.Common.CommandStatus, Exception)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8963
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppReaderException(uint sequence, CommandStatus status, Exception innerException)
+    parameters:
+    - id: sequence
+      type: System.UInt32
+    - id: status
+      type: Inetlab.SMPP.Common.CommandStatus
+    - id: innerException
+      type: Exception
+    content.vb: Public Sub New(sequence As UInteger, status As CommandStatus, innerException As Exception)
+  overload: Inetlab.SMPP.Common.SmppReaderException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppReaderException.#ctor(System.String,System.UInt32,Inetlab.SMPP.Common.CommandStatus,Exception)
+  commentId: M:Inetlab.SMPP.Common.SmppReaderException.#ctor(System.String,System.UInt32,Inetlab.SMPP.Common.CommandStatus,Exception)
+  id: '#ctor(System.String,System.UInt32,Inetlab.SMPP.Common.CommandStatus,Exception)'
+  parent: Inetlab.SMPP.Common.SmppReaderException
+  langs:
+  - csharp
+  - vb
+  name: SmppReaderException(String, UInt32, CommandStatus, Exception)
+  nameWithType: SmppReaderException.SmppReaderException(String, UInt32, CommandStatus, Exception)
+  fullName: Inetlab.SMPP.Common.SmppReaderException.SmppReaderException(System.String, System.UInt32, Inetlab.SMPP.Common.CommandStatus, Exception)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8969
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppReaderException(string message, uint sequence, CommandStatus status, Exception innerException = null)
+    parameters:
+    - id: message
+      type: System.String
+    - id: sequence
+      type: System.UInt32
+    - id: status
+      type: Inetlab.SMPP.Common.CommandStatus
+    - id: innerException
+      type: Exception
+    content.vb: Public Sub New(message As String, sequence As UInteger, status As CommandStatus, innerException As Exception = Nothing)
+  overload: Inetlab.SMPP.Common.SmppReaderException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.SmppException
+  commentId: T:Inetlab.SMPP.Common.SmppException
+  parent: Inetlab.SMPP.Common
+  name: SmppException
+  nameWithType: SmppException
+  fullName: Inetlab.SMPP.Common.SmppException
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.SmppReaderException.Sequence*
+  commentId: Overload:Inetlab.SMPP.Common.SmppReaderException.Sequence
+  name: Sequence
+  nameWithType: SmppReaderException.Sequence
+  fullName: Inetlab.SMPP.Common.SmppReaderException.Sequence
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  name: UInt32
+  nameWithType: UInt32
+  fullName: System.UInt32
+- uid: Inetlab.SMPP.Common.SmppReaderException.Status*
+  commentId: Overload:Inetlab.SMPP.Common.SmppReaderException.Status
+  name: Status
+  nameWithType: SmppReaderException.Status
+  fullName: Inetlab.SMPP.Common.SmppReaderException.Status
+- uid: Inetlab.SMPP.Common.CommandStatus
+  commentId: T:Inetlab.SMPP.Common.CommandStatus
+  parent: Inetlab.SMPP.Common
+  name: CommandStatus
+  nameWithType: CommandStatus
+  fullName: Inetlab.SMPP.Common.CommandStatus
+- uid: Inetlab.SMPP.Common.SmppReaderException.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.SmppReaderException.#ctor
+  name: SmppReaderException
+  nameWithType: SmppReaderException.SmppReaderException
+  fullName: Inetlab.SMPP.Common.SmppReaderException.SmppReaderException
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

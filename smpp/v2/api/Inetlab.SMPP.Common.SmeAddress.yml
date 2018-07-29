@@ -1,0 +1,370 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SmeAddress
+  commentId: T:Inetlab.SMPP.Common.SmeAddress
+  id: SmeAddress
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SmeAddress.#ctor
+  - Inetlab.SMPP.Common.SmeAddress.#ctor(System.String)
+  - Inetlab.SMPP.Common.SmeAddress.#ctor(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  - Inetlab.SMPP.Common.SmeAddress.Address
+  - Inetlab.SMPP.Common.SmeAddress.NPI
+  - Inetlab.SMPP.Common.SmeAddress.TON
+  - Inetlab.SMPP.Common.SmeAddress.ToString
+  langs:
+  - csharp
+  - vb
+  name: SmeAddress
+  nameWithType: SmeAddress
+  fullName: Inetlab.SMPP.Common.SmeAddress
+  type: Class
+  source:
+    id: SmeAddress
+    path: ''
+    startLine: 8806
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public class SmeAddress : IAddress'
+    content.vb: >-
+      Public Class SmeAddress
+          Implements IAddress
+  inheritance:
+  - System.Object
+  implements:
+  - Inetlab.SMPP.Common.IAddress
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.SmeAddress.TON
+  commentId: P:Inetlab.SMPP.Common.SmeAddress.TON
+  id: TON
+  parent: Inetlab.SMPP.Common.SmeAddress
+  langs:
+  - csharp
+  - vb
+  name: TON
+  nameWithType: SmeAddress.TON
+  fullName: Inetlab.SMPP.Common.SmeAddress.TON
+  type: Property
+  source:
+    id: TON
+    path: ''
+    startLine: 8811
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe Type of Number (TON) to be used in the address parameters\n"
+  example: []
+  syntax:
+    content: public AddressTON TON { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.AddressTON
+    content.vb: Public Property TON As AddressTON
+  overload: Inetlab.SMPP.Common.SmeAddress.TON*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmeAddress.NPI
+  commentId: P:Inetlab.SMPP.Common.SmeAddress.NPI
+  id: NPI
+  parent: Inetlab.SMPP.Common.SmeAddress
+  langs:
+  - csharp
+  - vb
+  name: NPI
+  nameWithType: SmeAddress.NPI
+  fullName: Inetlab.SMPP.Common.SmeAddress.NPI
+  type: Property
+  source:
+    id: NPI
+    path: ''
+    startLine: 8816
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe Numeric Plan Indicator (NPI) to to be used in the address parameters\n"
+  example: []
+  syntax:
+    content: public AddressNPI NPI { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.AddressNPI
+    content.vb: Public Property NPI As AddressNPI
+  overload: Inetlab.SMPP.Common.SmeAddress.NPI*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmeAddress.Address
+  commentId: P:Inetlab.SMPP.Common.SmeAddress.Address
+  id: Address
+  parent: Inetlab.SMPP.Common.SmeAddress
+  langs:
+  - csharp
+  - vb
+  name: Address
+  nameWithType: SmeAddress.Address
+  fullName: Inetlab.SMPP.Common.SmeAddress.Address
+  type: Property
+  source:
+    id: Address
+    path: ''
+    startLine: 8821
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nSpecifies the address value\n"
+  example: []
+  syntax:
+    content: public string Address { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Address As String
+  overload: Inetlab.SMPP.Common.SmeAddress.Address*
+  implements:
+  - Inetlab.SMPP.Common.IAddress.Address
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmeAddress.#ctor
+  commentId: M:Inetlab.SMPP.Common.SmeAddress.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.SmeAddress
+  langs:
+  - csharp
+  - vb
+  name: SmeAddress()
+  nameWithType: SmeAddress.SmeAddress()
+  fullName: Inetlab.SMPP.Common.SmeAddress.SmeAddress()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8823
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmeAddress()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.SmeAddress.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmeAddress.#ctor(System.String)
+  commentId: M:Inetlab.SMPP.Common.SmeAddress.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Inetlab.SMPP.Common.SmeAddress
+  langs:
+  - csharp
+  - vb
+  name: SmeAddress(String)
+  nameWithType: SmeAddress.SmeAddress(String)
+  fullName: Inetlab.SMPP.Common.SmeAddress.SmeAddress(System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8827
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmeAddress(string address)
+    parameters:
+    - id: address
+      type: System.String
+    content.vb: Public Sub New(address As String)
+  overload: Inetlab.SMPP.Common.SmeAddress.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmeAddress.#ctor(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  commentId: M:Inetlab.SMPP.Common.SmeAddress.#ctor(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)
+  id: '#ctor(System.String,Inetlab.SMPP.Common.AddressTON,Inetlab.SMPP.Common.AddressNPI)'
+  parent: Inetlab.SMPP.Common.SmeAddress
+  langs:
+  - csharp
+  - vb
+  name: SmeAddress(String, AddressTON, AddressNPI)
+  nameWithType: SmeAddress.SmeAddress(String, AddressTON, AddressNPI)
+  fullName: Inetlab.SMPP.Common.SmeAddress.SmeAddress(System.String, Inetlab.SMPP.Common.AddressTON, Inetlab.SMPP.Common.AddressNPI)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 8834
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmeAddress(string address, AddressTON ton, AddressNPI npi)
+    parameters:
+    - id: address
+      type: System.String
+    - id: ton
+      type: Inetlab.SMPP.Common.AddressTON
+    - id: npi
+      type: Inetlab.SMPP.Common.AddressNPI
+    content.vb: Public Sub New(address As String, ton As AddressTON, npi As AddressNPI)
+  overload: Inetlab.SMPP.Common.SmeAddress.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmeAddress.ToString
+  commentId: M:Inetlab.SMPP.Common.SmeAddress.ToString
+  id: ToString
+  parent: Inetlab.SMPP.Common.SmeAddress
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: SmeAddress.ToString()
+  fullName: Inetlab.SMPP.Common.SmeAddress.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 8890
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.Object.ToString
+  overload: Inetlab.SMPP.Common.SmeAddress.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.IAddress
+  commentId: T:Inetlab.SMPP.Common.IAddress
+  parent: Inetlab.SMPP.Common
+  name: IAddress
+  nameWithType: IAddress
+  fullName: Inetlab.SMPP.Common.IAddress
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.SmeAddress.TON*
+  commentId: Overload:Inetlab.SMPP.Common.SmeAddress.TON
+  name: TON
+  nameWithType: SmeAddress.TON
+  fullName: Inetlab.SMPP.Common.SmeAddress.TON
+- uid: Inetlab.SMPP.Common.AddressTON
+  commentId: T:Inetlab.SMPP.Common.AddressTON
+  parent: Inetlab.SMPP.Common
+  name: AddressTON
+  nameWithType: AddressTON
+  fullName: Inetlab.SMPP.Common.AddressTON
+- uid: Inetlab.SMPP.Common.SmeAddress.NPI*
+  commentId: Overload:Inetlab.SMPP.Common.SmeAddress.NPI
+  name: NPI
+  nameWithType: SmeAddress.NPI
+  fullName: Inetlab.SMPP.Common.SmeAddress.NPI
+- uid: Inetlab.SMPP.Common.AddressNPI
+  commentId: T:Inetlab.SMPP.Common.AddressNPI
+  parent: Inetlab.SMPP.Common
+  name: AddressNPI
+  nameWithType: AddressNPI
+  fullName: Inetlab.SMPP.Common.AddressNPI
+- uid: Inetlab.SMPP.Common.SmeAddress.Address*
+  commentId: Overload:Inetlab.SMPP.Common.SmeAddress.Address
+  name: Address
+  nameWithType: SmeAddress.Address
+  fullName: Inetlab.SMPP.Common.SmeAddress.Address
+- uid: Inetlab.SMPP.Common.IAddress.Address
+  commentId: P:Inetlab.SMPP.Common.IAddress.Address
+  parent: Inetlab.SMPP.Common.IAddress
+  name: Address
+  nameWithType: IAddress.Address
+  fullName: Inetlab.SMPP.Common.IAddress.Address
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.Common.SmeAddress.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.SmeAddress.#ctor
+  name: SmeAddress
+  nameWithType: SmeAddress.SmeAddress
+  fullName: Inetlab.SMPP.Common.SmeAddress.SmeAddress
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common.SmeAddress.ToString*
+  commentId: Overload:Inetlab.SMPP.Common.SmeAddress.ToString
+  name: ToString
+  nameWithType: SmeAddress.ToString
+  fullName: Inetlab.SMPP.Common.SmeAddress.ToString
+shouldSkipMarkup: true

@@ -1,0 +1,322 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.MessageState
+  commentId: T:Inetlab.SMPP.Common.MessageState
+  id: MessageState
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.MessageState.Accepted
+  - Inetlab.SMPP.Common.MessageState.Deleted
+  - Inetlab.SMPP.Common.MessageState.Delivered
+  - Inetlab.SMPP.Common.MessageState.Enroute
+  - Inetlab.SMPP.Common.MessageState.Expired
+  - Inetlab.SMPP.Common.MessageState.None
+  - Inetlab.SMPP.Common.MessageState.Rejected
+  - Inetlab.SMPP.Common.MessageState.Undeliverable
+  - Inetlab.SMPP.Common.MessageState.Unknown
+  langs:
+  - csharp
+  - vb
+  name: MessageState
+  nameWithType: MessageState
+  fullName: Inetlab.SMPP.Common.MessageState
+  type: Enum
+  source:
+    id: MessageState
+    path: ''
+    startLine: 6796
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nStates for a short message.\n"
+  example: []
+  syntax:
+    content: 'public enum MessageState : byte'
+    content.vb: Public Enum MessageState As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.MessageState.None
+  commentId: F:Inetlab.SMPP.Common.MessageState.None
+  id: None
+  parent: Inetlab.SMPP.Common.MessageState
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: MessageState.None
+  fullName: Inetlab.SMPP.Common.MessageState.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 6798
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: None = 0
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageState.Enroute
+  commentId: F:Inetlab.SMPP.Common.MessageState.Enroute
+  id: Enroute
+  parent: Inetlab.SMPP.Common.MessageState
+  langs:
+  - csharp
+  - vb
+  name: Enroute
+  nameWithType: MessageState.Enroute
+  fullName: Inetlab.SMPP.Common.MessageState.Enroute
+  type: Field
+  source:
+    id: Enroute
+    path: ''
+    startLine: 6802
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nThe message is in enroute state.\n"
+  example: []
+  syntax:
+    content: Enroute = 1
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageState.Delivered
+  commentId: F:Inetlab.SMPP.Common.MessageState.Delivered
+  id: Delivered
+  parent: Inetlab.SMPP.Common.MessageState
+  langs:
+  - csharp
+  - vb
+  name: Delivered
+  nameWithType: MessageState.Delivered
+  fullName: Inetlab.SMPP.Common.MessageState.Delivered
+  type: Field
+  source:
+    id: Delivered
+    path: ''
+    startLine: 6807
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage is delivered to destination\n"
+  example: []
+  syntax:
+    content: Delivered = 2
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageState.Expired
+  commentId: F:Inetlab.SMPP.Common.MessageState.Expired
+  id: Expired
+  parent: Inetlab.SMPP.Common.MessageState
+  langs:
+  - csharp
+  - vb
+  name: Expired
+  nameWithType: MessageState.Expired
+  fullName: Inetlab.SMPP.Common.MessageState.Expired
+  type: Field
+  source:
+    id: Expired
+    path: ''
+    startLine: 6812
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage validity period has expired.\n"
+  example: []
+  syntax:
+    content: Expired = 3
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageState.Deleted
+  commentId: F:Inetlab.SMPP.Common.MessageState.Deleted
+  id: Deleted
+  parent: Inetlab.SMPP.Common.MessageState
+  langs:
+  - csharp
+  - vb
+  name: Deleted
+  nameWithType: MessageState.Deleted
+  fullName: Inetlab.SMPP.Common.MessageState.Deleted
+  type: Field
+  source:
+    id: Deleted
+    path: ''
+    startLine: 6817
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage has been deleted.\n"
+  example: []
+  syntax:
+    content: Deleted = 4
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageState.Undeliverable
+  commentId: F:Inetlab.SMPP.Common.MessageState.Undeliverable
+  id: Undeliverable
+  parent: Inetlab.SMPP.Common.MessageState
+  langs:
+  - csharp
+  - vb
+  name: Undeliverable
+  nameWithType: MessageState.Undeliverable
+  fullName: Inetlab.SMPP.Common.MessageState.Undeliverable
+  type: Field
+  source:
+    id: Undeliverable
+    path: ''
+    startLine: 6822
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage is undeliverable\n"
+  example: []
+  syntax:
+    content: Undeliverable = 5
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageState.Accepted
+  commentId: F:Inetlab.SMPP.Common.MessageState.Accepted
+  id: Accepted
+  parent: Inetlab.SMPP.Common.MessageState
+  langs:
+  - csharp
+  - vb
+  name: Accepted
+  nameWithType: MessageState.Accepted
+  fullName: Inetlab.SMPP.Common.MessageState.Accepted
+  type: Field
+  source:
+    id: Accepted
+    path: ''
+    startLine: 6828
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage is in accepted state \n(i.e. has been manually read on behalf of the subscriber by customer service)\n"
+  example: []
+  syntax:
+    content: Accepted = 6
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageState.Unknown
+  commentId: F:Inetlab.SMPP.Common.MessageState.Unknown
+  id: Unknown
+  parent: Inetlab.SMPP.Common.MessageState
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: MessageState.Unknown
+  fullName: Inetlab.SMPP.Common.MessageState.Unknown
+  type: Field
+  source:
+    id: Unknown
+    path: ''
+    startLine: 6833
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage is in invalid state\n"
+  example: []
+  syntax:
+    content: Unknown = 7
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.MessageState.Rejected
+  commentId: F:Inetlab.SMPP.Common.MessageState.Rejected
+  id: Rejected
+  parent: Inetlab.SMPP.Common.MessageState
+  langs:
+  - csharp
+  - vb
+  name: Rejected
+  nameWithType: MessageState.Rejected
+  fullName: Inetlab.SMPP.Common.MessageState.Rejected
+  type: Field
+  source:
+    id: Rejected
+    path: ''
+    startLine: 6838
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nMessage is in a rejected state\n"
+  example: []
+  syntax:
+    content: Rejected = 8
+    return:
+      type: Inetlab.SMPP.Common.MessageState
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.MessageState
+  commentId: T:Inetlab.SMPP.Common.MessageState
+  parent: Inetlab.SMPP.Common
+  name: MessageState
+  nameWithType: MessageState
+  fullName: Inetlab.SMPP.Common.MessageState
+shouldSkipMarkup: true

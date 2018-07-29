@@ -1,0 +1,222 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift
+  commentId: T:Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift
+  id: NationalLanguageLockingShift
+  parent: Inetlab.SMPP.Common.Headers
+  children:
+  - Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor
+  - Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor(Inetlab.SMPP.Common.NationalLanguage)
+  - Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.Language
+  langs:
+  - csharp
+  - vb
+  name: NationalLanguageLockingShift
+  nameWithType: NationalLanguageLockingShift
+  fullName: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift
+  type: Class
+  source:
+    id: NationalLanguageLockingShift
+    path: ''
+    startLine: 13116
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: 'public class NationalLanguageLockingShift : UserDataHeader'
+    content.vb: >-
+      Public Class NationalLanguageLockingShift
+          Inherits UserDataHeader
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.Common.UserDataHeader
+  inheritedMembers:
+  - Inetlab.SMPP.Common.UserDataHeader.IEI
+  - Inetlab.SMPP.Common.UserDataHeader.Data
+  - Inetlab.SMPP.Common.UserDataHeader.Length
+  - Inetlab.SMPP.Common.UserDataHeader.Clone
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.Language
+  commentId: P:Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.Language
+  id: Language
+  parent: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift
+  langs:
+  - csharp
+  - vb
+  name: Language
+  nameWithType: NationalLanguageLockingShift.Language
+  fullName: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.Language
+  type: Property
+  source:
+    id: Language
+    path: ''
+    startLine: 13118
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: public NationalLanguage Language { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+    content.vb: Public Property Language As NationalLanguage
+  overload: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.Language*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor
+  commentId: M:Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift
+  langs:
+  - csharp
+  - vb
+  name: NationalLanguageLockingShift()
+  nameWithType: NationalLanguageLockingShift.NationalLanguageLockingShift()
+  fullName: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.NationalLanguageLockingShift()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 13124
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: public NationalLanguageLockingShift()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor(Inetlab.SMPP.Common.NationalLanguage)
+  commentId: M:Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor(Inetlab.SMPP.Common.NationalLanguage)
+  id: '#ctor(Inetlab.SMPP.Common.NationalLanguage)'
+  parent: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift
+  langs:
+  - csharp
+  - vb
+  name: NationalLanguageLockingShift(NationalLanguage)
+  nameWithType: NationalLanguageLockingShift.NationalLanguageLockingShift(NationalLanguage)
+  fullName: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.NationalLanguageLockingShift(Inetlab.SMPP.Common.NationalLanguage)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 13130
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Headers
+  syntax:
+    content: public NationalLanguageLockingShift(NationalLanguage language)
+    parameters:
+    - id: language
+      type: Inetlab.SMPP.Common.NationalLanguage
+    content.vb: Public Sub New(language As NationalLanguage)
+  overload: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common.Headers
+  commentId: N:Inetlab.SMPP.Common.Headers
+  name: Inetlab.SMPP.Common.Headers
+  nameWithType: Inetlab.SMPP.Common.Headers
+  fullName: Inetlab.SMPP.Common.Headers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.UserDataHeader
+  commentId: T:Inetlab.SMPP.Common.UserDataHeader
+  parent: Inetlab.SMPP.Common
+  name: UserDataHeader
+  nameWithType: UserDataHeader
+  fullName: Inetlab.SMPP.Common.UserDataHeader
+- uid: Inetlab.SMPP.Common.UserDataHeader.IEI
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.IEI
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  name: IEI
+  nameWithType: UserDataHeader.IEI
+  fullName: Inetlab.SMPP.Common.UserDataHeader.IEI
+- uid: Inetlab.SMPP.Common.UserDataHeader.Data
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.Data
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  name: Data
+  nameWithType: UserDataHeader.Data
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Data
+- uid: Inetlab.SMPP.Common.UserDataHeader.Length
+  commentId: P:Inetlab.SMPP.Common.UserDataHeader.Length
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  name: Length
+  nameWithType: UserDataHeader.Length
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Length
+- uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+  commentId: M:Inetlab.SMPP.Common.UserDataHeader.Clone
+  parent: Inetlab.SMPP.Common.UserDataHeader
+  name: Clone()
+  nameWithType: UserDataHeader.Clone()
+  fullName: Inetlab.SMPP.Common.UserDataHeader.Clone()
+  spec.csharp:
+  - uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+    name: Clone
+    nameWithType: UserDataHeader.Clone
+    fullName: Inetlab.SMPP.Common.UserDataHeader.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.Common.UserDataHeader.Clone
+    name: Clone
+    nameWithType: UserDataHeader.Clone
+    fullName: Inetlab.SMPP.Common.UserDataHeader.Clone
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.Language*
+  commentId: Overload:Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.Language
+  name: Language
+  nameWithType: NationalLanguageLockingShift.Language
+  fullName: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.Language
+- uid: Inetlab.SMPP.Common.NationalLanguage
+  commentId: T:Inetlab.SMPP.Common.NationalLanguage
+  parent: Inetlab.SMPP.Common
+  name: NationalLanguage
+  nameWithType: NationalLanguage
+  fullName: Inetlab.SMPP.Common.NationalLanguage
+- uid: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.#ctor
+  name: NationalLanguageLockingShift
+  nameWithType: NationalLanguageLockingShift.NationalLanguageLockingShift
+  fullName: Inetlab.SMPP.Common.Headers.NationalLanguageLockingShift.NationalLanguageLockingShift
+shouldSkipMarkup: true

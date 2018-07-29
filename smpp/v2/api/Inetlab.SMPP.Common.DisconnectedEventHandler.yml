@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.DisconnectedEventHandler
+  commentId: T:Inetlab.SMPP.Common.DisconnectedEventHandler
+  id: DisconnectedEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: DisconnectedEventHandler
+  nameWithType: DisconnectedEventHandler
+  fullName: Inetlab.SMPP.Common.DisconnectedEventHandler
+  type: Delegate
+  source:
+    id: DisconnectedEventHandler
+    path: ''
+    startLine: 5525
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void DisconnectedEventHandler(object sender);
+    parameters:
+    - id: sender
+      type: System.Object
+    content.vb: Public Delegate Sub DisconnectedEventHandler(sender As Object)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+shouldSkipMarkup: true

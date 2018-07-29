@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.ProxyEndpoint
+  commentId: T:Inetlab.SMPP.Common.ProxyEndpoint
+  id: ProxyEndpoint
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.ProxyEndpoint.#ctor(EndPoint,EndPoint)
+  - Inetlab.SMPP.Common.ProxyEndpoint.Destination
+  - Inetlab.SMPP.Common.ProxyEndpoint.Source
+  langs:
+  - csharp
+  - vb
+  name: ProxyEndpoint
+  nameWithType: ProxyEndpoint
+  fullName: Inetlab.SMPP.Common.ProxyEndpoint
+  type: Class
+  source:
+    id: ProxyEndpoint
+    path: ''
+    startLine: 7075
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: 'Represents header of Proxy Protocol '
+  example: []
+  syntax:
+    content: public class ProxyEndpoint
+    content.vb: Public Class ProxyEndpoint
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.ProxyEndpoint.Source
+  commentId: P:Inetlab.SMPP.Common.ProxyEndpoint.Source
+  id: Source
+  parent: Inetlab.SMPP.Common.ProxyEndpoint
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: ProxyEndpoint.Source
+  fullName: Inetlab.SMPP.Common.ProxyEndpoint.Source
+  type: Property
+  source:
+    id: Source
+    path: ''
+    startLine: 7079
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: 'Original source address '
+  example: []
+  syntax:
+    content: public EndPoint Source { get; }
+    parameters: []
+    return:
+      type: EndPoint
+    content.vb: Public ReadOnly Property Source As EndPoint
+  overload: Inetlab.SMPP.Common.ProxyEndpoint.Source*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.ProxyEndpoint.Destination
+  commentId: P:Inetlab.SMPP.Common.ProxyEndpoint.Destination
+  id: Destination
+  parent: Inetlab.SMPP.Common.ProxyEndpoint
+  langs:
+  - csharp
+  - vb
+  name: Destination
+  nameWithType: ProxyEndpoint.Destination
+  fullName: Inetlab.SMPP.Common.ProxyEndpoint.Destination
+  type: Property
+  source:
+    id: Destination
+    path: ''
+    startLine: 7082
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: 'Destination address on proxy server '
+  example: []
+  syntax:
+    content: public EndPoint Destination { get; }
+    parameters: []
+    return:
+      type: EndPoint
+    content.vb: Public ReadOnly Property Destination As EndPoint
+  overload: Inetlab.SMPP.Common.ProxyEndpoint.Destination*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.ProxyEndpoint.#ctor(EndPoint,EndPoint)
+  commentId: M:Inetlab.SMPP.Common.ProxyEndpoint.#ctor(EndPoint,EndPoint)
+  id: '#ctor(EndPoint,EndPoint)'
+  parent: Inetlab.SMPP.Common.ProxyEndpoint
+  langs:
+  - csharp
+  - vb
+  name: ProxyEndpoint(EndPoint, EndPoint)
+  nameWithType: ProxyEndpoint.ProxyEndpoint(EndPoint, EndPoint)
+  fullName: Inetlab.SMPP.Common.ProxyEndpoint.ProxyEndpoint(EndPoint, EndPoint)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 7085
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public ProxyEndpoint(EndPoint source, EndPoint destination)
+    parameters:
+    - id: source
+      type: EndPoint
+    - id: destination
+      type: EndPoint
+    content.vb: Public Sub New(source As EndPoint, destination As EndPoint)
+  overload: Inetlab.SMPP.Common.ProxyEndpoint.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.ProxyEndpoint.Source*
+  commentId: Overload:Inetlab.SMPP.Common.ProxyEndpoint.Source
+  name: Source
+  nameWithType: ProxyEndpoint.Source
+  fullName: Inetlab.SMPP.Common.ProxyEndpoint.Source
+- uid: EndPoint
+  isExternal: true
+  name: EndPoint
+  nameWithType: EndPoint
+  fullName: EndPoint
+- uid: Inetlab.SMPP.Common.ProxyEndpoint.Destination*
+  commentId: Overload:Inetlab.SMPP.Common.ProxyEndpoint.Destination
+  name: Destination
+  nameWithType: ProxyEndpoint.Destination
+  fullName: Inetlab.SMPP.Common.ProxyEndpoint.Destination
+- uid: Inetlab.SMPP.Common.ProxyEndpoint.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.ProxyEndpoint.#ctor
+  name: ProxyEndpoint
+  nameWithType: ProxyEndpoint.ProxyEndpoint
+  fullName: Inetlab.SMPP.Common.ProxyEndpoint.ProxyEndpoint
+shouldSkipMarkup: true

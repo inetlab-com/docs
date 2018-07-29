@@ -1,0 +1,52 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Parameters
+  commentId: N:Inetlab.SMPP.Common.Parameters
+  id: Inetlab.SMPP.Common.Parameters
+  children:
+  - Inetlab.SMPP.Common.Parameters.MessagePayloadParameter
+  - Inetlab.SMPP.Common.Parameters.OptionalParameter
+  - Inetlab.SMPP.Common.Parameters.ReceiptedMessageIdParameter
+  - Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.SMPP.Common.Parameters
+  nameWithType: Inetlab.SMPP.Common.Parameters
+  fullName: Inetlab.SMPP.Common.Parameters
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+  commentId: T:Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+  isExternal: false
+  name: SARReferenceNumberParameter
+  nameWithType: SARReferenceNumberParameter
+  fullName: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+- uid: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter
+  commentId: T:Inetlab.SMPP.Common.Parameters.MessagePayloadParameter
+  isExternal: false
+  name: MessagePayloadParameter
+  nameWithType: MessagePayloadParameter
+  fullName: Inetlab.SMPP.Common.Parameters.MessagePayloadParameter
+- uid: Inetlab.SMPP.Common.Parameters.ReceiptedMessageIdParameter
+  commentId: T:Inetlab.SMPP.Common.Parameters.ReceiptedMessageIdParameter
+  isExternal: false
+  name: ReceiptedMessageIdParameter
+  nameWithType: ReceiptedMessageIdParameter
+  fullName: Inetlab.SMPP.Common.Parameters.ReceiptedMessageIdParameter
+- uid: Inetlab.SMPP.Common.Parameters.OptionalParameter
+  commentId: T:Inetlab.SMPP.Common.Parameters.OptionalParameter
+  parent: Inetlab.SMPP.Common.Parameters
+  isExternal: false
+  name: OptionalParameter
+  nameWithType: OptionalParameter
+  fullName: Inetlab.SMPP.Common.Parameters.OptionalParameter
+- uid: Inetlab.SMPP.Common.Parameters
+  commentId: N:Inetlab.SMPP.Common.Parameters
+  isExternal: false
+  name: Inetlab.SMPP.Common.Parameters
+  nameWithType: Inetlab.SMPP.Common.Parameters
+  fullName: Inetlab.SMPP.Common.Parameters
+shouldSkipMarkup: true

@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.LockTimeoutException
+  commentId: T:Inetlab.SMPP.Common.LockTimeoutException
+  id: LockTimeoutException
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.LockTimeoutException.#ctor
+  langs:
+  - csharp
+  - vb
+  name: LockTimeoutException
+  nameWithType: LockTimeoutException
+  fullName: Inetlab.SMPP.Common.LockTimeoutException
+  type: Class
+  source:
+    id: LockTimeoutException
+    path: ''
+    startLine: 10821
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public class LockTimeoutException : ApplicationException'
+    content.vb: >-
+      Public Class LockTimeoutException
+          Inherits ApplicationException
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.LockTimeoutException.#ctor
+  commentId: M:Inetlab.SMPP.Common.LockTimeoutException.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.LockTimeoutException
+  langs:
+  - csharp
+  - vb
+  name: LockTimeoutException()
+  nameWithType: LockTimeoutException.LockTimeoutException()
+  fullName: Inetlab.SMPP.Common.LockTimeoutException.LockTimeoutException()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10823
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public LockTimeoutException()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.LockTimeoutException.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.LockTimeoutException.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.LockTimeoutException.#ctor
+  isExternal: false
+  name: LockTimeoutException
+  nameWithType: LockTimeoutException.LockTimeoutException
+  fullName: Inetlab.SMPP.Common.LockTimeoutException.LockTimeoutException
+shouldSkipMarkup: true

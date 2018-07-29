@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+  commentId: T:Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+  id: SARReferenceNumberParameter
+  parent: Inetlab.SMPP.Common.Parameters
+  children:
+  - Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor(System.Byte[])
+  - Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor(System.UInt16)
+  - Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.Value
+  langs:
+  - csharp
+  - vb
+  name: SARReferenceNumberParameter
+  nameWithType: SARReferenceNumberParameter
+  fullName: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+  type: Class
+  source:
+    id: SARReferenceNumberParameter
+    path: ''
+    startLine: 12105
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Parameters
+  syntax:
+    content: 'public class SARReferenceNumberParameter : OptionalParameter'
+    content.vb: >-
+      Public Class SARReferenceNumberParameter
+          Inherits OptionalParameter
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.Common.Parameters.OptionalParameter
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor(System.UInt16)
+  commentId: M:Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor(System.UInt16)
+  id: '#ctor(System.UInt16)'
+  parent: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+  langs:
+  - csharp
+  - vb
+  name: SARReferenceNumberParameter(UInt16)
+  nameWithType: SARReferenceNumberParameter.SARReferenceNumberParameter(UInt16)
+  fullName: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.SARReferenceNumberParameter(System.UInt16)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12110
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Parameters
+  syntax:
+    content: public SARReferenceNumberParameter(ushort val)
+    parameters:
+    - id: val
+      type: System.UInt16
+    content.vb: Public Sub New(val As UShort)
+  overload: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor(System.Byte[])
+  commentId: M:Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor(System.Byte[])
+  id: '#ctor(System.Byte[])'
+  parent: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+  langs:
+  - csharp
+  - vb
+  name: SARReferenceNumberParameter(Byte[])
+  nameWithType: SARReferenceNumberParameter.SARReferenceNumberParameter(Byte[])
+  fullName: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.SARReferenceNumberParameter(System.Byte[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 12116
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Parameters
+  syntax:
+    content: public SARReferenceNumberParameter(byte[] val)
+    parameters:
+    - id: val
+      type: System.Byte[]
+    content.vb: Public Sub New(val As Byte())
+  overload: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor*
+  nameWithType.vb: SARReferenceNumberParameter.SARReferenceNumberParameter(Byte())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.SARReferenceNumberParameter(System.Byte())
+  name.vb: SARReferenceNumberParameter(Byte())
+- uid: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.Value
+  commentId: P:Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.Value
+  id: Value
+  parent: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter
+  langs:
+  - csharp
+  - vb
+  name: Value
+  nameWithType: SARReferenceNumberParameter.Value
+  fullName: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.Value
+  type: Property
+  source:
+    id: Value
+    path: ''
+    startLine: 12121
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common.Parameters
+  syntax:
+    content: public override byte[] Value { get; }
+    parameters: []
+    return:
+      type: System.Byte[]
+    content.vb: Public Overrides ReadOnly Property Value As Byte()
+  overridden: Inetlab.SMPP.Common.Parameters.OptionalParameter.Value
+  overload: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.Value*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+references:
+- uid: Inetlab.SMPP.Common.Parameters
+  commentId: N:Inetlab.SMPP.Common.Parameters
+  isExternal: false
+  name: Inetlab.SMPP.Common.Parameters
+  nameWithType: Inetlab.SMPP.Common.Parameters
+  fullName: Inetlab.SMPP.Common.Parameters
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.Common.Parameters.OptionalParameter
+  commentId: T:Inetlab.SMPP.Common.Parameters.OptionalParameter
+  parent: Inetlab.SMPP.Common.Parameters
+  isExternal: false
+  name: OptionalParameter
+  nameWithType: OptionalParameter
+  fullName: Inetlab.SMPP.Common.Parameters.OptionalParameter
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.#ctor
+  isExternal: false
+  name: SARReferenceNumberParameter
+  nameWithType: SARReferenceNumberParameter.SARReferenceNumberParameter
+  fullName: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.SARReferenceNumberParameter
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Common.Parameters.OptionalParameter.Value
+  commentId: P:Inetlab.SMPP.Common.Parameters.OptionalParameter.Value
+  parent: Inetlab.SMPP.Common.Parameters.OptionalParameter
+  isExternal: false
+  name: Value
+  nameWithType: OptionalParameter.Value
+  fullName: Inetlab.SMPP.Common.Parameters.OptionalParameter.Value
+- uid: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.Value*
+  commentId: Overload:Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.Value
+  isExternal: false
+  name: Value
+  nameWithType: SARReferenceNumberParameter.Value
+  fullName: Inetlab.SMPP.Common.Parameters.SARReferenceNumberParameter.Value
+shouldSkipMarkup: true

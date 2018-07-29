@@ -1,0 +1,402 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.UnBind
+  commentId: T:Inetlab.SMPP.PDU.UnBind
+  id: UnBind
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.UnBind.#ctor
+  - Inetlab.SMPP.PDU.UnBind.#ctor(SmppHeader)
+  langs:
+  - csharp
+  - vb
+  name: UnBind
+  nameWithType: UnBind
+  fullName: Inetlab.SMPP.PDU.UnBind
+  type: Class
+  source:
+    id: UnBind
+    path: ''
+    startLine: 17046
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nDeregister an instance of an ESME from the\nSMSC and inform the SMSC that the ESME no longer wishes to use this network connection\nfor the submission or delivery of messages.\n"
+  example: []
+  syntax:
+    content: 'public class UnBind : SmppRequest<UnBindResp>'
+    content.vb: >-
+      Public Class UnBind
+          Inherits SmppRequest(Of UnBindResp)
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.PDU.SmppPDU
+  - Inetlab.SMPP.PDU.SmppRequest
+  - Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.UnBindResp}
+  inheritedMembers:
+  - Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.UnBindResp}.Response
+  - Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  - Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  - Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  - Inetlab.SMPP.PDU.SmppRequest.ToString
+  - Inetlab.SMPP.PDU.SmppPDU.Header
+  - Inetlab.SMPP.PDU.SmppPDU.Client
+  - Inetlab.SMPP.PDU.SmppPDU.Tag
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.PDU.UnBind.#ctor
+  commentId: M:Inetlab.SMPP.PDU.UnBind.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.PDU.UnBind
+  langs:
+  - csharp
+  - vb
+  name: UnBind()
+  nameWithType: UnBind.UnBind()
+  fullName: Inetlab.SMPP.PDU.UnBind.UnBind()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17049
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public UnBind()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.PDU.UnBind.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.UnBind.#ctor(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.UnBind.#ctor(SmppHeader)
+  id: '#ctor(SmppHeader)'
+  parent: Inetlab.SMPP.PDU.UnBind
+  langs:
+  - csharp
+  - vb
+  name: UnBind(SmppHeader)
+  nameWithType: UnBind.UnBind(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.UnBind.UnBind(SmppHeader)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17053
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public UnBind(SmppHeader header)
+    parameters:
+    - id: header
+      type: SmppHeader
+    content.vb: Public Sub New(header As SmppHeader)
+  overload: Inetlab.SMPP.PDU.UnBind.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU.SmppRequest
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest
+  parent: Inetlab.SMPP.PDU
+  name: SmppRequest
+  nameWithType: SmppRequest
+  fullName: Inetlab.SMPP.PDU.SmppRequest
+- uid: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.UnBindResp}
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.UnBindResp}
+  parent: Inetlab.SMPP.PDU
+  definition: Inetlab.SMPP.PDU.SmppRequest`1
+  name: SmppRequest<UnBindResp>
+  nameWithType: SmppRequest<UnBindResp>
+  fullName: Inetlab.SMPP.PDU.SmppRequest<Inetlab.SMPP.PDU.UnBindResp>
+  nameWithType.vb: SmppRequest(Of UnBindResp)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of Inetlab.SMPP.PDU.UnBindResp)
+  name.vb: SmppRequest(Of UnBindResp)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.PDU.UnBindResp
+    name: UnBindResp
+    nameWithType: UnBindResp
+    fullName: Inetlab.SMPP.PDU.UnBindResp
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.PDU.UnBindResp
+    name: UnBindResp
+    nameWithType: UnBindResp
+    fullName: Inetlab.SMPP.PDU.UnBindResp
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.UnBindResp}.Response
+  commentId: P:Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.UnBindResp}.Response
+  parent: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.UnBindResp}
+  definition: Inetlab.SMPP.PDU.SmppRequest`1.Response
+  name: Response
+  nameWithType: SmppRequest<UnBindResp>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequest<Inetlab.SMPP.PDU.UnBindResp>.Response
+  nameWithType.vb: SmppRequest(Of UnBindResp).Response
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of Inetlab.SMPP.PDU.UnBindResp).Response
+- uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: CreatePDU(SmppHeader)
+  nameWithType: SmppRequest.CreatePDU(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+    name: CreatePDU
+    nameWithType: SmppRequest.CreatePDU
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+    name: CreatePDU
+    nameWithType: SmppRequest.CreatePDU
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: CreateResponseHeader(SmppHeader)
+  nameWithType: SmppRequest.CreateResponseHeader(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+    name: CreateResponseHeader
+    nameWithType: SmppRequest.CreateResponseHeader
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+    name: CreateResponseHeader
+    nameWithType: SmppRequest.CreateResponseHeader
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: GetResponseCommand(CommandSet)
+  nameWithType: SmppRequest.GetResponseCommand(CommandSet)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+    name: GetResponseCommand
+    nameWithType: SmppRequest.GetResponseCommand
+    fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CommandSet
+    name: CommandSet
+    nameWithType: CommandSet
+    fullName: CommandSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+    name: GetResponseCommand
+    nameWithType: SmppRequest.GetResponseCommand
+    fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CommandSet
+    name: CommandSet
+    nameWithType: CommandSet
+    fullName: CommandSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.ToString
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  name: ToString()
+  nameWithType: SmppRequest.ToString()
+  fullName: Inetlab.SMPP.PDU.SmppRequest.ToString()
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+    name: ToString
+    nameWithType: SmppRequest.ToString
+    fullName: Inetlab.SMPP.PDU.SmppRequest.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+    name: ToString
+    nameWithType: SmppRequest.ToString
+    fullName: Inetlab.SMPP.PDU.SmppRequest.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppPDU.Header
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Header
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Header
+  nameWithType: SmppPDU.Header
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Header
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Client
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Tag
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.SmppRequest`1
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest`1
+  name: SmppRequest<TResponse>
+  nameWithType: SmppRequest<TResponse>
+  fullName: Inetlab.SMPP.PDU.SmppRequest<TResponse>
+  nameWithType.vb: SmppRequest(Of TResponse)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of TResponse)
+  name.vb: SmppRequest(Of TResponse)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest`1.Response
+  commentId: P:Inetlab.SMPP.PDU.SmppRequest`1.Response
+  name: Response
+  nameWithType: SmppRequest<TResponse>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequest<TResponse>.Response
+  nameWithType.vb: SmppRequest(Of TResponse).Response
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of TResponse).Response
+- uid: Inetlab.SMPP.PDU.UnBind.#ctor*
+  commentId: Overload:Inetlab.SMPP.PDU.UnBind.#ctor
+  name: UnBind
+  nameWithType: UnBind.UnBind
+  fullName: Inetlab.SMPP.PDU.UnBind.UnBind
+- uid: SmppHeader
+  isExternal: true
+  name: SmppHeader
+  nameWithType: SmppHeader
+  fullName: SmppHeader
+shouldSkipMarkup: true

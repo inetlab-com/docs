@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.Parameters
+  commentId: N:Inetlab.SMPP.Common.Parameters
+  id: Inetlab.SMPP.Common.Parameters
+  children:
+  - Inetlab.SMPP.Common.Parameters.DPF
+  langs:
+  - csharp
+  - vb
+  name: Inetlab.SMPP.Common.Parameters
+  nameWithType: Inetlab.SMPP.Common.Parameters
+  fullName: Inetlab.SMPP.Common.Parameters
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Inetlab.SMPP.Common.Parameters.DPF
+  commentId: T:Inetlab.SMPP.Common.Parameters.DPF
+  name: DPF
+  nameWithType: DPF
+  fullName: Inetlab.SMPP.Common.Parameters.DPF
+shouldSkipMarkup: true

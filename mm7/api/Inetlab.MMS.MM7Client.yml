@@ -15,6 +15,8 @@ items:
   - Inetlab.MMS.MM7Client.CreateSubmitRequest
   - Inetlab.MMS.MM7Client.Deliver(Inetlab.MMS.MMSMessage)
   - Inetlab.MMS.MM7Client.Deliver(Inetlab.MMS.MMSMessage,Inetlab.MMS.MM7.DeliverRequest)
+  - Inetlab.MMS.MM7Client.GetWebRequest(System.Uri)
+  - Inetlab.MMS.MM7Client.GetWebResponse(System.Net.HttpWebRequest)
   - Inetlab.MMS.MM7Client.License
   - Inetlab.MMS.MM7Client.Logger
   - Inetlab.MMS.MM7Client.MM7Version
@@ -1402,6 +1404,93 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: Inetlab.MMS.MM7Client.GetWebResponse(System.Net.HttpWebRequest)
+  commentId: M:Inetlab.MMS.MM7Client.GetWebResponse(System.Net.HttpWebRequest)
+  id: GetWebResponse(System.Net.HttpWebRequest)
+  parent: Inetlab.MMS.MM7Client
+  langs:
+  - csharp
+  - vb
+  name: GetWebResponse(HttpWebRequest)
+  nameWithType: MM7Client.GetWebResponse(HttpWebRequest)
+  fullName: Inetlab.MMS.MM7Client.GetWebResponse(System.Net.HttpWebRequest)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Client.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: GetWebResponse
+    path: ../Source/CS/MM7Client.cs
+    startLine: 458
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: Returns a response from a request to an MMS Web service message.
+  example: []
+  syntax:
+    content: protected virtual HttpWebResponse GetWebResponse(HttpWebRequest request)
+    parameters:
+    - id: request
+      type: System.Net.HttpWebRequest
+      description: 'The <xref href="System.Net.HttpWebRequest" data-throw-if-not-resolved="false"></xref> from which to get the response.  '
+    return:
+      type: System.Net.HttpWebResponse
+      description: 'A response from a request to an MMS Web service message. '
+    content.vb: Protected Overridable Function GetWebResponse(request As HttpWebRequest) As HttpWebResponse
+  overload: Inetlab.MMS.MM7Client.GetWebResponse*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Inetlab.MMS.MM7Client.GetWebRequest(System.Uri)
+  commentId: M:Inetlab.MMS.MM7Client.GetWebRequest(System.Uri)
+  id: GetWebRequest(System.Uri)
+  parent: Inetlab.MMS.MM7Client
+  langs:
+  - csharp
+  - vb
+  name: GetWebRequest(Uri)
+  nameWithType: MM7Client.GetWebRequest(Uri)
+  fullName: Inetlab.MMS.MM7Client.GetWebRequest(System.Uri)
+  type: Method
+  source:
+    remote:
+      path: Source/CS/MM7Client.cs
+      branch: master
+      repo: C:/Users/Aleksey/Dropbox/Repos/Inetlab.MMS.git
+    id: GetWebRequest
+    path: ../Source/CS/MM7Client.cs
+    startLine: 510
+  assemblies:
+  - Inetlab.MMS.MM7
+  namespace: Inetlab.MMS
+  summary: 'Creates <xref href="System.Net.HttpWebRequest" data-throw-if-not-resolved="false"></xref> for the specified <code data-dev-comment-type="paramref" class="paramref">url</code> '
+  remarks: This method can be overridden to customize the WebRequest before the MMS Web service request is made. For example, you could add a custom header to the request.
+  example: []
+  syntax:
+    content: protected virtual HttpWebRequest GetWebRequest(Uri url)
+    parameters:
+    - id: url
+      type: System.Uri
+      description: '<see cref="!:URI"></see> to use when creating the <xref href="System.Net.HttpWebRequest" data-throw-if-not-resolved="false"></xref> '
+    return:
+      type: System.Net.HttpWebRequest
+      description: 'The web request for the specified URI. '
+    content.vb: Protected Overridable Function GetWebRequest(url As Uri) As HttpWebRequest
+  overload: Inetlab.MMS.MM7Client.GetWebRequest*
+  exceptions:
+  - type: System.Security.Authentication.AuthenticationException
+    commentId: T:System.Security.Authentication.AuthenticationException
+    description: 'Thrown when an Authentication error when unsupported <xref href="System.Net.AuthenticationSchemes" data-throw-if-not-resolved="false"></xref> is used. '
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
 references:
 - uid: Inetlab.MMS
   commentId: N:Inetlab.MMS
@@ -1677,3 +1766,38 @@ references:
   name: ReadReplyReportResponse
   nameWithType: ReadReplyReportResponse
   fullName: Inetlab.MMS.MM7.ReadReplyReportResponse
+- uid: System.Net.HttpWebRequest
+  commentId: T:System.Net.HttpWebRequest
+  parent: System.Net
+  isExternal: true
+  name: HttpWebRequest
+  nameWithType: HttpWebRequest
+  fullName: System.Net.HttpWebRequest
+- uid: Inetlab.MMS.MM7Client.GetWebResponse*
+  commentId: Overload:Inetlab.MMS.MM7Client.GetWebResponse
+  isExternal: false
+  name: GetWebResponse
+  nameWithType: MM7Client.GetWebResponse
+  fullName: Inetlab.MMS.MM7Client.GetWebResponse
+- uid: System.Net.HttpWebResponse
+  commentId: T:System.Net.HttpWebResponse
+  parent: System.Net
+  isExternal: true
+  name: HttpWebResponse
+  nameWithType: HttpWebResponse
+  fullName: System.Net.HttpWebResponse
+- uid: System.Security.Authentication.AuthenticationException
+  commentId: T:System.Security.Authentication.AuthenticationException
+- uid: Inetlab.MMS.MM7Client.GetWebRequest*
+  commentId: Overload:Inetlab.MMS.MM7Client.GetWebRequest
+  isExternal: false
+  name: GetWebRequest
+  nameWithType: MM7Client.GetWebRequest
+  fullName: Inetlab.MMS.MM7Client.GetWebRequest
+- uid: System.Uri
+  commentId: T:System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri

@@ -1,0 +1,144 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.UnsuccessfulDelivery
+  commentId: T:Inetlab.SMPP.Common.UnsuccessfulDelivery
+  id: UnsuccessfulDelivery
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.UnsuccessfulDelivery.DestinationAddress
+  - Inetlab.SMPP.Common.UnsuccessfulDelivery.ErrorStatus
+  langs:
+  - csharp
+  - vb
+  name: UnsuccessfulDelivery
+  nameWithType: UnsuccessfulDelivery
+  fullName: Inetlab.SMPP.Common.UnsuccessfulDelivery
+  type: Class
+  source:
+    id: UnsuccessfulDelivery
+    path: ''
+    startLine: 12700
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nRepresents SME address or/and Distribution name to which submission was unsuccessful\n"
+  example: []
+  syntax:
+    content: public class UnsuccessfulDelivery
+    content.vb: Public Class UnsuccessfulDelivery
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.UnsuccessfulDelivery.DestinationAddress
+  commentId: P:Inetlab.SMPP.Common.UnsuccessfulDelivery.DestinationAddress
+  id: DestinationAddress
+  parent: Inetlab.SMPP.Common.UnsuccessfulDelivery
+  langs:
+  - csharp
+  - vb
+  name: DestinationAddress
+  nameWithType: UnsuccessfulDelivery.DestinationAddress
+  fullName: Inetlab.SMPP.Common.UnsuccessfulDelivery.DestinationAddress
+  type: Property
+  source:
+    id: DestinationAddress
+    path: ''
+    startLine: 12706
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nDestination address of short message.\n"
+  example: []
+  syntax:
+    content: public SmeAddress DestinationAddress { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.SmeAddress
+    content.vb: Public Property DestinationAddress As SmeAddress
+  overload: Inetlab.SMPP.Common.UnsuccessfulDelivery.DestinationAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.UnsuccessfulDelivery.ErrorStatus
+  commentId: P:Inetlab.SMPP.Common.UnsuccessfulDelivery.ErrorStatus
+  id: ErrorStatus
+  parent: Inetlab.SMPP.Common.UnsuccessfulDelivery
+  langs:
+  - csharp
+  - vb
+  name: ErrorStatus
+  nameWithType: UnsuccessfulDelivery.ErrorStatus
+  fullName: Inetlab.SMPP.Common.UnsuccessfulDelivery.ErrorStatus
+  type: Property
+  source:
+    id: ErrorStatus
+    path: ''
+    startLine: 12712
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nIndicates the success or failure of the request to this SME address.\n"
+  example: []
+  syntax:
+    content: public CommandStatus ErrorStatus { get; set; }
+    parameters: []
+    return:
+      type: Inetlab.SMPP.Common.CommandStatus
+    content.vb: Public Property ErrorStatus As CommandStatus
+  overload: Inetlab.SMPP.Common.UnsuccessfulDelivery.ErrorStatus*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.UnsuccessfulDelivery.DestinationAddress*
+  commentId: Overload:Inetlab.SMPP.Common.UnsuccessfulDelivery.DestinationAddress
+  name: DestinationAddress
+  nameWithType: UnsuccessfulDelivery.DestinationAddress
+  fullName: Inetlab.SMPP.Common.UnsuccessfulDelivery.DestinationAddress
+- uid: Inetlab.SMPP.Common.SmeAddress
+  commentId: T:Inetlab.SMPP.Common.SmeAddress
+  parent: Inetlab.SMPP.Common
+  name: SmeAddress
+  nameWithType: SmeAddress
+  fullName: Inetlab.SMPP.Common.SmeAddress
+- uid: Inetlab.SMPP.Common.UnsuccessfulDelivery.ErrorStatus*
+  commentId: Overload:Inetlab.SMPP.Common.UnsuccessfulDelivery.ErrorStatus
+  name: ErrorStatus
+  nameWithType: UnsuccessfulDelivery.ErrorStatus
+  fullName: Inetlab.SMPP.Common.UnsuccessfulDelivery.ErrorStatus
+- uid: Inetlab.SMPP.Common.CommandStatus
+  commentId: T:Inetlab.SMPP.Common.CommandStatus
+  parent: Inetlab.SMPP.Common
+  name: CommandStatus
+  nameWithType: CommandStatus
+  fullName: Inetlab.SMPP.Common.CommandStatus
+shouldSkipMarkup: true

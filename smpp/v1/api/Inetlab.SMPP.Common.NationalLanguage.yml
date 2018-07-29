@@ -1,0 +1,451 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.NationalLanguage
+  commentId: T:Inetlab.SMPP.Common.NationalLanguage
+  id: NationalLanguage
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.NationalLanguage.Bengali
+  - Inetlab.SMPP.Common.NationalLanguage.Default
+  - Inetlab.SMPP.Common.NationalLanguage.Gujarati
+  - Inetlab.SMPP.Common.NationalLanguage.Hindi
+  - Inetlab.SMPP.Common.NationalLanguage.Kannada
+  - Inetlab.SMPP.Common.NationalLanguage.Malayalam
+  - Inetlab.SMPP.Common.NationalLanguage.Oriya
+  - Inetlab.SMPP.Common.NationalLanguage.Portuguese
+  - Inetlab.SMPP.Common.NationalLanguage.Punjabi
+  - Inetlab.SMPP.Common.NationalLanguage.Spanish
+  - Inetlab.SMPP.Common.NationalLanguage.Tamil
+  - Inetlab.SMPP.Common.NationalLanguage.Telugu
+  - Inetlab.SMPP.Common.NationalLanguage.Turkish
+  - Inetlab.SMPP.Common.NationalLanguage.Urdu
+  langs:
+  - csharp
+  - vb
+  name: NationalLanguage
+  nameWithType: NationalLanguage
+  fullName: Inetlab.SMPP.Common.NationalLanguage
+  type: Enum
+  source:
+    id: NationalLanguage
+    path: ''
+    startLine: 5574
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public enum NationalLanguage : byte'
+    content.vb: Public Enum NationalLanguage As Byte
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Inetlab.SMPP.Common.NationalLanguage.Default
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Default
+  id: Default
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: NationalLanguage.Default
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Default
+  type: Field
+  source:
+    id: Default
+    path: ''
+    startLine: 5576
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Default = 0
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Turkish
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Turkish
+  id: Turkish
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Turkish
+  nameWithType: NationalLanguage.Turkish
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Turkish
+  type: Field
+  source:
+    id: Turkish
+    path: ''
+    startLine: 5577
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Turkish = 1
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Spanish
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Spanish
+  id: Spanish
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Spanish
+  nameWithType: NationalLanguage.Spanish
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Spanish
+  type: Field
+  source:
+    id: Spanish
+    path: ''
+    startLine: 5578
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Spanish = 2
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Portuguese
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Portuguese
+  id: Portuguese
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Portuguese
+  nameWithType: NationalLanguage.Portuguese
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Portuguese
+  type: Field
+  source:
+    id: Portuguese
+    path: ''
+    startLine: 5579
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Portuguese = 3
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Bengali
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Bengali
+  id: Bengali
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Bengali
+  nameWithType: NationalLanguage.Bengali
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Bengali
+  type: Field
+  source:
+    id: Bengali
+    path: ''
+    startLine: 5580
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Bengali = 4
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Gujarati
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Gujarati
+  id: Gujarati
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Gujarati
+  nameWithType: NationalLanguage.Gujarati
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Gujarati
+  type: Field
+  source:
+    id: Gujarati
+    path: ''
+    startLine: 5581
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Gujarati = 5
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Hindi
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Hindi
+  id: Hindi
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Hindi
+  nameWithType: NationalLanguage.Hindi
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Hindi
+  type: Field
+  source:
+    id: Hindi
+    path: ''
+    startLine: 5582
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Hindi = 6
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Kannada
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Kannada
+  id: Kannada
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Kannada
+  nameWithType: NationalLanguage.Kannada
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Kannada
+  type: Field
+  source:
+    id: Kannada
+    path: ''
+    startLine: 5583
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Kannada = 7
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Malayalam
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Malayalam
+  id: Malayalam
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Malayalam
+  nameWithType: NationalLanguage.Malayalam
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Malayalam
+  type: Field
+  source:
+    id: Malayalam
+    path: ''
+    startLine: 5584
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Malayalam = 8
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Oriya
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Oriya
+  id: Oriya
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Oriya
+  nameWithType: NationalLanguage.Oriya
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Oriya
+  type: Field
+  source:
+    id: Oriya
+    path: ''
+    startLine: 5585
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Oriya = 9
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Punjabi
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Punjabi
+  id: Punjabi
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Punjabi
+  nameWithType: NationalLanguage.Punjabi
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Punjabi
+  type: Field
+  source:
+    id: Punjabi
+    path: ''
+    startLine: 5586
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Punjabi = 10
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Tamil
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Tamil
+  id: Tamil
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Tamil
+  nameWithType: NationalLanguage.Tamil
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Tamil
+  type: Field
+  source:
+    id: Tamil
+    path: ''
+    startLine: 5587
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Tamil = 11
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Telugu
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Telugu
+  id: Telugu
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Telugu
+  nameWithType: NationalLanguage.Telugu
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Telugu
+  type: Field
+  source:
+    id: Telugu
+    path: ''
+    startLine: 5588
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Telugu = 12
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Inetlab.SMPP.Common.NationalLanguage.Urdu
+  commentId: F:Inetlab.SMPP.Common.NationalLanguage.Urdu
+  id: Urdu
+  parent: Inetlab.SMPP.Common.NationalLanguage
+  langs:
+  - csharp
+  - vb
+  name: Urdu
+  nameWithType: NationalLanguage.Urdu
+  fullName: Inetlab.SMPP.Common.NationalLanguage.Urdu
+  type: Field
+  source:
+    id: Urdu
+    path: ''
+    startLine: 5589
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: Urdu = 13
+    return:
+      type: Inetlab.SMPP.Common.NationalLanguage
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: Inetlab.SMPP.Common.NationalLanguage
+  commentId: T:Inetlab.SMPP.Common.NationalLanguage
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: NationalLanguage
+  nameWithType: NationalLanguage
+  fullName: Inetlab.SMPP.Common.NationalLanguage
+shouldSkipMarkup: true

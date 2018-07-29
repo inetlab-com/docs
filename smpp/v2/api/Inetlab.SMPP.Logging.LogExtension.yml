@@ -1,0 +1,513 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Logging.LogExtension
+  commentId: T:Inetlab.SMPP.Logging.LogExtension
+  id: LogExtension
+  parent: Inetlab.SMPP.Logging
+  children:
+  - Inetlab.SMPP.Logging.LogExtension.DebugFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  - Inetlab.SMPP.Logging.LogExtension.Error(Inetlab.SMPP.Logging.ILog,System.Object)
+  - Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog,System.String,Exception,System.Object[])
+  - Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  - Inetlab.SMPP.Logging.LogExtension.InfoFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  - Inetlab.SMPP.Logging.LogExtension.TraceFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  - Inetlab.SMPP.Logging.LogExtension.Warn(Inetlab.SMPP.Logging.ILog,System.Object)
+  - Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog,System.String,Exception,System.Object[])
+  - Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: LogExtension
+  nameWithType: LogExtension
+  fullName: Inetlab.SMPP.Logging.LogExtension
+  type: Class
+  source:
+    id: LogExtension
+    path: ''
+    startLine: 14954
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static class LogExtension
+    content.vb: Public Module LogExtension
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Inetlab.SMPP.Logging.LogExtension.Error(Inetlab.SMPP.Logging.ILog,System.Object)
+  commentId: M:Inetlab.SMPP.Logging.LogExtension.Error(Inetlab.SMPP.Logging.ILog,System.Object)
+  id: Error(Inetlab.SMPP.Logging.ILog,System.Object)
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.Logging.LogExtension
+  langs:
+  - csharp
+  - vb
+  name: Error(ILog, Object)
+  nameWithType: LogExtension.Error(ILog, Object)
+  fullName: Inetlab.SMPP.Logging.LogExtension.Error(Inetlab.SMPP.Logging.ILog, System.Object)
+  type: Method
+  source:
+    id: Error
+    path: ''
+    startLine: 14956
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void Error(this ILog log, object message)
+    parameters:
+    - id: log
+      type: Inetlab.SMPP.Logging.ILog
+    - id: message
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Error(log As ILog, message As Object)
+  overload: Inetlab.SMPP.Logging.LogExtension.Error*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog,System.String,Exception,System.Object[])
+  commentId: M:Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog,System.String,Exception,System.Object[])
+  id: ErrorFormat(Inetlab.SMPP.Logging.ILog,System.String,Exception,System.Object[])
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.Logging.LogExtension
+  langs:
+  - csharp
+  - vb
+  name: ErrorFormat(ILog, String, Exception, Object[])
+  nameWithType: LogExtension.ErrorFormat(ILog, String, Exception, Object[])
+  fullName: Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog, System.String, Exception, System.Object[])
+  type: Method
+  source:
+    id: ErrorFormat
+    path: ''
+    startLine: 14961
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void ErrorFormat(this ILog log, string message, Exception ex, params object[] args)
+    parameters:
+    - id: log
+      type: Inetlab.SMPP.Logging.ILog
+    - id: message
+      type: System.String
+    - id: ex
+      type: Exception
+    - id: args
+      type: System.Object[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ErrorFormat(log As ILog, message As String, ex As Exception, ParamArray args As Object())
+  overload: Inetlab.SMPP.Logging.LogExtension.ErrorFormat*
+  nameWithType.vb: LogExtension.ErrorFormat(ILog, String, Exception, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog, System.String, Exception, System.Object())
+  name.vb: ErrorFormat(ILog, String, Exception, Object())
+- uid: Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  commentId: M:Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  id: ErrorFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.Logging.LogExtension
+  langs:
+  - csharp
+  - vb
+  name: ErrorFormat(ILog, String, Object[])
+  nameWithType: LogExtension.ErrorFormat(ILog, String, Object[])
+  fullName: Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object[])
+  type: Method
+  source:
+    id: ErrorFormat
+    path: ''
+    startLine: 14966
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void ErrorFormat(this ILog log, string message, params object[] args)
+    parameters:
+    - id: log
+      type: Inetlab.SMPP.Logging.ILog
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub ErrorFormat(log As ILog, message As String, ParamArray args As Object())
+  overload: Inetlab.SMPP.Logging.LogExtension.ErrorFormat*
+  nameWithType.vb: LogExtension.ErrorFormat(ILog, String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Logging.LogExtension.ErrorFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object())
+  name.vb: ErrorFormat(ILog, String, Object())
+- uid: Inetlab.SMPP.Logging.LogExtension.Warn(Inetlab.SMPP.Logging.ILog,System.Object)
+  commentId: M:Inetlab.SMPP.Logging.LogExtension.Warn(Inetlab.SMPP.Logging.ILog,System.Object)
+  id: Warn(Inetlab.SMPP.Logging.ILog,System.Object)
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.Logging.LogExtension
+  langs:
+  - csharp
+  - vb
+  name: Warn(ILog, Object)
+  nameWithType: LogExtension.Warn(ILog, Object)
+  fullName: Inetlab.SMPP.Logging.LogExtension.Warn(Inetlab.SMPP.Logging.ILog, System.Object)
+  type: Method
+  source:
+    id: Warn
+    path: ''
+    startLine: 14971
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void Warn(this ILog log, object message)
+    parameters:
+    - id: log
+      type: Inetlab.SMPP.Logging.ILog
+    - id: message
+      type: System.Object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub Warn(log As ILog, message As Object)
+  overload: Inetlab.SMPP.Logging.LogExtension.Warn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog,System.String,Exception,System.Object[])
+  commentId: M:Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog,System.String,Exception,System.Object[])
+  id: WarnFormat(Inetlab.SMPP.Logging.ILog,System.String,Exception,System.Object[])
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.Logging.LogExtension
+  langs:
+  - csharp
+  - vb
+  name: WarnFormat(ILog, String, Exception, Object[])
+  nameWithType: LogExtension.WarnFormat(ILog, String, Exception, Object[])
+  fullName: Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog, System.String, Exception, System.Object[])
+  type: Method
+  source:
+    id: WarnFormat
+    path: ''
+    startLine: 14976
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void WarnFormat(this ILog log, string message, Exception ex, params object[] args)
+    parameters:
+    - id: log
+      type: Inetlab.SMPP.Logging.ILog
+    - id: message
+      type: System.String
+    - id: ex
+      type: Exception
+    - id: args
+      type: System.Object[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub WarnFormat(log As ILog, message As String, ex As Exception, ParamArray args As Object())
+  overload: Inetlab.SMPP.Logging.LogExtension.WarnFormat*
+  nameWithType.vb: LogExtension.WarnFormat(ILog, String, Exception, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog, System.String, Exception, System.Object())
+  name.vb: WarnFormat(ILog, String, Exception, Object())
+- uid: Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  commentId: M:Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  id: WarnFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.Logging.LogExtension
+  langs:
+  - csharp
+  - vb
+  name: WarnFormat(ILog, String, Object[])
+  nameWithType: LogExtension.WarnFormat(ILog, String, Object[])
+  fullName: Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object[])
+  type: Method
+  source:
+    id: WarnFormat
+    path: ''
+    startLine: 14981
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void WarnFormat(this ILog log, string message, params object[] args)
+    parameters:
+    - id: log
+      type: Inetlab.SMPP.Logging.ILog
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub WarnFormat(log As ILog, message As String, ParamArray args As Object())
+  overload: Inetlab.SMPP.Logging.LogExtension.WarnFormat*
+  nameWithType.vb: LogExtension.WarnFormat(ILog, String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Logging.LogExtension.WarnFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object())
+  name.vb: WarnFormat(ILog, String, Object())
+- uid: Inetlab.SMPP.Logging.LogExtension.InfoFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  commentId: M:Inetlab.SMPP.Logging.LogExtension.InfoFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  id: InfoFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.Logging.LogExtension
+  langs:
+  - csharp
+  - vb
+  name: InfoFormat(ILog, String, Object[])
+  nameWithType: LogExtension.InfoFormat(ILog, String, Object[])
+  fullName: Inetlab.SMPP.Logging.LogExtension.InfoFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object[])
+  type: Method
+  source:
+    id: InfoFormat
+    path: ''
+    startLine: 14986
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void InfoFormat(this ILog log, string message, params object[] args)
+    parameters:
+    - id: log
+      type: Inetlab.SMPP.Logging.ILog
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub InfoFormat(log As ILog, message As String, ParamArray args As Object())
+  overload: Inetlab.SMPP.Logging.LogExtension.InfoFormat*
+  nameWithType.vb: LogExtension.InfoFormat(ILog, String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Logging.LogExtension.InfoFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object())
+  name.vb: InfoFormat(ILog, String, Object())
+- uid: Inetlab.SMPP.Logging.LogExtension.DebugFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  commentId: M:Inetlab.SMPP.Logging.LogExtension.DebugFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  id: DebugFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.Logging.LogExtension
+  langs:
+  - csharp
+  - vb
+  name: DebugFormat(ILog, String, Object[])
+  nameWithType: LogExtension.DebugFormat(ILog, String, Object[])
+  fullName: Inetlab.SMPP.Logging.LogExtension.DebugFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object[])
+  type: Method
+  source:
+    id: DebugFormat
+    path: ''
+    startLine: 14991
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void DebugFormat(this ILog log, string message, params object[] args)
+    parameters:
+    - id: log
+      type: Inetlab.SMPP.Logging.ILog
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub DebugFormat(log As ILog, message As String, ParamArray args As Object())
+  overload: Inetlab.SMPP.Logging.LogExtension.DebugFormat*
+  nameWithType.vb: LogExtension.DebugFormat(ILog, String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Logging.LogExtension.DebugFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object())
+  name.vb: DebugFormat(ILog, String, Object())
+- uid: Inetlab.SMPP.Logging.LogExtension.TraceFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  commentId: M:Inetlab.SMPP.Logging.LogExtension.TraceFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  id: TraceFormat(Inetlab.SMPP.Logging.ILog,System.String,System.Object[])
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.Logging.LogExtension
+  langs:
+  - csharp
+  - vb
+  name: TraceFormat(ILog, String, Object[])
+  nameWithType: LogExtension.TraceFormat(ILog, String, Object[])
+  fullName: Inetlab.SMPP.Logging.LogExtension.TraceFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object[])
+  type: Method
+  source:
+    id: TraceFormat
+    path: ''
+    startLine: 14996
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Logging
+  syntax:
+    content: public static void TraceFormat(this ILog log, string message, params object[] args)
+    parameters:
+    - id: log
+      type: Inetlab.SMPP.Logging.ILog
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Sub TraceFormat(log As ILog, message As String, ParamArray args As Object())
+  overload: Inetlab.SMPP.Logging.LogExtension.TraceFormat*
+  nameWithType.vb: LogExtension.TraceFormat(ILog, String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.Logging.LogExtension.TraceFormat(Inetlab.SMPP.Logging.ILog, System.String, System.Object())
+  name.vb: TraceFormat(ILog, String, Object())
+references:
+- uid: Inetlab.SMPP.Logging
+  commentId: N:Inetlab.SMPP.Logging
+  name: Inetlab.SMPP.Logging
+  nameWithType: Inetlab.SMPP.Logging
+  fullName: Inetlab.SMPP.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Logging.LogExtension.Error*
+  commentId: Overload:Inetlab.SMPP.Logging.LogExtension.Error
+  name: Error
+  nameWithType: LogExtension.Error
+  fullName: Inetlab.SMPP.Logging.LogExtension.Error
+- uid: Inetlab.SMPP.Logging.ILog
+  commentId: T:Inetlab.SMPP.Logging.ILog
+  parent: Inetlab.SMPP.Logging
+  name: ILog
+  nameWithType: ILog
+  fullName: Inetlab.SMPP.Logging.ILog
+- uid: Inetlab.SMPP.Logging.LogExtension.ErrorFormat*
+  commentId: Overload:Inetlab.SMPP.Logging.LogExtension.ErrorFormat
+  name: ErrorFormat
+  nameWithType: LogExtension.ErrorFormat
+  fullName: Inetlab.SMPP.Logging.LogExtension.ErrorFormat
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Exception
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: Exception
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Logging.LogExtension.Warn*
+  commentId: Overload:Inetlab.SMPP.Logging.LogExtension.Warn
+  name: Warn
+  nameWithType: LogExtension.Warn
+  fullName: Inetlab.SMPP.Logging.LogExtension.Warn
+- uid: Inetlab.SMPP.Logging.LogExtension.WarnFormat*
+  commentId: Overload:Inetlab.SMPP.Logging.LogExtension.WarnFormat
+  name: WarnFormat
+  nameWithType: LogExtension.WarnFormat
+  fullName: Inetlab.SMPP.Logging.LogExtension.WarnFormat
+- uid: Inetlab.SMPP.Logging.LogExtension.InfoFormat*
+  commentId: Overload:Inetlab.SMPP.Logging.LogExtension.InfoFormat
+  name: InfoFormat
+  nameWithType: LogExtension.InfoFormat
+  fullName: Inetlab.SMPP.Logging.LogExtension.InfoFormat
+- uid: Inetlab.SMPP.Logging.LogExtension.DebugFormat*
+  commentId: Overload:Inetlab.SMPP.Logging.LogExtension.DebugFormat
+  name: DebugFormat
+  nameWithType: LogExtension.DebugFormat
+  fullName: Inetlab.SMPP.Logging.LogExtension.DebugFormat
+- uid: Inetlab.SMPP.Logging.LogExtension.TraceFormat*
+  commentId: Overload:Inetlab.SMPP.Logging.LogExtension.TraceFormat
+  name: TraceFormat
+  nameWithType: LogExtension.TraceFormat
+  fullName: Inetlab.SMPP.Logging.LogExtension.TraceFormat
+shouldSkipMarkup: true

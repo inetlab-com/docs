@@ -1,0 +1,172 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.SmppStream
+  commentId: T:Inetlab.SMPP.Common.SmppStream
+  id: SmppStream
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.SmppStream.#ctor(Socket)
+  - Inetlab.SMPP.Common.SmppStream.WriteAsync(System.Byte[],System.Int32,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: SmppStream
+  nameWithType: SmppStream
+  fullName: Inetlab.SMPP.Common.SmppStream
+  type: Class
+  source:
+    id: SmppStream
+    path: ''
+    startLine: 10465
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: 'public class SmppStream : NetworkStream'
+    content.vb: >-
+      Public Class SmppStream
+          Inherits NetworkStream
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.SmppStream.#ctor(Socket)
+  commentId: M:Inetlab.SMPP.Common.SmppStream.#ctor(Socket)
+  id: '#ctor(Socket)'
+  parent: Inetlab.SMPP.Common.SmppStream
+  langs:
+  - csharp
+  - vb
+  name: SmppStream(Socket)
+  nameWithType: SmppStream.SmppStream(Socket)
+  fullName: Inetlab.SMPP.Common.SmppStream.SmppStream(Socket)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 10472
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public SmppStream(Socket socket)
+    parameters:
+    - id: socket
+      type: Socket
+    content.vb: Public Sub New(socket As Socket)
+  overload: Inetlab.SMPP.Common.SmppStream.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.SmppStream.WriteAsync(System.Byte[],System.Int32,System.Int32)
+  commentId: M:Inetlab.SMPP.Common.SmppStream.WriteAsync(System.Byte[],System.Int32,System.Int32)
+  id: WriteAsync(System.Byte[],System.Int32,System.Int32)
+  parent: Inetlab.SMPP.Common.SmppStream
+  langs:
+  - csharp
+  - vb
+  name: WriteAsync(Byte[], Int32, Int32)
+  nameWithType: SmppStream.WriteAsync(Byte[], Int32, Int32)
+  fullName: Inetlab.SMPP.Common.SmppStream.WriteAsync(System.Byte[], System.Int32, System.Int32)
+  type: Method
+  source:
+    id: WriteAsync
+    path: ''
+    startLine: 10519
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void WriteAsync(byte[] sendBuffer, int offset, int count)
+    parameters:
+    - id: sendBuffer
+      type: System.Byte[]
+    - id: offset
+      type: System.Int32
+    - id: count
+      type: System.Int32
+    content.vb: Public Sub WriteAsync(sendBuffer As Byte(), offset As Integer, count As Integer)
+  overload: Inetlab.SMPP.Common.SmppStream.WriteAsync*
+  nameWithType.vb: SmppStream.WriteAsync(Byte(), Int32, Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.SmppStream.WriteAsync(System.Byte(), System.Int32, System.Int32)
+  name.vb: WriteAsync(Byte(), Int32, Int32)
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.SmppStream.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.SmppStream.#ctor
+  isExternal: false
+  name: SmppStream
+  nameWithType: SmppStream.SmppStream
+  fullName: Inetlab.SMPP.Common.SmppStream.SmppStream
+- uid: Socket
+  commentId: '!:Socket'
+  isExternal: true
+  name: Socket
+  nameWithType: Socket
+  fullName: Socket
+- uid: Inetlab.SMPP.Common.SmppStream.WriteAsync*
+  commentId: Overload:Inetlab.SMPP.Common.SmppStream.WriteAsync
+  isExternal: false
+  name: WriteAsync
+  nameWithType: SmppStream.WriteAsync
+  fullName: Inetlab.SMPP.Common.SmppStream.WriteAsync
+- uid: System.Byte[]
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+shouldSkipMarkup: true

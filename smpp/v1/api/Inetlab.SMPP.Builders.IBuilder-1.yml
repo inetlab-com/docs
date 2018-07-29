@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Builders.IBuilder`1
+  commentId: T:Inetlab.SMPP.Builders.IBuilder`1
+  id: IBuilder`1
+  parent: Inetlab.SMPP.Builders
+  children:
+  - Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+  - Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+  langs:
+  - csharp
+  - vb
+  name: IBuilder<T>
+  nameWithType: IBuilder<T>
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>
+  type: Interface
+  source:
+    id: IBuilder
+    path: ''
+    startLine: 2247
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  syntax:
+    content: public interface IBuilder<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IBuilder(Of T)
+  nameWithType.vb: IBuilder(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T)
+  name.vb: IBuilder(Of T)
+- uid: Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder`1.Create(SmppClientBase)
+  id: Create(SmppClientBase)
+  parent: Inetlab.SMPP.Builders.IBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: Create(SmppClientBase)
+  nameWithType: IBuilder<T>.Create(SmppClientBase)
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create(SmppClientBase)
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 2252
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  summary: "\nCreates a list of concatenated PDUs using settings from specified <see cref=\"!:SmppClientBase\"></see>\n"
+  example: []
+  syntax:
+    content: IList<T> Create(SmppClientBase client)
+    parameters:
+    - id: client
+      type: SmppClientBase
+    return:
+      type: IList{{T}}
+    content.vb: Function Create(client As SmppClientBase) As IList(Of T)
+  overload: Inetlab.SMPP.Builders.IBuilder`1.Create*
+  nameWithType.vb: IBuilder(Of T).Create(SmppClientBase)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T).Create(SmppClientBase)
+- uid: Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+  commentId: M:Inetlab.SMPP.Builders.IBuilder`1.Create(EncodingMapper)
+  id: Create(EncodingMapper)
+  parent: Inetlab.SMPP.Builders.IBuilder`1
+  langs:
+  - csharp
+  - vb
+  name: Create(EncodingMapper)
+  nameWithType: IBuilder<T>.Create(EncodingMapper)
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create(EncodingMapper)
+  type: Method
+  source:
+    id: Create
+    path: ''
+    startLine: 2257
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Builders
+  summary: "\nCreates a list of concatenated PDUs using settings from specified <see cref=\"!:EncodingMapper\"></see>\n"
+  example: []
+  syntax:
+    content: IList<T> Create(EncodingMapper encodingMapper)
+    parameters:
+    - id: encodingMapper
+      type: EncodingMapper
+    return:
+      type: IList{{T}}
+    content.vb: Function Create(encodingMapper As EncodingMapper) As IList(Of T)
+  overload: Inetlab.SMPP.Builders.IBuilder`1.Create*
+  nameWithType.vb: IBuilder(Of T).Create(EncodingMapper)
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T).Create(EncodingMapper)
+references:
+- uid: Inetlab.SMPP.Builders
+  commentId: N:Inetlab.SMPP.Builders
+  isExternal: false
+  name: Inetlab.SMPP.Builders
+  nameWithType: Inetlab.SMPP.Builders
+  fullName: Inetlab.SMPP.Builders
+- uid: Inetlab.SMPP.Builders.IBuilder`1.Create*
+  commentId: Overload:Inetlab.SMPP.Builders.IBuilder`1.Create
+  isExternal: false
+  name: Create
+  nameWithType: IBuilder<T>.Create
+  fullName: Inetlab.SMPP.Builders.IBuilder<T>.Create
+  nameWithType.vb: IBuilder(Of T).Create
+  fullName.vb: Inetlab.SMPP.Builders.IBuilder(Of T).Create
+- uid: SmppClientBase
+  isExternal: true
+  name: SmppClientBase
+  nameWithType: SmppClientBase
+  fullName: SmppClientBase
+- uid: IList{{T}}
+  commentId: '!:IList{`0}'
+  definition: IList`1
+  name: IList<T>
+  nameWithType: IList<T>
+  fullName: IList<T>
+  nameWithType.vb: IList(Of T)
+  fullName.vb: IList(Of T)
+  name.vb: IList(Of T)
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IList`1
+  isExternal: true
+  name: IList<>
+  nameWithType: IList<>
+  fullName: IList<>
+  nameWithType.vb: IList(Of )
+  fullName.vb: IList(Of )
+  name.vb: IList(Of )
+  spec.csharp:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IList`1
+    name: IList
+    nameWithType: IList
+    fullName: IList
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EncodingMapper
+  commentId: '!:EncodingMapper'
+  isExternal: true
+  name: EncodingMapper
+  nameWithType: EncodingMapper
+  fullName: EncodingMapper
+shouldSkipMarkup: true

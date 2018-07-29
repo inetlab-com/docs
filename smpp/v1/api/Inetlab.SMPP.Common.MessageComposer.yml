@@ -1,0 +1,533 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.MessageComposer
+  commentId: T:Inetlab.SMPP.Common.MessageComposer
+  id: MessageComposer
+  parent: Inetlab.SMPP.Common
+  children:
+  - Inetlab.SMPP.Common.MessageComposer.#ctor
+  - Inetlab.SMPP.Common.MessageComposer.AddMessage``1(``0)
+  - Inetlab.SMPP.Common.MessageComposer.Clear
+  - Inetlab.SMPP.Common.MessageComposer.evFullMessageReceived
+  - Inetlab.SMPP.Common.MessageComposer.evFullMessageTimeout
+  - Inetlab.SMPP.Common.MessageComposer.GetFullMessage``1(``0)
+  - Inetlab.SMPP.Common.MessageComposer.IsLastSegment``1(``0)
+  - Inetlab.SMPP.Common.MessageComposer.Items
+  - Inetlab.SMPP.Common.MessageComposer.Timeout
+  langs:
+  - csharp
+  - vb
+  name: MessageComposer
+  nameWithType: MessageComposer
+  fullName: Inetlab.SMPP.Common.MessageComposer
+  type: Class
+  source:
+    id: MessageComposer
+    path: ''
+    startLine: 5033
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nHelps to assemble concatenated messages\n"
+  example: []
+  syntax:
+    content: public class MessageComposer
+    content.vb: Public Class MessageComposer
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.Common.MessageComposer.Timeout
+  commentId: P:Inetlab.SMPP.Common.MessageComposer.Timeout
+  id: Timeout
+  parent: Inetlab.SMPP.Common.MessageComposer
+  langs:
+  - csharp
+  - vb
+  name: Timeout
+  nameWithType: MessageComposer.Timeout
+  fullName: Inetlab.SMPP.Common.MessageComposer.Timeout
+  type: Property
+  source:
+    id: Timeout
+    path: ''
+    startLine: 5040
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nGets or sets time in miliseconds for waiting of all message segments.\n"
+  example: []
+  syntax:
+    content: public int Timeout { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Timeout As Integer
+  overload: Inetlab.SMPP.Common.MessageComposer.Timeout*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.MessageComposer.evFullMessageReceived
+  commentId: E:Inetlab.SMPP.Common.MessageComposer.evFullMessageReceived
+  id: evFullMessageReceived
+  parent: Inetlab.SMPP.Common.MessageComposer
+  langs:
+  - csharp
+  - vb
+  name: evFullMessageReceived
+  nameWithType: MessageComposer.evFullMessageReceived
+  fullName: Inetlab.SMPP.Common.MessageComposer.evFullMessageReceived
+  type: Event
+  source:
+    id: evFullMessageReceived
+    path: ''
+    startLine: 5045
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nOccurs when all message segments received. Contains concatenated message text.\n"
+  example: []
+  syntax:
+    content: public event MessageEventHandler evFullMessageReceived
+    return:
+      type: Inetlab.SMPP.Common.MessageEventHandler
+    content.vb: Public Event evFullMessageReceived As MessageEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.MessageComposer.evFullMessageTimeout
+  commentId: E:Inetlab.SMPP.Common.MessageComposer.evFullMessageTimeout
+  id: evFullMessageTimeout
+  parent: Inetlab.SMPP.Common.MessageComposer
+  langs:
+  - csharp
+  - vb
+  name: evFullMessageTimeout
+  nameWithType: MessageComposer.evFullMessageTimeout
+  fullName: Inetlab.SMPP.Common.MessageComposer.evFullMessageTimeout
+  type: Event
+  source:
+    id: evFullMessageTimeout
+    path: ''
+    startLine: 5050
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: "\nOccurs when all message segments were not received during <xref href=\"Inetlab.SMPP.Common.MessageComposer.Timeout\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  example: []
+  syntax:
+    content: public event MessageEventHandler evFullMessageTimeout
+    return:
+      type: Inetlab.SMPP.Common.MessageEventHandler
+    content.vb: Public Event evFullMessageTimeout As MessageEventHandler
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.MessageComposer.#ctor
+  commentId: M:Inetlab.SMPP.Common.MessageComposer.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.Common.MessageComposer
+  langs:
+  - csharp
+  - vb
+  name: MessageComposer()
+  nameWithType: MessageComposer.MessageComposer()
+  fullName: Inetlab.SMPP.Common.MessageComposer.MessageComposer()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 5052
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public MessageComposer()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.Common.MessageComposer.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.MessageComposer.AddMessage``1(``0)
+  commentId: M:Inetlab.SMPP.Common.MessageComposer.AddMessage``1(``0)
+  id: AddMessage``1(``0)
+  parent: Inetlab.SMPP.Common.MessageComposer
+  langs:
+  - csharp
+  - vb
+  name: AddMessage<T>(T)
+  nameWithType: MessageComposer.AddMessage<T>(T)
+  fullName: Inetlab.SMPP.Common.MessageComposer.AddMessage<T>(T)
+  type: Method
+  source:
+    id: AddMessage
+    path: ''
+    startLine: 5058
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: >-
+      public void AddMessage<T>(T message)
+          where T : ISmppMessage
+    parameters:
+    - id: message
+      type: '{T}'
+    typeParameters:
+    - id: T
+    content.vb: Public Sub AddMessage(Of T As ISmppMessage)(message As T)
+  overload: Inetlab.SMPP.Common.MessageComposer.AddMessage*
+  nameWithType.vb: MessageComposer.AddMessage(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.MessageComposer.AddMessage(Of T)(T)
+  name.vb: AddMessage(Of T)(T)
+- uid: Inetlab.SMPP.Common.MessageComposer.Items
+  commentId: P:Inetlab.SMPP.Common.MessageComposer.Items
+  id: Items
+  parent: Inetlab.SMPP.Common.MessageComposer
+  langs:
+  - csharp
+  - vb
+  name: Items
+  nameWithType: MessageComposer.Items
+  fullName: Inetlab.SMPP.Common.MessageComposer.Items
+  type: Property
+  source:
+    id: Items
+    path: ''
+    startLine: 5162
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: Gets the items that contains message parts.
+  example: []
+  syntax:
+    content: public IEnumerable<ComposerItem> Items { get; }
+    parameters: []
+    return:
+      type: IEnumerable{Inetlab.SMPP.Common.ComposerItem}
+      description: The items array.
+    content.vb: Public ReadOnly Property Items As IEnumerable(Of ComposerItem)
+  overload: Inetlab.SMPP.Common.MessageComposer.Items*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Inetlab.SMPP.Common.MessageComposer.Clear
+  commentId: M:Inetlab.SMPP.Common.MessageComposer.Clear
+  id: Clear
+  parent: Inetlab.SMPP.Common.MessageComposer
+  langs:
+  - csharp
+  - vb
+  name: Clear()
+  nameWithType: MessageComposer.Clear()
+  fullName: Inetlab.SMPP.Common.MessageComposer.Clear()
+  type: Method
+  source:
+    id: Clear
+    path: ''
+    startLine: 5173
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public void Clear()
+    content.vb: Public Sub Clear
+  overload: Inetlab.SMPP.Common.MessageComposer.Clear*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.Common.MessageComposer.IsLastSegment``1(``0)
+  commentId: M:Inetlab.SMPP.Common.MessageComposer.IsLastSegment``1(``0)
+  id: IsLastSegment``1(``0)
+  parent: Inetlab.SMPP.Common.MessageComposer
+  langs:
+  - csharp
+  - vb
+  name: IsLastSegment<T>(T)
+  nameWithType: MessageComposer.IsLastSegment<T>(T)
+  fullName: Inetlab.SMPP.Common.MessageComposer.IsLastSegment<T>(T)
+  type: Method
+  source:
+    id: IsLastSegment
+    path: ''
+    startLine: 5188
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: 'Check if PDU is last segment in the concatenated message. '
+  example: []
+  syntax:
+    content: >-
+      public bool IsLastSegment<T>(T message)
+          where T : ISmppMessage
+    parameters:
+    - id: message
+      type: '{T}'
+      description: 'The message. '
+    typeParameters:
+    - id: T
+      description: 'Generic type parameter of SMPP message. '
+    return:
+      type: System.Boolean
+      description: 'True if last segment, false if not. '
+    content.vb: Public Function IsLastSegment(Of T As ISmppMessage)(message As T) As Boolean
+  overload: Inetlab.SMPP.Common.MessageComposer.IsLastSegment*
+  nameWithType.vb: MessageComposer.IsLastSegment(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.MessageComposer.IsLastSegment(Of T)(T)
+  name.vb: IsLastSegment(Of T)(T)
+- uid: Inetlab.SMPP.Common.MessageComposer.GetFullMessage``1(``0)
+  commentId: M:Inetlab.SMPP.Common.MessageComposer.GetFullMessage``1(``0)
+  id: GetFullMessage``1(``0)
+  parent: Inetlab.SMPP.Common.MessageComposer
+  langs:
+  - csharp
+  - vb
+  name: GetFullMessage<T>(T)
+  nameWithType: MessageComposer.GetFullMessage<T>(T)
+  fullName: Inetlab.SMPP.Common.MessageComposer.GetFullMessage<T>(T)
+  type: Method
+  source:
+    id: GetFullMessage
+    path: ''
+    startLine: 5213
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  summary: 'Gets full message for any part '
+  remarks: This method deletes complete item from <xref href="Inetlab.SMPP.Common.MessageComposer" data-throw-if-not-resolved="false"></xref>
+  example: []
+  syntax:
+    content: >-
+      public string GetFullMessage<T>(T message)
+          where T : ISmppMessage
+    parameters:
+    - id: message
+      type: '{T}'
+      description: 'The message. '
+    typeParameters:
+    - id: T
+      description: 'Generic type parameter of SMPP message. '
+    return:
+      type: System.String
+      description: 'The full message text. '
+    content.vb: Public Function GetFullMessage(Of T As ISmppMessage)(message As T) As String
+  overload: Inetlab.SMPP.Common.MessageComposer.GetFullMessage*
+  nameWithType.vb: MessageComposer.GetFullMessage(Of T)(T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Inetlab.SMPP.Common.MessageComposer.GetFullMessage(Of T)(T)
+  name.vb: GetFullMessage(Of T)(T)
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  isExternal: false
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: false
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.Common.MessageComposer.Timeout*
+  commentId: Overload:Inetlab.SMPP.Common.MessageComposer.Timeout
+  isExternal: false
+  name: Timeout
+  nameWithType: MessageComposer.Timeout
+  fullName: Inetlab.SMPP.Common.MessageComposer.Timeout
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Inetlab.SMPP.Common.MessageEventHandler
+  commentId: T:Inetlab.SMPP.Common.MessageEventHandler
+  parent: Inetlab.SMPP.Common
+  isExternal: false
+  name: MessageEventHandler
+  nameWithType: MessageEventHandler
+  fullName: Inetlab.SMPP.Common.MessageEventHandler
+- uid: Inetlab.SMPP.Common.MessageComposer.Timeout
+  commentId: P:Inetlab.SMPP.Common.MessageComposer.Timeout
+- uid: Inetlab.SMPP.Common.MessageComposer.#ctor*
+  commentId: Overload:Inetlab.SMPP.Common.MessageComposer.#ctor
+  isExternal: false
+  name: MessageComposer
+  nameWithType: MessageComposer.MessageComposer
+  fullName: Inetlab.SMPP.Common.MessageComposer.MessageComposer
+- uid: Inetlab.SMPP.Common.MessageComposer.AddMessage*
+  commentId: Overload:Inetlab.SMPP.Common.MessageComposer.AddMessage
+  isExternal: false
+  name: AddMessage
+  nameWithType: MessageComposer.AddMessage
+  fullName: Inetlab.SMPP.Common.MessageComposer.AddMessage
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  isExternal: false
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Inetlab.SMPP.Common.MessageComposer.Items*
+  commentId: Overload:Inetlab.SMPP.Common.MessageComposer.Items
+  isExternal: false
+  name: Items
+  nameWithType: MessageComposer.Items
+  fullName: Inetlab.SMPP.Common.MessageComposer.Items
+- uid: IEnumerable{Inetlab.SMPP.Common.ComposerItem}
+  commentId: '!:IEnumerable{Inetlab.SMPP.Common.ComposerItem}'
+  definition: IEnumerable`1
+  name: IEnumerable<ComposerItem>
+  nameWithType: IEnumerable<ComposerItem>
+  fullName: IEnumerable<Inetlab.SMPP.Common.ComposerItem>
+  nameWithType.vb: IEnumerable(Of ComposerItem)
+  fullName.vb: IEnumerable(Of Inetlab.SMPP.Common.ComposerItem)
+  name.vb: IEnumerable(Of ComposerItem)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.Common.ComposerItem
+    name: ComposerItem
+    nameWithType: ComposerItem
+    fullName: Inetlab.SMPP.Common.ComposerItem
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.Common.ComposerItem
+    name: ComposerItem
+    nameWithType: ComposerItem
+    fullName: Inetlab.SMPP.Common.ComposerItem
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  commentId: '!:IEnumerable`1'
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.Common.MessageComposer.Clear*
+  commentId: Overload:Inetlab.SMPP.Common.MessageComposer.Clear
+  isExternal: false
+  name: Clear
+  nameWithType: MessageComposer.Clear
+  fullName: Inetlab.SMPP.Common.MessageComposer.Clear
+- uid: Inetlab.SMPP.Common.MessageComposer.IsLastSegment*
+  commentId: Overload:Inetlab.SMPP.Common.MessageComposer.IsLastSegment
+  isExternal: false
+  name: IsLastSegment
+  nameWithType: MessageComposer.IsLastSegment
+  fullName: Inetlab.SMPP.Common.MessageComposer.IsLastSegment
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Inetlab.SMPP.Common.MessageComposer
+  commentId: T:Inetlab.SMPP.Common.MessageComposer
+  isExternal: false
+  name: MessageComposer
+  nameWithType: MessageComposer
+  fullName: Inetlab.SMPP.Common.MessageComposer
+- uid: Inetlab.SMPP.Common.MessageComposer.GetFullMessage*
+  commentId: Overload:Inetlab.SMPP.Common.MessageComposer.GetFullMessage
+  isExternal: false
+  name: GetFullMessage
+  nameWithType: MessageComposer.GetFullMessage
+  fullName: Inetlab.SMPP.Common.MessageComposer.GetFullMessage
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+shouldSkipMarkup: true

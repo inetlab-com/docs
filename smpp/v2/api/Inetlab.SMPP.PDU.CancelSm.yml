@@ -1,0 +1,578 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.PDU.CancelSm
+  commentId: T:Inetlab.SMPP.PDU.CancelSm
+  id: CancelSm
+  parent: Inetlab.SMPP.PDU
+  children:
+  - Inetlab.SMPP.PDU.CancelSm.#ctor
+  - Inetlab.SMPP.PDU.CancelSm.#ctor(SmppHeader)
+  - Inetlab.SMPP.PDU.CancelSm.DestinationAddress
+  - Inetlab.SMPP.PDU.CancelSm.MessageId
+  - Inetlab.SMPP.PDU.CancelSm.ServiceType
+  - Inetlab.SMPP.PDU.CancelSm.SourceAddress
+  langs:
+  - csharp
+  - vb
+  name: CancelSm
+  nameWithType: CancelSm
+  fullName: Inetlab.SMPP.PDU.CancelSm
+  type: Class
+  source:
+    id: CancelSm
+    path: ''
+    startLine: 15246
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nCancel previously submitted short message that is still pending delivery.\n"
+  example: []
+  syntax:
+    content: 'public class CancelSm : SmppRequest<CancelSmResp>, IDestinationAddress'
+    content.vb: >-
+      Public Class CancelSm
+          Inherits SmppRequest(Of CancelSmResp)
+          Implements IDestinationAddress
+  inheritance:
+  - System.Object
+  - Inetlab.SMPP.PDU.SmppPDU
+  - Inetlab.SMPP.PDU.SmppRequest
+  - Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.CancelSmResp}
+  implements:
+  - IDestinationAddress
+  inheritedMembers:
+  - Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.CancelSmResp}.Response
+  - Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  - Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  - Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  - Inetlab.SMPP.PDU.SmppRequest.ToString
+  - Inetlab.SMPP.PDU.SmppPDU.Header
+  - Inetlab.SMPP.PDU.SmppPDU.Client
+  - Inetlab.SMPP.PDU.SmppPDU.Tag
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Inetlab.SMPP.PDU.CancelSm.ServiceType
+  commentId: P:Inetlab.SMPP.PDU.CancelSm.ServiceType
+  id: ServiceType
+  parent: Inetlab.SMPP.PDU.CancelSm
+  langs:
+  - csharp
+  - vb
+  name: ServiceType
+  nameWithType: CancelSm.ServiceType
+  fullName: Inetlab.SMPP.PDU.CancelSm.ServiceType
+  type: Property
+  source:
+    id: ServiceType
+    path: ''
+    startLine: 15252
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nSet to indicate SMS Application service, if cancellation of a group of application service messages is desired. Otherwise set to NULL.\n"
+  example: []
+  syntax:
+    content: public string ServiceType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServiceType As String
+  overload: Inetlab.SMPP.PDU.CancelSm.ServiceType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.CancelSm.MessageId
+  commentId: P:Inetlab.SMPP.PDU.CancelSm.MessageId
+  id: MessageId
+  parent: Inetlab.SMPP.PDU.CancelSm
+  langs:
+  - csharp
+  - vb
+  name: MessageId
+  nameWithType: CancelSm.MessageId
+  fullName: Inetlab.SMPP.PDU.CancelSm.MessageId
+  type: Property
+  source:
+    id: MessageId
+    path: ''
+    startLine: 15260
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nMessage ID of the message to be cancelled.\n"
+  example: []
+  syntax:
+    content: public string MessageId { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MessageId As String
+  overload: Inetlab.SMPP.PDU.CancelSm.MessageId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.CancelSm.SourceAddress
+  commentId: P:Inetlab.SMPP.PDU.CancelSm.SourceAddress
+  id: SourceAddress
+  parent: Inetlab.SMPP.PDU.CancelSm
+  langs:
+  - csharp
+  - vb
+  name: SourceAddress
+  nameWithType: CancelSm.SourceAddress
+  fullName: Inetlab.SMPP.PDU.CancelSm.SourceAddress
+  type: Property
+  source:
+    id: SourceAddress
+    path: ''
+    startLine: 15267
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nSource address of message(s) to be cancelled. \n"
+  example: []
+  syntax:
+    content: public SmeAddress SourceAddress { get; set; }
+    parameters: []
+    return:
+      type: SmeAddress
+    content.vb: Public Property SourceAddress As SmeAddress
+  overload: Inetlab.SMPP.PDU.CancelSm.SourceAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.CancelSm.DestinationAddress
+  commentId: P:Inetlab.SMPP.PDU.CancelSm.DestinationAddress
+  id: DestinationAddress
+  parent: Inetlab.SMPP.PDU.CancelSm
+  langs:
+  - csharp
+  - vb
+  name: DestinationAddress
+  nameWithType: CancelSm.DestinationAddress
+  fullName: Inetlab.SMPP.PDU.CancelSm.DestinationAddress
+  type: Property
+  source:
+    id: DestinationAddress
+    path: ''
+    startLine: 15275
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  summary: "\nDestination address of message(s) to be cancelled.\n"
+  example: []
+  syntax:
+    content: public SmeAddress DestinationAddress { get; set; }
+    parameters: []
+    return:
+      type: SmeAddress
+    content.vb: Public Property DestinationAddress As SmeAddress
+  overload: Inetlab.SMPP.PDU.CancelSm.DestinationAddress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.CancelSm.#ctor
+  commentId: M:Inetlab.SMPP.PDU.CancelSm.#ctor
+  id: '#ctor'
+  parent: Inetlab.SMPP.PDU.CancelSm
+  langs:
+  - csharp
+  - vb
+  name: CancelSm()
+  nameWithType: CancelSm.CancelSm()
+  fullName: Inetlab.SMPP.PDU.CancelSm.CancelSm()
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15278
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public CancelSm()
+    content.vb: Public Sub New
+  overload: Inetlab.SMPP.PDU.CancelSm.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Inetlab.SMPP.PDU.CancelSm.#ctor(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.CancelSm.#ctor(SmppHeader)
+  id: '#ctor(SmppHeader)'
+  parent: Inetlab.SMPP.PDU.CancelSm
+  langs:
+  - csharp
+  - vb
+  name: CancelSm(SmppHeader)
+  nameWithType: CancelSm.CancelSm(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.CancelSm.CancelSm(SmppHeader)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 15281
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.PDU
+  syntax:
+    content: public CancelSm(SmppHeader header)
+    parameters:
+    - id: header
+      type: SmppHeader
+    content.vb: Public Sub New(header As SmppHeader)
+  overload: Inetlab.SMPP.PDU.CancelSm.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.SmppPDU
+  commentId: T:Inetlab.SMPP.PDU.SmppPDU
+  parent: Inetlab.SMPP.PDU
+  name: SmppPDU
+  nameWithType: SmppPDU
+  fullName: Inetlab.SMPP.PDU.SmppPDU
+- uid: Inetlab.SMPP.PDU.SmppRequest
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest
+  parent: Inetlab.SMPP.PDU
+  name: SmppRequest
+  nameWithType: SmppRequest
+  fullName: Inetlab.SMPP.PDU.SmppRequest
+- uid: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.CancelSmResp}
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.CancelSmResp}
+  parent: Inetlab.SMPP.PDU
+  definition: Inetlab.SMPP.PDU.SmppRequest`1
+  name: SmppRequest<CancelSmResp>
+  nameWithType: SmppRequest<CancelSmResp>
+  fullName: Inetlab.SMPP.PDU.SmppRequest<Inetlab.SMPP.PDU.CancelSmResp>
+  nameWithType.vb: SmppRequest(Of CancelSmResp)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of Inetlab.SMPP.PDU.CancelSmResp)
+  name.vb: SmppRequest(Of CancelSmResp)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Inetlab.SMPP.PDU.CancelSmResp
+    name: CancelSmResp
+    nameWithType: CancelSmResp
+    fullName: Inetlab.SMPP.PDU.CancelSmResp
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Inetlab.SMPP.PDU.CancelSmResp
+    name: CancelSmResp
+    nameWithType: CancelSmResp
+    fullName: Inetlab.SMPP.PDU.CancelSmResp
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IDestinationAddress
+  isExternal: true
+  name: IDestinationAddress
+  nameWithType: IDestinationAddress
+  fullName: IDestinationAddress
+- uid: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.CancelSmResp}.Response
+  commentId: P:Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.CancelSmResp}.Response
+  parent: Inetlab.SMPP.PDU.SmppRequest{Inetlab.SMPP.PDU.CancelSmResp}
+  definition: Inetlab.SMPP.PDU.SmppRequest`1.Response
+  name: Response
+  nameWithType: SmppRequest<CancelSmResp>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequest<Inetlab.SMPP.PDU.CancelSmResp>.Response
+  nameWithType.vb: SmppRequest(Of CancelSmResp).Response
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of Inetlab.SMPP.PDU.CancelSmResp).Response
+- uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: CreatePDU(SmppHeader)
+  nameWithType: SmppRequest.CreatePDU(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+    name: CreatePDU
+    nameWithType: SmppRequest.CreatePDU
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreatePDU(SmppHeader)
+    name: CreatePDU
+    nameWithType: SmppRequest.CreatePDU
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreatePDU
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: CreateResponseHeader(SmppHeader)
+  nameWithType: SmppRequest.CreateResponseHeader(SmppHeader)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+    name: CreateResponseHeader
+    nameWithType: SmppRequest.CreateResponseHeader
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader(SmppHeader)
+    name: CreateResponseHeader
+    nameWithType: SmppRequest.CreateResponseHeader
+    fullName: Inetlab.SMPP.PDU.SmppRequest.CreateResponseHeader
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SmppHeader
+    name: SmppHeader
+    nameWithType: SmppHeader
+    fullName: SmppHeader
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  isExternal: true
+  name: GetResponseCommand(CommandSet)
+  nameWithType: SmppRequest.GetResponseCommand(CommandSet)
+  fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+    name: GetResponseCommand
+    nameWithType: SmppRequest.GetResponseCommand
+    fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CommandSet
+    name: CommandSet
+    nameWithType: CommandSet
+    fullName: CommandSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand(CommandSet)
+    name: GetResponseCommand
+    nameWithType: SmppRequest.GetResponseCommand
+    fullName: Inetlab.SMPP.PDU.SmppRequest.GetResponseCommand
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: CommandSet
+    name: CommandSet
+    nameWithType: CommandSet
+    fullName: CommandSet
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+  commentId: M:Inetlab.SMPP.PDU.SmppRequest.ToString
+  parent: Inetlab.SMPP.PDU.SmppRequest
+  name: ToString()
+  nameWithType: SmppRequest.ToString()
+  fullName: Inetlab.SMPP.PDU.SmppRequest.ToString()
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+    name: ToString
+    nameWithType: SmppRequest.ToString
+    fullName: Inetlab.SMPP.PDU.SmppRequest.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest.ToString
+    name: ToString
+    nameWithType: SmppRequest.ToString
+    fullName: Inetlab.SMPP.PDU.SmppRequest.ToString
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppPDU.Header
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Header
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Header
+  nameWithType: SmppPDU.Header
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Header
+- uid: Inetlab.SMPP.PDU.SmppPDU.Client
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Client
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Client
+  nameWithType: SmppPDU.Client
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Client
+- uid: Inetlab.SMPP.PDU.SmppPDU.Tag
+  commentId: P:Inetlab.SMPP.PDU.SmppPDU.Tag
+  parent: Inetlab.SMPP.PDU.SmppPDU
+  name: Tag
+  nameWithType: SmppPDU.Tag
+  fullName: Inetlab.SMPP.PDU.SmppPDU.Tag
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU.SmppRequest`1
+  commentId: T:Inetlab.SMPP.PDU.SmppRequest`1
+  name: SmppRequest<TResponse>
+  nameWithType: SmppRequest<TResponse>
+  fullName: Inetlab.SMPP.PDU.SmppRequest<TResponse>
+  nameWithType.vb: SmppRequest(Of TResponse)
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of TResponse)
+  name.vb: SmppRequest(Of TResponse)
+  spec.csharp:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Inetlab.SMPP.PDU.SmppRequest`1
+    name: SmppRequest
+    nameWithType: SmppRequest
+    fullName: Inetlab.SMPP.PDU.SmppRequest
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResponse
+    nameWithType: TResponse
+    fullName: TResponse
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Inetlab.SMPP.PDU.SmppRequest`1.Response
+  commentId: P:Inetlab.SMPP.PDU.SmppRequest`1.Response
+  name: Response
+  nameWithType: SmppRequest<TResponse>.Response
+  fullName: Inetlab.SMPP.PDU.SmppRequest<TResponse>.Response
+  nameWithType.vb: SmppRequest(Of TResponse).Response
+  fullName.vb: Inetlab.SMPP.PDU.SmppRequest(Of TResponse).Response
+- uid: Inetlab.SMPP.PDU.CancelSm.ServiceType*
+  commentId: Overload:Inetlab.SMPP.PDU.CancelSm.ServiceType
+  name: ServiceType
+  nameWithType: CancelSm.ServiceType
+  fullName: Inetlab.SMPP.PDU.CancelSm.ServiceType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.PDU.CancelSm.MessageId*
+  commentId: Overload:Inetlab.SMPP.PDU.CancelSm.MessageId
+  name: MessageId
+  nameWithType: CancelSm.MessageId
+  fullName: Inetlab.SMPP.PDU.CancelSm.MessageId
+- uid: Inetlab.SMPP.PDU.CancelSm.SourceAddress*
+  commentId: Overload:Inetlab.SMPP.PDU.CancelSm.SourceAddress
+  name: SourceAddress
+  nameWithType: CancelSm.SourceAddress
+  fullName: Inetlab.SMPP.PDU.CancelSm.SourceAddress
+- uid: SmeAddress
+  isExternal: true
+  name: SmeAddress
+  nameWithType: SmeAddress
+  fullName: SmeAddress
+- uid: Inetlab.SMPP.PDU.CancelSm.DestinationAddress*
+  commentId: Overload:Inetlab.SMPP.PDU.CancelSm.DestinationAddress
+  name: DestinationAddress
+  nameWithType: CancelSm.DestinationAddress
+  fullName: Inetlab.SMPP.PDU.CancelSm.DestinationAddress
+- uid: Inetlab.SMPP.PDU.CancelSm.#ctor*
+  commentId: Overload:Inetlab.SMPP.PDU.CancelSm.#ctor
+  name: CancelSm
+  nameWithType: CancelSm.CancelSm
+  fullName: Inetlab.SMPP.PDU.CancelSm.CancelSm
+- uid: SmppHeader
+  isExternal: true
+  name: SmppHeader
+  nameWithType: SmppHeader
+  fullName: SmppHeader
+shouldSkipMarkup: true

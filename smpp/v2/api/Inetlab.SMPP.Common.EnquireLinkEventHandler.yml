@@ -1,0 +1,66 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Common.EnquireLinkEventHandler
+  commentId: T:Inetlab.SMPP.Common.EnquireLinkEventHandler
+  id: EnquireLinkEventHandler
+  parent: Inetlab.SMPP.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EnquireLinkEventHandler
+  nameWithType: EnquireLinkEventHandler
+  fullName: Inetlab.SMPP.Common.EnquireLinkEventHandler
+  type: Delegate
+  source:
+    id: EnquireLinkEventHandler
+    path: ''
+    startLine: 5553
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Common
+  syntax:
+    content: public delegate void EnquireLinkEventHandler(object sender, EnquireLink data);
+    parameters:
+    - id: sender
+      type: System.Object
+    - id: data
+      type: Inetlab.SMPP.PDU.EnquireLink
+    content.vb: Public Delegate Sub EnquireLinkEventHandler(sender As Object, data As EnquireLink)
+  modifiers.csharp:
+  - public
+  - delegate
+  modifiers.vb:
+  - Public
+  - Delegate
+references:
+- uid: Inetlab.SMPP.Common
+  commentId: N:Inetlab.SMPP.Common
+  name: Inetlab.SMPP.Common
+  nameWithType: Inetlab.SMPP.Common
+  fullName: Inetlab.SMPP.Common
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Inetlab.SMPP.PDU.EnquireLink
+  commentId: T:Inetlab.SMPP.PDU.EnquireLink
+  parent: Inetlab.SMPP.PDU
+  name: EnquireLink
+  nameWithType: EnquireLink
+  fullName: Inetlab.SMPP.PDU.EnquireLink
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.PDU
+  commentId: N:Inetlab.SMPP.PDU
+  name: Inetlab.SMPP.PDU
+  nameWithType: Inetlab.SMPP.PDU
+  fullName: Inetlab.SMPP.PDU
+shouldSkipMarkup: true

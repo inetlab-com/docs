@@ -1,0 +1,224 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.ByteArray
+  commentId: T:Inetlab.SMPP.ByteArray
+  id: ByteArray
+  parent: Inetlab.SMPP
+  children:
+  - Inetlab.SMPP.ByteArray.FromHexString(System.String)
+  - Inetlab.SMPP.ByteArray.ToHexString(System.Byte[])
+  - Inetlab.SMPP.ByteArray.ToUShort(System.Byte[])
+  langs:
+  - csharp
+  - vb
+  name: ByteArray
+  nameWithType: ByteArray
+  fullName: Inetlab.SMPP.ByteArray
+  type: Class
+  source:
+    id: ByteArray
+    path: ''
+    startLine: 13
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public static class ByteArray
+    content.vb: Public Module ByteArray
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Inetlab.SMPP.ByteArray.ToHexString(System.Byte[])
+  commentId: M:Inetlab.SMPP.ByteArray.ToHexString(System.Byte[])
+  id: ToHexString(System.Byte[])
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.ByteArray
+  langs:
+  - csharp
+  - vb
+  name: ToHexString(Byte[])
+  nameWithType: ByteArray.ToHexString(Byte[])
+  fullName: Inetlab.SMPP.ByteArray.ToHexString(System.Byte[])
+  type: Method
+  source:
+    id: ToHexString
+    path: ''
+    startLine: 15
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public static string ToHexString(this byte[] buf)
+    parameters:
+    - id: buf
+      type: System.Byte[]
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToHexString(buf As Byte()) As String
+  overload: Inetlab.SMPP.ByteArray.ToHexString*
+  nameWithType.vb: ByteArray.ToHexString(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.ByteArray.ToHexString(System.Byte())
+  name.vb: ToHexString(Byte())
+- uid: Inetlab.SMPP.ByteArray.FromHexString(System.String)
+  commentId: M:Inetlab.SMPP.ByteArray.FromHexString(System.String)
+  id: FromHexString(System.String)
+  isExtensionMethod: true
+  parent: Inetlab.SMPP.ByteArray
+  langs:
+  - csharp
+  - vb
+  name: FromHexString(String)
+  nameWithType: ByteArray.FromHexString(String)
+  fullName: Inetlab.SMPP.ByteArray.FromHexString(System.String)
+  type: Method
+  source:
+    id: FromHexString
+    path: ''
+    startLine: 27
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public static byte[] FromHexString(this string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.Byte[]
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function FromHexString(str As String) As Byte()
+  overload: Inetlab.SMPP.ByteArray.FromHexString*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Inetlab.SMPP.ByteArray.ToUShort(System.Byte[])
+  commentId: M:Inetlab.SMPP.ByteArray.ToUShort(System.Byte[])
+  id: ToUShort(System.Byte[])
+  parent: Inetlab.SMPP.ByteArray
+  langs:
+  - csharp
+  - vb
+  name: ToUShort(Byte[])
+  nameWithType: ByteArray.ToUShort(Byte[])
+  fullName: Inetlab.SMPP.ByteArray.ToUShort(System.Byte[])
+  type: Method
+  source:
+    id: ToUShort
+    path: ''
+    startLine: 43
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP
+  syntax:
+    content: public static ushort ToUShort(byte[] buf)
+    parameters:
+    - id: buf
+      type: System.Byte[]
+    return:
+      type: System.UInt16
+    content.vb: Public Shared Function ToUShort(buf As Byte()) As UShort
+  overload: Inetlab.SMPP.ByteArray.ToUShort*
+  nameWithType.vb: ByteArray.ToUShort(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Inetlab.SMPP.ByteArray.ToUShort(System.Byte())
+  name.vb: ToUShort(Byte())
+references:
+- uid: Inetlab.SMPP
+  commentId: N:Inetlab.SMPP
+  name: Inetlab.SMPP
+  nameWithType: Inetlab.SMPP
+  fullName: Inetlab.SMPP
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Inetlab.SMPP.ByteArray.ToHexString*
+  commentId: Overload:Inetlab.SMPP.ByteArray.ToHexString
+  name: ToHexString
+  nameWithType: ByteArray.ToHexString
+  fullName: Inetlab.SMPP.ByteArray.ToHexString
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Inetlab.SMPP.ByteArray.FromHexString*
+  commentId: Overload:Inetlab.SMPP.ByteArray.FromHexString
+  name: FromHexString
+  nameWithType: ByteArray.FromHexString
+  fullName: Inetlab.SMPP.ByteArray.FromHexString
+- uid: Inetlab.SMPP.ByteArray.ToUShort*
+  commentId: Overload:Inetlab.SMPP.ByteArray.ToUShort
+  name: ToUShort
+  nameWithType: ByteArray.ToUShort
+  fullName: Inetlab.SMPP.ByteArray.ToUShort
+- uid: System.UInt16
+  commentId: T:System.UInt16
+  parent: System
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+shouldSkipMarkup: true

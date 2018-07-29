@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  commentId: T:Inetlab.SMPP.Encodings.IGSMCharsetMap
+  id: IGSMCharsetMap
+  parent: Inetlab.SMPP.Encodings
+  children:
+  - Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  - Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  langs:
+  - csharp
+  - vb
+  name: IGSMCharsetMap
+  nameWithType: IGSMCharsetMap
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  type: Interface
+  source:
+    id: IGSMCharsetMap
+    path: ''
+    startLine: 13433
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: public interface IGSMCharsetMap
+    content.vb: Public Interface IGSMCharsetMap
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  commentId: P:Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  id: CharacterSet
+  parent: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  langs:
+  - csharp
+  - vb
+  name: CharacterSet
+  nameWithType: IGSMCharsetMap.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  type: Property
+  source:
+    id: CharacterSet
+    path: ''
+    startLine: 13435
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: char[] CharacterSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: ReadOnly Property CharacterSet As Char()
+  overload: Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  commentId: P:Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  id: ExtensionSet
+  parent: Inetlab.SMPP.Encodings.IGSMCharsetMap
+  langs:
+  - csharp
+  - vb
+  name: ExtensionSet
+  nameWithType: IGSMCharsetMap.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  type: Property
+  source:
+    id: ExtensionSet
+    path: ''
+    startLine: 13436
+  assemblies:
+  - cs.temp.dll
+  namespace: Inetlab.SMPP.Encodings
+  syntax:
+    content: char[] ExtensionSet { get; }
+    parameters: []
+    return:
+      type: System.Char[]
+    content.vb: ReadOnly Property ExtensionSet As Char()
+  overload: Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+references:
+- uid: Inetlab.SMPP.Encodings
+  commentId: N:Inetlab.SMPP.Encodings
+  name: Inetlab.SMPP.Encodings
+  nameWithType: Inetlab.SMPP.Encodings
+  fullName: Inetlab.SMPP.Encodings
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+  name: CharacterSet
+  nameWithType: IGSMCharsetMap.CharacterSet
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap.CharacterSet
+- uid: System.Char[]
+  isExternal: true
+  name: Char[]
+  nameWithType: Char[]
+  fullName: System.Char[]
+  nameWithType.vb: Char()
+  fullName.vb: System.Char()
+  name.vb: Char()
+  spec.csharp:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet*
+  commentId: Overload:Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+  name: ExtensionSet
+  nameWithType: IGSMCharsetMap.ExtensionSet
+  fullName: Inetlab.SMPP.Encodings.IGSMCharsetMap.ExtensionSet
+shouldSkipMarkup: true
