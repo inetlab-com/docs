@@ -15,7 +15,7 @@ items:
   source:
     id: GenericNackEventHandler
     path: ''
-    startLine: 5539
+    startLine: 5543
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

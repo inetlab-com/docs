@@ -18,7 +18,7 @@ items:
   source:
     id: ProxyEndpoint
     path: ''
-    startLine: 7075
+    startLine: 7079
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -49,7 +49,7 @@ items:
   source:
     id: Source
     path: ''
-    startLine: 7079
+    startLine: 7083
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -82,7 +82,7 @@ items:
   source:
     id: Destination
     path: ''
-    startLine: 7082
+    startLine: 7086
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -115,7 +115,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7085
+    startLine: 7089
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

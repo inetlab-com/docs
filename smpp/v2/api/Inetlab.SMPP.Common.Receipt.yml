@@ -28,7 +28,7 @@ items:
   source:
     id: Receipt
     path: ''
-    startLine: 7616
+    startLine: 7620
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -59,7 +59,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 7623
+    startLine: 7627
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -85,7 +85,7 @@ items:
   source:
     id: MessageId
     path: ''
-    startLine: 7633
+    startLine: 7637
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -118,7 +118,7 @@ items:
   source:
     id: Submitted
     path: ''
-    startLine: 7649
+    startLine: 7653
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -151,7 +151,7 @@ items:
   source:
     id: Delivered
     path: ''
-    startLine: 7668
+    startLine: 7672
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -184,7 +184,7 @@ items:
   source:
     id: SubmitDate
     path: ''
-    startLine: 7687
+    startLine: 7691
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -217,7 +217,7 @@ items:
   source:
     id: DoneDate
     path: ''
-    startLine: 7706
+    startLine: 7710
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -250,7 +250,7 @@ items:
   source:
     id: State
     path: ''
-    startLine: 7726
+    startLine: 7730
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -283,7 +283,7 @@ items:
   source:
     id: ErrorCode
     path: ''
-    startLine: 7746
+    startLine: 7750
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -316,7 +316,7 @@ items:
   source:
     id: Text
     path: ''
-    startLine: 7768
+    startLine: 7772
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -349,7 +349,7 @@ items:
   source:
     id: Items
     path: ''
-    startLine: 7789
+    startLine: 7793
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -380,7 +380,7 @@ items:
   source:
     id: Create
     path: ''
-    startLine: 7796
+    startLine: 7800
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -420,7 +420,7 @@ items:
   source:
     id: Parse
     path: ''
-    startLine: 7817
+    startLine: 7821
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -449,7 +449,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 7899
+    startLine: 7903
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

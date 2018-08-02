@@ -22,7 +22,7 @@ items:
   source:
     id: Bind
     path: ''
-    startLine: 15141
+    startLine: 15145
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -67,7 +67,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15144
+    startLine: 15148
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -93,7 +93,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15149
+    startLine: 15153
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -122,7 +122,7 @@ items:
   source:
     id: InterfaceVersion
     path: ''
-    startLine: 15157
+    startLine: 15161
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -155,7 +155,7 @@ items:
   source:
     id: SystemId
     path: ''
-    startLine: 15162
+    startLine: 15166
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -188,7 +188,7 @@ items:
   source:
     id: Password
     path: ''
-    startLine: 15167
+    startLine: 15171
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -221,7 +221,7 @@ items:
   source:
     id: SystemType
     path: ''
-    startLine: 15172
+    startLine: 15176
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -254,7 +254,7 @@ items:
   source:
     id: EsmeAddress
     path: ''
-    startLine: 15177
+    startLine: 15181
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

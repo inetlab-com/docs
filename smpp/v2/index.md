@@ -1,6 +1,6 @@
 Inetlab.SMPP Library
 =====================
 
-Version 1.x
-  * [Documentation](articles/intro.html)
+Version 2.x
+  * [Documentation](articles/index.html)
   * [API References](api/Inetlab.SMPP.html)

@@ -19,7 +19,7 @@ items:
   source:
     id: UserDataHeaderCollection
     path: ''
-    startLine: 12889
+    startLine: 12893
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -52,7 +52,7 @@ items:
   source:
     id: Of
     path: ''
-    startLine: 12894
+    startLine: 12898
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -89,7 +89,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12910
+    startLine: 12914
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -118,7 +118,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12916
+    startLine: 12920
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -152,7 +152,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12921
+    startLine: 12925
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

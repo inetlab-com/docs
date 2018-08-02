@@ -15,7 +15,7 @@ items:
   source:
     id: ClientDataEventHandler
     path: ''
-    startLine: 5585
+    startLine: 5589
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

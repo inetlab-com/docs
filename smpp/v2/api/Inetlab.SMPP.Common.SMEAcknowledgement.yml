@@ -19,7 +19,7 @@ items:
   source:
     id: SMEAcknowledgement
     path: ''
-    startLine: 8777
+    startLine: 8781
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -48,7 +48,7 @@ items:
   source:
     id: NotRequested
     path: ''
-    startLine: 8782
+    startLine: 8786
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -78,7 +78,7 @@ items:
   source:
     id: Delivery
     path: ''
-    startLine: 8787
+    startLine: 8791
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -108,7 +108,7 @@ items:
   source:
     id: Manual
     path: ''
-    startLine: 8792
+    startLine: 8796
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -138,7 +138,7 @@ items:
   source:
     id: DeliveryManual
     path: ''
-    startLine: 8797
+    startLine: 8801
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

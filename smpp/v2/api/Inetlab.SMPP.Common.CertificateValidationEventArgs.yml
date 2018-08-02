@@ -20,7 +20,7 @@ items:
   source:
     id: CertificateValidationEventArgs
     path: ''
-    startLine: 4821
+    startLine: 4825
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -53,7 +53,7 @@ items:
   source:
     id: Certificate
     path: ''
-    startLine: 4826
+    startLine: 4830
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -86,7 +86,7 @@ items:
   source:
     id: Chain
     path: ''
-    startLine: 4830
+    startLine: 4834
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -119,7 +119,7 @@ items:
   source:
     id: SslPolicyErrors
     path: ''
-    startLine: 4834
+    startLine: 4838
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -152,7 +152,7 @@ items:
   source:
     id: Accepted
     path: ''
-    startLine: 4838
+    startLine: 4842
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -185,7 +185,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 4840
+    startLine: 4844
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

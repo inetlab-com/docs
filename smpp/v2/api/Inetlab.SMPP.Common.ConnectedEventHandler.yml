@@ -15,7 +15,7 @@ items:
   source:
     id: ConnectedEventHandler
     path: ''
-    startLine: 5523
+    startLine: 5527
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

@@ -16,7 +16,7 @@ items:
   source:
     id: IUserData
     path: ''
-    startLine: 6143
+    startLine: 6147
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -43,7 +43,7 @@ items:
   source:
     id: UserDataPdu
     path: ''
-    startLine: 6145
+    startLine: 6149
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

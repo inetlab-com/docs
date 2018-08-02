@@ -40,7 +40,7 @@ items:
   source:
     id: SubmitMulti
     path: ''
-    startLine: 16552
+    startLine: 16556
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -89,7 +89,7 @@ items:
   source:
     id: Concatenation
     path: ''
-    startLine: 16564
+    startLine: 16568
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -122,7 +122,7 @@ items:
   source:
     id: ServiceType
     path: ''
-    startLine: 16573
+    startLine: 16577
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -155,7 +155,7 @@ items:
   source:
     id: SourceAddress
     path: ''
-    startLine: 16591
+    startLine: 16595
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -188,7 +188,7 @@ items:
   source:
     id: DestinationAddresses
     path: ''
-    startLine: 16597
+    startLine: 16601
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -221,7 +221,7 @@ items:
   source:
     id: EsmClass
     path: ''
-    startLine: 16602
+    startLine: 16606
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -254,7 +254,7 @@ items:
   source:
     id: ProtocolId
     path: ''
-    startLine: 16607
+    startLine: 16611
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -287,7 +287,7 @@ items:
   source:
     id: PriorityFlag
     path: ''
-    startLine: 16612
+    startLine: 16616
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -320,7 +320,7 @@ items:
   source:
     id: ScheduledDeliveryTime
     path: ''
-    startLine: 16618
+    startLine: 16622
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -353,7 +353,7 @@ items:
   source:
     id: ValidityPeriod
     path: ''
-    startLine: 16624
+    startLine: 16628
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -386,7 +386,7 @@ items:
   source:
     id: RegisteredDelivery
     path: ''
-    startLine: 16647
+    startLine: 16651
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -419,7 +419,7 @@ items:
   source:
     id: ReplaceIfPresent
     path: ''
-    startLine: 16652
+    startLine: 16656
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -452,7 +452,7 @@ items:
   source:
     id: DataCoding
     path: ''
-    startLine: 16657
+    startLine: 16661
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -485,7 +485,7 @@ items:
   source:
     id: DefaultMessageId
     path: ''
-    startLine: 16662
+    startLine: 16666
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -518,7 +518,7 @@ items:
   source:
     id: Optional
     path: ''
-    startLine: 16664
+    startLine: 16668
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -549,7 +549,7 @@ items:
   source:
     id: MessageText
     path: ''
-    startLine: 16669
+    startLine: 16673
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -582,7 +582,7 @@ items:
   source:
     id: UserDataPdu
     path: ''
-    startLine: 16693
+    startLine: 16697
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -613,7 +613,7 @@ items:
   source:
     id: MessageMode
     path: ''
-    startLine: 16695
+    startLine: 16699
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -644,7 +644,7 @@ items:
   source:
     id: MessageType
     path: ''
-    startLine: 16701
+    startLine: 16705
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -675,7 +675,7 @@ items:
   source:
     id: MessageFeature
     path: ''
-    startLine: 16707
+    startLine: 16711
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -706,7 +706,7 @@ items:
   source:
     id: SMSCReceipt
     path: ''
-    startLine: 16712
+    startLine: 16716
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -737,7 +737,7 @@ items:
   source:
     id: Acknowledgement
     path: ''
-    startLine: 16718
+    startLine: 16722
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -768,7 +768,7 @@ items:
   source:
     id: Notification
     path: ''
-    startLine: 16724
+    startLine: 16728
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -799,7 +799,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16731
+    startLine: 16735
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -825,7 +825,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16736
+    startLine: 16740
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -854,7 +854,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 16744
+    startLine: 16748
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

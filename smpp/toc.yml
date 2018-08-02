@@ -1,5 +1,7 @@
-- name: Inetlab.SMPP v2.x
+- name: v2.x
   href: v2/toc.yml
+  topicHref: v2/index.html
 
-- name: Inetlab.SMPP v1.x
+- name: v1.x
   href: v1/toc.yml
+  topicHref: v1/index.html

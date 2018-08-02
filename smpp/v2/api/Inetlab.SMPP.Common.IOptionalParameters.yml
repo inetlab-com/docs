@@ -16,7 +16,7 @@ items:
   source:
     id: IOptionalParameters
     path: ''
-    startLine: 6076
+    startLine: 6080
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -43,7 +43,7 @@ items:
   source:
     id: Optional
     path: ''
-    startLine: 6078
+    startLine: 6082
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

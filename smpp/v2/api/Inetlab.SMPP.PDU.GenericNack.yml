@@ -17,7 +17,7 @@ items:
   source:
     id: GenericNack
     path: ''
-    startLine: 15904
+    startLine: 15908
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -58,7 +58,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15908
+    startLine: 15912
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -84,7 +84,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15912
+    startLine: 15916
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

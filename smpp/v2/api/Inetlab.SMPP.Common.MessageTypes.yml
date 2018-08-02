@@ -21,7 +21,7 @@ items:
   source:
     id: MessageTypes
     path: ''
-    startLine: 6846
+    startLine: 6850
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -50,7 +50,7 @@ items:
   source:
     id: Default
     path: ''
-    startLine: 6851
+    startLine: 6855
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -80,7 +80,7 @@ items:
   source:
     id: SMEDeliveryAcknowledgement
     path: ''
-    startLine: 6858
+    startLine: 6862
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -110,7 +110,7 @@ items:
   source:
     id: SMEManualAcknowledgement
     path: ''
-    startLine: 6865
+    startLine: 6869
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -140,7 +140,7 @@ items:
   source:
     id: SMSCDeliveryReceipt
     path: ''
-    startLine: 6870
+    startLine: 6874
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -170,7 +170,7 @@ items:
   source:
     id: ConversationAbort
     path: ''
-    startLine: 6875
+    startLine: 6879
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -200,7 +200,7 @@ items:
   source:
     id: IntermediateDeliveryNotification
     path: ''
-    startLine: 6880
+    startLine: 6884
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

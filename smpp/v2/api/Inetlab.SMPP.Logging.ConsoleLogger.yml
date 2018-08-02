@@ -22,7 +22,7 @@ items:
   source:
     id: ConsoleLogger
     path: ''
-    startLine: 14639
+    startLine: 14643
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -55,7 +55,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 14645
+    startLine: 14649
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -86,7 +86,7 @@ items:
   source:
     id: Name
     path: ''
-    startLine: 14651
+    startLine: 14655
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -117,7 +117,7 @@ items:
   source:
     id: Error
     path: ''
-    startLine: 14690
+    startLine: 14694
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -150,7 +150,7 @@ items:
   source:
     id: Warn
     path: ''
-    startLine: 14706
+    startLine: 14710
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -183,7 +183,7 @@ items:
   source:
     id: Info
     path: ''
-    startLine: 14719
+    startLine: 14723
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -214,7 +214,7 @@ items:
   source:
     id: Debug
     path: ''
-    startLine: 14727
+    startLine: 14731
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -245,7 +245,7 @@ items:
   source:
     id: Trace
     path: ''
-    startLine: 14736
+    startLine: 14740
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging

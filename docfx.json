@@ -20,7 +20,7 @@
         "files": ["mm7/**/*.md", "mm7/**/*.yml"]
       },
       {
-        "files": ["toc.yml", "index.md"]
+        "files": ["*.yml", "index.md", "navbar.html"]
       }
     ],
     "resource": [

@@ -49,7 +49,7 @@ items:
   source:
     id: DataCodings
     path: ''
-    startLine: 5347
+    startLine: 5351
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -78,7 +78,7 @@ items:
   source:
     id: Default
     path: ''
-    startLine: 5353
+    startLine: 5357
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -108,7 +108,7 @@ items:
   source:
     id: ASCII
     path: ''
-    startLine: 5357
+    startLine: 5361
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -138,7 +138,7 @@ items:
   source:
     id: Octets
     path: ''
-    startLine: 5361
+    startLine: 5365
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -168,7 +168,7 @@ items:
   source:
     id: Latin1
     path: ''
-    startLine: 5365
+    startLine: 5369
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -198,7 +198,7 @@ items:
   source:
     id: OctetUnspecified
     path: ''
-    startLine: 5369
+    startLine: 5373
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -228,7 +228,7 @@ items:
   source:
     id: Cyrllic
     path: ''
-    startLine: 5373
+    startLine: 5377
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -258,7 +258,7 @@ items:
   source:
     id: LatinHebrew
     path: ''
-    startLine: 5377
+    startLine: 5381
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -288,7 +288,7 @@ items:
   source:
     id: UCS2
     path: ''
-    startLine: 5381
+    startLine: 5385
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -318,7 +318,7 @@ items:
   source:
     id: Class0FlashMessage
     path: ''
-    startLine: 5387
+    startLine: 5391
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -348,7 +348,7 @@ items:
   source:
     id: Class1MEMessage
     path: ''
-    startLine: 5392
+    startLine: 5396
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -378,7 +378,7 @@ items:
   source:
     id: Class2SIMMessage
     path: ''
-    startLine: 5397
+    startLine: 5401
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -408,7 +408,7 @@ items:
   source:
     id: Class3TEMessage
     path: ''
-    startLine: 5402
+    startLine: 5406
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -438,7 +438,7 @@ items:
   source:
     id: Class0FlashMessage8bit
     path: ''
-    startLine: 5408
+    startLine: 5412
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -468,7 +468,7 @@ items:
   source:
     id: Class1MEMessage8bit
     path: ''
-    startLine: 5413
+    startLine: 5417
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -498,7 +498,7 @@ items:
   source:
     id: Class2SIMMessage8bit
     path: ''
-    startLine: 5418
+    startLine: 5422
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -528,7 +528,7 @@ items:
   source:
     id: Class3TEMessage8bit
     path: ''
-    startLine: 5423
+    startLine: 5427
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -558,7 +558,7 @@ items:
   source:
     id: Class0FlashMessageUCS2
     path: ''
-    startLine: 5430
+    startLine: 5434
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -588,7 +588,7 @@ items:
   source:
     id: Class1MEMessageUCS2
     path: ''
-    startLine: 5435
+    startLine: 5439
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -618,7 +618,7 @@ items:
   source:
     id: Class2SIMMessageUCS2
     path: ''
-    startLine: 5440
+    startLine: 5444
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -648,7 +648,7 @@ items:
   source:
     id: Class3TEMessageUCS2
     path: ''
-    startLine: 5445
+    startLine: 5449
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -678,7 +678,7 @@ items:
   source:
     id: Class0
     path: ''
-    startLine: 5453
+    startLine: 5457
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -708,7 +708,7 @@ items:
   source:
     id: Class1
     path: ''
-    startLine: 5457
+    startLine: 5461
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -738,7 +738,7 @@ items:
   source:
     id: Class2
     path: ''
-    startLine: 5461
+    startLine: 5465
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -768,7 +768,7 @@ items:
   source:
     id: Class3
     path: ''
-    startLine: 5465
+    startLine: 5469
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -798,7 +798,7 @@ items:
   source:
     id: Class08Bit
     path: ''
-    startLine: 5469
+    startLine: 5473
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -828,7 +828,7 @@ items:
   source:
     id: Class1ME8Bit
     path: ''
-    startLine: 5473
+    startLine: 5477
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -858,7 +858,7 @@ items:
   source:
     id: Class2SIM8Bit
     path: ''
-    startLine: 5477
+    startLine: 5481
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -888,7 +888,7 @@ items:
   source:
     id: Class3TE8Bit
     path: ''
-    startLine: 5481
+    startLine: 5485
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -918,7 +918,7 @@ items:
   source:
     id: GroupAutomaticDeletion
     path: ''
-    startLine: 5488
+    startLine: 5492
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -948,7 +948,7 @@ items:
   source:
     id: GroupMessageClass
     path: ''
-    startLine: 5493
+    startLine: 5497
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -978,7 +978,7 @@ items:
   source:
     id: DefaultFlashSMS
     path: ''
-    startLine: 5498
+    startLine: 5502
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1008,7 +1008,7 @@ items:
   source:
     id: UnicodeFlashSMS
     path: ''
-    startLine: 5503
+    startLine: 5507
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1038,7 +1038,7 @@ items:
   source:
     id: Class1SIM8Bit
     path: ''
-    startLine: 5505
+    startLine: 5509
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1066,7 +1066,7 @@ items:
   source:
     id: Class1TE8Bit
     path: ''
-    startLine: 5508
+    startLine: 5512
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

@@ -15,7 +15,7 @@ items:
   source:
     id: BindRespEventHandler
     path: ''
-    startLine: 5547
+    startLine: 5551
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

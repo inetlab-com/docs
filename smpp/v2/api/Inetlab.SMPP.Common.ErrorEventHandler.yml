@@ -15,7 +15,7 @@ items:
   source:
     id: ErrorEventHandler
     path: ''
-    startLine: 5537
+    startLine: 5541
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

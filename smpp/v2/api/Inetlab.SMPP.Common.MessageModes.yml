@@ -19,7 +19,7 @@ items:
   source:
     id: MessageModes
     path: ''
-    startLine: 6771
+    startLine: 6775
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -48,7 +48,7 @@ items:
   source:
     id: Default
     path: ''
-    startLine: 6776
+    startLine: 6780
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -78,7 +78,7 @@ items:
   source:
     id: Datagram
     path: ''
-    startLine: 6780
+    startLine: 6784
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -108,7 +108,7 @@ items:
   source:
     id: Forward
     path: ''
-    startLine: 6784
+    startLine: 6788
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -138,7 +138,7 @@ items:
   source:
     id: StoreForward
     path: ''
-    startLine: 6788
+    startLine: 6792
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

@@ -17,7 +17,7 @@ items:
   source:
     id: SmppResponse
     path: ''
-    startLine: 16455
+    startLine: 16459
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -59,7 +59,7 @@ items:
   source:
     id: SetRequestForResponse
     path: ''
-    startLine: 16457
+    startLine: 16461
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -92,7 +92,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16507
+    startLine: 16511
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

@@ -19,7 +19,7 @@ items:
   source:
     id: SmppErrorEventArgs
     path: ''
-    startLine: 8906
+    startLine: 8910
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -52,7 +52,7 @@ items:
   source:
     id: Comment
     path: ''
-    startLine: 8908
+    startLine: 8912
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -83,7 +83,7 @@ items:
   source:
     id: Exception
     path: ''
-    startLine: 8910
+    startLine: 8914
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -114,7 +114,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8912
+    startLine: 8916
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -145,7 +145,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8918
+    startLine: 8922
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

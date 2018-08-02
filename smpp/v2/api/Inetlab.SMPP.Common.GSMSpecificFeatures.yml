@@ -19,7 +19,7 @@ items:
   source:
     id: GSMSpecificFeatures
     path: ''
-    startLine: 5881
+    startLine: 5885
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -48,7 +48,7 @@ items:
   source:
     id: No
     path: ''
-    startLine: 5886
+    startLine: 5890
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -78,7 +78,7 @@ items:
   source:
     id: UDHI
     path: ''
-    startLine: 5890
+    startLine: 5894
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -108,7 +108,7 @@ items:
   source:
     id: ReplyPath
     path: ''
-    startLine: 5894
+    startLine: 5898
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -138,7 +138,7 @@ items:
   source:
     id: UDHIandReplyPath
     path: ''
-    startLine: 5898
+    startLine: 5902
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

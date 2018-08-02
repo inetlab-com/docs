@@ -19,7 +19,7 @@ items:
   source:
     id: ConnectionMode
     path: ''
-    startLine: 5291
+    startLine: 5295
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -48,7 +48,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 5296
+    startLine: 5300
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -78,7 +78,7 @@ items:
   source:
     id: Transmitter
     path: ''
-    startLine: 5301
+    startLine: 5305
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -108,7 +108,7 @@ items:
   source:
     id: Receiver
     path: ''
-    startLine: 5306
+    startLine: 5310
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -138,7 +138,7 @@ items:
   source:
     id: Transceiver
     path: ''
-    startLine: 5311
+    startLine: 5315
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

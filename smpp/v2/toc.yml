@@ -1,5 +1,7 @@
 - name: Documentation
-  href: articles/toc.yml
+  href: articles/
+  topicHref: articles/index.html
 
 - name: API References
-  href: api/toc.yml
+  href: api/
+  topicHref: api/Inetlab.SMPP.html

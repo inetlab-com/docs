@@ -23,7 +23,7 @@ items:
   source:
     id: QuerySmResp
     path: ''
-    startLine: 16004
+    startLine: 16008
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -66,7 +66,7 @@ items:
   source:
     id: MessageId
     path: ''
-    startLine: 16006
+    startLine: 16010
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -97,7 +97,7 @@ items:
   source:
     id: FinalDateString
     path: ''
-    startLine: 16008
+    startLine: 16012
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -128,7 +128,7 @@ items:
   source:
     id: FinalDate
     path: ''
-    startLine: 16010
+    startLine: 16014
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -159,7 +159,7 @@ items:
   source:
     id: MessageState
     path: ''
-    startLine: 16042
+    startLine: 16046
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -190,7 +190,7 @@ items:
   source:
     id: ErrorCode
     path: ''
-    startLine: 16044
+    startLine: 16048
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -221,7 +221,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16047
+    startLine: 16051
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -247,7 +247,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16051
+    startLine: 16055
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -276,7 +276,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16058
+    startLine: 16062
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

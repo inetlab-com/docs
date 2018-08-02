@@ -23,7 +23,7 @@ items:
   source:
     id: GSMPackedEncoding
     path: ''
-    startLine: 13776
+    startLine: 13780
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -62,7 +62,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13778
+    startLine: 13782
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -88,7 +88,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13780
+    startLine: 13784
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -117,7 +117,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13784
+    startLine: 13788
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -146,7 +146,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13789
+    startLine: 13793
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -180,7 +180,7 @@ items:
   source:
     id: GetByteCount
     path: ''
-    startLine: 13793
+    startLine: 13797
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -221,7 +221,7 @@ items:
   source:
     id: GetBytes
     path: ''
-    startLine: 13800
+    startLine: 13804
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -266,7 +266,7 @@ items:
   source:
     id: GetCharCount
     path: ''
-    startLine: 13813
+    startLine: 13817
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -307,7 +307,7 @@ items:
   source:
     id: GetChars
     path: ''
-    startLine: 13820
+    startLine: 13824
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings

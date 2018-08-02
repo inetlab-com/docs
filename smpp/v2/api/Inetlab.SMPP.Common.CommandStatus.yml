@@ -69,7 +69,7 @@ items:
   source:
     id: CommandStatus
     path: ''
-    startLine: 4955
+    startLine: 4959
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -98,7 +98,7 @@ items:
   source:
     id: ESME_ROK
     path: ''
-    startLine: 4960
+    startLine: 4964
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -129,7 +129,7 @@ items:
   source:
     id: ESME_RINVMSGLEN
     path: ''
-    startLine: 4964
+    startLine: 4968
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -160,7 +160,7 @@ items:
   source:
     id: ESME_RINVCMDLEN
     path: ''
-    startLine: 4968
+    startLine: 4972
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -191,7 +191,7 @@ items:
   source:
     id: ESME_RINVCMDID
     path: ''
-    startLine: 4972
+    startLine: 4976
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -222,7 +222,7 @@ items:
   source:
     id: ESME_RINVBNDSTS
     path: ''
-    startLine: 4976
+    startLine: 4980
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -253,7 +253,7 @@ items:
   source:
     id: ESME_RALYBND
     path: ''
-    startLine: 4980
+    startLine: 4984
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -284,7 +284,7 @@ items:
   source:
     id: ESME_RINVPRTFLG
     path: ''
-    startLine: 4984
+    startLine: 4988
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -315,7 +315,7 @@ items:
   source:
     id: ESME_RINVREGDLVFLG
     path: ''
-    startLine: 4988
+    startLine: 4992
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -346,7 +346,7 @@ items:
   source:
     id: ESME_RSYSERR
     path: ''
-    startLine: 4992
+    startLine: 4996
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -377,7 +377,7 @@ items:
   source:
     id: ESME_RINVSRCADR
     path: ''
-    startLine: 4996
+    startLine: 5000
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -408,7 +408,7 @@ items:
   source:
     id: ESME_RINVDSTADR
     path: ''
-    startLine: 5000
+    startLine: 5004
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -439,7 +439,7 @@ items:
   source:
     id: ESME_RINVMSGID
     path: ''
-    startLine: 5004
+    startLine: 5008
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -470,7 +470,7 @@ items:
   source:
     id: ESME_RBINDFAIL
     path: ''
-    startLine: 5008
+    startLine: 5012
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -501,7 +501,7 @@ items:
   source:
     id: ESME_RINVPASWD
     path: ''
-    startLine: 5012
+    startLine: 5016
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -532,7 +532,7 @@ items:
   source:
     id: ESME_RINVSYSID
     path: ''
-    startLine: 5016
+    startLine: 5020
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -563,7 +563,7 @@ items:
   source:
     id: ESME_RCANCELFAIL
     path: ''
-    startLine: 5020
+    startLine: 5024
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -594,7 +594,7 @@ items:
   source:
     id: ESME_RREPLACEFAIL
     path: ''
-    startLine: 5024
+    startLine: 5028
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -625,7 +625,7 @@ items:
   source:
     id: ESME_RMSGQFUL
     path: ''
-    startLine: 5028
+    startLine: 5032
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -656,7 +656,7 @@ items:
   source:
     id: ESME_RINVSERTYP
     path: ''
-    startLine: 5032
+    startLine: 5036
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -687,7 +687,7 @@ items:
   source:
     id: ESME_RINVNUMDESTS
     path: ''
-    startLine: 5036
+    startLine: 5040
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -718,7 +718,7 @@ items:
   source:
     id: ESME_RINVDLNAME
     path: ''
-    startLine: 5040
+    startLine: 5044
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -749,7 +749,7 @@ items:
   source:
     id: ESME_RINVDESTFLAG
     path: ''
-    startLine: 5044
+    startLine: 5048
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -780,7 +780,7 @@ items:
   source:
     id: ESME_RINVSUBREP
     path: ''
-    startLine: 5048
+    startLine: 5052
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -811,7 +811,7 @@ items:
   source:
     id: ESME_RINVESMCLASS
     path: ''
-    startLine: 5052
+    startLine: 5056
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -842,7 +842,7 @@ items:
   source:
     id: ESME_RCNTSUBDL
     path: ''
-    startLine: 5056
+    startLine: 5060
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -873,7 +873,7 @@ items:
   source:
     id: ESME_RSUBMITFAIL
     path: ''
-    startLine: 5060
+    startLine: 5064
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -904,7 +904,7 @@ items:
   source:
     id: ESME_RINVSRCTON
     path: ''
-    startLine: 5064
+    startLine: 5068
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -935,7 +935,7 @@ items:
   source:
     id: ESME_RINVSRCNPI
     path: ''
-    startLine: 5068
+    startLine: 5072
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -966,7 +966,7 @@ items:
   source:
     id: ESME_RINVDSTTON
     path: ''
-    startLine: 5072
+    startLine: 5076
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -997,7 +997,7 @@ items:
   source:
     id: ESME_RINVDSTNPI
     path: ''
-    startLine: 5076
+    startLine: 5080
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1028,7 +1028,7 @@ items:
   source:
     id: ESME_RINVSYSTYP
     path: ''
-    startLine: 5080
+    startLine: 5084
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1059,7 +1059,7 @@ items:
   source:
     id: ESME_RINVREPFLAG
     path: ''
-    startLine: 5084
+    startLine: 5088
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1090,7 +1090,7 @@ items:
   source:
     id: ESME_RINVNUMMSGS
     path: ''
-    startLine: 5088
+    startLine: 5092
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1121,7 +1121,7 @@ items:
   source:
     id: ESME_RTHROTTLED
     path: ''
-    startLine: 5092
+    startLine: 5096
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1152,7 +1152,7 @@ items:
   source:
     id: ESME_RINVSCHED
     path: ''
-    startLine: 5096
+    startLine: 5100
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1183,7 +1183,7 @@ items:
   source:
     id: ESME_RINVEXPIRY
     path: ''
-    startLine: 5100
+    startLine: 5104
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1214,7 +1214,7 @@ items:
   source:
     id: ESME_RINVDFTMSGID
     path: ''
-    startLine: 5104
+    startLine: 5108
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1245,7 +1245,7 @@ items:
   source:
     id: ESME_RX_T_APPN
     path: ''
-    startLine: 5108
+    startLine: 5112
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1276,7 +1276,7 @@ items:
   source:
     id: ESME_RX_P_APPN
     path: ''
-    startLine: 5112
+    startLine: 5116
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1307,7 +1307,7 @@ items:
   source:
     id: ESME_RX_R_APPN
     path: ''
-    startLine: 5116
+    startLine: 5120
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1338,7 +1338,7 @@ items:
   source:
     id: ESME_RQUERYFAIL
     path: ''
-    startLine: 5120
+    startLine: 5124
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1369,7 +1369,7 @@ items:
   source:
     id: ESME_RINVOPTPARSTREAM
     path: ''
-    startLine: 5124
+    startLine: 5128
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1400,7 +1400,7 @@ items:
   source:
     id: ESME_ROPTPARNOTALLWD
     path: ''
-    startLine: 5128
+    startLine: 5132
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1431,7 +1431,7 @@ items:
   source:
     id: ESME_RINVPARLEN
     path: ''
-    startLine: 5132
+    startLine: 5136
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1462,7 +1462,7 @@ items:
   source:
     id: ESME_RMISSINGOPTPARAM
     path: ''
-    startLine: 5136
+    startLine: 5140
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1493,7 +1493,7 @@ items:
   source:
     id: ESME_RINVOPTPARAMVAL
     path: ''
-    startLine: 5140
+    startLine: 5144
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1524,7 +1524,7 @@ items:
   source:
     id: ESME_RDELIVERYFAILURE
     path: ''
-    startLine: 5144
+    startLine: 5148
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1555,7 +1555,7 @@ items:
   source:
     id: ESME_RUNKNOWNERR
     path: ''
-    startLine: 5148
+    startLine: 5152
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1586,7 +1586,7 @@ items:
   source:
     id: SMPPCLIENT_UNEXPRESP
     path: ''
-    startLine: 5153
+    startLine: 5157
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1617,7 +1617,7 @@ items:
   source:
     id: SMPPCLIENT_RCVTIMEOUT
     path: ''
-    startLine: 5157
+    startLine: 5161
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1648,7 +1648,7 @@ items:
   source:
     id: SMPPCLIENT_NOCONN
     path: ''
-    startLine: 5161
+    startLine: 5165
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1679,7 +1679,7 @@ items:
   source:
     id: SMPPCLIENT_UNBOUND
     path: ''
-    startLine: 5165
+    startLine: 5169
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1710,7 +1710,7 @@ items:
   source:
     id: SMPPCLIENT_NORESP
     path: ''
-    startLine: 5169
+    startLine: 5173
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1741,7 +1741,7 @@ items:
   source:
     id: SMPPCLIENT_UNKNOWNERROR
     path: ''
-    startLine: 5173
+    startLine: 5177
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

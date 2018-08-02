@@ -16,7 +16,7 @@ items:
   source:
     id: IConcatenation
     path: ''
-    startLine: 5903
+    startLine: 5907
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -43,7 +43,7 @@ items:
   source:
     id: Concatenation
     path: ''
-    startLine: 5905
+    startLine: 5909
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

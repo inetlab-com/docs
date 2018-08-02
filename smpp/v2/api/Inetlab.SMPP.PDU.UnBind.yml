@@ -17,7 +17,7 @@ items:
   source:
     id: UnBind
     path: ''
-    startLine: 17046
+    startLine: 17050
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -62,7 +62,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 17049
+    startLine: 17053
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -88,7 +88,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 17053
+    startLine: 17057
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

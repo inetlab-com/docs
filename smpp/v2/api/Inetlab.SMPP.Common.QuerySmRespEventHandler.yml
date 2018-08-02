@@ -15,7 +15,7 @@ items:
   source:
     id: QuerySmRespEventHandler
     path: ''
-    startLine: 5567
+    startLine: 5571
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

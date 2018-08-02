@@ -18,7 +18,7 @@ items:
   source:
     id: ReplaceSmResp
     path: ''
-    startLine: 16196
+    startLine: 16200
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -61,7 +61,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16201
+    startLine: 16205
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -87,7 +87,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16205
+    startLine: 16209
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -116,7 +116,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16211
+    startLine: 16215
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

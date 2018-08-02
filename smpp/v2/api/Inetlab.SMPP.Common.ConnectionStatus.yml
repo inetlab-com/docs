@@ -19,7 +19,7 @@ items:
   source:
     id: ConnectionStatus
     path: ''
-    startLine: 5319
+    startLine: 5323
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -48,7 +48,7 @@ items:
   source:
     id: Closed
     path: ''
-    startLine: 5324
+    startLine: 5328
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -78,7 +78,7 @@ items:
   source:
     id: Open
     path: ''
-    startLine: 5328
+    startLine: 5332
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -108,7 +108,7 @@ items:
   source:
     id: Bound
     path: ''
-    startLine: 5332
+    startLine: 5336
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -138,7 +138,7 @@ items:
   source:
     id: Outbound
     path: ''
-    startLine: 5336
+    startLine: 5340
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

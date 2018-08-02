@@ -42,7 +42,7 @@ items:
   source:
     id: SmppWriter
     path: ''
-    startLine: 10834
+    startLine: 10838
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -73,7 +73,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 10840
+    startLine: 10844
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -104,7 +104,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 10862
+    startLine: 10866
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -130,7 +130,7 @@ items:
   source:
     id: WritePDU
     path: ''
-    startLine: 10868
+    startLine: 10872
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -159,7 +159,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 10969
+    startLine: 10973
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -188,7 +188,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11001
+    startLine: 11005
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -217,7 +217,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11014
+    startLine: 11018
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -246,7 +246,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11026
+    startLine: 11030
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -275,7 +275,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11036
+    startLine: 11040
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -304,7 +304,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11051
+    startLine: 11055
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -333,7 +333,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11062
+    startLine: 11066
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -362,7 +362,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11073
+    startLine: 11077
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -391,7 +391,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11147
+    startLine: 11151
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -420,7 +420,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11160
+    startLine: 11164
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -449,7 +449,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11198
+    startLine: 11202
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -478,7 +478,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11211
+    startLine: 11215
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -507,7 +507,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11330
+    startLine: 11334
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -536,7 +536,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11346
+    startLine: 11350
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -565,7 +565,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11371
+    startLine: 11375
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -594,7 +594,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11386
+    startLine: 11390
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -623,7 +623,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11400
+    startLine: 11404
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -652,7 +652,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11415
+    startLine: 11419
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -681,7 +681,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11433
+    startLine: 11437
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -710,7 +710,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11443
+    startLine: 11447
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -739,7 +739,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11469
+    startLine: 11473
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -768,7 +768,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11480
+    startLine: 11484
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -797,7 +797,7 @@ items:
   source:
     id: Write
     path: ''
-    startLine: 11494
+    startLine: 11498
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -826,7 +826,7 @@ items:
   source:
     id: GetLength
     path: ''
-    startLine: 11645
+    startLine: 11649
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

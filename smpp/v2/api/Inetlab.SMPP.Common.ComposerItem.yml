@@ -20,7 +20,7 @@ items:
   source:
     id: ComposerItem
     path: ''
-    startLine: 6620
+    startLine: 6624
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -53,7 +53,7 @@ items:
   source:
     id: Parts
     path: ''
-    startLine: 6623
+    startLine: 6627
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -84,7 +84,7 @@ items:
   source:
     id: HasAllParts
     path: ''
-    startLine: 6644
+    startLine: 6648
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -115,7 +115,7 @@ items:
   source:
     id: GetFullMessage
     path: ''
-    startLine: 6660
+    startLine: 6664
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -146,7 +146,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 6720
+    startLine: 6724
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -172,7 +172,7 @@ items:
   source:
     id: Finalize
     path: ''
-    startLine: 6726
+    startLine: 6730
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

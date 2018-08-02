@@ -19,7 +19,7 @@ items:
   source:
     id: ApplicationPortAddressingScheme16bit
     path: ''
-    startLine: 12978
+    startLine: 12982
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers
@@ -56,7 +56,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12980
+    startLine: 12984
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers
@@ -82,7 +82,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12986
+    startLine: 12990
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers
@@ -113,7 +113,7 @@ items:
   source:
     id: DestinationPort
     path: ''
-    startLine: 12996
+    startLine: 13000
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers
@@ -146,7 +146,7 @@ items:
   source:
     id: OriginatorPort
     path: ''
-    startLine: 13005
+    startLine: 13009
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers

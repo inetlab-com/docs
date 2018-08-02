@@ -25,7 +25,7 @@ items:
   source:
     id: Npi
     path: ''
-    startLine: 6909
+    startLine: 6913
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -54,7 +54,7 @@ items:
   source:
     id: Unknown
     path: ''
-    startLine: 6914
+    startLine: 6918
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -84,7 +84,7 @@ items:
   source:
     id: ISDN
     path: ''
-    startLine: 6918
+    startLine: 6922
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -114,7 +114,7 @@ items:
   source:
     id: DataX121
     path: ''
-    startLine: 6922
+    startLine: 6926
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -144,7 +144,7 @@ items:
   source:
     id: TelexF69
     path: ''
-    startLine: 6926
+    startLine: 6930
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -174,7 +174,7 @@ items:
   source:
     id: LandMobileE212
     path: ''
-    startLine: 6930
+    startLine: 6934
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -204,7 +204,7 @@ items:
   source:
     id: National
     path: ''
-    startLine: 6934
+    startLine: 6938
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -234,7 +234,7 @@ items:
   source:
     id: Private
     path: ''
-    startLine: 6938
+    startLine: 6942
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -264,7 +264,7 @@ items:
   source:
     id: ERMES
     path: ''
-    startLine: 6942
+    startLine: 6946
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -294,7 +294,7 @@ items:
   source:
     id: Internet
     path: ''
-    startLine: 6946
+    startLine: 6950
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -324,7 +324,7 @@ items:
   source:
     id: WAP
     path: ''
-    startLine: 6950
+    startLine: 6954
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

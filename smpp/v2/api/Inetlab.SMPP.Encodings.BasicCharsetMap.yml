@@ -18,7 +18,7 @@ items:
   source:
     id: BasicCharsetMap
     path: ''
-    startLine: 13200
+    startLine: 13204
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -51,7 +51,7 @@ items:
   source:
     id: CharacterSet
     path: ''
-    startLine: 13205
+    startLine: 13209
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -84,7 +84,7 @@ items:
   source:
     id: ExtensionSet
     path: ''
-    startLine: 13210
+    startLine: 13214
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -117,7 +117,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13215
+    startLine: 13219
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings

@@ -26,7 +26,7 @@ items:
   source:
     id: TLV
     path: ''
-    startLine: 12403
+    startLine: 12407
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -59,7 +59,7 @@ items:
   source:
     id: Tag
     path: ''
-    startLine: 12412
+    startLine: 12416
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -92,7 +92,7 @@ items:
   source:
     id: Length
     path: ''
-    startLine: 12421
+    startLine: 12425
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -125,7 +125,7 @@ items:
   source:
     id: Value
     path: ''
-    startLine: 12430
+    startLine: 12434
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -158,7 +158,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12436
+    startLine: 12440
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -184,7 +184,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12442
+    startLine: 12446
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -218,7 +218,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12449
+    startLine: 12453
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -254,7 +254,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12456
+    startLine: 12460
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -288,7 +288,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12464
+    startLine: 12468
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -324,7 +324,7 @@ items:
   source:
     id: TagValue
     path: ''
-    startLine: 12474
+    startLine: 12478
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -357,7 +357,7 @@ items:
   source:
     id: GetHashCode
     path: ''
-    startLine: 12487
+    startLine: 12491
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -388,7 +388,7 @@ items:
   source:
     id: Clone
     path: ''
-    startLine: 12492
+    startLine: 12496
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

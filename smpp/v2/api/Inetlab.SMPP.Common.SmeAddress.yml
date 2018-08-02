@@ -22,7 +22,7 @@ items:
   source:
     id: SmeAddress
     path: ''
-    startLine: 8806
+    startLine: 8810
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -55,7 +55,7 @@ items:
   source:
     id: TON
     path: ''
-    startLine: 8811
+    startLine: 8815
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -88,7 +88,7 @@ items:
   source:
     id: NPI
     path: ''
-    startLine: 8816
+    startLine: 8820
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -121,7 +121,7 @@ items:
   source:
     id: Address
     path: ''
-    startLine: 8821
+    startLine: 8825
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -156,7 +156,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8823
+    startLine: 8827
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -182,7 +182,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8827
+    startLine: 8831
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -211,7 +211,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8834
+    startLine: 8838
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -244,7 +244,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 8890
+    startLine: 8894
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

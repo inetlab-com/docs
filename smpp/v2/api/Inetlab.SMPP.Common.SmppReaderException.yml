@@ -21,7 +21,7 @@ items:
   source:
     id: SmppReaderException
     path: ''
-    startLine: 8950
+    startLine: 8954
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -53,7 +53,7 @@ items:
   source:
     id: Sequence
     path: ''
-    startLine: 8952
+    startLine: 8956
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -84,7 +84,7 @@ items:
   source:
     id: Status
     path: ''
-    startLine: 8953
+    startLine: 8957
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -115,7 +115,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8955
+    startLine: 8959
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -144,7 +144,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8959
+    startLine: 8963
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -175,7 +175,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8963
+    startLine: 8967
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -208,7 +208,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8969
+    startLine: 8973
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

@@ -20,7 +20,7 @@ items:
   source:
     id: ConcatenatedShortMessages8bit
     path: ''
-    startLine: 13070
+    startLine: 13074
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers
@@ -57,7 +57,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13072
+    startLine: 13076
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers
@@ -83,7 +83,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13078
+    startLine: 13082
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers
@@ -116,7 +116,7 @@ items:
   source:
     id: ReferenceNumber
     path: ''
-    startLine: 13088
+    startLine: 13092
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers
@@ -149,7 +149,7 @@ items:
   source:
     id: Total
     path: ''
-    startLine: 13097
+    startLine: 13101
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers
@@ -182,7 +182,7 @@ items:
   source:
     id: SequenceNumber
     path: ''
-    startLine: 13106
+    startLine: 13110
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Headers

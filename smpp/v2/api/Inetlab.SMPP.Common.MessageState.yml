@@ -24,7 +24,7 @@ items:
   source:
     id: MessageState
     path: ''
-    startLine: 6796
+    startLine: 6800
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -53,7 +53,7 @@ items:
   source:
     id: None
     path: ''
-    startLine: 6798
+    startLine: 6802
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -81,7 +81,7 @@ items:
   source:
     id: Enroute
     path: ''
-    startLine: 6802
+    startLine: 6806
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -111,7 +111,7 @@ items:
   source:
     id: Delivered
     path: ''
-    startLine: 6807
+    startLine: 6811
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -141,7 +141,7 @@ items:
   source:
     id: Expired
     path: ''
-    startLine: 6812
+    startLine: 6816
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -171,7 +171,7 @@ items:
   source:
     id: Deleted
     path: ''
-    startLine: 6817
+    startLine: 6821
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -201,7 +201,7 @@ items:
   source:
     id: Undeliverable
     path: ''
-    startLine: 6822
+    startLine: 6826
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -231,7 +231,7 @@ items:
   source:
     id: Accepted
     path: ''
-    startLine: 6828
+    startLine: 6832
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -261,7 +261,7 @@ items:
   source:
     id: Unknown
     path: ''
-    startLine: 6833
+    startLine: 6837
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -291,7 +291,7 @@ items:
   source:
     id: Rejected
     path: ''
-    startLine: 6838
+    startLine: 6842
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

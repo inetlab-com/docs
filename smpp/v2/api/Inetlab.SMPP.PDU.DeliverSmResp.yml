@@ -19,7 +19,7 @@ items:
   source:
     id: DeliverSmResp
     path: ''
-    startLine: 15817
+    startLine: 15821
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -65,7 +65,7 @@ items:
   source:
     id: Optional
     path: ''
-    startLine: 15825
+    startLine: 15829
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -98,7 +98,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15827
+    startLine: 15831
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -124,7 +124,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15831
+    startLine: 15835
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -153,7 +153,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15836
+    startLine: 15840
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

@@ -20,7 +20,7 @@ items:
   source:
     id: SmppRequest
     path: ''
-    startLine: 16267
+    startLine: 16271
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -62,7 +62,7 @@ items:
   source:
     id: CreatePDU
     path: ''
-    startLine: 16331
+    startLine: 16335
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -95,7 +95,7 @@ items:
   source:
     id: CreateResponseHeader
     path: ''
-    startLine: 16388
+    startLine: 16392
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -128,7 +128,7 @@ items:
   source:
     id: GetResponseCommand
     path: ''
-    startLine: 16396
+    startLine: 16400
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -161,7 +161,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16443
+    startLine: 16447
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -190,7 +190,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 16448
+    startLine: 16452
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

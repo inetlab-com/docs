@@ -20,7 +20,7 @@ items:
   source:
     id: QuerySm
     path: ''
-    startLine: 15959
+    startLine: 15963
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -67,7 +67,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15962
+    startLine: 15966
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -93,7 +93,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15966
+    startLine: 15970
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -122,7 +122,7 @@ items:
   source:
     id: MessageId
     path: ''
-    startLine: 15978
+    startLine: 15982
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -155,7 +155,7 @@ items:
   source:
     id: SourceAddress
     path: ''
-    startLine: 15985
+    startLine: 15989
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -188,7 +188,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 15988
+    startLine: 15992
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

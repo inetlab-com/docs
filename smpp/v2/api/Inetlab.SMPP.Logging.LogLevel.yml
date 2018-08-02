@@ -21,7 +21,7 @@ items:
   source:
     id: LogLevel
     path: ''
-    startLine: 15006
+    startLine: 15010
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -48,7 +48,7 @@ items:
   source:
     id: Off
     path: ''
-    startLine: 15008
+    startLine: 15012
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -76,7 +76,7 @@ items:
   source:
     id: Error
     path: ''
-    startLine: 15009
+    startLine: 15013
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -104,7 +104,7 @@ items:
   source:
     id: Warning
     path: ''
-    startLine: 15010
+    startLine: 15014
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -132,7 +132,7 @@ items:
   source:
     id: Info
     path: ''
-    startLine: 15011
+    startLine: 15015
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -160,7 +160,7 @@ items:
   source:
     id: Debug
     path: ''
-    startLine: 15012
+    startLine: 15016
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -188,7 +188,7 @@ items:
   source:
     id: Verbose
     path: ''
-    startLine: 15013
+    startLine: 15017
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging

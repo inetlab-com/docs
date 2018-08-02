@@ -29,7 +29,7 @@ items:
   source:
     id: NationalLanguage
     path: ''
-    startLine: 6886
+    startLine: 6890
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -56,7 +56,7 @@ items:
   source:
     id: Default
     path: ''
-    startLine: 6888
+    startLine: 6892
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -84,7 +84,7 @@ items:
   source:
     id: Turkish
     path: ''
-    startLine: 6889
+    startLine: 6893
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -112,7 +112,7 @@ items:
   source:
     id: Spanish
     path: ''
-    startLine: 6890
+    startLine: 6894
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -140,7 +140,7 @@ items:
   source:
     id: Portuguese
     path: ''
-    startLine: 6891
+    startLine: 6895
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -168,7 +168,7 @@ items:
   source:
     id: Bengali
     path: ''
-    startLine: 6892
+    startLine: 6896
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -196,7 +196,7 @@ items:
   source:
     id: Gujarati
     path: ''
-    startLine: 6893
+    startLine: 6897
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -224,7 +224,7 @@ items:
   source:
     id: Hindi
     path: ''
-    startLine: 6894
+    startLine: 6898
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -252,7 +252,7 @@ items:
   source:
     id: Kannada
     path: ''
-    startLine: 6895
+    startLine: 6899
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -280,7 +280,7 @@ items:
   source:
     id: Malayalam
     path: ''
-    startLine: 6896
+    startLine: 6900
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -308,7 +308,7 @@ items:
   source:
     id: Oriya
     path: ''
-    startLine: 6897
+    startLine: 6901
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -336,7 +336,7 @@ items:
   source:
     id: Punjabi
     path: ''
-    startLine: 6898
+    startLine: 6902
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -364,7 +364,7 @@ items:
   source:
     id: Tamil
     path: ''
-    startLine: 6899
+    startLine: 6903
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -392,7 +392,7 @@ items:
   source:
     id: Telugu
     path: ''
-    startLine: 6900
+    startLine: 6904
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -420,7 +420,7 @@ items:
   source:
     id: Urdu
     path: ''
-    startLine: 6901
+    startLine: 6905
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

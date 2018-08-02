@@ -34,7 +34,7 @@ items:
   source:
     id: TLVCollection
     path: ''
-    startLine: 12508
+    startLine: 12512
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -67,7 +67,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12512
+    startLine: 12516
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -93,7 +93,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12514
+    startLine: 12518
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -122,7 +122,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 12519
+    startLine: 12523
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -151,7 +151,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 12524
+    startLine: 12528
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -187,7 +187,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 12530
+    startLine: 12534
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -223,7 +223,7 @@ items:
   source:
     id: this[]
     path: ''
-    startLine: 12562
+    startLine: 12566
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -259,7 +259,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12584
+    startLine: 12588
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -288,7 +288,7 @@ items:
   source:
     id: AddSARReferenceNumber
     path: ''
-    startLine: 12589
+    startLine: 12593
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -317,7 +317,7 @@ items:
   source:
     id: AddSARSequenceNumber
     path: ''
-    startLine: 12599
+    startLine: 12603
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -346,7 +346,7 @@ items:
   source:
     id: AddSARTotalSegments
     path: ''
-    startLine: 12608
+    startLine: 12612
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -375,7 +375,7 @@ items:
   source:
     id: AddMoreMessagesToSend
     path: ''
-    startLine: 12617
+    startLine: 12621
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -404,7 +404,7 @@ items:
   source:
     id: AddMessagePayload
     path: ''
-    startLine: 12628
+    startLine: 12632
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -436,7 +436,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12636
+    startLine: 12640
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -470,7 +470,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12641
+    startLine: 12645
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -501,7 +501,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12648
+    startLine: 12652
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -532,7 +532,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12656
+    startLine: 12660
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -563,7 +563,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12661
+    startLine: 12665
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -594,7 +594,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12666
+    startLine: 12670
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -627,7 +627,7 @@ items:
   source:
     id: Add
     path: ''
-    startLine: 12676
+    startLine: 12680
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

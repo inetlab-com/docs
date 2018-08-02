@@ -15,7 +15,7 @@ items:
   source:
     id: ClientDisconnectedEventHandler
     path: ''
-    startLine: 5583
+    startLine: 5587
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

@@ -2,7 +2,8 @@
   href: http://www.inetlab.com
 
 - name: Inetlab.SMPP
-  href: smpp/
+  href: smpp/toc.yml
+  topicHref: smpp/index.html
 
 - name: Inetlab.MMS.MM7
   href: mm7/

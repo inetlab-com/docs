@@ -27,7 +27,7 @@ items:
   source:
     id: IWapPushBuilder
     path: ''
-    startLine: 3756
+    startLine: 3760
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -59,7 +59,7 @@ items:
   source:
     id: ServiceType
     path: ''
-    startLine: 3759
+    startLine: 3763
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -86,7 +86,7 @@ items:
   source:
     id: From
     path: ''
-    startLine: 3760
+    startLine: 3764
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -113,7 +113,7 @@ items:
   source:
     id: From
     path: ''
-    startLine: 3761
+    startLine: 3765
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -144,7 +144,7 @@ items:
   source:
     id: To
     path: ''
-    startLine: 3762
+    startLine: 3766
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -171,7 +171,7 @@ items:
   source:
     id: To
     path: ''
-    startLine: 3763
+    startLine: 3767
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -202,7 +202,7 @@ items:
   source:
     id: TransactionId
     path: ''
-    startLine: 3764
+    startLine: 3768
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -229,7 +229,7 @@ items:
   source:
     id: Title
     path: ''
-    startLine: 3765
+    startLine: 3769
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -256,7 +256,7 @@ items:
   source:
     id: Url
     path: ''
-    startLine: 3766
+    startLine: 3770
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -283,7 +283,7 @@ items:
   source:
     id: DeliverAt
     path: ''
-    startLine: 3767
+    startLine: 3771
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -310,7 +310,7 @@ items:
   source:
     id: DeliverIn
     path: ''
-    startLine: 3768
+    startLine: 3772
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -337,7 +337,7 @@ items:
   source:
     id: ExpireAt
     path: ''
-    startLine: 3769
+    startLine: 3773
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders
@@ -364,7 +364,7 @@ items:
   source:
     id: ExpireIn
     path: ''
-    startLine: 3770
+    startLine: 3774
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Builders

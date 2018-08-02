@@ -59,7 +59,7 @@ items:
   source:
     id: OptionalTags
     path: ''
-    startLine: 6960
+    startLine: 6964
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -88,7 +88,7 @@ items:
   source:
     id: DestAddrSubunit
     path: ''
-    startLine: 6967
+    startLine: 6971
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -118,7 +118,7 @@ items:
   source:
     id: DestNetworkType
     path: ''
-    startLine: 6972
+    startLine: 6976
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -148,7 +148,7 @@ items:
   source:
     id: DestBearerType
     path: ''
-    startLine: 6974
+    startLine: 6978
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -176,7 +176,7 @@ items:
   source:
     id: DestTelematicsId
     path: ''
-    startLine: 6976
+    startLine: 6980
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -204,7 +204,7 @@ items:
   source:
     id: SourceAddrSubunit
     path: ''
-    startLine: 6977
+    startLine: 6981
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -232,7 +232,7 @@ items:
   source:
     id: SourceNetworkType
     path: ''
-    startLine: 6981
+    startLine: 6985
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -262,7 +262,7 @@ items:
   source:
     id: SourceBearerType
     path: ''
-    startLine: 6983
+    startLine: 6987
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -290,7 +290,7 @@ items:
   source:
     id: SourceTelematicsId
     path: ''
-    startLine: 6984
+    startLine: 6988
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -318,7 +318,7 @@ items:
   source:
     id: QosTimeToLive
     path: ''
-    startLine: 6985
+    startLine: 6989
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -346,7 +346,7 @@ items:
   source:
     id: PayloadType
     path: ''
-    startLine: 6986
+    startLine: 6990
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -374,7 +374,7 @@ items:
   source:
     id: AdditionalStatusInfoText
     path: ''
-    startLine: 6988
+    startLine: 6992
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -402,7 +402,7 @@ items:
   source:
     id: ReceiptedMessageId
     path: ''
-    startLine: 6994
+    startLine: 6998
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -432,7 +432,7 @@ items:
   source:
     id: MsMsgWaitFacilities
     path: ''
-    startLine: 6995
+    startLine: 6999
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -460,7 +460,7 @@ items:
   source:
     id: PrivacyIndicator
     path: ''
-    startLine: 6996
+    startLine: 7000
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -488,7 +488,7 @@ items:
   source:
     id: SourceSubaddress
     path: ''
-    startLine: 6997
+    startLine: 7001
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -516,7 +516,7 @@ items:
   source:
     id: DestSubaddress
     path: ''
-    startLine: 6998
+    startLine: 7002
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -544,7 +544,7 @@ items:
   source:
     id: UserMessageReference
     path: ''
-    startLine: 6999
+    startLine: 7003
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -572,7 +572,7 @@ items:
   source:
     id: UserResponseCode
     path: ''
-    startLine: 7000
+    startLine: 7004
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -600,7 +600,7 @@ items:
   source:
     id: SourcePort
     path: ''
-    startLine: 7001
+    startLine: 7005
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -628,7 +628,7 @@ items:
   source:
     id: DestinationPort
     path: ''
-    startLine: 7002
+    startLine: 7006
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -656,7 +656,7 @@ items:
   source:
     id: LanguageIndicator
     path: ''
-    startLine: 7003
+    startLine: 7007
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -684,7 +684,7 @@ items:
   source:
     id: SCInterfaceVersion
     path: ''
-    startLine: 7004
+    startLine: 7008
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -712,7 +712,7 @@ items:
   source:
     id: CallbackNumPresInd
     path: ''
-    startLine: 7006
+    startLine: 7010
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -740,7 +740,7 @@ items:
   source:
     id: CallbackNumAtag
     path: ''
-    startLine: 7007
+    startLine: 7011
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -768,7 +768,7 @@ items:
   source:
     id: NumberOfMessages
     path: ''
-    startLine: 7008
+    startLine: 7012
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -796,7 +796,7 @@ items:
   source:
     id: CallbackNum
     path: ''
-    startLine: 7009
+    startLine: 7013
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -824,7 +824,7 @@ items:
   source:
     id: DpfResult
     path: ''
-    startLine: 7010
+    startLine: 7014
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -852,7 +852,7 @@ items:
   source:
     id: SetDpf
     path: ''
-    startLine: 7011
+    startLine: 7015
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -880,7 +880,7 @@ items:
   source:
     id: MSAvailabilityStatus
     path: ''
-    startLine: 7012
+    startLine: 7016
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -908,7 +908,7 @@ items:
   source:
     id: NetworkErrorCode
     path: ''
-    startLine: 7013
+    startLine: 7017
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -936,7 +936,7 @@ items:
   source:
     id: DeliveryFailureReason
     path: ''
-    startLine: 7015
+    startLine: 7019
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -964,7 +964,7 @@ items:
   source:
     id: UssdServiceOp
     path: ''
-    startLine: 7017
+    startLine: 7021
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -992,7 +992,7 @@ items:
   source:
     id: DisplayTime
     path: ''
-    startLine: 7018
+    startLine: 7022
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1020,7 +1020,7 @@ items:
   source:
     id: SmsSignal
     path: ''
-    startLine: 7019
+    startLine: 7023
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1048,7 +1048,7 @@ items:
   source:
     id: MSValidity
     path: ''
-    startLine: 7020
+    startLine: 7024
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1076,7 +1076,7 @@ items:
   source:
     id: AlertOnMessageDelivery
     path: ''
-    startLine: 7021
+    startLine: 7025
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1104,7 +1104,7 @@ items:
   source:
     id: ItsReplyType
     path: ''
-    startLine: 7022
+    startLine: 7026
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1132,7 +1132,7 @@ items:
   source:
     id: ItsSessionInfo
     path: ''
-    startLine: 7023
+    startLine: 7027
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1160,7 +1160,7 @@ items:
   source:
     id: MessagePayload
     path: ''
-    startLine: 7030
+    startLine: 7034
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1190,7 +1190,7 @@ items:
   source:
     id: SARReferenceNumber
     path: ''
-    startLine: 7036
+    startLine: 7040
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1220,7 +1220,7 @@ items:
   source:
     id: SARTotalSegments
     path: ''
-    startLine: 7042
+    startLine: 7046
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1250,7 +1250,7 @@ items:
   source:
     id: SARSequenceNumber
     path: ''
-    startLine: 7048
+    startLine: 7052
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1280,7 +1280,7 @@ items:
   source:
     id: MoreMessagesToSend
     path: ''
-    startLine: 7055
+    startLine: 7059
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1310,7 +1310,7 @@ items:
   source:
     id: MessageState
     path: ''
-    startLine: 7061
+    startLine: 7065
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

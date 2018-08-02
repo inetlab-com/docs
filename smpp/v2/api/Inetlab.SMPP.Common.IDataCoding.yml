@@ -16,7 +16,7 @@ items:
   source:
     id: IDataCoding
     path: ''
-    startLine: 5911
+    startLine: 5915
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -43,7 +43,7 @@ items:
   source:
     id: DataCoding
     path: ''
-    startLine: 5913
+    startLine: 5917
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

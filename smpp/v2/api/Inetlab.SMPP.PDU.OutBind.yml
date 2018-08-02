@@ -19,7 +19,7 @@ items:
   source:
     id: OutBind
     path: ''
-    startLine: 15926
+    startLine: 15930
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -62,7 +62,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15928
+    startLine: 15932
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -88,7 +88,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15932
+    startLine: 15936
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -117,7 +117,7 @@ items:
   source:
     id: SystemId
     path: ''
-    startLine: 15940
+    startLine: 15944
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -150,7 +150,7 @@ items:
   source:
     id: Password
     path: ''
-    startLine: 15945
+    startLine: 15949
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

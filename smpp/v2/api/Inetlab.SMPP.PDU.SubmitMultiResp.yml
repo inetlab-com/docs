@@ -22,7 +22,7 @@ items:
   source:
     id: SubmitMultiResp
     path: ''
-    startLine: 16762
+    startLine: 16766
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -67,7 +67,7 @@ items:
   source:
     id: MessageId
     path: ''
-    startLine: 16767
+    startLine: 16771
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -100,7 +100,7 @@ items:
   source:
     id: UnsuccessfulDeliveries
     path: ''
-    startLine: 16772
+    startLine: 16776
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -133,7 +133,7 @@ items:
   source:
     id: Optional
     path: ''
-    startLine: 16777
+    startLine: 16781
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -166,7 +166,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16780
+    startLine: 16784
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -192,7 +192,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16784
+    startLine: 16788
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -221,7 +221,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 16791
+    startLine: 16795
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -250,7 +250,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 16797
+    startLine: 16801
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

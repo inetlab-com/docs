@@ -24,7 +24,7 @@ items:
   source:
     id: EncodingMapper
     path: ''
-    startLine: 5640
+    startLine: 5644
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -53,7 +53,7 @@ items:
   source:
     id: Default
     path: ''
-    startLine: 5646
+    startLine: 5650
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -82,7 +82,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5649
+    startLine: 5653
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -108,7 +108,7 @@ items:
   source:
     id: AddressEncoding
     path: ''
-    startLine: 5672
+    startLine: 5676
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -139,7 +139,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5685
+    startLine: 5689
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -168,7 +168,7 @@ items:
   source:
     id: MapEncoding
     path: ''
-    startLine: 5693
+    startLine: 5697
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -201,7 +201,7 @@ items:
   source:
     id: GetMappedEncoding
     path: ''
-    startLine: 5714
+    startLine: 5718
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -236,7 +236,7 @@ items:
   source:
     id: GetMessageText
     path: ''
-    startLine: 5731
+    startLine: 5735
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -269,7 +269,7 @@ items:
   source:
     id: GetMessageText
     path: ''
-    startLine: 5763
+    startLine: 5767
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -307,7 +307,7 @@ items:
   source:
     id: GetMessageBytes
     path: ''
-    startLine: 5791
+    startLine: 5795
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

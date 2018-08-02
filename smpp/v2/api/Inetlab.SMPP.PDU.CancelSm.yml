@@ -21,7 +21,7 @@ items:
   source:
     id: CancelSm
     path: ''
-    startLine: 15246
+    startLine: 15250
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -69,7 +69,7 @@ items:
   source:
     id: ServiceType
     path: ''
-    startLine: 15252
+    startLine: 15256
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -102,7 +102,7 @@ items:
   source:
     id: MessageId
     path: ''
-    startLine: 15260
+    startLine: 15264
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -135,7 +135,7 @@ items:
   source:
     id: SourceAddress
     path: ''
-    startLine: 15267
+    startLine: 15271
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -168,7 +168,7 @@ items:
   source:
     id: DestinationAddress
     path: ''
-    startLine: 15275
+    startLine: 15279
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -201,7 +201,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15278
+    startLine: 15282
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -227,7 +227,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15281
+    startLine: 15285
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

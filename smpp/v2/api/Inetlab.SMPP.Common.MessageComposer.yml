@@ -24,7 +24,7 @@ items:
   source:
     id: MessageComposer
     path: ''
-    startLine: 6313
+    startLine: 6317
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -55,7 +55,7 @@ items:
   source:
     id: Timeout
     path: ''
-    startLine: 6320
+    startLine: 6324
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -88,7 +88,7 @@ items:
   source:
     id: evFullMessageReceived
     path: ''
-    startLine: 6325
+    startLine: 6329
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -117,7 +117,7 @@ items:
   source:
     id: evFullMessageTimeout
     path: ''
-    startLine: 6330
+    startLine: 6334
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -146,7 +146,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6332
+    startLine: 6336
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -172,7 +172,7 @@ items:
   source:
     id: AddMessage
     path: ''
-    startLine: 6338
+    startLine: 6342
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -208,7 +208,7 @@ items:
   source:
     id: Items
     path: ''
-    startLine: 6474
+    startLine: 6478
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -242,7 +242,7 @@ items:
   source:
     id: Clear
     path: ''
-    startLine: 6485
+    startLine: 6489
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -268,7 +268,7 @@ items:
   source:
     id: IsLastSegment
     path: ''
-    startLine: 6500
+    startLine: 6504
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -311,7 +311,7 @@ items:
   source:
     id: GetFullMessage
     path: ''
-    startLine: 6525
+    startLine: 6529
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

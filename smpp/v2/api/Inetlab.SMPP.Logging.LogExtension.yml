@@ -24,7 +24,7 @@ items:
   source:
     id: LogExtension
     path: ''
-    startLine: 14954
+    startLine: 14958
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -55,7 +55,7 @@ items:
   source:
     id: Error
     path: ''
-    startLine: 14956
+    startLine: 14960
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -92,7 +92,7 @@ items:
   source:
     id: ErrorFormat
     path: ''
-    startLine: 14961
+    startLine: 14965
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -136,7 +136,7 @@ items:
   source:
     id: ErrorFormat
     path: ''
-    startLine: 14966
+    startLine: 14970
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -178,7 +178,7 @@ items:
   source:
     id: Warn
     path: ''
-    startLine: 14971
+    startLine: 14975
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -215,7 +215,7 @@ items:
   source:
     id: WarnFormat
     path: ''
-    startLine: 14976
+    startLine: 14980
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -259,7 +259,7 @@ items:
   source:
     id: WarnFormat
     path: ''
-    startLine: 14981
+    startLine: 14985
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -301,7 +301,7 @@ items:
   source:
     id: InfoFormat
     path: ''
-    startLine: 14986
+    startLine: 14990
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -343,7 +343,7 @@ items:
   source:
     id: DebugFormat
     path: ''
-    startLine: 14991
+    startLine: 14995
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -385,7 +385,7 @@ items:
   source:
     id: TraceFormat
     path: ''
-    startLine: 14996
+    startLine: 15000
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging

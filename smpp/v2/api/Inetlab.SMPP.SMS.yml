@@ -19,7 +19,7 @@ items:
   source:
     id: SMS
     path: ''
-    startLine: 2891
+    startLine: 2895
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP
@@ -50,7 +50,7 @@ items:
   source:
     id: ForDeliver
     path: ''
-    startLine: 2896
+    startLine: 2900
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP
@@ -82,7 +82,7 @@ items:
   source:
     id: ForSubmit
     path: ''
-    startLine: 2904
+    startLine: 2908
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP
@@ -114,7 +114,7 @@ items:
   source:
     id: ForSubmitMulti
     path: ''
-    startLine: 2912
+    startLine: 2916
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP
@@ -146,7 +146,7 @@ items:
   source:
     id: ForWapPush
     path: ''
-    startLine: 2920
+    startLine: 2924
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP

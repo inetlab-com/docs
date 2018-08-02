@@ -15,7 +15,7 @@ items:
   source:
     id: GetLoggerDelegate
     path: ''
-    startLine: 14939
+    startLine: 14943
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging

@@ -16,7 +16,7 @@ items:
   source:
     id: SmppConnectionException
     path: ''
-    startLine: 8976
+    startLine: 8980
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -48,7 +48,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 8978
+    startLine: 8982
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

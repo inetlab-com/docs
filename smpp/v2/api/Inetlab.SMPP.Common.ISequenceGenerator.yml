@@ -17,7 +17,7 @@ items:
   source:
     id: ISequenceGenerator
     path: ''
-    startLine: 8722
+    startLine: 8726
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -44,7 +44,7 @@ items:
   source:
     id: NextSequenceNumber
     path: ''
-    startLine: 8727
+    startLine: 8731
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -70,7 +70,7 @@ items:
   source:
     id: NextReferenceNumber
     path: ''
-    startLine: 8732
+    startLine: 8736
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

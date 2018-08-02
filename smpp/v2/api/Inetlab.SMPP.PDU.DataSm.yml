@@ -34,7 +34,7 @@ items:
   source:
     id: DataSm
     path: ''
-    startLine: 15328
+    startLine: 15332
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -84,7 +84,7 @@ items:
   source:
     id: Concatenation
     path: ''
-    startLine: 15339
+    startLine: 15343
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -117,7 +117,7 @@ items:
   source:
     id: EsmClass
     path: ''
-    startLine: 15349
+    startLine: 15353
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -151,7 +151,7 @@ items:
   source:
     id: ServiceType
     path: ''
-    startLine: 15351
+    startLine: 15355
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -182,7 +182,7 @@ items:
   source:
     id: SourceAddress
     path: ''
-    startLine: 15372
+    startLine: 15376
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -215,7 +215,7 @@ items:
   source:
     id: DestinationAddress
     path: ''
-    startLine: 15377
+    startLine: 15381
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -248,7 +248,7 @@ items:
   source:
     id: DataCoding
     path: ''
-    startLine: 15384
+    startLine: 15388
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -281,7 +281,7 @@ items:
   source:
     id: MessageMode
     path: ''
-    startLine: 15389
+    startLine: 15393
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -314,7 +314,7 @@ items:
   source:
     id: MessageType
     path: ''
-    startLine: 15398
+    startLine: 15402
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -347,7 +347,7 @@ items:
   source:
     id: MessageFeature
     path: ''
-    startLine: 15407
+    startLine: 15411
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -380,7 +380,7 @@ items:
   source:
     id: RegisteredDelivery
     path: ''
-    startLine: 15416
+    startLine: 15420
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -413,7 +413,7 @@ items:
   source:
     id: SMSCReceipt
     path: ''
-    startLine: 15426
+    startLine: 15430
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -446,7 +446,7 @@ items:
   source:
     id: Acknowledgement
     path: ''
-    startLine: 15435
+    startLine: 15439
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -479,7 +479,7 @@ items:
   source:
     id: Notification
     path: ''
-    startLine: 15444
+    startLine: 15448
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -512,7 +512,7 @@ items:
   source:
     id: Optional
     path: ''
-    startLine: 15454
+    startLine: 15458
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -545,7 +545,7 @@ items:
   source:
     id: PacketBytes
     path: ''
-    startLine: 15459
+    startLine: 15463
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -578,7 +578,7 @@ items:
   source:
     id: MessageText
     path: ''
-    startLine: 15465
+    startLine: 15469
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -611,7 +611,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15486
+    startLine: 15490
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -637,7 +637,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 15490
+    startLine: 15494
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU
@@ -666,7 +666,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 15495
+    startLine: 15499
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.PDU

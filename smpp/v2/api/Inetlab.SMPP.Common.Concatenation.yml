@@ -20,7 +20,7 @@ items:
   source:
     id: Concatenation
     path: ''
-    startLine: 5185
+    startLine: 5189
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -51,7 +51,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 5187
+    startLine: 5191
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -84,7 +84,7 @@ items:
   source:
     id: ReferenceNumber
     path: ''
-    startLine: 5197
+    startLine: 5201
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -117,7 +117,7 @@ items:
   source:
     id: Total
     path: ''
-    startLine: 5203
+    startLine: 5207
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -150,7 +150,7 @@ items:
   source:
     id: SequenceNumber
     path: ''
-    startLine: 5209
+    startLine: 5213
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -183,7 +183,7 @@ items:
   source:
     id: ToString
     path: ''
-    startLine: 5211
+    startLine: 5215
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

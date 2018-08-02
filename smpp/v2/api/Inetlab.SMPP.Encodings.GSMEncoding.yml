@@ -26,7 +26,7 @@ items:
   source:
     id: GSMEncoding
     path: ''
-    startLine: 13450
+    startLine: 13454
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -61,7 +61,7 @@ items:
   source:
     id: CharacterSet
     path: ''
-    startLine: 13457
+    startLine: 13461
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -92,7 +92,7 @@ items:
   source:
     id: ExtensionSet
     path: ''
-    startLine: 13462
+    startLine: 13466
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -123,7 +123,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13467
+    startLine: 13471
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -149,7 +149,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13469
+    startLine: 13473
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -178,7 +178,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13477
+    startLine: 13481
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -212,7 +212,7 @@ items:
   source:
     id: GetByteCount
     path: ''
-    startLine: 13501
+    startLine: 13505
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -252,7 +252,7 @@ items:
   source:
     id: GetBytes
     path: ''
-    startLine: 13524
+    startLine: 13528
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -296,7 +296,7 @@ items:
   source:
     id: GetCharCount
     path: ''
-    startLine: 13567
+    startLine: 13571
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -336,7 +336,7 @@ items:
   source:
     id: GetChars
     path: ''
-    startLine: 13595
+    startLine: 13599
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -380,7 +380,7 @@ items:
   source:
     id: GetMaxByteCount
     path: ''
-    startLine: 13655
+    startLine: 13659
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -413,7 +413,7 @@ items:
   source:
     id: GetMaxCharCount
     path: ''
-    startLine: 13660
+    startLine: 13664
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings

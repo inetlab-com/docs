@@ -19,7 +19,7 @@ items:
   source:
     id: SmppStreamReader
     path: ''
-    startLine: 10607
+    startLine: 10611
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -50,7 +50,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 10616
+    startLine: 10620
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -81,7 +81,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 10622
+    startLine: 10626
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -114,7 +114,7 @@ items:
   source:
     id: Dispose
     path: ''
-    startLine: 10629
+    startLine: 10633
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -140,7 +140,7 @@ items:
   source:
     id: ReadPDU
     path: ''
-    startLine: 10635
+    startLine: 10639
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

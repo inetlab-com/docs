@@ -17,7 +17,7 @@ items:
   source:
     id: IGSMCharsetMap
     path: ''
-    startLine: 13433
+    startLine: 13437
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -44,7 +44,7 @@ items:
   source:
     id: CharacterSet
     path: ''
-    startLine: 13435
+    startLine: 13439
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings
@@ -73,7 +73,7 @@ items:
   source:
     id: ExtensionSet
     path: ''
-    startLine: 13436
+    startLine: 13440
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Encodings

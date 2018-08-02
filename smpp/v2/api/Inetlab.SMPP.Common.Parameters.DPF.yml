@@ -17,7 +17,7 @@ items:
   source:
     id: DPF
     path: ''
-    startLine: 13172
+    startLine: 13176
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Parameters
@@ -58,7 +58,7 @@ items:
   source:
     id: Requested
     path: ''
-    startLine: 13174
+    startLine: 13178
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Parameters
@@ -89,7 +89,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 13187
+    startLine: 13191
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common.Parameters

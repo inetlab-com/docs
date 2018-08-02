@@ -24,7 +24,7 @@ items:
   source:
     id: AddressNPI
     path: ''
-    startLine: 4333
+    startLine: 4337
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -51,7 +51,7 @@ items:
   source:
     id: Unknown
     path: ''
-    startLine: 4335
+    startLine: 4339
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -79,7 +79,7 @@ items:
   source:
     id: ISDN
     path: ''
-    startLine: 4336
+    startLine: 4340
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -107,7 +107,7 @@ items:
   source:
     id: Data
     path: ''
-    startLine: 4337
+    startLine: 4341
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -135,7 +135,7 @@ items:
   source:
     id: Telex
     path: ''
-    startLine: 4338
+    startLine: 4342
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -163,7 +163,7 @@ items:
   source:
     id: LandMobile
     path: ''
-    startLine: 4339
+    startLine: 4343
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -191,7 +191,7 @@ items:
   source:
     id: National
     path: ''
-    startLine: 4340
+    startLine: 4344
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -219,7 +219,7 @@ items:
   source:
     id: Private
     path: ''
-    startLine: 4341
+    startLine: 4345
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -247,7 +247,7 @@ items:
   source:
     id: ERMES
     path: ''
-    startLine: 4342
+    startLine: 4346
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -275,7 +275,7 @@ items:
   source:
     id: IP
     path: ''
-    startLine: 4343
+    startLine: 4347
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

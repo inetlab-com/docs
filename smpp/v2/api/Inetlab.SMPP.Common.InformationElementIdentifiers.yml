@@ -47,7 +47,7 @@ items:
   source:
     id: InformationElementIdentifiers
     path: ''
-    startLine: 5923
+    startLine: 5927
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -76,7 +76,7 @@ items:
   source:
     id: ConcatenatedShortMessages8bit
     path: ''
-    startLine: 5928
+    startLine: 5932
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -106,7 +106,7 @@ items:
   source:
     id: SpecialSMSMessageIndication
     path: ''
-    startLine: 5932
+    startLine: 5936
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -136,7 +136,7 @@ items:
   source:
     id: ApplicationPortAddressingScheme8bit
     path: ''
-    startLine: 5936
+    startLine: 5940
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -166,7 +166,7 @@ items:
   source:
     id: ApplicationPortAddressingScheme16bit
     path: ''
-    startLine: 5940
+    startLine: 5944
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -196,7 +196,7 @@ items:
   source:
     id: SMSCControlParameters
     path: ''
-    startLine: 5944
+    startLine: 5948
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -226,7 +226,7 @@ items:
   source:
     id: UDHSourceIndicator
     path: ''
-    startLine: 5948
+    startLine: 5952
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -256,7 +256,7 @@ items:
   source:
     id: ConcatenatedShortMessage16bit
     path: ''
-    startLine: 5952
+    startLine: 5956
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -286,7 +286,7 @@ items:
   source:
     id: WirelessControlMessageProtocol
     path: ''
-    startLine: 5956
+    startLine: 5960
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -316,7 +316,7 @@ items:
   source:
     id: TextFormatting
     path: ''
-    startLine: 5960
+    startLine: 5964
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -346,7 +346,7 @@ items:
   source:
     id: PredefinedSound
     path: ''
-    startLine: 5964
+    startLine: 5968
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -376,7 +376,7 @@ items:
   source:
     id: UserDefinedSound
     path: ''
-    startLine: 5968
+    startLine: 5972
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -406,7 +406,7 @@ items:
   source:
     id: PredefinedAnimation
     path: ''
-    startLine: 5972
+    startLine: 5976
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -436,7 +436,7 @@ items:
   source:
     id: LargeAnimation
     path: ''
-    startLine: 5976
+    startLine: 5980
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -466,7 +466,7 @@ items:
   source:
     id: SmallAnimation
     path: ''
-    startLine: 5980
+    startLine: 5984
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -496,7 +496,7 @@ items:
   source:
     id: LargePicture
     path: ''
-    startLine: 5984
+    startLine: 5988
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -526,7 +526,7 @@ items:
   source:
     id: SmallPicture
     path: ''
-    startLine: 5988
+    startLine: 5992
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -556,7 +556,7 @@ items:
   source:
     id: VariablePicture
     path: ''
-    startLine: 5992
+    startLine: 5996
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -586,7 +586,7 @@ items:
   source:
     id: UserPromptIndicator
     path: ''
-    startLine: 5996
+    startLine: 6000
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -616,7 +616,7 @@ items:
   source:
     id: ExtendedObject
     path: ''
-    startLine: 6000
+    startLine: 6004
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -646,7 +646,7 @@ items:
   source:
     id: ReusedExtendedObject
     path: ''
-    startLine: 6004
+    startLine: 6008
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -676,7 +676,7 @@ items:
   source:
     id: CompressionControl
     path: ''
-    startLine: 6008
+    startLine: 6012
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -706,7 +706,7 @@ items:
   source:
     id: ObjectDistributionIndicator
     path: ''
-    startLine: 6012
+    startLine: 6016
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -736,7 +736,7 @@ items:
   source:
     id: StandardWvgObject
     path: ''
-    startLine: 6016
+    startLine: 6020
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -766,7 +766,7 @@ items:
   source:
     id: CharacterSizeWvgObject
     path: ''
-    startLine: 6020
+    startLine: 6024
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -796,7 +796,7 @@ items:
   source:
     id: ExtendedObjectDataRequestCommand
     path: ''
-    startLine: 6024
+    startLine: 6028
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -826,7 +826,7 @@ items:
   source:
     id: EMailHeader
     path: ''
-    startLine: 6028
+    startLine: 6032
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -856,7 +856,7 @@ items:
   source:
     id: HyperlinkFormatElement
     path: ''
-    startLine: 6032
+    startLine: 6036
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -886,7 +886,7 @@ items:
   source:
     id: ReplyAddressElement
     path: ''
-    startLine: 6036
+    startLine: 6040
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -916,7 +916,7 @@ items:
   source:
     id: EnhancedVoiceMailInformation
     path: ''
-    startLine: 6040
+    startLine: 6044
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -946,7 +946,7 @@ items:
   source:
     id: NationalLanguageSingleShift
     path: ''
-    startLine: 6044
+    startLine: 6048
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -976,7 +976,7 @@ items:
   source:
     id: NationalLanguageLockingShift
     path: ''
-    startLine: 6048
+    startLine: 6052
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -1006,7 +1006,7 @@ items:
   source:
     id: Unknown
     path: ''
-    startLine: 6052
+    startLine: 6056
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

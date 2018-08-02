@@ -17,7 +17,7 @@ items:
   source:
     id: IntermediateNotification
     path: ''
-    startLine: 6061
+    startLine: 6065
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -46,7 +46,7 @@ items:
   source:
     id: NotRequested
     path: ''
-    startLine: 6066
+    startLine: 6070
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -76,7 +76,7 @@ items:
   source:
     id: Requested
     path: ''
-    startLine: 6071
+    startLine: 6075
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

@@ -17,7 +17,7 @@ items:
   source:
     id: LogManager
     path: ''
-    startLine: 15018
+    startLine: 15022
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -47,7 +47,7 @@ items:
   source:
     id: GetLogger
     path: ''
-    startLine: 15031
+    startLine: 15035
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging
@@ -80,7 +80,7 @@ items:
   source:
     id: SetLoggerFactory
     path: ''
-    startLine: 15038
+    startLine: 15042
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Logging

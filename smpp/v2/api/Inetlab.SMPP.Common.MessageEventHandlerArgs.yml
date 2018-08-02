@@ -18,7 +18,7 @@ items:
   source:
     id: MessageEventHandlerArgs
     path: ''
-    startLine: 6750
+    startLine: 6754
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -47,7 +47,7 @@ items:
   source:
     id: Text
     path: ''
-    startLine: 6752
+    startLine: 6756
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -78,7 +78,7 @@ items:
   source:
     id: Parts
     path: ''
-    startLine: 6753
+    startLine: 6757
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
@@ -109,7 +109,7 @@ items:
   source:
     id: .ctor
     path: ''
-    startLine: 6755
+    startLine: 6759
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common

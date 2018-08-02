@@ -15,7 +15,7 @@ items:
   source:
     id: EnquireLinkEventHandler
     path: ''
-    startLine: 5553
+    startLine: 5557
   assemblies:
   - cs.temp.dll
   namespace: Inetlab.SMPP.Common
